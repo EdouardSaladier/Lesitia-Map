@@ -4,6 +4,13 @@ state={
 	provinces={
 		169 265 1293 3015 3385 3455 5906 6654 9425 10114 10115 
 	}
-	manpower=0
+	
+	history={
+		owner = ORD
+		add_core_of = ORD
+	}
+	
+	manpower=1
+	state_category = town
 	buildings_max_level_factor=1.000
 }

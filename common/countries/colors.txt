@@ -1,7 +1,66 @@
 #reload countrycolors
 
-
-TES = {
+GLR = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+CHC = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+STA = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+TEZ = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+GRD = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+YML = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+ULV = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+LUR = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+SOL = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+KAL = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+GOR = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+FRI = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+UPP = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+ORD = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+HVI = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+ULF = {
 	color = rgb { 150 150 150 }
 	color_ui = rgb { 150 150 150 }
 }
