@@ -1,49 +1,106 @@
 ﻿l_english:
- GLR:0 "Glaurungir Ymerodraeth"
- GLR_DEF:0 "the Glaurungir Ymerodraeth"
+ 
+ GLR:0 "Glaurungir"
+ GLR_DEF:0 "the Glaurungir"
  GLR_ADJ:0 "Glaurungarian"
- CHC:0 "Chwyldro Alliance"
- CHC_DEF:0 "the Chwyldro Alliance"
- CHC_ADJ:0 "Chwyldran"
- STA:0 "Stálvördur"
- STA_DEF:0 "the Stálvördur"
- STA_ADJ:0 "Stálvörduran"
- TEZ:0 "Free Tezsora"
- TEZ_DEF:0 "Tezsora Saor"
- TEZ_ADJ:0 "Tezsoran"
- GRD:0 "Principality of Geredin"
- GRD_DEF:0 "the Principality of Geredin"
- GRD_ADJ:0 "Geredin"
- YML:0 "Ymlusgiad Islands"
- YML_DEF:0 "the Ymlusgiad Islands"
- YML_ADJ:0 "Ymlusgian"
- ULV:0 "Ulv Principiality"
- ULV_DEF:0 "Ulv Furstendomet"
- ULV_ADJ:0 "Ulvan"
- LUR:0 "Lurrak Legszentebb"
- LUR_DEF:0 "Lurrak Legszentebb"
- LUR_ADJ:0 "Lurrak"
- SOL:0 "Republic of Solhela"
- SOL_DEF:0 "the Republic of Solhela"
+ 
+ STA:0 "Stalvordur"
+ STA_DEF:0 "the Stalvordur"
+ STA_ADJ:0 "Stalvorduran"
+ 
+ TAK:0 "Viceroyalty of Takmajardir" #The bound
+ TAK_DEF:0 "the Viceroyalty of Takmajardir"
+ TAK_ADJ:0 "Takmajardiran"
+ 
+ SOL:0 "Solhela"
+ SOL_DEF:0 "Solhela"
  SOL_ADJ:0 "Solhelan"
- KAL:0 "Kaldast Agor"
- KAL_DEF:0 "Kaldast Agor"
- KAL_ADJ:0 "Kaldast"
- GOR:0 "Goron Deoraithe"
- GOR_DEF:0 "Goron Deoraithe"
- GOR_ADJ:0 "Goron"
- FRI:0 "Frihet Lydveldi"
- FRI_DEF:0 "Frihet Lydveldi"
- FRI_ADJ:0 "Frihet"
- UPP:0 "Upplyst Stat"
- UPP_DEF:0 "Upplyst Stat"
- UPP_ADJ:0 "Upplyst"
+ 
  ORD:0 "Order of the Iron Moon"
  ORD_DEF:0 "the Order of the Iron Moon"
- ORD_ADJ:0 "Ordermen"
- HVI:0 "Hvithond storfamilj"
- HVI_DEF:0 "Hvithond storfamilj"
- HVI_ADJ:0 "Hvithond"
- ULF:0 "Frjálst Úlfaland"
- ULF_DEF:0 "Frjálst Úlfaland"
- ULF_ADJ:0 "Úlfalan"
+ ORD_ADJ:0 "Order"
+ 
+ ULF:0 "Viceroyalty of Ulfaland"
+ ULF_DEF:0 "the Ulfaland"
+ ULF_ADJ:0 "Ulfalan"
+ 
+ LEN:0 "Lentujaa"
+ LEN_DEF:0 "the Lentujaa"
+ LEN_ADJ:0 "Lentujaan"
+ 
+ WTH:0 "Hvithandur Commune" #Whitehand
+ WTH_DEF:0 "the Hvithandur Commune"
+ WTH_ADJ:0 "Hvithandur"
+ 
+ RAU:0 "Union of Raudurbordir" #Red Banner
+ RAU_DEF:0 "the Union of Raudurbordir"
+ RAU_ADJ:0 "Raudurbordir"
+ 
+ AUR:0 "Viceroyalty of Austurlond"
+ AUR_DEF:0 "the Austurlond"
+ AUR_ADJ:0 "Austurlond"
+ 
+ LUR:0 "Holy State of Lursantia"
+ LUR_DEF:0 "the Lursantia"
+ LUR_ADJ:0 "Lursantian"
+ 
+ TRD:0 "Terdovesu" #Terra dos ventos do sul
+ TRD_DEF:0 "the Terdovesu"
+ TRD_ADJ:0 "Terdovesuan"
+ 
+ CLD:0 "Caldamar" #Calamar Dorado
+ CLD_DEF:0 "the Caldamar"
+ CLD_ADJ:0 "Caldamarian"
+ 
+ EPR:0 "Lands of Emperor"
+ EPR_DEF:0 "the Lands of Emperor"
+ EPR_ADJ:0 "Emperor"
+ 
+ EPS:0 "Lands of Empress"
+ EPS_DEF:0 "the Lands of Empress"
+ EPS_ADJ:0 "Empress"
+ 
+ SYM:0 "Symbiotic Federation"
+ SYM_DEF:0 "the Symbiotic of Federation"
+ SYM_ADJ:0 "Federation"
+ 
+ BOR:0 "Borcan Tsardom"
+ BOR_DEF:0 "the Borcan Tsardom"
+ BOR_ADJ:0 "Borcan"
+ 
+ AVN:0 "Avenska"
+ AVN_DEF:0 "the Avenska"
+ AVN_ADJ:0 "Avenskan"
+ 
+ HAE:0 "Haesu"
+ HAE_DEF:0 "the Haesu"
+ HAE_ADJ:0 "Haesi"
+ 
+ VRT:0 "Vratenzk"
+ VRT_DEF:0 "the Vratenzk"
+ VRT_ADJ:0 "Vratenzkian"
+ 
+ CMM:0 "Commonweatlh of Aitenaomh" #Aitenaomh - Holy place
+ CMM_DEF:0 "the Commonweatlh of Aitenaomh"
+ CMM_ADJ:0 "Commonweatlh"
+ 
+ HIP:0 "Hiptar"
+ HIP_DEF:0 "the Hiptar"
+ HIP_ADJ:0 "Hiptari"
+ 
+ ABI:0 "Abir"
+ ABI_DEF:0 "the Abir"
+ ABI_ADJ:0 "Hiptari"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

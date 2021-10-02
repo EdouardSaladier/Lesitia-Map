@@ -1,66 +1,94 @@
 #reload countrycolors
 
 GLR = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
-}
-CHC = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 85 85 185 }
+	color_ui = rgb { 85 85 185 }
 }
 STA = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 160 145 215 }
+	color_ui = rgb { 160 145 215 }
 }
-TEZ = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
-}
-GRD = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
-}
-YML = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
-}
-ULV = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
-}
-LUR = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+TAK = {
+	color = rgb { 150 190 70 }
+	color_ui = rgb { 150 190 150 }
 }
 SOL = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
-}
-KAL = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
-}
-GOR = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
-}
-FRI = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
-}
-UPP = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 215 190 155 }
+	color_ui = rgb { 215 190 155 }
 }
 ORD = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
-}
-HVI = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 65 65 65 }
+	color_ui = rgb { 65 65 65 }
 }
 ULF = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 145 40 40 }
+	color_ui = rgb { 145 40 40 }
+}
+WTH = {
+	color = rgb { 165 190 215 }
+	color_ui = rgb { 165 190 215 }
+}
+RAU = {
+	color = rgb { 180 0 80 }
+	color_ui = rgb { 180 0 80 }
+}
+LEN = {
+	color = rgb { 100 155 200 }
+	color_ui = rgb { 100 155 200 }
+}
+AUR = {
+	color = rgb { 0 200 200 }
+	color_ui = rgb { 0 200 200 }
+}
+LUR = {
+	color = rgb { 205 200 175 }
+	color_ui = rgb { 205 200 175 }
+}
+TRD = {
+	color = rgb { 100 165 160 }
+	color_ui = rgb { 100 165 160 }
+}
+CLD = {
+	color = rgb { 225 165 150 }
+	color_ui = rgb { 225 165 150 }
+}
+EPR = {
+	color = rgb { 80 90 120 }
+	color_ui = rgb { 80 90 120 }
+}
+EPS = {
+	color = rgb { 40 75 115 }
+	color_ui = rgb { 40 75 115 }
+}
+SYM = {
+	color = rgb { 75 160 160 }
+	color_ui = rgb { 75 160 160 }
+}
+BOR = {
+	color = rgb { 185 145 90 }
+	color_ui = rgb { 185 145 90 }
+}
+AVN = {
+	color = rgb { 75 90 205 }
+	color_ui = rgb { 75 90 205 }
+}
+HAE = {
+	color = rgb { 235 165 50 }
+	color_ui = rgb { 235 165 50 }
+}
+VRT = {
+	color = rgb { 135 175 190 }
+	color_ui = rgb { 135 175 190 }
+}
+CMM = {
+	color = rgb { 145 190 135 }
+	color_ui = rgb { 145 190 135 }
+}
+HIP = {
+	color = rgb { 230 200 70 }
+	color_ui = rgb { 230 200 70 }
+}
+ABI = {
+	color = rgb { 200 165 150 }
+	color_ui = rgb { 200 165 150 }
 }

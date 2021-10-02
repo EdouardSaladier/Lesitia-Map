@@ -1,0 +1,19 @@
+
+state={
+	id=14
+	name="STATE_14"
+	
+	history={
+		owner = CLD
+		add_core_of = CLD
+
+	}
+	
+	provinces={
+		84 174 508 2261 2600 3780 6357 6370 6450 8608 8988 13331 13364 13473 13494 13522 13560 13561 20375 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+    impassable = yes
+}

@@ -1,0 +1,16 @@
+state={
+	id=29
+	name="STATE_29"
+	
+	history={
+		owner = EPR
+		add_core_of = EPR
+
+	}
+	
+	provinces={
+		14944 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

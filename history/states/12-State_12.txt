@@ -1,0 +1,19 @@
+
+state={
+	id=12
+	name="STATE_12"
+	
+	history={
+		owner = LUR
+		add_core_of = LUR
+
+	}
+	
+	provinces={
+		446 530 1455 2506 3514 6135 6556 8186 8472 12939 13038 13039 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+    impassable = yes
+}

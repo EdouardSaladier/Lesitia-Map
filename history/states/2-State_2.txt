@@ -1,0 +1,18 @@
+
+state={
+	id=2
+	name="STATE_2"
+
+	history={
+		owner = HAE
+		add_core_of = HAE
+
+	}
+	
+	provinces={
+		731 1530 1811 2337 3394 3450 5108 5856 7984 8264 9087 11021 11059 11074 11130 11198 11438 11542 11557 11563 11593 11629 11653 11656 12078 12133 12186 12207 12227 17582 17583 17584 17587 17589 17594 17599 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}
