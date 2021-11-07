@@ -40,17 +40,17 @@
  AUR_DEF:0 "the Austurlond"
  AUR_ADJ:0 "Austurlond"
  
- LUR:0 "Holy State of Lursantia"
- LUR_DEF:0 "the Lursantia"
- LUR_ADJ:0 "Lursantian"
+ LUR:0 "Lur'Ezkatatsua"
+ LUR_DEF:0 "Lur'Ezkatatsua"
+ LUR_ADJ:0 "Lur'Ezkatatsuan"
  
  TRD:0 "Terdovesu" #Terra dos ventos do sul
  TRD_DEF:0 "the Terdovesu"
  TRD_ADJ:0 "Terdovesuan"
  
- CLD:0 "Caldamar" #Calamar Dorado
- CLD_DEF:0 "the Caldamar"
- CLD_ADJ:0 "Caldamarian"
+ SUR:0 "Surrecht"
+ SUR_DEF:0 "Surrecht"
+ SUR_ADJ:0 "Surrecht"
  
  EPR:0 "Lands of Emperor"
  EPR_DEF:0 "the Lands of Emperor"
@@ -72,26 +72,29 @@
  AVN_DEF:0 "the Avenska"
  AVN_ADJ:0 "Avenskan"
  
- HAE:0 "Haesu"
- HAE_DEF:0 "the Haesu"
- HAE_ADJ:0 "Haesi"
+ HAI:0 "Hainosu"
+ HAI_DEF:0 "Hainosu"
+ HAI_ADJ:0 "Hainosu"
  
  VRT:0 "Vratenzk"
  VRT_DEF:0 "the Vratenzk"
  VRT_ADJ:0 "Vratenzkian"
  
- CMM:0 "Commonweatlh of Aitenaomh" #Aitenaomh - Holy place
- CMM_DEF:0 "the Commonweatlh of Aitenaomh"
- CMM_ADJ:0 "Commonweatlh"
+ CMM:0 "Commonweatlh of Creidmhich"
+ CMM_DEF:0 "the Commonweatlh of Creidmhich"
+ CMM_ADJ:0 "Creidmhich"
  
- HIP:0 "Hiptar"
- HIP_DEF:0 "the Hiptar"
- HIP_ADJ:0 "Hiptari"
+ AKU:0 "Akuriel"
+ AKU_DEF:0 "Akuriel"
+ AKU_ADJ:0 "Akuriel"
  
  ABI:0 "Abir"
  ABI_DEF:0 "the Abir"
  ABI_ADJ:0 "Hiptari"
  
+ REO:0 "Tyranny of Rheol"
+ REO_DEF:0 "the Tyranny of Rheol"
+ REO_ADJ:0 "Rheol"
  
  
  

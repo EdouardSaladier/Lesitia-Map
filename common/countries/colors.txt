@@ -48,7 +48,7 @@ TRD = {
 	color = rgb { 100 165 160 }
 	color_ui = rgb { 100 165 160 }
 }
-CLD = {
+SUR = {
 	color = rgb { 225 165 150 }
 	color_ui = rgb { 225 165 150 }
 }
@@ -72,7 +72,7 @@ AVN = {
 	color = rgb { 75 90 205 }
 	color_ui = rgb { 75 90 205 }
 }
-HAE = {
+HAI = {
 	color = rgb { 235 165 50 }
 	color_ui = rgb { 235 165 50 }
 }
@@ -84,11 +84,15 @@ CMM = {
 	color = rgb { 145 190 135 }
 	color_ui = rgb { 145 190 135 }
 }
-HIP = {
+AKU = {
 	color = rgb { 230 200 70 }
 	color_ui = rgb { 230 200 70 }
 }
 ABI = {
 	color = rgb { 200 165 150 }
 	color_ui = rgb { 200 165 150 }
+}
+REO = {
+	color = rgb { 100  100  150 }
+	color_ui = rgb { 100  100  150 }
 }
