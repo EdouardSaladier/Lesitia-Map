@@ -12,9 +12,9 @@
  TAK_DEF:0 "the Viceroyalty of Takmajardir"
  TAK_ADJ:0 "Takmajardiran"
  
- SOL:0 "Solhela"
- SOL_DEF:0 "Solhela"
- SOL_ADJ:0 "Solhelan"
+ MIT:0 "Mithairmar"
+ MIT_DEF:0 "Mithairmar"
+ MIT_ADJ:0 "Mithairmaran"
  
  ORD:0 "Order of the Iron Moon"
  ORD_DEF:0 "the Order of the Iron Moon"
@@ -44,9 +44,9 @@
  LUR_DEF:0 "Lur'Ezkatatsua"
  LUR_ADJ:0 "Lur'Ezkatatsuan"
  
- TRD:0 "Terdovesu" #Terra dos ventos do sul
- TRD_DEF:0 "the Terdovesu"
- TRD_ADJ:0 "Terdovesuan"
+ TRD:0 "Eth Newydd"
+ TRD_DEF:0 "Eth Newydd"
+ TRD_ADJ:0 "Eth Newydd"
  
  SUR:0 "Surrecht"
  SUR_DEF:0 "Surrecht"
@@ -88,15 +88,17 @@
  AKU_DEF:0 "Akuriel"
  AKU_ADJ:0 "Akuriel"
  
- ABI:0 "Abir"
- ABI_DEF:0 "the Abir"
- ABI_ADJ:0 "Hiptari"
+ SLR:0 "Solenrenc"
+ SLR_DEF:0 "Solenrenc"
+ SLR_ADJ:0 "Solenrenc"
  
  REO:0 "Tyranny of Rheol"
  REO_DEF:0 "the Tyranny of Rheol"
  REO_ADJ:0 "Rheol"
  
- 
+ PLC:0 "Placeholder"
+ PLC_DEF:0 "Placeholder"
+ PLC_ADJ:0 "Placeholder"
  
  
  

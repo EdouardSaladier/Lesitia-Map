@@ -12,7 +12,7 @@ TAK = {
 	color = rgb { 150 190 70 }
 	color_ui = rgb { 150 190 150 }
 }
-SOL = {
+MIT = {
 	color = rgb { 215 190 155 }
 	color_ui = rgb { 215 190 155 }
 }
@@ -88,11 +88,15 @@ AKU = {
 	color = rgb { 230 200 70 }
 	color_ui = rgb { 230 200 70 }
 }
-ABI = {
+SLR = {
 	color = rgb { 200 165 150 }
 	color_ui = rgb { 200 165 150 }
 }
 REO = {
 	color = rgb { 100  100  150 }
 	color_ui = rgb { 100  100  150 }
+}
+PLC = {
+	color = rgb { 100  100  100 }
+	color_ui = rgb { 100  100  100 }
 }
