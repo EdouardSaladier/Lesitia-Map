@@ -13,7 +13,7 @@
 
 #Suez Canal
 
-adjacency_rule
+adjacency_rule =
 {
 	name = "ARCHEA_CANAL"
 
@@ -52,7 +52,7 @@ adjacency_rule
 	offset = { 0 0 0 }
 }
 
-adjacency_rule
+adjacency_rule =
 {
 	name = "NORTH_AGRIA_CANAL_1"
 
@@ -91,7 +91,7 @@ adjacency_rule
 	offset = { 0 0 0 }
 }
 
-adjacency_rule
+adjacency_rule =
 {
 	name = "NORTH_AGRIA_CANAL_2"
 
@@ -130,7 +130,7 @@ adjacency_rule
 	offset = { 0 0 0 }
 }
 
-adjacency_rule
+adjacency_rule =
 {
 	name = "NORTH_AGRIA_CANAL_3"
 
@@ -169,7 +169,7 @@ adjacency_rule
 	offset = { 0 0 0 }
 }
 
-adjacency_rule
+adjacency_rule =
 {
 	name = "NORTH_AGRIA_CANAL_4"
 
