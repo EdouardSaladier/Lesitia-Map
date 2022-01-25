@@ -4,16 +4,40 @@ oob = "standard_templates"
 
 # Starting tech
 
+set_research_slots = 3
 
 set_convoys = 20
 
 
 set_politics = {
-	ruling_party = none
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+
 set_popularities = {
-	none = 100
+	revolutionarism = 10
+	technocracy = 0
+	democracy = 24
+	despotism = 42
+	corporatism = 17
+	supremacism = 7
+	none = 0
+}
+
+add_ideas = {
+	MIT_dummy
+}
+
+create_country_leader = {
+	name = "Regency Council"
+	desc = "MIT_regency_desc"
+	picture = "portrait_regency.dds"
+#	expire = "1947.1.1"
+	ideology = despotism
+#	traits = {
+#		dislikes_germany
+#	}
 }

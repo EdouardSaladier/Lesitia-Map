@@ -1,0 +1,23 @@
+﻿
+l_english:
+######### countryname
+MIT_despotism:0 "Kingdom of Mithairmar"
+MIT_despotism_DEF:0 "The Kingdom of Mithairmar"
+MIT_despotism_ADJ:0 "Mithairmarian"
+ 
+MIT_revolutionarism:0 "People's Kingdom of Mithairmar"
+MIT_revolutionarism_DEF:0 "The People's of Mithairmar"
+MIT_revolutionarism_ADJ:0 "Mithairmarian"
+
+
+### IDEAS
+MIT_dummy:0 "Dummy idea"
+MIT_dummy_desc:0 "Dummy ideas description"
+
+### LEADER DESC
+MIT_regency_desc:0 "test (fuck)"
+
+#####partys names###
+MIT_despotism_party:0 "Regency Rule"
+MIT_despotism_party_long:0 "Regency Rule"
+
