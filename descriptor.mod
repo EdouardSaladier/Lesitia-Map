@@ -39,6 +39,8 @@ replace_path="common/scripted_localisation"
 replace_path="common/scripted_triggers"
 replace_path = "common/dynamic_modifiers"
 
+replace_path="common/units"
+replace_path="common/units/equipment"
 replace_path="common/units/names"
 replace_path="common/units/names_divisions"
 replace_path="common/units/names_railway_guns"
