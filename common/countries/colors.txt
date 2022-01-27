@@ -5,16 +5,16 @@ GLR = {
 	color_ui = rgb { 85 85 185 }
 }
 STA = {
-	color = rgb { 160 145 215 }
-	color_ui = rgb { 160 145 215 }
+	color = rgb { 100 100 100 }
+	color_ui = rgb { 100 100 100 }
 }
 TAK = {
 	color = rgb { 150 190 70 }
 	color_ui = rgb { 150 190 150 }
 }
 MIT = {
-	color = rgb { 215 190 155 }
-	color_ui = rgb { 215 190 155 }
+	color = rgb { 218 175 111 }
+	color_ui = rgb { 218 175 111 }
 }
 ORD = {
 	color = rgb { 65 65 65 }
@@ -45,12 +45,12 @@ LUR = {
 	color_ui = rgb { 205 200 175 }
 }
 TRD = {
-	color = rgb { 100 165 160 }
-	color_ui = rgb { 100 165 160 }
+	color = rgb { 162 124 99 }
+	color_ui = rgb { 162 124 99 }
 }
 SUR = {
-	color = rgb { 225 165 150 }
-	color_ui = rgb { 225 165 150 }
+	color = rgb { 168 67 95 }
+	color_ui = rgb { 168 67 95 }
 }
 EPR = {
 	color = rgb { 80 90 120 }
@@ -61,42 +61,42 @@ EPS = {
 	color_ui = rgb { 40 75 115 }
 }
 SYM = {
-	color = rgb { 75 160 160 }
-	color_ui = rgb { 75 160 160 }
+	color = rgb { 161 101 153 }
+	color_ui = rgb { 161 101 153 }
 }
 BOR = {
-	color = rgb { 185 145 90 }
-	color_ui = rgb { 185 145 90 }
+	color = rgb { 137 161 107 }
+	color_ui = rgb { 137 161 107 }
 }
 AVN = {
-	color = rgb { 75 90 205 }
-	color_ui = rgb { 75 90 205 }
+	color = rgb { 230 160 191 }
+	color_ui = rgb { 230 160 191 }
 }
 HAI = {
-	color = rgb { 235 165 50 }
-	color_ui = rgb { 235 165 50 }
+	color = rgb { 100 71 150 }
+	color_ui = rgb { 100 71 150 }
 }
 VRT = {
-	color = rgb { 135 175 190 }
-	color_ui = rgb { 135 175 190 }
+	color = rgb { 127 51 116 }
+	color_ui = rgb { 127 51 116 }
 }
 CMM = {
-	color = rgb { 145 190 135 }
-	color_ui = rgb { 145 190 135 }
+	color = rgb { 198 167 83 }
+	color_ui = rgb { 198 167 83 }
 }
 AKU = {
-	color = rgb { 230 200 70 }
-	color_ui = rgb { 230 200 70 }
+	color = rgb { 204 102 112 }
+	color_ui = rgb { 204 102 112 }
 }
 SLR = {
-	color = rgb { 200 165 150 }
-	color_ui = rgb { 200 165 150 }
+	color = rgb { 119 126 161 }
+	color_ui = rgb { 119 126 161 }
 }
 REO = {
 	color = rgb { 100  100  150 }
 	color_ui = rgb { 100  100  150 }
 }
 PLC = {
-	color = rgb { 100  100  100 }
-	color_ui = rgb { 100  100  100 }
+	color = rgb { 159 145 215 }
+	color_ui = rgb { 159 145 215 }
 }
