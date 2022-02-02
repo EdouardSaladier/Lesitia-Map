@@ -9,11 +9,11 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = none
+	ruling_party = unclassified
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	none = 100
+	unclassified = 100
 }

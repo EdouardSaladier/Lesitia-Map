@@ -4,7 +4,7 @@ ideologies = {
 	
 		types = {
 			
-			revolutionarism = {
+			revolutionarism_type = {
 			}
 		}
 		
@@ -59,7 +59,7 @@ ideologies = {
 		
 		types = {
 		
-			technocracy = {
+			technocracy_type = {
 			}
 		}
 		
@@ -105,7 +105,7 @@ ideologies = {
 	
 		types = {
 		
-			democracy = {
+			democracy_type = {
 			}
 		}
 		
@@ -146,7 +146,7 @@ ideologies = {
 	
 		types = {
 		
-			despotism  = {
+			despotism_type  = {
 			}
 		}
 
@@ -193,7 +193,7 @@ ideologies = {
 	
 		types = {
 		
-			corporatism  = {
+			corporatism_type  = {
 			}
 		}
 
@@ -240,7 +240,7 @@ ideologies = {
 	
 		types = {
 		
-			supremacism  = {
+			supremacism_type  = {
 			}
 		}
 
@@ -283,11 +283,11 @@ ideologies = {
 
 		ai_neutral = yes # 
 	}
-	none = {
+	unclassified = {
 	
 		types = {
 		
-			none  = {
+			unclassified_type  = {
 			}
 		}
 

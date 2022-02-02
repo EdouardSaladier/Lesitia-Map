@@ -24,7 +24,7 @@ set_popularities = {
 	despotism = 42
 	corporatism = 17
 	supremacism = 7
-	none = 0
+	unclassified = 0
 }
 
 add_ideas = {
