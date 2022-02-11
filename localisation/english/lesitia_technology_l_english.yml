@@ -1,6 +1,9 @@
 ﻿l_english:
  conventional_firearms:0 "Conventional Firearms"
  conventional_firearms_desc:0 "TODO"
+ 
+ conventional_firearms_equipment:0 "Conventional Firearms"
+ conventional_firearms_equipment_desc:0 "TODO"
 
  caseless_munitions:0 "Caseless Munitions"
  caseless_munitions_desc:0 "TODO"
@@ -13,9 +16,15 @@
 
  precision_guided_firearms:0 "Precision-guided Firearms"
  precision_guided_firearms_desc:0 "TODO"
+ 
+ precision_guided_firearms_equipment:0 "Precision-guided Firearms"
+ precision_guided_firearms_equipment_desc:0 "TODO"
 
  railguns:0 "Railguns"
  railguns_desc:0 "TODO"
+ 
+ railguns_equipment:0 "Railguns"
+ railguns_equipment_desc:0 "TODO"
 
  aermet_alloy:0 "Aermet Alloy"
  aermet_alloy_desc:0 "TODO"
@@ -28,12 +37,18 @@
 
  helical_railguns:0 "Helical Railguns"
  helical_railguns_desc:0 "TODO"
+ 
+ helical_railguns_equipment:0 "Helical Railguns"
+ helical_railguns_equipment_desc:0 "TODO"
 
  total_vacuum_bore:0 "Total Vacuum Bore"
  total_vacuum_bore_desc:0 "TODO"
 
  plasma_railguns:0 "Plasma Railguns"
  plasma_railguns_desc:0 "TODO"
+ 
+ plasma_railguns_equipment:0 "Plasma Railguns"
+ plasma_railguns_equipment_desc:0 "TODO"
 
  optical_head_mounted_display:0 "Optical Head-mounted Display"
  optical_head_mounted_display_desc:0 "TODO"
