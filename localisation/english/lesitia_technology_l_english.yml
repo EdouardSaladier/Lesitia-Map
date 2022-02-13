@@ -53,6 +53,9 @@
  optical_head_mounted_display:0 "Optical Head-mounted Display"
  optical_head_mounted_display_desc:0 "TODO"
 
+ optical_head_mounted_display_equipment:0 "Optical Head-mounted Display"
+ optical_head_mounted_display_equipment_desc:0 "TODO"
+
  laser_rangefinders:0 "Laser Rangefinders"
  laser_rangefinders_desc:0 "TODO"
 

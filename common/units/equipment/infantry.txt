@@ -86,4 +86,13 @@ equipments = {
 		visual_level = 0
 	}
 
+	optical_head_mounted_display_equipment = {
+		year = 1937
+	
+		archetype = infantry_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
 }
