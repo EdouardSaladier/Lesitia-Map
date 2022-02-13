@@ -1,0 +1,108 @@
+﻿l_english:
+ conventional_firearms:0 "Conventional Firearms"
+ conventional_firearms_desc:0 "TODO"
+ 
+ conventional_firearms_equipment:0 "Conventional Firearms"
+ conventional_firearms_equipment_desc:0 "TODO"
+
+ caseless_munitions:0 "Caseless Munitions"
+ caseless_munitions_desc:0 "TODO"
+
+ telescoped_munitions:0 "Telescoped Munitions"
+ telescoped_munitions_desc:0 "TODO"
+
+ airbust_munitions:0 "Airbust Munitions"
+ airbust_munitions_desc:0 "TODO"
+
+ precision_guided_firearms:0 "Precision-guided Firearms"
+ precision_guided_firearms_desc:0 "TODO"
+ 
+ precision_guided_firearms_equipment:0 "Precision-guided Firearms"
+ precision_guided_firearms_equipment_desc:0 "TODO"
+
+ railguns:0 "Railguns"
+ railguns_desc:0 "TODO"
+ 
+ railguns_equipment:0 "Railguns"
+ railguns_equipment_desc:0 "TODO"
+
+ aermet_alloy:0 "Aermet Alloy"
+ aermet_alloy_desc:0 "TODO"
+
+ eglin_alloy:0 "Eglin Alloy"
+ eglin_alloy_desc:0 "TODO"
+
+ field_cooling_system:0 "Field Cooling System"
+ field_cooling_system_desc:0 "TODO"
+
+ helical_railguns:0 "Helical Railguns"
+ helical_railguns_desc:0 "TODO"
+ 
+ helical_railguns_equipment:0 "Helical Railguns"
+ helical_railguns_equipment_desc:0 "TODO"
+
+ total_vacuum_bore:0 "Total Vacuum Bore"
+ total_vacuum_bore_desc:0 "TODO"
+
+ plasma_railguns:0 "Plasma Railguns"
+ plasma_railguns_desc:0 "TODO"
+ 
+ plasma_railguns_equipment:0 "Plasma Railguns"
+ plasma_railguns_equipment_desc:0 "TODO"
+
+ optical_head_mounted_display:0 "Optical Head-mounted Display"
+ optical_head_mounted_display_desc:0 "TODO"
+
+ optical_head_mounted_display_equipment:0 "Optical Head-mounted Display"
+ optical_head_mounted_display_equipment_desc:0 "TODO"
+
+ laser_rangefinders:0 "Laser Rangefinders"
+ laser_rangefinders_desc:0 "TODO"
+
+ constantly_computed_impact_point:0 "Constantly Computed Impact Point"
+ constantly_computed_impact_point_desc:0 "TODO"
+
+ tactical_informations_and_communications_system:0 "Tactical Informations and Communications System"
+ tactical_informations_and_communications_system_desc:0 "TODO"
+
+ cognitive_technological_threat_warning_system:0 "Cognitive Technological Threat Warning System"
+ cognitive_technological_threat_warning_system_desc:0 "TODO"
+
+ night_vision:0 "Night Vision"
+ night_vision_desc:0 "TODO"
+
+ auto_gating:0 "Auto-gating"
+ auto_gating_desc:0 "TODO"
+
+ hyper_spectral_imagery:0 "Hyper-Spectral Imagery"
+ hyper_spectral_imagery_desc:0 "TODO"
+
+ infiltration_troops:0 "Infiltration Troops"
+ infiltration_troops_desc:0 "TODO"
+
+ multi_scale_camouflage:0 "Multi-Scale Camouflage"
+ multi_scale_camouflage_desc:0 "TODO"
+
+ retroflector_active_camouflage:0 "Retroflector Active Camouflage"
+ retroflector_active_camouflage_desc:0 "TODO"
+
+ microclimate_cooling_system:0 "Microclimate Cooling System"
+ microclimate_cooling_system_desc:0 "TODO"
+
+ phased_array_optical_holographs:0 "Phased Array Optical Holographs"
+ phased_array_optical_holographs_desc:0 "TODO"
+
+ heavy_assault_troops:0 "Heavy Assault Troops"
+ heavy_assault_troops_desc:0 "TODO"
+
+ combat_uniform_system:0 "Combat Uniform System"
+ combat_uniform_system_desc:0 "TODO"
+
+ high_modulus_polyethynel_armor:0 "High-Modulus Polyethynel Armor"
+ high_modulus_polyethynel_armor_desc:0 "TODO"
+
+ urban_assault_weapons:0 "Urban Assault Weapons"
+ urban_assault_weapons_desc:0 "TODO"
+
+ powered_exoskeletons:0 "Powered Exoskeletons"
+ powered_exoskeletons_desc:0 "TODO"

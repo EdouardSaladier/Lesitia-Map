@@ -1,0 +1,70 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_conventional_firearms_medium"
+		texturefile = "gfx/interface/technologies/conventional_firearms.dds"
+	}
+	SpriteType = {
+		name = "GFX_precision_guided_firearms_medium"
+		texturefile = "gfx/interface/technologies/precision_guided_firearms.dds"
+	}
+	SpriteType = {
+		name = "GFX_railguns_medium"
+		texturefile = "gfx/interface/technologies/railguns.dds"
+	}
+	SpriteType = {
+		name = "GFX_optical_head_mounted_display_medium"
+		texturefile = "gfx/interface/technologies/optical_head_mounted_display.dds"
+	}
+	SpriteType = {
+		name = "GFX_helical_railguns_medium"
+		texturefile = "gfx/interface/technologies/helical_railguns.dds"
+	}
+	SpriteType = {
+		name = "GFX_plasma_railguns_medium"
+		texturefile = "gfx/interface/technologies/plasma_railguns.dds"
+	}
+	SpriteType = {
+		name = "GFX_caseless_munitions_medium"
+		texturefile = "gfx/interface/technologies/caseless_munitions.dds"
+	}
+	SpriteType = {
+		name = "GFX_telescoped_munitions_medium"
+		texturefile = "gfx/interface/technologies/telescoped_munitions.dds"
+	}
+	SpriteType = {
+		name = "GFX_airbust_munitions_medium"
+		texturefile = "gfx/interface/technologies/airbust_munitions.dds"
+	}
+	SpriteType = {
+		name = "GFX_laser_rangefinders_medium"
+		texturefile = "gfx/interface/technologies/laser_rangefinders.dds"
+	}
+	SpriteType = {
+		name = "GFX_constantly_computed_impact_point_medium"
+		texturefile = "gfx/interface/technologies/constantly_computed_impact_point.dds"
+	}
+	SpriteType = {
+		name = "GFX_tactical_informations_and_communications_system_medium"
+		texturefile = "gfx/interface/technologies/tactical_informations_and_communications_system.dds"
+	}
+	SpriteType = {
+		name = "GFX_cognitive_technological_threat_warning_system_medium"
+		texturefile = "gfx/interface/technologies/cognitive_technological_threat_warning_system.dds"
+	}
+	SpriteType = {
+		name = "GFX_field_cooling_system_medium"
+		texturefile = "gfx/interface/technologies/field_cooling_system.dds"
+	}
+	SpriteType = {
+		name = "GFX_total_vacuum_bore_medium"
+		texturefile = "gfx/interface/technologies/total_vacuum_bore.dds"
+	}
+	SpriteType = {
+		name = "GFX_aermet_alloy_medium"
+		texturefile = "gfx/interface/technologies/aermet_alloy.dds"
+	}
+	SpriteType = {
+		name = "GFX_eglin_alloy_medium"
+		texturefile = "gfx/interface/technologies/eglin_alloy.dds"
+	}
+}

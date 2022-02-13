@@ -1,0 +1,987 @@
+technologies = {
+
+    @1918 = 0
+	@1936 = 2
+	@1937 = 4
+	@1938 = 6
+	@1939 = 8
+	@1940 = 10
+	@1941 = 12
+	@1942 = 14
+	@1943 = 16
+	@1944 = 18
+	@1945 = 20
+	@1946 = 22
+
+
+    conventional_firearms = {
+
+		enable_equipments = {
+			conventional_firearms_equipment
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = precision_guided_firearms
+            research_cost_coeff = 1
+            
+		}	
+
+        path = {
+			leads_to_tech = caseless_munitions
+            research_cost_coeff = 1
+			
+		}	
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = -1 }
+		}
+		
+		picture = GFX_improved_infantry_weapons_medium
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    caseless_munitions = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = telescoped_munitions
+            research_cost_coeff = 1
+		}	
+
+        path = {
+			leads_to_tech = airbust_munitions
+            research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = @1936 }
+		}
+		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    telescoped_munitions = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}	
+
+		research_cost = 1.5
+		start_year = 1938
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = @1938 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    airbust_munitions = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}		
+
+		research_cost = 1.5
+		start_year = 1938
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1938 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    precision_guided_firearms = {
+
+		enable_equipments = {
+			precision_guided_firearms_equipment
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = railguns
+		}		
+		path = {
+			leads_to_tech = laser_rangefinders
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1936 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		picture = GFX_precision_guided_firearms_medium
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	railguns = {
+
+		enable_equipments = {
+			railguns_equipment
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = field_cooling_system
+		}	
+
+		path = {
+			leads_to_tech = aermet_alloy
+		}	
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1939 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		picture = railguns_medium
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	aermet_alloy = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = eglin_alloy
+		}		
+
+		research_cost = 1.5
+		start_year = 1940
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1940 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		picture = aermet_alloy
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	eglin_alloy = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+		}		
+
+		research_cost = 1.5
+		start_year = 1940
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1943 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		picture = eglin_alloy_medium
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	field_cooling_system = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = helical_railguns
+		}		
+
+		research_cost = 1.5
+		start_year = 1941
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1941 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		picture = field_cooling_system_medium
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	helical_railguns = {
+
+		enable_equipments = {
+			helical_railguns_equipment
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = total_vacuum_bore
+		}		
+
+		research_cost = 1.5
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1942 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		picture = helical_railguns_medium
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	total_vacuum_bore = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = plasma_railguns
+		}		
+
+		research_cost = 1.5
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1943 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		picture = total_vacuum_bore_medium
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	plasma_railguns = {
+
+		enable_equipments = {
+			plasma_railguns_equipment
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}	
+
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1944 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		picture = plasma_railguns_medium
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	laser_rangefinders = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = optical_head_mounted_display
+		}		
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1936 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		picture = GFX_laser_rangefinders_medium
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	optical_head_mounted_display = {
+
+		enable_equipments = {
+			optical_head_mounted_display_equipment
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		
+		
+		path = {
+			leads_to_tech = constantly_computed_impact_point
+		}		
+
+		path = {
+			leads_to_tech = hyper_spectral_imagery
+		}
+
+		research_cost = 1.5
+		start_year = 1938
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1938 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		picture = optical_head_mounted_display_medium
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	constantly_computed_impact_point = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = tactical_informations_and_communications_system
+		}		
+
+		research_cost = 1.5
+		start_year = 1940
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1940 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		picture = GFX_constantly_computed_impact_point_medium
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	tactical_informations_and_communications_system = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = cognitive_technological_threat_warning_system
+		}		
+
+		research_cost = 1.5
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1942 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		picture = tactical_informations_and_communications_system_medium
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cognitive_technological_threat_warning_system = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+		}		
+
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1944 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		picture = cognitive_technological_threat_warning_system_medium
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	night_vision = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = auto_gating
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = @1936 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	auto_gating = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = hyper_spectral_imagery
+		}
+
+		research_cost = 1.5
+		start_year = 1938
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = @1938 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	hyper_spectral_imagery = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		research_cost = 1.5
+		start_year = 1940
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = @1940 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+
+	# SPECIAL TROOPS
+
+	infiltration_troops = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = multi_scale_camouflage
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = 9 y = @1918 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	multi_scale_camouflage = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = retroflector_active_camouflage
+		}
+
+		research_cost = 1.5
+		start_year = 1937
+		folder = {
+			name = infantry_folder
+			position = { x = 9 y = @1937 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	retroflector_active_camouflage = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = microclimate_cooling_system
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 9 y = @1939 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	microclimate_cooling_system = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = phased_array_optical_holographs
+		}
+
+		research_cost = 1.5
+		start_year = 1941
+		folder = {
+			name = infantry_folder
+			position = { x = 9 y = @1941 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	phased_array_optical_holographs = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		research_cost = 1.5
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 9 y = @1943 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavy_assault_troops = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = combat_uniform_system
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = @1918 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	combat_uniform_system = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = high_modulus_polyethynel_armor
+		}
+
+		research_cost = 1.5
+		start_year = 1937
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = @1937 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	high_modulus_polyethynel_armor = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = urban_assault_weapons
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = @1939 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	urban_assault_weapons = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = powered_exoskeletons
+		}
+
+		research_cost = 1.5
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = @1941 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	powered_exoskeletons = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		research_cost = 1.5
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = @1943 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}
