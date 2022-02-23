@@ -45,7 +45,7 @@ technologies = {
 			position = { x = 2 y = -1 }
 		}
 		
-		picture = GFX_improved_infantry_weapons_medium
+		
 		
 		categories = {
 			infantry_weapons
@@ -178,7 +178,7 @@ technologies = {
 			infantry_weapons
 		}
 
-		picture = GFX_precision_guided_firearms_medium
+		
 		
 		ai_will_do = {
 			factor = 1
@@ -216,7 +216,7 @@ technologies = {
 			infantry_weapons
 		}
 
-		picture = railguns_medium
+		
 		
 		ai_will_do = {
 			factor = 1
@@ -249,7 +249,7 @@ technologies = {
 			infantry_weapons
 		}
 
-		picture = aermet_alloy
+		
 		
 		ai_will_do = {
 			factor = 1
@@ -281,7 +281,7 @@ technologies = {
 			infantry_weapons
 		}
 
-		picture = eglin_alloy_medium
+		
 		
 		ai_will_do = {
 			factor = 1
@@ -314,7 +314,7 @@ technologies = {
 			infantry_weapons
 		}
 
-		picture = field_cooling_system_medium
+		
 		
 		ai_will_do = {
 			factor = 1
@@ -348,7 +348,7 @@ technologies = {
 			infantry_weapons
 		}
 
-		picture = helical_railguns_medium
+		
 		
 		ai_will_do = {
 			factor = 1
@@ -381,7 +381,7 @@ technologies = {
 			infantry_weapons
 		}
 
-		picture = total_vacuum_bore_medium
+		
 		
 		ai_will_do = {
 			factor = 1
@@ -411,7 +411,7 @@ technologies = {
 			infantry_weapons
 		}
 
-		picture = plasma_railguns_medium
+		
 		
 		ai_will_do = {
 			factor = 1
@@ -444,7 +444,7 @@ technologies = {
 			infantry_weapons
 		}
 
-		picture = GFX_laser_rangefinders_medium
+		
 		
 		ai_will_do = {
 			factor = 1
@@ -484,7 +484,7 @@ technologies = {
 			infantry_weapons
 		}
 
-		picture = optical_head_mounted_display_medium
+		
 		
 		ai_will_do = {
 			factor = 1
@@ -517,7 +517,7 @@ technologies = {
 			infantry_weapons
 		}
 
-		picture = GFX_constantly_computed_impact_point_medium
+		
 		
 		ai_will_do = {
 			factor = 1
@@ -550,7 +550,7 @@ technologies = {
 			infantry_weapons
 		}
 
-		picture = tactical_informations_and_communications_system_medium
+		
 		
 		ai_will_do = {
 			factor = 1
@@ -582,7 +582,7 @@ technologies = {
 			infantry_weapons
 		}
 
-		picture = cognitive_technological_threat_warning_system_medium
+		
 		
 		ai_will_do = {
 			factor = 1
