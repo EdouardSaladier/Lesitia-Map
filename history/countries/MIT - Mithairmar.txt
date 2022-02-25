@@ -21,9 +21,10 @@ set_popularities = {
 	revolutionarism = 10
 	technocracy = 0
 	democracy = 24
-	despotism = 42
+	despotism = 40
+	theocracy = 7
 	corporatism = 17
-	supremacism = 7
+	supremacism = 2
 	unclassified = 0
 }
 
