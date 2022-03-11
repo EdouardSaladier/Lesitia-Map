@@ -1,2 +1,1882 @@
 technologies = {
+
+	@1918 = -1
+	@1936 = 4
+	@1937 = 8
+	@1938 = 12
+	@1939 = 16
+	@1940 = 20
+	@1941 = 24
+	@1942 = 28
+	@1943 = 32
+	@1944 = 36
+	@1945 = 40
+	@1946 = 44
+	@center = 7
+	@quadrithread = 5
+	@frontlinebreakthrough = 9
+	@electrothermal = 11
+	@remotecontrolled = 13
+	@armored_reconnaissance = 15
+	@infrared = 17
+	@aircushion = 20
+	@gasturbine = 22
+	
+	
+	main_battle_tank = {
+
+		enable_equipments = {
+			gw_tank_equipment
+
+		}
+		enable_subunits = {
+			light_armor
+
+		}
+	
+		path = {
+			leads_to_tech = main_ground_combat_system
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = active_protection_system
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = electrothermal_chemical_technology
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = remote_controlled_weapon_station
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = armored_reconnaissance_vehicle
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = @center y = @1918 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1939.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+	
+	main_ground_combat_system = {
+
+		enable_equipments = {
+			gw_tank_equipment
+
+		}
+		enable_subunits = {
+			light_armor
+
+		}
+	
+		path = {
+			leads_to_tech = titanium_carbide_modular_armor
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = @center y = @1936 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	titanium_carbide_modular_armor = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = carbon_silicate_lace_plating
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = quadri_thread_assault_tank
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = frontline_breakthrough_tank
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1937
+		folder = {
+			name = armour_folder
+			position = { x = @center y = @1937 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	quadri_thread_assault_tank = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = assault_railgun_carrier
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1938
+		folder = {
+			name = armour_folder
+			position = { x = @quadrithread y = @1938 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	assault_railgun_carrier = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = fortification_breakthrough_battlestation
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = armour_folder
+			position = { x = @quadrithread y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	fortification_breakthrough_battlestation = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = armour_folder
+			position = { x = @quadrithread y = @1943 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	carbon_silicate_lace_plating = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = electromagnetic_armor
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = armour_folder
+			position = { x = @center y = @1939 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	electromagnetic_armor = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = self_repairing_components
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = armour_folder
+			position = { x = @center y = @1941 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	self_repairing_components = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = armour_folder
+			position = { x = @center y = @1942 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	frontline_breakthrough_tank = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		path = {
+			leads_to_tech = general_purpose_railgun_carrier
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1938
+		folder = {
+			name = armour_folder
+			position = { x = @frontlinebreakthrough y = @1938 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	general_purpose_railgun_carrier = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		path = {
+			leads_to_tech = decisive_lethality_platform
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = armour_folder
+			position = { x = @frontlinebreakthrough y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	decisive_lethality_platform = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = armour_folder
+			position = { x = @frontlinebreakthrough y = @1943 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	
+	
+	active_protection_system = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = mobile_defense_platform
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = computerized_fire_control_system
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @1936 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	computerized_fire_control_system = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		
+		research_cost = 2
+		start_year = 1937
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 7 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	mobile_defense_platform = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = automatic_radar_defense
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = heavy_defense_platform
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1937
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @1937 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	heavy_defense_platform = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		research_cost = 2
+		start_year = 1937
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 11 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	automatic_radar_defense = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = threat_value_assessment
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = electronic_counter_measure
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1938
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @1938 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	electronic_counter_measure = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	
+	threat_value_assessment = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = railgun_defense_platform
+			research_cost_coeff = 1
+		}
+		
+		
+		
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @1939 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	railgun_defense_platform = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = quantum_well_infrared_photodetector
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = multi_turreted_railgun_defense_platform
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	multi_turreted_railgun_defense_platform = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = @1941 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	quantum_well_infrared_photodetector = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = directed_energy_defense_laser
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = universal_counter_threat_platform
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @1941 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	directed_energy_defense_laser = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = anti_airborne_threat_platform
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1942 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	anti_airborne_threat_platform = {
+
+		enable_equipments = {
+
+		}
+		
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = @1943 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	universal_counter_threat_platform = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = position_holding_counter_threat_platform
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @1943 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	position_holding_counter_threat_platform = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1944 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	
+	electrothermal_chemical_technology = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = combustion_light_gas_gun
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = @electrothermal y = @1936 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	combustion_light_gas_gun = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = railgun
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1937
+		folder = {
+			name = armour_folder
+			position = { x = @electrothermal y = @1937 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	railgun = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = extreme_recoil_compensation
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = armour_folder
+			position = { x = @electrothermal y = @1939 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	extreme_recoil_compensation = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = multi_barrel_railguns
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = armour_folder
+			position = { x = @electrothermal y = @1941 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	multi_barrel_railguns = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = armour_folder
+			position = { x = @electrothermal y = @1942 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	
+	remote_controlled_weapon_station = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = unmanned_ground_combat_tank
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = @remotecontrolled y = @1936 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	unmanned_ground_combat_tank = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = unmanned_railgun_carrier
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = hostile_terrain_analysis
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1938
+		folder = {
+			name = armour_folder
+			position = { x = @remotecontrolled y = @1938 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	unmanned_railgun_carrier = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = armour_folder
+			position = { x = @remotecontrolled y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	armored_reconnaissance_vehicle = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = autonomous_navigation_system
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = infrared_profile_dissimulation
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = @armored_reconnaissance y = @1936 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	autonomous_navigation_system = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = automated_infantry_suppression_vehicle
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = unmanned_ground_combat_tank
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1937
+		folder = {
+			name = armour_folder
+			position = { x = @armored_reconnaissance y = @1937 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	automated_infantry_suppression_vehicle = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = rocket_propelled_grenades
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = hostile_terrain_analysis
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1938
+		folder = {
+			name = armour_folder
+			position = { x = @armored_reconnaissance y = @1938 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	hostile_terrain_analysis = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = armour_folder
+			position = { x = 14 y = @1939 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	rocket_propelled_grenades = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = lethal_autonomous_vehicle
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = armour_folder
+			position = { x = @armored_reconnaissance y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	lethal_autonomous_vehicle = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = sentient_combat_systems
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = seeker_ammunitions
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = armour_folder
+			position = { x = @armored_reconnaissance y = @1941 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	seeker_ammunitions = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = armour_folder
+			position = { x = 14 y = @1942 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	sentient_combat_systems = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = multi_terrain_extermination_platform
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = armour_folder
+			position = { x = @armored_reconnaissance y = @1943 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	multi_terrain_extermination_platform = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = armour_folder
+			position = { x = @armored_reconnaissance y = @1944 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	infrared_profile_dissimulation = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = multi_spectral_camouflage
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1937
+		folder = {
+			name = armour_folder
+			position = { x = @infrared y = @1937 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	multi_spectral_camouflage = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = active_cloaking_devices
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = armour_folder
+			position = { x = @infrared y = @1939 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	active_cloaking_devices = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+	
+		path = {
+			leads_to_tech = stealth_field_generators
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = armour_folder
+			position = { x = @infrared y = @1941 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	stealth_field_generators = {
+
+		enable_equipments = {
+
+		}
+		enable_subunits = {
+
+		}
+		
+		
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = armour_folder
+			position = { x = @infrared y = @1943 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	
+	
+	
+	
+	air_cushion_fighting_vehicle = {
+
+		enable_equipments = {
+			gw_tank_equipment
+
+		}
+		enable_subunits = {
+			light_armor
+
+		}
+	
+		path = {
+			leads_to_tech = explosion_resilient_soft_coating
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = gas_turbine_noise_reduction
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = @aircushion y = @1936 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	gas_turbine_noise_reduction = {
+
+		enable_equipments = {
+		}
+		enable_subunits = {
+		}
+	
+		path = {
+			leads_to_tech = vibration_damping_materials
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1937
+		folder = {
+			name = armour_folder
+			position = { x = @gasturbine y = @1937 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	vibration_damping_materials = {
+
+		enable_equipments = {
+		}
+		enable_subunits = {
+		}
+		
+		research_cost = 2
+		start_year = 1938
+		folder = {
+			name = armour_folder
+			position = { x = @gasturbine y = @1938 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	explosion_resilient_soft_coating = {
+
+		enable_equipments = {
+		}
+		enable_subunits = {
+		}
+	
+		path = {
+			leads_to_tech = armored_assault_hovercraft
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1938
+		folder = {
+			name = armour_folder
+			position = { x = @aircushion y = @1938 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	armored_assault_hovercraft = {
+
+		enable_equipments = {
+		}
+		enable_subunits = {
+		}
+	
+		path = {
+			leads_to_tech = heavy_lift_turboengines
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = magnetic_mine_protection
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = armour_folder
+			position = { x = @aircushion y = @1939 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	magnetic_mine_protection = {
+
+		enable_equipments = {
+		}
+		enable_subunits = {
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = armour_folder
+			position = { x = @gasturbine y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	heavy_lift_turboengines = {
+
+		enable_equipments = {
+		}
+		enable_subunits = {
+		}
+	
+		path = {
+			leads_to_tech = hovertank
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = armour_folder
+			position = { x = @aircushion y = @1941 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	hovertank = {
+
+		enable_equipments = {
+		}
+		enable_subunits = {
+		}
+		
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = armour_folder
+			position = { x = @aircushion y = @1942 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+
 }

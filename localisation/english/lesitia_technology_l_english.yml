@@ -1,4 +1,5 @@
 ﻿l_english:
+# INFANTRY
  conventional_firearms:0 "Conventional Firearms"
  conventional_firearms_desc:0 "TODO"
  
@@ -106,3 +107,116 @@
 
  powered_exoskeletons:0 "Powered Exoskeletons"
  powered_exoskeletons_desc:0 "TODO"
+ 
+ # ARMOR
+ main_battle_tank:0 "Main Battle Tank"
+ main_battle_tank_desc:0 "TODO
+ 
+ main_ground_combat_system:0 "Main Ground Combat System"
+ main_ground_combat_system_desc:0 "TODO"
+ 
+ titanium_carbide_modular_armor:0 "Titanium Carbide Modular Armor"
+ titanium_carbide_modular_armor_desc:0 "TODO"
+ 
+ carbon_silicate_lace_plating:0 "Carbon Silicate Lace Plating"
+ carbon_silicate_lace_plating_desc:0 "TODO"
+ 
+ electromagnetic_armor:0 "Electromagnetic Armor"
+ 
+ self_repairing_components:0 "Self-repairing Components"
+ 
+ active_protection_system:0 "Active Protection System"
+ 
+ mobile_defense_platform:0 "Mobile Defense Platform"
+ 
+ automatic_radar_defense:0 "Automatic Radar Defense"
+ 
+ threat_value_assessment:0 "Threat Value Assessment"
+ 
+ railgun_defense_platform:0 "Railgun Defense Platform"
+ 
+ multi_turreted_railgun_defense_platform:0 "Multi-Turreted Railgun Defense Platform"
+ 
+ quantum_well_infrared_photodetector:0 "Quantum Well Infrared Photodetector"
+ 
+ directed_energy_defense_laser:0 "Directed Energy Defense Laser"
+ 
+ anti_airborne_threat_platform:0 "Anti-airborne Threat Platform"
+ 
+ universal_counter_threat_platform:0 "Universal Counter Threat Platform"
+ 
+ position_holding_counter_threat_platform:0 "Position-holding Counter Threat Platform"
+ 
+ electronic_counter_measure:0 "Electronic Counter Measure"
+ 
+ heavy_defense_platform:0 "Heavy Defense Platform"
+ 
+ computerized_fire_control_system:0 "Computerized Fire Control System"
+ 
+ quadri_thread_assault_tank:0 "Quadri Thread Assault Tank"
+ 
+ assault_railgun_carrier:0 "Assault Railgun Carrier"
+ 
+ fortification_breakthrough_battlestation:0 "Fortification Breakthrough Battlestation"
+ 
+ frontline_breakthrough_tank:0 "Frontline Breakthrough Tank"
+ 
+ general_purpose_railgun_carrier: "General Purpose Railgun Carrier"
+ 
+ decisive_lethality_platform:0 "Decisive Lethality Platform"
+ 
+ electrothermal_chemical_technology:0 "Electrothermal-Chemical Technology"
+ 
+ combustion_light_gas_gun:0 "Combustion-Light Gas Gun"
+ 
+ railgun:0 "Railgun"
+ 
+ extreme_recoil_compensation:0 "Extreme Recoil Compensation"
+ 
+ multi_barrel_railguns:0 "Multi-Barrel Railguns"
+ 
+ remote_controlled_weapon_station:0 "Remote-Controlled Weapon Station"
+ 
+ unmanned_ground_combat_tank:0 "Unmanned Ground Combat Tank"
+ 
+ unmanned_railgun_carrier:0 "Unmanned Railgun Carrier"
+ 
+ armored_reconnaissance_vehicle:0 "Armored Reconnaissance Vehicle"
+ 
+ autonomous_navigation_system:0 "Autonomous Navigation System"
+ 
+ automated_infantry_suppression_vehicle:0 "Automated Infantry Suppression Vehicle"
+ 
+ seeker_ammunitions:0 "Seeker Ammunitions"
+ 
+ sentient_combat_systems:0 "Sentient Combat Systems"
+ 
+ multi_terrain_extermination_platform:0 "Multi-Terrain Extermination Platform"
+ 
+ hostile_terrain_analysis:0 "Hostile Terrain Analysis"
+ 
+ infrared_profile_dissimulation:0 "Infrared Profile Dissimulation"
+ 
+ multi_spectral_camouflage:0 "Multi-Spectral Camouflage"
+ 
+ active_cloaking_devices:0 "Active Cloaking Devices"
+ 
+ stealth_field_generators:0 "Stealth Field Generators"
+ 
+ air_cushion_fighting_vehicle:0 "Air Cushion Fighting Vehicle"
+ 
+ explosion_resilient_soft_coating:0 "Explosion-Resilient Soft Coating"
+ 
+ armored_assault_hovercraft:0 "Armored Assault Hovercraft"
+ 
+ heavy_lift_turboengines:0 "Heavy-Lift Turboengines"
+ 
+ hovertank:0 "Hovertank"
+ 
+ gas_turbine_noise_reduction:0 "Gas Turbine Noise Reduction"
+ 
+ vibration_damping_materials:0 "Vibration Damping Materials"
+ 
+ magnetic_mine_protection:0 "Magnetic Mine Protection"
+ 
+ 
