@@ -1,0 +1,19 @@
+
+state={
+	id=6
+	name="STATE_6"
+
+	history={
+		owner = LUR
+		add_core_of = LUR
+
+	}
+
+	provinces={
+		1924 2212 2365 5969 12684 13276 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

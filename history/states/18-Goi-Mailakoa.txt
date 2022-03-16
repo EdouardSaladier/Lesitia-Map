@@ -1,0 +1,19 @@
+
+state={
+	id=18
+	name="STATE_18"
+
+	history={
+		owner = LUR
+		add_core_of = LUR
+
+	}
+
+	provinces={
+		3514 3818 13392 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
