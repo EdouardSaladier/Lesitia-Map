@@ -61,8 +61,8 @@ EPS = {
 	color_ui = rgb { 40 75 115 }
 }
 SYM = {
-	color = rgb { 161 101 153 }
-	color_ui = rgb { 161 101 153 }
+	color = rgb { 75 160 160 }
+	color_ui = rgb { 75 160 160 }
 }
 BOR = {
 	color = rgb { 137 161 107 }
@@ -77,8 +77,8 @@ HAI = {
 	color_ui = rgb { 100 71 150 }
 }
 VRT = {
-	color = rgb { 127 51 116 }
-	color_ui = rgb { 127 51 116 }
+	color = rgb { 161 101 153 }
+	color_ui = rgb { 161 101 153 }
 }
 CMM = {
 	color = rgb { 198 167 83 }

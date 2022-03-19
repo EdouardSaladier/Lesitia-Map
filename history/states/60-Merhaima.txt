@@ -1,0 +1,18 @@
+state={
+	id=60
+	name="STATE_60"
+	
+	history={
+		owner = SLR
+		add_core_of = SLR
+	}
+	
+	provinces={
+		231 4203 4422 13285 
+	}
+	
+	manpower=1
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
