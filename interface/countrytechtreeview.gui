@@ -2763,6 +2763,19 @@ guiTypes = {
 			alwaystransparent = yes
 		}	
 		
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = -55 y = -45 }
+			textureFile = ""
+			font = "hoi_20bs"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 170
+			maxHeight = 40
+			fixedsize = no
+			format = center
+		}
+		
 		iconType = {
 			name = "bonus_icon"
 			position = { x=-1 y=-22 }
@@ -2804,15 +2817,15 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 3 y = -3 }
+			position = { x = 0 y = -45 }
 			textureFile = ""
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
-			text = "Happy-Go-Lucky-Tank"
-			maxWidth = 160
-			maxHeight = 20
-			fixedsize = yes
-			format = left
+			text = ""
+			maxWidth = 180
+			maxHeight = 40
+			fixedsize = no
+			format = center
 		}
 
 		iconType = {
@@ -3001,15 +3014,15 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 6 y = -1 }
+			position = { x = -10 y = -45 }
 			textureFile = ""
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
-			text = "Happy-Go-Lucky-Tank"
-			maxWidth = 156
-			maxHeight = 20
-			fixedsize = yes
-			format = left
+			text = ""
+			maxWidth = 200
+			maxHeight = 40
+			fixedsize = no
+			format = center
 		}
 		
 		iconType = {
@@ -3108,6 +3121,19 @@ guiTypes = {
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}    
+		
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = -55 y = -45 }
+			textureFile = ""
+			font = "hoi_20bs"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 170
+			maxHeight = 40
+			fixedsize = no
+			format = center
+		}
 			
 		iconType = {
 			name = "bonus_icon"
