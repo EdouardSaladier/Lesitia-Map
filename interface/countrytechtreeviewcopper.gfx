@@ -67,4 +67,155 @@ spriteTypes = {
 		name = "GFX_eglin_alloy_medium"
 		texturefile = "gfx/interface/technologies/eglin_alloy.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_active_cloaking_devices_medium"
+		texturefile = "gfx/interface/technologies/active_cloaking_devices.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_automatic_radar_defense_medium"
+		texturefile = "gfx/interface/technologies/automatic_radar_defense.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_autonomous_navigation_system_medium"
+		texturefile = "gfx/interface/technologies/autonomous_navigation_system.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_carbon_silicate_lace_plating_medium"
+		texturefile = "gfx/interface/technologies/carbon_silicate_lace_plating.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_combustion_light_gas_gun_medium"
+		texturefile = "gfx/interface/technologies/combustion_light_gas_gun.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_computerized_fire_control_system_medium"
+		texturefile = "gfx/interface/technologies/computerized_fire_control_system.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_directed_energy_defense_laser_medium"
+		texturefile = "gfx/interface/technologies/directed_energy_defense_laser.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_electromagnetic_armor_medium"
+		texturefile = "gfx/interface/technologies/electromagnetic_armor.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_electronic_counter_measure_medium"
+		texturefile = "gfx/interface/technologies/electronic_counter_measure.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_electrothermal_chemical_technology_medium"
+		texturefile = "gfx/interface/technologies/electrothermal_chemical_technology.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_explosion_resilient_soft_coating_medium"
+		texturefile = "gfx/interface/technologies/explosion_resilient_soft_coating.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_extreme_recoil_compensation_medium"
+		texturefile = "gfx/interface/technologies/extreme_recoil_compensation.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_gas_turbine_noise_reduction_medium"
+		texturefile = "gfx/interface/technologies/gas_turbine_noise_reduction.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_lift_turboengines_medium"
+		texturefile = "gfx/interface/technologies/heavy_lift_turboengines.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hostile_terrain_analysis_medium"
+		texturefile = "gfx/interface/technologies/hostile_terrain_analysis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infrared_profile_dissimulation_medium"
+		texturefile = "gfx/interface/technologies/infrared_profile_dissimulation.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_magnetic_mine_protection_medium"
+		texturefile = "gfx/interface/technologies/magnetic_mine_protection.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_multi_barrel_railguns_medium"
+		texturefile = "gfx/interface/technologies/multi_barrel_railguns.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_multi_spectral_camouflage_medium"
+		texturefile = "gfx/interface/technologies/multi_spectral_camouflage.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_quantum_well_infrared_photodetector_medium"
+		texturefile = "gfx/interface/technologies/quantum_well_infrared_photodetector.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_railgun_medium"
+		texturefile = "gfx/interface/technologies/railgun.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_remote_controlled_weapon_station_medium"
+		texturefile = "gfx/interface/technologies/remote_controlled_weapon_station.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rocket_propelled_grenades_medium"
+		texturefile = "gfx/interface/technologies/rocket_propelled_grenades.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_seeker_ammunitions_medium"
+		texturefile = "gfx/interface/technologies/seeker_ammunitions.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_self_repairing_components_medium"
+		texturefile = "gfx/interface/technologies/self_repairing_components.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sentient_combat_systems_medium"
+		texturefile = "gfx/interface/technologies/sentient_combat_systems.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_stealth_field_generators_medium"
+		texturefile = "gfx/interface/technologies/stealth_field_generators.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_threat_value_assessment_medium"
+		texturefile = "gfx/interface/technologies/threat_value_assessment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_titanium_carbide_modular_armor_medium"
+		texturefile = "gfx/interface/technologies/titanium_carbide_modular_armor.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_vibration_damping_materials_medium"
+		texturefile = "gfx/interface/technologies/vibration_damping_materials.dds"
+	}
+
 }
