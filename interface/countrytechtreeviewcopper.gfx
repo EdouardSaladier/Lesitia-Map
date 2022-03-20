@@ -78,6 +78,11 @@ spriteTypes = {
 		name = "GFX_main_battle_tank_medium"
 		texturefile = "gfx/interface/technologies/main_battle_tank.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_main_ground_combat_system_medium"
+		texturefile = "gfx/interface/technologies/main_ground_combat_system.dds"
+	}
 
 	
 	SpriteType = {

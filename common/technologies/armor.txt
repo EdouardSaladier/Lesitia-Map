@@ -64,10 +64,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @center y = @1918 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @center y = @1918 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -100,8 +97,8 @@ technologies = {
 	
 	main_ground_combat_system = {
 
-		enable_subunits = {
-			light_armor
+		enable_equipments = {
+			main_ground_combat_system_equipment
 		}
 	
 		path = {
@@ -115,10 +112,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @center y = @1936 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @center y = @1936 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -162,10 +156,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @center y = @1937 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @center y = @1937 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -199,10 +190,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @quadrithread y = @1938 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @quadrithread y = @1938 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -236,10 +224,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @quadrithread y = @1940 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @quadrithread y = @1940 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -268,10 +253,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @quadrithread y = @1943 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @quadrithread y = @1943 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -305,10 +287,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @center y = @1939 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @center y = @1939 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -342,10 +321,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @center y = @1941 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @center y = @1941 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -374,10 +350,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @center y = @1942 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @center y = @1942 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -411,10 +384,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @frontlinebreakthrough y = @1938 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @frontlinebreakthrough y = @1938 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -448,10 +418,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @frontlinebreakthrough y = @1940 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @frontlinebreakthrough y = @1940 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -480,10 +447,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @frontlinebreakthrough y = @1943 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @frontlinebreakthrough y = @1943 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -524,10 +488,7 @@ technologies = {
 			name = armour_folder
 			position = { x = 2 y = @1936 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 2 y = @1936 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -557,10 +518,7 @@ technologies = {
 			name = armour_folder
 			position = { x = 0 y = 7 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 0 y = 7 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -599,10 +557,7 @@ technologies = {
 			name = armour_folder
 			position = { x = 2 y = @1937 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 2 y = @1937 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -631,10 +586,7 @@ technologies = {
 			name = armour_folder
 			position = { x = 0 y = 11 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 0 y = 11 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -673,10 +625,7 @@ technologies = {
 			name = armour_folder
 			position = { x = 2 y = @1938 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 2 y = @1938 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -705,10 +654,7 @@ technologies = {
 			name = armour_folder
 			position = { x = -2 y = @1940 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = -2 y = @1940 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -745,10 +691,7 @@ technologies = {
 			name = armour_folder
 			position = { x = 2 y = @1939 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 2 y = @1939 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -787,10 +730,7 @@ technologies = {
 			name = armour_folder
 			position = { x = 2 y = @1940 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 2 y = @1940 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -820,10 +760,7 @@ technologies = {
 			name = armour_folder
 			position = { x = -1 y = @1941 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = -1 y = @1941 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -862,10 +799,7 @@ technologies = {
 			name = armour_folder
 			position = { x = 2 y = @1941 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 2 y = @1941 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -899,10 +833,7 @@ technologies = {
 			name = armour_folder
 			position = { x = 0 y = @1942 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 0 y = @1942 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -928,10 +859,7 @@ technologies = {
 			name = armour_folder
 			position = { x = -1 y = @1943 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = -1 y = @1943 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -965,10 +893,7 @@ technologies = {
 			name = armour_folder
 			position = { x = 2 y = @1943 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 2 y = @1943 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -997,10 +922,7 @@ technologies = {
 			name = armour_folder
 			position = { x = 0 y = @1944 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 0 y = @1944 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1036,10 +958,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @electrothermal y = @1936 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @electrothermal y = @1936 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1074,10 +993,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @electrothermal y = @1937 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @electrothermal y = @1937 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1112,10 +1028,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @electrothermal y = @1939 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @electrothermal y = @1939 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1150,10 +1063,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @electrothermal y = @1941 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @electrothermal y = @1941 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1183,10 +1093,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @electrothermal y = @1942 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @electrothermal y = @1942 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1222,10 +1129,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @remotecontrolled y = @1936 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @remotecontrolled y = @1936 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1265,10 +1169,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @remotecontrolled y = @1938 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @remotecontrolled y = @1938 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1298,10 +1199,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @remotecontrolled y = @1940 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @remotecontrolled y = @1940 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1341,10 +1239,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @armored_reconnaissance y = @1936 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @armored_reconnaissance y = @1936 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1384,10 +1279,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @armored_reconnaissance y = @1937 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @armored_reconnaissance y = @1937 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1427,10 +1319,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @armored_reconnaissance y = @1938 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @armored_reconnaissance y = @1938 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1460,10 +1349,7 @@ technologies = {
 			name = armour_folder
 			position = { x = 14 y = @1939 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 14 y = @1939 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1498,10 +1384,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @armored_reconnaissance y = @1940 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @armored_reconnaissance y = @1940 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1541,10 +1424,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @armored_reconnaissance y = @1941 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @armored_reconnaissance y = @1941 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1574,10 +1454,7 @@ technologies = {
 			name = armour_folder
 			position = { x = 14 y = @1942 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 14 y = @1942 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1612,10 +1489,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @armored_reconnaissance y = @1943 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @armored_reconnaissance y = @1943 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1645,10 +1519,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @armored_reconnaissance y = @1944 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @armored_reconnaissance y = @1944 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1683,10 +1554,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @infrared y = @1937 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @infrared y = @1937 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1721,10 +1589,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @infrared y = @1939 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @infrared y = @1939 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1759,10 +1624,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @infrared y = @1941 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @infrared y = @1941 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1792,10 +1654,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @infrared y = @1943 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @infrared y = @1943 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1838,10 +1697,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @aircushion y = @1936 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @aircushion y = @1936 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1873,10 +1729,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @gasturbine y = @1937 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @gasturbine y = @1937 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1903,10 +1756,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @gasturbine y = @1938 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @gasturbine y = @1938 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1938,10 +1788,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @aircushion y = @1938 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @aircushion y = @1938 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1978,10 +1825,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @aircushion y = @1939 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @aircushion y = @1939 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -2008,10 +1852,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @gasturbine y = @1940 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @gasturbine y = @1940 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -2043,10 +1884,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @aircushion y = @1941 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @aircushion y = @1941 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -2073,10 +1911,7 @@ technologies = {
 			name = armour_folder
 			position = { x = @aircushion y = @1942 }
 		}
-		folder = {
-			name = nsb_armour_folder
-			position = { x = @aircushion y = @1942 }
-		}
+
 		
 		ai_will_do = {
 			factor = 1
