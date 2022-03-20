@@ -173,7 +173,7 @@ technologies = {
 	quadri_thread_assault_tank = {
 
 		enable_equipments = {
-
+			quadri_thread_assault_tank_equipment
 		}
 		enable_subunits = {
 
@@ -207,7 +207,7 @@ technologies = {
 	assault_railgun_carrier = {
 
 		enable_equipments = {
-
+			assault_railgun_carrier_equipment
 		}
 		enable_subunits = {
 
@@ -241,7 +241,7 @@ technologies = {
 	fortification_breakthrough_battlestation = {
 
 		enable_equipments = {
-
+			fortification_breakthrough_battlestation_equipment
 		}
 		enable_subunits = {
 
@@ -1131,7 +1131,7 @@ technologies = {
 	unmanned_ground_combat_tank = {
 
 		enable_equipments = {
-
+			unmanned_ground_combat_tank_equipment
 		}
 		enable_subunits = {
 
@@ -1171,7 +1171,7 @@ technologies = {
 	unmanned_railgun_carrier = {
 
 		enable_equipments = {
-
+			unmanned_railgun_carrier_equipment
 		}
 		enable_subunits = {
 
@@ -1206,7 +1206,7 @@ technologies = {
 	unmanned_lethality_platform = {
 
 		enable_equipments = {
-
+			unmanned_lethality_platform_equipment
 		}
 		enable_subunits = {
 
@@ -1235,10 +1235,10 @@ technologies = {
 	armored_reconnaissance_vehicle = {
 
 		enable_equipments = {
-
+			armored_reconnaissance_vehicle_equipment
 		}
 		enable_subunits = {
-
+			
 		}
 	
 		path = {
@@ -1316,7 +1316,7 @@ technologies = {
 	automated_infantry_suppression_vehicle = {
 
 		enable_equipments = {
-
+			automated_infantry_suppression_vehicle_equipment
 		}
 		enable_subunits = {
 
@@ -1421,7 +1421,7 @@ technologies = {
 	lethal_autonomous_vehicle = {
 
 		enable_equipments = {
-
+			lethal_autonomous_vehicle_equipment
 		}
 		enable_subunits = {
 
@@ -1526,7 +1526,7 @@ technologies = {
 	multi_terrain_extermination_platform = {
 
 		enable_equipments = {
-
+			multi_terrain_extermination_platform_equipment
 		}
 		enable_subunits = {
 
@@ -1695,7 +1695,7 @@ technologies = {
 	air_cushion_fighting_vehicle = {
 
 		enable_equipments = {
-
+			air_cushion_fighting_vehicle_equipment
 		}
 		enable_subunits = {
 
@@ -1825,6 +1825,7 @@ technologies = {
 	armored_assault_hovercraft = {
 
 		enable_equipments = {
+			armored_assault_hovercraft_equipment
 		}
 		enable_subunits = {
 		}
@@ -1921,6 +1922,7 @@ technologies = {
 	hovertank = {
 
 		enable_equipments = {
+			hovertank_equipment
 		}
 		enable_subunits = {
 		}
@@ -1980,6 +1982,7 @@ technologies = {
 	heavy_hovertank = {
 
 		enable_equipments = {
+			heavy_hovertank_equipment
 		}
 		enable_subunits = {
 		}

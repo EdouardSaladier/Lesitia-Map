@@ -290,5 +290,85 @@ spriteTypes = {
 		name = "GFX_vibration_damping_materials_medium"
 		texturefile = "gfx/interface/technologies/vibration_damping_materials.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_vibration_damping_materials_medium"
+		texturefile = "gfx/interface/technologies/vibration_damping_materials.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_unmanned_ground_combat_tank_medium"
+		texturefile = "gfx/interface/technologies/unmanned_ground_combat_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_unmanned_railgun_carrier_medium"
+		texturefile = "gfx/interface/technologies/unmanned_railgun_carrier.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_unmanned_lethality_platform_medium"
+		texturefile = "gfx/interface/technologies/unmanned_lethality_platform.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_armored_reconnaissance_vehicle_medium"
+		texturefile = "gfx/interface/technologies/armored_reconnaissance_vehicle.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_lethal_autonomous_vehicle_medium"
+		texturefile = "gfx/interface/technologies/lethal_autonomous_vehicle.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_quadri_thread_assault_tank_medium"
+		texturefile = "gfx/interface/technologies/quadri_thread_assault_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_automated_infantry_suppression_vehicle_medium"
+		texturefile = "gfx/interface/technologies/automated_infantry_suppression_vehicle.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_multi_terrain_extermination_platform_medium"
+		texturefile = "gfx/interface/technologies/multi_terrain_extermination_platform.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_quadri_thread_assault_tank_medium"
+		texturefile = "gfx/interface/technologies/quadri_thread_assault_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_assault_railgun_carrier_medium"
+		texturefile = "gfx/interface/technologies/assault_railgun_carrier.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_fortification_breakthrough_battlestation_medium"
+		texturefile = "gfx/interface/technologies/fortification_breakthrough_battlestation.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_air_cushion_fighting_vehicle_medium"
+		texturefile = "gfx/interface/technologies/air_cushion_fighting_vehicle.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_armored_assault_hovercraft_medium"
+		texturefile = "gfx/interface/technologies/armored_assault_hovercraft.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_hovertank_medium"
+		texturefile = "gfx/interface/technologies/hovertank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_hovertank_medium"
+		texturefile = "gfx/interface/technologies/heavy_hovertank.dds"
+	}
 
 }
