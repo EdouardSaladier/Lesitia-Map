@@ -1,4 +1,8 @@
 spriteTypes = {
+
+	### Infantry Tree
+	
+	
 	SpriteType = {
 		name = "GFX_conventional_firearms_medium"
 		texturefile = "gfx/interface/technologies/conventional_firearms.dds"
@@ -67,6 +71,14 @@ spriteTypes = {
 		name = "GFX_eglin_alloy_medium"
 		texturefile = "gfx/interface/technologies/eglin_alloy.dds"
 	}
+	
+	### Tank Tree
+	
+	SpriteType = {
+		name = "GFX_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/main_battle_tank.dds"
+	}
+
 	
 	SpriteType = {
 		name = "GFX_active_cloaking_devices_medium"

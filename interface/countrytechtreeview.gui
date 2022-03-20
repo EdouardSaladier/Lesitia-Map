@@ -777,7 +777,6 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-			scroll_wheel_factor = 40
 
 			background = {
 				name = "Background"
@@ -1003,7 +1002,6 @@ guiTypes = {
 				}			
 			}
 
-
 			containerWindowType = {
 				name = "nsb_armour_subtitles"
 				position = { x = 0 y = 172 }
@@ -1060,8 +1058,24 @@ guiTypes = {
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
-				}		
+				}	
 			}	
+			
+			gridboxtype = {
+				name = "main_battle_tank_tree"
+				position = { x = 10% y = 0 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
+				name = "air_cushion_fighting_vehicle_tree"
+				position = { x = 10% y = 0 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 		}
 
 		containerWindowType = {
