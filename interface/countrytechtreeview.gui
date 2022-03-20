@@ -479,7 +479,7 @@ guiTypes = {
 			name = "armour_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
-			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			margin = { top = 0 left = 50 bottom = 50 right = 50 }
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
@@ -526,7 +526,7 @@ guiTypes = {
 						
 					instantTextBoxType = {
 						name = "armour_year2"
-						position = { x = 480 y = 50 }
+						position = { x = 380 y = 50 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -539,7 +539,7 @@ guiTypes = {
 	
 					instantTextBoxType = {
 						name = "armour_year3"
-						position = { x = 630 y = 50 }
+						position = { x = 590 y = 50 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -552,7 +552,7 @@ guiTypes = {
 	
 					instantTextBoxType = {
 						name = "armour_year4"
-						position = { x = 750 y = 50 }
+						position = { x = 800 y = 50 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -565,7 +565,7 @@ guiTypes = {
 	
 					instantTextBoxType = {
 						name = "armour_year5"
-						position = { x = 960 y = 50 }
+						position = { x = 940 y = 50 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -578,7 +578,7 @@ guiTypes = {
 	
 					instantTextBoxType = {
 						name = "armour_year6"
-						position = { x = 1170 y = 50 }
+						position = { x = 1150 y = 50 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -591,7 +591,7 @@ guiTypes = {
 	
 					instantTextBoxType = {
 						name = "armour_year7"
-						position = { x = 1380 y = 50 }
+						position = { x = 1360 y = 50 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -603,7 +603,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year8"
-						position = { x = 1590 y = 50 }
+						position = { x = 1570 y = 50 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -615,7 +615,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year9"
-						position = { x = 1805 y = 50 }
+						position = { x = 1780 y = 50 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -627,36 +627,11 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year10"
-						position = { x = 2012 y = 50 }
+						position = { x = 1990 y = 50 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1944"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year11"
-						position = { x = 2215 y = 50 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1945"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					
-					instantTextBoxType = {
-						name = "armour_year12"
-						position = { x = 2080 y = 740 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1918"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -684,75 +659,21 @@ guiTypes = {
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
-				}				
-
-				instantTextBoxType = {
-					name = "armour_subtitle_medium"
-					position = { x = 90 y = 270 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "ARMOUR_TITLE_MEDIUM"
-					maxWidth = 200
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "armour_subtitle_light"
-					position = { x = -430 y = 50  }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "ARMOUR_TITLE_LIGHT"
-					maxWidth = 200
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "armour_subtitle_amphibious"
-					position = { x = 270 y = -60  }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "ARMOUR_TITLE_AMPH"
-					maxWidth = 200
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}		
-				instantTextBoxType = {
-					name = "armour_subtitle_engine"
-					position = { x = -530 y = 720 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0}
-					text = "ENGINES & SUSPENSIONS"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "armour_subtitle_repairs"
-					position = { x = -370 y = 485 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0}
-					text = "REPAIRS"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
 				}
 			}	
 
 				
 			gridboxtype = {
 				name = "main_battle_tank_tree"
-				position = { x = 10% y = 0 }
+				position = { x = 100 y = 0 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
+				name = "armored_reconnaissance_vehicle_tree"
+				position = { x = 100 y = 0 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -760,7 +681,7 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "air_cushion_fighting_vehicle_tree"
-				position = { x = 10% y = 0 }
+				position = { x = 100 y = 0 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

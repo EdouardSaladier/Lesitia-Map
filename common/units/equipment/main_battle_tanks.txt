@@ -7,7 +7,6 @@ equipments = {
 		is_convertable = yes
 		picture = archetype_medium_tank_equipment		
 		is_buildable = no
-		is_convertable = yes
 		type = armor
 		group_by = archetype
 		
@@ -80,6 +79,93 @@ equipments = {
 	}
 	
 	main_ground_combat_system_equipment = {
+		year = 1941
+
+		archetype = main_battle_tank_equipment_arch
+		priority = 50
+		visual_level = 1
+						
+		#Misc Abilities
+		maximum_speed = 9
+
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 51
+		armor_value = 80
+
+		#Offensive Abilities
+		soft_attack = 25
+		hard_attack = 19
+		ap_attack = 81
+		air_attack = 0
+
+		build_cost_ic = 13
+		resources = {
+			#oil = 1
+			tungsten = 2
+			steel = 3
+		}	
+	}
+	
+	frontline_breakthrough_tank_equipment = {
+		year = 1941
+
+		archetype = main_battle_tank_equipment_arch
+		priority = 50
+		visual_level = 1
+						
+		#Misc Abilities
+		maximum_speed = 9
+
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 51
+		armor_value = 80
+
+		#Offensive Abilities
+		soft_attack = 25
+		hard_attack = 19
+		ap_attack = 81
+		air_attack = 0
+
+		build_cost_ic = 13
+		resources = {
+			#oil = 1
+			tungsten = 2
+			steel = 3
+		}	
+	}
+	
+	general_purpose_railgun_carrier_equipment = {
+		year = 1941
+
+		archetype = main_battle_tank_equipment_arch
+		priority = 50
+		visual_level = 1
+						
+		#Misc Abilities
+		maximum_speed = 9
+
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 51
+		armor_value = 80
+
+		#Offensive Abilities
+		soft_attack = 25
+		hard_attack = 19
+		ap_attack = 81
+		air_attack = 0
+
+		build_cost_ic = 13
+		resources = {
+			#oil = 1
+			tungsten = 2
+			steel = 3
+		}	
+	}
+	
+	decisive_lethality_platform_equipment = {
 		year = 1941
 
 		archetype = main_battle_tank_equipment_arch

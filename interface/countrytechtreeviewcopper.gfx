@@ -1,7 +1,6 @@
 spriteTypes = {
 
-	### Infantry Tree
-	
+	### Infantry Tree - Equipments
 	
 	SpriteType = {
 		name = "GFX_conventional_firearms_medium"
@@ -16,16 +15,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/railguns.dds"
 	}
 	SpriteType = {
-		name = "GFX_optical_head_mounted_display_medium"
-		texturefile = "gfx/interface/technologies/optical_head_mounted_display.dds"
-	}
-	SpriteType = {
 		name = "GFX_helical_railguns_medium"
 		texturefile = "gfx/interface/technologies/helical_railguns.dds"
 	}
 	SpriteType = {
 		name = "GFX_plasma_railguns_medium"
 		texturefile = "gfx/interface/technologies/plasma_railguns.dds"
+	}
+	
+	### Infantry Tree - Technologies
+	
+	SpriteType = {
+		name = "GFX_optical_head_mounted_display_medium"
+		texturefile = "gfx/interface/technologies/optical_head_mounted_display.dds"
 	}
 	SpriteType = {
 		name = "GFX_caseless_munitions_medium"
@@ -72,7 +74,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/eglin_alloy.dds"
 	}
 	
-	### Tank Tree
+	### Tank Tree - Equipments
 	
 	SpriteType = {
 		name = "GFX_main_battle_tank_medium"
@@ -82,6 +84,55 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_main_ground_combat_system_medium"
 		texturefile = "gfx/interface/technologies/main_ground_combat_system.dds"
+	}
+	SpriteType = {
+		name = "GFX_frontline_breakthrough_tank_medium"
+		texturefile = "gfx/interface/technologies/frontline_breakthrough_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_general_purpose_railgun_carrier_medium"
+		texturefile = "gfx/interface/technologies/general_purpose_railgun_carrier.dds"
+	}
+	SpriteType = {
+		name = "GFX_decisive_lethality_platform_medium"
+		texturefile = "gfx/interface/technologies/decisive_lethality_platform.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mobile_defense_platform_medium"
+		texturefile = "gfx/interface/technologies/mobile_defense_platform.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_defense_platform_medium"
+		texturefile = "gfx/interface/technologies/heavy_defense_platform.dds"
+	}
+	SpriteType = {
+		name = "GFX_railgun_defense_platform_medium"
+		texturefile = "gfx/interface/technologies/railgun_defense_platform.dds"
+	}
+	SpriteType = {
+		name = "GFX_multi_turreted_railgun_defense_platform_medium"
+		texturefile = "gfx/interface/technologies/multi_turreted_railgun_defense_platform.dds"
+	}
+	SpriteType = {
+		name = "GFX_universal_counter_threat_platform_medium"
+		texturefile = "gfx/interface/technologies/universal_counter_threat_platform.dds"
+	}
+	SpriteType = {
+		name = "GFX_anti_airborne_threat_platform_medium"
+		texturefile = "gfx/interface/technologies/anti_airborne_threat_platform.dds"
+	}
+	SpriteType = {
+		name = "GFX_position_holding_counter_threat_platform_medium"
+		texturefile = "gfx/interface/technologies/position_holding_counter_threat_platform.dds"
+	}
+
+	
+	### Tank Tree - Technologies
+	
+	SpriteType = {
+		name = "GFX_active_protection_system_medium"
+		texturefile = "gfx/interface/technologies/active_protection_system.dds"
 	}
 
 	
@@ -153,6 +204,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_heavy_lift_turboengines_medium"
 		texturefile = "gfx/interface/technologies/heavy_lift_turboengines.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_nuclear_turboengines_medium"
+		texturefile = "gfx/interface/technologies/nuclear_turboengines.dds"
 	}
 
 	SpriteType = {
