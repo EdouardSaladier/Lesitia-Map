@@ -1,0 +1,19 @@
+
+state={
+	id=21
+	name="STATE_21"
+
+	history={
+		owner = AKU
+		add_core_of = AKU
+
+	}
+
+	provinces={
+		1819 6630 10031 13443 20374 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

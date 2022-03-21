@@ -66,7 +66,7 @@
  tactical_informations_and_communications_system:0 "Tactical Informations and Communications System"
  tactical_informations_and_communications_system_desc:0 "TODO"
 
- cognitive_technological_threat_warning_system:0 "Cognitive Technological Threat Warning System"
+ cognitive_technological_threat_warning_system:0 "Cognitive Threat Warning System"
  cognitive_technological_threat_warning_system_desc:0 "TODO"
 
  night_vision:0 "Night Vision"
@@ -221,4 +221,34 @@
  
  rocket_propelled_grenades:0 "Rocket Propelled Grenades"
  
+ main_battle_tank_equipment:0 "Main Battle Tank"
+ main_ground_combat_system_equipment:0 "Main Ground Combat System"
+ mobile_defense_platform_equipment:0 "Mobile Defense Platform"
+ railgun_defense_platform_equipment:0 "Railgun Defense Platform"
+ multi_turreted_railgun_defense_platform_equipment:0 "Armored Railgun Defense Platform"
+ anti_airborne_threat_platform_equipment:0 "Anti-airborne Threat Platform"
+ universal_counter_threat_platform_equipment:0 "Universal Firepower Platform"
+ position_holding_counter_threat_platform_equipment:0 "Heavy Firepower Platform"
+ heavy_defense_platform_equipment:0 "Heavy Defense Platform"	
+ quadri_thread_assault_tank_equipment:0 "Frontline Assault Tank"
+ assault_railgun_carrier_equipment:0 "Assault Railgun Carrier"
+ fortification_breakthrough_battlestation_equipment:0 "Fortification Breakthrough Battlestation"
+ frontline_breakthrough_tank_equipment:0 "Frontline Breakthrough Tank"
+ general_purpose_railgun_carrier_equipment: "Main Battle Railgun Carrier"
+ decisive_lethality_platform_equipment:0 "Decisive Lethality Platform"
+ remote_controlled_weapon_station_equipment:0 "Remote-Controlled Weapon Station"
+ unmanned_ground_combat_tank_equipment:0 "Unmanned Ground Combat Tank"
+ unmanned_railgun_carrier_equipment:0 "Unmanned Railgun Carrier"
+ armored_reconnaissance_vehicle_equipment:0 "Armored Reconnaissance Vehicle"
+ automated_infantry_suppression_vehicle_equipment:0 "Infantry Suppression Vehicle"
+ multi_terrain_extermination_platform_equipment:0 "Lethal Firepower Vehicle"
+ air_cushion_fighting_vehicle_equipment:0 "Air Cushion Fighting Vehicle"
+ armored_assault_hovercraft_equipment:0 "Armored Assault Hovercraft"
+ hovertank_equipment:0 "Naval Assault Hovertank"
+ heavy_hovertank_equipment:0 "Up-Armored Hovertank"
+ unmanned_lethality_platform_equipment:0 "Unmanned Lethality Platform"
+ lethal_autonomous_vehicle_equipment:0 "Tactical Fire Support Vehicle"
+ 
+ nuclear_turboengines:0 "Nuclear Turboengines"
+ heavy_hovertank:0 "Up-Armored Hovertank"
  
