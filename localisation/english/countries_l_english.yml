@@ -48,20 +48,20 @@
  SUR_DEF:0 "Surrecht"
  SUR_ADJ:0 "Surrecht"
  
- EPR:0 "Lands of Emperor"
- EPR_DEF:0 "the Lands of Emperor"
- EPR_ADJ:0 "Emperor"
+ EPR:0 "Canal Garrison"
+ EPR_DEF:0 "the Canal Garrison"
+ EPR_ADJ:0 "Canal"
  
- EPS:0 "Lands of Empress"
- EPS_DEF:0 "the Lands of Empress"
- EPS_ADJ:0 "Empress"
+ EPS:0 "Northern Fleet"
+ EPS_DEF:0 "the Northern Fleet"
+ EPS_ADJ:0 "Northern Fleet"
  
  SYM:0 "Symbiotic Federation"
  SYM_DEF:0 "the Symbiotic of Federation"
- SYM_ADJ:0 "Federation"
+ SYM_ADJ:0 "Symbiotic"
  
- BOR:0 "Borcan Tsardom"
- BOR_DEF:0 "the Borcan Tsardom"
+ BOR:0 "Borca"
+ BOR_DEF:0 "Borca"
  BOR_ADJ:0 "Borcan"
  
  AVN:0 "Avenska"
@@ -73,12 +73,12 @@
  HAI_ADJ:0 "Hainosu"
  
  VRT:0 "Vratenzk"
- VRT_DEF:0 "the Vratenzk"
+ VRT_DEF:0 "Vratenzk"
  VRT_ADJ:0 "Vratenzkian"
  
- CMM:0 "Commonweatlh of Creidmhich"
- CMM_DEF:0 "the Commonweatlh of Creidmhich"
- CMM_ADJ:0 "Creidmhich"
+ CMM:0 "Fhìreanta"
+ CMM_DEF:0 "Fhìreanta"
+ CMM_ADJ:0 "Fhìreantan"
  
  AKU:0 "Akuriel"
  AKU_DEF:0 "Akuriel"

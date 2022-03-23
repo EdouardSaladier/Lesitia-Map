@@ -1,0 +1,17 @@
+state={
+	id=105
+	name="STATE_105"
+	
+	history={
+		owner = CMM
+		add_core_of = CMM
+
+	}
+	
+	provinces={
+		3164 5277 5474 13857 13908 14129 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
