@@ -419,56 +419,7 @@ spriteTypes = {
 		name = "GFX_icon_occupied_territories"
 		texturefile = "gfx/interface/icon_occupied_territories.dds"
 	}
-
-	spriteType = {
-		name = "GFX_ideology_state_pragmatism_group"
-		texturefile = "gfx/interface/ideologies/state_pragmatism_group.tga"
-	}
 	
-	spriteType = {
-		name = "GFX_ideology_radical_socialism_group"
-		texturefile = "gfx/interface/ideologies/radical_socialism_group.tga"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_environmentalism_group"
-		texturefile = "gfx/interface/ideologies/enviromentalism_group.tga"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_social_democracy_group"
-		texturefile = "gfx/interface/ideologies/social_democracy_group.tga"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_social_liberalism_group"
-		texturefile = "gfx/interface/ideologies/social_liberalism_group.tga"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_neo_liberalism_group"
-		texturefile = "gfx/interface/ideologies/neo_liberalism_group.tga"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_social_conservatism_group"
-		texturefile = "gfx/interface/ideologies/social_conservatism_group.tga"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_authoritarianism_group"
-		texturefile = "gfx/interface/ideologies/authoritarianism_group.tga"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_populism_group"
-		texturefile = "gfx/interface/ideologies/populism_group.tga"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_reactionary_group"
-		texturefile = "gfx/interface/ideologies/reactionary_group.tga"
-	}
 	spriteType = {
 		name = "GFX_ideology_unknown"
 		texturefile = "gfx/interface/ideologies/unknown.dds"

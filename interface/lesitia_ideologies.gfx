@@ -1,0 +1,43 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_ideology_despotism_group"
+		texturefile = "gfx/interface/ideologies/despotism.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_ideology_revolutionarism_group"
+		texturefile = "gfx/interface/ideologies/revolutionarism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_corporatism_group"
+		texturefile = "gfx/interface/ideologies/corporatism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_supremacism_group"
+		texturefile = "gfx/interface/ideologies/supremacism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_democracy_group"
+		texturefile = "gfx/interface/ideologies/democracy.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_technocracy_group"
+		texturefile = "gfx/interface/ideologies/technocracy.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_theocracy_group"
+		texturefile = "gfx/interface/ideologies/theocracy.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_unclassified_group"
+		texturefile = "gfx/interface/ideologies/unclassified.dds"
+	}	
+	
+}
