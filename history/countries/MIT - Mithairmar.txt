@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "MIT_regency_desc"
 	picture = "portrait_regency.dds"
 #	expire = "1947.1.1"
-	ideology = despotism
+	ideology = despotism_type
 #	traits = {
 #		dislikes_germany
 #	}

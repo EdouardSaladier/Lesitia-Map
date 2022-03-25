@@ -1,19 +1,33 @@
-capital = 1
+capital = 104
 
 oob = "standard_templates"
 
 # Starting tech
 
-
 set_convoys = 20
 
-
 set_politics = {
-	ruling_party = unclassified
+	ruling_party = theocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
-	unclassified = 100
+	revolutionarism = 5
+	technocracy = 3
+	democracy = 28
+	despotism = 12
+	theocracy = 36
+	corporatism = 14
+	supremacism = 2
+	unclassified = 0
+}
+
+
+create_country_leader = {
+	name = "Labhrann Ìomharach"
+	desc = "CMM_Labhrann_desc"
+	picture = "portrait_labhrann_iomharach.dds"
+	ideology = theocracy_type
 }
