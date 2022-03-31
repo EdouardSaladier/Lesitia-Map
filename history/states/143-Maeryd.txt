@@ -1,0 +1,17 @@
+state={
+	id=143
+	name="STATE_143"
+	
+	history={
+		owner = REO
+		add_core_of = REO
+	}
+	
+	provinces={
+		5004 11876 20521 20527 
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

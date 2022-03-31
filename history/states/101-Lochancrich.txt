@@ -1,17 +1,19 @@
+
 state={
 	id=101
 	name="STATE_101"
-	
+
 	history={
 		owner = CMM
 		add_core_of = CMM
 
 	}
-	
+
 	provinces={
-		3026 8869 14314 20393 20395 20397 
+		3026 8869 14314 20393 20395 20397 20440 
 	}
-	manpower=0
+	manpower=1
+	state_category=town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -1,0 +1,17 @@
+state={
+	id=132
+	name="STATE_132"
+	
+	history={
+		owner = REO
+		add_core_of = REO
+	}
+	
+	provinces={
+		498 917 1781 1831 5780 5791 6753 7239 9740 12254 12397 12431 12438 12467 12512 12566 12569 12599 12663 12705 20468 20490 20501 
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
