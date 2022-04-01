@@ -1,0 +1,17 @@
+state={
+	id=175
+	name="STATE_175"
+	
+	history={
+		owner = SYM
+		add_core_of = SYM
+	}
+	
+	provinces={
+		6636 14646 14657 14762 14806 17001 20581 
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
