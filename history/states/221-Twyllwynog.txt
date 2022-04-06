@@ -1,0 +1,19 @@
+state={
+	id=221
+	name="STATE_221"
+	
+	history={
+		owner = REO
+		add_core_of = REO
+
+	}
+	
+	provinces={
+		2281 7971 12902 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}

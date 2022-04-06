@@ -1,0 +1,20 @@
+
+state={
+	id=14
+	name="STATE_14"
+
+	history={
+		owner = SUR
+		add_core_of = SUR
+
+	}
+
+	provinces={
+		84 508 2600 8608 13364 20375 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=234
+	name="STATE_234"
+	
+	history={
+		owner = TRD
+		add_core_of = TRD
+
+	}
+	
+	provinces={
+		4778 7501 7720 14365 14547 14597 20624 20625 
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

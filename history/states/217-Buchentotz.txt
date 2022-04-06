@@ -1,0 +1,18 @@
+state={
+	id=217
+	name="STATE_217"
+	
+	history={
+		owner = SUR
+		add_core_of = SUR
+
+	}
+	
+	provinces={
+		240 7587 7952 8457 13832 13896 20648 20654 
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
