@@ -1,0 +1,85 @@
+scripted_map_modes = {
+	lesitia_species_map_mode = {
+		top = {
+			type = state
+
+			color = {
+				FROM = {
+					set_temp_variable = { alpha = 0.5 }
+					if = {
+						limit = {
+							check_variable = { minority = 49 }
+						}
+						set_temp_variable = { red = 0.77 }
+						set_temp_variable = { green = 0.65 }
+						set_temp_variable = { blue = 0.32 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 25 }
+						}
+						set_temp_variable = { red = 0.65 }
+						set_temp_variable = { green = 0.47 }
+						set_temp_variable = { blue = 0.36 }
+					}
+					else = {
+						set_temp_variable = { alpha = 0.0 }
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 0.0 }
+						set_temp_variable = { blue = 0.0 }
+					}
+				}
+			}
+
+			thickness = no
+
+			targets = {
+				target_array = global.states
+			}
+		}
+
+		bottom = {
+			type = state
+
+			color = {
+				FROM = {
+					set_temp_variable = { alpha = 1.0 }
+					if = {
+						limit = {
+							check_variable = { specie = 49 }
+						}
+						set_temp_variable = { red = 0.77 }
+						set_temp_variable = { green = 0.65 }
+						set_temp_variable = { blue = 0.32 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 25 }
+						}
+						set_temp_variable = { red = 0.65 }
+						set_temp_variable = { green = 0.47 }
+						set_temp_variable = { blue = 0.36 }
+					}
+					else = {
+						set_temp_variable = { alpha = 0.0 }
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 0.0 }
+						set_temp_variable = { blue = 0.0 }
+					}
+				}
+			}
+
+			thickness = no
+
+			targets = {
+				target_array = global.states
+			}
+			
+		}
+
+		far_text = country
+		near_text = state
+
+		update_daily = no
+	}
+}
