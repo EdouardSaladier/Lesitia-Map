@@ -5,7 +5,7 @@ state={
 	history={
 		owner = CMM
 		add_core_of = CMM
-
+		set_variable = { specie = 58 }
 	}
 	
 	provinces={

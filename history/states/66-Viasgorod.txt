@@ -5,7 +5,7 @@ state={
 	history={
 		owner = VRT
 		add_core_of = VRT
-
+		set_variable = { specie = 75 }
 	}
 	
 	provinces={

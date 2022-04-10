@@ -1,19 +1,20 @@
+
 state={
 	id=108
 	name="STATE_108"
-	
+
 	history={
 		owner = CMM
 		add_core_of = CMM
 		set_variable = { minority = 49 }
 		set_variable = { specie = 25 }
 	}
-	
+
 	provinces={
-		2862 4108 6259 7341 7681 9512 13527 13607 17097 
+		2862 4108 6259 7341 7681 9512 13527 13607 17097 20376 
 	}
 	manpower=1
-	state_category=town
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

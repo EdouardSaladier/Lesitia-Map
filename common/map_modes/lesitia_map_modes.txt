@@ -1,12 +1,60 @@
 scripted_map_modes = {
 	lesitia_species_map_mode = {
-		top = {
+		bottom = {
 			type = state
 
 			color = {
 				FROM = {
-					set_temp_variable = { alpha = 0.5 }
+					set_temp_variable = { alpha = 0.2 }
 					if = {
+						limit = {
+							check_variable = { minority = 6 }
+						}
+						set_temp_variable = { red = 0.74 }
+						set_temp_variable = { green = 0.36 }
+						set_temp_variable = { blue = 0.40 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 7 }
+						}
+						set_temp_variable = { red = 0.67 }
+						set_temp_variable = { green = 0.46 }
+						set_temp_variable = { blue = 0.46 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 20 }
+						}
+						set_temp_variable = { red = 0.54 }
+						set_temp_variable = { green = 0.64 }
+						set_temp_variable = { blue = 0.42 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 21 }
+						}
+						set_temp_variable = { red = 0.62 }
+						set_temp_variable = { green = 0.62 }
+						set_temp_variable = { blue = 0.43 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 25 }
+						}
+						set_temp_variable = { red = 0.65 }
+						set_temp_variable = { green = 0.47 }
+						set_temp_variable = { blue = 0.36 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 38 }
+						}
+						set_temp_variable = { red = 0.49 }
+						set_temp_variable = { green = 0.67 }
+						set_temp_variable = { blue = 0.80 }
+					}
+					else_if = {
 						limit = {
 							check_variable = { minority = 49 }
 						}
@@ -16,11 +64,83 @@ scripted_map_modes = {
 					}
 					else_if = {
 						limit = {
-							check_variable = { minority = 25 }
+							check_variable = { minority = 58 }
 						}
-						set_temp_variable = { red = 0.65 }
+						set_temp_variable = { red = 0.8 }
+						set_temp_variable = { green = 0.54 }
+						set_temp_variable = { blue = 0.32 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 66 }
+						}
+						set_temp_variable = { red = 0.47 }
+						set_temp_variable = { green = 0.49 }
+						set_temp_variable = { blue = 0.63 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 73 }
+						}
+						set_temp_variable = { red = 0.71 }
 						set_temp_variable = { green = 0.47 }
-						set_temp_variable = { blue = 0.36 }
+						set_temp_variable = { blue = 0.68 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 74 }
+						}
+						set_temp_variable = { red = 0.75 }
+						set_temp_variable = { green = 0.54 }
+						set_temp_variable = { blue = 0.72 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 75 }
+						}
+						set_temp_variable = { red = 0.63 }
+						set_temp_variable = { green = 0.42 }
+						set_temp_variable = { blue = 0.60 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 76 }
+						}
+						set_temp_variable = { red = 0.83 }
+						set_temp_variable = { green = 0.57 }
+						set_temp_variable = { blue = 0.68 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 77 }
+						}
+						set_temp_variable = { red = 0.86 }
+						set_temp_variable = { green = 0.47 }
+						set_temp_variable = { blue = 0.64 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 78 }
+						}
+						set_temp_variable = { red = 0.81 }
+						set_temp_variable = { green = 0.45 }
+						set_temp_variable = { blue = 0.76 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 79 }
+						}
+						set_temp_variable = { red = 0.70 }
+						set_temp_variable = { green = 0.49 }
+						set_temp_variable = { blue = 0.80 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 80 }
+						}
+						set_temp_variable = { red = 0.57 }
+						set_temp_variable = { green = 0.46 }
+						set_temp_variable = { blue = 0.76 }
 					}
 					else = {
 						set_temp_variable = { alpha = 0.0 }
@@ -38,13 +158,61 @@ scripted_map_modes = {
 			}
 		}
 
-		bottom = {
+		top = {
 			type = state
 
 			color = {
 				FROM = {
 					set_temp_variable = { alpha = 1.0 }
 					if = {
+						limit = {
+							check_variable = { specie = 6 }
+						}
+						set_temp_variable = { red = 0.74 }
+						set_temp_variable = { green = 0.36 }
+						set_temp_variable = { blue = 0.40 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 7 }
+						}
+						set_temp_variable = { red = 0.67 }
+						set_temp_variable = { green = 0.46 }
+						set_temp_variable = { blue = 0.46 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 20 }
+						}
+						set_temp_variable = { red = 0.54 }
+						set_temp_variable = { green = 0.64 }
+						set_temp_variable = { blue = 0.42 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 21 }
+						}
+						set_temp_variable = { red = 0.62 }
+						set_temp_variable = { green = 0.62 }
+						set_temp_variable = { blue = 0.43 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 25 }
+						}
+						set_temp_variable = { red = 0.65 }
+						set_temp_variable = { green = 0.47 }
+						set_temp_variable = { blue = 0.36 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 38 }
+						}
+						set_temp_variable = { red = 0.49 }
+						set_temp_variable = { green = 0.67 }
+						set_temp_variable = { blue = 0.80 }
+					}
+					else_if = {
 						limit = {
 							check_variable = { specie = 49 }
 						}
@@ -54,11 +222,83 @@ scripted_map_modes = {
 					}
 					else_if = {
 						limit = {
-							check_variable = { specie = 25 }
+							check_variable = { specie = 58 }
 						}
-						set_temp_variable = { red = 0.65 }
+						set_temp_variable = { red = 0.8 }
+						set_temp_variable = { green = 0.54 }
+						set_temp_variable = { blue = 0.32 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 66 }
+						}
+						set_temp_variable = { red = 0.47 }
+						set_temp_variable = { green = 0.49 }
+						set_temp_variable = { blue = 0.63 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 73 }
+						}
+						set_temp_variable = { red = 0.71 }
 						set_temp_variable = { green = 0.47 }
-						set_temp_variable = { blue = 0.36 }
+						set_temp_variable = { blue = 0.68 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 74 }
+						}
+						set_temp_variable = { red = 0.75 }
+						set_temp_variable = { green = 0.54 }
+						set_temp_variable = { blue = 0.72 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 75 }
+						}
+						set_temp_variable = { red = 0.63 }
+						set_temp_variable = { green = 0.42 }
+						set_temp_variable = { blue = 0.60 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 76 }
+						}
+						set_temp_variable = { red = 0.83 }
+						set_temp_variable = { green = 0.57 }
+						set_temp_variable = { blue = 0.68 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 77 }
+						}
+						set_temp_variable = { red = 0.86 }
+						set_temp_variable = { green = 0.47 }
+						set_temp_variable = { blue = 0.64 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 78 }
+						}
+						set_temp_variable = { red = 0.81 }
+						set_temp_variable = { green = 0.45 }
+						set_temp_variable = { blue = 0.76 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 79 }
+						}
+						set_temp_variable = { red = 0.70 }
+						set_temp_variable = { green = 0.49 }
+						set_temp_variable = { blue = 0.80 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { specie = 80 }
+						}
+						set_temp_variable = { red = 0.57 }
+						set_temp_variable = { green = 0.46 }
+						set_temp_variable = { blue = 0.76 }
 					}
 					else = {
 						set_temp_variable = { alpha = 0.0 }

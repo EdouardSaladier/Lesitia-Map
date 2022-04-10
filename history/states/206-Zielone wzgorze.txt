@@ -6,7 +6,7 @@ state={
 	history={
 		owner = AVN
 		add_core_of = AVN
-
+		set_variable = { specie = 77 }
 	}
 	
 	provinces={

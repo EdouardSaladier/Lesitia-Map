@@ -6,7 +6,8 @@ state={
 	history={
 		owner = AKU
 		add_core_of = AKU
-
+		set_variable = { specie = 6 }
+		set_variable = { minority = 66 }
 	}
 	
 	provinces={

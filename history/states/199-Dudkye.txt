@@ -5,6 +5,8 @@ state={
 	history={
 		owner = SYM
 		add_core_of = SYM
+		set_variable = { minority = 73 }
+		set_variable = { specie = 79 }
 	}
 	
 	provinces={
