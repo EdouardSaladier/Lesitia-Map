@@ -96,7 +96,15 @@ REO = {
 	color = rgb { 100  100  150 }
 	color_ui = rgb { 100  100  150 }
 }
-PLC = {
-	color = rgb { 159 145 215 }
+HAF = {
+	color = rgb { 159 145 215	}
 	color_ui = rgb { 159 145 215 }
+}
+PLC = {
+	color = rgb { 130 130 180 }
+	color_ui = rgb { 130 130 180 }
+}
+NUK = {
+	color = rgb { 38 38 38	}
+	color_ui = rgb { 38 38 38 }
 }

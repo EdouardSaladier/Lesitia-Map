@@ -92,6 +92,14 @@
  REO_DEF:0 "the Tyranny of Rheol"
  REO_ADJ:0 "Rheol"
  
+ HAF:0 "Hafan"
+ HAF_DEF:0 "Hafan"
+ HAF_ADJ:0 "Hafan"
+ 
+ NUK:0 "Nuclear Exclusion Zones"
+ NUK_DEF:0 "Nuclear Exclusion Zones"
+ NUK_ADJ:0 "Nuclear Exclusion Zones"
+ 
  PLC:0 "Placeholder"
  PLC_DEF:0 "Placeholder"
  PLC_ADJ:0 "Placeholder"
