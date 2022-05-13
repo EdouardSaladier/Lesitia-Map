@@ -3,8 +3,8 @@ state={
 	name="STATE_1"
 	
 	history={
-		owner = EPS
-		add_core_of = EPS
+		owner = GLR
+		add_core_of = GLR
 
 	}
 	
