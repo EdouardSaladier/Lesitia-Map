@@ -12,7 +12,7 @@ state={
 	provinces={
 		771 7475 13178 
 	}
-	manpower=1
+	manpower=368228
 	state_category=town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
