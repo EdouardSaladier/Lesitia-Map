@@ -50,28 +50,28 @@ equipments = {
 
 	air_cushion_fighting_vehicle_equipment = {
 		year = 1941
-		archetype = mobile_defense_platform_equipment_arch
+		archetype = air_cushion_fighting_vehicle_equipment_arch
 		priority = 70
 		visual_level = 1
 	}
 	
 	armored_assault_hovercraft_equipment = {
 		year = 1941
-		archetype = mobile_defense_platform_equipment_arch
+		archetype = air_cushion_fighting_vehicle_equipment_arch
 		priority = 70
 		visual_level = 1
 	}
 	
 	hovertank_equipment = {
 		year = 1941
-		archetype = mobile_defense_platform_equipment_arch
+		archetype = air_cushion_fighting_vehicle_equipment_arch
 		priority = 70
 		visual_level = 1
 	}
 	
 	heavy_hovertank_equipment = {
 		year = 1941
-		archetype = mobile_defense_platform_equipment_arch
+		archetype = air_cushion_fighting_vehicle_equipment_arch
 		priority = 70
 		visual_level = 1
 	}
