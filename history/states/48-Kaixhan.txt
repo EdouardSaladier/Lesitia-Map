@@ -11,8 +11,8 @@ state={
 	provinces={
 		3381 4403 5440 7203 8514 8954 13208 13267 13277 13373 13381 
 	}
-	manpower=1
-	state_category=town
+	manpower=2044560
+	state_category=city
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
