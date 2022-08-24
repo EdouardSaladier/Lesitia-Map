@@ -1,0 +1,25 @@
+guiTypes = {
+	containerWindowType = {
+		name = "resource_stockpile_container"
+		position = { x = 980 y = 4 }
+ 
+		buttonType ={
+			name ="resource_stockpile_bg"
+			spriteType = "GFX_generic_text_bg_258"
+			position = { x=0 y=0 }
+			shortcut = "ctrl+k"
+		}
+ 
+		instantTextBoxType = {
+			name ="resource_stockpile_text"
+			position = { x= 0	 y = 4 }
+			font = "hoi_18mbs"
+			text = "[?food_surplus|+0] | [?food_mil_consumption_i|Y0] | [?food_civ_core_consumption_i|Y0] | [?food_civ_non_core_consumption_i|Y0] | [?food_mil_deficit|-0]% | [?food_civ_core_deficit|-0]% | [?food_civ_non_core_deficit|-0]%"
+			format = center
+			maxWidth = 258
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = STEEL_TOOLTIP
+		}
+	}
+}

@@ -7,6 +7,8 @@ idea_categories = {
 	
 	hidden_ideas = {
 		hidden = yes
+		
+		politics_tab = no
 	
 		cost = 0
 		removal_cost = -1
@@ -27,9 +29,9 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		slot = law_1
-		slot = law_2
-		slot = law_3
+		slot = laws_civ_core_food_cons
+		slot = laws_civ_non_core_food_cons
+		character_slot = political_advisor
 		
 		ledger = civilian
 		

@@ -1,0 +1,7 @@
+scripted_gui = {
+	resource_stockpile = {
+		window_name = "resource_stockpile_container"
+ 
+		context_type = player_context
+	}
+}

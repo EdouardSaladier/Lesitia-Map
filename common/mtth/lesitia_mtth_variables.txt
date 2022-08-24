@@ -1,0 +1,67 @@
+food_civ_core_consumption = {
+	base = 0
+	modifier = {
+		set_temp_variable = { core_cons = 0 }
+		all_controlled_state = {
+			if = {
+				limit = { is_core_of = PREV }
+				add_to_temp_variable = { core_cons  = state_population_k }
+			}
+		}
+		if = {
+			limit = { check_variable = { modifier@civ_core_food_modifier < 100 } }
+			divide_temp_variable = { core_cons = 100 }
+			multiply_temp_variable = { core_cons = modifier@civ_core_food_modifier }	
+		}
+		divide_temp_variable = { core_cons = 500 }
+		round_temp_variable = core_cons
+		add = core_cons
+	}
+}
+
+food_civ_non_core_consumption = {
+	base = 0
+	modifier = {
+		set_temp_variable = { non_core_cons = 0 }
+		all_controlled_state = {
+			if = {
+				limit = { NOT = {  is_core_of = PREV } }
+				add_to_temp_variable = { non_core_cons  = state_population_k }
+			}
+		}
+		if = {
+			limit = { check_variable = { modifier@civ_non_core_food_modifier < 100 } }
+			divide_temp_variable = { non_core_cons = 100 }
+			multiply_temp_variable = { non_core_cons = modifier@civ_non_core_food_modifier }	
+		}
+		divide_temp_variable = { non_core_cons = 500 }
+		round_temp_variable = non_core_cons
+		add = non_core_cons
+	}
+}
+
+food_mil_consumption = {
+	base = 0
+	modifier = {
+		set_temp_variable = { mil_cons = num_battalions }
+		divide_temp_variable = { mil_cons = 10 }
+		round_temp_variable = mil_cons
+		add = mil_cons
+	}
+}
+
+food_total_consumption = {
+	base = 0
+	modifier = {
+		set_temp_variable = { food_c = food_mil_consumption_i }
+		add_to_temp_variable = { food_c = food_civ_core_consumption_i }
+		add_to_temp_variable = { food_c = food_civ_non_core_consumption_i }
+		subtract_from_temp_variable = { food_c = food_surplus }
+		clamp_temp_variable = {
+			var = food_c
+			min = 0
+			max = 100000
+		}
+		add = food_c
+	}
+}
