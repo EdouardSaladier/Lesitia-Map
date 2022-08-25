@@ -1,0 +1,43 @@
+ideas = {
+	hidden_ideas = {
+	
+		aermet_alloy_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					reliability = 0.15
+					instant = yes
+				}
+			}		
+		}
+		
+		aermet_alloy_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					reliability = 0.25
+					instant = yes
+				}
+			}		
+		}
+		
+	}
+}
