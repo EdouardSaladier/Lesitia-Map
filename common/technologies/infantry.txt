@@ -48,6 +48,10 @@ technologies = {
 	}
 
     caseless_munitions = {
+	
+		on_research_complete = {
+			add_ideas = caseless_munitions_idea
+		}
 		
 		path = {
 			leads_to_tech = telescoped_munitions
@@ -77,6 +81,10 @@ technologies = {
 
     telescoped_munitions = {
 	
+		on_research_complete = {
+			add_ideas = telescoped_munitions_idea
+		}
+	
 		XOR = {
 			airbust_munitions
 		}		
@@ -98,6 +106,10 @@ technologies = {
 	}
 
     airbust_munitions = {
+	
+		on_research_complete = {
+			add_ideas = airbust_munitions_idea
+		}
 
 		XOR = {
 			telescoped_munitions
@@ -172,9 +184,20 @@ technologies = {
 			position = { x = 2 y = @1939 }
 		}
 		
+		infantry = {
+			need = {
+				infantry_equipment = -100
+			}
+			need = {
+				railguns_equipment = 100
+			}
+		}
+		
 		categories = {
 			infantry_weapons
 			infantry_weapons_equipment
+			railguns_weapons
+			railguns_weapons_equipment
 		}
 
 		ai_will_do = {
@@ -196,14 +219,12 @@ technologies = {
 		}
 		
 		on_research_complete = {
-			hidden_effect = { 
-				add_ideas = aermet_alloy_idea
-			}
-			custom_effect_tooltip = aermet_alloy_tooltip
+			add_ideas = aermet_alloy_idea
 		}
 		
 		categories = {
 			infantry_weapons
+			railguns_weapons
 		}
 
 		ai_will_do = {
@@ -221,14 +242,12 @@ technologies = {
 		}
 		
 		on_research_complete = {
-			hidden_effect = { 
-				add_ideas = eglin_alloy_idea
-			}
-			custom_effect_tooltip = eglin_alloy_tooltip
+			add_ideas = eglin_alloy_idea
 		}
 		
 		categories = {
 			infantry_weapons
+			railguns_weapons
 		}
 
 		ai_will_do = {
@@ -237,6 +256,10 @@ technologies = {
 	}
 
 	field_cooling_system = {
+	
+		on_research_complete = {
+			add_ideas = field_cooling_system_idea
+		}
 		
 		path = {
 			leads_to_tech = helical_railguns
@@ -251,6 +274,7 @@ technologies = {
 		
 		categories = {
 			infantry_weapons
+			railguns_weapons
 		}
 
 		ai_will_do = {
@@ -278,6 +302,8 @@ technologies = {
 		categories = {
 			infantry_weapons
 			infantry_weapons_equipment
+			railguns_weapons
+			railguns_weapons_equipment
 		}
 		
 		ai_will_do = {
@@ -286,6 +312,10 @@ technologies = {
 	}
 
 	total_vacuum_bore = {
+	
+		on_research_complete = {
+			add_ideas = total_vacuum_bore_idea
+		}
 		
 		path = {
 			leads_to_tech = plasma_railguns
@@ -300,6 +330,7 @@ technologies = {
 		
 		categories = {
 			infantry_weapons
+			railguns_weapons
 		}
 		
 		ai_will_do = {
@@ -323,6 +354,8 @@ technologies = {
 		categories = {
 			infantry_weapons
 			infantry_weapons_equipment
+			railguns_weapons
+			railguns_weapons_equipment
 		}
 
 		ai_will_do = {
@@ -335,6 +368,10 @@ technologies = {
 		path = {
 			leads_to_tech = optical_head_mounted_display
 		}		
+		
+		category_all_infantry = {
+			soft_attack = 0.05
+		}
 
 		research_cost = 1
 		start_year = 1936
@@ -366,11 +403,11 @@ technologies = {
 			leads_to_tech = hyper_spectral_imagery
 		}
 		
-		#infantry = {
-		#	need = {
-		#		anti_air_shoulder_equipment = 10
-		#	}
-		#}
+		infantry = {
+			need = {
+				anti_air_shoulder_equipment = 10
+			}
+		}
 
 		research_cost = 1.5
 		start_year = 1938
@@ -389,6 +426,10 @@ technologies = {
 	}
 
 	constantly_computed_impact_point = {
+	
+		on_research_complete = {
+			add_ideas = constantly_computed_impact_point_idea
+		}
 		
 		path = {
 			leads_to_tech = tactical_informations_and_communications_system
@@ -411,6 +452,14 @@ technologies = {
 	}
 
 	tactical_informations_and_communications_system = {
+	
+		category_all_infantry = {
+			default_morale = 0.2
+		}
+	
+		on_research_complete = {
+			add_ideas = tactical_informations_and_communications_system_idea
+		}
 		
 		path = {
 			leads_to_tech = cognitive_technological_threat_warning_system
@@ -433,9 +482,14 @@ technologies = {
 	}
 
 	cognitive_technological_threat_warning_system = {
+	
+		category_all_infantry = {
+			max_organisation = 5
+		}
 
-		path = {
-		}		
+		on_research_complete = {
+			add_ideas = cognitive_technological_threat_warning_system_idea
+		}			
 
 		research_cost = 1
 		start_year = 1944

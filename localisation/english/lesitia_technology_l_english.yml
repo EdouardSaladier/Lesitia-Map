@@ -1,5 +1,10 @@
 ﻿l_english:
 # INFANTRY
+
+ infantry_equipment:0 "All Conventional Firearms"
+ railguns_equipment_archetype:0 "All Railguns"
+ hud_equipment:0 "Optical Head-mounted Display"
+ 
  conventional_firearms:0 "Conventional Firearms"
  conventional_firearms_desc:0 "TODO"
  
@@ -8,12 +13,15 @@
 
  caseless_munitions:0 "Caseless Munitions"
  caseless_munitions_desc:0 "TODO"
+ caseless_munitions_idea:0 "Caseless Munitions"
 
  telescoped_munitions:0 "Telescoped Munitions"
  telescoped_munitions_desc:0 "TODO"
+ telescoped_munitions_idea:0 "Telescoped Munitions"
 
  airbust_munitions:0 "Airbust Munitions"
  airbust_munitions_desc:0 "TODO"
+ airbust_munitions_idea:0 "Airbust Munitions"
 
  precision_guided_firearms:0 "Precision-guided Firearms"
  precision_guided_firearms_desc:0 "TODO"
@@ -30,13 +38,16 @@
  aermet_alloy:0 "Aermet Alloy"
  aermet_alloy_desc:0 "TODO"
  aermet_alloy_tooltip:0 "Gives a §Y+15% reliability§! £repairing bonus to all §YRailguns§! \n§RNOTE: Due to game limitations, this is done through a hidden National Spirit giving the buff to the equipment, meaning that the buff will not appear on the equipment stats§!"
-
+ aermet_alloy_idea:0 "Aermet Alloy"
+ 
  eglin_alloy:0 "Eglin Alloy"
  eglin_alloy_desc:0 "TODO"
  eglin_alloy_tooltip:0 "Gives a §Y+25% reliability§! £repairing bonus to all §YRailguns§! \n§RNOTE: Due to game limitations, this is done through a hidden National Spirit giving the buff to the equipment, meaning that the buff will not appear on the equipment stats§!"
-
+ eglin_alloy_idea:0 "Eglin Alloy"
+ 
  field_cooling_system:0 "Field Cooling System"
  field_cooling_system_desc:0 "TODO"
+ field_cooling_system_idea:0 "Field Cooling System"
 
  helical_railguns:0 "Helical Railguns"
  helical_railguns_desc:0 "TODO"
@@ -46,6 +57,7 @@
 
  total_vacuum_bore:0 "Total Vacuum Bore"
  total_vacuum_bore_desc:0 "TODO"
+ total_vacuum_bore_idea:0 "Total Vacuum Bore"
 
  plasma_railguns:0 "Plasma Railguns"
  plasma_railguns_desc:0 "TODO"
@@ -64,12 +76,15 @@
 
  constantly_computed_impact_point:0 "Constantly Computed Impact Point"
  constantly_computed_impact_point_desc:0 "TODO"
+ constantly_computed_impact_point_idea:0 "Constantly Computed Impact Point"
 
  tactical_informations_and_communications_system:0 "Tactical Informations and Communications System"
  tactical_informations_and_communications_system_desc:0 "TODO"
+ tactical_informations_and_communications_system_idea:0 "Tactical Informations and Communications System"
 
  cognitive_technological_threat_warning_system:0 "Cognitive Threat Warning System"
  cognitive_technological_threat_warning_system_desc:0 "TODO"
+ cognitive_technological_threat_warning_system_idea:0 "Cognitive Threat Warning System"
 
  night_vision:0 "Night Vision"
  night_vision_desc:0 "TODO"
