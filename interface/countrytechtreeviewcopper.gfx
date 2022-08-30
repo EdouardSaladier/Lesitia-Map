@@ -126,7 +126,81 @@ spriteTypes = {
 		name = "GFX_position_holding_counter_threat_platform_medium"
 		texturefile = "gfx/interface/technologies/position_holding_counter_threat_platform.dds"
 	}
-
+	
+	SpriteType = {
+		name = "GFX_unmanned_ground_combat_tank_medium"
+		texturefile = "gfx/interface/technologies/unmanned_ground_combat_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_unmanned_railgun_carrier_medium"
+		texturefile = "gfx/interface/technologies/unmanned_railgun_carrier.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_unmanned_lethality_platform_medium"
+		texturefile = "gfx/interface/technologies/unmanned_lethality_platform.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_armored_reconnaissance_vehicle_medium"
+		texturefile = "gfx/interface/technologies/armored_reconnaissance_vehicle.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_lethal_autonomous_vehicle_medium"
+		texturefile = "gfx/interface/technologies/lethal_autonomous_vehicle.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_quadri_thread_assault_tank_medium"
+		texturefile = "gfx/interface/technologies/quadri_thread_assault_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_automated_infantry_suppression_vehicle_medium"
+		texturefile = "gfx/interface/technologies/automated_infantry_suppression_vehicle.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_multi_terrain_extermination_platform_medium"
+		texturefile = "gfx/interface/technologies/multi_terrain_extermination_platform.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_quadri_thread_assault_tank_medium"
+		texturefile = "gfx/interface/technologies/quadri_thread_assault_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_assault_railgun_carrier_medium"
+		texturefile = "gfx/interface/technologies/assault_railgun_carrier.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_fortification_breakthrough_battlestation_medium"
+		texturefile = "gfx/interface/technologies/fortification_breakthrough_battlestation.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_air_cushion_fighting_vehicle_medium"
+		texturefile = "gfx/interface/technologies/air_cushion_fighting_vehicle.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_armored_assault_hovercraft_medium"
+		texturefile = "gfx/interface/technologies/armored_assault_hovercraft.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_hovertank_medium"
+		texturefile = "gfx/interface/technologies/hovertank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_hovertank_medium"
+		texturefile = "gfx/interface/technologies/heavy_hovertank.dds"
+	}
 	
 	### Tank Tree - Technologies
 	
@@ -134,7 +208,6 @@ spriteTypes = {
 		name = "GFX_active_protection_system_medium"
 		texturefile = "gfx/interface/technologies/active_protection_system.dds"
 	}
-
 	
 	SpriteType = {
 		name = "GFX_active_cloaking_devices_medium"
@@ -296,80 +369,129 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/vibration_damping_materials.dds"
 	}
 	
-	SpriteType = {
-		name = "GFX_unmanned_ground_combat_tank_medium"
-		texturefile = "gfx/interface/technologies/unmanned_ground_combat_tank.dds"
+	### Plane tree - equipment
+	
+	spriteType = {
+		name = "GFX_advanced_combat_bomber_medium"
+		texturefile = "gfx/interface/technologies/advanced_combat_bomber.dds"
+	}
+
+	spriteType = {
+		name = "GFX_aerial_coverage_unit_medium"
+		texturefile = "gfx/interface/technologies/aerial_coverage_unit.dds"
+	}
+
+	spriteType = {
+		name = "GFX_aerial_firepower_platform_medium"
+		texturefile = "gfx/interface/technologies/aerial_firepower_platform.dds"
 	}
 	
-	SpriteType = {
-		name = "GFX_unmanned_railgun_carrier_medium"
-		texturefile = "gfx/interface/technologies/unmanned_railgun_carrier.dds"
+	spriteType = {
+		name = "GFX_area_obstruction_support_medium"
+		texturefile = "gfx/interface/technologies/area_obstruction_support.dds"
+	}
+
+	spriteType = {
+		name = "GFX_atmospheric_armament_deployer_medium"
+		texturefile = "gfx/interface/technologies/atmospheric_armament_deployer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decisive_superiority_fighter_medium"
+		texturefile = "gfx/interface/technologies/decisive_superiority_fighter.dds"
+	}
+
+	spriteType = {
+		name = "GFX_general_purpose_ordonance_deliverer_medium"
+		texturefile = "gfx/interface/technologies/general_purpose_ordonance_deliverer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_global_combat_fighter_medium"
+		texturefile = "gfx/interface/technologies/global_combat_fighter.dds"
+	}
+
+	spriteType = {
+		name = "GFX_global_coverage_bomber_medium"
+		texturefile = "gfx/interface/technologies/global_coverage_bomber.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ground_combat_support_gunship_medium"
+		texturefile = "gfx/interface/technologies/ground_combat_support_gunship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ground_saturation_unit_medium"
+		texturefile = "gfx/interface/technologies/ground_saturation_unit.dds"
+	}
+
+	spriteType = {
+		name = "GFX_interdictor_supremacy_fighter_medium"
+		texturefile = "gfx/interface/technologies/interdictor_supremacy_fighter.dds"
+	}
+
+	spriteType = {
+		name = "GFX_lethality_dominance_aerial_platform_medium"
+		texturefile = "gfx/interface/technologies/lethality_dominance_aerial_platform.dds"
+	}
+
+	spriteType = {
+		name = "GFX_logistical_bomber_medium"
+		texturefile = "gfx/interface/technologies/logistical_bomber.dds"
+	}
+
+	spriteType = {
+		name = "GFX_long_range_assault_aircraft_medium"
+		texturefile = "gfx/interface/technologies/long_range_assault_aircraft.dds"
+	}
+
+	spriteType = {
+		name = "GFX_long_range_strike_bomber_medium"
+		texturefile = "gfx/interface/technologies/long_range_strike_bomber.dds"
+	}
+
+	spriteType = {
+		name = "GFX_maximum_force_responder_medium"
+		texturefile = "gfx/interface/technologies/maximum_force_responder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_maximum_imperceptibility_striker_medium"
+		texturefile = "gfx/interface/technologies/maximum_imperceptibility_striker.dds"
+	}
+
+	spriteType = {
+		name = "GFX_multirole_fighter_medium"
+		texturefile = "gfx/interface/technologies/multirole_fighter.dds"
+	}
+
+	spriteType = {
+		name = "GFX_optical_silence_fighter_medium"
+		texturefile = "gfx/interface/technologies/optical_silence_fighter.dds"
+	}
+
+	spriteType = {
+		name = "GFX_rapid_action_fighter_medium"
+		texturefile = "gfx/interface/technologies/rapid_action_fighter.dds"
+	}
+
+	spriteType = {
+		name = "GFX_stealth_combat_fighter_medium"
+		texturefile = "gfx/interface/technologies/stealth_combat_fighter.dds"
+	}
+
+	spriteType = {
+		name = "GFX_strike_interceptor_medium"
+		texturefile = "gfx/interface/technologies/strike_interceptor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_universal_tactical_fighter_medium"
+		texturefile = "gfx/interface/technologies/universal_tactical_fighter.dds"
 	}
 	
-	SpriteType = {
-		name = "GFX_unmanned_lethality_platform_medium"
-		texturefile = "gfx/interface/technologies/unmanned_lethality_platform.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_armored_reconnaissance_vehicle_medium"
-		texturefile = "gfx/interface/technologies/armored_reconnaissance_vehicle.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_lethal_autonomous_vehicle_medium"
-		texturefile = "gfx/interface/technologies/lethal_autonomous_vehicle.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_quadri_thread_assault_tank_medium"
-		texturefile = "gfx/interface/technologies/quadri_thread_assault_tank.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_automated_infantry_suppression_vehicle_medium"
-		texturefile = "gfx/interface/technologies/automated_infantry_suppression_vehicle.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_multi_terrain_extermination_platform_medium"
-		texturefile = "gfx/interface/technologies/multi_terrain_extermination_platform.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_quadri_thread_assault_tank_medium"
-		texturefile = "gfx/interface/technologies/quadri_thread_assault_tank.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_assault_railgun_carrier_medium"
-		texturefile = "gfx/interface/technologies/assault_railgun_carrier.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_fortification_breakthrough_battlestation_medium"
-		texturefile = "gfx/interface/technologies/fortification_breakthrough_battlestation.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_air_cushion_fighting_vehicle_medium"
-		texturefile = "gfx/interface/technologies/air_cushion_fighting_vehicle.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_armored_assault_hovercraft_medium"
-		texturefile = "gfx/interface/technologies/armored_assault_hovercraft.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_hovertank_medium"
-		texturefile = "gfx/interface/technologies/hovertank.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_heavy_hovertank_medium"
-		texturefile = "gfx/interface/technologies/heavy_hovertank.dds"
-	}
+	### Plane tree - technologies
 	
 	SpriteType = {
 		name = "GFX_minimal_radar_crossection_medium"
@@ -526,128 +648,4 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/vibration_nullification_coating.dds"
 	}
 	
-	spriteType = {
-		name = "GFX_advanced_combat_bomber_medium"
-		texturefile = "gfx/interface/technologies/advanced_combat_bomber.dds"
-	}
-
-	spriteType = {
-		name = "GFX_aerial_coverage_unit_medium"
-		texturefile = "gfx/interface/technologies/aerial_coverage_unit.dds"
-	}
-
-	spriteType = {
-		name = "GFX_aerial_firepower_platform_medium"
-		texturefile = "gfx/interface/technologies/aerial_firepower_platform.dds"
-	}
-
-	spriteType = {
-		name = "GFX_area_obstruction_support_medium"
-		texturefile = "gfx/interface/technologies/area_obstruction_support.dds"
-	}
-
-	spriteType = {
-		name = "GFX_atmospheric_armament_deployer_medium"
-		texturefile = "gfx/interface/technologies/atmospheric_armament_deployer.dds"
-	}
-
-	spriteType = {
-		name = "GFX_decisive_superiority_fighter_medium"
-		texturefile = "gfx/interface/technologies/decisive_superiority_fighter.dds"
-	}
-
-	spriteType = {
-		name = "GFX_general_purpose_ordonance_deliverer_medium"
-		texturefile = "gfx/interface/technologies/general_purpose_ordonance_deliverer.dds"
-	}
-
-	spriteType = {
-		name = "GFX_global_combat_fighter_medium"
-		texturefile = "gfx/interface/technologies/global_combat_fighter.dds"
-	}
-
-	spriteType = {
-		name = "GFX_global_coverage_bomber_medium"
-		texturefile = "gfx/interface/technologies/global_coverage_bomber.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ground_combat_support_gunship_medium"
-		texturefile = "gfx/interface/technologies/ground_combat_support_gunship.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ground_saturation_unit_medium"
-		texturefile = "gfx/interface/technologies/ground_saturation_unit.dds"
-	}
-
-	spriteType = {
-		name = "GFX_interdictor_supremacy_fighter_medium"
-		texturefile = "gfx/interface/technologies/interdictor_supremacy_fighter.dds"
-	}
-
-	spriteType = {
-		name = "GFX_lethality_dominance_aerial_platform_medium"
-		texturefile = "gfx/interface/technologies/lethality_dominance_aerial_platform.dds"
-	}
-
-	spriteType = {
-		name = "GFX_logistical_bomber_medium"
-		texturefile = "gfx/interface/technologies/logistical_bomber.dds"
-	}
-
-	spriteType = {
-		name = "GFX_long_range_assault_aircraft_medium"
-		texturefile = "gfx/interface/technologies/long_range_assault_aircraft.dds"
-	}
-
-	spriteType = {
-		name = "GFX_long_range_strike_bomber_medium"
-		texturefile = "gfx/interface/technologies/long_range_strike_bomber.dds"
-	}
-
-	spriteType = {
-		name = "GFX_maximum_force_responder_medium"
-		texturefile = "gfx/interface/technologies/maximum_force_responder.dds"
-	}
-
-	spriteType = {
-		name = "GFX_maximum_imperceptibility_striker_medium"
-		texturefile = "gfx/interface/technologies/maximum_imperceptibility_striker.dds"
-	}
-
-	spriteType = {
-		name = "GFX_multirole_fighter_medium"
-		texturefile = "gfx/interface/technologies/multirole_fighter.dds"
-	}
-
-	spriteType = {
-		name = "GFX_optical_silence_fighter_medium"
-		texturefile = "gfx/interface/technologies/optical_silence_fighter.dds"
-	}
-
-	spriteType = {
-		name = "GFX_rapid_action_fighter_medium"
-		texturefile = "gfx/interface/technologies/rapid_action_fighter.dds"
-	}
-
-	spriteType = {
-		name = "GFX_stealth_combat_fighter_medium"
-		texturefile = "gfx/interface/technologies/stealth_combat_fighter.dds"
-	}
-
-	spriteType = {
-		name = "GFX_strike_interceptor_medium"
-		texturefile = "gfx/interface/technologies/strike_interceptor.dds"
-	}
-
-	spriteType = {
-		name = "GFX_universal_tactical_fighter_medium"
-		texturefile = "gfx/interface/technologies/universal_tactical_fighter.dds"
-	}
-
-
-
-
-
 }
