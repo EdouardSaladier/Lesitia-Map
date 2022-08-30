@@ -252,3 +252,159 @@
  nuclear_turboengines:0 "Nuclear Turboengines"
  heavy_hovertank:0 "Up-Armored Hovertank"
  
+ # AERIAL
+multirole_fighter:0 "Multirole Fighter "
+multirole_fighter_desc:0 "Multirole Fighter "
+
+aerial_coverage_unit:0 "Aerial Coverage Unit "
+aerial_coverage_unit_desc:0 "Aerial Coverage Unit "
+
+decisive_superiority_fighter:0 "Decisive Superiority Fighter "
+decisive_superiority_fighter_desc:0 "Decisive Superiority Fighter "
+
+universal_tactical_fighter:0 "Universal Tactical Fighter "
+universal_tactical_fighter_desc:0 "Universal Tactical Fighter "
+
+pulse_vector_ramjets:0 "Pulse Vector Ramjets "
+pulse_vector_ramjets_desc:0 "Pulse Vector Ramjets "
+
+overtuned_aerospike_ramjets:0 "Overtuned Aerospike Ramjets "
+overtuned_aerospike_ramjets_desc:0 "Overtuned Aerospike Ramjets "
+
+low_state_ion_plasma_engines:0 "Low State Ion Plasma Engines "
+low_state_ion_plasma_engines_desc:0 "Low State Ion Plasma Engines "
+
+automatic_variable_plasma_engines:0 "Automatic Variable Plasma Engines "
+automatic_variable_plasma_engines_desc:0 "Automatic Variable Plasma Engines "
+
+electronic_plasma_hypersonic_scamjet:0 "Electronic Plasma Hypersonic Scamjet "
+electronic_plasma_hypersonic_scamjet_desc:0 "Electronic Plasma Hypersonic Scamjet "
+
+global_combat_fighter:0 "Global Combat Fighter "
+global_combat_fighter_desc:0 "Global Combat Fighter "
+
+lethality_dominance_aerial_platform:0 "Lethality Dominance Aerial Platform "
+lethality_dominance_aerial_platform_desc:0 "Lethality Dominance Aerial Platform "
+
+minimal_radar_crossection:0 "Minimal Radar Crossection "
+minimal_radar_crossection_desc:0 "Minimal Radar Crossection "
+
+stealth_combat_fighter:0 "Stealth Combat Fighter "
+stealth_combat_fighter_desc:0 "Stealth Combat Fighter "
+
+leveled_map_display:0 "Leveled Map Display "
+leveled_map_display_desc:0 "Leveled Map Display "
+
+interdictor_suppremacy_fighter:0 "Interdictor Suppremacy Fighter "
+interdictor_suppremacy_fighter_desc:0 "Interdictor Suppremacy Fighter "
+
+maximum_interceptbility_striker:0 "Maximum Interceptbility Striker "
+maximum_interceptbility_striker_desc:0 "Maximum Interceptbility Striker "
+
+optical_silence_fighter:0 "Optical Silence Fighter "
+optical_silence_fighter_desc:0 "Optical Silence Fighter "
+
+strike_interceptor:0 "Strike Interceptor "
+strike_interceptor_desc:0 "Strike Interceptor "
+
+versatile_hardmount_system:0 "Versatile Hardmount System "
+versatile_hardmount_system_desc:0 "Versatile Hardmount System "
+
+quick_maneuver_missiles:0 "Quick Maneuver Missiles "
+quick_maneuver_missiles_desc:0 "Quick Maneuver Missiles "
+
+all_directional_multi_purpose_missiles:0 "All Directional Multi Purpose Missiles "
+all_directional_multi_purpose_missiles_desc:0 "All Directional Multi Purpose Missiles "
+
+gyroscopic_railgun_system:0 "Gyroscopic Railgun System "
+gyroscopic_railgun_system_desc:0 "Gyroscopic Railgun System "
+
+electromagnetic_launcher_pod:0 "Electromagnetic Launcher Pod "
+electromagnetic_launcher_pod_desc:0 "Electromagnetic Launcher Pod "
+
+supressive_concussion_missiles:0 "Supressive Concussion Missiles "
+supressive_concussion_missiles_desc:0 "Supressive Concussion Missiles "
+
+cluster_burst_missiles:0 "Cluster Burst Missiles "
+cluster_burst_missiles_desc:0 "Cluster Burst Missiles "
+
+high_rate_autocannons:0 "High Rate Autocannons "
+high_rate_autocannons_desc:0 "High Rate Autocannons "
+
+aerial_lancer:0 "Aerial Lancer "
+aerial_lancer_desc:0 "Aerial Lancer "
+
+rapid_action_fighter:0 "Rapid Action Fighter "
+rapid_action_fighter_desc:0 "Rapid Action Fighter "
+
+maximum_force_responder:0 "Maximum Force Responder "
+maximum_force_responder_desc:0 "Maximum Force Responder "
+
+air_space_denial_unit:0 "Air Space Denial Unit "
+air_space_denial_unit_desc:0 "Air Space Denial Unit "
+
+integrated_electronic_warfare_system:0 "Integrated Electronic Warfare System "
+integrated_electronic_warfare_system_desc:0 "Integrated Electronic Warfare System "
+
+infrared_countermeasure_flares:0 "Infrared Countermeasure Flares "
+infrared_countermeasure_flares_desc:0 "Infrared Countermeasure Flares "
+
+electromagnetic_absorbant_material:0 "Electromagnetic Absorbant Material "
+electromagnetic_absorbant_material_desc:0 "Electromagnetic Absorbant Material "
+
+vibration_nullification_coating:0 "Vibration Nullification Coating "
+vibration_nullification_coating_desc:0 "Vibration Nullification Coating "
+
+high_information_noise_diffuser:0 "High Information Noise Diffuser "
+high_information_noise_diffuser_desc:0 "High Information Noise Diffuser "
+
+advanced_combat_bomber:0 "Advanced Combat Bomber "
+advanced_combat_bomber_desc:0 "Advanced Combat Bomber "
+
+logistical_bomber:0 "Logistical Bomber "
+logistical_bomber_desc:0 "Logistical Bomber "
+
+long_range_strike_bomber:0 "Long Range Strike Bomber "
+long_range_strike_bomber_desc:0 "Long Range Strike Bomber "
+
+global_coverage_bomber:0 "Global Coverage Bomber "
+global_coverage_bomber_desc:0 "Global Coverage Bomber "
+
+aerial_firepower_platform:0 "Aerial Firepower Platform "
+aerial_firepower_platform_desc:0 "Aerial Firepower Platform "
+
+atmospheric_armament_deployer:0 "Atmospheric Armament Deployer "
+atmospheric_armament_deployer_desc:0 "Atmospheric Armament Deployer "
+
+grount_combat_support_gunship:0 "Grount Combat Support Gunship "
+grount_combat_support_gunship_desc:0 "Grount Combat Support Gunship "
+
+dynamic_tactical_solidograph:0 "Dynamic Tactical Solidograph "
+dynamic_tactical_solidograph_desc:0 "Dynamic Tactical Solidograph "
+
+dynamic_tactical_solidograph:0 "Dynamic Tactical Solidograph "
+dynamic_tactical_solidograph_desc:0 "Dynamic Tactical Solidograph "
+
+long_range_assault_aircraft:0 "Long Range Assault Aircraft "
+long_range_assault_aircraft_desc:0 "Long Range Assault Aircraft "
+
+area_obstruction_support:0 "Area Obstruction Support "
+area_obstruction_support_desc:0 "Area Obstruction Support "
+
+ground_saturation_unit:0 "Ground Saturation Unit "
+ground_saturation_unit_desc:0 "Ground Saturation Unit "
+
+hard_vector_targeting_array:0 "Hard Vector Targeting Array "
+hard_vector_targeting_array_desc:0 "Hard Vector Targeting Array "
+
+assisted_submunitions:0 "Assisted Submunitions "
+assisted_submunitions_desc:0 "Assisted Submunitions "
+
+recursive_cluster_bombs:0 "Recursive Cluster Bombs "
+recursive_cluster_bombs_desc:0 "Recursive Cluster Bombs "
+
+ruby_zircon_pulse_laser_platform:0 "Ruby Zircon Pulse Laser Platform "
+ruby_zircon_pulse_laser_platform_desc:0 "Ruby Zircon Pulse Laser Platform "
+
+
+ 
