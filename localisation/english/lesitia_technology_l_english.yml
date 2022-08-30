@@ -423,5 +423,91 @@ recursive_cluster_bombs_desc:0 "Recursive Cluster Bombs "
 ruby_zircon_pulse_laser_platform:0 "Ruby Zircon Pulse Laser Platform "
 ruby_zircon_pulse_laser_platform_desc:0 "Ruby Zircon Pulse Laser Platform "
 
+particle_lance:0 "Particle Lance"
+particle_lance_desc:0 "Particle Lance"
+
+omnidirectional_permatrack_missiles:0 "Omnidirectional Permatrack Missiles"
+omnidirectional_permatrack_missiles_desc:0 "Omnidirectional Permatrack Missiles"
+
+multirole_fighter_equipmen:0 "Multirole Fighter"
+multirole_fighter_equipmen_desc:0 "Multirole Fighter"
+
+aerial_coverage_unit_equipment:0 "Aerial Coverage Unit "
+aerial_coverage_unit_equipment_desc:0 "Aerial Coverage Unit "
+
+strike_interceptor_equipment:0 "Strike Interceptor "
+strike_interceptor_equipment_desc:0 "Strike Interceptor "
+
+aerial_lancer_equipment:0 "Aerial Lancer "
+aerial_lancer_equipment_desc:0 "Aerial Lancer "
+
+decisive_superiority_fighter_equipment:0 "Decisive Superiority Fighter "
+decisive_superiority_fighter_equipment_desc:0 "Decisive Superiority Fighter "
+
+stealth_combat_fighter_equipment:0 "Stealth Combat Fighter "
+stealth_combat_fighter_equipment_desc:0 "Stealth Combat Fighter "
+
+rapid_action_fighter_equipment:0 "Rapid Action Fighter "
+rapid_action_fighter_equipment_desc:0 "Rapid Action Fighter "
+
+universal_tactical_fighter_equipment:0 "Universal Tactical Fighter "
+universal_tactical_fighter_equipment_desc:0 "Universal Tactical Fighter "
+
+interdictor_suppremacy_fighter_equipment:0 "Interdictor Suppremacy Fighter "
+interdictor_suppremacy_fighter_equipment_desc:0 "Interdictor Suppremacy Fighter "
+
+maximum_interceptbility_striker_equipment:0 "Maximum Interceptbility Striker "
+maximum_interceptbility_striker_equipment_desc:0 "Maximum Interceptbility Striker "
+
+maximum_force_responder_equipment:0 "Maximum Force Responder "
+maximum_force_responder_equipment_desc:0 "Maximum Force Responder "
+
+global_combat_fighter_equipment:0 "Global Combat Fighter "
+global_combat_fighter_equipment_desc:0 "Global Combat Fighter "
+
+air_space_denial_unit_equipment:0 "Air Space Denial Unit "
+air_space_denial_unit_equipment_desc:0 "Air Space Denial Unit "
+
+lethality_dominance_aerial_platform_equipment:0 "Lethality Dominance Aerial Platform "
+lethality_dominance_aerial_platform_equipment_desc:0 "Lethality Dominance Aerial Platform "
+
+optical_silence_fighter_equipment:0 "Optical Silence Fighter "
+optical_silence_fighter_equipment_desc:0 "Optical Silence Fighter "
+
+advanced_combat_bomber_equipment:0 "Advanced Combat Bomber "
+advanced_combat_bomber_equipment_desc:0 "Advanced Combat Bomber "
+
+logistical_bomber_equipment:0 "Logistical Bomber "
+logistical_bomber_equipment_desc:0 "Logistical Bomber "
+
+grount_combat_support_gunship_equipment:0 "Grount Combat Support Gunship "
+grount_combat_support_gunship_equipment_desc:0 "Grount Combat Support Gunship "
+
+long_range_strike_bomber_equipment:0 "Long Range Strike Bomber "
+long_range_strike_bomber_equipment_desc:0 "Long Range Strike Bomber "
+
+long_range_assault_aircraft_equipment:0 "Long Range Assault Aircraft "
+long_range_assault_aircraft_equipment_desc:0 "Long Range Assault Aircraft "
+
+area_obstruction_support_equipment:0 "Area Obstruction Support "
+area_obstruction_support_equipment_desc:0 "Area Obstruction Support "
+
+global_coverage_bomber_equipment:0 "Global Coverage Bomber "
+global_coverage_bomber_equipment_desc:0 "Global Coverage Bomber "
+
+aerial_firepower_platform_equipment:0 "Aerial Firepower Platform "
+aerial_firepower_platform_equipment_desc:0 "Aerial Firepower Platform "
+
+ground_saturation_unit_equipment:0 "Ground Saturation Unit "
+ground_saturation_unit_equipment_desc:0 "Ground Saturation Unit "
+
+atmospheric_armament_deployer_equipment:0 "Atmospheric Armament Deployer "
+atmospheric_armament_deployer_equipment_desc:0 "Atmospheric Armament Deployer "
+
+maximum_force_responder_equipment:0 "Maximum Force Reponsder"
+maximum_force_responder_equipment_desc:0 "Maximum Force Responder"
+
+
+
 
  

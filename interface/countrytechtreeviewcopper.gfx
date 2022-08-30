@@ -499,8 +499,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_all_directional_multi_purpose_missile_medium"
-		texturefile = "gfx/interface/technologies/all_directional_multi_purpose_missile.dds"
+		name = "GFX_all_directional_multi_purpose_missiles_medium"
+		texturefile = "gfx/interface/technologies/all_directional_multi_purpose_missiles.dds"
 	}
 
 	spriteType = {
@@ -544,8 +544,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_electronic_plasma_hypersonic_scramjet_medium"
-		texturefile = "gfx/interface/technologies/electronic_plasma_hypersonic_scramjet.dds"
+		name = "GFX_electronic_plasma_hypersonic_scamjet_medium"
+		texturefile = "gfx/interface/technologies/electronic_plasma_hypersonic_scamjet.dds"
 	}
 
 	spriteType = {
@@ -646,6 +646,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_vibration_nullification_coating_medium"
 		texturefile = "gfx/interface/technologies/vibration_nullification_coating.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_aerial_lancer_medium"
+		texturefile = "gfx/interface/technologies/aerial_lancer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_air_space_denial_unit_medium"
+		texturefile = "gfx/interface/technologies/air_space_denial_unit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_interdictor_suppremacy_fighter_medium"
+		texturefile = "gfx/interface/technologies/interdictor_suppremacy_fighter.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_maximum_interceptbility_striker_medium"
+		texturefile = "gfx/interface/technologies/maximum_interceptbility_striker.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_general_purpose_ordonance_deliver_medium"
+		texturefile = "gfx/interface/technologies/general_purpose_ordonance_deliver.dds"
 	}
 	
 }
