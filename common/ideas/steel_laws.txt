@@ -1,0 +1,99 @@
+ideas = {
+	laws_civ_core_food_cons = {
+		law = yes
+		use_list_view = yes
+		
+		civ_core_food_cons_normal = {
+			level = 1
+			cancel_if_invalid = no
+			modifier = {
+				civ_core_food_modifier = 100
+			}
+			on_add = {
+				country_event = {
+					id = lesitia_food.1
+					hours = 1
+				}
+			}
+			default = yes
+		}		
+		
+		civ_core_food_cons_low = {
+			level = 1
+			cancel_if_invalid = no
+			modifier = {
+				civ_core_food_modifier = 70
+			}
+			on_add = {
+				country_event = {
+					id = lesitia_food.1
+					hours = 1
+				}
+			}
+		}
+
+		civ_core_food_cons_very_low = {
+			level = 1
+			cancel_if_invalid = no
+			modifier = {
+				civ_core_food_modifier = 40
+			}
+			on_add = {
+				country_event = {
+					id = lesitia_food.1
+					hours = 1
+				}
+			}
+		}
+
+	}
+	
+	laws_civ_non_core_food_cons = {
+		law = yes
+		use_list_view = yes
+		
+		civ_non_core_food_cons_normal = {
+			level = 1
+			cancel_if_invalid = no
+			modifier = {
+				civ_non_core_food_modifier = 100
+			}
+			on_add = {
+				country_event = {
+					id = lesitia_food.1
+					hours = 1
+				}
+			}
+			default = yes
+		}		
+		
+		civ_non_core_food_cons_low = {
+			level = 1
+			cancel_if_invalid = no
+			modifier = {
+				civ_non_core_food_modifier = 70
+			}
+			on_add = {
+				country_event = {
+					id = lesitia_food.1
+					hours = 1
+				}
+			}
+		}
+
+		civ_non_core_food_cons_very_low = {
+			level = 1
+			cancel_if_invalid = no
+			modifier = {
+				civ_non_core_food_modifier = 40
+			}
+			on_add = {
+				country_event = {
+					id = lesitia_food.1
+					hours = 1
+				}
+			}
+		}
+
+	}
+}

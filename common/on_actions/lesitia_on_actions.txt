@@ -1,0 +1,107 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			every_country = {
+				set_variable = { food_surplus = 0 } #food Surplus
+				set_variable = { food_mil_consumption_i = mtth:food_mil_consumption } #food Military Consumption - Saved at beginning of each month
+				set_variable = { food_civ_core_consumption_i = mtth:food_civ_core_consumption } #food Civilian Core Consumption - Saved at beginning of each month
+				set_variable = { food_civ_non_core_consumption_i = mtth:food_civ_non_core_consumption } #food Civilian Non Core Consumption - Saved at beginning of each month
+				set_variable = { food_total_consumption_i = mtth:food_total_consumption }
+				set_variable = { food_mil_deficit = 0 }
+				set_variable = { food_civ_core_deficit = 0 }
+				set_variable = { food_civ_non_core_deficit = 0 }
+				add_dynamic_modifier = {
+					modifier = food_needed_dyn_mod
+				}
+			}
+		}
+	}
+	
+	on_weekly_FRA = {
+		effect = {
+			FRA = {
+				set_temp_variable = { civ_core_food_modifier_t = 100 }
+				subtract_from_temp_variable = { civ_core_food_modifier_t = modifier@civ_core_food_modifier }
+				set_temp_variable = { civ_non_core_food_modifier_t = 100 }
+				subtract_from_temp_variable = { civ_non_core_food_modifier_t = modifier@civ_non_core_food_modifier }
+				if = {
+					limit = {
+						check_variable = {
+							var = resource@food
+							value = 0
+							compare = greater_than_or_equals
+						}
+					}
+					set_variable = { food_surplus = resource@food }
+					set_variable = { food_civ_non_core_deficit = civ_non_core_food_modifier_t }
+                    set_variable = { food_civ_core_deficit = civ_core_food_modifier_t }
+                    set_variable = { food_mil_deficit = 0 }
+				}
+				else = {
+					set_variable = { food_surplus = 0 }
+					set_temp_variable = { food_deficit = resource@food }
+					multiply_temp_variable = { food_deficit = -1 }
+					if = {
+						limit = {
+							check_variable = {
+								var = food_deficit
+								value = food_civ_non_core_consumption_i
+								compare = greater_than_or_equals
+							}
+						}
+						set_variable = { food_civ_non_core_deficit = 100 }
+						subtract_from_temp_variable = { food_deficit = food_civ_non_core_consumption_i }
+						if = {
+							limit = {
+								check_variable = {
+									var = food_deficit
+									value = food_civ_core_consumption_i
+									compare = greater_than_or_equals
+								}
+							}
+							set_variable = { food_civ_core_deficit = 100 }
+							subtract_from_temp_variable = { food_deficit = food_civ_core_consumption_i }
+							if = {
+								limit = {
+									check_variable = {
+										var = food_deficit
+										value = food_mil_consumption_i
+										compare = greater_than_or_equals
+									}
+								}
+								set_variable = { food_mil_deficit = 100 }
+							}
+							else = {
+								divide_temp_variable = { food_deficit = food_mil_consumption_i }
+								multiply_temp_variable = { food_deficit = 100 }
+								set_variable = { food_mil_deficit = food_deficit }
+							}
+						}
+						else = {
+							divide_temp_variable = { food_deficit = food_civ_core_consumption_i }
+							multiply_temp_variable = { food_deficit = modifier@civ_core_food_modifier }
+							add_to_temp_variable = { food_deficit  = civ_core_food_modifier_t }
+							set_variable = { food_civ_core_deficit = food_deficit }
+							set_variable = { food_mil_deficit = 0 }
+						}
+					}
+					else = {
+						divide_temp_variable = { food_deficit = food_civ_non_core_consumption_i }
+						multiply_temp_variable = { food_deficit = modifier@civ_non_core_food_modifier }
+						add_to_temp_variable = { food_deficit  = civ_non_core_food_modifier_t }
+						set_variable = { food_civ_non_core_deficit = food_deficit }
+						set_variable = { food_civ_core_deficit = civ_core_food_modifier_t }
+						set_variable = { food_mil_deficit = 0 }
+					}
+				}
+				set_variable = { food_mil_consumption_i = mtth:food_mil_consumption } #food Military Consumption - Saved at beginning of each month
+				set_variable = { food_civ_core_consumption_i = mtth:food_civ_core_consumption } #food Civilian Core Consumption - Saved at beginning of each month
+				set_variable = { food_civ_non_core_consumption_i = mtth:food_civ_non_core_consumption } #food Civilian Non Core Consumption - Saved at beginning of each month
+				set_variable = { food_total_consumption_i = mtth:food_total_consumption }
+
+			}
+		}
+	}
+	
+}

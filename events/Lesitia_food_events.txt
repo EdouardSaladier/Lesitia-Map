@@ -1,0 +1,26 @@
+﻿###########################
+# food event cause on_add is too fast
+###########################
+
+add_namespace = lesitia_food
+
+country_event = {
+	id = lesitia_food.1
+	title = lesitia_food.1.t
+	desc = lesitia_food.1.d
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_variable = { food_mil_consumption_i = mtth:food_mil_consumption } #food Military Consumption - Saved at beginning of each month
+		set_variable = { food_civ_core_consumption_i = mtth:food_civ_core_consumption } #food Civilian Core Consumption - Saved at beginning of each month
+		set_variable = { food_civ_non_core_consumption_i = mtth:food_civ_non_core_consumption } #food Civilian Non Core Consumption - Saved at beginning of each month
+		set_variable = { food_total_consumption_i = mtth:food_total_consumption }
+	}
+
+	option = {
+		name = lesitia_food.1.a
+	}
+}

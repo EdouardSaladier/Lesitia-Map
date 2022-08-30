@@ -1,0 +1,6 @@
+food_needed_dyn_mod = {
+	icon = GFX_idea_unknown
+	enable = { always = yes }
+	
+	country_resource_cost_food = food_total_consumption_i
+}
