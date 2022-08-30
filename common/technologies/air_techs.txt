@@ -2,16 +2,16 @@ technologies = {
 
 	@1918 = 0
 	@1936 = 4
-	@1937 = 8
-	@1938 = 12
-	@1939 = 16
-	@1940 = 20
-	@1941 = 24
-	@1942 = 28
-	@1943 = 32
-	@1944 = 36
-	@1945 = 40
-	@1946 = 44
+	@1937 = 7
+	@1938 = 10
+	@1939 = 13
+	@1940 = 16
+	@1941 = 19
+	@1942 = 21
+	@1943 = 24
+	@1944 = 28
+	@1945 = 30
+	@1946 = 33
 	
 	multirole_fighter = {
 
@@ -482,6 +482,40 @@ technologies = {
 		}
 		
 		path = {
+			leads_to_tech = digital_optical_diffusion_coat
+            research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = air_techs_folder
+			position = { x = 12 y = @1939 }
+		}
+		
+		
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	digital_optical_diffusion_coat = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
 			leads_to_tech = high_information_noise_diffuser
             research_cost_coeff = 1
 		}
@@ -492,8 +526,6 @@ technologies = {
 			name = air_techs_folder
 			position = { x = 12 y = @1942 }
 		}
-		
-		
 		
 		categories = {
 			air_equipment
@@ -520,40 +552,6 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = 12 y = @1944 }
-		}
-		
-		
-		
-		categories = {
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	digital_optical_diffusion_coat = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-		
-		path = {
-			leads_to_tech = stuff
-            research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1942
-		folder = {
-			name = air_techs_folder
-			position = { x = 12 y = @1942 }
 		}
 		
 		
@@ -984,10 +982,10 @@ technologies = {
 	
 	maximum_force_responder = {
 
-		enable_equipments = 
+		enable_equipments = {
 			maximum_force_responder_equipment
 		}
-
+		
 		enable_equipment_modules = {
 		}
 		
@@ -1005,8 +1003,6 @@ technologies = {
 			name = air_techs_folder
 			position = { x = 2 y = @1943 }
 		}
-		
-		
 		
 		categories = {
 			air_equipment
@@ -1027,11 +1023,6 @@ technologies = {
 		}
 		
 		enable_subunits = {
-		}
-		
-		path = {
-			leads_to_tech = stuff
-            research_cost_coeff = 1
 		}
 
 		research_cost = 1.5
@@ -1446,7 +1437,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = grount_combat_support_gunship
+			leads_to_tech = ground_combat_support_gunship
             research_cost_coeff = 1
 		}		
 		
@@ -1727,10 +1718,10 @@ technologies = {
 		}
 	}
 	
-	grount_combat_support_gunship = {
+	ground_combat_support_gunship = {
 
 		enable_equipments = {
-			grount_combat_support_gunship_equipment
+			ground_combat_support_gunship_equipment
 		}
 
 		enable_equipment_modules = {

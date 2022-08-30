@@ -288,8 +288,8 @@ pulse_vector_ramjets_desc:0 "Pulse Vector Ramjets "
 overtuned_aerospike_ramjets:0 "Overtuned Aerospike Ramjets "
 overtuned_aerospike_ramjets_desc:0 "Overtuned Aerospike Ramjets "
 
-low_state_ion_plasma_engines:0 "Low State Ion Plasma Engines "
-low_state_ion_plasma_engines_desc:0 "Low State Ion Plasma Engines "
+low_state_ion_plasma_engines:0 "Low-State Ion Plasma Engines "
+low_state_ion_plasma_engines_desc:0 "Low-State Ion Plasma Engines "
 
 automatic_variable_plasma_engines:0 "Automatic Variable Plasma Engines "
 automatic_variable_plasma_engines_desc:0 "Automatic Variable Plasma Engines "
@@ -363,8 +363,16 @@ air_space_denial_unit_desc:0 "Air Space Denial Unit "
 integrated_electronic_warfare_system:0 "Integrated Electronic Warfare System "
 integrated_electronic_warfare_system_desc:0 "Integrated Electronic Warfare System "
 
-infrared_countermeasure_flares:0 "Infrared Countermeasure Flares "
-infrared_countermeasure_flares_desc:0 "Infrared Countermeasure Flares "
+infrared_countermeasure_flares:0 "Infrared Flares "
+infrared_countermeasure_flares_desc:0 "Infrared Flares "
+
+directed_electromagnetic_micropulser:0 "Electromagnetic Micropulser"
+
+real_time_battlefield_display:0 "Real Time Battlefield Display"
+
+digital_optical_diffusion_coat:0 "Digital-Optical Diffusion Coat"
+
+micro_missile_interceptor_pods:0 "Micro-Missiles Interceptor Pods"
 
 electromagnetic_absorbant_material:0 "Electromagnetic Absorbant Material "
 electromagnetic_absorbant_material_desc:0 "Electromagnetic Absorbant Material "
@@ -429,8 +437,8 @@ particle_lance_desc:0 "Particle Lance"
 omnidirectional_permatrack_missiles:0 "Omnidirectional Permatrack Missiles"
 omnidirectional_permatrack_missiles_desc:0 "Omnidirectional Permatrack Missiles"
 
-multirole_fighter_equipmen:0 "Multirole Fighter"
-multirole_fighter_equipmen_desc:0 "Multirole Fighter"
+multirole_fighter_equipment:0 "Multirole Fighter"
+multirole_fighter_equipment_desc:0 "Multirole Fighter"
 
 aerial_coverage_unit_equipment:0 "Aerial Coverage Unit "
 aerial_coverage_unit_equipment_desc:0 "Aerial Coverage Unit "
@@ -507,7 +515,10 @@ atmospheric_armament_deployer_equipment_desc:0 "Atmospheric Armament Deployer "
 maximum_force_responder_equipment:0 "Maximum Force Reponsder"
 maximum_force_responder_equipment_desc:0 "Maximum Force Responder"
 
+general_purpose_ordonance_deliver_equipment:0 "General Purpose Ordonance Deliverer"
+general_purpose_ordonance_deliver_equipment_desc:0 "General Purpose Ordonance Deliverer"
 
-
+ground_combat_support_gunship_equipment:0 "Ground Combat Support Gunship"
+ground_combat_support_gunship_equipment_desc:0 "Ground Combat Support Gunship"
 
  
