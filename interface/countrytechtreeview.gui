@@ -1481,11 +1481,6 @@ guiTypes = {
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_techtree_stripes"
-				}
 				
 				iconType = {
 					name ="artillery_techtree_bg"
@@ -1624,7 +1619,7 @@ guiTypes = {
 				maxHeight = 32
 				format = left
 				Orientation = "UPPER_LEFT"
-			}	
+			}
 
 			gridboxtype = {
 				name = "multirole_fighter_tree"
@@ -3024,57 +3019,6 @@ guiTypes = {
 			format = right
 		}
 	}
-	
-	containerWindowType = {
-		name = "techtree_air_techs_folder_small_item"
-		position = { x=0 y=0 }
-		size = { width = 72 height = 72 }
-		clipping = no
-
-		# This controls the unavailable icon for the non-equipment technology
-		background = {
-			name = "bg"
-			quadTextureSprite ="GFX_technology_unavailable_item_bg"
-		}
-
-		# This grabs the GFX_<technology>_medium for the technology dynamically
-		iconType = {
-			name = "Icon"
-			position = { x=0 y=0 }
-			spriteType = "GFX_technology_medium"
-			alwaystransparent = yes
-		}    
-		
-		instantTextBoxType = {
-			name = "Name"
-			position = { x = -55 y = -45 }
-			textureFile = ""
-			font = "hoi_20bs"
-			borderSize = {x = 4 y = 4}
-			text = ""
-			maxWidth = 170
-			maxHeight = 40
-			fixedsize = no
-			format = center
-		}
-			
-		iconType = {
-			name = "bonus_icon"
-			position = { x=3 y=-22 }
-			spriteType = "GFX_tech_bonus"
-		}
-		instantTextBoxType = {
-			name = "bonus"
-			position = { x = 17 y = -22 }
-			textureFile = ""
-			font = "hoi_16mbs"
-			borderSize = {x = 4 y = 4}
-			text = "lol boat"
-			maxWidth = 50
-			maxHeight = 20
-			format = right
-		}
-	}
 
 	containerWindowType = {
 		name = "techtree_artillery_folder_small_item"
@@ -3175,22 +3119,22 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 3 y = -1 }
+			position = { x = -10 y = -45 }
 			textureFile = ""
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = ""
-			maxWidth = 166
-			maxHeight = 20
-			fixedsize = yes
-			format = left
+			maxWidth = 200
+			maxHeight = 40
+			fixedsize = no
+			format = center
 		}
 
 		iconType = {
 			name = "Icon"
-			position = { x=89 y=50 }
+			position = { x=91 y=42 }
 			spriteType = "GFX_technology_medium"
-			centerposition = yes	
+			centerposition = yes
 			alwaystransparent = yes
 		}
 
@@ -3230,7 +3174,57 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}		
+	}
+	
+	containerWindowType = {
+		name = "techtree_air_techs_folder_small_item"
+		position = { x=0 y=0 }
+		size = { width = 72 height = 72 }
+		clipping = no
+
+		# This controls the unavailable icon for the non-equipment technology
+		background = {
+			name = "bg"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		# This grabs the GFX_<technology>_medium for the technology dynamically
+		iconType = {
+			name = "Icon"
+			position = { x=0 y=0 }
+			spriteType = "GFX_technology_medium"
+			alwaystransparent = yes
+		}    
 		
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = -55 y = -45 }
+			textureFile = ""
+			font = "hoi_20bs"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 170
+			maxHeight = 40
+			fixedsize = no
+			format = center
+		}
+			
+		iconType = {
+			name = "bonus_icon"
+			position = { x=3 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 17 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 50
+			maxHeight = 20
+			format = right
+		}
 	}
 	
 	
