@@ -2,6 +2,10 @@
 # If adding new technology, make sure they are uniquely named.
 
 technology_categories = {
+	infantry_weapons
+	infantry_weapons_equipment
+	railguns_weapons
+	railguns_weapons_equipment
 	light_air
 	medium_air
 	heavy_air
@@ -13,7 +17,6 @@ technology_categories = {
 	cat_anti_tank
 	cat_anti_air
 	naval_air
-	infantry_weapons
 	motorized_equipment
 	cat_mechanized_equipment
 	naval_equipment

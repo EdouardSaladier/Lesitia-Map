@@ -1,0 +1,201 @@
+ideas = {
+	hidden_ideas = {
+	
+		caseless_munitions_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}		
+		}
+		
+		telescoped_munitions_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+					instant = yes
+				}
+			}		
+		}
+		
+		airbust_munitions_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = 0.1
+					instant = yes
+				}
+			}		
+		}
+	
+		aermet_alloy_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				railguns_equipment_archetype = {
+					reliability = 0.1
+					instant = yes
+				}
+			}		
+		}
+		
+		eglin_alloy_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				railguns_equipment_archetype = {
+					reliability = 0.2
+					instant = yes
+				}
+			}		
+		}
+		
+		field_cooling_system_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				railguns_equipment_archetype = {
+					soft_attack = 0.1
+					instant = yes
+				}
+			}		
+		}
+		
+		total_vacuum_bore_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				railguns_equipment_archetype = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+					instant = yes
+				}
+			}		
+		}
+		
+		constantly_computed_impact_point_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				hud_equipment = {
+					soft_attack = 0.5
+					defense = 0.5
+					instant = yes
+				}
+			}		
+		}
+		
+		tactical_informations_and_communications_system_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				hud_equipment = {
+					soft_attack = 0.5
+					breakthrough = 2
+					instant = yes
+				}
+			}		
+		}
+		
+		cognitive_technological_threat_warning_system_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				hud_equipment = {
+					soft_attack = 0.5
+					defense = 1.5
+					breakthrough = 1
+					instant = yes
+				}
+			}		
+		}
+		
+	}
+}
