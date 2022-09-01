@@ -3,12 +3,39 @@ ideas = {
 		law = yes
 		use_list_view = yes
 		
-		civ_core_food_cons_normal = {
-			level = 1
+		civ_core_food_cons_plenitude = {
+			cost = 50
+			removal_cost = -1
+			level = 4
+			
 			cancel_if_invalid = no
+			
+			modifier = {
+				civ_core_food_modifier = 150
+				stability_weekly = 0.001
+				war_support_weekly = 0.001
+			}
+			
+			on_add = {
+				country_event = {
+					id = lesitia_food.1
+					hours = 1
+				}
+			}
+			
+		}
+		
+		civ_core_food_cons_normal = {
+			cost = 50
+			removal_cost = -1
+			level = 3
+			
+			cancel_if_invalid = no
+			
 			modifier = {
 				civ_core_food_modifier = 100
 			}
+			
 			on_add = {
 				country_event = {
 					id = lesitia_food.1
@@ -19,11 +46,38 @@ ideas = {
 		}		
 		
 		civ_core_food_cons_low = {
-			level = 1
+			cost = 50
+			removal_cost = -1
+			level = 2
+			
 			cancel_if_invalid = no
+			
 			modifier = {
 				civ_core_food_modifier = 70
 			}
+			
+			available = {
+				has_war_support > 0.3
+			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 10
+					OR = {
+						check_variable = { resource@food < 0 }
+						check_variable = { resource_imported@food > 50.0 }
+					}
+				}
+				modifier = {
+					factor = 0.5
+					OR = {
+						check_variable = { resource@food < -20 }
+						check_variable = { resource_imported@food > 100.0 }
+					}
+				}
+			}
+			
 			on_add = {
 				country_event = {
 					id = lesitia_food.1
@@ -33,15 +87,37 @@ ideas = {
 		}
 
 		civ_core_food_cons_very_low = {
+			cost = 50
+			removal_cost = -1
 			level = 1
+			
+			available = {
+				has_war_support > 0.6
+			}
+			
 			cancel_if_invalid = no
+			
 			modifier = {
 				civ_core_food_modifier = 40
+				stability_weekly = -0.001
+				war_support_weekly = -0.001
 			}
+			
 			on_add = {
 				country_event = {
 					id = lesitia_food.1
 					hours = 1
+				}
+			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 10
+					OR = {
+						check_variable = { resource@food < -20 }
+						check_variable = { resource_imported@food > 100.0 }
+					}
 				}
 			}
 		}

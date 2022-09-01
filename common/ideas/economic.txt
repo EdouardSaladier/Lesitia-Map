@@ -1,0 +1,404 @@
+ideas = {
+
+	economy = {
+		law = yes
+		use_list_view = yes
+
+		civilian_economy = {
+			level = 5
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.2
+				production_speed_industrial_complex_factor = 0.2
+				production_speed_arms_factory_factor = -0.3
+				production_speed_dockyard_factor = -0.3
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+		
+		low_economic_mobilisation = {
+			level = 4
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = -0.1
+				production_speed_dockyard_factor = -0.1
+			}
+			
+			available = {
+				has_war_support > 0.2
+			}
+			
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 20
+
+					is_major = yes
+				}
+   			}
+
+			cancel_if_invalid = no
+		}
+		
+		partial_economic_mobilisation = {
+			level = 3
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.10
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+			}
+			
+			available = {
+				has_war_support > 0.4
+			}
+			
+			ai_will_do = {
+   				factor = 2
+
+   				modifier = {
+					factor = 20
+
+					is_major = yes
+				}
+   			}
+
+			cancel_if_invalid = no
+		}
+		
+		war_economy = {
+			level = 2
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = 0.2
+				production_speed_dockyard_factor = 0.2
+			}
+			
+			available = {
+				has_war_support > 0.6
+			}
+			
+			ai_will_do = {
+   				factor = 3
+
+   				modifier = {
+					factor = 20
+
+					is_major = yes
+				}
+   			}
+
+			cancel_if_invalid = no
+		}
+		
+		tot_economic_mobilisation = {
+			level = 1
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				production_speed_industrial_complex_factor = -0.2
+				production_speed_arms_factory_factor = 0.3
+				production_speed_dockyard_factor = 0.3
+			}
+			
+			available = {
+				has_war_support > 0.8
+			}
+			
+			ai_will_do = {
+   				factor = 5
+
+   				modifier = {
+					factor = 20
+
+					is_major = yes
+				}
+   			}
+
+			cancel_if_invalid = no
+		}
+	}
+	
+	civilian_consumption = {
+		law = yes
+		use_list_view = yes
+
+		consumer_paradise = {
+			level = 4
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.2
+				stability_weekly = 0.001
+				war_support_weekly = 0.001
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		regular_consumption = {
+			level = 3
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+		
+		consumer_austrerity = {
+			level = 2
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.10
+				stability_weekly = -0.001
+				war_support_weekly = -0.001
+			}
+			
+			available = {
+				has_war_support > 0.2
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		consumer_rationing = {
+			level = 1
+			cost = 100
+			removal_cost = -1
+			
+			available = {
+				has_war_support > 0.4
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_weekly = -0.0025
+				war_support_weekly = -0.0025
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+	
+	trade_laws = {
+		law = yes
+		use_list_view = yes
+
+		free_trade = {
+			level = 4
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				min_export = 0.75
+				industrial_capacity_factory = 0.20
+				industrial_capacity_dockyard = 0.20
+				production_speed_buildings_factor = 0.20
+			}
+
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+   			}
+		}
+
+		export_focus = {
+			level = 3
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				min_export = 0.5
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+				production_speed_buildings_factor = 0.10
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+					factor = 0
+
+					is_major = no
+					has_war = no
+					is_in_faction = no
+				}
+   			}
+		}
+
+		limited_exports = {
+			level = 2
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				min_export = 0.25
+			}
+			
+			available = {
+				has_war_support > 0.2
+			}
+
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					add = -1
+
+					is_major = no
+					is_in_faction = yes
+					has_war = yes
+				}
+
+				# minors not at war should want to get the bonuses from free trade
+				modifier = {
+					add = -1
+
+					is_major = no
+					has_war = no
+				}
+
+				modifier = {
+					add = 1500
+					has_idea = closed_economy
+					has_large_ally_not_pick_closed_economy = yes
+				}
+   			}
+		}
+
+		closed_economy = {
+			level = 1
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				min_export = 0
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+				production_speed_buildings_factor = -0.10
+			}
+			
+			available = {
+				has_war_support > 0.6
+			}
+
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 0
+
+					is_major = no
+					is_in_faction = yes
+					has_war = yes
+				}
+
+				# minors not at war should want to get the bonuses from free trade
+				modifier = {
+					factor = 0
+
+					is_major = no
+					has_war = no
+				}
+
+				modifier = {
+					factor = 0
+
+					# don't take if we have a reasonable sized ally
+					# since they will require our trades
+					has_large_ally_not_pick_closed_economy = yes
+				}
+   			}
+		}
+	}
+	
+	export_subsidies = {
+		law = yes
+		use_list_view = yes
+
+		no_subsidies = {
+			level = 4
+			cost = 20
+			removal_cost = -1
+			
+			default = yes
+
+			cancel_if_invalid = no
+		}
+		
+		small_subsidies = {
+			level = 3
+			cost = 20
+			removal_cost = -1
+
+			modifier = {
+				trade_opinion_factor = 0.10
+				political_power_gain = -0.1
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		medium_subsidies = {
+			level = 2
+			cost = 20
+			removal_cost = -1
+
+			modifier = {
+				trade_opinion_factor = 0.30
+				political_power_gain = -0.2
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		generous_subsidies = {
+			level = 1
+			cost = 20
+			removal_cost = -1
+
+			modifier = {
+				trade_opinion_factor = 0.50
+				political_power_gain = -0.3
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+	
+}
