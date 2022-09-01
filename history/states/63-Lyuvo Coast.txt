@@ -4,6 +4,9 @@ state={
 	
 	history={
 		owner = VRT
+		victory_points = {
+		      14519 10
+	    }
 		add_core_of = VRT
 		set_variable = { specie = 75 }
 	}

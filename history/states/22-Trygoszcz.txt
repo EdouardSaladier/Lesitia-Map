@@ -5,6 +5,9 @@ state={
 
 	history={
 		owner = AVN
+		victory_points = {
+		      14930 10
+	    }
 		add_core_of = AVN
 		set_variable = { specie = 77 }
 	}

@@ -4,6 +4,15 @@ state={
 	
 	history={
 		owner = SYM
+		victory_points = {
+		      5606 5
+	    }
+		victory_points = {
+		      6303 10
+	    }
+		victory_points = {
+		      2791 15
+	    }
 		add_core_of = SYM
 		set_variable = { specie = 73 }
 	}

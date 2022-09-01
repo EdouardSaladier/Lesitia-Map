@@ -5,6 +5,12 @@ state={
 
 	history={
 		owner = TRD
+		victory_points = {
+		      20612 15
+	    }
+		victory_points = {
+		      20613 10
+	    }
 		add_core_of = TRD
 
 	}
@@ -12,7 +18,7 @@ state={
 	provinces={
 		1626 2473 6094 14729 14738 14817 14897 14912 20612 20613 20615 
 	}
-	manpower=1
+	manpower=2000000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

@@ -1,10 +1,5 @@
 ﻿l_english:
 # INFANTRY
-
- infantry_equipment:0 "All Conventional Firearms"
- railguns_equipment_archetype:0 "All Railguns"
- hud_equipment:0 "Optical Head-mounted Display"
- 
  conventional_firearms:0 "Conventional Firearms"
  conventional_firearms_desc:0 "TODO"
  
@@ -13,15 +8,12 @@
 
  caseless_munitions:0 "Caseless Munitions"
  caseless_munitions_desc:0 "TODO"
- caseless_munitions_idea:0 "Caseless Munitions"
 
  telescoped_munitions:0 "Telescoped Munitions"
  telescoped_munitions_desc:0 "TODO"
- telescoped_munitions_idea:0 "Telescoped Munitions"
 
  airbust_munitions:0 "Airbust Munitions"
  airbust_munitions_desc:0 "TODO"
- airbust_munitions_idea:0 "Airbust Munitions"
 
  precision_guided_firearms:0 "Precision-guided Firearms"
  precision_guided_firearms_desc:0 "TODO"
@@ -37,17 +29,12 @@
 
  aermet_alloy:0 "Aermet Alloy"
  aermet_alloy_desc:0 "TODO"
- aermet_alloy_tooltip:0 "Gives a §Y+15% reliability§! £repairing bonus to all §YRailguns§! \n§RNOTE: Due to game limitations, this is done through a hidden National Spirit giving the buff to the equipment, meaning that the buff will not appear on the equipment stats§!"
- aermet_alloy_idea:0 "Aermet Alloy"
- 
+
  eglin_alloy:0 "Eglin Alloy"
  eglin_alloy_desc:0 "TODO"
- eglin_alloy_tooltip:0 "Gives a §Y+25% reliability§! £repairing bonus to all §YRailguns§! \n§RNOTE: Due to game limitations, this is done through a hidden National Spirit giving the buff to the equipment, meaning that the buff will not appear on the equipment stats§!"
- eglin_alloy_idea:0 "Eglin Alloy"
- 
+
  field_cooling_system:0 "Field Cooling System"
  field_cooling_system_desc:0 "TODO"
- field_cooling_system_idea:0 "Field Cooling System"
 
  helical_railguns:0 "Helical Railguns"
  helical_railguns_desc:0 "TODO"
@@ -57,7 +44,6 @@
 
  total_vacuum_bore:0 "Total Vacuum Bore"
  total_vacuum_bore_desc:0 "TODO"
- total_vacuum_bore_idea:0 "Total Vacuum Bore"
 
  plasma_railguns:0 "Plasma Railguns"
  plasma_railguns_desc:0 "TODO"
@@ -76,15 +62,12 @@
 
  constantly_computed_impact_point:0 "Constantly Computed Impact Point"
  constantly_computed_impact_point_desc:0 "TODO"
- constantly_computed_impact_point_idea:0 "Constantly Computed Impact Point"
 
  tactical_informations_and_communications_system:0 "Tactical Informations and Communications System"
  tactical_informations_and_communications_system_desc:0 "TODO"
- tactical_informations_and_communications_system_idea:0 "Tactical Informations and Communications System"
 
  cognitive_technological_threat_warning_system:0 "Cognitive Threat Warning System"
  cognitive_technological_threat_warning_system_desc:0 "TODO"
- cognitive_technological_threat_warning_system_idea:0 "Cognitive Threat Warning System"
 
  night_vision:0 "Night Vision"
  night_vision_desc:0 "TODO"
@@ -268,257 +251,4 @@
  
  nuclear_turboengines:0 "Nuclear Turboengines"
  heavy_hovertank:0 "Up-Armored Hovertank"
- 
- # AERIAL
-multirole_fighter:0 "Multirole Fighter "
-multirole_fighter_desc:0 "Multirole Fighter "
-
-aerial_coverage_unit:0 "Aerial Coverage Unit "
-aerial_coverage_unit_desc:0 "Aerial Coverage Unit "
-
-decisive_superiority_fighter:0 "Decisive Superiority Fighter "
-decisive_superiority_fighter_desc:0 "Decisive Superiority Fighter "
-
-universal_tactical_fighter:0 "Universal Tactical Fighter "
-universal_tactical_fighter_desc:0 "Universal Tactical Fighter "
-
-pulse_vector_ramjets:0 "Pulse Vector Ramjets "
-pulse_vector_ramjets_desc:0 "Pulse Vector Ramjets "
-
-overtuned_aerospike_ramjets:0 "Overtuned Aerospike Ramjets "
-overtuned_aerospike_ramjets_desc:0 "Overtuned Aerospike Ramjets "
-
-low_state_ion_plasma_engines:0 "Low-State Ion Plasma Engines "
-low_state_ion_plasma_engines_desc:0 "Low-State Ion Plasma Engines "
-
-automatic_variable_plasma_engines:0 "Automatic Variable Plasma Engines "
-automatic_variable_plasma_engines_desc:0 "Automatic Variable Plasma Engines "
-
-electronic_plasma_hypersonic_scamjet:0 "Electronic Plasma Hypersonic Scamjet "
-electronic_plasma_hypersonic_scamjet_desc:0 "Electronic Plasma Hypersonic Scamjet "
-
-global_combat_fighter:0 "Global Combat Fighter "
-global_combat_fighter_desc:0 "Global Combat Fighter "
-
-lethality_dominance_aerial_platform:0 "Lethality Dominance Aerial Platform "
-lethality_dominance_aerial_platform_desc:0 "Lethality Dominance Aerial Platform "
-
-minimal_radar_crossection:0 "Minimal Radar Crossection "
-minimal_radar_crossection_desc:0 "Minimal Radar Crossection "
-
-stealth_combat_fighter:0 "Stealth Combat Fighter "
-stealth_combat_fighter_desc:0 "Stealth Combat Fighter "
-
-leveled_map_display:0 "Leveled Map Display "
-leveled_map_display_desc:0 "Leveled Map Display "
-
-interdictor_suppremacy_fighter:0 "Interdictor Suppremacy Fighter "
-interdictor_suppremacy_fighter_desc:0 "Interdictor Suppremacy Fighter "
-
-maximum_interceptbility_striker:0 "Maximum Interceptbility Striker "
-maximum_interceptbility_striker_desc:0 "Maximum Interceptbility Striker "
-
-optical_silence_fighter:0 "Optical Silence Fighter "
-optical_silence_fighter_desc:0 "Optical Silence Fighter "
-
-strike_interceptor:0 "Strike Interceptor "
-strike_interceptor_desc:0 "Strike Interceptor "
-
-versatile_hardmount_system:0 "Versatile Hardmount System "
-versatile_hardmount_system_desc:0 "Versatile Hardmount System "
-
-quick_maneuver_missiles:0 "Quick Maneuver Missiles "
-quick_maneuver_missiles_desc:0 "Quick Maneuver Missiles "
-
-all_directional_multi_purpose_missiles:0 "All Directional Multi Purpose Missiles "
-all_directional_multi_purpose_missiles_desc:0 "All Directional Multi Purpose Missiles "
-
-gyroscopic_railgun_system:0 "Gyroscopic Railgun System "
-gyroscopic_railgun_system_desc:0 "Gyroscopic Railgun System "
-
-electromagnetic_launcher_pod:0 "Electromagnetic Launcher Pod "
-electromagnetic_launcher_pod_desc:0 "Electromagnetic Launcher Pod "
-
-supressive_concussion_missiles:0 "Supressive Concussion Missiles "
-supressive_concussion_missiles_desc:0 "Supressive Concussion Missiles "
-
-cluster_burst_missiles:0 "Cluster Burst Missiles "
-cluster_burst_missiles_desc:0 "Cluster Burst Missiles "
-
-high_rate_autocannons:0 "High Rate Autocannons "
-high_rate_autocannons_desc:0 "High Rate Autocannons "
-
-aerial_lancer:0 "Aerial Lancer "
-aerial_lancer_desc:0 "Aerial Lancer "
-
-rapid_action_fighter:0 "Rapid Action Fighter "
-rapid_action_fighter_desc:0 "Rapid Action Fighter "
-
-maximum_force_responder:0 "Maximum Force Responder "
-maximum_force_responder_desc:0 "Maximum Force Responder "
-
-air_space_denial_unit:0 "Air Space Denial Unit "
-air_space_denial_unit_desc:0 "Air Space Denial Unit "
-
-integrated_electronic_warfare_system:0 "Integrated Electronic Warfare System "
-integrated_electronic_warfare_system_desc:0 "Integrated Electronic Warfare System "
-
-infrared_countermeasure_flares:0 "Infrared Flares "
-infrared_countermeasure_flares_desc:0 "Infrared Flares "
-
-directed_electromagnetic_micropulser:0 "Electromagnetic Micropulser"
-
-real_time_battlefield_display:0 "Real Time Battlefield Display"
-
-digital_optical_diffusion_coat:0 "Digital-Optical Diffusion Coat"
-
-micro_missile_interceptor_pods:0 "Micro-Missiles Interceptor Pods"
-
-electromagnetic_absorbant_material:0 "Electromagnetic Absorbant Material "
-electromagnetic_absorbant_material_desc:0 "Electromagnetic Absorbant Material "
-
-vibration_nullification_coating:0 "Vibration Nullification Coating "
-vibration_nullification_coating_desc:0 "Vibration Nullification Coating "
-
-high_information_noise_diffuser:0 "High Information Noise Diffuser "
-high_information_noise_diffuser_desc:0 "High Information Noise Diffuser "
-
-advanced_combat_bomber:0 "Advanced Combat Bomber "
-advanced_combat_bomber_desc:0 "Advanced Combat Bomber "
-
-logistical_bomber:0 "Logistical Bomber "
-logistical_bomber_desc:0 "Logistical Bomber "
-
-long_range_strike_bomber:0 "Long Range Strike Bomber "
-long_range_strike_bomber_desc:0 "Long Range Strike Bomber "
-
-global_coverage_bomber:0 "Global Coverage Bomber "
-global_coverage_bomber_desc:0 "Global Coverage Bomber "
-
-aerial_firepower_platform:0 "Aerial Firepower Platform "
-aerial_firepower_platform_desc:0 "Aerial Firepower Platform "
-
-atmospheric_armament_deployer:0 "Atmospheric Armament Deployer "
-atmospheric_armament_deployer_desc:0 "Atmospheric Armament Deployer "
-
-grount_combat_support_gunship:0 "Grount Combat Support Gunship "
-grount_combat_support_gunship_desc:0 "Grount Combat Support Gunship "
-
-dynamic_tactical_solidograph:0 "Dynamic Tactical Solidograph "
-dynamic_tactical_solidograph_desc:0 "Dynamic Tactical Solidograph "
-
-dynamic_tactical_solidograph:0 "Dynamic Tactical Solidograph "
-dynamic_tactical_solidograph_desc:0 "Dynamic Tactical Solidograph "
-
-long_range_assault_aircraft:0 "Long Range Assault Aircraft "
-long_range_assault_aircraft_desc:0 "Long Range Assault Aircraft "
-
-area_obstruction_support:0 "Area Obstruction Support "
-area_obstruction_support_desc:0 "Area Obstruction Support "
-
-ground_saturation_unit:0 "Ground Saturation Unit "
-ground_saturation_unit_desc:0 "Ground Saturation Unit "
-
-hard_vector_targeting_array:0 "Hard Vector Targeting Array "
-hard_vector_targeting_array_desc:0 "Hard Vector Targeting Array "
-
-assisted_submunitions:0 "Assisted Submunitions "
-assisted_submunitions_desc:0 "Assisted Submunitions "
-
-recursive_cluster_bombs:0 "Recursive Cluster Bombs "
-recursive_cluster_bombs_desc:0 "Recursive Cluster Bombs "
-
-ruby_zircon_pulse_laser_platform:0 "Ruby Zircon Pulse Laser Platform "
-ruby_zircon_pulse_laser_platform_desc:0 "Ruby Zircon Pulse Laser Platform "
-
-particle_lance:0 "Particle Lance"
-particle_lance_desc:0 "Particle Lance"
-
-omnidirectional_permatrack_missiles:0 "Omnidirectional Permatrack Missiles"
-omnidirectional_permatrack_missiles_desc:0 "Omnidirectional Permatrack Missiles"
-
-multirole_fighter_equipment:0 "Multirole Fighter"
-multirole_fighter_equipment_desc:0 "Multirole Fighter"
-
-aerial_coverage_unit_equipment:0 "Aerial Coverage Unit "
-aerial_coverage_unit_equipment_desc:0 "Aerial Coverage Unit "
-
-strike_interceptor_equipment:0 "Strike Interceptor "
-strike_interceptor_equipment_desc:0 "Strike Interceptor "
-
-aerial_lancer_equipment:0 "Aerial Lancer "
-aerial_lancer_equipment_desc:0 "Aerial Lancer "
-
-decisive_superiority_fighter_equipment:0 "Decisive Superiority Fighter "
-decisive_superiority_fighter_equipment_desc:0 "Decisive Superiority Fighter "
-
-stealth_combat_fighter_equipment:0 "Stealth Combat Fighter "
-stealth_combat_fighter_equipment_desc:0 "Stealth Combat Fighter "
-
-rapid_action_fighter_equipment:0 "Rapid Action Fighter "
-rapid_action_fighter_equipment_desc:0 "Rapid Action Fighter "
-
-universal_tactical_fighter_equipment:0 "Universal Tactical Fighter "
-universal_tactical_fighter_equipment_desc:0 "Universal Tactical Fighter "
-
-interdictor_suppremacy_fighter_equipment:0 "Interdictor Suppremacy Fighter "
-interdictor_suppremacy_fighter_equipment_desc:0 "Interdictor Suppremacy Fighter "
-
-maximum_interceptbility_striker_equipment:0 "Maximum Interceptbility Striker "
-maximum_interceptbility_striker_equipment_desc:0 "Maximum Interceptbility Striker "
-
-maximum_force_responder_equipment:0 "Maximum Force Responder "
-maximum_force_responder_equipment_desc:0 "Maximum Force Responder "
-
-global_combat_fighter_equipment:0 "Global Combat Fighter "
-global_combat_fighter_equipment_desc:0 "Global Combat Fighter "
-
-air_space_denial_unit_equipment:0 "Air Space Denial Unit "
-air_space_denial_unit_equipment_desc:0 "Air Space Denial Unit "
-
-lethality_dominance_aerial_platform_equipment:0 "Lethality Dominance Aerial Platform "
-lethality_dominance_aerial_platform_equipment_desc:0 "Lethality Dominance Aerial Platform "
-
-optical_silence_fighter_equipment:0 "Optical Silence Fighter "
-optical_silence_fighter_equipment_desc:0 "Optical Silence Fighter "
-
-advanced_combat_bomber_equipment:0 "Advanced Combat Bomber "
-advanced_combat_bomber_equipment_desc:0 "Advanced Combat Bomber "
-
-logistical_bomber_equipment:0 "Logistical Bomber "
-logistical_bomber_equipment_desc:0 "Logistical Bomber "
-
-grount_combat_support_gunship_equipment:0 "Grount Combat Support Gunship "
-grount_combat_support_gunship_equipment_desc:0 "Grount Combat Support Gunship "
-
-long_range_strike_bomber_equipment:0 "Long Range Strike Bomber "
-long_range_strike_bomber_equipment_desc:0 "Long Range Strike Bomber "
-
-long_range_assault_aircraft_equipment:0 "Long Range Assault Aircraft "
-long_range_assault_aircraft_equipment_desc:0 "Long Range Assault Aircraft "
-
-area_obstruction_support_equipment:0 "Area Obstruction Support "
-area_obstruction_support_equipment_desc:0 "Area Obstruction Support "
-
-global_coverage_bomber_equipment:0 "Global Coverage Bomber "
-global_coverage_bomber_equipment_desc:0 "Global Coverage Bomber "
-
-aerial_firepower_platform_equipment:0 "Aerial Firepower Platform "
-aerial_firepower_platform_equipment_desc:0 "Aerial Firepower Platform "
-
-ground_saturation_unit_equipment:0 "Ground Saturation Unit "
-ground_saturation_unit_equipment_desc:0 "Ground Saturation Unit "
-
-atmospheric_armament_deployer_equipment:0 "Atmospheric Armament Deployer "
-atmospheric_armament_deployer_equipment_desc:0 "Atmospheric Armament Deployer "
-
-maximum_force_responder_equipment:0 "Maximum Force Reponsder"
-maximum_force_responder_equipment_desc:0 "Maximum Force Responder"
-
-general_purpose_ordonance_deliver_equipment:0 "General Purpose Ordonance Deliverer"
-general_purpose_ordonance_deliver_equipment_desc:0 "General Purpose Ordonance Deliverer"
-
-ground_combat_support_gunship_equipment:0 "Ground Combat Support Gunship"
-ground_combat_support_gunship_equipment_desc:0 "Ground Combat Support Gunship"
-
  

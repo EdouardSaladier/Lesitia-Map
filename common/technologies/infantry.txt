@@ -19,27 +19,36 @@ technologies = {
 		enable_equipments = {
 			conventional_firearms_equipment
 		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
 		
 		path = {
 			leads_to_tech = precision_guided_firearms
-            research_cost_coeff = 1           
+            research_cost_coeff = 1
+            
 		}	
 
         path = {
 			leads_to_tech = caseless_munitions
             research_cost_coeff = 1
+			
 		}	
 
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1918
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = -1 }
 		}
 		
+		
+		
 		categories = {
 			infantry_weapons
-			infantry_weapons_equipment
 		}
 		
 		ai_will_do = {
@@ -48,9 +57,14 @@ technologies = {
 	}
 
     caseless_munitions = {
-	
-		on_research_complete = {
-			add_ideas = caseless_munitions_idea
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
 		}
 		
 		path = {
@@ -63,13 +77,14 @@ technologies = {
             research_cost_coeff = 1
 		}		
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
 			position = { x = -1 y = @1936 }
 		}
-				
+		
+		
 		categories = {
 			infantry_weapons
 		}
@@ -80,16 +95,17 @@ technologies = {
 	}
 
     telescoped_munitions = {
-	
-		on_research_complete = {
-			add_ideas = telescoped_munitions_idea
-		}
-	
-		XOR = {
-			airbust_munitions
-		}		
 
-		research_cost = 1
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}	
+
+		research_cost = 1.5
 		start_year = 1938
 		folder = {
 			name = infantry_folder
@@ -106,16 +122,17 @@ technologies = {
 	}
 
     airbust_munitions = {
-	
-		on_research_complete = {
-			add_ideas = airbust_munitions_idea
+
+		enable_equipments = {
 		}
 
-		XOR = {
-			telescoped_munitions
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
 		}		
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1938
 		folder = {
 			name = infantry_folder
@@ -136,6 +153,12 @@ technologies = {
 		enable_equipments = {
 			precision_guided_firearms_equipment
 		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
 		
 		path = {
 			leads_to_tech = railguns
@@ -144,7 +167,7 @@ technologies = {
 			leads_to_tech = laser_rangefinders
 		}
 
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -153,7 +176,6 @@ technologies = {
 		
 		categories = {
 			infantry_weapons
-			infantry_weapons_equipment
 		}
 
 		
@@ -168,6 +190,12 @@ technologies = {
 		enable_equipments = {
 			railguns_equipment
 		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
 		
 		path = {
 			leads_to_tech = field_cooling_system
@@ -177,95 +205,105 @@ technologies = {
 			leads_to_tech = aermet_alloy
 		}	
 
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1939 }
 		}
 		
-		infantry = {
-			need = {
-				infantry_equipment = -100
-			}
-			need = {
-				railguns_equipment = 100
-			}
-		}
-		
 		categories = {
 			infantry_weapons
-			infantry_weapons_equipment
-			railguns_weapons
-			railguns_weapons_equipment
 		}
 
+		
+		
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
 	aermet_alloy = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
 		
 		path = {
 			leads_to_tech = eglin_alloy
 		}		
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1940
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1940 }
 		}
 		
-		on_research_complete = {
-			add_ideas = aermet_alloy_idea
-		}
-		
 		categories = {
 			infantry_weapons
-			railguns_weapons
 		}
 
+		
+		
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
-	eglin_alloy = {	
+	eglin_alloy = {
 
-		research_cost = 1
-		start_year = 1943
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+		}		
+
+		research_cost = 1.5
+		start_year = 1940
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1943 }
 		}
 		
-		on_research_complete = {
-			add_ideas = eglin_alloy_idea
-		}
-		
 		categories = {
 			infantry_weapons
-			railguns_weapons
 		}
 
+		
+		
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
 	field_cooling_system = {
-	
-		on_research_complete = {
-			add_ideas = field_cooling_system_idea
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
 		}
 		
 		path = {
 			leads_to_tech = helical_railguns
 		}		
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1941
 		folder = {
 			name = infantry_folder
@@ -274,9 +312,10 @@ technologies = {
 		
 		categories = {
 			infantry_weapons
-			railguns_weapons
 		}
 
+		
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -287,12 +326,18 @@ technologies = {
 		enable_equipments = {
 			helical_railguns_equipment
 		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
 		
 		path = {
 			leads_to_tech = total_vacuum_bore
 		}		
 
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1942
 		folder = {
 			name = infantry_folder
@@ -301,10 +346,9 @@ technologies = {
 		
 		categories = {
 			infantry_weapons
-			infantry_weapons_equipment
-			railguns_weapons
-			railguns_weapons_equipment
 		}
+
+		
 		
 		ai_will_do = {
 			factor = 1
@@ -312,16 +356,21 @@ technologies = {
 	}
 
 	total_vacuum_bore = {
-	
-		on_research_complete = {
-			add_ideas = total_vacuum_bore_idea
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
 		}
 		
 		path = {
 			leads_to_tech = plasma_railguns
 		}		
 
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1943
 		folder = {
 			name = infantry_folder
@@ -330,8 +379,9 @@ technologies = {
 		
 		categories = {
 			infantry_weapons
-			railguns_weapons
 		}
+
+		
 		
 		ai_will_do = {
 			factor = 1
@@ -344,7 +394,13 @@ technologies = {
 			plasma_railguns_equipment
 		}
 
-		research_cost = 2
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}	
+
+		research_cost = 1.5
 		start_year = 1944
 		folder = {
 			name = infantry_folder
@@ -353,27 +409,31 @@ technologies = {
 		
 		categories = {
 			infantry_weapons
-			infantry_weapons_equipment
-			railguns_weapons
-			railguns_weapons_equipment
 		}
 
+		
+		
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
 	laser_rangefinders = {
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
 		
 		path = {
 			leads_to_tech = optical_head_mounted_display
 		}		
-		
-		category_all_infantry = {
-			soft_attack = 0.05
-		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -384,6 +444,8 @@ technologies = {
 			infantry_weapons
 		}
 
+		
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -395,18 +457,20 @@ technologies = {
 			optical_head_mounted_display_equipment
 		}
 
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		
+		
 		path = {
 			leads_to_tech = constantly_computed_impact_point
 		}		
 
 		path = {
 			leads_to_tech = hyper_spectral_imagery
-		}
-		
-		infantry = {
-			need = {
-				anti_air_shoulder_equipment = 10
-			}
 		}
 
 		research_cost = 1.5
@@ -420,22 +484,29 @@ technologies = {
 			infantry_weapons
 		}
 
+		
+		
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
 	constantly_computed_impact_point = {
-	
-		on_research_complete = {
-			add_ideas = constantly_computed_impact_point_idea
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
 		}
 		
 		path = {
 			leads_to_tech = tactical_informations_and_communications_system
 		}		
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1940
 		folder = {
 			name = infantry_folder
@@ -446,26 +517,29 @@ technologies = {
 			infantry_weapons
 		}
 
+		
+		
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
 	tactical_informations_and_communications_system = {
-	
-		category_all_infantry = {
-			default_morale = 0.2
+
+		enable_equipments = {
 		}
-	
-		on_research_complete = {
-			add_ideas = tactical_informations_and_communications_system_idea
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
 		}
 		
 		path = {
 			leads_to_tech = cognitive_technological_threat_warning_system
 		}		
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1942
 		folder = {
 			name = infantry_folder
@@ -476,22 +550,28 @@ technologies = {
 			infantry_weapons
 		}
 
+		
+		
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
 	cognitive_technological_threat_warning_system = {
-	
-		category_all_infantry = {
-			max_organisation = 5
+
+		enable_equipments = {
 		}
 
-		on_research_complete = {
-			add_ideas = cognitive_technological_threat_warning_system_idea
-		}			
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+		}		
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1944
 		folder = {
 			name = infantry_folder
@@ -502,6 +582,8 @@ technologies = {
 			infantry_weapons
 		}
 
+		
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -509,13 +591,20 @@ technologies = {
 
 	night_vision = {
 
-		land_night_attack = 0.2
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
 
 		path = {
 			leads_to_tech = auto_gating
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -532,14 +621,21 @@ technologies = {
 	}
 
 	auto_gating = {
-	
-		land_night_attack = 0.25
-	
+
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
 		path = {
 			leads_to_tech = hyper_spectral_imagery
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1938
 		folder = {
 			name = infantry_folder
@@ -556,10 +652,17 @@ technologies = {
 	}
 
 	hyper_spectral_imagery = {
-	
-		land_night_attack = 0.35
 
-		research_cost = 1
+		enable_equipments = {
+		}
+
+		enable_equipment_modules = {
+		}
+		
+		enable_subunits = {
+		}
+
+		research_cost = 1.5
 		start_year = 1940
 		folder = {
 			name = infantry_folder
@@ -594,7 +697,7 @@ technologies = {
 			leads_to_tech = multi_scale_camouflage
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -625,7 +728,7 @@ technologies = {
 			leads_to_tech = retroflector_active_camouflage
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1937
 		folder = {
 			name = infantry_folder
@@ -656,7 +759,7 @@ technologies = {
 			leads_to_tech = microclimate_cooling_system
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -687,7 +790,7 @@ technologies = {
 			leads_to_tech = phased_array_optical_holographs
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1941
 		folder = {
 			name = infantry_folder
@@ -714,7 +817,7 @@ technologies = {
 		enable_subunits = {
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1943
 		folder = {
 			name = infantry_folder
@@ -745,7 +848,7 @@ technologies = {
 			leads_to_tech = combat_uniform_system
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -776,7 +879,7 @@ technologies = {
 			leads_to_tech = high_modulus_polyethynel_armor
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1937
 		folder = {
 			name = infantry_folder
@@ -807,7 +910,7 @@ technologies = {
 			leads_to_tech = urban_assault_weapons
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -838,7 +941,7 @@ technologies = {
 			leads_to_tech = powered_exoskeletons
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1942
 		folder = {
 			name = infantry_folder
@@ -865,7 +968,7 @@ technologies = {
 		enable_subunits = {
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1943
 		folder = {
 			name = infantry_folder
