@@ -31,3 +31,10 @@ create_country_leader = {
 	picture = "portrait_labhrann_iomharach.dds"
 	ideology = theocracy_type
 }
+
+create_country_leader = {
+	name = "Laomann IlleBhàin"
+	desc = "CMM_Labhrann_desc"
+	picture = "portrait_labhrann_iomharach.dds"
+	ideology = theocracy_type
+}

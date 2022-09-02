@@ -3,11 +3,11 @@ state={
 	name="STATE_242"
 	
 	history={
-		owner = TRD
+		owner = REZ
 		victory_points = {
 		      14672 10
 	    }
-		add_core_of = TRD
+		add_core_of = REZ
 
 	}
 	

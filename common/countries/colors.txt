@@ -44,7 +44,7 @@ LUR = {
 	color = rgb { 205 200 175 }
 	color_ui = rgb { 205 200 175 }
 }
-TRD = {
+REZ = {
 	color = rgb { 162 124 99 }
 	color_ui = rgb { 162 124 99 }
 }
