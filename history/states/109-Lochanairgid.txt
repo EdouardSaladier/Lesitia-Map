@@ -6,6 +6,9 @@ state={
 		owner = CMM
 		add_core_of = CMM
 		set_variable = { specie = 49 }
+		victory_points = {
+		    13702 30
+	    }
 	}
 	
 	provinces={

@@ -1,5 +1,6 @@
 ﻿l_english:
  VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
+ ### Symbiotic Fed
  VICTORY_POINTS_20578:0 "Zhafollis"
  VICTORY_POINTS_20575:0 "Ambersville"
  VICTORY_POINTS_4137:0 "Petedoy"
@@ -97,3 +98,19 @@
  VICTORY_POINTS_7530:0 "Poitoa"
  VICTORY_POINTS_13726:0 "Retir"
  VICTORY_POINTS_14538:0 "Ocenik"
+ ### Commonwealth
+ VICTORY_POINTS_1052:0 "Trìsruthan"
+ VICTORY_POINTS_13683:0 "Isdearg"
+ VICTORY_POINTS_13702:0 "Buirsalainn"
+ VICTORY_POINTS_7598:0 "Comhancailc"
+ VICTORY_POINTS_9512:0 "Dùnstàilinn"
+ VICTORY_POINTS_13973:0 "Caliarainn"
+ VICTORY_POINTS_3164:0 "Bàghceò"
+ VICTORY_POINTS_9910:0 "Mullachuidhe"
+ VICTORY_POINTS_14041:0 "Beingheal"
+ VICTORY_POINTS_16401:0 "Chadeaglais"
+ VICTORY_POINTS_7878:0 "Caladhear"
+ VICTORY_POINTS_1116:0 "Dorsfhàsaich"
+ VICTORY_POINTS_14412:0 "Clachàidir"
+ VICTORY_POINTS_4452:0 "Sgàildhubh"
+ VICTORY_POINTS_14314:0 "Dùnleamhan"

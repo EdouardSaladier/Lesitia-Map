@@ -7,6 +7,10 @@ state={
 		add_core_of = CMM
 		set_variable = { specie = 58 }
 		set_variable = { minority = 49 }
+		
+		victory_points = {
+		    7878 5
+	    }
 	}
 	
 	provinces={
