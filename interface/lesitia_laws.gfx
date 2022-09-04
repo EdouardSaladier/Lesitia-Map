@@ -34,4 +34,24 @@ spriteTypes = {
 		name = "GFX_idea_civ_non_core_food_cons_very_low"
 		texturefile = "gfx/interface/laws/civ_non_core_food_cons_very_low.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_consumer_rationing"
+		texturefile = "gfx/interface/laws/consumer_rationing.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_consumer_austrerity"
+		texturefile = "gfx/interface/laws/consumer_austrerity.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_regular_consumption"
+		texturefile = "gfx/interface/laws/regular_consumption.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_consumer_paradise"
+		texturefile = "gfx/interface/laws/consumer_paradise.dds"
+	}
 }
