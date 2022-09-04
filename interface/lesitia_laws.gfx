@@ -1,0 +1,37 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idea_civ_core_food_cons_plenitude"
+		texturefile = "gfx/interface/laws/civ_core_food_cons_plenitude.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_civ_core_food_cons_normal"
+		texturefile = "gfx/interface/laws/civ_core_food_cons_normal.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_civ_core_food_cons_low"
+		texturefile = "gfx/interface/laws/civ_core_food_cons_low.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_civ_core_food_cons_very_low"
+		texturefile = "gfx/interface/laws/civ_core_food_cons_very_low.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_civ_non_core_food_cons_normal"
+		texturefile = "gfx/interface/laws/civ_non_core_food_cons_normal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_civ_non_core_food_cons_low"
+		texturefile = "gfx/interface/laws/civ_non_core_food_cons_low.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_civ_non_core_food_cons_very_low"
+		texturefile = "gfx/interface/laws/civ_non_core_food_cons_very_low.dds"
+	}
+}
