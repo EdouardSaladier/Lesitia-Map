@@ -1,0 +1,65 @@
+lesitia_generic_decisions = {
+
+	increase_professionalism_law = {
+
+		icon = generic_army_support
+		days_re_enable = 120
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			NOT = {
+				has_idea = prof_1_law
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = {
+				has_idea = prof_1_law
+			}					
+		}
+		
+		custom_cost_trigger = {
+			command_power > 49
+			has_army_experience > var:manpower_laws_cost
+		}
+		custom_cost_text = increase_professionalism_law_tt
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -50
+				army_experience = manpower_laws_cost_n
+			}
+			if = {
+				limit = {
+					has_idea = prof_5_law
+				}
+				add_ideas = prof_4_law
+			}
+			if = {
+				limit = {
+					has_idea = prof_4_law
+				}
+				add_ideas = prof_3_law
+			}
+			if = {
+				limit = {
+					has_idea = prof_3_law
+				}
+				add_ideas = prof_2_law
+			}
+			if = {
+				limit = {
+					has_idea = prof_2_law
+				}
+				add_ideas = prof_1_law
+			}
+		}
+	}
+}

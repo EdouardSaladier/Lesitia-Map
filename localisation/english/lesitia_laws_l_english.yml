@@ -1,0 +1,11 @@
+﻿l_english:
+ professionalism_laws_tt:0 "§RProfessionnalism laws can only be changed through decisions§!"
+ increase_professionalism_law:0 "Increase Army Prof"
+ increase_professionalism_law_tt:0 "£command_power  §Y50§!, £army_experience §Y[?manpower_laws_cost]§!"
+ increase_professionalism_law_tt_blocked:0 "£command_power  §R50§!, £army_experience §R[?manpower_laws_cost]§!"
+ increase_professionalism_law_tt_tooltip:0 "It costs §Y50§!£command_power and §Y[?manpower_laws_cost]§!£army_experience (§Y1§!£army_experience per million inhabitants) to take the decision."
+ prof_5_law:0 "Conscript Army"
+ prof_4_law:0 "Low Professionalisation"
+ prof_3_law:0 "Professionalisation In Progress"
+ prof_2_law:0 "High Professionalisation"
+ prof_1_law:0 "Fully Professional Army"

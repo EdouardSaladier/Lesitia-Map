@@ -65,3 +65,23 @@ food_total_consumption = {
 		add = food_c
 	}
 }
+
+army_xp_cost_professionnalism = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pop_factor = max_manpower_k }
+		divide_temp_variable = { pop_factor = 1000 }
+		round_temp_variable = pop_factor
+		add = pop_factor
+	}
+}
+
+army_xp_cost_professionnalism_n = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pop_factor = max_manpower_k }
+		divide_temp_variable = { pop_factor = -1000 }
+		round_temp_variable = pop_factor
+		add = pop_factor
+	}
+}

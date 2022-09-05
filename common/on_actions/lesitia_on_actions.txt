@@ -14,6 +14,8 @@ on_actions = {
 				add_dynamic_modifier = {
 					modifier = food_needed_dyn_mod
 				}
+				set_variable = { manpower_laws_cost = mtth:army_xp_cost_professionnalism }
+				set_variable = { manpower_laws_cost_n = mtth:army_xp_cost_professionnalism_n }
 			}
 		}
 	}

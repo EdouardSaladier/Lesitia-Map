@@ -39,6 +39,7 @@ idea_categories = {
 	
 	government_2 = {
 		slot = mobilization_laws
+		slot = professionalism_laws
 		slot = laws_civ_core_food_cons
 		slot = laws_civ_non_core_food_cons
 		

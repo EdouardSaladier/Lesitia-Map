@@ -1,0 +1,7 @@
+lesitia_generic_decisions = {
+	icon = generic_propaganda
+
+	visible = {
+
+	}
+}
