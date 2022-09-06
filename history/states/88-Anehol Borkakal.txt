@@ -5,6 +5,9 @@ state={
 
 	history={
 		owner = AKU
+		victory_points = {
+		      12888 1
+	    }
 		add_core_of = AKU
 		set_variable = { specie = 20 }
 		set_variable = { minority = 66 }
