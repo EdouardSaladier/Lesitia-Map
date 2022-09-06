@@ -38,15 +38,9 @@ lesitia_generic_decisions = {
 			}
 			if = {
 				limit = {
-					has_idea = prof_5_law
+					has_idea = prof_2_law
 				}
-				add_ideas = prof_4_law
-			}
-			if = {
-				limit = {
-					has_idea = prof_4_law
-				}
-				add_ideas = prof_3_law
+				add_ideas = prof_1_law
 			}
 			if = {
 				limit = {
@@ -56,9 +50,15 @@ lesitia_generic_decisions = {
 			}
 			if = {
 				limit = {
-					has_idea = prof_2_law
+					has_idea = prof_4_law
 				}
-				add_ideas = prof_1_law
+				add_ideas = prof_3_law
+			}
+			if = {
+				limit = {
+					has_idea = prof_5_law
+				}
+				add_ideas = prof_4_law
 			}
 		}
 	}

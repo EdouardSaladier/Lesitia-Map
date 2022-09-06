@@ -128,12 +128,35 @@ ideas = {
 		law = yes
 		use_list_view = yes
 		
-		civ_non_core_food_cons_normal = {
-			level = 1
+		civ_non_core_food_cons_plenitude = {
+			cost = 50
+			level = 4
 			cancel_if_invalid = no
+			
+			modifier = {
+				civ_non_core_food_modifier = 150
+				compliance_gain = 0.05
+				non_core_manpower = 0.1
+				resistance_target = -0.15
+			}
+			
+			on_add = {
+				country_event = {
+					id = lesitia_food.1
+					hours = 1
+				}
+			}
+		}
+		
+		civ_non_core_food_cons_normal = {
+			cost = 50
+			level = 3
+			cancel_if_invalid = no
+			
 			modifier = {
 				civ_non_core_food_modifier = 100
 			}
+			
 			on_add = {
 				country_event = {
 					id = lesitia_food.1
@@ -144,10 +167,14 @@ ideas = {
 		}		
 		
 		civ_non_core_food_cons_low = {
-			level = 1
+			cost = 50
+			level = 2
 			cancel_if_invalid = no
 			modifier = {
 				civ_non_core_food_modifier = 70
+				compliance_gain = -0.05
+				non_core_manpower = -0.1
+				resistance_target = 0.15
 			}
 			on_add = {
 				country_event = {
@@ -158,16 +185,183 @@ ideas = {
 		}
 
 		civ_non_core_food_cons_very_low = {
+			cost = 50
 			level = 1
 			cancel_if_invalid = no
 			modifier = {
 				civ_non_core_food_modifier = 40
+				compliance_gain = -0.1
+				non_core_manpower = -0.2
+				resistance_target = 0.3
 			}
 			on_add = {
 				country_event = {
 					id = lesitia_food.1
 					hours = 1
 				}
+			}
+		}
+
+	}
+	
+	power_consumption_laws = {
+		law = yes
+		use_list_view = yes
+		
+		unrestricted_power_access = {
+			cost = 50
+			level = 6
+			cancel_if_invalid = no
+			
+			modifier = {
+				fuel_gain_factor = -0.8
+				max_fuel_factor = -0.8
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+				production_speed_buildings_factor = 0.10
+			}
+			
+			
+		}
+		
+		regular_power_consumption = {
+			cost = 50
+			level = 5
+			cancel_if_invalid = no
+			
+			modifier = {
+				fuel_gain_factor = -0.5
+				max_fuel_factor = -0.5
+			}
+			
+			default = yes
+		}
+		
+		power_austerity = {
+			cost = 50
+			level = 4
+			cancel_if_invalid = no
+			
+			modifier = {
+				fuel_gain_factor = -0.25
+				max_fuel_factor = -0.25
+			}
+		}
+		
+		power_rationing = {
+			cost = 50
+			level = 3
+			cancel_if_invalid = no
+		}
+		
+		army_power_priority = {
+			cost = 50
+			level = 2
+			cancel_if_invalid = no
+			
+			modifier = {
+				fuel_gain_factor = 0.2
+				max_fuel_factor = 0.2
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+				production_speed_buildings_factor = -0.10
+			}
+		}
+		
+		all_power_to_the_army = {
+			cost = 50
+			level = 1
+			cancel_if_invalid = no
+			
+			modifier = {
+				fuel_gain_factor = 0.5
+				max_fuel_factor = 0.5
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				production_speed_buildings_factor = -0.25
+			}
+		}
+
+	}
+	
+	computer_laws = {
+		law = yes
+		use_list_view = yes
+		
+		no_computers = {
+			cost = 50
+			level = 7
+			cancel_if_invalid = no
+			
+			modifier = {
+				research_speed_factor = -0.2
+			}
+		}
+		
+		commercial_computers = {
+			cost = 50
+			level = 6
+			cancel_if_invalid = no
+			
+			modifier = {
+				country_resource_cost_electronics = 20
+			}
+			
+			default = yes
+		}
+		
+		massively_parallel_computers = {
+			cost = 50
+			level = 5
+			cancel_if_invalid = no
+			
+			modifier = {
+				country_resource_cost_electronics = 40
+				research_speed_factor = 0.1
+			}
+		}
+		
+		petascale_supercomputers = {
+			cost = 50
+			level = 4
+			cancel_if_invalid = no
+			
+			modifier = {
+				country_resource_cost_electronics = 60
+				research_speed_factor = 0.2
+			}
+		}
+		
+		exascale_supercomputers = {
+			cost = 50
+			level = 3
+			cancel_if_invalid = no
+			
+			modifier = {
+				country_resource_cost_electronics = 100
+				research_speed_factor = 0.5
+			}
+		}
+		
+		zettascale_supercomputers = {
+			cost = 50
+			level = 2
+			cancel_if_invalid = no
+			
+			modifier = {
+				country_resource_cost_electronics = 200
+				research_speed_factor = 1.0
+			}
+		}
+		
+		yottascale_supercomputers = {
+			cost = 50
+			level = 1
+			cancel_if_invalid = no
+			
+			modifier = {
+				country_resource_cost_electronics = 400
+				research_speed_factor = 2.0
 			}
 		}
 

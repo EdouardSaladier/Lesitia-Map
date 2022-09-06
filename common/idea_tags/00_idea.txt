@@ -28,8 +28,9 @@ idea_categories = {
 	government = {
 		slot = economy
 		slot = civilian_consumption
-		slot = trade_laws
-		slot = export_subsidies
+		slot = laws_civ_core_food_cons
+		slot = laws_civ_non_core_food_cons
+		slot = power_consumption_laws
 		
 		ledger = civilian
 		
@@ -40,8 +41,9 @@ idea_categories = {
 	government_2 = {
 		slot = mobilization_laws
 		slot = professionalism_laws
-		slot = laws_civ_core_food_cons
-		slot = laws_civ_non_core_food_cons
+		slot = trade_laws
+		slot = export_subsidies
+		slot = computer_laws
 		
 		ledger = civilian
 		
