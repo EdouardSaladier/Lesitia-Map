@@ -4,6 +4,9 @@ state={
 	
 	history={
 		owner = BOR
+		victory_points = {
+		      12681 15
+	    }
 		add_core_of = BOR
 		set_variable = { specie = 20 }
 	}
