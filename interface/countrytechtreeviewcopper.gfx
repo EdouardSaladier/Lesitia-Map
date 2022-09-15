@@ -673,4 +673,210 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/general_purpose_ordonance_deliver.dds"
 	}
 	
+	# Artillery tree
+	
+		spriteType = {
+		name = "GFX_advanced_precision_laser_guidance_systems_medium"
+		texturefile = "gfx/interface/technologies/advanced_precision_laser_guidance_systems.dds"
+	}
+
+	spriteType = {
+		name = "GFX_base_bleed_ammunitions_medium"
+		texturefile = "gfx/interface/technologies/base_bleed_ammunitions.dds"
+	}
+
+	spriteType = {
+		name = "GFX_extended_range_full_bore_rifling_medium"
+		texturefile = "gfx/interface/technologies/extended_range_full_bore_rifling.dds"
+	}
+
+	spriteType = {
+		name = "GFX_fire_and_fuck_off_medium"
+		texturefile = "gfx/interface/technologies/fire_and_fuck_off.dds"
+	}
+
+	spriteType = {
+		name = "GFX_flowstream_shape_medium"
+		texturefile = "gfx/interface/technologies/flowstream_shape.dds"
+	}
+
+	spriteType = {
+		name = "GFX_guided_precision_shells_medium"
+		texturefile = "gfx/interface/technologies/guided_precision_shells.dds"
+	}
+
+	spriteType = {
+		name = "GFX_inertial_navigation_system_medium"
+		texturefile = "gfx/interface/technologies/inertial_navigation_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ionic_propellant_medium"
+		texturefile = "gfx/interface/technologies/ionic_propellant.dds"
+	}
+
+	spriteType = {
+		name = "GFX_joint_direct_attack_shells_medium"
+		texturefile = "gfx/interface/technologies/joint_direct_attack_shells.dds"
+	}
+
+	spriteType = {
+		name = "GFX_layered_electro_magnets_medium"
+		texturefile = "gfx/interface/technologies/layered_electro_magnets.dds"
+	}
+
+	spriteType = {
+		name = "GFX_precision_measurements_optics_medium"
+		texturefile = "gfx/interface/technologies/precision_measurements_optics.dds"
+	}
+
+	spriteType = {
+		name = "GFX_rocketry_advancements_medium"
+		texturefile = "gfx/interface/technologies/rocketry_advancements.dds"
+	}
+
+	spriteType = {
+		name = "GFX_stramjet_missiles_medium"
+		texturefile = "gfx/interface/technologies/stramjet_missiles.dds"
+	}
+
+	spriteType = {
+		name = "GFX_telemetric_target_acquisition_medium"
+		texturefile = "gfx/interface/technologies/telemetric_target_acquisition.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trilithium_propellant_medium"
+		texturefile = "gfx/interface/technologies/trilithium_propellant.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_aerospace_domination_platform_medium"
+		texturefile = "gfx/interface/technologies/aerospace_domination_platform.dds"
+	}
+
+	spriteType = {
+		name = "GFX_aircraft_restriction_zone_system_medium"
+		texturefile = "gfx/interface/technologies/aircraft_restriction_zone_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_artillery_support_system_medium"
+		texturefile = "gfx/interface/technologies/artillery_support_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_continuous_saturation_platforms_medium"
+		texturefile = "gfx/interface/technologies/continuous_saturation_platforms.dds"
+	}
+
+	spriteType = {
+		name = "GFX_field_artillery_medium"
+		texturefile = "gfx/interface/technologies/field_artillery.dds"
+	}
+
+	spriteType = {
+		name = "GFX_firepower_screengate_medium"
+		texturefile = "gfx/interface/technologies/firepower_screengate.dds"
+	}
+
+	spriteType = {
+		name = "GFX_flak_cannons_medium"
+		texturefile = "gfx/interface/technologies/flak_cannons.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ground_to_air_suppremacy_system_medium"
+		texturefile = "gfx/interface/technologies/ground_to_air_suppremacy_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_horizonless_firepower_platform_medium"
+		texturefile = "gfx/interface/technologies/horizonless_firepower_platform.dds"
+	}
+
+	spriteType = {
+		name = "GFX_intense_firepower_projector_medium"
+		texturefile = "gfx/interface/technologies/intense_firepower_projector.dds"
+	}
+
+	spriteType = {
+		name = "GFX_laser_air_defence_system_medium"
+		texturefile = "gfx/interface/technologies/laser_air_defence_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_local_fire_saturation_unit_medium"
+		texturefile = "gfx/interface/technologies/local_fire_saturation_unit.dds"
+	}
+
+	spriteType = {
+		name = "GFX_low_altitude_close_in_weaponry_medium"
+		texturefile = "gfx/interface/technologies/low_altitude_close_in_weaponry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mobile_gun_platform_medium"
+		texturefile = "gfx/interface/technologies/mobile_gun_platform.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mobile_mass_driver_medium"
+		texturefile = "gfx/interface/technologies/mobile_mass_driver.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mobile_ranged_battle_platform_medium"
+		texturefile = "gfx/interface/technologies/mobile_ranged_battle_platform.dds"
+	}
+
+	spriteType = {
+		name = "GFX_multiple_guided_missile_platform_medium"
+		texturefile = "gfx/interface/technologies/multiple_guided_missile_platform.dds"
+	}
+
+	spriteType = {
+		name = "GFX_multiple_launch_rocket_system_medium"
+		texturefile = "gfx/interface/technologies/multiple_launch_rocket_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_offensive_firepower_projector_medium"
+		texturefile = "gfx/interface/technologies/offensive_firepower_projector.dds"
+	}
+
+	spriteType = {
+		name = "GFX_overwhelming_firepower_provider_medium"
+		texturefile = "gfx/interface/technologies/overwhelming_firepower_provider.dds"
+	}
+
+	spriteType = {
+		name = "GFX_railgun_artillery_carrier_medium"
+		texturefile = "gfx/interface/technologies/railgun_artillery_carrier.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ranged_firepower_striker_medium"
+		texturefile = "gfx/interface/technologies/ranged_firepower_striker.dds"
+	}
+
+	spriteType = {
+		name = "GFX_self_propelled_gun_medium"
+		texturefile = "gfx/interface/technologies/self_propelled_gun.dds"
+	}
+
+	spriteType = {
+		name = "GFX_surface_to_air_weapon_system_medium"
+		texturefile = "gfx/interface/technologies/surface_to_air_weapon_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tactical_laser_defence_platform_medium"
+		texturefile = "gfx/interface/technologies/tactical_laser_defence_platform.dds"
+	}
+
+
+
+
+	
 }

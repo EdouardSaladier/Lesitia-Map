@@ -1,2 +1,940 @@
 technologies = {
+
+	@1918 = 0
+	@1936 = 4
+	@1937 = 7
+	@1938 = 10
+	@1939 = 13
+	@1940 = 16
+	@1941 = 19
+	@1942 = 21
+	@1943 = 24
+	@1944 = 28
+	@1945 = 30
+	@1946 = 33
+	
+	field_artillery = {
+
+		enable_equipments = {
+			field_artillery_equipment
+		}
+
+		path = {
+			leads_to_tech = artillery_support_system
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = mobile_gun_platform
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	artillery_support_system = {
+
+		enable_equipments = {
+			artillery_support_system_equipment
+		}
+
+		path = {
+			leads_to_tech = base_bleed_ammunitions
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = ranged_firepower_striker
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = @1936 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	base_bleed_ammunitions = {
+
+		path = {
+			leads_to_tech = stuff
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = artillery_folder
+			position = { x = -1 y = @1938 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	ranged_firepower_striker = {
+
+		enable_equipments = {
+			ranged_firepower_striker_equipment
+		}
+
+		path = {
+			leads_to_tech = offensive_firepower_projector
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = extended_range_full_bore_rifling
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = @1939 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	extended_range_full_bore_rifling = {
+		
+
+		research_cost = 1.5
+		start_year = 1941
+
+		folder = {
+			name = artillery_folder
+			position = { x = -1 y = @1941 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	offensive_firepower_projector = {
+
+		enable_equipments = {
+			offensive_firepower_projector_equipment
+		}
+		
+		path = {
+			leads_to_tech = local_fire_saturation_unit
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = @1942 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	local_fire_saturation_unit = {
+
+		enable_equipments = {
+			local_fire_saturation_unit_equipment
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1945
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = @1945 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	mobile_gun_platform = {
+
+		enable_equipments = {
+			mobile_gun_platform_equipment
+		}
+		
+		path = {
+			leads_to_tech = self_propelled_gun
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1918
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @1918 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	self_propelled_gun = {
+
+		enable_equipments = {
+			self_propelled_gun_equipment
+		}
+		
+		path = {
+			leads_to_tech = mobile_ranged_battle_platform
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = inertial_navigation_system
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @1936 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	inertial_navigation_system = {
+		
+		path = {
+			leads_to_tech = stuff
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1937
+
+		folder = {
+			name = artillery_folder
+			position = { x = 5 y = @1937 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	mobile_ranged_battle_platform = {
+
+		enable_equipments = {
+			mobile_ranged_battle_platform_equipment
+		}
+		
+		path = {
+			leads_to_tech = railgun_artillery_carrier
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = fire_and_fuck_off
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @1938 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	fire_and_fuck_off = {
+		
+
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = artillery_folder
+			position = { x = 5 y = @1939 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	railgun_artillery_carrier = {
+
+		enable_equipments = {
+			railgun_artillery_carrier_equipment
+		}
+		
+		path = {
+			leads_to_tech = mobile_mass_driver
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = layered_electro_magnets
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1940
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @1940 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	layered_electro_magnets = {
+		
+
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = artillery_folder
+			position = { x = 5 y = @1942 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	mobile_mass_driver = {
+
+		enable_equipments = {
+			mobile_mass_driver_equipment
+		}
+		
+		path = {
+			leads_to_tech = horizonless_firepower_platform
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1943
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @1943 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	horizonless_firepower_platform = {
+
+		enable_equipments = {
+			horizonless_firepower_platform_equipment
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1945
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @1945 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	telemetric_target_acquisition = {
+		
+		path = {
+			leads_to_tech = precision_measurements_optics
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1937
+
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = @1937 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	precision_measurements_optics = {
+		
+		path = {
+			leads_to_tech = guided_precision_shells
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = @1939 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	guided_precision_shells = {
+		
+		path = {
+			leads_to_tech = joint_direct_attack_shells
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1941
+
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = @1941 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	joint_direct_attack_shells = {
+		
+		path = {
+			leads_to_tech = advanced_precision_laser_guidance_systems
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1943
+
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = @1943 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	advanced_precision_laser_guidance_systems = {
+		
+		
+
+		research_cost = 1.5
+		start_year = 1945
+
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = @1945 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	
+	
+	rocketry_advancements = { 
+		
+		path = {
+			leads_to_tech = multiple_launch_rocket_system
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = surface_to_air_weapon_system
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1918
+
+		folder = {
+			name = artillery_folder
+			position = { x = 9 y = @1918 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	multiple_launch_rocket_system = {
+	
+		enable_equipments = {
+			multiple_launch_rocket_system_equipment
+		}
+		
+		path = {
+			leads_to_tech = multiple_guided_missile_platform
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = @1936 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	multiple_guided_missile_platform = {
+	
+		enable_equipments = {
+			multiple_launch_rocket_system_equipment
+		}
+		
+		path = {
+			leads_to_tech = continuous_saturation_platforms
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = @1938 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	continuous_saturation_platforms = {
+	
+		enable_equipments = {
+			continuous_saturation_platforms_equipment
+		}
+		
+		path = {
+			leads_to_tech = intense_firepower_projector
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1940
+
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = @1940 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	intense_firepower_projector = {
+	
+		enable_equipments = {
+			intense_firepower_projector_equipment
+		}
+		
+		path = {
+			leads_to_tech = overwhelming_firepower_provider
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1943
+
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = @1943 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	overwhelming_firepower_provider = {
+	
+		enable_equipments = {
+			overwhelming_firepower_provider_equipment
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1945
+
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = @1945 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	surface_to_air_weapon_system = {
+	
+		enable_equipments = {
+			surface_to_air_weapon_system_equipment
+		}
+		
+		path = {
+			leads_to_tech = aircraft_restriction_zone_system
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = artillery_folder
+			position = { x = 10 y = @1936 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	aircraft_restriction_zone_system = {
+	
+		enable_equipments = {
+			aircraft_restriction_zone_system_equipment
+		}
+		
+		path = {
+			leads_to_tech = aerospace_domination_platform
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = artillery_folder
+			position = { x = 10 y = @1939 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	aerospace_domination_platform = {
+	
+		enable_equipments = {
+			aerospace_domination_platform_equipment
+		}
+		
+		path = {
+			leads_to_tech = ground_to_air_suppremacy_system
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = artillery_folder
+			position = { x = 10 y = @1942 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	ground_to_air_suppremacy_system = {
+	
+		enable_equipments = {
+			ground_to_air_suppremacy_system_equipment
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1945
+
+		folder = {
+			name = artillery_folder
+			position = { x = 10 y = @1945 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	flowstream_shape = {
+		
+		path = {
+			leads_to_tech = trilithium_propellant
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1937
+
+		folder = {
+			name = artillery_folder
+			position = { x = 8 y = @1937 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	trilithium_propellant = {
+		
+		path = {
+			leads_to_tech = ionic_propellant
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = artillery_folder
+			position = { x = 8 y = @1939 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	ionic_propellant = {
+		
+
+		research_cost = 1.5
+		start_year = 1941
+
+		folder = {
+			name = artillery_folder
+			position = { x = 8 y = @1941 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	stramjet_missiles = {
+		
+
+		research_cost = 1.5
+		start_year = 1943
+
+		folder = {
+			name = artillery_folder
+			position = { x = 10 y = @1943 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	
+	
+	flak_cannons = {
+		
+		path = {
+			leads_to_tech = low_altitude_close_in_weaponry
+			research_cost_coeff = 1
+		}
+		
+		enable_equipments = {
+			flak_cannons_equipment
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1918
+
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = @1918 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	low_altitude_close_in_weaponry = {
+		
+		path = {
+			leads_to_tech = firepower_screengate
+			research_cost_coeff = 1
+		}
+		
+		enable_equipments = {
+			low_altitude_close_in_weaponry_equipment
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = @1936 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	firepower_screengate = {
+		
+		path = {
+			leads_to_tech = laser_air_defence_system
+			research_cost_coeff = 1
+		}
+		
+		enable_equipments = {
+			firepower_screengate_equipment
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = @1939 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	laser_air_defence_system = {
+		
+		path = {
+			leads_to_tech = tactical_laser_defence_platform
+			research_cost_coeff = 1
+		}
+		
+		enable_equipments = {
+			laser_air_defence_system_equipment
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = @1942 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+	tactical_laser_defence_platform = {
+		
+		
+		enable_equipments = {
+			tactical_laser_defence_platform_equipment
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1945
+
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = @1945 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+
 }
