@@ -1,6 +1,6 @@
 ﻿l_english:
  VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
- ### Symbiotic Fed
+ ### Symbiotic Fed/Avenska/Vratenzk/Rezhenevez
  VICTORY_POINTS_20578:0 "Zhafollis"
  VICTORY_POINTS_20575:0 "Ambersville"
  VICTORY_POINTS_4137:0 "Petedoy"
@@ -149,6 +149,14 @@
  VICTORY_POINTS_12187:0 "Castell Hardd"
  VICTORY_POINTS_12319:0 "Twr Ymlusgiaid"
  VICTORY_POINTS_4483:0 "Goron Adain"
+ VICTORY_POINTS_4840:0 "Twr Ar y Ddraig"
+ VICTORY_POINTS_7820:0 "Porth y Lleuad"
+ VICTORY_POINTS_12040:0 "Dinas Ymerodrol"
+ VICTORY_POINTS_9226:0 "Castell yr Hydref"
+ VICTORY_POINTS_20495:0 "Tir Trysor"
+ VICTORY_POINTS_8583:0 "Y Porth i'r Wlad Goch"
+ VICTORY_POINTS_12533:0 "Gorllewinol Outskirts"
+ VICTORY_POINTS_9591:0 "The Capital of Ash"
  #Lur'Ezkatatsua
  VICTORY_POINTS_13736:0 "Jaia"
  VICTORY_POINTS_13593:0 "Kastea"
@@ -165,3 +173,4 @@
  VICTORY_POINTS_12904:0 "Haza"
  VICTORY_POINTS_3827:0 "Beleak"
  VICTORY_POINTS_5969:0 "Krorua"
+ VICTORY_POINTS_3514:0 "Azkot"
