@@ -5,6 +5,9 @@ state={
 
 	history={
 		owner = LUR
+		victory_points = {
+		      5969 1
+	    }
 		add_core_of = LUR
 
 	}
@@ -12,7 +15,7 @@ state={
 	provinces={
 		1924 2212 2365 5969 12684 13276 20465 
 	}
-	manpower=1
+	manpower=530000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 	local_supplies=0.000
