@@ -73,6 +73,155 @@ spriteTypes = {
 		name = "GFX_eglin_alloy_medium"
 		texturefile = "gfx/interface/technologies/eglin_alloy.dds"
 	}
+	SpriteType = {
+		name = "GFX_night_vision_medium"
+		texturefile = "gfx/interface/technologies/night_vision.dds"
+	}
+	SpriteType = {
+		name = "GFX_auto_gating_medium"
+		texturefile = "gfx/interface/technologies/auto_gating.dds"
+	}
+	SpriteType = {
+		name = "GFX_hyper_spectral_imagery_medium"
+		texturefile = "gfx/interface/technologies/hyper_spectral_imagery.dds"
+	}
+	
+	### Spec Ops Tree - Technologies
+	
+	spriteType = {
+		name = "GFX_additional_polymerised_mix_casting_medium"
+		texturefile = "gfx/interface/technologies/additional_polymerised_mix_casting.dds"
+	}
+
+	spriteType = {
+		name = "GFX_aerial_troopers_medium"
+		texturefile = "gfx/interface/technologies/aerial_troopers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_assault_battlesuit_medium"
+		texturefile = "gfx/interface/technologies/assault_battlesuit.dds"
+	}
+
+	spriteType = {
+		name = "GFX_assault_forces_medium"
+		texturefile = "gfx/interface/technologies/assault_forces.dds"
+	}
+
+	spriteType = {
+		name = "GFX_auditory_dampener_medium"
+		texturefile = "gfx/interface/technologies/auditory_dampener.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ceramic_laminate_battlesuit_medium"
+		texturefile = "gfx/interface/technologies/ceramic_laminate_battlesuit.dds"
+	}
+
+	spriteType = {
+		name = "GFX_fast_target_acquisition_medium"
+		texturefile = "gfx/interface/technologies/fast_target_acquisition.dds"
+	}
+
+	spriteType = {
+		name = "GFX_foliage_penetrating_vision_medium"
+		texturefile = "gfx/interface/technologies/foliage_penetrating_vision.dds"
+	}
+
+	spriteType = {
+		name = "GFX_gyroscopic_aiming_assistance_medium"
+		texturefile = "gfx/interface/technologies/gyroscopic_aiming_assistance.dds"
+	}
+
+	spriteType = {
+		name = "GFX_high_modulus_polyethylene_armor_medium"
+		texturefile = "gfx/interface/technologies/high_modulus_polyethylene_armor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_infiltrators_medium"
+		texturefile = "gfx/interface/technologies/infiltrators.dds"
+	}
+
+	spriteType = {
+		name = "GFX_jet_packs_medium"
+		texturefile = "gfx/interface/technologies/jet_packs.dds"
+	}
+
+	spriteType = {
+		name = "GFX_kinetic_reduction_braces_medium"
+		texturefile = "gfx/interface/technologies/kinetic_reduction_braces.dds"
+	}
+
+	spriteType = {
+		name = "GFX_large_range_incinerating_ammunitions_medium"
+		texturefile = "gfx/interface/technologies/large_range_incinerating_ammunitions.dds"
+	}
+
+	spriteType = {
+		name = "GFX_light_weight_rocket_launcher_medium"
+		texturefile = "gfx/interface/technologies/light_weight_rocket_launcher.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mechanical_armored_wings_medium"
+		texturefile = "gfx/interface/technologies/mechanical_armored_wings.dds"
+	}
+
+	spriteType = {
+		name = "GFX_micro_climate_cooling_system_medium"
+		texturefile = "gfx/interface/technologies/micro_climate_cooling_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_multi_purpose_assault_weapons_medium"
+		texturefile = "gfx/interface/technologies/multi_purpose_assault_weapons.dds"
+	}
+
+	spriteType = {
+		name = "GFX_multi_scale_camouflage_uniform_medium"
+		texturefile = "gfx/interface/technologies/multi_scale_camouflage_uniform.dds"
+	}
+
+	spriteType = {
+		name = "GFX_open_terrain_stealth_adaptation_medium"
+		texturefile = "gfx/interface/technologies/open_terrain_stealth_adaptation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_personal_hoverlift_packs_medium"
+		texturefile = "gfx/interface/technologies/personal_hoverlift_packs.dds"
+	}
+
+	spriteType = {
+		name = "GFX_phased_array_optical_holographs_medium"
+		texturefile = "gfx/interface/technologies/phased_array_optical_holographs.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portable_bunker_busters_medium"
+		texturefile = "gfx/interface/technologies/portable_bunker_busters.dds"
+	}
+
+	spriteType = {
+		name = "GFX_powered_assault_exoskeletons_medium"
+		texturefile = "gfx/interface/technologies/powered_assault_exoskeletons.dds"
+	}
+
+	spriteType = {
+		name = "GFX_retroflector_active_camouflage_medium"
+		texturefile = "gfx/interface/technologies/retroflector_active_camouflage.dds"
+	}
+
+	spriteType = {
+		name = "GFX_thermal_emission_inhibitor_medium"
+		texturefile = "gfx/interface/technologies/thermal_emission_inhibitor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_underwater_breathing_system_medium"
+		texturefile = "gfx/interface/technologies/underwater_breathing_system.dds"
+	}
 	
 	### Tank Tree - Equipments
 	
@@ -675,7 +824,7 @@ spriteTypes = {
 	
 	# Artillery tree
 	
-		spriteType = {
+	spriteType = {
 		name = "GFX_advanced_precision_laser_guidance_systems_medium"
 		texturefile = "gfx/interface/technologies/advanced_precision_laser_guidance_systems.dds"
 	}
@@ -875,145 +1024,4 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/tactical_laser_defence_platform.dds"
 	}
 
-		spriteType = {
-		name = "GFX_additional_polymerised_mix_casting_medium"
-		texturefile = "gfx/interface/technologies/additional_polymerised_mix_casting.dds"
-	}
-
-	spriteType = {
-		name = "GFX_aerial_troopers_medium"
-		texturefile = "gfx/interface/technologies/aerial_troopers.dds"
-	}
-
-	spriteType = {
-		name = "GFX_assault_battlesuit_medium"
-		texturefile = "gfx/interface/technologies/assault_battlesuit.dds"
-	}
-
-	spriteType = {
-		name = "GFX_assault_forces_medium"
-		texturefile = "gfx/interface/technologies/assault_forces.dds"
-	}
-
-	spriteType = {
-		name = "GFX_auditory_dampener_medium"
-		texturefile = "gfx/interface/technologies/auditory_dampener.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ceramic_laminate_battlesuit_medium"
-		texturefile = "gfx/interface/technologies/ceramic_laminate_battlesuit.dds"
-	}
-
-	spriteType = {
-		name = "GFX_fast_target_acquisition_medium"
-		texturefile = "gfx/interface/technologies/fast_target_acquisition.dds"
-	}
-
-	spriteType = {
-		name = "GFX_foliage_penetrating_vision_medium"
-		texturefile = "gfx/interface/technologies/foliage_penetrating_vision.dds"
-	}
-
-	spriteType = {
-		name = "GFX_gyroscopic_aiming_assistance_medium"
-		texturefile = "gfx/interface/technologies/gyroscopic_aiming_assistance.dds"
-	}
-
-	spriteType = {
-		name = "GFX_high_modulus_polyethylene_armor_medium"
-		texturefile = "gfx/interface/technologies/high_modulus_polyethylene_armor.dds"
-	}
-
-	spriteType = {
-		name = "GFX_infiltrators_medium"
-		texturefile = "gfx/interface/technologies/infiltrators.dds"
-	}
-
-	spriteType = {
-		name = "GFX_jet_packs_medium"
-		texturefile = "gfx/interface/technologies/jet_packs.dds"
-	}
-
-	spriteType = {
-		name = "GFX_kinetic_reduction_braces_medium"
-		texturefile = "gfx/interface/technologies/kinetic_reduction_braces.dds"
-	}
-
-	spriteType = {
-		name = "GFX_large_range_incinerating_ammunitions_medium"
-		texturefile = "gfx/interface/technologies/large_range_incinerating_ammunitions.dds"
-	}
-
-	spriteType = {
-		name = "GFX_light_weight_rocket_launcher_medium"
-		texturefile = "gfx/interface/technologies/light_weight_rocket_launcher.dds"
-	}
-
-	spriteType = {
-		name = "GFX_mechanical_armored_wings_medium"
-		texturefile = "gfx/interface/technologies/mechanical_armored_wings.dds"
-	}
-
-	spriteType = {
-		name = "GFX_micro_climate_cooling_system_medium"
-		texturefile = "gfx/interface/technologies/micro_climate_cooling_system.dds"
-	}
-
-	spriteType = {
-		name = "GFX_multi_purpose_assault_weapons_medium"
-		texturefile = "gfx/interface/technologies/multi_purpose_assault_weapons.dds"
-	}
-
-	spriteType = {
-		name = "GFX_multi_scale_camouflage_uniform_medium"
-		texturefile = "gfx/interface/technologies/multi_scale_camouflage_uniform.dds"
-	}
-
-	spriteType = {
-		name = "GFX_open_terrain_stealth_adaptation_medium"
-		texturefile = "gfx/interface/technologies/open_terrain_stealth_adaptation.dds"
-	}
-
-	spriteType = {
-		name = "GFX_personal_hoverlift_packs_medium"
-		texturefile = "gfx/interface/technologies/personal_hoverlift_packs.dds"
-	}
-
-	spriteType = {
-		name = "GFX_phased_array_optical_holographs_medium"
-		texturefile = "gfx/interface/technologies/phased_array_optical_holographs.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portable_bunker_busters_medium"
-		texturefile = "gfx/interface/technologies/portable_bunker_busters.dds"
-	}
-
-	spriteType = {
-		name = "GFX_powered_assault_exoskeletons_medium"
-		texturefile = "gfx/interface/technologies/powered_assault_exoskeletons.dds"
-	}
-
-	spriteType = {
-		name = "GFX_retroflector_active_camouflage_medium"
-		texturefile = "gfx/interface/technologies/retroflector_active_camouflage.dds"
-	}
-
-	spriteType = {
-		name = "GFX_thermal_emission_inhibitor_medium"
-		texturefile = "gfx/interface/technologies/thermal_emission_inhibitor.dds"
-	}
-
-	spriteType = {
-		name = "GFX_underwater_breathing_system_medium"
-		texturefile = "gfx/interface/technologies/underwater_breathing_system.dds"
-	}
-
-
-
-
-
-
-	
 }
