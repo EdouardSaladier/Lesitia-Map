@@ -254,7 +254,7 @@ guiTypes = {
 			}	
 
 			gridboxtype = {
-				name = "infiltration_troops_tree"
+				name = "assault_forces_tree"
 				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -262,7 +262,15 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "heavy_assault_troops_tree"
+				name = "infiltrators_tree"
+				position = { x = 140 y = 325 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+	
+			}
+			
+			gridboxtype = {
+				name = "aerial_troopers_tree"
 				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

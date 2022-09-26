@@ -240,4 +240,70 @@ equipments = {
 		visual_level = 0
 	}
 
+	powered_assault_exoskeletons_equipment = {
+		year = 1918
+		archetype = infantry_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+assault_battlesuit_equipment = {
+		year = 1918
+		archetype = infantry_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+ceramic_laminate_battlesuit_equipment = {
+		year = 1918
+		archetype = infantry_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+multi_scale_camouflage_uniform_equipment = {
+		year = 1918
+		archetype = infantry_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+retroflector_active_camouflage_equipment = {
+		year = 1918
+		archetype = infantry_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+phased_array_optical_holographs_equipment = {
+		year = 1918
+		archetype = infantry_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+jet_packs_equipment = {
+		year = 1918
+		archetype = infantry_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+personal_hoverlift_packs_equipment = {
+		year = 1918
+		archetype = infantry_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+
+
 }
