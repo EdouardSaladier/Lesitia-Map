@@ -7,6 +7,15 @@ bookmarks = {
 		default_country = "CMM"
 		default = yes
 		
+		"SYM"={
+			history = "SYM_GATHERING_STORM_DESC"
+			ideology = democracy
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
 		"CMM"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
