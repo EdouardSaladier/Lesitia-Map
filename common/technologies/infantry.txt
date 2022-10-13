@@ -13,6 +13,33 @@ technologies = {
 	@1945 = 29
 	@1946 = 32
 
+	primitive_firearms = {
+
+		enable_equipments = {
+			primitive_firearms_equipment
+		}
+		
+		path = {
+			leads_to_tech = conventional_firearms
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = -1 }
+		}
+		
+		categories = {
+			infantry_weapons
+			infantry_weapons_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
     conventional_firearms = {
 
@@ -23,11 +50,6 @@ technologies = {
 		path = {
 			leads_to_tech = precision_guided_firearms
             research_cost_coeff = 1           
-		}	
-
-        path = {
-			leads_to_tech = caseless_munitions
-            research_cost_coeff = 1
 		}	
 
 		research_cost = 2
@@ -42,6 +64,523 @@ technologies = {
 			infantry_weapons_equipment
 		}
 		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	precision_guided_firearms = {
+
+		enable_equipments = {
+			precision_guided_firearms_equipment
+		}
+		
+		path = {
+			leads_to_tech = solid_state_laser
+		}		
+		
+		path = {
+			leads_to_tech = caseless_munitions
+		}	
+		
+		path = {
+			leads_to_tech = laser_rangefinders
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = @1936 }
+		}
+		
+		categories = {
+			infantry_weapons
+			infantry_weapons_equipment
+		}
+
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	solid_state_laser = {
+
+		enable_equipments = {
+			solid_state_laser_equipment
+		}
+		
+		path = {
+			leads_to_tech = spectral_beam_combining
+		}
+		
+		path = {
+			leads_to_tech = lithium_sulfur_battery
+		}
+
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = @1939 }
+		}
+		
+		categories = {
+			infantry_weapons
+			infantry_weapons_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	spectral_beam_combining = {
+	
+		path = {
+			leads_to_tech = arc_laser
+		}
+
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = @1941 }
+		}
+		
+		categories = {
+			infantry_weapons
+			infantry_weapons_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	arc_laser = {
+	
+		enable_equipments = {
+			arc_laser_equipment
+		}
+	
+		path = {
+			leads_to_tech = uv_laser
+		}
+
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = @1942 }
+		}
+		
+		categories = {
+			infantry_weapons
+			infantry_weapons_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	lithium_sulfur_battery = {
+	
+		path = {
+			leads_to_tech = graphene_battery
+		}
+		
+		path = {
+			leads_to_tech = lithium_sulfur_supercapacitor
+		}
+
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = @1940 }
+		}
+		
+		categories = {
+			infantry_weapons
+			infantry_weapons_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	lithium_sulfur_supercapacitor = {
+	
+		path = {
+			leads_to_tech = graphene_supercapacitor
+		}
+
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = @1942 }
+		}
+		
+		categories = {
+			infantry_weapons
+			infantry_weapons_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	graphene_battery = {
+	
+		path = {
+			leads_to_tech = graphene_supercapacitor
+		}
+
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = @1943 }
+		}
+		
+		categories = {
+			infantry_weapons
+			infantry_weapons_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	graphene_supercapacitor = {
+		
+		path = {
+			leads_to_tech = uv_laser
+		}
+		
+
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = @1944 }
+		}
+		
+		categories = {
+			infantry_weapons
+			infantry_weapons_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	uv_laser = {
+	
+		enable_equipments = {
+			uv_laser_equipment
+		}
+		
+		research_cost = 2
+		start_year = 1945
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = @1945 }
+		}
+		
+		categories = {
+			infantry_weapons
+			infantry_weapons_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	recoiless_rifles = {
+
+		enable_equipments = {
+			recoiless_rifles_equipment
+		}
+		
+		path = {
+			leads_to_tech = at_missiles
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = -4 y = -1 }
+		}
+		
+		categories = {
+			at_weapons
+			at_weapons_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	at_missiles = {
+
+		enable_equipments = {
+			at_missiles_equipment
+		}
+		
+		path = {
+			leads_to_tech = railguns
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = plunging_fire_enhancement         
+		}
+
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = -4 y = @1936 }
+		}
+		
+		categories = {
+			at_weapons
+			at_weapons_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	plunging_fire_enhancement = {
+
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = infantry_folder
+			position = { x = -6 y = @1937 }
+		}
+		
+		categories = {
+			infantry_weapons
+			at_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	railguns = {
+
+		enable_equipments = {
+			railguns_equipment
+		}
+		
+		path = {
+			leads_to_tech = field_cooling_system
+		}	
+
+		path = {
+			leads_to_tech = aermet_alloy
+		}	
+
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = -4 y = @1939 }
+		}
+		
+		infantry = {
+			need = {
+				infantry_equipment = -100
+			}
+			need = {
+				railguns_equipment = 100
+			}
+		}
+		
+		categories = {
+			infantry_weapons
+			infantry_weapons_equipment
+			at_weapons
+			at_weapons_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	aermet_alloy = {
+		
+		path = {
+			leads_to_tech = eglin_alloy
+		}		
+
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = infantry_folder
+			position = { x = -6 y = @1940 }
+		}
+		
+		on_research_complete = {
+			add_ideas = aermet_alloy_idea
+		}
+		
+		categories = {
+			infantry_weapons
+			at_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	eglin_alloy = {	
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = -6 y = @1943 }
+		}
+		
+		on_research_complete = {
+			add_ideas = eglin_alloy_idea
+		}
+		
+		categories = {
+			infantry_weapons
+			at_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	field_cooling_system = {
+	
+		on_research_complete = {
+			add_ideas = field_cooling_system_idea
+		}
+		
+		path = {
+			leads_to_tech = helical_railguns
+		}		
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = infantry_folder
+			position = { x = -4 y = @1941 }
+		}
+		
+		categories = {
+			infantry_weapons
+			at_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	helical_railguns = {
+
+		enable_equipments = {
+			helical_railguns_equipment
+		}
+		
+		path = {
+			leads_to_tech = total_vacuum_bore
+		}		
+
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = -4 y = @1942 }
+		}
+		
+		categories = {
+			infantry_weapons
+			infantry_weapons_equipment
+			at_weapons
+			at_weapons_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	total_vacuum_bore = {
+	
+		on_research_complete = {
+			add_ideas = total_vacuum_bore_idea
+		}
+		
+		path = {
+			leads_to_tech = plasma_railguns
+		}		
+
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = -4 y = @1944 }
+		}
+		
+		categories = {
+			infantry_weapons
+			at_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	plasma_railguns = {
+
+		enable_equipments = {
+			plasma_railguns_equipment
+		}
+
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = infantry_folder
+			position = { x = -4 y = @1945 }
+		}
+		
+		categories = {
+			infantry_weapons
+			infantry_weapons_equipment
+			at_weapons
+			at_weapons_equipment
+		}
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -126,238 +665,6 @@ technologies = {
 			infantry_weapons
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-    precision_guided_firearms = {
-
-		enable_equipments = {
-			precision_guided_firearms_equipment
-		}
-		
-		path = {
-			leads_to_tech = railguns
-		}		
-		path = {
-			leads_to_tech = laser_rangefinders
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 1 y = @1936 }
-		}
-		
-		categories = {
-			infantry_weapons
-			infantry_weapons_equipment
-		}
-
-		
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	railguns = {
-
-		enable_equipments = {
-			railguns_equipment
-		}
-		
-		path = {
-			leads_to_tech = field_cooling_system
-		}	
-
-		path = {
-			leads_to_tech = aermet_alloy
-		}	
-
-		research_cost = 2
-		start_year = 1939
-		folder = {
-			name = infantry_folder
-			position = { x = 1 y = @1939 }
-		}
-		
-		infantry = {
-			need = {
-				infantry_equipment = -100
-			}
-			need = {
-				railguns_equipment = 100
-			}
-		}
-		
-		categories = {
-			infantry_weapons
-			infantry_weapons_equipment
-			railguns_weapons
-			railguns_weapons_equipment
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	aermet_alloy = {
-		
-		path = {
-			leads_to_tech = eglin_alloy
-		}		
-
-		research_cost = 1
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = -1 y = @1940 }
-		}
-		
-		on_research_complete = {
-			add_ideas = aermet_alloy_idea
-		}
-		
-		categories = {
-			infantry_weapons
-			railguns_weapons
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	eglin_alloy = {	
-
-		research_cost = 1
-		start_year = 1943
-		folder = {
-			name = infantry_folder
-			position = { x = -1 y = @1943 }
-		}
-		
-		on_research_complete = {
-			add_ideas = eglin_alloy_idea
-		}
-		
-		categories = {
-			infantry_weapons
-			railguns_weapons
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	field_cooling_system = {
-	
-		on_research_complete = {
-			add_ideas = field_cooling_system_idea
-		}
-		
-		path = {
-			leads_to_tech = helical_railguns
-		}		
-
-		research_cost = 1
-		start_year = 1941
-		folder = {
-			name = infantry_folder
-			position = { x = 1 y = @1941 }
-		}
-		
-		categories = {
-			infantry_weapons
-			railguns_weapons
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	helical_railguns = {
-
-		enable_equipments = {
-			helical_railguns_equipment
-		}
-		
-		path = {
-			leads_to_tech = total_vacuum_bore
-		}		
-
-		research_cost = 2
-		start_year = 1942
-		folder = {
-			name = infantry_folder
-			position = { x = 1 y = @1942 }
-		}
-		
-		categories = {
-			infantry_weapons
-			infantry_weapons_equipment
-			railguns_weapons
-			railguns_weapons_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	total_vacuum_bore = {
-	
-		on_research_complete = {
-			add_ideas = total_vacuum_bore_idea
-		}
-		
-		path = {
-			leads_to_tech = plasma_railguns
-		}		
-
-		research_cost = 2
-		start_year = 1943
-		folder = {
-			name = infantry_folder
-			position = { x = 1 y = @1943 }
-		}
-		
-		categories = {
-			infantry_weapons
-			railguns_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	plasma_railguns = {
-
-		enable_equipments = {
-			plasma_railguns_equipment
-		}
-
-		research_cost = 2
-		start_year = 1944
-		folder = {
-			name = infantry_folder
-			position = { x = 1 y = @1944 }
-		}
-		
-		categories = {
-			infantry_weapons
-			infantry_weapons_equipment
-			railguns_weapons
-			railguns_weapons_equipment
-		}
-
 		ai_will_do = {
 			factor = 1
 		}

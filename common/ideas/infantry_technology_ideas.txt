@@ -71,7 +71,7 @@ ideas = {
 			removal_cost = -1
 			
 			equipment_bonus = {
-				railguns_equipment_archetype = {
+				inf_at_equipment_archetype = {
 					reliability = 0.1
 					instant = yes
 				}
@@ -90,7 +90,7 @@ ideas = {
 			removal_cost = -1
 			
 			equipment_bonus = {
-				railguns_equipment_archetype = {
+				inf_at_equipment_archetype = {
 					reliability = 0.2
 					instant = yes
 				}
@@ -109,7 +109,7 @@ ideas = {
 			removal_cost = -1
 			
 			equipment_bonus = {
-				railguns_equipment_archetype = {
+				inf_at_equipment_archetype = {
 					soft_attack = 0.1
 					instant = yes
 				}
@@ -128,7 +128,7 @@ ideas = {
 			removal_cost = -1
 			
 			equipment_bonus = {
-				railguns_equipment_archetype = {
+				inf_at_equipment_archetype = {
 					hard_attack = 0.1
 					ap_attack = 0.1
 					instant = yes

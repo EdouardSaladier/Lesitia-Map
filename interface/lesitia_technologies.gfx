@@ -3,12 +3,36 @@ spriteTypes = {
 	### Infantry Tree - Equipments
 	
 	SpriteType = {
+		name = "GFX_primitive_firearms_medium"
+		texturefile = "gfx/interface/technologies/primitive_firearms.dds"
+	}
+	SpriteType = {
 		name = "GFX_conventional_firearms_medium"
 		texturefile = "gfx/interface/technologies/conventional_firearms.dds"
 	}
 	SpriteType = {
 		name = "GFX_precision_guided_firearms_medium"
 		texturefile = "gfx/interface/technologies/precision_guided_firearms.dds"
+	}
+	SpriteType = {
+		name = "GFX_solid_state_laser_medium"
+		texturefile = "gfx/interface/technologies/solid_state_laser.dds"
+	}
+	SpriteType = {
+		name = "GFX_arc_laser_medium"
+		texturefile = "gfx/interface/technologies/arc_laser.dds"
+	}
+	SpriteType = {
+		name = "GFX_uv_laser_medium"
+		texturefile = "gfx/interface/technologies/uv_laser.dds"
+	}
+	SpriteType = {
+		name = "GFX_recoiless_rifles_medium"
+		texturefile = "gfx/interface/technologies/recoiless_rifles.dds"
+	}
+	SpriteType = {
+		name = "GFX_at_missiles_medium"
+		texturefile = "gfx/interface/technologies/at_missiles.dds"
 	}
 	SpriteType = {
 		name = "GFX_railguns_medium"
@@ -84,6 +108,30 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_hyper_spectral_imagery_medium"
 		texturefile = "gfx/interface/technologies/hyper_spectral_imagery.dds"
+	}
+	SpriteType = {
+		name = "GFX_plunging_fire_enhancement_medium"
+		texturefile = "gfx/interface/technologies/plunging_fire_enhancement.dds"
+	}
+	SpriteType = {
+		name = "GFX_lithium_sulfur_battery_medium"
+		texturefile = "gfx/interface/technologies/lithium_sulfur_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_lithium_sulfur_supercapacitor_medium"
+		texturefile = "gfx/interface/technologies/lithium_sulfur_supercapacitor.dds"
+	}
+	SpriteType = {
+		name = "GFX_graphene_battery_medium"
+		texturefile = "gfx/interface/technologies/graphene_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_graphene_supercapacitor_medium"
+		texturefile = "gfx/interface/technologies/graphene_supercapacitor.dds"
+	}
+	SpriteType = {
+		name = "GFX_spectral_beam_combining_medium"
+		texturefile = "gfx/interface/technologies/spectral_beam_combining.dds"
 	}
 	
 	### Spec Ops Tree - Technologies

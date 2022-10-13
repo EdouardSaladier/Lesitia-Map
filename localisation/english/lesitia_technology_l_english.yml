@@ -5,9 +5,13 @@
  railguns_equipment_archetype:0 "All Railguns"
  hud_equipment:0 "Optical Head-mounted Display"
  
+ primitive_firearms:0 "Primitive Firearms"
+ primitive_firearms_desc:0 "TODO"
+ primitive_firearms_equipment:0 "Primitive Firearms"
+ primitive_firearms_equipment_desc:0 "TODO"
+ 
  conventional_firearms:0 "Conventional Firearms"
  conventional_firearms_desc:0 "TODO"
- 
  conventional_firearms_equipment:0 "Conventional Firearms"
  conventional_firearms_equipment_desc:0 "TODO"
 
@@ -25,14 +29,55 @@
 
  precision_guided_firearms:0 "Precision-guided Firearms"
  precision_guided_firearms_desc:0 "TODO"
- 
  precision_guided_firearms_equipment:0 "Precision-guided Firearms"
  precision_guided_firearms_equipment_desc:0 "TODO"
-
- railguns:0 "Railguns"
- railguns_desc:0 "TODO"
  
- railguns_equipment:0 "Railguns"
+ solid_state_laser:0 "Solid-State Crystal Laser"
+ solid_state_laser_desc:0 "TODO"
+ solid_state_laser_equipment:0 "Solid-State Crystal Laser"
+ solid_state_laser_equipment_desc:0 "TODO"
+ 
+ arc_laser:0 "Plasma-Arc Laser"
+ arc_laser_desc:0 "TODO"
+ arc_laser_equipment:0 "Plasma-Arc Laser"
+ arc_laser_equipment_desc:0 "TODO"
+ 
+ uv_laser:0 "Phased-Array Ultraviolet Laser"
+ uv_laser_desc:0 "TODO"
+ uv_laser_equipment:0 "Phased-Array Ultraviolet Laser"
+ uv_laser_equipment_desc:0 "TODO"
+ 
+ lithium_sulfur_battery:0 "Lithium-Sulfur Battery"
+ lithium_sulfur_battery_desc:0 "TODO"
+ 
+ lithium_sulfur_supercapacitor:0 "Electrolytic Supercapacitors"
+ lithium_sulfur_supercapacitor_desc:0 "TODO"
+ 
+ graphene_battery:0 "Graphene Battery"
+ graphene_battery_desc:0 "TODO"
+ 
+ graphene_supercapacitor:0 "Graphene Supercapacitors"
+ graphene_supercapacitor_desc:0 "TODO"
+ 
+ spectral_beam_combining:0 "Spectral Beam Combining"
+ spectral_beam_combining_desc:0 "TODO"
+ 
+ plunging_fire_enhancement:0 "Plunging-Fire Attack Enhancement"
+ plunging_fire_enhancement_desc:0 "TODO"
+ 
+ recoiless_rifles:0 "Man-Portable Recoilless Rifle"
+ recoiless_rifles_desc:0 "TODO"
+ recoiless_rifles_equipment:0 "Man-Portable Recoilless Rifle"
+ recoiless_rifles_equipment_desc:0 "TODO"
+ 
+ at_missiles:0 "Guided Anti-Tank Missile System"
+ at_missiles_desc:0 "TODO"
+ at_missiles_equipment:0 "Guided Anti-Tank Missile System"
+ at_missiles_equipment_desc:0 "TODO"
+ 
+ railguns:0 "Electromagnetic Portative Railgun"
+ railguns_desc:0 "TODO"
+ railguns_equipment:0 "Electromagnetic Portative Railgun"
  railguns_equipment_desc:0 "TODO"
 
  aermet_alloy:0 "Aermet Alloy"
@@ -49,20 +94,18 @@
  field_cooling_system_desc:0 "TODO"
  field_cooling_system_idea:0 "Field Cooling System"
 
- helical_railguns:0 "Helical Railguns"
+ helical_railguns:0 "Helical-Barrel Railgun"
  helical_railguns_desc:0 "TODO"
- 
- helical_railguns_equipment:0 "Helical Railguns"
+ helical_railguns_equipment:0 "Helical-Barrel Railgun"
  helical_railguns_equipment_desc:0 "TODO"
 
  total_vacuum_bore:0 "Total Vacuum Bore"
  total_vacuum_bore_desc:0 "TODO"
  total_vacuum_bore_idea:0 "Total Vacuum Bore"
 
- plasma_railguns:0 "Plasma Railguns"
+ plasma_railguns:0 "Plasma Accelerating Railgun"
  plasma_railguns_desc:0 "TODO"
- 
- plasma_railguns_equipment:0 "Plasma Railguns"
+ plasma_railguns_equipment:0 "Plasma Accelerating Railgun"
  plasma_railguns_equipment_desc:0 "TODO"
 
  optical_head_mounted_display:0 "Optical Head-mounted Display"

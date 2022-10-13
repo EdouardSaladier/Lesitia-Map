@@ -40,6 +40,15 @@ equipments = {
 		}
 		
 	}
+	
+	primitive_firearms_equipment = {
+		year = 1918
+	
+		archetype = infantry_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
 
 	conventional_firearms_equipment = {
 		year = 1918
@@ -75,7 +84,34 @@ equipments = {
 		}
 	}
 	
-	railguns_equipment_archetype = {
+	solid_state_laser_equipment = {
+		year = 1918
+	
+		archetype = infantry_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	arc_laser_equipment = {
+		year = 1918
+	
+		archetype = infantry_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	uv_laser_equipment = {
+		year = 1918
+	
+		archetype = infantry_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	inf_at_equipment_archetype = {
 		year = 1936
 	
 		is_archetype = yes
@@ -114,10 +150,28 @@ equipments = {
 		
 	}
 	
+	recoiless_rifles_equipment = {
+		year = 1918
+	
+		archetype = inf_at_equipment_archetype
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	at_missiles_equipment = {
+		year = 1918
+	
+		archetype = inf_at_equipment_archetype
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
 	railguns_equipment = {
 		year = 1939
 	
-		archetype = railguns_equipment_archetype
+		archetype = inf_at_equipment_archetype
 		active = yes
 		priority = 10
 		visual_level = 0
@@ -143,7 +197,7 @@ equipments = {
 	helical_railguns_equipment = {
 		year = 1942
 	
-		archetype = railguns_equipment_archetype
+		archetype = inf_at_equipment_archetype
 		active = yes
 		priority = 10
 		visual_level = 0
@@ -169,7 +223,7 @@ equipments = {
 	plasma_railguns_equipment = {
 		year = 1944
 	
-		archetype = railguns_equipment_archetype
+		archetype = inf_at_equipment_archetype
 		active = yes
 		priority = 10
 		visual_level = 0

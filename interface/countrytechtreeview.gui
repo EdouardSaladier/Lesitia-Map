@@ -59,7 +59,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_weapons"
-					position = { x = 30 y = 130 }
+					position = { x = 30 y = 430 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -72,7 +72,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
-					position = { x = 40 y = 750 }
+					position = { x = 40 y = 1050 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -230,10 +230,18 @@ guiTypes = {
 				}	
 
 			}
+			
+			gridboxtype = {
+				name = "recoiless_rifles_tree"
+				position = { x = 140 y = 625 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+	
+			}
 
 			gridboxtype = {
-				name = "conventional_firearms_tree"
-				position = { x = 140 y = 325 }
+				name = "primitive_firearms_tree"
+				position = { x = 140 y = 625 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 	
@@ -241,7 +249,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "night_vision_tree"
-				position = { x = 140 y = 325 }
+				position = { x = 140 y = 625 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 	
@@ -249,7 +257,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "assault_forces_tree"
-				position = { x = 140 y = 175 }
+				position = { x = 140 y = 475 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 	
@@ -257,7 +265,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "infiltrators_tree"
-				position = { x = 140 y = 175 }
+				position = { x = 140 y = 475 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 	
@@ -265,7 +273,7 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "aerial_troopers_tree"
-				position = { x = 140 y = 175 }
+				position = { x = 140 y = 475 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 	
