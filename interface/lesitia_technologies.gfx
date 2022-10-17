@@ -1072,4 +1072,50 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/tactical_laser_defence_platform.dds"
 	}
 
+	# Industry Tree
+	
+	SpriteType = {
+		name = "GFX_assembly_lines_medium"
+		texturefile = "gfx/interface/technologies/assembly_lines.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_articulated_robotics_arms_medium"
+		texturefile = "gfx/interface/technologies/articulated_robotics_arms.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_sensors_robotics_medium"
+		texturefile = "gfx/interface/technologies/sensors_robotics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_additive_manufacturing_medium"
+		texturefile = "gfx/interface/technologies/additive_manufacturing.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_nanomaterials_applications_medium"
+		texturefile = "gfx/interface/technologies/nanomaterials_applications.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tensile_memory_polarised_matter_medium"
+		texturefile = "gfx/interface/technologies/tensile_memory_polarised_matter.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_matter_compiler_medium"
+		texturefile = "gfx/interface/technologies/matter_compiler.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_perfect_device_replication_medium"
+		texturefile = "gfx/interface/technologies/perfect_device_replication.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_structure_conversion_tower_medium"
+		texturefile = "gfx/interface/technologies/structure_conversion_tower.dds"
+	}
 }

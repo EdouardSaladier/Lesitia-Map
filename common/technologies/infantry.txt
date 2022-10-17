@@ -1,17 +1,17 @@
 technologies = {
 
-    @1918 = -1
-	@1936 = 2
-	@1937 = 5
-	@1938 = 8
-	@1939 = 11
-	@1940 = 14
-	@1941 = 17
-	@1942 = 20	
-	@1943 = 23
-	@1944 = 26
-	@1945 = 29
-	@1946 = 32
+    @1918 = 0
+	@1936 = 3
+	@1937 = 6
+	@1938 = 9
+	@1939 = 12
+	@1940 = 15
+	@1941 = 18
+	@1942 = 21	
+	@1943 = 24
+	@1944 = 27
+	@1945 = 30
+	@1946 = 33
 
 	primitive_firearms = {
 
@@ -28,7 +28,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = infantry_folder
-			position = { x = -1 y = -1 }
+			position = { x = -1 y = @1918 }
 		}
 		
 		categories = {
@@ -56,7 +56,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = -1 }
+			position = { x = 1 y = @1918 }
 		}
 		
 		categories = {
@@ -322,7 +322,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = -1 }
+			position = { x = -4 y = @1918 }
 		}
 		
 		categories = {

@@ -1,0 +1,29 @@
+# Fake equipment so you get big icons in the tech tree
+
+equipments = {
+	assembly_lines_fake = {
+		year = 1918
+		is_buildable = no
+		build_cost_ic = 0
+	}
+	sensors_robotics_fake = {
+		year = 1936
+		is_buildable = no
+		build_cost_ic = 0
+	}
+	additive_manufacturing_fake = {
+		year = 1936
+		is_buildable = no
+		build_cost_ic = 0
+	}
+	nanomaterials_applications_fake = {
+		year = 1936
+		is_buildable = no
+		build_cost_ic = 0
+	}
+	matter_compiler_fake = {
+		year = 1936
+		is_buildable = no
+		build_cost_ic = 0
+	}
+}

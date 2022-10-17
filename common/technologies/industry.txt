@@ -1,2 +1,237 @@
 technologies = {
+	@1918 = 0
+	@1936 = 3
+	@1937 = 6
+	@1938 = 9
+	@1939 = 12
+	@1940 = 15
+	@1941 = 18
+	@1942 = 21	
+	@1943 = 24
+	@1944 = 27
+	@1945 = 30
+	@1946 = 33
+	
+	assembly_lines = {
+	
+		enable_equipments = {
+			assembly_lines_fake
+		}
+
+		path = {
+			leads_to_tech = articulated_robotics_arms
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = @1918 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	articulated_robotics_arms = {
+
+		path = {
+			leads_to_tech = sensors_robotics
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = @1936 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	sensors_robotics = {
+	
+		enable_equipments = {
+			sensors_robotics_fake
+		}
+
+		path = {
+			leads_to_tech = additive_manufacturing
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = @1938 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	additive_manufacturing = {
+	
+		enable_equipments = {
+			additive_manufacturing_fake
+		}
+
+		path = {
+			leads_to_tech = nanomaterials_applications
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = @1940 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	nanomaterials_applications = {
+	
+		enable_equipments = {
+			nanomaterials_applications_fake
+		}
+
+		path = {
+			leads_to_tech = tensile_memory_polarised_matter
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = @1942 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tensile_memory_polarised_matter = {
+
+		path = {
+			leads_to_tech = matter_compiler
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = @1943 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	matter_compiler = {
+	
+		enable_equipments = {
+			matter_compiler_fake
+		}
+
+		path = {
+			leads_to_tech = perfect_device_replication
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = @1944 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	perfect_device_replication = {
+
+		path = {
+			leads_to_tech = structure_conversion_tower
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = @1945 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	structure_conversion_tower = {
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = industry_folder
+			position = { x = -2 y = @1945 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 }
