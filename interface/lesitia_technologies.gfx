@@ -1203,4 +1203,34 @@ spriteTypes = {
 		name = "GFX_organic_super_lubricant_medium"
 		texturefile = "gfx/interface/technologies/organic_super_lubricant.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_volumetric_construction_methods_medium"
+		texturefile = "gfx/interface/technologies/volumetric_construction_methods.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_computer_aided_design_medium"
+		texturefile = "gfx/interface/technologies/computer_aided_design.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_computer_aided_manufacturing_medium"
+		texturefile = "gfx/interface/technologies/computer_aided_manufacturing.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_laser_direct_imaging_medium"
+		texturefile = "gfx/interface/technologies/laser_direct_imaging.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_automatic_optical_inspection_medium"
+		texturefile = "gfx/interface/technologies/automatic_optical_inspection.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_automated_building_surveying_medium"
+		texturefile = "gfx/interface/technologies/automated_building_surveying.dds"
+	}
 }

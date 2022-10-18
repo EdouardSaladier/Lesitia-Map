@@ -26,4 +26,9 @@ equipments = {
 		is_buildable = no
 		build_cost_ic = 0
 	}
+	synthetic_biology_theory_fake = {
+		year = 1936
+		is_buildable = no
+		build_cost_ic = 0
+	}
 }

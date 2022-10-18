@@ -22,6 +22,11 @@ technologies = {
 			leads_to_tech = articulated_robotics_arms
             research_cost_coeff = 1           
 		}
+		
+		path = {
+			leads_to_tech = volumetric_construction_methods
+            research_cost_coeff = 1           
+		}
 
 		research_cost = 1
 		start_year = 1918
@@ -40,6 +45,25 @@ technologies = {
 		}
 	}
 	
+	volumetric_construction_methods = {
+
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = industry_folder
+			position = { x = -2 y = @1918 }
+		}
+		
+		categories = {
+			industry_general
+			construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	articulated_robotics_arms = {
 
 		path = {
@@ -49,6 +73,11 @@ technologies = {
 		
 		path = {
 			leads_to_tech = powered_construction_exoskeletons
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = computer_aided_design
             research_cost_coeff = 1           
 		}
 
@@ -62,6 +91,73 @@ technologies = {
 		categories = {
 			industry_general
 			industry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	computer_aided_design = {
+	
+		path = {
+			leads_to_tech = computer_aided_manufacturing
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = industry_folder
+			position = { x = -2 y = @1936 }
+		}
+		
+		categories = {
+			industry_general
+			industry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	computer_aided_manufacturing = {
+	
+		path = {
+			leads_to_tech = laser_direct_imaging
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = industry_folder
+			position = { x = -2 y = @1937 }
+		}
+		
+		categories = {
+			industry_general
+			industry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	laser_direct_imaging = {
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = industry_folder
+			position = { x = -2 y = @1938 }
+		}
+		
+		categories = {
+			industry_general
+			resource_production_tech
 		}
 		
 		ai_will_do = {
@@ -98,6 +194,11 @@ technologies = {
 			leads_to_tech = additive_manufacturing
             research_cost_coeff = 1           
 		}
+		
+		path = {
+			leads_to_tech = automatic_optical_inspection
+            research_cost_coeff = 1           
+		}
 
 		research_cost = 1
 		start_year = 1938
@@ -109,6 +210,49 @@ technologies = {
 		categories = {
 			industry_general
 			industry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	automatic_optical_inspection = {
+	
+		path = {
+			leads_to_tech = automated_building_surveying
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = industry_folder
+			position = { x = -2 y = @1939 }
+		}
+		
+		categories = {
+			industry_general
+			industry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	automated_building_surveying = {
+
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = industry_folder
+			position = { x = -2 y = @1940 }
+		}
+		
+		categories = {
+			industry_general
+			construction_tech
 		}
 		
 		ai_will_do = {
@@ -494,6 +638,10 @@ technologies = {
 	}
 	
 	synthetic_biology_theory = {
+	
+		enable_equipments = {
+			synthetic_biology_theory_fake
+		}
 	
 		path = {
 			leads_to_tech = self_repairing_concrete
