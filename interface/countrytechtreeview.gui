@@ -1295,7 +1295,34 @@ guiTypes = {
 				position = { x = 100 y = 340 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
-	
+			}
+			
+			gridboxtype = {
+				name = "plasticisation_units_tree"
+				position = { x = 100 y = 340 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
+				name = "chemical_etching_process_tree"
+				position = { x = 100 y = 340 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
+				name = "glycerylnitrate_chemical_synthesis_tree"
+				position = { x = 100 y = 340 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
+				name = "synthetic_biology_theory_tree"
+				position = { x = 100 y = 340 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
 			}
 			
 		}

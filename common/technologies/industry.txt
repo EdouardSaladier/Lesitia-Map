@@ -31,7 +31,8 @@ technologies = {
 		}
 		
 		categories = {
-			industry
+			industry_general
+			industry_tech
 		}
 		
 		ai_will_do = {
@@ -45,6 +46,11 @@ technologies = {
 			leads_to_tech = sensors_robotics
             research_cost_coeff = 1           
 		}
+		
+		path = {
+			leads_to_tech = powered_construction_exoskeletons
+            research_cost_coeff = 1           
+		}
 
 		research_cost = 1
 		start_year = 1936
@@ -54,7 +60,27 @@ technologies = {
 		}
 		
 		categories = {
-			industry
+			industry_general
+			industry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	powered_construction_exoskeletons = {
+
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = industry_folder
+			position = { x = 1 y = @1937 }
+		}
+		
+		categories = {
+			industry_general
+			construction_tech
 		}
 		
 		ai_will_do = {
@@ -81,7 +107,8 @@ technologies = {
 		}
 		
 		categories = {
-			industry
+			industry_general
+			industry_tech
 		}
 		
 		ai_will_do = {
@@ -99,6 +126,11 @@ technologies = {
 			leads_to_tech = nanomaterials_applications
             research_cost_coeff = 1           
 		}
+		
+		path = {
+			leads_to_tech = 3d_construction_printing
+            research_cost_coeff = 1           
+		}
 
 		research_cost = 1
 		start_year = 1940
@@ -108,7 +140,27 @@ technologies = {
 		}
 		
 		categories = {
-			industry
+			industry_general
+			industry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	3d_construction_printing = {
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = @1941 }
+		}
+		
+		categories = {
+			industry_general
+			construction_tech
 		}
 		
 		ai_will_do = {
@@ -126,6 +178,11 @@ technologies = {
 			leads_to_tech = tensile_memory_polarised_matter
             research_cost_coeff = 1           
 		}
+		
+		path = {
+			leads_to_tech = construction_nanomaterials
+            research_cost_coeff = 1           
+		}
 
 		research_cost = 1
 		start_year = 1942
@@ -135,7 +192,51 @@ technologies = {
 		}
 		
 		categories = {
-			industry
+			industry_general
+			industry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	construction_nanomaterials = {
+	
+		path = {
+			leads_to_tech = metal_foam
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = @1943 }
+		}
+		
+		categories = {
+			industry_general
+			construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	metal_foam = {
+
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = @1944 }
+		}
+		
+		categories = {
+			industry_general
+			construction_tech
 		}
 		
 		ai_will_do = {
@@ -158,7 +259,8 @@ technologies = {
 		}
 		
 		categories = {
-			industry
+			industry_general
+			industry_tech
 		}
 		
 		ai_will_do = {
@@ -185,7 +287,8 @@ technologies = {
 		}
 		
 		categories = {
-			industry
+			industry_general
+			industry_tech
 		}
 		
 		ai_will_do = {
@@ -208,7 +311,8 @@ technologies = {
 		}
 		
 		categories = {
-			industry
+			industry_general
+			industry_tech
 		}
 		
 		ai_will_do = {
@@ -226,7 +330,301 @@ technologies = {
 		}
 		
 		categories = {
-			industry
+			industry_general
+			industry_tech
+			construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	plasticisation_units = {
+	
+		path = {
+			leads_to_tech = thermoforming_moulding
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = @1918 }
+		}
+		
+		categories = {
+			industry_general
+			resource_production_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	thermoforming_moulding = {
+	
+		path = {
+			leads_to_tech = aerogel_insulation
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = @1938 }
+		}
+		
+		categories = {
+			industry_general
+			resource_production_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	aerogel_insulation = {
+
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = @1939 }
+		}
+		
+		categories = {
+			industry_general
+			construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	chemical_etching_process = {
+	
+		path = {
+			leads_to_tech = multi_layer_vacuum_lamination
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = @1918 }
+		}
+		
+		categories = {
+			industry_general
+			resource_production_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	multi_layer_vacuum_lamination = {
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = @1938 }
+		}
+		
+		categories = {
+			industry_general
+			resource_production_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	glycerylnitrate_chemical_synthesis = {
+	
+		path = {
+			leads_to_tech = hexamine_nitration_process
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = industry_folder
+			position = { x = 6 y = @1918 }
+		}
+		
+		categories = {
+			industry_general
+			resource_production_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	hexamine_nitration_process = {
+	
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = industry_folder
+			position = { x = 6 y = @1938 }
+		}
+		
+		categories = {
+			industry_general
+			resource_production_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	synthetic_biology_theory = {
+	
+		path = {
+			leads_to_tech = self_repairing_concrete
+            research_cost_coeff = 1           
+		}
+	
+		path = {
+			leads_to_tech = biopolymers
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = organic_solvent_recrystalisation
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = @1939 }
+		}
+		
+		categories = {
+			industry_general
+			resource_production_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	self_repairing_concrete = {
+	
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = @1940 }
+		}
+		
+		categories = {
+			industry_general
+			resource_production_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	biopolymers = {
+	
+		path = {
+			leads_to_tech = biological_circuit_fabrication
+            research_cost_coeff = 1           
+		}
+	
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = @1940 }
+		}
+		
+		categories = {
+			industry_general
+			resource_production_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	biological_circuit_fabrication = {
+	
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = @1942 }
+		}
+		
+		categories = {
+			industry_general
+			resource_production_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	organic_solvent_recrystalisation = {
+	
+		path = {
+			leads_to_tech = organic_super_lubricant
+            research_cost_coeff = 1           
+		}
+	
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = industry_folder
+			position = { x = 6 y = @1941 }
+		}
+		
+		categories = {
+			industry_general
+			resource_production_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	organic_super_lubricant = {
+	
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = industry_folder
+			position = { x = 6 y = @1943 }
+		}
+		
+		categories = {
+			industry_general
+			resource_production_tech
 		}
 		
 		ai_will_do = {

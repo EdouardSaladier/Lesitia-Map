@@ -1118,4 +1118,89 @@ spriteTypes = {
 		name = "GFX_structure_conversion_tower_medium"
 		texturefile = "gfx/interface/technologies/structure_conversion_tower.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_powered_construction_exoskeletons_medium"
+		texturefile = "gfx/interface/technologies/powered_construction_exoskeletons.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_3d_construction_printing_medium"
+		texturefile = "gfx/interface/technologies/3d_construction_printing.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_construction_nanomaterials_medium"
+		texturefile = "gfx/interface/technologies/construction_nanomaterials.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_metal_foam_medium"
+		texturefile = "gfx/interface/technologies/metal_foam.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_plasticisation_units_medium"
+		texturefile = "gfx/interface/technologies/plasticisation_units.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_thermoforming_moulding_medium"
+		texturefile = "gfx/interface/technologies/thermoforming_moulding.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_aerogel_insulation_medium"
+		texturefile = "gfx/interface/technologies/aerogel_insulation.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_chemical_etching_process_medium"
+		texturefile = "gfx/interface/technologies/chemical_etching_process.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_multi_layer_vacuum_lamination_medium"
+		texturefile = "gfx/interface/technologies/multi_layer_vacuum_lamination.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_glycerylnitrate_chemical_synthesis_medium"
+		texturefile = "gfx/interface/technologies/glycerylnitrate_chemical_synthesis.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_hexamine_nitration_process_medium"
+		texturefile = "gfx/interface/technologies/hexamine_nitration_process.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_synthetic_biology_theory_medium"
+		texturefile = "gfx/interface/technologies/synthetic_biology_theory.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_self_repairing_concrete_medium"
+		texturefile = "gfx/interface/technologies/self_repairing_concrete.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_biopolymers_medium"
+		texturefile = "gfx/interface/technologies/biopolymers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_biological_circuit_fabrication_medium"
+		texturefile = "gfx/interface/technologies/biological_circuit_fabrication.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_organic_solvent_recrystalisation_medium"
+		texturefile = "gfx/interface/technologies/organic_solvent_recrystalisation.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_organic_super_lubricant_medium"
+		texturefile = "gfx/interface/technologies/organic_super_lubricant.dds"
+	}
 }

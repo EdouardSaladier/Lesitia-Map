@@ -2,18 +2,23 @@
 # If adding new technology, make sure they are uniquely named.
 
 technology_categories = {
+	###Infantry tree
 	infantry_weapons
 	infantry_weapons_equipment
-	railguns_weapons
-	railguns_weapons_equipment
+	at_weapons
+	at_weapons_equipment
 	light_air
 	medium_air
 	heavy_air
 	armor
-	cat_light_armor
-	cat_medium_armor
-	cat_heavy_armor
 	artillery
+	###Industry Tree
+	industry_general
+	industry_tech
+	construction_tech
+	excavation_tech
+	resource_production_tech
+	
 	cat_anti_tank
 	cat_anti_air
 	naval_air
@@ -22,7 +27,7 @@ technology_categories = {
 	naval_equipment
 	rocketry
 	nuclear
-	industry
+	
 	electronics
 	land_doctrine
 	air_doctrine
@@ -57,8 +62,7 @@ technology_categories = {
 	radar_tech
 	infantry_tech
 	marine_tech
-	construction_tech
-	excavation_tech
+	
 	submarine_doctrine
 	air_equipment
 	cat_mobile_warfare
