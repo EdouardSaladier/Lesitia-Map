@@ -846,3 +846,175 @@
  tactical_laser_defence_platform_equipment_desc:0 "Tactical Laser Defence Platform"
 
  
+# Naval
+surface_combat_vessel:0 "Surface Combat Vessel "
+surface_combat_vessel_desc:0 "Surface Combat Vessel "
+
+electromagnetic_gun_launcher:0 "Electromagnetic Gun Launcher "
+electromagnetic_gun_launcher_desc:0 "Electromagnetic Gun Launcher "
+
+naval_armored_fighting_vessel:0 "Naval Armored Fighting Vessel "
+naval_armored_fighting_vessel_desc:0 "Naval Armored Fighting Vessel "
+
+sea_firepower_projector:0 "Sea Firepower Projector "
+sea_firepower_projector_desc:0 "Sea Firepower Projector "
+
+naval_supremacy_warship:0 "Naval Supremacy Warship "
+naval_supremacy_warship_desc:0 "Naval Supremacy Warship "
+
+electro_magnetic_anti_missile_armor:0 "Electro Magnetic Anti Missile Armor "
+electro_magnetic_anti_missile_armor_desc:0 "Electro Magnetic Anti Missile Armor "
+
+naval_railguns_carrier:0 "Naval Railguns Carrier "
+naval_railguns_carrier_desc:0 "Naval Railguns Carrier "
+
+polyurethane_carbamide_elastomer:0 "Polyurethane Carbamide Elastomer "
+polyurethane_carbamide_elastomer_desc:0 "Polyurethane Carbamide Elastomer "
+
+kinetic_impact_dampener:0 "Kinetic Impact Dampener "
+kinetic_impact_dampener_desc:0 "Kinetic Impact Dampener "
+
+long_range_striker:0 "Long Range Striker "
+long_range_striker_desc:0 "Long Range Striker "
+
+firepower_saturation_warship:0 "Firepower Saturation Warship "
+firepower_saturation_warship_desc:0 "Firepower Saturation Warship "
+
+network_cooperative_radar:0 "Network Cooperative Radar "
+network_cooperative_radar_desc:0 "Network Cooperative Radar "
+
+integrated_air_and_missile_defense:0 "Integrated Air And Missile Defense "
+integrated_air_and_missile_defense_desc:0 "Integrated Air And Missile Defense "
+
+super_heating_defense_laser:0 "Super Heating Defense Laser "
+super_heating_defense_laser_desc:0 "Super Heating Defense Laser "
+
+multi_targeting_defense:0 "Multi Targeting Defense "
+multi_targeting_defense_desc:0 "Multi Targeting Defense "
+
+submersible_drone_network:0 "Submersible Drone Network "
+submersible_drone_network_desc:0 "Submersible Drone Network "
+
+target_prioritisation_and_tracking:0 "Target Prioritisation And Tracking "
+target_prioritisation_and_tracking_desc:0 "Target Prioritisation And Tracking "
+
+advanced_thermo_magnetic_detection:0 "Advanced Thermo Magnetic Detection "
+advanced_thermo_magnetic_detection_desc:0 "Advanced Thermo Magnetic Detection "
+
+naval_escort_vessel:0 "Naval Escort Vessel "
+naval_escort_vessel_desc:0 "Naval Escort Vessel "
+
+light_vessels_destroyer:0 "Light Vessels Destroyer "
+light_vessels_destroyer_desc:0 "Light Vessels Destroyer "
+
+surface_combattant_ship:0 "Surface Combattant Ship "
+surface_combattant_ship_desc:0 "Surface Combattant Ship "
+
+local_superiority_vessel:0 "Local Superiority Vessel "
+local_superiority_vessel_desc:0 "Local Superiority Vessel "
+
+high_intensity_combat_warship:0 "High Intensity Combat Warship "
+high_intensity_combat_warship_desc:0 "High Intensity Combat Warship "
+
+fast_attack_craft:0 "Fast Attack Craft "
+fast_attack_craft_desc:0 "Fast Attack Craft "
+
+littoral_combat_ship:0 "Littoral Combat Ship "
+littoral_combat_ship_desc:0 "Littoral Combat Ship "
+
+unmaned_surface_vessel:0 "Unmaned Surface Vessel "
+unmaned_surface_vessel_desc:0 "Unmaned Surface Vessel "
+
+automated_swarming_ships:0 "Automated Swarming Ships "
+automated_swarming_ships_desc:0 "Automated Swarming Ships "
+
+infrared_search_and_track:0 "Infrared Search And Track "
+infrared_search_and_track_desc:0 "Infrared Search And Track "
+
+supercavitating_torpedo:0 "Supercavitating Torpedo "
+supercavitating_torpedo_desc:0 "Supercavitating Torpedo "
+
+sulfur_hexafluoride_chemical_propellant:0 "Sulfur Hexafluoride Chemical Propellant "
+sulfur_hexafluoride_chemical_propellant_desc:0 "Sulfur Hexafluoride Chemical Propellant "
+
+hunter_killer_submarine:0 "Hunter Killer Submarine "
+hunter_killer_submarine_desc:0 "Hunter Killer Submarine "
+
+trade_interdiction_vessel:0 "Trade Interdiction Vessel "
+trade_interdiction_vessel_desc:0 "Trade Interdiction Vessel "
+
+unmaned_undersea_raider:0 "Unmaned Undersea Raider "
+unmaned_undersea_raider_desc:0 "Unmaned Undersea Raider "
+
+autonomous_convoy_diruption_vehicle:0 "Autonomous Convoy Diruption Vehicle "
+autonomous_convoy_diruption_vehicle_desc:0 "Autonomous Convoy Diruption Vehicle "
+
+wave_absorbant_coating:0 "Wave Absorbant Coating "
+wave_absorbant_coating_desc:0 "Wave Absorbant Coating "
+
+main_fleet_carrier:0 "Main Fleet Carrier "
+main_fleet_carrier_desc:0 "Main Fleet Carrier "
+
+universal_weapon_naval_platform:0 "Universal Weapon Naval Platform "
+universal_weapon_naval_platform_desc:0 "Universal Weapon Naval Platform "
+
+expeditionarry_advance_base:0 "Expeditionarry Advance Base "
+expeditionarry_advance_base_desc:0 "Expeditionarry Advance Base "
+
+aeronaval_dominance_platform:0 "Aeronaval Dominance Platform "
+aeronaval_dominance_platform_desc:0 "Aeronaval Dominance Platform "
+
+electromagnetic_aircraft_launch_system:0 "Electromagnetic Aircraft Launch System "
+electromagnetic_aircraft_launch_system_desc:0 "Electromagnetic Aircraft Launch System "
+
+optical_landing_system:0 "Optical Landing System "
+optical_landing_system_desc:0 "Optical Landing System "
+
+surface_combat_vessel_equipment:0 "Surface Combat Vessel"
+surface_combat_vessel_equipment_desc:0 "Surface Combat Vessel"
+naval_armored_fighting_vessel_equipment:0 "Naval Armored Fighting Vessel"
+naval_armored_fighting_vessel_equipment_desc:0 "Naval Armored Fighting Vessel"
+sea_firepower_projector_equipment:0 "Sea Firepower Projector"
+sea_firepower_projector_equipment_desc:0 "Sea Firepower Projector"
+naval_supremacy_warship_equipment:0 "Naval Supremacy Warship"
+naval_supremacy_warship_equipment_desc:0 "Naval Supremacy Warship"
+naval_railguns_carrier_equipment:0 "Naval Railguns Carrier"
+naval_railguns_carrier_equipment_desc:0 "Naval Railguns Carrier"
+long_range_striker_equipment:0 "Long Range Striker"
+long_range_striker_equipment_desc:0 "Long Range Striker"
+firepower_saturation_warship_equipment:0 "Firepower Saturation Warship"
+firepower_saturation_warship_equipment_desc:0 "Firepower Saturation Warship"
+naval_escort_vessel_equipment:0 "Naval Escort Vessel"
+naval_escort_vessel_equipment_desc:0 "Naval Escort Vessel"
+light_vessels_destroyer_equipment:0 "Light Vessels Destroyer"
+light_vessels_destroyer_equipment_desc:0 "Light Vessels Destroyer"
+surface_combattant_ship_equipment:0 "Surface Combattant Ship"
+surface_combattant_ship_equipment_desc:0 "Surface Combattant Ship"
+local_superiority_vessel_equipment:0 "Local Superiority Vessel"
+local_superiority_vessel_equipment_desc:0 "Local Superiority Vessel"
+high_intensity_combat_warship_equipment:0 "High Intensity Combat Warship"
+high_intensity_combat_warship_equipment_desc:0 "High Intensity Combat Warship"
+fast_attack_craft_equipment:0 "Fast Attack Craft"
+fast_attack_craft_equipment_desc:0 "Fast Attack Craft"
+littoral_combat_ship_equipment:0 "Littoral Combat Ship"
+littoral_combat_ship_equipment_desc:0 "Littoral Combat Ship"
+unmaned_surface_vessel_equipment:0 "Unmaned Surface Vessel"
+unmaned_surface_vessel_equipment_desc:0 "Unmaned Surface Vessel"
+automated_swarming_ships_equipment:0 "Automated Swarming Ships"
+automated_swarming_ships_equipment_desc:0 "Automated Swarming Ships"
+hunter_killer_submarine_equipment:0 "Hunter Killer Submarine"
+hunter_killer_submarine_equipment_desc:0 "Hunter Killer Submarine"
+trade_interdiction_vessel_equipment:0 "Trade Interdiction Vessel"
+trade_interdiction_vessel_equipment_desc:0 "Trade Interdiction Vessel"
+unmaned_undersea_raider_equipment:0 "Unmaned Undersea Raider"
+unmaned_undersea_raider_equipment_desc:0 "Unmaned Undersea Raider"
+autonomous_convoy_diruption_vehicle_equipment:0 "Autonomous Convoy Diruption Vehicle"
+autonomous_convoy_diruption_vehicle_equipment_desc:0 "Autonomous Convoy Diruption Vehicle"
+main_fleet_carrier_equipment:0 "Main Fleet Carrier"
+main_fleet_carrier_equipment_desc:0 "Main Fleet Carrier"
+universal_weapon_naval_platform_equipment:0 "Universal Weapon Naval Platform"
+universal_weapon_naval_platform_equipment_desc:0 "Universal Weapon Naval Platform"
+expeditionarry_advance_base_equipment:0 "Expeditionarry Advance Base"
+expeditionarry_advance_base_equipment_desc:0 "Expeditionarry Advance Base"
+
+

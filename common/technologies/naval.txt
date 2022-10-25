@@ -1,2 +1,1173 @@
 technologies = {
+
+	@1936 = 0
+	@1937 = 4
+	@1938 = 8
+	@1939 = 12
+	@1940 = 16
+	@1941 = 20
+	@1942 = 24
+	@1943 = 28
+	@1944 = 32
+	@1945 = 36
+	@1946 = 40
+
+	surface_combat_vessel = {
+
+		enable_equipments = {
+			surface_combat_vessel_equipment
+		}
+		
+		path = {
+			leads_to_tech = electromagnetic_gun_launcher
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = network_cooperative_radar
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = multi_targeting_defense
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = naval_folder
+			position = { x = -5 y = @1936 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	electromagnetic_gun_launcher = {
+
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = naval_armored_fighting_vessel
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = naval_railguns_carrier
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = naval_folder
+			position = { x = -5 y = @1937 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	naval_armored_fighting_vessel = {
+
+		enable_equipments = {
+			naval_armored_fighting_vessel_equipment
+		}
+		
+		path = {
+			leads_to_tech = sea_firepower_projector
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = electro_magnetic_anti_missile_armor
+            research_cost_coeff = 1           
+		}
+		
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = naval_folder
+			position = { x = -6 y = @1938 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	electro_magnetic_anti_missile_armor = {
+
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = polyurethane_carbamide_elastomer
+            research_cost_coeff = 1           
+		}
+		
+
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = naval_folder
+			position = { x = -4 y = @1940 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	polyurethane_carbamide_elastomer = {
+
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = kinetic_impact_dampener
+            research_cost_coeff = 1           
+		}
+		
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = naval_folder
+			position = { x = -4 y = @1943 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	kinetic_impact_dampener = {
+
+		enable_equipments = {
+			
+		}
+		
+
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = naval_folder
+			position = { x = -4 y = @1945 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	sea_firepower_projector = {
+
+		enable_equipments = {
+			sea_firepower_projector_equipment
+		}
+		
+		path = {
+			leads_to_tech = naval_supremacy_warship
+            research_cost_coeff = 1           
+		}
+		
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = naval_folder
+			position = { x = -6 y = @1941 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	naval_supremacy_warship = {
+
+		enable_equipments = {
+			naval_supremacy_warship_equipment
+		}
+		
+
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = naval_folder
+			position = { x = -6 y = @1944 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	naval_railguns_carrier = {
+
+		enable_equipments = {
+			naval_railguns_carrier_equipment
+		}
+		
+		path = {
+			leads_to_tech = long_range_striker
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = naval_folder
+			position = { x = -3 y = @1938 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	long_range_striker = {
+
+		enable_equipments = {
+			long_range_striker_equipment
+		}
+		
+		path = {
+			leads_to_tech = firepower_saturation_warship
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = naval_folder
+			position = { x = -3 y = @1941 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	firepower_saturation_warship = {
+
+		enable_equipments = {
+			firepower_saturation_warship_equipment
+		}
+
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = naval_folder
+			position = { x = -3 y = @1944 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	network_cooperative_radar = {
+
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = integrated_air_and_missile_defense
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = naval_folder
+			position = { x = -1 y = @1937 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	integrated_air_and_missile_defense = {
+
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = super_heating_defense_laser
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = naval_folder
+			position = { x = -1 y = @1939 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	super_heating_defense_laser = {
+
+		enable_equipments = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = naval_folder
+			position = { x = -1 y = @1942 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	multi_targeting_defense = {
+
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = submersible_drone_network
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = naval_folder
+			position = { x = 3 y = @1937 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	submersible_drone_network = {
+
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = target_prioritisation_and_tracking
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = naval_folder
+			position = { x = 3 y = @1939 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	target_prioritisation_and_tracking = {
+
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = advanced_thermo_magnetic_detection
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = naval_folder
+			position = { x = 3 y = @1941 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advanced_thermo_magnetic_detection = {
+
+		enable_equipments = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = naval_folder
+			position = { x = 3 y = @1944 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	naval_escort_vessel = {
+
+		enable_equipments = {
+			naval_escort_vessel_equipment
+		}
+		
+		path = {
+			leads_to_tech = light_vessels_destroyer
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = multi_targeting_defense
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = naval_folder
+			position = { x = 1 y = @1936 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	light_vessels_destroyer = {
+
+		enable_equipments = {
+			light_vessels_destroyer_equipment
+		}
+		
+		path = {
+			leads_to_tech = surface_combattant_ship
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = naval_folder
+			position = { x = 1 y = @1938 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	surface_combattant_ship = {
+
+		enable_equipments = {
+			surface_combattant_ship_equipment
+		}
+		
+		path = {
+			leads_to_tech = local_superiority_vessel
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = naval_folder
+			position = { x = 1 y = @1940 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	local_superiority_vessel = {
+
+		enable_equipments = {
+			local_superiority_vessel_equipment
+		}
+		
+		path = {
+			leads_to_tech = high_intensity_combat_warship
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = naval_folder
+			position = { x = 1 y = @1943 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	high_intensity_combat_warship = {
+
+		enable_equipments = {
+			local_superiority_vessel_equipment
+		}
+
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = naval_folder
+			position = { x = 1 y = @1945 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	fast_attack_craft = {
+
+		enable_equipments = {
+			fast_attack_craft_equipment
+		}
+		
+		path = {
+			leads_to_tech = littoral_combat_ship
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = infrared_search_and_track
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = @1936 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	littoral_combat_ship = {
+
+		enable_equipments = {
+			littoral_combat_ship_equipment
+		}
+		
+		path = {
+			leads_to_tech = unmaned_surface_vessel
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = @1939 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unmaned_surface_vessel = {
+
+		enable_equipments = {
+			unmaned_surface_vessel_equipment
+		}
+		
+		path = {
+			leads_to_tech = automated_swarming_ships
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = @1941 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	automated_swarming_ships = {
+
+		enable_equipments = {
+			automated_swarming_ships_equipment
+		}
+		
+
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = @1944 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infrared_search_and_track = {
+
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = supercavitating_torpedo
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = naval_folder
+			position = { x = 6 y = @1937 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	supercavitating_torpedo = {
+
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = sulfur_hexafluoride_chemical_propellant
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = naval_folder
+			position = { x = 6 y = @1941 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	sulfur_hexafluoride_chemical_propellant = {
+
+		enable_equipments = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = naval_folder
+			position = { x = 6 y = @1943 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	hunter_killer_submarine = {
+
+		enable_equipments = {
+			hunter_killer_submarine_equipment
+		}
+		
+		path = {
+			leads_to_tech = trade_interdiction_vessel
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = infrared_search_and_track
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = acoustic_signature_reduction
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = naval_folder
+			position = { x = 8 y = @1936 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	acoustic_signature_reduction = {
+
+		enable_equipments = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = naval_folder
+			position = { x = 9 y = @1937 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	trade_interdiction_vessel = {
+
+		enable_equipments = {
+			trade_interdiction_vessel_equipment
+		}
+		
+		path = {
+			leads_to_tech = unmaned_undersea_raider
+            research_cost_coeff = 1           
+		}
+
+		path = {
+			leads_to_tech = wave_absorbant_coating
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = naval_folder
+			position = { x = 8 y = @1939 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	wave_absorbant_coating = {
+
+		enable_equipments = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = naval_folder
+			position = { x = 9 y = @1940 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unmaned_undersea_raider = {
+
+		enable_equipments = {
+			unmaned_undersea_raider_equipment
+		}
+		
+		path = {
+			leads_to_tech = autonomous_convoy_diruption_vehicle
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = naval_folder
+			position = { x = 8 y = @1942 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	autonomous_convoy_diruption_vehicle = {
+
+		enable_equipments = {
+			autonomous_convoy_diruption_vehicle_equipment
+		}
+
+		research_cost =1
+		start_year = 1945
+		folder = {
+			name = naval_folder
+			position = { x = 8 y = @1945 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	main_fleet_carrier = {
+
+		enable_equipments = {
+			main_fleet_carrier_equipment
+		}
+		
+		path = {
+			leads_to_tech = universal_weapon_naval_platform
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = electromagnetic_aircraft_launch_system
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = naval_folder
+			position = { x = 11 y = @1936 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	electromagnetic_aircraft_launch_system = {
+
+		enable_equipments = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = naval_folder
+			position = { x = 12 y = @1937 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	universal_weapon_naval_platform = {
+
+		enable_equipments = {
+			universal_weapon_naval_platform_equipment
+		}
+		
+		path = {
+			leads_to_tech = expeditionarry_advance_base
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = optical_landing_system
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = naval_folder
+			position = { x = 11 y = @1938 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	optical_landing_system = {
+
+		enable_equipments = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = naval_folder
+			position = { x = 12 y = @1939 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	expeditionarry_advance_base = {
+
+		enable_equipments = {
+			expeditionarry_advance_base_equipment
+		}
+		
+		path = {
+			leads_to_tech = aeronaval_dominance_platform
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = advanced_arresting_gear
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = naval_folder
+			position = { x = 11 y = @1941 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advanced_arresting_gear = {
+
+		enable_equipments = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = naval_folder
+			position = { x = 12 y = @1942 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	aeronaval_dominance_platform = {
+
+		enable_equipments = {
+			aeronaval_dominance_platform_equipment
+		}
+
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = naval_folder
+			position = { x = 11 y = @1944 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+
 }

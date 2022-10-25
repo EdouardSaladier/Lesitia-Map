@@ -1233,4 +1233,197 @@ spriteTypes = {
 		name = "GFX_automated_building_surveying_medium"
 		texturefile = "gfx/interface/technologies/automated_building_surveying.dds"
 	}
+	
+		spriteType = {
+		name = "GFX_acoustic_signature_reduction_medium"
+		texturefile = "gfx/interface/technologies/acoustic_signature_reduction.dds"
+	}
+
+	spriteType = {
+		name = "GFX_advanced_arresting_gear_medium"
+		texturefile = "gfx/interface/technologies/advanced_arresting_gear.dds"
+	}
+
+	spriteType = {
+		name = "GFX_advanced_thermo_magnetic_detection_medium"
+		texturefile = "gfx/interface/technologies/advanced_thermo_magnetic_detection.dds"
+	}
+
+	spriteType = {
+		name = "GFX_aeronaval_dominance_platform_medium"
+		texturefile = "gfx/interface/technologies/aeronaval_dominance_platform.dds"
+	}
+
+	spriteType = {
+		name = "GFX_automated_swarming_ships_medium"
+		texturefile = "gfx/interface/technologies/automated_swarming_ships.dds"
+	}
+
+	spriteType = {
+		name = "GFX_electromagnetic_aircraft_launch_system_medium"
+		texturefile = "gfx/interface/technologies/electromagnetic_aircraft_launch_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_electromagnetic_gun_launcher_medium"
+		texturefile = "gfx/interface/technologies/electromagnetic_gun_launcher.dds"
+	}
+
+	spriteType = {
+		name = "GFX_electro_magnetic_anti_missile_armor_medium"
+		texturefile = "gfx/interface/technologies/electro_magnetic_anti_missile_armor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_expeditionarry_advance_base_medium"
+		texturefile = "gfx/interface/technologies/expeditionarry_advance_base.dds"
+	}
+
+	spriteType = {
+		name = "GFX_fast_attack_craft_medium"
+		texturefile = "gfx/interface/technologies/fast_attack_craft.dds"
+	}
+
+	spriteType = {
+		name = "GFX_firepower_saturation_warship_medium"
+		texturefile = "gfx/interface/technologies/firepower_saturation_warship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_high_intensity_combat_warship_medium"
+		texturefile = "gfx/interface/technologies/high_intensity_combat_warship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_infrared_search_and_track_medium"
+		texturefile = "gfx/interface/technologies/infrared_search_and_track.dds"
+	}
+
+	spriteType = {
+		name = "GFX_integrated_air_and_missile_defense_medium"
+		texturefile = "gfx/interface/technologies/integrated_air_and_missile_defense.dds"
+	}
+
+	spriteType = {
+		name = "GFX_kinetic_impact_dampener_medium"
+		texturefile = "gfx/interface/technologies/kinetic_impact_dampener.dds"
+	}
+
+	spriteType = {
+		name = "GFX_light_vessels_destroyer_medium"
+		texturefile = "gfx/interface/technologies/light_vessels_destroyer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_littoral_combat_ship_medium"
+		texturefile = "gfx/interface/technologies/littoral_combat_ship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_local_superiority_vessel_medium"
+		texturefile = "gfx/interface/technologies/local_superiority_vessel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_long_range_striker_medium"
+		texturefile = "gfx/interface/technologies/long_range_striker.dds"
+	}
+
+	spriteType = {
+		name = "GFX_main_fleet_carrier_medium"
+		texturefile = "gfx/interface/technologies/main_fleet_carrier.dds"
+	}
+
+	spriteType = {
+		name = "GFX_multi_targeting_defense_medium"
+		texturefile = "gfx/interface/technologies/multi_targeting_defense.dds"
+	}
+
+	spriteType = {
+		name = "GFX_naval_armored_fighting_vessel_medium"
+		texturefile = "gfx/interface/technologies/naval_armored_fighting_vessel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_naval_escort_vessel_medium"
+		texturefile = "gfx/interface/technologies/naval_escort_vessel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_naval_railguns_carrier_medium"
+		texturefile = "gfx/interface/technologies/naval_railguns_carrier.dds"
+	}
+
+	spriteType = {
+		name = "GFX_naval_supremacy_warship_medium"
+		texturefile = "gfx/interface/technologies/naval_supremacy_warship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_network_cooperative_radar_medium"
+		texturefile = "gfx/interface/technologies/network_cooperative_radar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_optical_landing_system_medium"
+		texturefile = "gfx/interface/technologies/optical_landing_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_polyurethane_carbamide_elastomer_medium"
+		texturefile = "gfx/interface/technologies/polyurethane_carbamide_elastomer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sea_firepower_projector_medium"
+		texturefile = "gfx/interface/technologies/sea_firepower_projector.dds"
+	}
+
+	spriteType = {
+		name = "GFX_submersible_drone_network_medium"
+		texturefile = "gfx/interface/technologies/submersible_drone_network.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sulfur_hexafluoride_chemical_propellant_medium"
+		texturefile = "gfx/interface/technologies/sulfur_hexafluoride_chemical_propellant.dds"
+	}
+
+	spriteType = {
+		name = "GFX_supercavitating_torpedo_medium"
+		texturefile = "gfx/interface/technologies/supercavitating_torpedo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_super_heating_defense_laser_medium"
+		texturefile = "gfx/interface/technologies/super_heating_defense_laser.dds"
+	}
+
+	spriteType = {
+		name = "GFX_surface_combat_vessel_medium"
+		texturefile = "gfx/interface/technologies/surface_combat_vessel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_target_prioritisation_and_tracking_medium"
+		texturefile = "gfx/interface/technologies/target_prioritisation_and_tracking.dds"
+	}
+
+	spriteType = {
+		name = "GFX_universal_weapon_naval_platform_medium"
+		texturefile = "gfx/interface/technologies/universal_weapon_naval_platform.dds"
+	}
+
+	spriteType = {
+		name = "GFX_unmaned_surface_vessel_medium"
+		texturefile = "gfx/interface/technologies/unmaned_surface_vessel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_wave_absorbant_coating_medium"
+		texturefile = "gfx/interface/technologies/wave_absorbant_coating.dds"
+	}
+
+
+	
 }
