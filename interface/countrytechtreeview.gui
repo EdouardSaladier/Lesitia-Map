@@ -909,17 +909,25 @@ guiTypes = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
+			
+			containerWindowType = {
+				name = "tiled_window_transparent_transparent"
+				position = { x= 0 y= 0 }
+				size = { 
+					width = 2300 height = 1650 
+					min = { width=100%% height=100%% }
+				}
+				clipping = no
 
-#			containerWindowType = {
-#				name = "size_filler"
-#				position = { x=0 y=0 }
-#				size = { width = 1700 height = 1200 }
-#	
-#			}
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent_transparent"
+				}
+			}
 
-	instantTextBoxType = {
+			instantTextBoxType = {
 				name = "naval_year2"
-				position = { x = 80 y = 20 }
+				position = { x = 150 y = 20 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 0}
@@ -932,7 +940,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_year3"
-				position = { x = 380 y = 20 }
+				position = { x = 350 y = 20 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
@@ -945,7 +953,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_year4"
-				position = { x = 590 y = 20 }
+				position = { x = 570 y = 20 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
@@ -958,7 +966,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_year5"
-				position = { x = 800 y = 20 }
+				position = { x = 780 y = 20 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
@@ -971,7 +979,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_year6"
-				position = { x = 1010 y = 20 }
+				position = { x = 980 y = 20 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
@@ -984,7 +992,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_year7"
-				position = { x = 1220 y = 20 }
+				position = { x = 1200 y = 20 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
@@ -997,7 +1005,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_year8"
-				position = { x = 1430 y = 20 }
+				position = { x = 1420 y = 20 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
@@ -1010,7 +1018,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_year9"
-				position = { x = 1570 y = 20 }
+				position = { x = 1610 y = 20 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
@@ -1023,7 +1031,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_year10"
-				position = { x = 1780 y = 20 }
+				position = { x = 1820 y = 20 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
@@ -1036,7 +1044,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "naval_year11"
-				position = { x = 2060 y = 20 }
+				position = { x = 2040 y = 20 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
@@ -1045,12 +1053,6 @@ guiTypes = {
 				maxHeight = 32
 				format = left
 				Orientation = "UPPER_LEFT"
-			}
-
-			iconType = {
-				name ="naval_techtree_bg"
-				spriteType = "GFX_naval_techtree_bg"
-				position = { x=0 y=0 }
 			}
 
 			gridboxtype = {
@@ -1091,21 +1093,6 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 	
-			}
-			
-			containerWindowType = {
-				name = "tiled_window_transparent_transparent"
-				position = { x= 0 y= 0 }
-				size = { 
-					width=1700 height=1300 
-					min = { width=100%% height=100%% }
-				}
-				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_transparent_transparent"
-				}
 			}
 
 		}
@@ -2656,48 +2643,61 @@ guiTypes = {
 		}
 	}
 	
-	
-
 	containerWindowType = {
 		name = "techtree_naval_folder_small_item" 
-		position = { x=0 y=5 }
+		position = { x=0 y=0 }
 		size = { width = 72 height = 72 }
 		clipping = no
 
+		# This controls the unavailable icon for the non-equipment technology
 		background = {
-			name = "Background"
+			name = "bg"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
 		}
 
+		# This grabs the GFX_<technology>_medium for the technology dynamically
 		iconType = {
 			name = "Icon"
-			position = { x=3 y=3 }
+			position = { x=0 y=0 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
-		}
-		iconType = {
-			name = "bonus_icon"
-			position = { x=-1 y=-22 }
-			spriteType = "GFX_tech_bonus"
-		}
+		}    
 		
 		instantTextBoxType = {
+			name = "Name"
+			position = { x = -55 y = -45 }
+			textureFile = ""
+			font = "hoi_20bs"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 170
+			maxHeight = 40
+			fixedsize = no
+			format = center
+		}
+			
+		iconType = {
+			name = "bonus_icon"
+			position = { x=3 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
 			name = "bonus"
-			position = { x = -1 y = -22 }
+			position = { x = 17 y = -22 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
-			maxWidth = 80
+			maxWidth = 50
 			maxHeight = 20
-			format = center
+			format = right
 		}
 	}	
 	
 	containerWindowType = {
 		name = "techtree_naval_folder_item"
-		position = { x=-131 y=1 }
-		size = { width = 204 height = 72 }
+		position = { x=-60 y=0 }
+		size = { width = 210 height = 84 }
 		clipping = no
 
 		background = {
@@ -2705,36 +2705,36 @@ guiTypes = {
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
 		}
 
-
-		iconType = {
-			name = "Icon"
-			position = { x=167 y=34 }
-			spriteType = "GFX_technology_medium"
-			centerposition = yes		
-			alwaystransparent = yes
-		}		
-		
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 3 y = -1 }
+			position = { x = -2 y = -45 }
 			textureFile = ""
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
-			text = "lol boat"
-			maxWidth = 270
-			maxHeight = 20
-			fixedsize = yes
-			format = left
+			text = ""
+			maxWidth = 200
+			maxHeight = 40
+			fixedsize = no
+			format = center
 		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=105 y=42 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
 		iconType = {
 			name = "bonus_icon"
-			position = { x=257 y=-18 }
+			position = { x=111 y=-22 }
 			spriteType = "GFX_tech_bonus"
 		}
 		
 		instantTextBoxType = {
 			name = "bonus"
-			position = { x = 257 y = -19 }
+			position = { x = 111 y = -22 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
@@ -2743,6 +2743,7 @@ guiTypes = {
 			maxHeight = 20
 			format = center
 		}
+		
 	}
 
 	containerWindowType = {

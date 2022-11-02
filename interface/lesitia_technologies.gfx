@@ -1423,7 +1423,30 @@ spriteTypes = {
 		name = "GFX_wave_absorbant_coating_medium"
 		texturefile = "gfx/interface/technologies/wave_absorbant_coating.dds"
 	}
-
-
 	
+	spriteType = {
+		name = "GFX_surface_combattant_ship_medium"
+		texturefile = "gfx/interface/technologies/surface_combattant_ship.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_hunter_killer_submarine_medium"
+		texturefile = "gfx/interface/technologies/hunter_killer_submarine.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_trade_interdiction_vessel_medium"
+		texturefile = "gfx/interface/technologies/trade_interdiction_vessel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_unmaned_undersea_raider_medium"
+		texturefile = "gfx/interface/technologies/unmaned_undersea_raider.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomous_convoy_diruption_vehicle_medium"
+		texturefile = "gfx/interface/technologies/autonomous_convoy_diruption_vehicle.dds"
+	}
+
 }

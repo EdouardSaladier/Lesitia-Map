@@ -970,6 +970,9 @@ electromagnetic_aircraft_launch_system_desc:0 "Electromagnetic Aircraft Launch S
 optical_landing_system:0 "Optical Landing System "
 optical_landing_system_desc:0 "Optical Landing System "
 
+advanced_arresting_gear:0 "Advanced Arresting Gear"
+advanced_arresting_gear_desc:0 "Advanced Arresting Gear"
+
 surface_combat_vessel_equipment:0 "Surface Combat Vessel"
 surface_combat_vessel_equipment_desc:0 "Surface Combat Vessel"
 naval_armored_fighting_vessel_equipment:0 "Naval Armored Fighting Vessel"
@@ -1016,5 +1019,6 @@ universal_weapon_naval_platform_equipment:0 "Universal Weapon Naval Platform"
 universal_weapon_naval_platform_equipment_desc:0 "Universal Weapon Naval Platform"
 expeditionarry_advance_base_equipment:0 "Expeditionarry Advance Base"
 expeditionarry_advance_base_equipment_desc:0 "Expeditionarry Advance Base"
-
+aeronaval_dominance_platform_equipment:0 "Aeronaval Dominance Platform "
+aeronaval_dominance_platform_equipment_desc:0 "Aeronaval Dominance Platform "
 
