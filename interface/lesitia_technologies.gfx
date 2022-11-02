@@ -1071,6 +1071,33 @@ spriteTypes = {
 		name = "GFX_tactical_laser_defence_platform_medium"
 		texturefile = "gfx/interface/technologies/tactical_laser_defence_platform.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_tactical_ballistic_missiles_medium"
+		texturefile = "gfx/interface/technologies/tactical_ballistic_missiles.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_theatre_ballistic_missiles_medium"
+		texturefile = "gfx/interface/technologies/theatre_ballistic_missiles.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_intercontinental_ballistic_missiles_medium"
+		texturefile = "gfx/interface/technologies/intercontinental_ballistic_missiles.dds"
+	}
+	spriteType = {
+		name = "GFX_early_warning_radar_stations_medium"
+		texturefile = "gfx/interface/technologies/early_warning_radar_stations.dds"
+	}
+	spriteType = {
+		name = "GFX_phased_array_warning_system_medium"
+		texturefile = "gfx/interface/technologies/phased_array_warning_system.dds"
+	}
+	spriteType = {
+		name = "GFX_active_electronically_scanned_array_medium"
+		texturefile = "gfx/interface/technologies/active_electronically_scanned_array.dds"
+	}
 
 	# Industry Tree
 	

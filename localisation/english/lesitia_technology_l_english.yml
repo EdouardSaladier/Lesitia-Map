@@ -792,6 +792,19 @@
  laser_air_defence_system_desc:0 "Laser Air Defence System"
  tactical_laser_defence_platform:0 "Tactical Laser Defence Platform"
  tactical_laser_defence_platform_desc:0 "Tactical Laser Defence Platform"
+ tactical_ballistic_missiles:0 "Tactical Ballistic Missiles"
+ tactical_ballistic_missiles_desc:0 "Tactical Ballistic Missiles"
+ theatre_ballistic_missiles:0 "Theatre Ballistic Missiles"
+ theatre_ballistic_missiles_desc:0 "Theatre Ballistic Missiles"
+ intercontinental_ballistic_missiles:0 "Intercontinental Ballistic Missiles"
+ intercontinental_ballistic_missiles_desc:0 "Intercontinental Ballistic Missiles"
+ early_warning_radar_stations:0 "Early Warning Radar Stations"
+ early_warning_radar_stations_desc:0 "Early Warning Radar Stations"
+ phased_array_warning_system:0 "Phased Array Warning System"
+ phased_array_warning_system_desc:0 "Phased Array Warning System"
+ active_electronically_scanned_array:0 "Active Electronically Scanned Array"
+ active_electronically_scanned_array_desc:0 "Active Electronically Scanned Array"
+ 
  field_artillery_equipment:0 "Field Artillery"
  field_artillery_equipment_desc:0 "Field Artillery"
  artillery_support_system_equipment:0 "Artillery Support System"
@@ -844,6 +857,12 @@
  laser_air_defence_system_equipment_desc:0 "Laser Air Defence System"
  tactical_laser_defence_platform_equipment:0 "Tactical Laser Defence Platform"
  tactical_laser_defence_platform_equipment_desc:0 "Tactical Laser Defence Platform"
+ tactical_ballistic_missiles_equipment:0 "Tactical Ballistic Missiles"
+ tactical_ballistic_missiles_equipment_desc:0 "Tactical Ballistic Missiles"
+ theatre_ballistic_missiles_equipment:0 "Theatre Ballistic Missiles"
+ theatre_ballistic_missiles_equipment_desc:0 "Theatre Ballistic Missiles"
+ intercontinental_ballistic_missiles_equipment:0 "Intercontinental Ballistic Missiles"
+ intercontinental_ballistic_missiles_equipment_desc:0 "Intercontinental Ballistic Missiles"
 
  
 # Naval

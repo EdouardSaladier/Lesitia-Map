@@ -711,14 +711,14 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = { 
-					width = 1239 height = 1390 
+					width = 1239 height = 1600 
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no		
 
 						
 
-			containerWindowType = {
+				containerWindowType = {
 					name = "artillery_year"
 					position = { x= 0 y= 0 }
 					size = { width = 80 height = 100%% }
@@ -851,9 +851,6 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 					}
 				}
-				
-				
-				
 			}
 			
 			containerWindowType = {
@@ -866,34 +863,40 @@ guiTypes = {
 			}
 			
 			gridboxtype = {
-					name = "field_artillery_tree"
-					position = { x = 100 y = 0 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "LEFT"
-				}
-			
+				name = "field_artillery_tree"
+				position = { x = 100 y = 0 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 			gridboxtype = {
-					name = "telemetric_target_acquisition_tree"
-					position = { x = 100 y = 0 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "LEFT"
-				}
+				name = "telemetric_target_acquisition_tree"
+				position = { x = 100 y = 0 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 			gridboxtype = {
-					name = "rocketry_advancements_tree"
-					position = { x = 100 y = 0 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "LEFT"
-				}
+				name = "rocketry_advancements_tree"
+				position = { x = 100 y = 0 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 			gridboxtype = {
-					name = "flak_cannons_tree"
-					position = { x = 100 y = 0 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "LEFT"
-				}
+				name = "flak_cannons_tree"
+				position = { x = 100 y = 0 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "early_warning_radar_stations_tree"
+				position = { x = 100 y = 0 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 		}
 
 		containerWindowType = {
@@ -2436,7 +2439,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=3 y=3 }
+			position = { x=1 y=1 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}
