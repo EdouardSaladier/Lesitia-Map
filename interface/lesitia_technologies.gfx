@@ -271,6 +271,105 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/underwater_breathing_system.dds"
 	}
 	
+	### Support Tree
+	
+	spriteType = {
+		name = "GFX_reconnaissance_company_medium"
+		texturefile = "gfx/interface/technologies/reconnaissance_company.dds"
+	}
+	spriteType = {
+		name = "GFX_fast_combat_assessment_medium"
+		texturefile = "gfx/interface/technologies/fast_combat_assessment.dds"
+	}
+	spriteType = {
+		name = "GFX_unmanned_reconnaissance_aerial_vehicle_medium"
+		texturefile = "gfx/interface/technologies/unmanned_reconnaissance_aerial_vehicle.dds"
+	}
+	spriteType = {
+		name = "GFX_forward_air_control_medium"
+		texturefile = "gfx/interface/technologies/forward_air_control.dds"
+	}
+	spriteType = {
+		name = "GFX_miniature_urav_medium"
+		texturefile = "gfx/interface/technologies/miniature_urav.dds"
+	}
+	spriteType = {
+		name = "GFX_tactical_air_control_party_medium"
+		texturefile = "gfx/interface/technologies/tactical_air_control_party.dds"
+	}
+	spriteType = {
+		name = "GFX_micro_urav_medium"
+		texturefile = "gfx/interface/technologies/micro_urav.dds"
+	}
+	spriteType = {
+		name = "GFX_joint_terminal_attack_controller_medium"
+		texturefile = "gfx/interface/technologies/joint_terminal_attack_controller.dds"
+	}
+	spriteType = {
+		name = "GFX_engineer_company_medium"
+		texturefile = "gfx/interface/technologies/engineer_company.dds"
+	}
+	spriteType = {
+		name = "GFX_wire_mesh_container_fortifications_medium"
+		texturefile = "gfx/interface/technologies/wire_mesh_container_fortifications.dds"
+	}
+	spriteType = {
+		name = "GFX_anti_personnel_obstacle_breaching_system_medium"
+		texturefile = "gfx/interface/technologies/anti_personnel_obstacle_breaching_system.dds"
+	}
+	spriteType = {
+		name = "GFX_armored_earth_mover_medium"
+		texturefile = "gfx/interface/technologies/armored_earth_mover.dds"
+	}
+	spriteType = {
+		name = "GFX_steel_reinforced_concrete_blast_walls_medium"
+		texturefile = "gfx/interface/technologies/steel_reinforced_concrete_blast_walls.dds"
+	}
+	spriteType = {
+		name = "GFX_fast_spraying_concrete_medium"
+		texturefile = "gfx/interface/technologies/fast_spraying_concrete.dds"
+	}
+	spriteType = {
+		name = "GFX_armored_vehicle_launched_bridge_medium"
+		texturefile = "gfx/interface/technologies/armored_vehicle_launched_bridge.dds"
+	}
+	spriteType = {
+		name = "GFX_logistics_company_medium"
+		texturefile = "gfx/interface/technologies/logistics_company.dds"
+	}
+	spriteType = {
+		name = "GFX_classes_of_supply_organisation_medium"
+		texturefile = "gfx/interface/technologies/classes_of_supply_organisation.dds"
+	}
+	spriteType = {
+		name = "GFX_reliability_centered_maintenance_medium"
+		texturefile = "gfx/interface/technologies/reliability_centered_maintenance.dds"
+	}
+	spriteType = {
+		name = "GFX_armored_repair_and_recovery_vehicle_medium"
+		texturefile = "gfx/interface/technologies/armored_repair_and_recovery_vehicle.dds"
+	}
+	spriteType = {
+		name = "GFX_logistics_support_analysis_medium"
+		texturefile = "gfx/interface/technologies/logistics_support_analysis.dds"
+	}
+	spriteType = {
+		name = "GFX_level_of_repair_analysis_medium"
+		texturefile = "gfx/interface/technologies/level_of_repair_analysis.dds"
+	}
+	spriteType = {
+		name = "GFX_built_in_test_equipment_medium"
+		texturefile = "gfx/interface/technologies/built_in_test_equipment.dds"
+	}
+	spriteType = {
+		name = "GFX_forward_area_refuelling_point_medium"
+		texturefile = "gfx/interface/technologies/forward_area_refuelling_point.dds"
+	}
+	spriteType = {
+		name = "GFX_choke_point_prevention_algorithms_medium"
+		texturefile = "gfx/interface/technologies/choke_point_prevention_algorithms.dds"
+	}
+	
 	### Tank Tree - Equipments
 	
 	SpriteType = {

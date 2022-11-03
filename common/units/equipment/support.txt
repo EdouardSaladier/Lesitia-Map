@@ -1,0 +1,138 @@
+equipments = {
+
+	support_equipment = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+		resources = {
+			aluminium = 1
+			steel = 2
+		}
+	}
+
+	support_equipment_1 = {
+		year = 1918
+
+		archetype = support_equipment
+		priority = 20	
+	}
+	
+	urav_equipment = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		reliability = 0.8
+	}
+
+	unmanned_reconnaissance_aerial_vehicle_equipment = {
+		year = 1918
+
+		archetype = urav_equipment
+		priority = 20	
+	}
+	
+	miniature_urav_equipment = {
+		year = 1918
+
+		archetype = urav_equipment
+		priority = 20	
+	}
+	
+	micro_urav_equipment = {
+		year = 1918
+
+		archetype = urav_equipment
+		priority = 20	
+	}
+	
+	earth_mover_equipment = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		reliability = 0.8
+	}
+
+	armored_earth_mover_equipment = {
+		year = 1918
+
+		archetype = earth_mover_equipment
+		priority = 20	
+	}
+	
+	vehicle_launched_bridge_equipment = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		reliability = 0.8
+	}
+
+	armored_vehicle_launched_bridge_equipment = {
+		year = 1918
+
+		archetype = vehicle_launched_bridge_equipment
+		priority = 20	
+	}
+	
+	repair_and_recovery_vehicle_equipment = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		reliability = 0.8
+	}
+
+	armored_repair_and_recovery_vehicle_equipment = {
+		year = 1918
+
+		archetype = repair_and_recovery_vehicle_equipment
+		priority = 20	
+	}
+
+}

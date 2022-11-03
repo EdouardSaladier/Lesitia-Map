@@ -11,5 +11,509 @@ technologies = {
 	@1944 = 27
 	@1945 = 30
 	@1946 = 33
+	
+	reconnaissance_company = {
+		
+		path = {
+			leads_to_tech = fast_combat_assessment
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1918
+
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @1918 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	fast_combat_assessment = {
+		
+		path = {
+			leads_to_tech = unmanned_reconnaissance_aerial_vehicle
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @1936 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	unmanned_reconnaissance_aerial_vehicle = {
+	
+		enable_equipments = {
+			unmanned_reconnaissance_aerial_vehicle_equipment
+		}
+		
+		path = {
+			leads_to_tech = forward_air_control
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = miniature_urav
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @1938 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	forward_air_control = {
+		
+		path = {
+			leads_to_tech = tactical_air_control_party
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = support_folder
+			position = { x = -2 y = @1939 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	miniature_urav = {
+	
+		enable_equipments = {
+			miniature_urav_equipment
+		}
+		
+		path = {
+			leads_to_tech = tactical_air_control_party
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = micro_urav
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1941
+
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @1941 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	tactical_air_control_party = {
+		
+		path = {
+			leads_to_tech = joint_terminal_attack_controller
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = support_folder
+			position = { x = -2 y = @1942 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	micro_urav = {
+	
+		enable_equipments = {
+			micro_urav_equipment
+		}
+		
+		path = {
+			leads_to_tech = joint_terminal_attack_controller
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1944
+
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @1944 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	joint_terminal_attack_controller = {
+		
+		research_cost = 1.5
+		start_year = 1945
+
+		folder = {
+			name = support_folder
+			position = { x = -2 y = @1945 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	engineer_company = {
+		
+		path = {
+			leads_to_tech = wire_mesh_container_fortifications
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1918
+
+		folder = {
+			name = support_folder
+			position = { x = 4 y = @1918 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	wire_mesh_container_fortifications = {
+		
+		path = {
+			leads_to_tech = armored_earth_mover
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = anti_personnel_obstacle_breaching_system
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = armored_vehicle_launched_bridge
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1937
+
+		folder = {
+			name = support_folder
+			position = { x = 4 y = @1937 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	anti_personnel_obstacle_breaching_system = {
+		
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = support_folder
+			position = { x = 4 y = @1939 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	armored_earth_mover = {
+	
+		enable_equipments = {
+			armored_earth_mover_equipment
+		}
+		
+		path = {
+			leads_to_tech = steel_reinforced_concrete_blast_walls
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = support_folder
+			position = { x = 2 y = @1938 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	steel_reinforced_concrete_blast_walls = {
+	
+		path = {
+			leads_to_tech = fast_spraying_concrete
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1940
+
+		folder = {
+			name = support_folder
+			position = { x = 2 y = @1940 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	fast_spraying_concrete = {
+		
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = support_folder
+			position = { x = 2 y = @1942 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	armored_vehicle_launched_bridge = {
+	
+		enable_equipments = {
+			armored_vehicle_launched_bridge_equipment
+		}
+		
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = support_folder
+			position = { x = 6 y = @1938 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	logistics_company = {
+		
+		path = {
+			leads_to_tech = classes_of_supply_organisation
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = reliability_centered_maintenance
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1918
+
+		folder = {
+			name = support_folder
+			position = { x = 10 y = @1918 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	classes_of_supply_organisation = {
+	
+		path = {
+			leads_to_tech = logistics_support_analysis
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = support_folder
+			position = { x = 10 y = @1936 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	reliability_centered_maintenance = {
+	
+		path = {
+			leads_to_tech = armored_repair_and_recovery_vehicle
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1937
+
+		folder = {
+			name = support_folder
+			position = { x = 8 y = @1937 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	armored_repair_and_recovery_vehicle = {
+	
+		enable_equipments = {
+			armored_repair_and_recovery_vehicle_equipment
+		}
+	
+		path = {
+			leads_to_tech = level_of_repair_analysis
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = support_folder
+			position = { x = 8 y = @1938 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	logistics_support_analysis = {
+	
+		path = {
+			leads_to_tech = level_of_repair_analysis
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = forward_area_refuelling_point
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = support_folder
+			position = { x = 10 y = @1939 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	level_of_repair_analysis = {
+	
+		path = {
+			leads_to_tech = built_in_test_equipment
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1940	
+
+		folder = {
+			name = support_folder
+			position = { x = 8 y = @1940 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	built_in_test_equipment = {
+	
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = support_folder
+			position = { x = 8 y = @1942 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	forward_area_refuelling_point = {
+	
+		path = {
+			leads_to_tech = choke_point_prevention_algorithms
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1941	
+
+		folder = {
+			name = support_folder
+			position = { x = 10 y = @1941 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	choke_point_prevention_algorithms = {
+		
+		research_cost = 1.5
+		start_year = 1943	
+
+		folder = {
+			name = support_folder
+			position = { x = 10 y = @1943 }
+		}
+
+		categories = {
+			support
+		}
+	}
 
 }
