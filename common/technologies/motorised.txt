@@ -1,0 +1,398 @@
+technologies = {
+    @1918 = 0
+	@1936 = 3
+	@1937 = 6
+	@1938 = 9
+	@1939 = 12
+	@1940 = 15
+	@1941 = 18
+	@1942 = 21	
+	@1943 = 24
+	@1944 = 27
+	@1945 = 30
+	@1946 = 33
+	
+	logistic_vehicle_system = {
+		
+		enable_equipments = {
+			logistic_vehicle_system_equipment
+		}
+		
+		path = {
+			leads_to_tech = general_parts_standardisation
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = armored_troop_transport
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1918
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = @1918 }
+		}
+
+		folder = {
+			name = support_folder
+			position = { x = 7 y = @1918 }
+		}
+		
+		categories = {
+			support
+		}
+	}
+	
+	general_parts_standardisation = {
+	
+		path = {
+			leads_to_tech = fuel_consumption_optimisation
+		}
+
+		research_cost = 1
+		start_year = 1918
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 12 y = @1918 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	fuel_consumption_optimisation = {
+
+		research_cost = 1
+		start_year = 1936
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 12 y = @1936 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	armored_troop_transport = {
+		
+		enable_equipments = {
+			armored_troop_transport_equipment
+		}
+		
+		path = {
+			leads_to_tech = built_in_air_conditioning
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = integrated_cbrn_defense
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = @1936 }
+		}
+		
+		categories = {
+			support
+		}
+	}
+	
+	built_in_air_conditioning = {
+
+		research_cost = 1
+		start_year = 1937
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = @1937 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	integrated_cbrn_defense = {
+	
+		path = {
+			leads_to_tech = infantry_transport_support_vehicle
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = deep_wading_capacity
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1938
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = @1938 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	deep_wading_capacity = {
+
+		research_cost = 1
+		start_year = 1938
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 12 y = @1938 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_transport_support_vehicle = {
+		
+		enable_equipments = {
+			infantry_transport_support_vehicle_equipment
+		}
+		
+		path = {
+			leads_to_tech = multi_role_armored_vehicle
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = air_intake_filtration
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = standardised_modular_armor
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1939
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = @1939 }
+		}
+		
+		categories = {
+			support
+		}
+	}
+	
+	standardised_modular_armor = {
+	
+		path = {
+			leads_to_tech = urban_environment_protection_kits
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1939
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 12 y = @1939 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	urban_environment_protection_kits = {
+
+		research_cost = 1
+		start_year = 1941
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 12 y = @1941 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	air_intake_filtration = {
+
+		research_cost = 1
+		start_year = 1940
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = @1940 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	multi_role_armored_vehicle = {
+		
+		enable_equipments = {
+			multi_role_armored_vehicle_equipment
+		}
+		
+		path = {
+			leads_to_tech = armored_multirole_carrier
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = anti_thermobaric_protection
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = enemy_fire_localisation_system
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1942
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = @1942 }
+		}
+		
+		categories = {
+			support
+		}
+	}
+	
+	enemy_fire_localisation_system = {
+	
+		path = {
+			leads_to_tech = self_controling_weapon_station
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1943
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 12 y = @1943 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	self_controling_weapon_station = {
+
+		research_cost = 1
+		start_year = 1945
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 12 y = @1945 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	anti_thermobaric_protection = {
+
+		research_cost = 1
+		start_year = 1944
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = @1944 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	armored_multirole_carrier = {
+		
+		enable_equipments = {
+			armored_multirole_carrier_equipment
+		}
+		
+		research_cost = 1.5
+		start_year = 1945
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = @1945 }
+		}
+		
+		categories = {
+			support
+		}
+	}
+
+}

@@ -1,6 +1,6 @@
 equipments = {
 
-	support_equipment = {
+	main_support_equipment_arch = {
 		year = 1918
 
 		is_archetype = yes
@@ -26,10 +26,10 @@ equipments = {
 		}
 	}
 
-	support_equipment_1 = {
+	main_support_equipment = {
 		year = 1918
 
-		archetype = support_equipment
+		archetype = main_support_equipment_arch
 		priority = 20	
 	}
 	
@@ -134,5 +134,86 @@ equipments = {
 		archetype = repair_and_recovery_vehicle_equipment
 		priority = 20	
 	}
+	
+	hemorrhage_equipment = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		reliability = 0.8
+	}
+
+	hemorrhage_control_equipment_equipment = {
+		year = 1918
+
+		archetype = hemorrhage_equipment
+		priority = 20	
+	}
+	
+	mine_resistant_vehicle_equipment = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		reliability = 0.8
+	}
+
+	mine_resistant_protected_vehicle_equipment = {
+		year = 1918
+
+		archetype = mine_resistant_vehicle_equipment
+		priority = 20	
+	}
+	
+	operations_center_vehicle_equipment = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		reliability = 0.8
+	}
+
+	tactical_operations_center_vehicle_equipment = {
+		year = 1918
+
+		archetype = operations_center_vehicle_equipment
+		priority = 20	
+	}
+	
+	mobile_headquarters_support_vehicle_equipment = {
+		year = 1918
+
+		archetype = operations_center_vehicle_equipment
+		priority = 20	
+	}
+	
+	heavy_command_battlestation_equipment = {
+		year = 1918
+
+		archetype = operations_center_vehicle_equipment
+		priority = 20	
+	}
+
 
 }

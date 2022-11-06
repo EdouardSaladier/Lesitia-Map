@@ -271,8 +271,79 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/underwater_breathing_system.dds"
 	}
 	
+	### Motorised Tree
+	
+	spriteType = {
+		name = "GFX_logistic_vehicle_system_medium"
+		texturefile = "gfx/interface/technologies/logistic_vehicle_system.dds"
+	}
+	spriteType = {
+		name = "GFX_general_parts_standardisation_medium"
+		texturefile = "gfx/interface/technologies/general_parts_standardisation.dds"
+	}
+	spriteType = {
+		name = "GFX_fuel_consumption_optimisation_medium"
+		texturefile = "gfx/interface/technologies/fuel_consumption_optimisation.dds"
+	}
+	spriteType = {
+		name = "GFX_armored_troop_transport_medium"
+		texturefile = "gfx/interface/technologies/armored_troop_transport.dds"
+	}
+	spriteType = {
+		name = "GFX_built_in_air_conditioning_medium"
+		texturefile = "gfx/interface/technologies/built_in_air_conditioning.dds"
+	}
+	spriteType = {
+		name = "GFX_integrated_cbrn_defense_medium"
+		texturefile = "gfx/interface/technologies/integrated_cbrn_defense.dds"
+	}
+	spriteType = {
+		name = "GFX_deep_wading_capacity_medium"
+		texturefile = "gfx/interface/technologies/deep_wading_capacity.dds"
+	}
+	spriteType = {
+		name = "GFX_infantry_transport_support_vehicle_medium"
+		texturefile = "gfx/interface/technologies/infantry_transport_support_vehicle.dds"
+	}
+	spriteType = {
+		name = "GFX_standardised_modular_armor_medium"
+		texturefile = "gfx/interface/technologies/standardised_modular_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_urban_environment_protection_kits_medium"
+		texturefile = "gfx/interface/technologies/urban_environment_protection_kits.dds"
+	}
+	spriteType = {
+		name = "GFX_air_intake_filtration_medium"
+		texturefile = "gfx/interface/technologies/air_intake_filtration.dds"
+	}
+	spriteType = {
+		name = "GFX_multi_role_armored_vehicle_medium"
+		texturefile = "gfx/interface/technologies/multi_role_armored_vehicle.dds"
+	}
+	spriteType = {
+		name = "GFX_anti_thermobaric_protection_medium"
+		texturefile = "gfx/interface/technologies/anti_thermobaric_protection.dds"
+	}
+	spriteType = {
+		name = "GFX_enemy_fire_localisation_system_medium"
+		texturefile = "gfx/interface/technologies/enemy_fire_localisation_system.dds"
+	}
+	spriteType = {
+		name = "GFX_self_controling_weapon_station_medium"
+		texturefile = "gfx/interface/technologies/self_controling_weapon_station.dds"
+	}
+	spriteType = {
+		name = "GFX_armored_multirole_carrier_medium"
+		texturefile = "gfx/interface/technologies/armored_multirole_carrier.dds"
+	}
+	
 	### Support Tree
 	
+	spriteType = {
+		name = "GFX_main_support_equipment_tech_medium"
+		texturefile = "gfx/interface/technologies/main_support_equipment_tech.dds"
+	}
 	spriteType = {
 		name = "GFX_reconnaissance_company_medium"
 		texturefile = "gfx/interface/technologies/reconnaissance_company.dds"
@@ -368,6 +439,114 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_choke_point_prevention_algorithms_medium"
 		texturefile = "gfx/interface/technologies/choke_point_prevention_algorithms.dds"
+	}
+	spriteType = {
+		name = "GFX_medical_company_medium"
+		texturefile = "gfx/interface/technologies/medical_company.dds"
+	}
+	spriteType = {
+		name = "GFX_hemorrhage_control_equipment_medium"
+		texturefile = "gfx/interface/technologies/hemorrhage_control_equipment.dds"
+	}
+	spriteType = {
+		name = "GFX_airway_management_medium"
+		texturefile = "gfx/interface/technologies/airway_management.dds"
+	}
+	spriteType = {
+		name = "GFX_automatic_drug_injectors_medium"
+		texturefile = "gfx/interface/technologies/automatic_drug_injectors.dds"
+	}
+	spriteType = {
+		name = "GFX_synthetic_blood_transfusion_medium"
+		texturefile = "gfx/interface/technologies/synthetic_blood_transfusion.dds"
+	}
+	spriteType = {
+		name = "GFX_fast_wound_sealant_medium"
+		texturefile = "gfx/interface/technologies/fast_wound_sealant.dds"
+	}
+	spriteType = {
+		name = "GFX_fast_organ_regeneration_medium"
+		texturefile = "gfx/interface/technologies/fast_organ_regeneration.dds"
+	}
+	spriteType = {
+		name = "GFX_artificial_organs_medium"
+		texturefile = "gfx/interface/technologies/artificial_organs.dds"
+	}
+	spriteType = {
+		name = "GFX_head_trauma_medical_gel_medium"
+		texturefile = "gfx/interface/technologies/head_trauma_medical_gel.dds"
+	}
+	spriteType = {
+		name = "GFX_counter_insurgency_force_medium"
+		texturefile = "gfx/interface/technologies/counter_insurgency_force.dds"
+	}
+	spriteType = {
+		name = "GFX_communication_interception_devices_medium"
+		texturefile = "gfx/interface/technologies/communication_interception_devices.dds"
+	}
+	spriteType = {
+		name = "GFX_mine_resistant_protected_vehicle_medium"
+		texturefile = "gfx/interface/technologies/mine_resistant_protected_vehicle.dds"
+	}
+	spriteType = {
+		name = "GFX_vehicle_jammer_system_medium"
+		texturefile = "gfx/interface/technologies/vehicle_jammer_system.dds"
+	}
+	spriteType = {
+		name = "GFX_operational_surveillance_system_medium"
+		texturefile = "gfx/interface/technologies/operational_surveillance_system.dds"
+	}
+	spriteType = {
+		name = "GFX_wide_area_motion_imagery_medium"
+		texturefile = "gfx/interface/technologies/wide_area_motion_imagery.dds"
+	}
+	spriteType = {
+		name = "GFX_behavioral_pattern_analysis_medium"
+		texturefile = "gfx/interface/technologies/behavioral_pattern_analysis.dds"
+	}
+	spriteType = {
+		name = "GFX_global_security_monitoring_medium"
+		texturefile = "gfx/interface/technologies/global_security_monitoring.dds"
+	}
+	spriteType = {
+		name = "GFX_deployable_command_and_control_company_medium"
+		texturefile = "gfx/interface/technologies/deployable_command_and_control_company.dds"
+	}
+	spriteType = {
+		name = "GFX_information_operations_teams_medium"
+		texturefile = "gfx/interface/technologies/information_operations_teams.dds"
+	}
+	spriteType = {
+		name = "GFX_computer_network_operations_medium"
+		texturefile = "gfx/interface/technologies/computer_network_operations.dds"
+	}
+	spriteType = {
+		name = "GFX_signal_intelligence_units_medium"
+		texturefile = "gfx/interface/technologies/signal_intelligence_units.dds"
+	}
+	spriteType = {
+		name = "GFX_electronic_warfare_support_measures_medium"
+		texturefile = "gfx/interface/technologies/electronic_warfare_support_measures.dds"
+	}
+	spriteType = {
+		name = "GFX_tactical_operations_center_vehicle_medium"
+		texturefile = "gfx/interface/technologies/tactical_operations_center_vehicle.dds"
+	}
+	spriteType = {
+		name = "GFX_joint_tactical_information_distribution_system_medium"
+		texturefile = "gfx/interface/technologies/joint_tactical_information_distribution_system.dds"
+	}
+	spriteType = {
+		name = "GFX_mobile_headquarters_support_vehicle_medium"
+		texturefile = "gfx/interface/technologies/mobile_headquarters_support_vehicle.dds"
+	}
+	spriteType = {
+		name = "GFX_global_information_grid_medium"
+		texturefile = "gfx/interface/technologies/global_information_grid.dds"
+	}
+	spriteType = {
+		name = "GFX_heavy_command_battlestation_medium"
+		texturefile = "gfx/interface/technologies/heavy_command_battlestation.dds"
 	}
 	
 	### Tank Tree - Equipments

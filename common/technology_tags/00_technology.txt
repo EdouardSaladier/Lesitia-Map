@@ -7,11 +7,55 @@ technology_categories = {
 	infantry_weapons_equipment
 	at_weapons
 	at_weapons_equipment
-	light_air
-	medium_air
-	heavy_air
-	armor
-	artillery
+	night_vision
+	spec_ops_tech
+	spec_ops_tech_equipment
+	assault_forces_tech
+	infiltrators_tech
+	aerial_troopers_tech
+	
+	###Support Tree
+	support_tech
+	support_equipment
+	engineers_tech
+	recon_tech
+	recon_drones_tech
+	coin_tech
+	hospital_tech
+	logistics_tech
+	signal_company_tech
+	
+	###Artillery tree
+	artillery_tech
+	artillery_tech_equipment
+	spg_tech
+	rocket_tech
+	mlrs_tech
+	sam_tech
+	anti_air_tech
+	
+	###Tank tree
+	tank_tech
+	tank_tech_equipment
+	defense_platforms_tech
+	defense_platforms_tech
+	assault_tank_tech
+	mbt_tank_tech
+	drone_tank_tech
+	gun_tank_tech
+	recon_tank_tech
+	hovercraft_tech
+	hovercraft_tech_equipment
+	
+	###Air tree
+	air_tech
+	air_tech_equipment
+	fighter_tech
+	interceptor_tech
+	stealth_fighter_tech
+	bomber_tech
+	gunship_tech
+	
 	###Industry Tree
 	industry_general
 	industry_tech
@@ -19,52 +63,18 @@ technology_categories = {
 	excavation_tech
 	resource_production_tech
 	
-	cat_anti_tank
-	cat_anti_air
-	naval_air
-	motorized_equipment
-	cat_mechanized_equipment
-	naval_equipment
-	rocketry
-	nuclear
+	#Doctrines
 	
-	electronics
 	land_doctrine
 	air_doctrine
 	naval_doctrine
 	strategic_destruction_tree
 	battlefield_support_tree
 	operational_integrity_tree
-	jet_technology
 	trade_interdiction_tree
 	convoy_defense_tree
-	light_fighter
-	cat_heavy_fighter
-	tactical_bomber
-	cat_strategic_bomber
-	naval_bomber
-	cas_bomber
-	ship_modules_tech
-	dd_tech
-	cl_tech
-	ca_tech
-	cv_tech
-	bc_tech
-	bb_tech
-	shbb_tech
-	ss_tech
-	tp_tech
-	synth_resources
 	fleet_in_being_tree
-	encryption_tech
-	decryption_tech
-	computing_tech
-	radar_tech
-	infantry_tech
-	marine_tech
-	
 	submarine_doctrine
-	air_equipment
 	cat_mobile_warfare
 	cat_superior_firepower
 	cat_grand_battle_plan
@@ -75,30 +85,6 @@ technology_categories = {
 	cat_strategic_destruction
 	cat_battlefield_support
 	cat_operational_integrity
-	night_vision
-	base_strike_main
-	mot_rockets
-	support_tech
-	para_tech
-	engineers_tech
-	recon_tech
-	mountaineers_tech
-	military_police_tech
-	hospital_tech
-	logistics_tech
-	signal_company_tech
-	maintenance_company_tech
-	naval_mines
-	concentrated_industry_category
-	dispersed_industry_category
-	asw_tech
-	naval_minesweeping
-	naval_minelaying
-	cat_scout_plane
-	train_tech
-	cat_production
-	cat_synth_rubber
-	cat_synth_oil
 }
 
 technology_folders = {

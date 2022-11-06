@@ -12,6 +12,25 @@ technologies = {
 	@1945 = 30
 	@1946 = 33
 	
+	main_support_equipment_tech = {
+		
+		enable_equipments = {
+			main_support_equipment
+		}
+		
+		research_cost = 1.5
+		start_year = 1918
+
+		folder = {
+			name = support_folder
+			position = { x = -2 y = @1918 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
 	reconnaissance_company = {
 		
 		path = {
@@ -509,6 +528,551 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1943 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	medical_company = {
+		
+		path = {
+			leads_to_tech = hemorrhage_control_equipment
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1918
+
+		folder = {
+			name = support_folder
+			position = { x = 12 y = @1918 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	hemorrhage_control_equipment = {
+	
+		enable_equipments = {
+			hemorrhage_control_equipment_equipment
+		}
+		
+		path = {
+			leads_to_tech = synthetic_blood_transfusion
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = airway_management
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = support_folder
+			position = { x = 12 y = @1936 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	airway_management = {
+		
+		path = {
+			leads_to_tech = automatic_drug_injectors
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1937
+
+		folder = {
+			name = support_folder
+			position = { x = 14 y = @1937 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	automatic_drug_injectors = {
+		
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = support_folder
+			position = { x = 14 y = @1939 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	synthetic_blood_transfusion = {
+		
+		path = {
+			leads_to_tech = fast_wound_sealant
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = support_folder
+			position = { x = 12 y = @1938 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	fast_wound_sealant = {
+		
+		path = {
+			leads_to_tech = fast_organ_regeneration
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = head_trauma_medical_gel
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1940
+
+		folder = {
+			name = support_folder
+			position = { x = 12 y = @1940 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	fast_organ_regeneration = {
+		
+		path = {
+			leads_to_tech = artificial_organs
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1941
+
+		folder = {
+			name = support_folder
+			position = { x = 14 y = @1941 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	artificial_organs = {
+		
+		research_cost = 1.5
+		start_year = 1943
+
+		folder = {
+			name = support_folder
+			position = { x = 14 y = @1943 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	head_trauma_medical_gel = {
+		
+		research_cost = 1.5
+		start_year = 1944
+
+		folder = {
+			name = support_folder
+			position = { x = 12 y = @1944 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	counter_insurgency_force = {
+		
+		path = {
+			leads_to_tech = communication_interception_devices
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1918
+
+		folder = {
+			name = support_folder
+			position = { x = 16 y = @1918 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	communication_interception_devices = {
+	
+		path = {
+			leads_to_tech = operational_surveillance_system
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = mine_resistant_protected_vehicle
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = support_folder
+			position = { x = 16 y = @1936 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	mine_resistant_protected_vehicle = {
+	
+		enable_equipments = {
+			mine_resistant_protected_vehicle_equipment
+		}
+		
+		path = {
+			leads_to_tech = vehicle_jammer_system
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1937
+
+		folder = {
+			name = support_folder
+			position = { x = 18 y = @1937 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	vehicle_jammer_system = {
+		
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = support_folder
+			position = { x = 18 y = @1939 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	operational_surveillance_system = {
+		
+		path = {
+			leads_to_tech = wide_area_motion_imagery
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = support_folder
+			position = { x = 16 y = @1938 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	wide_area_motion_imagery = {
+		
+		path = {
+			leads_to_tech = behavioral_pattern_analysis
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = global_security_monitoring
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1940
+
+		folder = {
+			name = support_folder
+			position = { x = 16 y = @1940 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	behavioral_pattern_analysis = {
+		
+		research_cost = 1.5
+		start_year = 1941
+
+		folder = {
+			name = support_folder
+			position = { x = 18 y = @1941 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	global_security_monitoring = {
+		
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = support_folder
+			position = { x = 16 y = @1942 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	deployable_command_and_control_company = {
+		
+		path = {
+			leads_to_tech = information_operations_teams
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1918
+
+		folder = {
+			name = support_folder
+			position = { x = 20 y = @1918 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	information_operations_teams = {
+	
+		path = {
+			leads_to_tech = tactical_operations_center_vehicle
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = computer_network_operations
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = support_folder
+			position = { x = 20 y = @1936 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	computer_network_operations = {
+		
+		path = {
+			leads_to_tech = signal_intelligence_units
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1937
+
+		folder = {
+			name = support_folder
+			position = { x = 22 y = @1937 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	signal_intelligence_units = {
+		
+		path = {
+			leads_to_tech = electronic_warfare_support_measures
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = support_folder
+			position = { x = 22 y = @1939 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	electronic_warfare_support_measures = {
+		
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = support_folder
+			position = { x = 22 y = @1942 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	tactical_operations_center_vehicle = {
+	
+		enable_equipments = {
+			tactical_operations_center_vehicle_equipment
+		}
+		
+		path = {
+			leads_to_tech = joint_tactical_information_distribution_system
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = support_folder
+			position = { x = 20 y = @1938 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	joint_tactical_information_distribution_system = {
+		
+		path = {
+			leads_to_tech = mobile_headquarters_support_vehicle
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1940
+
+		folder = {
+			name = support_folder
+			position = { x = 20 y = @1940 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	mobile_headquarters_support_vehicle = {
+	
+		enable_equipments = {
+			mobile_headquarters_support_vehicle_equipment
+		}
+		
+		path = {
+			leads_to_tech = global_information_grid
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1941
+
+		folder = {
+			name = support_folder
+			position = { x = 20 y = @1941 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	global_information_grid = {
+		
+		path = {
+			leads_to_tech = heavy_command_battlestation
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1943
+
+		folder = {
+			name = support_folder
+			position = { x = 20 y = @1943 }
+		}
+
+		categories = {
+			support
+		}
+	}
+	
+	heavy_command_battlestation = {
+	
+		enable_equipments = {
+			heavy_command_battlestation_equipment
+		}
+		
+		research_cost = 1.5
+		start_year = 1944
+
+		folder = {
+			name = support_folder
+			position = { x = 20 y = @1944 }
 		}
 
 		categories = {
