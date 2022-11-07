@@ -41,7 +41,7 @@ equipments = {
 		
 	}
 
-field_artillery_equipment = {
+	field_artillery_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -49,7 +49,7 @@ field_artillery_equipment = {
 		visual_level = 0
 	}
 
-artillery_support_system_equipment = {
+	artillery_support_system_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -57,7 +57,7 @@ artillery_support_system_equipment = {
 		visual_level = 0
 	}
 
-ranged_firepower_striker_equipment = {
+	ranged_firepower_striker_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -65,7 +65,7 @@ ranged_firepower_striker_equipment = {
 		visual_level = 0
 	}
 
-offensive_firepower_projector_equipment = {
+	offensive_firepower_projector_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -73,7 +73,7 @@ offensive_firepower_projector_equipment = {
 		visual_level = 0
 	}
 
-local_fire_saturation_unit_equipment = {
+	local_fire_saturation_unit_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -81,7 +81,7 @@ local_fire_saturation_unit_equipment = {
 		visual_level = 0
 	}
 
-mobile_gun_platform_equipment = {
+	mobile_gun_platform_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -89,7 +89,7 @@ mobile_gun_platform_equipment = {
 		visual_level = 0
 	}
 
-self_propelled_gun_equipment = {
+	self_propelled_gun_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -97,7 +97,7 @@ self_propelled_gun_equipment = {
 		visual_level = 0
 	}
 
-mobile_ranged_battle_platform_equipment = {
+	mobile_ranged_battle_platform_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -105,7 +105,7 @@ mobile_ranged_battle_platform_equipment = {
 		visual_level = 0
 	}
 
-railgun_artillery_carrier_equipment = {
+	railgun_artillery_carrier_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -113,7 +113,7 @@ railgun_artillery_carrier_equipment = {
 		visual_level = 0
 	}
 
-mobile_mass_driver_equipment = {
+	mobile_mass_driver_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -121,7 +121,7 @@ mobile_mass_driver_equipment = {
 		visual_level = 0
 	}
 
-horizonless_firepower_platform_equipment = {
+	horizonless_firepower_platform_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -129,7 +129,7 @@ horizonless_firepower_platform_equipment = {
 		visual_level = 0
 	}
 
-multiple_guided_missile_platform_equipment = {
+	multiple_guided_missile_platform_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -137,7 +137,7 @@ multiple_guided_missile_platform_equipment = {
 		visual_level = 0
 	}
 
-multiple_launch_rocket_system_equipment = {
+	multiple_launch_rocket_system_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -145,7 +145,7 @@ multiple_launch_rocket_system_equipment = {
 		visual_level = 0
 	}
 
-continuous_saturation_platforms_equipment = {
+	continuous_saturation_platforms_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -153,7 +153,7 @@ continuous_saturation_platforms_equipment = {
 		visual_level = 0
 	}
 
-intense_firepower_projector_equipment = {
+	intense_firepower_projector_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -161,7 +161,7 @@ intense_firepower_projector_equipment = {
 		visual_level = 0
 	}
 
-overwhelming_firepower_provider_equipment = {
+	overwhelming_firepower_provider_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -169,7 +169,7 @@ overwhelming_firepower_provider_equipment = {
 		visual_level = 0
 	}
 
-surface_to_air_weapon_system_equipment = {
+	surface_to_air_weapon_system_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -177,7 +177,7 @@ surface_to_air_weapon_system_equipment = {
 		visual_level = 0
 	}
 
-aircraft_restriction_zone_system_equipment = {
+	aircraft_restriction_zone_system_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -185,7 +185,7 @@ aircraft_restriction_zone_system_equipment = {
 		visual_level = 0
 	}
 
-aerospace_domination_platform_equipment = {
+	aerospace_domination_platform_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -193,7 +193,7 @@ aerospace_domination_platform_equipment = {
 		visual_level = 0
 	}
 
-ground_to_air_suppremacy_system_equipment = {
+	ground_to_air_suppremacy_system_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -201,7 +201,7 @@ ground_to_air_suppremacy_system_equipment = {
 		visual_level = 0
 	}
 
-flowstream_shape_equipment = {
+	flowstream_shape_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -209,7 +209,7 @@ flowstream_shape_equipment = {
 		visual_level = 0
 	}
 
-flak_cannons_equipment = {
+	flak_cannons_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -217,7 +217,7 @@ flak_cannons_equipment = {
 		visual_level = 0
 	}
 
-low_altitude_close_in_weaponry_equipment = {
+	low_altitude_close_in_weaponry_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -225,7 +225,7 @@ low_altitude_close_in_weaponry_equipment = {
 		visual_level = 0
 	}
 
-firepower_screengate_equipment = {
+	firepower_screengate_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -233,7 +233,7 @@ firepower_screengate_equipment = {
 		visual_level = 0
 	}
 
-laser_air_defence_system_equipment = {
+	laser_air_defence_system_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
@@ -241,18 +241,12 @@ laser_air_defence_system_equipment = {
 		visual_level = 0
 	}
 
-tactical_laser_defence_platform_equipment = {
+	tactical_laser_defence_platform_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
 		priority = 05
 		visual_level = 0
 	}
-
-
-
-
-
-
 
 }
