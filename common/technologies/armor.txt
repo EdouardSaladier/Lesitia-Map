@@ -64,34 +64,15 @@ technologies = {
 			name = armour_folder
 			position = { x = @center y = @1918 }
 		}
-
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1939.1.1"
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			tank_tech_equipment
+			mbt_tank_tech
 		}
 	}	
 	
@@ -112,7 +93,6 @@ technologies = {
 			name = armour_folder
 			position = { x = @center y = @1936 }
 		}
-
 		
 		ai_will_do = {
 			factor = 1
@@ -122,18 +102,13 @@ technologies = {
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			tank_tech_equipment
+			mbt_tank_tech
 		}
 	}
 	
 	titanium_carbide_modular_armor = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = carbon_silicate_lace_plating
@@ -157,16 +132,13 @@ technologies = {
 			position = { x = @center y = @1937 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			armor_tank_tech
 		}
 	}
 	
@@ -174,9 +146,6 @@ technologies = {
 
 		enable_equipments = {
 			quadri_thread_assault_tank_equipment
-		}
-		enable_subunits = {
-
 		}
 	
 		path = {
@@ -194,13 +163,12 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			tank_tech_equipment
+			assault_tank_tech
 		}
 	}
 	
@@ -208,9 +176,6 @@ technologies = {
 
 		enable_equipments = {
 			assault_railgun_carrier_equipment
-		}
-		enable_subunits = {
-
 		}
 	
 		path = {
@@ -228,13 +193,12 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			tank_tech_equipment
+			assault_tank_tech
 		}
 	}
 	
@@ -242,9 +206,6 @@ technologies = {
 
 		enable_equipments = {
 			fortification_breakthrough_battlestation_equipment
-		}
-		enable_subunits = {
-
 		}
 		
 		research_cost = 2
@@ -257,24 +218,16 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			tank_tech_equipment
+			assault_tank_tech
 		}
 	}
 	
 	carbon_silicate_lace_plating = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = electromagnetic_armor
@@ -291,24 +244,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			armor_tank_tech
 		}
 	}
 	
 	electromagnetic_armor = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = self_repairing_components
@@ -325,24 +269,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			armor_tank_tech
 		}
 	}
 	
 	self_repairing_components = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 		
 		research_cost = 2
 		start_year = 1942
@@ -354,13 +289,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			armor_tank_tech
 		}
 	}
 	
@@ -382,16 +315,14 @@ technologies = {
 			position = { x = @frontlinebreakthrough y = @1938 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			tank_tech_equipment
+			mbt_tank_tech
 		}
 	}
 	
@@ -399,9 +330,6 @@ technologies = {
 
 		enable_equipments = {
 			general_purpose_railgun_carrier_equipment
-		}
-		enable_subunits = {
-
 		}
 		
 		path = {
@@ -419,13 +347,12 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			tank_tech_equipment
+			mbt_tank_tech
 		}
 	}
 	
@@ -441,28 +368,19 @@ technologies = {
 			name = armour_folder
 			position = { x = @frontlinebreakthrough y = @1943 }
 		}
-
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			tank_tech_equipment
+			mbt_tank_tech
 		}
 	}
 		
 	active_protection_system = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = mobile_defense_platform
@@ -479,13 +397,12 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			defense_platforms_tech
+			tank_tech_equipment
 		}
 	}
 	
@@ -493,9 +410,6 @@ technologies = {
 
 		enable_equipments = {
 			mobile_defense_platform_equipment
-		}
-		enable_subunits = {
-
 		}
 		
 		path = {
@@ -518,24 +432,16 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			defense_platforms_tech
+			tank_tech_equipment
 		}
 	}
 	
 	computerized_fire_control_system = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 		
 		research_cost = 2
 		start_year = 1937
@@ -547,24 +453,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			defense_platforms_tech
 		}
 	}
 	
 	automatic_radar_defense = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 		
 		path = {
 			leads_to_tech = heavy_defense_platform
@@ -591,13 +488,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			defense_platforms_tech
 		}
 	}
 	
@@ -605,9 +500,6 @@ technologies = {
 
 		enable_equipments = {
 			heavy_defense_platform_equipment
-		}
-		enable_subunits = {
-
 		}
 		
 		research_cost = 2
@@ -620,24 +512,17 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			defense_platforms_tech
+			heavy_defense_platforms_tech
+			tank_tech_equipment
 		}
 	}
 	
 	electronic_counter_measure = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 		
 		research_cost = 2
 		start_year = 1940
@@ -645,36 +530,23 @@ technologies = {
 			name = armour_folder
 			position = { x = @computerised  y = @1940 }
 		}
-
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			defense_platforms_tech
 		}
 	}
 	
-	
 	threat_value_assessment = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = railgun_defense_platform
 			research_cost_coeff = 1
 		}
-		
-		
 		
 		research_cost = 2
 		start_year = 1939
@@ -683,16 +555,14 @@ technologies = {
 			position = { x = @activeprotec y = @1939 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			defense_platforms_tech
+			tank_tech_equipment
 		}
 	}
 	
@@ -700,9 +570,6 @@ technologies = {
 
 		enable_equipments = {
 			railgun_defense_platform_equipment
-		}
-		enable_subunits = {
-
 		}
 	
 		path = {
@@ -722,16 +589,14 @@ technologies = {
 			position = { x = @activeprotec y = @1940 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			defense_platforms_tech
+			tank_tech_equipment
 		}
 	}
 	
@@ -740,10 +605,6 @@ technologies = {
 		enable_equipments = {
 			multi_turreted_railgun_defense_platform_equipment
 		}
-		enable_subunits = {
-
-		}
-		
 		
 		research_cost = 2
 		start_year = 1941
@@ -752,27 +613,19 @@ technologies = {
 			position = { x = @computerised  y = @1941 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			defense_platforms_tech
+			heavy_defense_platforms_tech
+			tank_tech_equipment
 		}
 	}
 	
 	quantum_well_infrared_photodetector = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = directed_energy_defense_laser
@@ -791,27 +644,17 @@ technologies = {
 			position = { x = @activeprotec y = @quantum }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			defense_platforms_tech
 		}
 	}
 	
 	directed_energy_defense_laser = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = anti_airborne_threat_platform
@@ -828,13 +671,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			defense_platforms_tech
 		}
 	}
 	
@@ -851,16 +692,14 @@ technologies = {
 			position = { x = @computerised y = @1943 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			defense_platforms_tech
+			tank_tech_equipment
 		}
 	}
 	
@@ -882,16 +721,14 @@ technologies = {
 			position = { x = @activeprotec y = @univ }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			defense_platforms_tech
+			tank_tech_equipment
 		}
 	}
 	
@@ -907,29 +744,20 @@ technologies = {
 			name = armour_folder
 			position = { x = @computerised y = @1944 }
 		}
-
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			defense_platforms_tech
+			heavy_defense_platforms_tech
+			tank_tech_equipment
 		}
 	}
 	
-	
 	electrothermal_chemical_technology = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = combustion_light_gas_gun
@@ -944,33 +772,22 @@ technologies = {
 			position = { x = @electrothermal y = @1936 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			gun_tank_tech
 		}
 	}
 	
 	combustion_light_gas_gun = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = railgun
 			research_cost_coeff = 1
 		}
-		
 		
 		research_cost = 2
 		start_year = 1937
@@ -979,33 +796,22 @@ technologies = {
 			position = { x = @electrothermal y = @1937 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			gun_tank_tech
 		}
 	}
 	
 	railgun = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = extreme_recoil_compensation
 			research_cost_coeff = 1
 		}
-		
 		
 		research_cost = 2
 		start_year = 1939
@@ -1014,33 +820,22 @@ technologies = {
 			position = { x = @electrothermal y = @1939 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			gun_tank_tech
 		}
 	}
 	
 	extreme_recoil_compensation = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = multi_barrel_railguns
 			research_cost_coeff = 1
 		}
-		
 		
 		research_cost = 2
 		start_year = 1941
@@ -1049,28 +844,17 @@ technologies = {
 			position = { x = @electrothermal y = @1941 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			gun_tank_tech
 		}
 	}
 	
 	multi_barrel_railguns = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
-		
 		
 		research_cost = 2
 		start_year = 1942
@@ -1079,34 +863,23 @@ technologies = {
 			position = { x = @electrothermal y = @1942 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			gun_tank_tech
 		}
 	}
 	
 	
 	remote_controlled_weapon_station = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = unmanned_ground_combat_tank
 			research_cost_coeff = 1
 		}
-		
 		
 		research_cost = 2
 		start_year = 1936
@@ -1115,16 +888,13 @@ technologies = {
 			position = { x = @remotecontrolled y = @1936 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			drone_tank_tech
 		}
 	}
 	
@@ -1132,9 +902,6 @@ technologies = {
 
 		enable_equipments = {
 			unmanned_ground_combat_tank_equipment
-		}
-		enable_subunits = {
-
 		}
 	
 		path = {
@@ -1147,7 +914,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		
 		research_cost = 2
 		start_year = 1938
 		folder = {
@@ -1155,16 +921,14 @@ technologies = {
 			position = { x = @remotecontrolled y = @1938 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			drone_tank_tech
+			tank_tech_equipment
 		}
 	}
 	
@@ -1173,15 +937,11 @@ technologies = {
 		enable_equipments = {
 			unmanned_railgun_carrier_equipment
 		}
-		enable_subunits = {
-
-		}
 		
 		path = {
 			leads_to_tech = unmanned_lethality_platform
 			research_cost_coeff = 1
 		}
-		
 		
 		research_cost = 2
 		start_year = 1940
@@ -1193,13 +953,12 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			drone_tank_tech
+			tank_tech_equipment
 		}
 	}
 	
@@ -1207,9 +966,6 @@ technologies = {
 
 		enable_equipments = {
 			unmanned_lethality_platform_equipment
-		}
-		enable_subunits = {
-
 		}
 		
 		research_cost = 2
@@ -1219,16 +975,14 @@ technologies = {
 			position = { x = @remotecontrolled y = @1943 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			drone_tank_tech
+			tank_tech_equipment
 		}
 	}
 	
@@ -1236,9 +990,6 @@ technologies = {
 
 		enable_equipments = {
 			armored_reconnaissance_vehicle_equipment
-		}
-		enable_subunits = {
-			
 		}
 	
 		path = {
@@ -1251,7 +1002,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		
 		research_cost = 2
 		start_year = 1918
 		
@@ -1260,27 +1010,18 @@ technologies = {
 			position = { x = @armored_reconnaissance y = @1918 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			recon_tank_tech
+			tank_tech_equipment
 		}
 	}
 	
 	autonomous_navigation_system = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = automated_infantry_suppression_vehicle
@@ -1292,7 +1033,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		
 		research_cost = 2
 		start_year = 1937
 		folder = {
@@ -1300,16 +1040,13 @@ technologies = {
 			position = { x = @armored_reconnaissance y = @1937 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			recon_tank_tech
 		}
 	}
 	
@@ -1317,9 +1054,6 @@ technologies = {
 
 		enable_equipments = {
 			automated_infantry_suppression_vehicle_equipment
-		}
-		enable_subunits = {
-
 		}
 	
 		path = {
@@ -1332,7 +1066,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		
 		research_cost = 2
 		start_year = 1938
 		folder = {
@@ -1340,28 +1073,18 @@ technologies = {
 			position = { x = @armored_reconnaissance y = @1938 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			recon_tank_tech
+			tank_tech_equipment
 		}
 	}
 	
 	hostile_terrain_analysis = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
-		
 		
 		research_cost = 2
 		start_year = 1939
@@ -1370,7 +1093,6 @@ technologies = {
 			position = { x = @hostile y = @1939 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
 			
@@ -1379,24 +1101,17 @@ technologies = {
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			recon_tank_tech
 		}
 	}
 	
 	rocket_propelled_grenades = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = lethal_autonomous_vehicle
 			research_cost_coeff = 1
 		}
-		
 		
 		research_cost = 2
 		start_year = 1940
@@ -1404,17 +1119,14 @@ technologies = {
 			name = armour_folder
 			position = { x = @armored_reconnaissance y = @1940 }
 		}
-
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			recon_tank_tech
 		}
 	}
 	
@@ -1422,9 +1134,6 @@ technologies = {
 
 		enable_equipments = {
 			lethal_autonomous_vehicle_equipment
-		}
-		enable_subunits = {
-
 		}
 	
 		path = {
@@ -1437,7 +1146,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		
 		research_cost = 2
 		start_year = 1941
 		folder = {
@@ -1445,28 +1153,18 @@ technologies = {
 			position = { x = @armored_reconnaissance y = @1941 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			recon_tank_tech
+			tank_tech_equipment
 		}
 	}
 	
 	seeker_ammunitions = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
-		
 		
 		research_cost = 2
 		start_year = 1942
@@ -1484,24 +1182,17 @@ technologies = {
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			recon_tank_tech
 		}
 	}
 	
 	sentient_combat_systems = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = multi_terrain_extermination_platform
 			research_cost_coeff = 1
 		}
-		
 		
 		research_cost = 2
 		start_year = 1943
@@ -1510,16 +1201,13 @@ technologies = {
 			position = { x = @armored_reconnaissance y = @1943 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			recon_tank_tech
 		}
 	}
 	
@@ -1528,10 +1216,6 @@ technologies = {
 		enable_equipments = {
 			multi_terrain_extermination_platform_equipment
 		}
-		enable_subunits = {
-
-		}
-		
 		
 		research_cost = 2
 		start_year = 1944
@@ -1540,7 +1224,6 @@ technologies = {
 			position = { x = @armored_reconnaissance y = @1944 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
 			
@@ -1549,24 +1232,18 @@ technologies = {
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			recon_tank_tech
+			tank_tech_equipment
 		}
 	}
 	
 	infrared_profile_dissimulation = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = multi_spectral_camouflage
 			research_cost_coeff = 1
 		}
-		
 		
 		research_cost = 2
 		start_year = 1937
@@ -1575,7 +1252,6 @@ technologies = {
 			position = { x = @infrared y = @1937 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
 			
@@ -1584,18 +1260,12 @@ technologies = {
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			recon_tank_tech
 		}
 	}
 	
 	multi_spectral_camouflage = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = active_cloaking_devices
@@ -1610,33 +1280,22 @@ technologies = {
 			position = { x = @infrared y = @1939 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			recon_tank_tech
 		}
 	}
 	
 	active_cloaking_devices = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
 	
 		path = {
 			leads_to_tech = stealth_field_generators
 			research_cost_coeff = 1
 		}
-		
 		
 		research_cost = 2
 		start_year = 1941
@@ -1645,28 +1304,17 @@ technologies = {
 			position = { x = @infrared y = @1941 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			recon_tank_tech
 		}
 	}
 	
 	stealth_field_generators = {
-
-		enable_equipments = {
-
-		}
-		enable_subunits = {
-
-		}
-		
 		
 		research_cost = 2
 		start_year = 1943
@@ -1675,30 +1323,20 @@ technologies = {
 			position = { x = @infrared y = @1943 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			tank_tech
+			recon_tank_tech
 		}
 	}
-	
-	
-	
-	
 	
 	air_cushion_fighting_vehicle = {
 
 		enable_equipments = {
 			air_cushion_fighting_vehicle_equipment
-		}
-		enable_subunits = {
-
 		}
 	
 		path = {
@@ -1718,25 +1356,17 @@ technologies = {
 			position = { x = @aircushion y = @1918 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			hovercraft_tech
+			hovercraft_tech_equipment
 		}
 	}
 	
 	gas_turbine_noise_reduction = {
-
-		enable_equipments = {
-		}
-		enable_subunits = {
-		}
 	
 		path = {
 			leads_to_tech = vibration_damping_materials
@@ -1750,26 +1380,17 @@ technologies = {
 			position = { x = @gasturbine y = @1936 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			hovercraft_tech
 		}
 	}
 	
 	vibration_damping_materials = {
-
-		enable_equipments = {
-		}
-		enable_subunits = {
-		}
-		
+	
 		research_cost = 2
 		start_year = 1937
 		folder = {
@@ -1777,25 +1398,16 @@ technologies = {
 			position = { x = @gasturbine y = @1937 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			hovercraft_tech
 		}
 	}
 	
 	explosion_resilient_soft_coating = {
-
-		enable_equipments = {
-		}
-		enable_subunits = {
-		}
 	
 		path = {
 			leads_to_tech = armored_assault_hovercraft
@@ -1809,16 +1421,12 @@ technologies = {
 			position = { x = @aircushion y = @1937 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			hovercraft_tech
 		}
 	}
 	
@@ -1826,8 +1434,6 @@ technologies = {
 
 		enable_equipments = {
 			armored_assault_hovercraft_equipment
-		}
-		enable_subunits = {
 		}
 	
 		path = {
@@ -1847,26 +1453,18 @@ technologies = {
 			position = { x = @aircushion y = @1938 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			hovercraft_tech
+			hovercraft_tech_equipment
 		}
 	}
 	
 	magnetic_mine_protection = {
-
-		enable_equipments = {
-		}
-		enable_subunits = {
-		}
-		
+	
 		research_cost = 2
 		start_year = 1939
 		folder = {
@@ -1874,25 +1472,17 @@ technologies = {
 			position = { x = @gasturbine y = @1939 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			hovercraft_tech
+			hovercraft_tech_equipment
 		}
 	}
 	
 	heavy_lift_turboengines = {
-
-		enable_equipments = {
-		}
-		enable_subunits = {
-		}
 	
 		path = {
 			leads_to_tech = hovertank
@@ -1906,16 +1496,12 @@ technologies = {
 			position = { x = @aircushion y = @1940 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			hovercraft_tech
 		}
 	}
 	
@@ -1923,8 +1509,6 @@ technologies = {
 
 		enable_equipments = {
 			hovertank_equipment
-		}
-		enable_subunits = {
 		}
 		
 		path = {
@@ -1939,16 +1523,13 @@ technologies = {
 			position = { x = @aircushion y = @1941 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			hovercraft_tech
+			hovercraft_tech_equipment
 		}
 	}
 	
@@ -1966,16 +1547,12 @@ technologies = {
 			position = { x = @aircushion y = @1943 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			hovercraft_tech
 		}
 	}
 	
@@ -1983,8 +1560,6 @@ technologies = {
 
 		enable_equipments = {
 			heavy_hovertank_equipment
-		}
-		enable_subunits = {
 		}
 		
 		research_cost = 2
@@ -1994,16 +1569,13 @@ technologies = {
 			position = { x = @aircushion y = @1944 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-			}
 		}
 		
 		categories = {
-			armor
+			hovercraft_tech
+			hovercraft_tech_equipment
 		}
 	}
 	

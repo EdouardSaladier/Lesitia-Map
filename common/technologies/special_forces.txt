@@ -15,15 +15,6 @@ technologies = {
 
 	assault_forces = {
 
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
 		path = {
 			leads_to_tech = powered_assault_exoskeletons
 		}
@@ -36,7 +27,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			assault_forces_tech
 		}
 		
 		ai_will_do = {
@@ -49,13 +41,7 @@ technologies = {
 		enable_equipments = {
 			powered_assault_exoskeletons_equipment
 		}
-
-		enable_equipment_modules = {
-		}
 		
-		enable_subunits = {
-		}
-
 		path = {
 			leads_to_tech = portable_bunker_busters
 		}
@@ -72,7 +58,9 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			assault_forces_tech
+			spec_ops_tech_equipment
 		}
 		
 		ai_will_do = {
@@ -81,17 +69,7 @@ technologies = {
 	}
 	
 	portable_bunker_busters = {
-
-		enable_equipments = {
-			
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
+	
 		research_cost = 1
 		start_year = 1937
 		folder = {
@@ -100,7 +78,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			assault_forces_tech
 		}
 		
 		ai_will_do = {
@@ -109,16 +88,6 @@ technologies = {
 	}
 	
 	high_modulus_polyethylene_armor = {
-
-		enable_equipments = {
-			
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 
 		path = {
 			leads_to_tech = assault_battlesuit
@@ -132,7 +101,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			assault_forces_tech
 		}
 		
 		ai_will_do = {
@@ -145,13 +115,7 @@ technologies = {
 		enable_equipments = {
 			assault_battlesuit_equipment
 		}
-
-		enable_equipment_modules = {
-		}
 		
-		enable_subunits = {
-		}
-
 		path = {
 			leads_to_tech = multi_purpose_assault_weapons
 		}
@@ -164,7 +128,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			assault_forces_tech
 		}
 		
 		ai_will_do = {
@@ -173,17 +138,7 @@ technologies = {
 	}
 	
 	multi_purpose_assault_weapons = {
-
-		enable_equipments = {
-			
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
+	
 		path = {
 			leads_to_tech = ceramic_laminate_battlesuit
 		}
@@ -196,7 +151,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			assault_forces_tech
 		}
 		
 		ai_will_do = {
@@ -209,13 +165,7 @@ technologies = {
 		enable_equipments = {
 			ceramic_laminate_battlesuit_equipment
 		}
-
-		enable_equipment_modules = {
-		}
 		
-		enable_subunits = {
-		}
-
 		path = {
 			leads_to_tech = large_range_incinerating_ammunitions
 		}
@@ -232,7 +182,9 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			assault_forces_tech
+			spec_ops_tech_equipment
 		}
 		
 		ai_will_do = {
@@ -242,20 +194,6 @@ technologies = {
 	
 	additional_polymerised_mix_casting = {
 
-		enable_equipments = {
-			
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
-		path = {
-			
-		}
-
 		research_cost = 1
 		start_year = 1943
 		folder = {
@@ -264,7 +202,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			assault_forces_tech
 		}
 		
 		ai_will_do = {
@@ -274,20 +213,6 @@ technologies = {
 	
 	large_range_incinerating_ammunitions = {
 
-		enable_equipments = {
-			
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
-		path = {
-			
-		}
-
 		research_cost = 1
 		start_year = 1944
 		folder = {
@@ -296,7 +221,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			assault_forces_tech
 		}
 		
 		ai_will_do = {
@@ -305,15 +231,6 @@ technologies = {
 	}
 	
 	infiltrators = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 
 		path = {
 			leads_to_tech = multi_scale_camouflage_uniform
@@ -327,7 +244,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			infiltrators_tech
 		}
 		
 		ai_will_do = {
@@ -339,12 +257,6 @@ technologies = {
 
 		enable_equipments = {
 			multi_scale_camouflage_uniform_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 
 		path = {
@@ -359,7 +271,9 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			infiltrators_tech
+			spec_ops_tech_equipment
 		}
 		
 		ai_will_do = {
@@ -368,16 +282,6 @@ technologies = {
 	}
 	
 	micro_climate_cooling_system = {
-
-		enable_equipments = {
-			
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 
 		path = {
 			leads_to_tech = retroflector_active_camouflage
@@ -391,7 +295,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			infiltrators_tech
 		}
 		
 		ai_will_do = {
@@ -403,12 +308,6 @@ technologies = {
 
 		enable_equipments = {
 			retroflector_active_camouflage_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 
 		path = {
@@ -427,7 +326,9 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			infiltrators_tech
+			spec_ops_tech_equipment
 		}
 		
 		ai_will_do = {
@@ -436,12 +337,6 @@ technologies = {
 	}
 	
 	thermal_emission_inhibitor = {
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = phased_array_optical_holographs
@@ -455,7 +350,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			infiltrators_tech
 		}
 		
 		ai_will_do = {
@@ -467,12 +363,6 @@ technologies = {
 
 		enable_equipments = {
 			phased_array_optical_holographs_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 		
 		path = {
@@ -491,7 +381,9 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			infiltrators_tech
+			spec_ops_tech_equipment
 		}
 		
 		ai_will_do = {
@@ -501,16 +393,6 @@ technologies = {
 	
 	foliage_penetrating_vision = {
 
-		enable_equipments = {
-			
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
 		research_cost = 1
 		start_year = 1943
 		folder = {
@@ -519,7 +401,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			infiltrators_tech
 		}
 		
 		ai_will_do = {
@@ -529,16 +412,6 @@ technologies = {
 	
 	open_terrain_stealth_adaptation = {
 
-		enable_equipments = {
-			
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
 		research_cost = 1
 		start_year = 1944
 		folder = {
@@ -547,7 +420,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			infiltrators_tech
 		}
 		
 		ai_will_do = {
@@ -557,16 +431,6 @@ technologies = {
 	
 	underwater_breathing_system = {
 
-		enable_equipments = {
-			
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
 		research_cost = 1
 		start_year = 1940
 		folder = {
@@ -575,7 +439,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			infiltrators_tech
 		}
 		
 		ai_will_do = {
@@ -584,15 +449,6 @@ technologies = {
 	}
 	
 	aerial_troopers = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 
 		path = {
 			leads_to_tech = jet_packs
@@ -606,7 +462,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			aerial_troopers_tech
 		}
 		
 		ai_will_do = {
@@ -618,12 +475,6 @@ technologies = {
 
 		enable_equipments = {
 			jet_packs_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 
 		path = {
@@ -642,7 +493,9 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			aerial_troopers_tech
+			spec_ops_tech_equipment
 		}
 		
 		ai_will_do = {
@@ -652,16 +505,6 @@ technologies = {
 	
 	fast_target_acquisition = {
 
-		enable_equipments = {
-			
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
 		research_cost = 1
 		start_year = 1938
 		folder = {
@@ -670,7 +513,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			aerial_troopers_tech
 		}
 		
 		ai_will_do = {
@@ -679,16 +523,6 @@ technologies = {
 	}
 	
 	auditory_dampener = {
-
-		enable_equipments = {
-			
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 
 		path = {
 			leads_to_tech = personal_hoverlift_packs
@@ -702,7 +536,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			aerial_troopers_tech
 		}
 		
 		ai_will_do = {
@@ -714,12 +549,6 @@ technologies = {
 
 		enable_equipments = {
 			personal_hoverlift_packs_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 
 		path = {
@@ -738,7 +567,9 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			aerial_troopers_tech
+			spec_ops_tech_equipment
 		}
 		
 		ai_will_do = {
@@ -747,17 +578,7 @@ technologies = {
 	}
 	
 	light_weight_rocket_launcher = {
-
-		enable_equipments = {
-			
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
+	
 		path = {
 			leads_to_tech = stuff
 		}
@@ -770,7 +591,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			aerial_troopers_tech
 		}
 		
 		ai_will_do = {
@@ -779,16 +601,6 @@ technologies = {
 	}
 	
 	gyroscopic_aiming_assistance = {
-
-		enable_equipments = {
-			
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 
 		path = {
 			leads_to_tech = mechanical_armored_wings
@@ -802,7 +614,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			aerial_troopers_tech
 		}
 		
 		ai_will_do = {
@@ -814,12 +627,6 @@ technologies = {
 
 		enable_equipments = {
 			mechanical_armored_wings_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 
 		path = {
@@ -834,7 +641,9 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			aerial_troopers_tech
+			spec_ops_tech_equipment
 		}
 		
 		ai_will_do = {
@@ -844,16 +653,6 @@ technologies = {
 	
 	kinetic_reduction_braces = {
 
-		enable_equipments = {
-			
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
 		research_cost = 1
 		start_year = 1943
 		folder = {
@@ -862,7 +661,8 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			spec_ops_tech
+			aerial_troopers_tech
 		}
 		
 		ai_will_do = {

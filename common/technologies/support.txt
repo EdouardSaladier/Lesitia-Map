@@ -27,7 +27,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			support_equipment
 		}
 	}
 	
@@ -47,7 +48,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			recon_tech
 		}
 	}
 	
@@ -67,7 +69,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			recon_tech
 		}
 	}
 	
@@ -96,7 +99,9 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			recon_tech
+			support_equipment
 		}
 	}
 	
@@ -116,7 +121,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			recon_tech
 		}
 	}
 	
@@ -145,7 +151,9 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			recon_tech
+			support_equipment
 		}
 	}
 	
@@ -165,7 +173,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			recon_tech
 		}
 	}
 	
@@ -189,7 +198,9 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			recon_tech
+			support_equipment
 		}
 	}
 	
@@ -204,7 +215,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			recon_tech
 		}
 	}
 	
@@ -224,7 +236,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			engineers_tech
 		}
 	}
 	
@@ -254,7 +267,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			engineers_tech
 		}
 	}
 	
@@ -269,7 +283,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			engineers_tech
 		}
 	}
 	
@@ -293,7 +308,9 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			engineers_tech
+			support_equipment
 		}
 	}
 	
@@ -313,7 +330,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			engineers_tech
 		}
 	}
 	
@@ -328,7 +346,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			engineers_tech
 		}
 	}
 	
@@ -347,7 +366,9 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			engineers_tech
+			support_equipment
 		}
 	}
 	
@@ -372,7 +393,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			logistics_tech
 		}
 	}
 	
@@ -392,7 +414,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			logistics_tech
 		}
 	}
 	
@@ -412,7 +435,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			logistics_tech
 		}
 	}
 	
@@ -436,7 +460,9 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			logistics_tech
+			support_equipment
 		}
 	}
 	
@@ -461,7 +487,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			logistics_tech
 		}
 	}
 	
@@ -481,7 +508,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			logistics_tech
 		}
 	}
 	
@@ -496,7 +524,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			logistics_tech
 		}
 	}
 	
@@ -516,7 +545,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			logistics_tech
 		}
 	}
 	
@@ -531,7 +561,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			logistics_tech
 		}
 	}
 	
@@ -551,7 +582,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			hospital_tech
 		}
 	}
 	
@@ -580,7 +612,9 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			hospital_tech
+			support_equipment
 		}
 	}
 	
@@ -600,7 +634,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			hospital_tech
 		}
 	}
 	
@@ -615,7 +650,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			hospital_tech
 		}
 	}
 	
@@ -635,7 +671,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			hospital_tech
 		}
 	}
 	
@@ -660,7 +697,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			hospital_tech
 		}
 	}
 	
@@ -680,7 +718,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			hospital_tech
 		}
 	}
 	
@@ -695,7 +734,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			hospital_tech
 		}
 	}
 	
@@ -710,7 +750,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			hospital_tech
 		}
 	}
 	
@@ -730,7 +771,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			coin_tech
 		}
 	}
 	
@@ -755,7 +797,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			coin_tech
 		}
 	}
 	
@@ -779,7 +822,9 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			coin_tech
+			support_equipment
 		}
 	}
 	
@@ -794,7 +839,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			coin_tech
 		}
 	}
 	
@@ -814,7 +860,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			coin_tech
 		}
 	}
 	
@@ -839,7 +886,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			coin_tech
 		}
 	}
 	
@@ -854,7 +902,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			coin_tech
 		}
 	}
 	
@@ -869,7 +918,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			coin_tech
 		}
 	}
 	
@@ -889,7 +939,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			c_c_tech
 		}
 	}
 	
@@ -914,7 +965,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			c_c_tech
 		}
 	}
 	
@@ -934,7 +986,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			c_c_tech
 		}
 	}
 	
@@ -954,7 +1007,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			c_c_tech
 		}
 	}
 	
@@ -969,7 +1023,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			c_c_tech
 		}
 	}
 	
@@ -993,7 +1048,9 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			c_c_tech
+			support_equipment
 		}
 	}
 	
@@ -1013,7 +1070,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			c_c_tech
 		}
 	}
 	
@@ -1037,7 +1095,9 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			c_c_tech
+			support_equipment
 		}
 	}
 	
@@ -1057,7 +1117,8 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			c_c_tech
 		}
 	}
 	
@@ -1076,7 +1137,9 @@ technologies = {
 		}
 
 		categories = {
-			support
+			support_tech
+			c_c_tech
+			support_equipment
 		}
 	}
 

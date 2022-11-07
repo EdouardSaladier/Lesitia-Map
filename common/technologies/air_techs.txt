@@ -18,19 +18,11 @@ technologies = {
 		enable_equipments = {
 			multirole_fighter_equipment
 		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = aerial_coverage_unit
             research_cost_coeff = 1
 		}	
-		
-			
 
 		research_cost = 1.5
 		start_year = 1918
@@ -39,10 +31,10 @@ technologies = {
 			position = { x = 6 y = 0 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			fighter_tech
 		}
 		
 		ai_will_do = {
@@ -55,12 +47,6 @@ technologies = {
 		enable_equipments = {
 			aerial_coverage_unit_equipment
 		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		} 
 		
 		path = {
 			leads_to_tech = decisive_superiority_fighter
@@ -89,10 +75,10 @@ technologies = {
 			position = { x = 6 y = @1936 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			fighter_tech
 		}
 		
 		ai_will_do = {
@@ -101,17 +87,7 @@ technologies = {
 	}
 	
 	pulse_vector_ramjets = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
 		
-		enable_subunits = {
-		}
-		
-
 		research_cost = 1.5
 		start_year = 1937
 		folder = {
@@ -124,10 +100,8 @@ technologies = {
             research_cost_coeff = 1
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -136,22 +110,12 @@ technologies = {
 	}
 	
 	overtuned_aerospike_ramjets = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-		
+	
 		path = {
 			leads_to_tech = low_state_ion_plasma_engines
             research_cost_coeff = 1
 		}
 		
-
 		research_cost = 1.5
 		start_year = 1939
 		folder = {
@@ -159,10 +123,8 @@ technologies = {
 			position = { x = 8 y = @1939 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -171,22 +133,12 @@ technologies = {
 	}
 	
 	low_state_ion_plasma_engines = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = automatic_variable_plasma_engines
             research_cost_coeff = 1
 		}
 		
-
 		research_cost = 1.5
 		start_year = 1941
 		folder = {
@@ -194,10 +146,8 @@ technologies = {
 			position = { x = 8 y = @1941 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -206,22 +156,12 @@ technologies = {
 	}
 	
 	automatic_variable_plasma_engines = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = electronic_plasma_hypersonic_scamjet
             research_cost_coeff = 1
 		}
 		
-
 		research_cost = 1.5
 		start_year = 1942
 		folder = {
@@ -229,10 +169,8 @@ technologies = {
 			position = { x = 8 y = @1942 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -242,17 +180,6 @@ technologies = {
 	
 	electronic_plasma_hypersonic_scamjet = {
 
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-		
-		
-
 		research_cost = 1.5
 		start_year = 1944
 		folder = {
@@ -260,10 +187,8 @@ technologies = {
 			position = { x = 8 y = @1944 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -275,12 +200,6 @@ technologies = {
 
 		enable_equipments = {
 			decisive_superiority_fighter_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 		
 		path = {
@@ -295,10 +214,10 @@ technologies = {
 			position = { x = 6 y = @1938 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			fighter_tech
 		}
 		
 		ai_will_do = {
@@ -310,12 +229,6 @@ technologies = {
 
 		enable_equipments = {
 			universal_tactical_fighter_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 		
 		path = {
@@ -330,10 +243,10 @@ technologies = {
 			position = { x = 6 y = @1940 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			fighter_tech
 		}
 		
 		ai_will_do = {
@@ -345,12 +258,6 @@ technologies = {
 
 		enable_equipments = {
 			global_combat_fighter_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 		
 		path = {
@@ -365,10 +272,10 @@ technologies = {
 			position = { x = 6 y = @1943 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			fighter_tech
 		}
 		
 		ai_will_do = {
@@ -382,12 +289,6 @@ technologies = {
 			lethality_dominance_aerial_platform_equipment
 		}
 
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
 		research_cost = 1.5
 		start_year = 1944
 		folder = {
@@ -395,10 +296,10 @@ technologies = {
 			position = { x = 6 y = @1944 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			fighter_tech
 		}
 		
 		ai_will_do = {
@@ -425,10 +326,8 @@ technologies = {
 			position = { x = 10 y = @1936 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -437,15 +336,6 @@ technologies = {
 	}
 	
 	electromagnetic_absorbant_material = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = vibration_nullification_coating
@@ -459,10 +349,8 @@ technologies = {
 			position = { x = 12 y = @1937 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -471,15 +359,6 @@ technologies = {
 	}
 	
 	vibration_nullification_coating = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = digital_optical_diffusion_coat
@@ -493,10 +372,8 @@ technologies = {
 			position = { x = 12 y = @1939 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -505,15 +382,6 @@ technologies = {
 	}
 	
 	digital_optical_diffusion_coat = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = high_information_noise_diffuser
@@ -528,7 +396,7 @@ technologies = {
 		}
 		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -538,15 +406,6 @@ technologies = {
 	
 	high_information_noise_diffuser = {
 
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
 		research_cost = 1.5
 		start_year = 1944
 		folder = {
@@ -554,10 +413,8 @@ technologies = {
 			position = { x = 12 y = @1944 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -569,12 +426,6 @@ technologies = {
 
 		enable_equipments = {
 			stealth_combat_fighter_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 		
 		path = {
@@ -589,10 +440,10 @@ technologies = {
 			position = { x = 10 y = @1937 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			stealth_fighter_tech
 		}
 		
 		ai_will_do = {
@@ -601,15 +452,6 @@ technologies = {
 	}
 	
 	leveled_map_display = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = interdictor_suppremacy_fighter
@@ -623,10 +465,8 @@ technologies = {
 			position = { x = 10 y = @1938 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -638,12 +478,6 @@ technologies = {
 
 		enable_equipments = {
 			interdictor_suppremacy_fighter_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 		
 		path = {
@@ -658,10 +492,10 @@ technologies = {
 			position = { x = 10 y = @1940 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			stealth_fighter_tech
 		}
 		
 		ai_will_do = {
@@ -673,12 +507,6 @@ technologies = {
 
 		enable_equipments = {
 			maximum_interceptbility_striker_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 		
 		path = {
@@ -693,10 +521,10 @@ technologies = {
 			position = { x = 10 y = @1943 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			stealth_fighter_tech
 		}
 		
 		ai_will_do = {
@@ -710,12 +538,6 @@ technologies = {
 			optical_silence_fighter_equipment
 		}
 
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
 		research_cost = 1.5
 		start_year = 1944
 		folder = {
@@ -723,10 +545,10 @@ technologies = {
 			position = { x = 10 y = @1944 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			stealth_fighter_tech
 		}
 		
 		ai_will_do = {
@@ -738,12 +560,6 @@ technologies = {
 
 		enable_equipments = {
 			strike_interceptor_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 		
 		path = {
@@ -768,10 +584,10 @@ technologies = {
 			position = { x = 2 y = @1936 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			interceptor_tech
 		}
 		
 		ai_will_do = {
@@ -780,15 +596,6 @@ technologies = {
 	}
 	
 	integrated_electronic_warfare_system = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = infrared_countermeasure_flares
@@ -802,10 +609,9 @@ technologies = {
 			position = { x = 4 y = @1937 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
 		}
 		
 		ai_will_do = {
@@ -814,16 +620,7 @@ technologies = {
 	}
 	
 	infrared_countermeasure_flares = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-		
+	
 		path = {
 			leads_to_tech = directed_electromagnetic_micropulser
             research_cost_coeff = 1
@@ -836,10 +633,8 @@ technologies = {
 			position = { x = 4 y = @1939 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -848,15 +643,6 @@ technologies = {
 	}
 	
 	directed_electromagnetic_micropulser = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = micro_missile_interceptor_pods
@@ -870,10 +656,8 @@ technologies = {
 			position = { x = 4 y = @1941 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -883,15 +667,6 @@ technologies = {
 	
 	micro_missile_interceptor_pods = {
 
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
 		research_cost = 1.5
 		start_year = 1942
 		folder = {
@@ -899,10 +674,8 @@ technologies = {
 			position = { x = 4 y = @1942 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -914,12 +687,6 @@ technologies = {
 
 		enable_equipments = {
 			aerial_lancer_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 		
 		path = {
@@ -934,10 +701,10 @@ technologies = {
 			position = { x = 2 y = @1938 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			interceptor_tech
 		}
 		
 		ai_will_do = {
@@ -949,12 +716,6 @@ technologies = {
 
 		enable_equipments = {
 			rapid_action_fighter_equipment
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 		
 		path = {
@@ -969,10 +730,10 @@ technologies = {
 			position = { x = 2 y = @1940 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			interceptor_tech
 		}
 		
 		ai_will_do = {
@@ -984,12 +745,6 @@ technologies = {
 
 		enable_equipments = {
 			maximum_force_responder_equipment
-		}
-		
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
 		}
 		
 		path = {
@@ -1005,7 +760,9 @@ technologies = {
 		}
 		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			interceptor_tech
 		}
 		
 		ai_will_do = {
@@ -1019,12 +776,6 @@ technologies = {
 			air_space_denial_unit_equipment
 		}
 
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
 		research_cost = 1.5
 		start_year = 1944
 		folder = {
@@ -1032,10 +783,10 @@ technologies = {
 			position = { x = 2 y = @1944 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			interceptor_tech
 		}
 		
 		ai_will_do = {
@@ -1044,15 +795,6 @@ technologies = {
 	}
 	
 	versatile_hardmount_system = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = quick_maneuver_missiles
@@ -1071,10 +813,9 @@ technologies = {
 			position = { x = -2 y = @1936 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_weapons_tech
 		}
 		
 		ai_will_do = {
@@ -1083,15 +824,6 @@ technologies = {
 	}
 	
 	high_rate_autocannons = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = electromagnetic_launcher_pod
@@ -1105,10 +837,9 @@ technologies = {
 			position = { x = -1 y = @1937 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_weapons_tech
 		}
 		
 		ai_will_do = {
@@ -1117,15 +848,6 @@ technologies = {
 	}
 	
 	electromagnetic_launcher_pod = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = gyroscopic_railgun_system
@@ -1139,10 +861,9 @@ technologies = {
 			position = { x = -1 y = @1939 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_weapons_tech
 		}
 		
 		ai_will_do = {
@@ -1151,16 +872,7 @@ technologies = {
 	}
 	
 	gyroscopic_railgun_system = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-		
+	
 		path = {
 			leads_to_tech = ruby_zircon_pulse_laser_platform
             research_cost_coeff = 1
@@ -1173,10 +885,9 @@ technologies = {
 			position = { x = -1 y = @1940 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_weapons_tech
 		}
 		
 		ai_will_do = {
@@ -1185,15 +896,6 @@ technologies = {
 	}
 	
 	ruby_zircon_pulse_laser_platform = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = particle_lance
@@ -1207,10 +909,9 @@ technologies = {
 			position = { x = -1 y = @1942 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_weapons_tech
 		}
 		
 		ai_will_do = {
@@ -1220,15 +921,6 @@ technologies = {
 	
 	particle_lance = {
 
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-
 		research_cost = 1.5
 		start_year = 1943
 		folder = {
@@ -1236,10 +928,9 @@ technologies = {
 			position = { x = -1 y = @1943 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_weapons_tech
 		}
 		
 		ai_will_do = {
@@ -1248,15 +939,6 @@ technologies = {
 	}
 	
 	quick_maneuver_missiles = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = supressive_concussion_missiles
@@ -1270,10 +952,9 @@ technologies = {
 			position = { x = -3 y = @1937 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_weapons_tech
 		}
 		
 		ai_will_do = {
@@ -1282,15 +963,6 @@ technologies = {
 	}
 	
 	supressive_concussion_missiles = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = cluster_burst_missiles
@@ -1304,10 +976,9 @@ technologies = {
 			position = { x = -3 y = @1938 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_weapons_tech
 		}
 		
 		ai_will_do = {
@@ -1316,15 +987,6 @@ technologies = {
 	}
 	
 	cluster_burst_missiles = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = all_directional_multi_purpose_missiles
@@ -1338,10 +1000,9 @@ technologies = {
 			position = { x = -3 y = @1940 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_weapons_tech
 		}
 		
 		ai_will_do = {
@@ -1350,16 +1011,7 @@ technologies = {
 	}
 	
 	all_directional_multi_purpose_missiles = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-		
+	
 		path = {
 			leads_to_tech = omnidirectional_permatrack_missiles
             research_cost_coeff = 1
@@ -1372,10 +1024,9 @@ technologies = {
 			position = { x = -3 y = @1943 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_weapons_tech
 		}
 		
 		ai_will_do = {
@@ -1384,15 +1035,6 @@ technologies = {
 	}
 	
 	omnidirectional_permatrack_missiles = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = stuff
@@ -1406,10 +1048,9 @@ technologies = {
 			position = { x = -3 y = @1944 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_weapons_tech
 		}
 		
 		ai_will_do = {
@@ -1424,12 +1065,6 @@ technologies = {
 		enable_equipments = {
 			advanced_combat_bomber_equipment
 		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = logistical_bomber
@@ -1439,10 +1074,8 @@ technologies = {
 		path = {
 			leads_to_tech = ground_combat_support_gunship
             research_cost_coeff = 1
-		}		
+		}
 		
-			
-
 		research_cost = 1.5
 		start_year = 1918
 		folder = {
@@ -1450,10 +1083,10 @@ technologies = {
 			position = { x = 16 y = 0 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			bomber_tech
 		}
 		
 		ai_will_do = {
@@ -1466,12 +1099,6 @@ technologies = {
 		enable_equipments = {
 			logistical_bomber_equipment
 		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = long_range_strike_bomber
@@ -1483,8 +1110,6 @@ technologies = {
             research_cost_coeff = 1
 		}		
 		
-			
-
 		research_cost = 1.5
 		start_year = 1936
 		folder = {
@@ -1492,10 +1117,10 @@ technologies = {
 			position = { x = 14 y = @1936 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			bomber_tech
 		}
 		
 		ai_will_do = {
@@ -1504,23 +1129,12 @@ technologies = {
 	}
 	
 	real_time_battlefield_display = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = stuff
             research_cost_coeff = 1
-		}	
+		}
 		
-			
-
 		research_cost = 1.5
 		start_year = 1937
 		folder = {
@@ -1528,10 +1142,8 @@ technologies = {
 			position = { x = 16 y = @1937 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -1544,12 +1156,6 @@ technologies = {
 		enable_equipments = {
 			long_range_strike_bomber_equipment
 		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = global_coverage_bomber
@@ -1561,8 +1167,6 @@ technologies = {
             research_cost_coeff = 1
 		}
 		
-			
-
 		research_cost = 1.5
 		start_year = 1938
 		folder = {
@@ -1570,10 +1174,10 @@ technologies = {
 			position = { x = 14 y = @1938 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			bomber_tech
 		}
 		
 		ai_will_do = {
@@ -1583,17 +1187,6 @@ technologies = {
 	
 	dynamic_tactical_solidograph = {
 
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}	
-		
-			
-
 		research_cost = 1.5
 		start_year = 1939
 		folder = {
@@ -1601,10 +1194,8 @@ technologies = {
 			position = { x = 16 y = @1939 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -1617,20 +1208,12 @@ technologies = {
 		enable_equipments = {
 			global_coverage_bomber_equipment
 		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = aerial_firepower_platform
             research_cost_coeff = 1
 		}	
 		
-			
-
 		research_cost = 1.5
 		start_year = 1941
 		folder = {
@@ -1638,10 +1221,10 @@ technologies = {
 			position = { x = 14 y = @1941 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			bomber_tech
 		}
 		
 		ai_will_do = {
@@ -1654,19 +1237,11 @@ technologies = {
 		enable_equipments = {
 			aerial_firepower_platform_equipment
 		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = atmospheric_armament_deployer
             research_cost_coeff = 1
 		}	
-		
-			
 
 		research_cost = 1.5
 		start_year = 1943
@@ -1675,10 +1250,10 @@ technologies = {
 			position = { x = 14 y = @1943 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			bomber_tech
 		}
 		
 		ai_will_do = {
@@ -1692,14 +1267,6 @@ technologies = {
 			atmospheric_armament_deployer_equipment
 		}
 
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}	
-		
-			
-
 		research_cost = 1.5
 		start_year = 1944
 		folder = {
@@ -1707,10 +1274,10 @@ technologies = {
 			position = { x = 14 y = @1944 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			bomber_tech
 		}
 		
 		ai_will_do = {
@@ -1723,12 +1290,6 @@ technologies = {
 		enable_equipments = {
 			ground_combat_support_gunship_equipment
 		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = long_range_assault_aircraft
@@ -1739,8 +1300,6 @@ technologies = {
 			leads_to_tech = hard_vector_targeting_array
             research_cost_coeff = 1
 		}	
-		
-			
 
 		research_cost = 1.5
 		start_year = 1936
@@ -1749,10 +1308,10 @@ technologies = {
 			position = { x = 18 y = @1936 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			gunship_tech
 		}
 		
 		ai_will_do = {
@@ -1762,17 +1321,6 @@ technologies = {
 	
 	hard_vector_targeting_array = {
 
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-		
-			
-
 		research_cost = 1.5
 		start_year = 1937
 		folder = {
@@ -1780,10 +1328,8 @@ technologies = {
 			position = { x = 20 y = @1937 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -1796,12 +1342,6 @@ technologies = {
 		enable_equipments = {
 			long_range_assault_aircraft_equipment
 		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = area_obstruction_support
@@ -1812,8 +1352,6 @@ technologies = {
 			leads_to_tech = assisted_submunitions
             research_cost_coeff = 1
 		}
-		
-			
 
 		research_cost = 1.5
 		start_year = 1938
@@ -1822,10 +1360,10 @@ technologies = {
 			position = { x = 18 y = @1938 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			gunship_tech
 		}
 		
 		ai_will_do = {
@@ -1834,17 +1372,6 @@ technologies = {
 	}
 	
 	assisted_submunitions = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}	
-		
-			
 
 		research_cost = 1.5
 		start_year = 1939
@@ -1858,10 +1385,8 @@ technologies = {
             research_cost_coeff = 1
 		}	
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -1870,18 +1395,7 @@ technologies = {
 	}
 	
 	recursive_cluster_bombs = {
-
-		enable_equipments = {
-		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}	
-		
-			
-
+	
 		research_cost = 1.5
 		start_year = 1941
 		folder = {
@@ -1889,10 +1403,8 @@ technologies = {
 			position = { x = 20 y = @1941 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
 		}
 		
 		ai_will_do = {
@@ -1906,19 +1418,11 @@ technologies = {
 			area_obstruction_support_equipment
 		}
 
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-		
 		path = {
 			leads_to_tech = ground_saturation_unit
             research_cost_coeff = 1
 		}	
 		
-			
-
 		research_cost = 1.5
 		start_year = 1940
 		folder = {
@@ -1926,10 +1430,10 @@ technologies = {
 			position = { x = 18 y = @1940 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			gunship_tech
 		}
 		
 		ai_will_do = {
@@ -1942,20 +1446,12 @@ technologies = {
 		enable_equipments = {
 			ground_saturation_unit_equipment
 		}
-
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
 		
 		path = {
 			leads_to_tech = general_purpose_ordonance_deliver
             research_cost_coeff = 1
-		}	
+		}
 		
-			
-
 		research_cost = 1.5
 		start_year = 1943
 		folder = {
@@ -1963,10 +1459,10 @@ technologies = {
 			position = { x = 18 y = @1943 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			gunship_tech
 		}
 		
 		ai_will_do = {
@@ -1980,14 +1476,6 @@ technologies = {
 			general_purpose_ordonance_deliver_equipment
 		}
 
-		enable_equipment_modules = {
-		}
-		
-		enable_subunits = {
-		}
-		
-			
-
 		research_cost = 1.5
 		start_year = 1944
 		folder = {
@@ -1995,10 +1483,10 @@ technologies = {
 			position = { x = 18 y = @1944 }
 		}
 		
-		
-		
 		categories = {
-			air_equipment
+			air_tech
+			air_tech_equipment
+			gunship_tech
 		}
 		
 		ai_will_do = {

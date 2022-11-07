@@ -42,7 +42,8 @@ technologies = {
 		}
 		
 		categories = {
-			support
+			mechanised_tech
+			mechanised_tech_equipment
 		}
 	}
 	
@@ -61,7 +62,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			mechanised_tech
 		}
 		
 		ai_will_do = {
@@ -80,7 +81,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			mechanised_tech
 		}
 		
 		ai_will_do = {
@@ -113,7 +114,8 @@ technologies = {
 		}
 		
 		categories = {
-			support
+			mechanised_tech
+			mechanised_tech_equipment
 		}
 	}
 	
@@ -128,7 +130,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			mechanised_tech
 		}
 		
 		ai_will_do = {
@@ -157,7 +159,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			mechanised_tech
 		}
 		
 		ai_will_do = {
@@ -176,7 +178,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			mechanised_tech
 		}
 		
 		ai_will_do = {
@@ -214,7 +216,8 @@ technologies = {
 		}
 		
 		categories = {
-			support
+			mechanised_tech
+			mechanised_tech_equipment
 		}
 	}
 	
@@ -234,7 +237,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			mechanised_tech
 		}
 		
 		ai_will_do = {
@@ -253,7 +256,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			mechanised_tech
 		}
 		
 		ai_will_do = {
@@ -272,7 +275,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			mechanised_tech
 		}
 		
 		ai_will_do = {
@@ -310,7 +313,8 @@ technologies = {
 		}
 		
 		categories = {
-			support
+			mechanised_tech
+			mechanised_tech_equipment
 		}
 	}
 	
@@ -330,7 +334,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			mechanised_tech
 		}
 		
 		ai_will_do = {
@@ -349,7 +353,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			mechanised_tech
 		}
 		
 		ai_will_do = {
@@ -368,7 +372,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			mechanised_tech
 		}
 		
 		ai_will_do = {
@@ -391,7 +395,8 @@ technologies = {
 		}
 		
 		categories = {
-			support
+			mechanised_tech
+			mechanised_tech_equipment
 		}
 	}
 

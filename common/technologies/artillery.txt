@@ -38,7 +38,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -68,7 +69,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -88,7 +90,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
 		}
 	}
 	
@@ -118,7 +120,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -134,7 +137,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
 		}
 	}
 	
@@ -159,7 +162,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -179,7 +183,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -204,7 +209,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			spg_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -234,7 +241,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			spg_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -255,7 +264,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			spg_tech
 		}
 	}
 	
@@ -285,7 +295,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			spg_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -301,7 +313,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			spg_tech
 		}
 	}
 	
@@ -331,7 +344,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			spg_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -347,7 +362,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			spg_tech
 		}
 	}
 	
@@ -372,7 +388,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			spg_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -392,7 +410,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			spg_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -413,7 +433,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
 		}
 	}
 	
@@ -434,7 +454,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
 		}
 	}
 	
@@ -455,7 +475,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
 		}
 	}
 	
@@ -476,7 +496,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
 		}
 	}
 	
@@ -493,7 +513,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
 		}
 	}
 	
@@ -526,7 +546,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
 		}
 	}
 	
@@ -555,7 +576,10 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
+			mlrs_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -580,7 +604,10 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
+			mlrs_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -605,7 +632,10 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
+			mlrs_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -630,7 +660,10 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
+			mlrs_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -650,7 +683,10 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
+			mlrs_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -674,7 +710,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -698,7 +736,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -717,7 +757,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -742,7 +784,10 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
+			sam_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -767,7 +812,10 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
+			sam_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -792,7 +840,10 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
+			sam_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -812,7 +863,10 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
+			sam_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -833,7 +887,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
 		}
 	}
 	
@@ -854,7 +909,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
 		}
 	}
 	
@@ -874,7 +930,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
 		}
 	}
 	
@@ -890,7 +947,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			rocket_tech
 		}
 	}
 	
@@ -917,7 +975,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			anti_air_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -942,7 +1002,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			anti_air_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -967,7 +1029,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			anti_air_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -992,7 +1056,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			anti_air_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -1013,7 +1079,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			anti_air_tech
+			artillery_tech_equipment
 		}
 	}
 	
@@ -1033,7 +1101,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			radar_tech
 		}
 	}
 	
@@ -1053,7 +1122,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			radar_tech
 		}
 	}
 	
@@ -1068,7 +1138,8 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			artillery_tech
+			radar_tech
 		}
 	}
 

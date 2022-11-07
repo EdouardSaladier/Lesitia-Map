@@ -13,17 +13,18 @@ technology_categories = {
 	assault_forces_tech
 	infiltrators_tech
 	aerial_troopers_tech
+	mechanised_tech
+	mechanised_tech_equipment
 	
 	###Support Tree
 	support_tech
 	support_equipment
 	engineers_tech
 	recon_tech
-	recon_drones_tech
 	coin_tech
 	hospital_tech
 	logistics_tech
-	signal_company_tech
+	c_c_tech
 	
 	###Artillery tree
 	artillery_tech
@@ -33,22 +34,25 @@ technology_categories = {
 	mlrs_tech
 	sam_tech
 	anti_air_tech
+	radar_tech
 	
 	###Tank tree
 	tank_tech
 	tank_tech_equipment
 	defense_platforms_tech
-	defense_platforms_tech
+	heavy_defense_platforms_tech
 	assault_tank_tech
 	mbt_tank_tech
 	drone_tank_tech
 	gun_tank_tech
+	armor_tank_tech
 	recon_tank_tech
 	hovercraft_tech
 	hovercraft_tech_equipment
 	
 	###Air tree
 	air_tech
+	air_weapons_tech
 	air_tech_equipment
 	fighter_tech
 	interceptor_tech
@@ -85,6 +89,7 @@ technology_categories = {
 	cat_strategic_destruction
 	cat_battlefield_support
 	cat_operational_integrity
+	naval_equipment
 }
 
 technology_folders = {
