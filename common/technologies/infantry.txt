@@ -106,10 +106,156 @@ technologies = {
 		}
 	}
 	
+	caseless_munitions = {
+	
+		allow = {
+			NOT = {
+				has_tech = solid_state_laser
+				is_researching_technology = solid_state_laser
+			}
+		}
+	
+		on_research_complete = {
+			add_ideas = caseless_munitions_idea
+			custom_effect_tooltip = obsolete_lasers_tt
+		}
+		
+		path = {
+			leads_to_tech = telescoped_munitions
+            research_cost_coeff = 1
+		}	
+
+        path = {
+			leads_to_tech = airbust_munitions
+            research_cost_coeff = 1
+		}		
+
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = @1937 }
+		}
+				
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    telescoped_munitions = {
+	
+		allow = {
+			NOT = {
+				has_tech = solid_state_laser
+				is_researching_technology = solid_state_laser
+			}
+		}
+	
+		on_research_complete = {
+			add_ideas = telescoped_munitions_idea
+			custom_effect_tooltip = obsolete_lasers_tt
+		}
+	
+		XOR = {
+			airbust_munitions
+		}		
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = @1938 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    airbust_munitions = {
+	
+		allow = {
+			NOT = {
+				has_tech = solid_state_laser
+				is_researching_technology = solid_state_laser
+			}
+		}
+	
+		on_research_complete = {
+			add_ideas = airbust_munitions_idea
+			custom_effect_tooltip = obsolete_lasers_tt
+		}
+
+		XOR = {
+			telescoped_munitions
+		}		
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1938 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	solid_state_laser = {
+	
+		allow = {
+			NOT = {
+				is_researching_technology = caseless_munitions
+				is_researching_technology = telescoped_munitions
+				is_researching_technology = airbust_munitions
+			}
+		}
 
 		enable_equipments = {
 			solid_state_laser_equipment
+		}
+		
+		on_research_complete_limit = {
+			OR = {
+				has_idea = caseless_munitions_idea
+				has_idea = telescoped_munitions_idea
+				has_idea = airbust_munitions_idea
+			}
+		}
+		
+		on_research_complete = {
+			if = {
+				limit = {
+					has_idea = caseless_munitions_idea
+				}
+				remove_ideas = caseless_munitions_idea
+			}
+			if = {
+				limit = {
+					has_idea = telescoped_munitions_idea
+				}
+				remove_ideas = telescoped_munitions_idea
+			}
+			if = {
+				limit = {
+					has_idea = airbust_munitions_idea
+				}
+				remove_ideas = airbust_munitions_idea
+			}
+			custom_effect_tooltip = obsolete_lasers_2_tt
 		}
 		
 		path = {
@@ -138,6 +284,10 @@ technologies = {
 	}
 	
 	spectral_beam_combining = {
+	
+		on_research_complete = {
+			add_ideas = spectral_beam_combining_idea
+		}
 	
 		path = {
 			leads_to_tech = arc_laser
@@ -188,6 +338,10 @@ technologies = {
 	
 	lithium_sulfur_battery = {
 	
+		on_research_complete = {
+			add_ideas = lithium_sulfur_battery_idea
+		}
+	
 		path = {
 			leads_to_tech = graphene_battery
 		}
@@ -214,6 +368,10 @@ technologies = {
 	
 	lithium_sulfur_supercapacitor = {
 	
+		on_research_complete = {
+			add_ideas = lithium_sulfur_supercapacitor_idea
+		}
+	
 		path = {
 			leads_to_tech = graphene_supercapacitor
 		}
@@ -236,6 +394,10 @@ technologies = {
 	
 	graphene_battery = {
 	
+		on_research_complete = {
+			add_ideas = graphene_battery_idea
+		}
+	
 		path = {
 			leads_to_tech = graphene_supercapacitor
 		}
@@ -257,11 +419,14 @@ technologies = {
 	}
 	
 	graphene_supercapacitor = {
+	
+		on_research_complete = {
+			add_ideas = graphene_supercapacitor_idea
+		}
 		
 		path = {
 			leads_to_tech = uv_laser
 		}
-		
 
 		research_cost = 2
 		start_year = 1943
@@ -363,6 +528,18 @@ technologies = {
 	}
 	
 	plunging_fire_enhancement = {
+	
+		allow = {
+			NOT = {
+				has_tech = railguns
+				is_researching_technology = railguns
+			}
+		}
+	
+		on_research_complete = {
+			add_ideas = plunging_fire_enhancement_idea
+			custom_effect_tooltip = obsolete_at_tt
+		}
 
 		research_cost = 1
 		start_year = 1937
@@ -381,6 +558,26 @@ technologies = {
 	}
 	
 	railguns = {
+	
+		allow = {
+			NOT = {
+				is_researching_technology = plunging_fire_enhancement
+			}
+		}
+		
+		on_research_complete_limit = {
+			has_idea = plunging_fire_enhancement_idea
+		}
+		
+		on_research_complete = {
+			if = {
+				limit = {
+					has_idea = plunging_fire_enhancement_idea
+				}
+				remove_ideas = plunging_fire_enhancement_idea
+			}
+			custom_effect_tooltip = obsolete_at_2_tt
+		}
 
 		enable_equipments = {
 			railguns_equipment
@@ -401,14 +598,14 @@ technologies = {
 			position = { x = -4 y = @1939 }
 		}
 		
-		infantry = {
-			need = {
-				infantry_equipment = -100
-			}
-			need = {
-				railguns_equipment = 100
-			}
-		}
+		#infantry = {
+		#	need = {
+		#		infantry_equipment = -100
+		#	}
+		#	need = {
+		#		railguns_equipment = 100
+		#	}
+		#}
 		
 		categories = {
 			at_weapons
@@ -570,90 +767,6 @@ technologies = {
 		}
 	}
 
-    caseless_munitions = {
-	
-		on_research_complete = {
-			add_ideas = caseless_munitions_idea
-		}
-		
-		path = {
-			leads_to_tech = telescoped_munitions
-            research_cost_coeff = 1
-		}	
-
-        path = {
-			leads_to_tech = airbust_munitions
-            research_cost_coeff = 1
-		}		
-
-		research_cost = 1
-		start_year = 1937
-		folder = {
-			name = infantry_folder
-			position = { x = -1 y = @1937 }
-		}
-				
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-    telescoped_munitions = {
-	
-		on_research_complete = {
-			add_ideas = telescoped_munitions_idea
-		}
-	
-		XOR = {
-			airbust_munitions
-		}		
-
-		research_cost = 1
-		start_year = 1938
-		folder = {
-			name = infantry_folder
-			position = { x = -2 y = @1938 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-    airbust_munitions = {
-	
-		on_research_complete = {
-			add_ideas = airbust_munitions_idea
-		}
-
-		XOR = {
-			telescoped_munitions
-		}		
-
-		research_cost = 1
-		start_year = 1938
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1938 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	laser_rangefinders = {
 		
 		path = {
@@ -696,7 +809,12 @@ technologies = {
 		
 		infantry = {
 			need = {
-				anti_air_shoulder_equipment = 10
+				hud_equipment = 10
+			}
+		}
+		at_infantry = {
+			need = {
+				hud_equipment = 10
 			}
 		}
 

@@ -1,8 +1,14 @@
 ﻿l_english:
 # INFANTRY
- infantry_equipment:0 "All Conventional Firearms"
- railguns_equipment_archetype:0 "All Railguns"
+ infantry_equipment:0 "Firearms & Lasers"
+ inf_at_equipment:0 "AT equipment & Railguns"
  hud_equipment:0 "Optical Head-mounted Display"
+ 
+ obsolete_lasers_tt:0 "§RThis technology will be made obsolete and its effects will be removed after researching lasers. It is not possible to research it at the same time as lasers.§!"
+ obsolete_lasers_2_tt:0 "§RThis technology will make ammunition technologies obsolete. It is not possible to research it at the same time as ammunition technologies.§!"
+ 
+ obsolete_at_tt:0 "§RThis technology will be made obsolete and its effects will be removed after researching railguns. It is not possible to research it at the same time as railguns.§!"
+ obsolete_at_2_tt:0 "§RThis technology will make \"Plunging-Fire Attack Enhancement\" obsolete. It is not possible to research it at the same time as \"Plunging-Fire Attack Enhancement\".§!"
  
  primitive_firearms:0 "Primitive Firearms"
  primitive_firearms_desc:0 "TODO"
@@ -32,37 +38,43 @@
  precision_guided_firearms_equipment_desc:0 "Though functionally similar to convention weapons in terms of muntions, the Precision-guided rifle allows for much better accuracy. By making use of a series of targeting systems and even rudimentary A.I, these weapons are able to lock onto a target and fire with near perfect accuracy."
  
  solid_state_laser:0 "Solid-State Crystal Laser"
- solid_state_laser_desc:0 "TODO"
+ solid_state_laser_desc:0 "We have reached another milestone in the history of lasers: the first infrared combat laser. This weaponized laser system uses tightly-focused, extremely intense infrared light pulses to burn through most known materials, using solid-state crystal rods to generate ultra-short pulses of infrared light."
  solid_state_laser_equipment:0 "Solid-State Crystal Laser"
- solid_state_laser_equipment_desc:0 "TODO"
+ solid_state_laser_equipment_desc:0 "We have reached another milestone in the history of lasers: the first infrared combat laser. This weaponized laser system uses tightly-focused, extremely intense infrared light pulses to burn through most known materials, using solid-state crystal rods to generate ultra-short pulses of infrared light."
  
  arc_laser:0 "Plasma-Arc Laser"
- arc_laser_desc:0 "TODO"
+ arc_laser_desc:0 "By replacing the old laser mediums, such as gas or crystal, with plasma, arc lasers can generate more intense beams, with greatly-improved efficiency. The plasma is contained using magnetic fields, and once the weapon has accumulated enough charge, a lightning arc surges through the plasma, releasing an intense burst of energy in the form of light - which the Arc Laser then weaponizes into a deadly pulse. The true beauty of this technology is the rapid recharge rate of the plasma, creating a combat laser with greater efficiency and range than any previous generation."
  arc_laser_equipment:0 "Plasma-Arc Laser"
- arc_laser_equipment_desc:0 "TODO"
+ arc_laser_equipment_desc:0 "By replacing the old laser mediums, such as gas or crystal, with plasma, arc lasers can generate more intense beams, with greatly-improved efficiency. The plasma is contained using magnetic fields, and once the weapon has accumulated enough charge, a lightning arc surges through the plasma, releasing an intense burst of energy in the form of light - which the Arc Laser then weaponizes into a deadly pulse. The true beauty of this technology is the rapid recharge rate of the plasma, creating a combat laser with greater efficiency and range than any previous generation."
  
  uv_laser:0 "Phased-Array Ultraviolet Laser"
- uv_laser_desc:0 "TODO"
+ uv_laser_desc:0 "Extreme ultraviolet is breathtakingly difficult to work with, because it burns through almost all matter on contact - including the laser's lenses and mirrors in the process. Special new dielectric mirrors, coated with multiple layers of ultra-dense, highly reflective nanomaterials, overcome this complication, enabling our latest weapons to utilize the ultraviolet spectrum without losing intensity. These laser systems are capable of shooting precise beams over long distances, to inflict massive damage."
  uv_laser_equipment:0 "Phased-Array Ultraviolet Laser"
- uv_laser_equipment_desc:0 "TODO"
+ uv_laser_equipment_desc:0 "Extreme ultraviolet is breathtakingly difficult to work with, because it burns through almost all matter on contact - including the laser's lenses and mirrors in the process. Special new dielectric mirrors, coated with multiple layers of ultra-dense, highly reflective nanomaterials, overcome this complication, enabling our latest weapons to utilize the ultraviolet spectrum without losing intensity. These laser systems are capable of shooting precise beams over long distances, to inflict massive damage."
  
  lithium_sulfur_battery:0 "Lithium-Sulfur Battery"
  lithium_sulfur_battery_desc:0 "TODO"
+ lithium_sulfur_battery_idea:0 "Lithium-Sulfur Battery"
  
  lithium_sulfur_supercapacitor:0 "Electrolytic Supercapacitors"
  lithium_sulfur_supercapacitor_desc:0 "TODO"
+ lithium_sulfur_supercapacitor_idea:0 "Electrolytic Supercapacitors"
  
  graphene_battery:0 "Graphene Battery"
  graphene_battery_desc:0 "TODO"
+ graphene_battery_idea:0 "Graphene Battery"
  
  graphene_supercapacitor:0 "Graphene Supercapacitors"
  graphene_supercapacitor_desc:0 "TODO"
+ graphene_supercapacitor_idea:0 "Graphene Supercapacitors"
  
  spectral_beam_combining:0 "Spectral Beam Combining"
  spectral_beam_combining_desc:0 "TODO"
+ spectral_beam_combining_idea:0 "Spectral Beam Combining"
  
  plunging_fire_enhancement:0 "Plunging-Fire Attack Enhancement"
  plunging_fire_enhancement_desc:0 "TODO"
+ plunging_fire_enhancement_idea:0 "Plunging-Fire Attack Enhancement"
  
  recoiless_rifles:0 "Man-Portable Recoilless Rifle"
  recoiless_rifles_desc:0 "TODO"
@@ -81,12 +93,10 @@
 
  aermet_alloy:0 "Aermet Alloy"
  aermet_alloy_desc:0 "In order to improve the reliability of our weapon's designs, we have begun to look into changing the material they are made of. By using a crystalline form of steel and making use of other elements like cobalt, we can create an alloy possessing an exceptional tensile strength and durability, allowing out weapons to be far more resiliant."
- aermet_alloy_tooltip:0 "Gives a §Y+15% reliability§! £repairing bonus to all §YRailguns§! \n§RNOTE: Due to game limitations, this is done through a hidden National Spirit giving the buff to the equipment, meaning that the buff will not appear on the equipment stats§!"
  aermet_alloy_idea:0 "Aermet Alloy"
  
  eglin_alloy:0 "Eglin Alloy"
  eglin_alloy_desc:0 "The Aermet Alloy we have been using is very effective, but it can be improved. We have found a means of using various common elements, such as Iron, Carbon and Nickel, to create an alloy that is both far stronger than our previous materials and much cheaper at the same time."
- eglin_alloy_tooltip:0 "Gives a §Y+25% reliability§! £repairing bonus and §Y-10% production cost§! £production_cost to all §YRailguns§! \n§RNOTE: Due to game limitations, this is done through a hidden National Spirit giving the buff to the equipment, meaning that the buff will not appear on the equipment stats§!"
  eglin_alloy_idea:0 "Eglin Alloy"
  
  field_cooling_system:0 "Field Cooling System"
