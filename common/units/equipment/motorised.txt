@@ -36,6 +36,25 @@ equipments = {
 
 		archetype = motorized_equipment
 		priority = 30	
+		
+		maximum_speed = 12
+
+		#Defensive Abilities
+		defense = 0
+		breakthrough = 4
+		hardness = 0.10
+		armor_value = 0
+		
+		fuel_consumption = 0.8
+
+		#Offensive Abilities
+		ap_attack = 0
+
+		build_cost_ic = 3
+		resources = {
+			steel = 1
+			polymers = 1
+		}
 	}
 	
 }

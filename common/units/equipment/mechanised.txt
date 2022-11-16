@@ -56,6 +56,25 @@ equipments = {
 		archetype = mechanized_equipment
 		priority = 40
 		visual_level = 0
+		
+		maximum_speed = 8
+
+		#Defensive Abilities
+		defense = 22
+		breakthrough = 4
+		hardness = 0.60
+		armor_value = 8
+		
+		fuel_consumption = 1.6
+
+		#Offensive Abilities
+		ap_attack = 8
+
+		build_cost_ic = 3
+		resources = {
+			steel = 1
+			polymers = 1
+		}
 	}
 
 	# ~1943
@@ -70,19 +89,21 @@ equipments = {
 		maximum_speed = 10
 
 		#Defensive Abilities
-		defense = 30
-		breakthrough = 8
+		defense = 26
+		breakthrough = 6
 		hardness = 0.70
-		armor_value = 15
+		armor_value = 12
+		
+		fuel_consumption = 1.6
 
 		#Offensive Abilities
-		ap_attack = 16
+		ap_attack = 12
 
-		build_cost_ic = 10
+		build_cost_ic = 8
 		resources = {
-			steel = 3
-			rubber = 1
-			#oil = 1
+			steel = 2
+			tungsten = 1
+			polymers = 1
 		}
 	}
 	
@@ -92,6 +113,26 @@ equipments = {
 		archetype = mechanized_equipment
 		priority = 40
 		visual_level = 0
+		
+		maximum_speed = 12
+
+		#Defensive Abilities
+		defense = 30
+		breakthrough = 8
+		hardness = 0.75
+		armor_value = 16
+		
+		fuel_consumption = 1.6
+
+		#Offensive Abilities
+		ap_attack = 16
+
+		build_cost_ic = 10
+		resources = {
+			steel = 3
+			tungsten = 1
+			polymers = 1
+		}
 	}
 	
 	armored_multirole_carrier_equipment = {
@@ -100,6 +141,26 @@ equipments = {
 		archetype = mechanized_equipment
 		priority = 40
 		visual_level = 0
+		
+		maximum_speed = 10
+
+		#Defensive Abilities
+		defense = 36
+		breakthrough = 10
+		hardness = 0.80
+		armor_value = 22
+		
+		fuel_consumption = 1.6
+
+		#Offensive Abilities
+		ap_attack = 22
+
+		build_cost_ic = 12
+		resources = {
+			steel = 4
+			tungsten = 1
+			polymers = 1
+		}
 	}
 	
 }
