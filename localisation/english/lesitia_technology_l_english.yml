@@ -1,6 +1,5 @@
 ﻿l_english:
 # INFANTRY
-
  infantry_equipment:0 "All Conventional Firearms"
  railguns_equipment_archetype:0 "All Railguns"
  hud_equipment:0 "Optical Head-mounted Display"
@@ -11,26 +10,26 @@
  primitive_firearms_equipment_desc:0 "TODO"
  
  conventional_firearms:0 "Conventional Firearms"
- conventional_firearms_desc:0 "TODO"
+ conventional_firearms_desc:0 "The global standard for firearms since the days of the War that has changed little in that time. Making use of a firing pin to light the gunpower and fire the bullets inside, their ubiguity makes them cheap to make and easy to learn."
  conventional_firearms_equipment:0 "Conventional Firearms"
- conventional_firearms_equipment_desc:0 "TODO"
+ conventional_firearms_equipment_desc:0 "The global standard for firearms since the days of the War that has changed little in that time. Making use of a firing pin to light the gunpower and fire the bullets inside, their ubiguity makes them cheap to make and easy to learn."
 
  caseless_munitions:0 "Caseless Munitions"
- caseless_munitions_desc:0 "TODO"
+ caseless_munitions_desc:0 "One of the few recent advances made to firearms in the last few decades ahs been caseless muntions. Not only does this make the manufacturing of firearms easier, but also means less raw materials needed for the production of ammunition."
  caseless_munitions_idea:0 "Caseless Munitions"
 
  telescoped_munitions:0 "Telescoped Munitions"
- telescoped_munitions_desc:0 "TODO"
+ telescoped_munitions_desc:0 "As armor for both vehicles and infantry improves, we must match it with out munitions. By enveloping the projectile in propellant, we can increased the speed and penetration of our munitions. While this will limit its capabilities in dealing with vast groupsof targets, they will go through almost any body armour with ease."
  telescoped_munitions_idea:0 "Telescoped Munitions"
 
  airbust_munitions:0 "Airbust Munitions"
- airbust_munitions_desc:0 "TODO"
+ airbust_munitions_desc:0 "To improve our military, we have proposed a new kind of ammo. These 'Airburst' muntions will detonate in midair and act closer to a frag grendade than a bullet. Though this will have limited effectiveness against armour, it will decimate enemy infantry."
  airbust_munitions_idea:0 "Airbust Munitions"
 
  precision_guided_firearms:0 "Precision-guided Firearms"
- precision_guided_firearms_desc:0 "TODO"
+ precision_guided_firearms_desc:0 "Though functionally similar to convention weapons in terms of muntions, the Precision-guided rifle allows for much better accuracy. By making use of a series of targeting systems and even rudimentary A.I, these weapons are able to lock onto a target and fire with near perfect accuracy."
  precision_guided_firearms_equipment:0 "Precision-guided Firearms"
- precision_guided_firearms_equipment_desc:0 "TODO"
+ precision_guided_firearms_equipment_desc:0 "Though functionally similar to convention weapons in terms of muntions, the Precision-guided rifle allows for much better accuracy. By making use of a series of targeting systems and even rudimentary A.I, these weapons are able to lock onto a target and fire with near perfect accuracy."
  
  solid_state_laser:0 "Solid-State Crystal Laser"
  solid_state_laser_desc:0 "TODO"
@@ -76,267 +75,412 @@
  at_missiles_equipment_desc:0 "TODO"
  
  railguns:0 "Electromagnetic Portative Railgun"
- railguns_desc:0 "TODO"
+ railguns_desc:0 "By flowing current through an elongated, magnetically-permeable rifle barrel, we can accelerate projectiles without the need for any explosive - achieving muzzle velocities far beyond even our most powerful explosive-based firearms. This is of great benefit to both impact and range. In consequence, slugs fired from these new railguns are able to pierce the densest of armor at extreme distances."
  railguns_equipment:0 "Electromagnetic Portative Railgun"
- railguns_equipment_desc:0 "TODO"
+ railguns_equipment_desc:0 "By flowing current through an elongated, magnetically-permeable rifle barrel, we can accelerate projectiles without the need for any explosive - achieving muzzle velocities far beyond even our most powerful explosive-based firearms. This is of great benefit to both impact and range. In consequence, slugs fired from these new railguns are able to pierce the densest of armor at extreme distances."
 
  aermet_alloy:0 "Aermet Alloy"
- aermet_alloy_desc:0 "TODO"
+ aermet_alloy_desc:0 "In order to improve the reliability of our weapon's designs, we have begun to look into changing the material they are made of. By using a crystalline form of steel and making use of other elements like cobalt, we can create an alloy possessing an exceptional tensile strength and durability, allowing out weapons to be far more resiliant."
  aermet_alloy_tooltip:0 "Gives a §Y+15% reliability§! £repairing bonus to all §YRailguns§! \n§RNOTE: Due to game limitations, this is done through a hidden National Spirit giving the buff to the equipment, meaning that the buff will not appear on the equipment stats§!"
  aermet_alloy_idea:0 "Aermet Alloy"
  
  eglin_alloy:0 "Eglin Alloy"
- eglin_alloy_desc:0 "TODO"
- eglin_alloy_tooltip:0 "Gives a §Y+25% reliability§! £repairing bonus to all §YRailguns§! \n§RNOTE: Due to game limitations, this is done through a hidden National Spirit giving the buff to the equipment, meaning that the buff will not appear on the equipment stats§!"
+ eglin_alloy_desc:0 "The Aermet Alloy we have been using is very effective, but it can be improved. We have found a means of using various common elements, such as Iron, Carbon and Nickel, to create an alloy that is both far stronger than our previous materials and much cheaper at the same time."
+ eglin_alloy_tooltip:0 "Gives a §Y+25% reliability§! £repairing bonus and §Y-10% production cost§! £production_cost to all §YRailguns§! \n§RNOTE: Due to game limitations, this is done through a hidden National Spirit giving the buff to the equipment, meaning that the buff will not appear on the equipment stats§!"
  eglin_alloy_idea:0 "Eglin Alloy"
  
  field_cooling_system:0 "Field Cooling System"
- field_cooling_system_desc:0 "TODO"
+ field_cooling_system_desc:0 "One of the major weaknesses of Railguns is the immense heat that the weapon generates, save for waiting for the weapon to cool down there is little that could be done. However, a new field cooling system has been developed which will allow for our infantrymen to operate their weapons without limitations."
  field_cooling_system_idea:0 "Field Cooling System"
 
  helical_railguns:0 "Helical-Barrel Railgun"
- helical_railguns_desc:0 "TODO"
+ helical_railguns_desc:0 "Even though our current Railguns are very powerful, improvements can always be made. By using a helix shaped barrel with a cylindrical projectile and energising the projectile, we can create a far more effective weapon, allowing it to deal even more damage far quicker."
  helical_railguns_equipment:0 "Helical-Barrel Railgun"
- helical_railguns_equipment_desc:0 "TODO"
+ helical_railguns_equipment_desc:0 "Even though our current Railguns are very powerful, improvements can always be made. By using a helix shaped barrel with a cylindrical projectile and energising the projectile, we can create a far more effective weapon, allowing it to deal even more damage far quicker."
 
  total_vacuum_bore:0 "Total Vacuum Bore"
- total_vacuum_bore_desc:0 "TODO"
+ total_vacuum_bore_desc:0 "Even though we have improved the guns themselves, no amount of firepower can overcome the friction caused by the round being fired at hypersonic speed. To circumvent this, we will remove all the air from the bore of the gun. Once in a vaccum, there will be no friction when fired, reducing overheating and increasing the projectile's speed."
  total_vacuum_bore_idea:0 "Total Vacuum Bore"
 
  plasma_railguns:0 "Plasma Accelerating Railgun"
- plasma_railguns_desc:0 "TODO"
+ plasma_railguns_desc:0 "We may now have reached the height of modern weaponry. Rather than a physical projectile, we have instead found a way to use ionized gas, otherwise known as plasma, as the weapons ammunition. There is now little which can withstand a direct hit from this weapon, our supremacy on the field of battle is secure!"
  plasma_railguns_equipment:0 "Plasma Accelerating Railgun"
- plasma_railguns_equipment_desc:0 "TODO"
+ plasma_railguns_equipment_desc:0 "We may now have reached the height of modern weaponry. Rather than a physical projectile, we have instead found a way to use ionized gas, otherwise known as plasma, as the weapons ammunition. There is now little which can withstand a direct hit from this weapon, our supremacy on the field of battle is secure!"
 
  optical_head_mounted_display:0 "Optical Head-mounted Display"
- optical_head_mounted_display_desc:0 "TODO"
-
+ optical_head_mounted_display_desc:0 "As advances in VR technology have grown, a military application has become clear. By transmitting vital information such as ammunition count, radar and the location of friendly units to screens mounted on the helmet, we can provide our soldiers instant access to battlefield statistics in real time."
  optical_head_mounted_display_equipment:0 "Optical Head-mounted Display"
- optical_head_mounted_display_equipment_desc:0 "TODO"
+ optical_head_mounted_display_equipment_desc:0 "As advances in VR technology have grown, a military application has become clear. By transmitting vital information such as ammunition count, radar and the location of friendly units to screens mounted on the helmet, we can provide our soldiers instant access to battlefield statistics in real time."
 
  laser_rangefinders:0 "Laser Rangefinders"
- laser_rangefinders_desc:0 "TODO"
+ laser_rangefinders_desc:0 "Though firmly common in contruction, Laser Rangefinders were too large and bulky to be used widely by our infantery. However, recent advances have allowed for the technology to be miniaturized and mounted on individual weapons, allowing for increased accuracy."
 
  constantly_computed_impact_point:0 "Constantly Computed Impact Point"
- constantly_computed_impact_point_desc:0 "TODO"
+ constantly_computed_impact_point_desc:0 "Now that our soldiers are equiped with battlefield HUDs, we can still extend their usefullness. Using computers mounted on the soldier's helmets as well as micro-cameras on individual weapons, the predicted impact point can be caluaclted, allowing our soldiers to adjust their aim with precision."
  constantly_computed_impact_point_idea:0 "Constantly Computed Impact Point"
 
  tactical_informations_and_communications_system:0 "Tactical Informations and Communications System"
- tactical_informations_and_communications_system_desc:0 "TODO"
+ tactical_informations_and_communications_system_desc:0 "Moving on from information about the soldier, we will expand these systems to have borader strategic value. By providing advise on viable tactics and instantaneous communication, we can improve the coordination of our troops."
  tactical_informations_and_communications_system_idea:0 "Tactical Informations and Communications System"
 
  cognitive_technological_threat_warning_system:0 "Cognitive Threat Warning System"
- cognitive_technological_threat_warning_system_desc:0 "TODO"
+ cognitive_technological_threat_warning_system_desc:0 "Having so far used these systems to improve our soldier's ability to neutralise enemy threat, we must now use them to keep our men alive. By scanning the environment for potential hazards, from ambushes to mines, we can warn our soldiers of dangers in real time"
  cognitive_technological_threat_warning_system_idea:0 "Cognitive Threat Warning System"
 
  night_vision:0 "Night Vision"
- night_vision_desc:0 "TODO"
+ night_vision_desc:0 "In the past, our enemies have launched attacks by using the darkness as cover, though some have natural nightvision they are too rare to be everywhere at once. Thanks to advances in infared technology, we have finally managed to achieve basic night vision, improving combat effectiveness during the night"
 
  auto_gating:0 "Auto-gating"
- auto_gating_desc:0 "TODO"
+ auto_gating_desc:0 "A major weakness of night vision equipment was that a sudden exposure to bright light would blind the user or damage the equipment. However, Auto-gating automatiocally adjusts the amount of Photons seen by the user, removing this weakness."
 
  hyper_spectral_imagery:0 "Hyper-Spectral Imagery"
- hyper_spectral_imagery_desc:0 "TODO"
-
- infiltration_troops:0 "Infiltration Troops"
- infiltration_troops_desc:0 "TODO"
-
- multi_scale_camouflage:0 "Multi-Scale Camouflage"
- multi_scale_camouflage_desc:0 "TODO"
-
+ hyper_spectral_imagery_desc:0 "The processing of visual information using our equipment can be further improved by collecting information from across the entire electromagnetic spectrum. This will increase how much information can be processed, allowing our soldiers to see more in better detail."
+ 
+ assault_forces:0 "Assault Forces"
+ assault_forces_desc:0 "Assault Forces"
+ 
+ powered_assault_exoskeletons:0 "Powered Assault Exoskeletons"
+ powered_assault_exoskeletons_desc:0 "Powered Assault Exoskeletons"
+ powered_assault_exoskeletons_equipment:0 "Powered Assault Exoskeletons"
+ powered_assault_exoskeletons_equipment_desc:0 "Powered Assault Exoskeletons"
+ 
+ portable_bunker_busters:0 "Portable Bunker Busters"
+ portable_bunker_busters_desc:0 "Portable Bunker Busters"
+ 
+ high_modulus_polyethylene_armor:0 "High Modulus Polyethylene Armor"
+ high_modulus_polyethylene_armor_desc:0 "High Modulus Polyethylene Armor"
+ 
+ assault_battlesuit:0 "Assault Battlesuit"
+ assault_battlesuit_desc:0 "Assault Battlesuit"
+ assault_battlesuit_equipment:0 "Assault Battlesuit"
+ assault_battlesuit_equipment_desc:0 "Assault Battlesuit"
+ 
+ multi_purpose_assault_weapons:0 "Multi Purpose Assault Weapons"
+ multi_purpose_assault_weapons_desc:0 "Multi Purpose Assault Weapons"
+ 
+ ceramic_laminate_battlesuit:0 "Ceramic Laminate Battlesuit"
+ ceramic_laminate_battlesuit_desc:0 "Ceramic Laminate Battlesuit"
+ ceramic_laminate_battlesuit_equipment:0 "Ceramic Laminate Battlesuit"
+ ceramic_laminate_battlesuit_equipment_desc:0 "Ceramic Laminate Battlesuit"
+ 
+ additional_polymerised_mix_casting:0 "Additional Polymerised Mix"
+ additional_polymerised_mix_casting_desc:0 "Additional Polymerised Mix"
+ 
+ large_range_incinerating_ammunitions:0 "Large Range Incinerating Ammo"
+ large_range_incinerating_ammunitions_desc:0 "Large Range Incinerating Ammo"
+ 
+ ###Spec Ops
+ 
+ infiltrators:0 "Infiltrators"
+ infiltrators_desc:0 "Infiltrators"
+ 
+ multi_scale_camouflage_uniform:0 "Multi Scale Camouflage Uniform"
+ multi_scale_camouflage_uniform_desc:0 "Multi Scale Camouflage Uniform"
+ multi_scale_camouflage_uniform_equipment:0 "Multi Scale Camouflage Uniform"
+ multi_scale_camouflage_uniform_equipment_desc:0 "Multi Scale Camouflage Uniform"
+ 
+ micro_climate_cooling_system:0 "Micro Climate Cooling System"
+ micro_climate_cooling_system_desc:0 "Micro Climate Cooling System"
+ 
  retroflector_active_camouflage:0 "Retroflector Active Camouflage"
- retroflector_active_camouflage_desc:0 "TODO"
-
- microclimate_cooling_system:0 "Microclimate Cooling System"
- microclimate_cooling_system_desc:0 "TODO"
-
+ retroflector_active_camouflage_desc:0 "Retroflector Active Camouflage"
+ retroflector_active_camouflage_equipment:0 "Retroflector Active Camouflage"
+ retroflector_active_camouflage_equipment_desc:0 "Retroflector Active Camouflage"
+ 
+ underwater_breathing_system:0 "Underwater Breathing System"
+ underwater_breathing_system_desc:0 "Underwater Breathing System"
+ 
+ thermal_emission_inhibitor:0 "Thermal Emission Inhibitor"
+ thermal_emission_inhibitor_desc:0 "Thermal Emission Inhibitor"
+ 
  phased_array_optical_holographs:0 "Phased Array Optical Holographs"
- phased_array_optical_holographs_desc:0 "TODO"
-
- heavy_assault_troops:0 "Heavy Assault Troops"
- heavy_assault_troops_desc:0 "TODO"
-
- combat_uniform_system:0 "Combat Uniform System"
- combat_uniform_system_desc:0 "TODO"
-
- high_modulus_polyethynel_armor:0 "High-Modulus Polyethynel Armor"
- high_modulus_polyethynel_armor_desc:0 "TODO"
-
- urban_assault_weapons:0 "Urban Assault Weapons"
- urban_assault_weapons_desc:0 "TODO"
-
- powered_exoskeletons:0 "Powered Exoskeletons"
- powered_exoskeletons_desc:0 "TODO"
+ phased_array_optical_holographs_desc:0 "Phased Array Optical Holographs"
+ phased_array_optical_holographs_equipment:0 "Phased Array Optical Holographs"
+ phased_array_optical_holographs_equipment_desc:0 "Phased Array Optical Holographs"
+ 
+ foliage_penetrating_vision:0 "Foliage Penetrating Vision"
+ foliage_penetrating_vision_desc:0 "Foliage Penetrating Vision"
+ 
+ open_terrain_stealth_adaptation:0 "Open Terrain Stealth Adaptation"
+ open_terrain_stealth_adaptation_desc:0 "Open Terrain Stealth Adaptation"
+ 
+ 
+ aerial_troopers:0 "Aerial Troopers"
+ aerial_troopers_desc:0 "Aerial Troopers"
+ 
+ jet_packs:0 "Jet Packs"
+ jet_packs_desc:0 "Jet Packs"
+ jet_packs_equipment:0 "Jet Packs"
+ jet_packs_equipment_desc:0 "Jet Packs"
+ 
+ gyroscopic_aiming_assistance:0 "Gyroscopic Aiming Assistance"
+ gyroscopic_aiming_assistance_desc:0 "Gyroscopic Aiming Assistance"
+ 
+ auditory_dampener:0 "Auditory Dampener"
+ auditory_dampener_desc:0 "Auditory Dampener"
+ 
+ fast_target_acquisition:0 "Fast Target Acquisition"
+ fast_target_acquisition_desc:0 "Fast Target Acquisition"
+ 
+ personal_hoverlift_packs:0 "Aerial Assault Hoverlift Packs"
+ personal_hoverlift_packs_desc:0 "Aerial Assault Hoverlift Packs"
+ personal_hoverlift_packs_equipment:0 "Aerial Assault Hoverlift Packs"
+ personal_hoverlift_packs_equipment_desc:0 "Aerial Assault Hoverlift Packs"
+ 
+ light_weight_rocket_launcher:0 "Light Weight Rocket Launcher"
+ light_weight_rocket_launcher_desc:0 "Light Weight Rocket Launcher"
+ 
+ kinetic_reduction_braces:0 "Kinetic Reduction Braces"
+ kinetic_reduction_braces_desc:0 "Kinetic Reduction Braces"
+ 
+ mechanical_armored_wings:0 "Mechanical Armored Wings"
+ mechanical_armored_wings_desc:0 "Mechanical Armored Wings"
+ mechanical_armored_wings_equipment:0 "Mechanical Armored Wings"
+ mechanical_armored_wings_equipment_desc:0 "Mechanical Armored Wings"
+ 
  
  #Motorised
+ 
  logistic_vehicle_system:0 "Logistic Vehicle System"
  logistic_vehicle_system_desc:0 "Logistic Vehicle System"
  logistic_vehicle_system_equipment:0 "Logistic Vehicle System"
  logistic_vehicle_system_equipment_desc:0 "Logistic Vehicle System"
+ 
  general_parts_standardisation:0 "General Parts Standardisation"
  general_parts_standardisation_desc:0 "General Parts Standardisation"
+ 
  fuel_consumption_optimisation:0 "Fuel Consumption Optimisation"
  fuel_consumption_optimisation_desc:0 "Fuel Consumption Optimisation"
+ 
  armored_troop_transport:0 "Armored Troop Transport"
  armored_troop_transport_desc:0 "Armored Troop Transport"
  armored_troop_transport_equipment:0 "Armored Troop Transport"
  armored_troop_transport_equipment_desc:0 "Armored Troop Transport"
+ 
  built_in_air_conditioning:0 "Built-In Air Conditioning"
  built_in_air_conditioning_desc:0 "Built-In Air Conditioning"
+ 
  integrated_cbrn_defense:0 "Integrated CBRN Defense"
  integrated_cbrn_defense_desc:0 "Integrated CBRN Defense"
+ 
  deep_wading_capacity:0 "Deep Wading Capacity"
  deep_wading_capacity_desc:0 "Deep Wading Capacity"
+ 
  infantry_transport_support_vehicle:0 "Infantry Transport & Support Vehicle"
  infantry_transport_support_vehicle_desc:0 "Infantry Transport & Support Vehicle"
  infantry_transport_support_vehicle_equipment:0 "Infantry Transport & Support Vehicle"
  infantry_transport_support_vehicle_equipment_desc:0 "Infantry Transport & Support Vehicle"
+ 
  standardised_modular_armor:0 "Standardised Modular Armor"
  standardised_modular_armor_desc:0 "Standardised Modular Armor"
+ 
  urban_environment_protection_kits:0 "Urban Environment Protection Kits"
  urban_environment_protection_kits_desc:0 "Urban Environment Protection Kits"
+ 
  air_intake_filtration:0 "Air Intake Filtration"
  air_intake_filtration_desc:0 "Air Intake Filtration"
+ 
  multi_role_armored_vehicle:0 "Multi-Role Armored Vehicle"
  multi_role_armored_vehicle_desc:0 "Multi-Role Armored Vehicle"
  multi_role_armored_vehicle_equipment:0 "Multi-Role Armored Vehicle"
  multi_role_armored_vehicle_equipment_desc:0 "Multi-Role Armored Vehicle"
+ 
  anti_thermobaric_protection:0 "Anti-Thermobaric Protection"
  anti_thermobaric_protection_desc:0 "Anti-Thermobaric Protection"
+ 
  enemy_fire_localisation_system:0 "Enemy Fire Localisation System"
  enemy_fire_localisation_system_desc:0 "Enemy Fire Localisation System"
+ 
  self_controling_weapon_station:0 "Self-Controling Weapon Station"
  self_controling_weapon_station_desc:0 "Self-Controling Weapon Station"
+ 
  armored_multirole_carrier:0 "Armored Multirole Carrier"
  armored_multirole_carrier_desc:0 "Armored Multirole Carrier"
  armored_multirole_carrier_equipment:0 "Armored Multirole Carrier"
  armored_multirole_carrier_equipment_desc:0 "Armored Multirole Carrier"
  
  #Support
+ 
  main_support_equipment_tech:0 "Main Support Equipment"
  main_support_equipment_tech_desc:0 "Main Support Equipment"
  main_support_equipment:0 "Main Support Equipment"
  main_support_equipment_desc:0 "Main Support Equipment"
+ 
  reconnaissance_company:0 "Reconnaissance Company"
  reconnaissance_company_desc:0 "Reconnaissance Company"
+ 
  fast_combat_assessment:0 "Fast Combat Assessment"
  fast_combat_assessment_desc:0 "Fast Combat Assessment"
+ 
  unmanned_reconnaissance_aerial_vehicle:0 "Unmanned Recon. Aerial Vehicle"
  unmanned_reconnaissance_aerial_vehicle_desc:0 "Unmanned Recon. Aerial Vehicle"
  unmanned_reconnaissance_aerial_vehicle_equipment:0 "Unmanned Recon. Aerial Vehicle"
  unmanned_reconnaissance_aerial_vehicle_equipment_desc:0 "Unmanned Recon. Aerial Vehicle"
+ 
  forward_air_control:0 "Forward Air Control"
  forward_air_control_desc:0 "Forward Air Control"
+ 
  miniature_urav:0 "Miniature URAV"
  miniature_urav_desc:0 "Miniature URAV"
  miniature_urav_equipment:0 "Miniature URAV"
  miniature_urav_equipment_desc:0 "Miniature URAV"
+ 
  tactical_air_control_party:0 "Tactical Air Control Party"
  tactical_air_control_party_desc:0 "Tactical Air Control Party"
+ 
  micro_urav:0 "Micro-URAV"
  micro_urav_desc:0 "Micro-URAV"
  micro_urav_equipment:0 "Micro-URAV"
  micro_urav_equipment_desc:0 "Micro-URAV"
+ 
  joint_terminal_attack_controller:0 "Joint Terminal Attack Controller"
  joint_terminal_attack_controller_desc:0 "Joint Terminal Attack Controller"
+ 
+ 
  engineer_company:0 "Engineer Company"
  engineer_company_desc:0 "Engineer Company"
+ 
  wire_mesh_container_fortifications:0 "Wire Mesh Container Fortifications"
  wire_mesh_container_fortifications_desc:0 "Wire Mesh Container Fortifications"
+ 
  anti_personnel_obstacle_breaching_system:0 "Anti-Pers. Obstacle Breaching System"
  anti_personnel_obstacle_breaching_system_desc:0 "Anti-Pers. Obstacle Breaching System"
+ 
  armored_earth_mover:0 "Armored Earth Mover"
  armored_earth_mover_desc:0 "Armored Earth Mover"
  armored_earth_mover_equipment:0 "Armored Earth Mover"
  armored_earth_mover_equipment_desc:0 "Armored Earth Mover"
+ 
  steel_reinforced_concrete_blast_walls:0 "Steel-Reinforced Concrete Blast Walls"
  steel_reinforced_concrete_blast_walls_desc:0 "Steel-Reinforced Concrete Blast Walls"
+ 
  fast_spraying_concrete:0 "Fast Spraying Concrete"
  fast_spraying_concrete_desc:0 "Fast Spraying Concrete"
+ 
  armored_vehicle_launched_bridge:0 "Armored Vehicle-Launched Bridge"
  armored_vehicle_launched_bridge_desc:0 "Armored Vehicle-Launched Bridge"
  armored_vehicle_launched_bridge_equipment:0 "Armored Vehicle-Launched Bridge"
  armored_vehicle_launched_bridge_equipment_desc:0 "Armored Vehicle-Launched Bridge"
+ 
+ 
  logistics_company:0 "Logistics Company"
  logistics_company_desc:0 "Logistics Company"
+ 
  classes_of_supply_organisation:0 "Classes of Supply Organisation"
  classes_of_supply_organisation_desc:0 "Classes of Supply Organisation"
+ 
  reliability_centered_maintenance:0 "Reliability-Centered Maintenance"
  reliability_centered_maintenance_desc:0 "Reliability-Centered Maintenance"
+ 
  armored_repair_and_recovery_vehicle:0 "Armored Repair and Recovery Vehicle"
  armored_repair_and_recovery_vehicle_desc:0 "Armored Repair and Recovery Vehicle"
  armored_repair_and_recovery_vehicle_equipment:0 "Armored Repair and Recovery Vehicle"
  armored_repair_and_recovery_vehicle_equipment_desc:0 "Armored Repair and Recovery Vehicle"
+ 
  logistics_support_analysis:0 "Logistics Support Analysis"
  logistics_support_analysis_desc:0 "Logistics Support Analysis"
+ 
  level_of_repair_analysis:0 "Level of Repair Analysis"
  level_of_repair_analysis_desc:0 "Level of Repair Analysis"
+ 
  built_in_test_equipment:0 "Built-in Test Equipment"
  built_in_test_equipment_desc:0 "Built-in Test Equipment"
+ 
  forward_area_refuelling_point:0 "Forward Area Refuelling Point"
  forward_area_refuelling_point_desc:0 "Forward Area Refuelling Point"
+ 
  choke_point_prevention_algorithms:0 "Choke Point Prevention Algorithms"
  choke_point_prevention_algorithms_desc:0 "Choke Point Prevention Algorithms"
+ 
+ 
  medical_company:0 "Medical Company"
  medical_company_desc:0 "Medical Company"
+ 
  hemorrhage_control_equipment:0 "Hemorrhage Control Equipment"
  hemorrhage_control_equipment_desc:0 "Hemorrhage Control Equipment"
  hemorrhage_control_equipment_equipment:0 "Hemorrhage Control Equipment"
  hemorrhage_control_equipment_equipment_desc:0 "Hemorrhage Control Equipment"
+ 
  airway_management:0 "Airway Management"
  airway_management_desc:0 "Airway Management"
+ 
  automatic_drug_injectors:0 "Automatic Drug Injectors"
  automatic_drug_injectors_desc:0 "Automatic Drug Injectors"
+ 
  synthetic_blood_transfusion:0 "Synthetic Blood Transfusion"
  synthetic_blood_transfusion_desc:0 "Synthetic Blood Transfusion"
+ 
  fast_wound_sealant:0 "Fast Wound Sealant"
  fast_wound_sealant_desc:0 "Fast Wound Sealant"
+ 
  fast_organ_regeneration:0 "Fast Organ Regeneration"
  fast_organ_regeneration_desc:0 "Fast Organ Regeneration"
+ 
  artificial_organs:0 "Artificial Organs"
  artificial_organs_desc:0 "Artificial Organs"
+ 
  head_trauma_medical_gel:0 "Head-Trauma Medical Gel"
  head_trauma_medical_gel_desc:0 "Head-Trauma Medical Gel"
+ 
+ 
  counter_insurgency_force:0 "Counter Insurgency Force"
  counter_insurgency_force_desc:0 "Counter Insurgency Force"
+ 
  communication_interception_devices:0 "Communication Interception Devices"
  communication_interception_devices_desc:0 "Communication Interception Devices"
+ 
  mine_resistant_protected_vehicle:0 "Mine-Resistant Protected Vehicle"
  mine_resistant_protected_vehicle_desc:0 "Mine-Resistant Protected Vehicle"
  mine_resistant_protected_vehicle_equipment:0 "Mine-Resistant Protected Vehicle"
  mine_resistant_protected_vehicle_equipment_desc:0 "Mine-Resistant Protected Vehicle"
+ 
  vehicle_jammer_system:0 "Vehicle Jammer System"
  vehicle_jammer_system_desc:0 "Vehicle Jammer System"
+ 
  operational_surveillance_system:0 "Operational Surveillance System"
  operational_surveillance_system_desc:0 "Operational Surveillance System"
+ 
  wide_area_motion_imagery:0 "Wide Area Motion Imagery"
  wide_area_motion_imagery_desc:0 "Wide Area Motion Imagery"
+ 
  behavioral_pattern_analysis:0 "Behavioral Pattern Analysis"
  behavioral_pattern_analysis_desc:0 "Behavioral Pattern Analysis"
+ 
  global_security_monitoring:0 "Global Security Monitoring"
  global_security_monitoring_desc:0 "Global Security Monitoring"
+ 
+ 
  deployable_command_and_control_company:0 "Deployable Command and Control Company"
  deployable_command_and_control_company_desc:0 "Deployable Command and Control Company"
+ 
  information_operations_teams:0 "Information Operations Teams"
  information_operations_teams_desc:0 "Information Operations Teams"
+ 
  computer_network_operations:0 "Computer Network Operations"
- computer_network_operations_desc:0 "Computer Network Operations    "
+ computer_network_operations_desc:0 "Computer Network Operations"
+ 
  signal_intelligence_units:0 "Signal Intelligence Units"
  signal_intelligence_units_desc:0 "Signal Intelligence Units"
+ 
  electronic_warfare_support_measures:0 "Electronic Warfare Support Measures"
  electronic_warfare_support_measures_desc:0 "Electronic Warfare Support Measures"
+ 
  tactical_operations_center_vehicle:0 "Tactical Operations Center Vehicle"
  tactical_operations_center_vehicle_desc:0 "Tactical Operations Center Vehicle"
  tactical_operations_center_vehicle_equipment:0 "Tactical Operations Center Vehicle"
  tactical_operations_center_vehicle_equipment_desc:0 "Tactical Operations Center Vehicle"
+ 
  joint_tactical_information_distribution_system:0 "Joint Tactical Information Distribution System"
  joint_tactical_information_distribution_system_desc:0 "Joint Tactical Information Distribution System"
+ 
  mobile_headquarters_support_vehicle:0 "Mobile Headquarters Support Vehicle"
  mobile_headquarters_support_vehicle_desc:0 "Mobile Headquarters Support Vehicle"
  mobile_headquarters_support_vehicle_equipment:0 "Mobile Headquarters Support Vehicle"
  mobile_headquarters_support_vehicle_equipment_desc:0 "Mobile Headquarters Support Vehicle"
+ 
  global_information_grid:0 "Global Information Grid"
  global_information_grid_desc:0 "Global Information Grid"
+ 
  heavy_command_battlestation:0 "Heavy Command Battlestation"
  heavy_command_battlestation_desc:0 "Heavy Command Battlestation"
  heavy_command_battlestation_equipment:0 "Heavy Command Battlestation"
@@ -485,81 +629,6 @@
  
  nuclear_turboengines:0 "Nuclear Turboengines"
  heavy_hovertank:0 "Up-Armored Hovertank"
- 
- assault_forces:0 "Assault Forces"
- assault_forces_desc:0 "Assault Forces"
- powered_assault_exoskeletons:0 "Powered Assault Exoskeletons"
- powered_assault_exoskeletons_desc:0 "Powered Assault Exoskeletons"
- portable_bunker_busters:0 "Portable Bunker Busters"
- portable_bunker_busters_desc:0 "Portable Bunker Busters"
- high_modulus_polyethylene_armor:0 "High Modulus Polyethylene Armor"
- high_modulus_polyethylene_armor_desc:0 "High Modulus Polyethylene Armor"
- assault_battlesuit:0 "Assault Battlesuit"
- assault_battlesuit_desc:0 "Assault Battlesuit"
- multi_purpose_assault_weapons:0 "Multi Purpose Assault Weapons"
- multi_purpose_assault_weapons_desc:0 "Multi Purpose Assault Weapons"
- ceramic_laminate_battlesuit:0 "Ceramic Laminate Battlesuit"
- ceramic_laminate_battlesuit_desc:0 "Ceramic Laminate Battlesuit"
- additional_polymerised_mix_casting:0 "Additional Polymerised Mix"
- additional_polymerised_mix_casting_desc:0 "Additional Polymerised Mix"
- large_range_incinerating_ammunitions:0 "Large Range Incinerating Ammo"
- large_range_incinerating_ammunitions_desc:0 "Large Range Incinerating Ammo"
- infiltrators:0 "Infiltrators"
- infiltrators_desc:0 "Infiltrators"
- multi_scale_camouflage_uniform:0 "Multi Scale Camouflage Uniform"
- multi_scale_camouflage_uniform_desc:0 "Multi Scale Camouflage Uniform"
- micro_climate_cooling_system:0 "Micro Climate Cooling System"
- micro_climate_cooling_system_desc:0 "Micro Climate Cooling System"
- retroflector_active_camouflage:0 "Retroflector Active Camouflage"
- retroflector_active_camouflage_desc:0 "Retroflector Active Camouflage"
- underwater_breathing_system:0 "Underwater Breathing System"
- underwater_breathing_system_desc:0 "Underwater Breathing System"
- thermal_emission_inhibitor:0 "Thermal Emission Inhibitor"
- thermal_emission_inhibitor_desc:0 "Thermal Emission Inhibitor"
- phased_array_optical_holographs:0 "Phased Array Optical Holographs"
- phased_array_optical_holographs_desc:0 "Phased Array Optical Holographs"
- foliage_penetrating_vision:0 "Foliage Penetrating Vision"
- foliage_penetrating_vision_desc:0 "Foliage Penetrating Vision"
- open_terrain_stealth_adaptation:0 "Open Terrain Stealth Adaptation"
- open_terrain_stealth_adaptation_desc:0 "Open Terrain Stealth Adaptation"
- aerial_troopers:0 "Aerial Troopers"
- aerial_troopers_desc:0 "Aerial Troopers"
- jet_packs:0 "Jet Packs"
- jet_packs_desc:0 "Jet Packs"
- gyroscopic_aiming_assistance:0 "Gyroscopic Aiming Assistance"
- gyroscopic_aiming_assistance_desc:0 "Gyroscopic Aiming Assistance"
- auditory_dampener:0 "Auditory Dampener"
- auditory_dampener_desc:0 "Auditory Dampener"
- fast_target_acquisition:0 "Fast Target Acquisition"
- fast_target_acquisition_desc:0 "Fast Target Acquisition"
- personal_hoverlift_packs:0 "Aerial Assault Hoverlift Packs"
- personal_hoverlift_packs_desc:0 "Aerial Assault Hoverlift Packs"
- light_weight_rocket_launcher:0 "Light Weight Rocket Launcher"
- light_weight_rocket_launcher_desc:0 "Light Weight Rocket Launcher"
- mechanical_armored_wings:0 "Mechanical Armored Wings"
- mechanical_armored_wings_desc:0 "Mechanical Armored Wings"
- powered_assault_exoskeletons_equipment:0 "Powered Assault Exoskeletons"
- powered_assault_exoskeletons_equipment_desc:0 "Powered Assault Exoskeletons"
- assault_battlesuit_equipment:0 "Assault Battlesuit"
- assault_battlesuit_equipment_desc:0 "Assault Battlesuit"
- ceramic_laminate_battlesuit_equipment:0 "Ceramic Laminate Battlesuit"
- ceramic_laminate_battlesuit_equipment_desc:0 "Ceramic Laminate Battlesuit"
- multi_scale_camouflage_uniform_equipment:0 "Multi Scale Camouflage Uniform"
- multi_scale_camouflage_uniform_equipment_desc:0 "Multi Scale Camouflage Uniform"
- retroflector_active_camouflage_equipment:0 "Retroflector Active Camouflage"
- retroflector_active_camouflage_equipment_desc:0 "Retroflector Active Camouflage"
- phased_array_optical_holographs_equipment:0 "Phased Array Optical Holographs"
- phased_array_optical_holographs_equipment_desc:0 "Phased Array Optical Holographs"
- jet_packs_equipment:0 "Jet Packs"
- jet_packs_equipment_desc:0 "Jet Packs"
- personal_hoverlift_packs_equipment:0 "Aerial Assault Hoverlift Packs"
- personal_hoverlift_packs_equipment_desc:0 "Aerial Assault Hoverlift Packs"
- mechanical_armored_wings_equipment:0 "Mechanical Armored Wings"
- mechanical_armored_wings_equipment_desc:0 "Mechanical Armored Wings"
- kinetic_reduction_braces:0 "Kinetic Reduction Braces"
- kinetic_reduction_braces_desc:0 "Kinetic Reduction Braces"
-
-
  
  # AERIAL
  multirole_fighter:0 "Multirole Fighter "

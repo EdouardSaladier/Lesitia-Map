@@ -92,6 +92,7 @@ ideas = {
 			equipment_bonus = {
 				inf_at_equipment_archetype = {
 					reliability = 0.2
+					build_cost_ic = -0.1
 					instant = yes
 				}
 			}		
