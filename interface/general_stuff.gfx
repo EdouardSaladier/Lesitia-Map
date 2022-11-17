@@ -4,6 +4,11 @@ spriteTypes = {
 		name = "GFX_leader_frame_0_6"
 		texturefile = "gfx/interface/leader_frame_0_6.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_hide_ruins"
+		texturefile = "gfx/interface/hide_ruins.dds"
+	}
 
 	spriteType = {
 		name = "GFX_generic_popup_win"
