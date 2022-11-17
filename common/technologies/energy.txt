@@ -1,0 +1,905 @@
+technologies = {
+	@1918 = 0
+	@1936 = 3
+	@1937 = 6
+	@1938 = 9
+	@1939 = 12
+	@1940 = 15
+	@1941 = 18
+	@1942 = 21	
+	@1943 = 24
+	@1944 = 27
+	@1945 = 30
+	@1946 = 33
+	
+	basic_photovoltaic_cells = {
+	
+		enable_equipments = {
+			basic_photovoltaic_cells_fake
+		}
+
+		path = {
+			leads_to_tech = applied_sustainability_concept
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @1918 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	applied_sustainability_concept = {
+	
+		path = {
+			leads_to_tech = solar_concentrator
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = geothermal_plants
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @1936 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	solar_concentrator = {
+	
+		enable_equipments = {
+			solar_concentrator_fake
+		}
+
+		path = {
+			leads_to_tech = dielectric_panels
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = electronics_folder
+			position = { x = -1 y = @1937 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	dielectric_panels = {
+	
+		path = {
+			leads_to_tech = thermodynamic_shielding
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = electronics_folder
+			position = { x = -1 y = @1938 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	geothermal_plants = {
+	
+		enable_equipments = {
+			geothermal_plants_fake
+		}
+
+		path = {
+			leads_to_tech = mantle_breakthrough
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = electronics_folder
+			position = { x = 1 y = @1937 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mantle_breakthrough = {
+	
+		path = {
+			leads_to_tech = thermodynamic_shielding
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = electronics_folder
+			position = { x = 1 y = @1938 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	thermodynamic_shielding = {
+	
+		path = {
+			leads_to_tech = thermal_waste_capture
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @1939 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	thermal_waste_capture = {
+	
+		path = {
+			leads_to_tech = solar_arrays
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = core_mining
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @1940 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	solar_arrays = {
+	
+		path = {
+			leads_to_tech = thermophotonic_distortion_reactor
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = electronics_folder
+			position = { x = -1 y = @1941 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	core_mining = {
+	
+		path = {
+			leads_to_tech = thermophotonic_distortion_reactor
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = electronics_folder
+			position = { x = 1 y = @1941 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	thermophotonic_distortion_reactor = {
+	
+		enable_equipments = {
+			thermophotonic_distortion_reactor_fake
+		}
+
+		path = {
+			leads_to_tech = advanced_photonics
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = thermodynamic_isolation_fields
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @1942 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advanced_photonics = {
+	
+		path = {
+			leads_to_tech = regenerative_energy_source
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = electronics_folder
+			position = { x = -1 y = @1943 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	thermodynamic_isolation_fields = {
+	
+		path = {
+			leads_to_tech = regenerative_energy_source
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = electronics_folder
+			position = { x = 1 y = @1943 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	regenerative_energy_source = {
+	
+		enable_equipments = {
+			regenerative_energy_source_fake
+		}
+
+		path = {
+			leads_to_tech = quantum_photonics
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @1944 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	quantum_photonics = {
+	
+		path = {
+			leads_to_tech = total_conversion_reactor
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @1945 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	nuclear_fission_reactors = {
+	
+		enable_equipments = {
+			nuclear_fission_reactors_fake
+		}
+
+		path = {
+			leads_to_tech = fusion_theory
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1918 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	fusion_theory = {
+	
+		path = {
+			leads_to_tech = toroidal_fusion_reactor
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1936 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	toroidal_fusion_reactor = {
+	
+		enable_equipments = {
+			toroidal_fusion_reactor_fake
+		}
+
+		path = {
+			leads_to_tech = powered_magnetic_couplers
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = exotic_thermodynamics
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = advanced_magnetic_drivers
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1937 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	powered_magnetic_couplers = {
+	
+		path = {
+			leads_to_tech = improved_magnetic_capture
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @1937 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	improved_magnetic_capture = {
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @1938 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	exotic_thermodynamics = {
+	
+		path = {
+			leads_to_tech = high_energy_containment_field
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = electronics_folder
+			position = { x = 8 y = @1938 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	high_energy_containment_field = {
+	
+		path = {
+			leads_to_tech = lattice_confinement_reactor
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = electronics_folder
+			position = { x = 8 y = @1939 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advanced_magnetic_drivers = {
+	
+		path = {
+			leads_to_tech = lattice_confinement_reactor
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1939 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	lattice_confinement_reactor = {
+	
+		enable_equipments = {
+			lattice_confinement_reactor_fake
+		}
+
+		path = {
+			leads_to_tech = cold_fusion_theory
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = baryonic_shielding
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = cold_fusion_reactor
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1940 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cold_fusion_theory = {
+	
+		path = {
+			leads_to_tech = systemic_miniaturization
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @1940 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	systemic_miniaturization = {
+	
+		path = {
+			leads_to_tech = cold_fusion_reactor
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @1941 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	baryonic_shielding = {
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = electronics_folder
+			position = { x = 8 y = @1941 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cold_fusion_reactor = {
+	
+		enable_equipments = {
+			cold_fusion_reactor_fake
+		}
+
+		path = {
+			leads_to_tech = exotic_matter_mechanics
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = pev_scale_magnetics
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = virtualization_theory
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1942 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	exotic_matter_mechanics = {
+	
+		path = {
+			leads_to_tech = antimatter_reactors
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @1943 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pev_scale_magnetics = {
+	
+		path = {
+			leads_to_tech = antimatter_reactors
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1943 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	virtualization_theory = {
+	
+		path = {
+			leads_to_tech = antimatter_reactors
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = electronics_folder
+			position = { x = 8 y = @1943 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	antimatter_reactors = {
+	
+		enable_equipments = {
+			antimatter_reactors_fake
+		}
+
+		path = {
+			leads_to_tech = mass_converters
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1944 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mass_converters = {
+	
+		path = {
+			leads_to_tech = total_conversion_reactor
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1945 }
+		}
+		
+		categories = {
+			energy_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	total_conversion_reactor = {
+	
+		enable_equipments = {
+			total_conversion_reactor_fake
+		}
+
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = electronics_folder
+			position = { x = 3 y = @1945 }
+		}
+		
+		categories = {
+			energy_tech
+			renewable_tech
+			nuclear_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

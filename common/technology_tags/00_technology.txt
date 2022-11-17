@@ -67,6 +67,11 @@ technology_categories = {
 	excavation_tech
 	resource_production_tech
 	
+	###Energy Tree
+	energy_tech
+	renewable_tech
+	nuclear_tech
+	
 	#Doctrines
 	
 	land_doctrine

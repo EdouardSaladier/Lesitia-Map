@@ -965,8 +965,132 @@
  organic_super_lubricant:0 "Organic Super Lubricant"
  organic_super_lubricant_desc:0 "TODO"
 
+ #Energy Tree
+ basic_photovoltaic_cells:0 "Basic Photovoltaic Cells"
+ basic_photovoltaic_cells_desc:0 "Basic Photovoltaic Cells"
+ basic_photovoltaic_cells_fake:0 "Basic Photovoltaic Cells"
+ basic_photovoltaic_cells_fake_desc:0 "Basic Photovoltaic Cells"
+ 
+ applied_sustainability_concept:0 "Applied Sustainability Concept"
+ applied_sustainability_concept_desc:0 "Applied Sustainability Concept"
+ 
+ solar_concentrator:0 "Solar Concentrator"
+ solar_concentrator_desc:0 "Solar Concentrator"
+ solar_concentrator_fake:0 "Solar Concentrator"
+ solar_concentrator_fake_desc:0 "Solar Concentrator"
+ 
+ dielectric_panels:0 "Dielectric Panels"
+ dielectric_panels_desc:0 "Dielectric Panels"
+ 
+ geothermal_plants:0 "Geothermal Plants"
+ geothermal_plants_desc:0 "Geothermal Plants"
+ geothermal_plants_fake:0 "Geothermal Plants"
+ geothermal_plants_fake_desc:0 "Geothermal Plants"
+ 
+ mantle_breakthrough:0 "Mantle Breakthrough"
+ mantle_breakthrough_desc:0 "Mantle Breakthrough"
+ 
+ thermodynamic_isolation_fields:0 "Thermodynamic Isolation Fields"
+ thermodynamic_isolation_fields_desc:0 "Thermodynamic Isolation Fields"
+ 
+ thermal_waste_capture:0 "Thermal Waste Capture"
+ thermal_waste_capture_desc:0 "Thermal Waste Capture"
+ 
+ solar_arrays:0 "Solar Arrays"
+ solar_arrays_desc:0 "Solar Arrays"
+ 
+ core_mining:0 "Deep Core Mining"
+ core_mining_desc:0 "Deep Core Mining"
+ 
+ thermophotonic_distortion_reactor:0 "Thermophotonic Distortion Reactor"
+ thermophotonic_distortion_reactor_desc:0 "Thermophotonic Distortion Reactor"
+ thermophotonic_distortion_reactor_fake:0 "Thermophotonic Distortion Reactor"
+ thermophotonic_distortion_reactor_fake_desc:0 "Thermophotonic Distortion Reactor"
+ 
+ advanced_photonics:0 "Advanced Photonics"
+ advanced_photonics_desc:0 "Advanced Photonics"
+ 
+ thermodynamic_shielding:0 "Thermodynamic Shielding"
+ thermodynamic_shielding_desc:0 "Thermodynamic Shielding"
+ 
+ regenerative_energy_source:0 "Regenerative Energy Source"
+ regenerative_energy_source_desc:0 "Regenerative Energy Source"
+ regenerative_energy_source_fake:0 "Regenerative Energy Source"
+ regenerative_energy_source_fake_desc:0 "Regenerative Energy Source"
+ 
+ quantum_photonics:0 "Quantum Photonics"
+ quantum_photonics_desc:0 "Quantum Photonics"
+ 
+ nuclear_fission_reactors:0 "Nuclear Fission Reactor"
+ nuclear_fission_reactors_desc:0 "Nuclear Fission Reactor"
+ nuclear_fission_reactors_fake:0 "Nuclear Fission Reactor"
+ nuclear_fission_reactors_fake_desc:0 "Nuclear Fission Reactor"
+ 
+ fusion_theory:0 "Nuclear Fusion Theory"
+ fusion_theory_desc:0 "Nuclear Fusion Theory"
+ 
+ toroidal_fusion_reactor:0 "Toroidal Fusion Reactor"
+ toroidal_fusion_reactor_desc:0 "Toroidal Fusion Reactor"
+ toroidal_fusion_reactor_fake:0 "Toroidal Fusion Reactor"
+ toroidal_fusion_reactor_fake_desc:0 "Toroidal Fusion Reactor"
+ 
+ powered_magnetic_couplers:0 "Powered Magnetic Couplers"
+ powered_magnetic_couplers_desc:0 "Powered Magnetic Couplers"
+ 
+ improved_magnetic_capture:0 "Improved Magnetic Capture"
+ improved_magnetic_capture_desc:0 "Improved Magnetic Capture"
+ 
+ exotic_thermodynamics:0 "Exotic Thermodynamics"
+ exotic_thermodynamics_desc:0 "Exotic Thermodynamics"
+ 
+ high_energy_containment_field:0 "High-Energy Containment Field"
+ high_energy_containment_field_desc:0 "High-Energy Containment Field"
+ 
+ advanced_magnetic_drivers:0 "Advanced Magnetic Drivers"
+ advanced_magnetic_drivers_desc:0 "Advanced Magnetic Drivers"
+ 
+ lattice_confinement_reactor:0 "Lattice Confinement Reactor"
+ lattice_confinement_reactor_desc:0 "Lattice Confinement Reactor"
+ lattice_confinement_reactor_fake:0 "Lattice Confinement Reactor"
+ lattice_confinement_reactor_fake_desc:0 "Lattice Confinement Reactor"
+ 
+ cold_fusion_theory:0 "Cold Fusion Theory"
+ cold_fusion_theory_desc:0 "Cold Fusion Theory"
+ 
+ systemic_miniaturization:0 "Systemic Miniaturisation"
+ systemic_miniaturization_desc:0 "Systemic Miniaturisation"
+ 
+ baryonic_shielding:0 "Baryonic Shielding"
+ baryonic_shielding_desc:0 "Baryonic Shielding"
+ 
+ cold_fusion_reactor:0 "Cold Fusion Reactor"
+ cold_fusion_reactor_desc:0 "Cold Fusion Reactor"
+ cold_fusion_reactor_fake:0 "Cold Fusion Reactor"
+ cold_fusion_reactor_fake_desc:0 "Cold Fusion Reactor"
+ 
+ exotic_matter_mechanics:0 "Exotic Matter Mechanics"
+ exotic_matter_mechanics_desc:0 "Exotic Matter Mechanics"
+ 
+ pev_scale_magnetics:0 "PEV-Scale Magnetics"
+ pev_scale_magnetics_desc:0 "PEV-Scale Magnetics"
+ 
+ virtualization_theory:0 "Virtualisation Theory"
+ virtualization_theory_desc:0 "Virtualisation Theory"
+ 
+ antimatter_reactors:0 "Antimatter Reactor"
+ antimatter_reactors_desc:0 "Antimatter Reactor"
+ antimatter_reactors_fake:0 "Antimatter Reactor"
+ antimatter_reactors_fake_desc:0 "Antimatter Reactor"
+ 
+ mass_converters:0 "Mass Converters"
+ mass_converters_desc:0 "Mass Converters"
+ 
+ total_conversion_reactor:0 "Total Conversion Reactor"
+ total_conversion_reactor_desc:0 "Total Conversion Reactor"
+ total_conversion_reactor_fake:0 "Total Conversion Reactor"
+ total_conversion_reactor_fake_desc:0 "Total Conversion Reactor"
 
-#Artillery
+ #Artillery
  field_artillery:0 "Field Artillery"
  field_artillery_desc:0 "Field Artillery"
  artillery_support_system:0 "Artillery Support System"

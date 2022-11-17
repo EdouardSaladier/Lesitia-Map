@@ -1539,7 +1539,187 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/automated_building_surveying.dds"
 	}
 	
-		spriteType = {
+	### Energy Tree
+	
+	SpriteType = {
+		name = "GFX_basic_photovoltaic_cells_medium"
+		texturefile = "gfx/interface/technologies/basic_photovoltaic_cells.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_applied_sustainability_concept_medium"
+		texturefile = "gfx/interface/technologies/applied_sustainability_concept.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_solar_concentrator_medium"
+		texturefile = "gfx/interface/technologies/solar_concentrator.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_dielectric_panels_medium"
+		texturefile = "gfx/interface/technologies/dielectric_panels.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_geothermal_plants_medium"
+		texturefile = "gfx/interface/technologies/geothermal_plants.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mantle_breakthrough_medium"
+		texturefile = "gfx/interface/technologies/mantle_breakthrough.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_thermodynamic_isolation_fields_medium"
+		texturefile = "gfx/interface/technologies/thermodynamic_isolation_fields.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_thermal_waste_capture_medium"
+		texturefile = "gfx/interface/technologies/thermal_waste_capture.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_solar_arrays_medium"
+		texturefile = "gfx/interface/technologies/solar_arrays.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_core_mining_medium"
+		texturefile = "gfx/interface/technologies/core_mining.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_thermophotonic_distortion_reactor_medium"
+		texturefile = "gfx/interface/technologies/thermophotonic_distortion_reactor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_photonics_medium"
+		texturefile = "gfx/interface/technologies/advanced_photonics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_thermodynamic_shielding_medium"
+		texturefile = "gfx/interface/technologies/thermodynamic_shielding.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_regenerative_energy_source_medium"
+		texturefile = "gfx/interface/technologies/regenerative_energy_source.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_quantum_photonics_medium"
+		texturefile = "gfx/interface/technologies/quantum_photonics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX__medium"
+		texturefile = "gfx/interface/technologies/.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_nuclear_fission_reactors_medium"
+		texturefile = "gfx/interface/technologies/nuclear_fission_reactors.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_fusion_theory_medium"
+		texturefile = "gfx/interface/technologies/fusion_theory.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_toroidal_fusion_reactor_medium"
+		texturefile = "gfx/interface/technologies/toroidal_fusion_reactor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_powered_magnetic_couplers_medium"
+		texturefile = "gfx/interface/technologies/powered_magnetic_couplers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_improved_magnetic_capture_medium"
+		texturefile = "gfx/interface/technologies/improved_magnetic_capture.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_exotic_thermodynamics_medium"
+		texturefile = "gfx/interface/technologies/exotic_thermodynamics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_high_energy_containment_field_medium"
+		texturefile = "gfx/interface/technologies/high_energy_containment_field.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_magnetic_drivers_medium"
+		texturefile = "gfx/interface/technologies/advanced_magnetic_drivers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_lattice_confinement_reactor_medium"
+		texturefile = "gfx/interface/technologies/lattice_confinement_reactor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cold_fusion_theory_medium"
+		texturefile = "gfx/interface/technologies/cold_fusion_theory.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_systemic_miniaturization_medium"
+		texturefile = "gfx/interface/technologies/systemic_miniaturization.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_baryonic_shielding_medium"
+		texturefile = "gfx/interface/technologies/baryonic_shielding.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cold_fusion_reactor_medium"
+		texturefile = "gfx/interface/technologies/cold_fusion_reactor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_exotic_matter_mechanics_medium"
+		texturefile = "gfx/interface/technologies/exotic_matter_mechanics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_pev_scale_magnetics_medium"
+		texturefile = "gfx/interface/technologies/pev_scale_magnetics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_virtualization_theory_medium"
+		texturefile = "gfx/interface/technologies/virtualization_theory.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_antimatter_reactors_medium"
+		texturefile = "gfx/interface/technologies/antimatter_reactors.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mass_converters_medium"
+		texturefile = "gfx/interface/technologies/mass_converters.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_total_conversion_reactor_medium"
+		texturefile = "gfx/interface/technologies/total_conversion_reactor.dds"
+	}
+	
+	### Naval Tree
+	
+	spriteType = {
 		name = "GFX_acoustic_signature_reduction_medium"
 		texturefile = "gfx/interface/technologies/acoustic_signature_reduction.dds"
 	}
