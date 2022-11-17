@@ -55,7 +55,7 @@ equipments = {
 		year = 1945
 
 		archetype = guided_missile_equipment
-		parent = tactical_ballistic_missiles
+		parent = tactical_ballistic_missiles_equipment
 		is_buildable = no
 		one_use_only = yes
 		sprite = missile_default
@@ -70,7 +70,7 @@ equipments = {
 		year = 1946
 
 		archetype = guided_missile_equipment
-		parent = theatre_ballistic_missiles
+		parent = theatre_ballistic_missiles_equipment
 		is_buildable = no
 		one_use_only = yes
 		sprite = missile_default
