@@ -41,25 +41,25 @@
 
  explosive_factory:0 "Explosives Factory"
  explosive_factory_plural:0 "Explosives Factories"
- explosive_factory_desc:0 "This building provides the state with"
+ explosive_factory_desc:0 "This building provides the state with §Y+3§! £resources_strip|8"
  explosive_factory_amount:0 "$VALUE|Y0=$"
  explosive_factory_resource:0 "£resources_strip|$FRAME$"
  
  electronics_factory:0 "Electronics Factory"
  electronics_factory_plural:0 "Electronics Factories"
- electronics_factory_desc:0 "This building provides the state with"
+ electronics_factory_desc:0 "This building provides the state with §Y+3§! £resources_strip|9"
  electronics_factory_amount:0 "$VALUE|Y0=$"
  electronics_factory_resource:0 "£resources_strip|$FRAME$"
 
  polymers_factory:0 "Polymers Factory"
  polymers_factory_plural:0 "Polymers Factories"
- polymers_factory_desc:0 "This building provides the state with"
+ polymers_factory_desc:0 "This building provides the state with §Y+3§! £resources_strip|3"
  polymers_factory_amount:0 "$VALUE|Y0=$"
  polymers_factory_resource:0 "£resources_strip|$FRAME$"
  
  vertical_farm:0 "Vertical Farm"
  vertical_farm_plural:0 "Vertical Farms"
- vertical_farm_desc:0 "This building provides the state with"
+ vertical_farm_desc:0 "This building provides the state with §Y+3§! £resources_strip|7"
  vertical_farm_amount:0 "$VALUE|Y0=$"
  vertical_farm_resource:0 "£resources_strip|$FRAME$"
  
