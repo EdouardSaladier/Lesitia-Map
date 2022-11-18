@@ -62,5 +62,7 @@
  vertical_farm_desc:0 "This building provides the state with §Y+3§! £resources_strip|7"
  vertical_farm_amount:0 "$VALUE|Y0=$"
  vertical_farm_resource:0 "£resources_strip|$FRAME$"
+ modifier_production_speed_vertical_farm_factor:0 "§YVertical Farm§! construction speed"
+ modifier_production_speed_vertical_farm_factor_desc:0 "Modifies the speed of Vertical Farm construction."
  
  

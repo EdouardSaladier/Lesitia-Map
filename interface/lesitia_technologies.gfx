@@ -1717,6 +1717,53 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/total_conversion_reactor.dds"
 	}
 	
+	### Fuel tree
+	
+	SpriteType = {
+		name = "GFX_alkanine_fuel_cell_medium"
+		texturefile = "gfx/interface/technologies/alkanine_fuel_cell.dds"
+	}
+	SpriteType = {
+		name = "GFX_metal_hydride_fuel_cell_medium"
+		texturefile = "gfx/interface/technologies/metal_hydride_fuel_cell.dds"
+	}
+	SpriteType = {
+		name = "GFX_solid_state_alkanine_fuel_cell_medium"
+		texturefile = "gfx/interface/technologies/solid_state_alkanine_fuel_cell.dds"
+	}
+	SpriteType = {
+		name = "GFX_solid_oxide_fuel_cell_medium"
+		texturefile = "gfx/interface/technologies/solid_oxide_fuel_cell.dds"
+	}
+	SpriteType = {
+		name = "GFX_proton_exchange_membrane_fuel_cell_medium"
+		texturefile = "gfx/interface/technologies/proton_exchange_membrane_fuel_cell.dds"
+	}
+	SpriteType = {
+		name = "GFX_metal_hydride_hydrogen_compressors_medium"
+		texturefile = "gfx/interface/technologies/metal_hydride_hydrogen_compressors.dds"
+	}
+	SpriteType = {
+		name = "GFX_metal_organic_frameworks_medium"
+		texturefile = "gfx/interface/technologies/metal_organic_frameworks.dds"
+	}
+	SpriteType = {
+		name = "GFX_liquid_organic_hydrogen_carriers_medium"
+		texturefile = "gfx/interface/technologies/liquid_organic_hydrogen_carriers.dds"
+	}
+	SpriteType = {
+		name = "GFX_alkaline_water_electrolyzers_medium"
+		texturefile = "gfx/interface/technologies/alkaline_water_electrolyzers.dds"
+	}
+	SpriteType = {
+		name = "GFX_solid_oxide_electrolyzers_medium"
+		texturefile = "gfx/interface/technologies/solid_oxide_electrolyzers.dds"
+	}
+	SpriteType = {
+		name = "GFX_proton_exchange_membrane_electrolyzers_medium"
+		texturefile = "gfx/interface/technologies/proton_exchange_membrane_electrolyzers.dds"
+	}
+	
 	### Naval Tree
 	
 	spriteType = {

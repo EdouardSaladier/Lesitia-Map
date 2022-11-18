@@ -115,6 +115,7 @@ technologies = {
 			}
 		}
 	
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = caseless_munitions_idea
 			custom_effect_tooltip = obsolete_lasers_tt
@@ -155,6 +156,7 @@ technologies = {
 			}
 		}
 	
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = telescoped_munitions_idea
 			custom_effect_tooltip = obsolete_lasers_tt
@@ -189,6 +191,7 @@ technologies = {
 			}
 		}
 	
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = airbust_munitions_idea
 			custom_effect_tooltip = obsolete_lasers_tt
@@ -285,6 +288,7 @@ technologies = {
 	
 	spectral_beam_combining = {
 	
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = spectral_beam_combining_idea
 		}
@@ -338,6 +342,7 @@ technologies = {
 	
 	lithium_sulfur_battery = {
 	
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = lithium_sulfur_battery_idea
 		}
@@ -368,6 +373,7 @@ technologies = {
 	
 	lithium_sulfur_supercapacitor = {
 	
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = lithium_sulfur_supercapacitor_idea
 		}
@@ -394,6 +400,7 @@ technologies = {
 	
 	graphene_battery = {
 	
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = graphene_battery_idea
 		}
@@ -420,6 +427,7 @@ technologies = {
 	
 	graphene_supercapacitor = {
 	
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = graphene_supercapacitor_idea
 		}
@@ -536,6 +544,7 @@ technologies = {
 			}
 		}
 	
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = plunging_fire_enhancement_idea
 			custom_effect_tooltip = obsolete_at_tt
@@ -630,6 +639,7 @@ technologies = {
 			position = { x = -6 y = @1940 }
 		}
 		
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = aermet_alloy_idea
 		}
@@ -652,6 +662,7 @@ technologies = {
 			position = { x = -6 y = @1943 }
 		}
 		
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = eglin_alloy_idea
 		}
@@ -667,6 +678,7 @@ technologies = {
 
 	field_cooling_system = {
 	
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = field_cooling_system_idea
 		}
@@ -720,6 +732,7 @@ technologies = {
 
 	total_vacuum_bore = {
 	
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = total_vacuum_bore_idea
 		}
@@ -836,6 +849,7 @@ technologies = {
 
 	constantly_computed_impact_point = {
 	
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = constantly_computed_impact_point_idea
 		}
@@ -866,6 +880,7 @@ technologies = {
 			default_morale = 0.2
 		}
 	
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = tactical_informations_and_communications_system_idea
 		}
@@ -896,6 +911,7 @@ technologies = {
 			max_organisation = 5
 		}
 
+		show_effect_as_desc = yes
 		on_research_complete = {
 			add_ideas = cognitive_technological_threat_warning_system_idea
 		}			

@@ -71,6 +71,7 @@ technology_categories = {
 	energy_tech
 	renewable_tech
 	nuclear_tech
+	fuel_tech
 	
 	#Doctrines
 	

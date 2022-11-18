@@ -1,0 +1,273 @@
+technologies = {
+	@1918 = 0
+	@1936 = 3
+	@1937 = 6
+	@1938 = 9
+	@1939 = 12
+	@1940 = 15
+	@1941 = 18
+	@1942 = 21	
+	@1943 = 24
+	@1944 = 27
+	@1945 = 30
+	@1946 = 33
+	
+	alkanine_fuel_cell = {
+
+		path = {
+			leads_to_tech = metal_hydride_fuel_cell
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = alkaline_water_electrolyzers
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = solid_state_alkanine_fuel_cell
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = electronics_folder
+			position = { x = 12 y = @1918 }
+		}
+		
+		categories = {
+			energy_tech
+			fuel_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	metal_hydride_fuel_cell = {
+	
+		path = {
+			leads_to_tech = metal_hydride_hydrogen_compressors
+            research_cost_coeff = 1           
+		}
+	
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = electronics_folder
+			position = { x = 11 y = @1937 }
+		}
+		
+		categories = {
+			energy_tech
+			fuel_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	metal_hydride_hydrogen_compressors = {
+	
+		path = {
+			leads_to_tech = metal_organic_frameworks
+            research_cost_coeff = 1           
+		}
+	
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = electronics_folder
+			position = { x = 11 y = @1939 }
+		}
+		
+		categories = {
+			energy_tech
+			fuel_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	metal_organic_frameworks = {
+	
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = electronics_folder
+			position = { x = 11 y = @1942 }
+		}
+		
+		categories = {
+			energy_tech
+			fuel_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	alkaline_water_electrolyzers = {
+	
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = electronics_folder
+			position = { x = 13 y = @1936 }
+		}
+		
+		categories = {
+			energy_tech
+			fuel_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	solid_state_alkanine_fuel_cell = {
+
+		path = {
+			leads_to_tech = solid_oxide_fuel_cell
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = electronics_folder
+			position = { x = 12 y = @1938 }
+		}
+		
+		categories = {
+			energy_tech
+			fuel_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	solid_oxide_fuel_cell = {
+
+		path = {
+			leads_to_tech = proton_exchange_membrane_fuel_cell
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = solid_oxide_electrolyzers
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = electronics_folder
+			position = { x = 12 y = @1940 }
+		}
+		
+		categories = {
+			energy_tech
+			fuel_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	solid_oxide_electrolyzers = {
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = electronics_folder
+			position = { x = 13 y = @1941 }
+		}
+		
+		categories = {
+			energy_tech
+			fuel_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	proton_exchange_membrane_fuel_cell = {
+
+		path = {
+			leads_to_tech = proton_exchange_membrane_electrolyzers
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = liquid_organic_hydrogen_carriers
+            research_cost_coeff = 1           
+		}
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = electronics_folder
+			position = { x = 12 y = @1943 }
+		}
+		
+		categories = {
+			energy_tech
+			fuel_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	proton_exchange_membrane_electrolyzers = {
+
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = electronics_folder
+			position = { x = 13 y = @1944 }
+		}
+		
+		categories = {
+			energy_tech
+			fuel_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	liquid_organic_hydrogen_carriers = {
+
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = electronics_folder
+			position = { x = 11 y = @1945 }
+		}
+		
+		categories = {
+			energy_tech
+			fuel_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

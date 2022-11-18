@@ -1428,6 +1428,13 @@ guiTypes = {
 				format = "LEFT"
 			}
 			
+			gridboxtype = {
+				name = "alkanine_fuel_cell_tree"
+				position = { x = 100 y = 340 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
 		}
 
 		containerWindowType = {

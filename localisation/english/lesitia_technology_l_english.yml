@@ -897,71 +897,102 @@
  assembly_lines:0 "Mass Production Assembly Lines"
  assembly_lines_fake:0 "Mass Production Assembly Lines"
  assembly_lines_desc:0 "TODO"
+ 
  volumetric_construction_methods:0 "Volumetric Construction Methods"
  volumetric_construction_methods_desc:0 "TODO"
+ 
  articulated_robotics_arms:0 "Articulated Robotics Arms"
  articulated_robotics_arms_desc:0 "TODO"
+ 
  computer_aided_design:0 "Computer-Aided Design"
  computer_aided_design_desc:0 "TODO"
+ 
  computer_aided_manufacturing:0 "Computer-Aided Manufacturing"
  computer_aided_manufacturing_desc:0 "TODO"
+ 
  laser_direct_imaging:0 "Laser Direct Imaging"
  laser_direct_imaging_desc:0 "TODO"
+ 
  powered_construction_exoskeletons:0 "Powered Construction Exoskeletons"
  powered_construction_exoskeletons_desc:0 "TODO"
+ 
  sensors_robotics:0 "Sensor Robotics Manufacturing"
  sensors_robotics_fake:0 "Sensor Robotics Manufacturing"
  sensors_robotics_desc:0 "TODO"
+ 
  automatic_optical_inspection:0 "Automatic Optical Inspection"
  automatic_optical_inspection_desc:0 "TODO"
+ 
  automated_building_surveying:0 "Automated Building Surveying"
  automated_building_surveying_desc:0 "TODO"
+ 
  additive_manufacturing:0 "Additive Manufacturing"
  additive_manufacturing_fake:0 "Additive Manufacturing"
  additive_manufacturing_desc:0 "TODO"
+ 
  3d_construction_printing:0 "3-D Construction Printing"
  3d_construction_printing_desc:0 "TODO"
+ 
  nanomaterials_applications:0 "Nanomaterial Industrial Applications"
  nanomaterials_applications_fake:0 "Nanomaterial Industrial Applications"
  nanomaterials_applications_desc:0 "TODO"
+ 
  construction_nanomaterials:0 "Construction Nanomaterials"
  construction_nanomaterials_desc:0 "TODO"
+ 
  metal_foam:0 "Metal Foam"
  metal_foam_desc:0 "TODO"
+ 
  tensile_memory_polarised_matter:0 "Tensile Memory Polarized Matter"
  tensile_memory_polarised_matter_desc:0 "TODO"
+ 
  matter_compiler:0 "Matter Compiler"
  matter_compiler_fake:0 "Matter Compiler"
  matter_compiler_desc:0 "TODO"
+ 
  perfect_device_replication:0 "Perfect Device Replication"
  perfect_device_replication_desc:0 "TODO"
+ 
  structure_conversion_tower:0 "Structure Conversion Tower"
  structure_conversion_tower_desc:0 "TODO"
+ 
  plasticisation_units:0 "Placticisation Units"
  plasticisation_units_desc:0 "TODO"
+ 
  thermoforming_moulding:0 "Thermoforming Moulding"
  thermoforming_moulding_desc:0 "TODO"
+ 
  aerogel_insulation:0 "Aerogel Insulation"
  aerogel_insulation_desc:0 "TODO"
+ 
  chemical_etching_process:0 "Chemical Etching Process"
  chemical_etching_process_desc:0 "TODO"
+ 
  multi_layer_vacuum_lamination:0 "Multi-Layer Vacuum Lamination"
  multi_layer_vacuum_lamination_desc:0 "TODO"
+ 
  glycerylnitrate_chemical_synthesis:0 "Glyceryl-Nitrate Chemical Synthesis"
  glycerylnitrate_chemical_synthesis_desc:0 "TODO"
+ 
  hexamine_nitration_process:0 "Hexamine Nitration Process"
  hexamine_nitration_process_desc:0 "TODO"
+ 
  synthetic_biology_theory:0 "Synthetic Biology Theory"
  synthetic_biology_theory_fake:0 "Synthetic Biology Theory"
  synthetic_biology_theory_desc:0 "TODO"
+ 
  self_repairing_concrete:0 "Self-Repairing Concrete"
  self_repairing_concrete_desc:0 "TODO"
+ 
  biopolymers:0 "Biopolymers"
  biopolymers_desc:0 "TODO"
+ 
  biological_circuit_fabrication:0 "Biological Circuit Fabrication"
  biological_circuit_fabrication_desc:0 "TODO"
+ 
  organic_solvent_recrystalisation:0 "Organic Solvent Re-crystalisation"
  organic_solvent_recrystalisation_desc:0 "TODO"
+ 
  organic_super_lubricant:0 "Organic Super Lubricant"
  organic_super_lubricant_desc:0 "TODO"
 
@@ -1089,6 +1120,40 @@
  total_conversion_reactor_desc:0 "Total Conversion Reactor"
  total_conversion_reactor_fake:0 "Total Conversion Reactor"
  total_conversion_reactor_fake_desc:0 "Total Conversion Reactor"
+ 
+ #Fuel
+ alkanine_fuel_cell:0 "Alkanine Fuel Cell"
+ alkanine_fuel_cell_desc:0 "Alkanine Fuel Cell"
+ 
+ metal_hydride_fuel_cell:0 "Metal-Hydride Fuel Cell"
+ metal_hydride_fuel_cell_desc:0 "Metal-Hydride Fuel Cell"
+ 
+ solid_state_alkanine_fuel_cell:0 "Solid-State Alkanine Fuel Cell"
+ solid_state_alkanine_fuel_cell_desc:0 "Solid-State Alkanine Fuel Cell"
+ 
+ solid_oxide_fuel_cell:0 "Solid Oxide Fuel Cell"
+ solid_oxide_fuel_cell_desc:0 "Solid Oxide Fuel Cell"
+ 
+ proton_exchange_membrane_fuel_cell:0 "Proton-Exchange Membrane Fuel Cell"
+ proton_exchange_membrane_fuel_cell_desc:0 "Proton-Exchange Membrane Fuel Cell"
+ 
+ metal_hydride_hydrogen_compressors:0 "Metal-Hydride Hyd. Compressors"
+ metal_hydride_hydrogen_compressors_desc:0 "Metal-Hydride Hyd. Compressors"
+ 
+ metal_organic_frameworks:0 "Metal-Organic Frameworks"
+ metal_organic_frameworks_desc:0 "Metal-Organic Frameworks"
+ 
+ liquid_organic_hydrogen_carriers:0 "Liquid Organic Hydrogen Carriers"
+ liquid_organic_hydrogen_carriers_desc:0 "Liquid Organic Hydrogen Carriers"
+ 
+ alkaline_water_electrolyzers:0 "Alkaline Water Electrolyzers"
+ alkaline_water_electrolyzers_desc:0 "Alkaline Water Electrolyzers"
+ 
+ solid_oxide_electrolyzers:0 "Solid Oxide Electrolyzers"
+ solid_oxide_electrolyzers_desc:0 "Solid Oxide Electrolyzers"
+ 
+ proton_exchange_membrane_electrolyzers:0 "Prot-Exc. Membrane Electrolyzers"
+ proton_exchange_membrane_electrolyzers_desc:0 "Prot-Exc. Membrane Electrolyzers"
 
  #Artillery
  field_artillery:0 "Field Artillery"
