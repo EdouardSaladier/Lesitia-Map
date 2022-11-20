@@ -66,6 +66,7 @@ technology_categories = {
 	construction_tech
 	excavation_tech
 	resource_production_tech
+	agriculture_tech
 	
 	###Energy Tree
 	energy_tech

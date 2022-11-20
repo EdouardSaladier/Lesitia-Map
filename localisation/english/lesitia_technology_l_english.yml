@@ -995,6 +995,59 @@
  
  organic_super_lubricant:0 "Organic Super Lubricant"
  organic_super_lubricant_desc:0 "TODO"
+ 
+ ### Food tree
+ 
+ rudimentary_agronomics:0 "Rudimentary Agronomics"
+ rudimentary_agronomics_desc:0 "Rudimentary Agronomics"
+ 
+ advanced_compartmentalization:0 "Advanced Compartmentalization"
+ advanced_compartmentalization_desc:0 "Advanced Compartmentalization"
+ 
+ hydroponic_frameworks:0 "Hydroponic Frameworks"
+ hydroponic_frameworks_desc:0 "Hydroponic Frameworks"
+ 
+ low_temperature_hydration:0 "Low-Temperature Hydration"
+ low_temperature_hydration_desc:0 "Low-Temperature Hydration"
+ 
+ strategic_vertical_farming:0 "Strategic Vertical Farming"
+ strategic_vertical_farming_desc:0 "Strategic Vertical Farming"
+ 
+ solar_emitter_array:0 "Artificial Sunlight"
+ solar_emitter_array_desc:0 "Artificial Sunlight"
+ 
+ mass_hydration:0 "Optimised Hydration"
+ mass_hydration_desc:0 "Optimised Hydration"
+ 
+ metatrophic_stimulation:0 "Metatrophic Stimulation"
+ metatrophic_stimulation_desc:0 "Metatrophic Stimulation"
+ 
+ extreme_acclimation:0 "Crassulacean Acid Metabolism"
+ extreme_acclimation_desc:0 "Crassulacean Acid Metabolism"
+ 
+ exotic_state_crops:0 "Artificial Parthenocarpy"
+ exotic_state_crops_desc:0 "Artificial Parthenocarpy"
+ 
+ applied_inorganics:0 "Applied Inorganics"
+ applied_inorganics_desc:0 "Applied Inorganics"
+ 
+ dense_nutrification:0 "Nutrification Enrichment"
+ dense_nutrification_desc:0 "Nutrification Enrichment"
+ 
+ synthetic_crops:0 "Cellular Agriculture"
+ synthetic_crops_desc:0 "Cellular Agriculture"
+ 
+ nutrient_specialization:0 "Nutrient Specialization"
+ nutrient_specialization_desc:0 "Nutrient Specialization"
+ 
+ armor_plants:0 "Adaptative Pest Resistance"
+ armor_plants_desc:0 "Adaptative Pest Resistance"
+ 
+ soilless_growth:0 "Soilless Growth"
+ soilless_growth_desc:0 "Soilless Growth"
+ 
+ concrete_rooting:0 "Agressive Biosequestration"
+ concrete_rooting_desc:0 "Agressive Biosequestration"
 
  #Energy Tree
  basic_photovoltaic_cells:0 "Basic Photovoltaic Cells"

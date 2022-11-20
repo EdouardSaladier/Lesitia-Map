@@ -1,0 +1,400 @@
+technologies = {
+	@1918 = 0
+	@1936 = 3
+	@1937 = 6
+	@1938 = 9
+	@1939 = 12
+	@1940 = 15
+	@1941 = 18
+	@1942 = 21	
+	@1943 = 24
+	@1944 = 27
+	@1945 = 30
+	@1946 = 33
+	
+	rudimentary_agronomics = {
+	
+		path = {
+			leads_to_tech = advanced_compartmentalization
+            research_cost_coeff = 1           
+		}
+	
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = industry_folder
+			position = { x = 10 y = @1918 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advanced_compartmentalization = {
+	
+		path = {
+			leads_to_tech = hydroponic_frameworks
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = low_temperature_hydration
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = strategic_vertical_farming
+            research_cost_coeff = 1           
+		}
+	
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = industry_folder
+			position = { x = 10 y = @1936 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	hydroponic_frameworks = {
+	
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = industry_folder
+			position = { x = 9 y = @1937 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	low_temperature_hydration = {
+	
+		research_cost = 1
+		start_year = 1937
+		folder = {
+			name = industry_folder
+			position = { x = 11 y = @1937 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	strategic_vertical_farming = {
+	
+		path = {
+			leads_to_tech = solar_emitter_array
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = mass_hydration
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = metatrophic_stimulation
+            research_cost_coeff = 1           
+		}
+	
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = industry_folder
+			position = { x = 10 y = @1938 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	solar_emitter_array = {
+	
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = industry_folder
+			position = { x = 9 y = @1939 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mass_hydration = {
+	
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = industry_folder
+			position = { x = 11 y = @1939 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	metatrophic_stimulation = {
+	
+		path = {
+			leads_to_tech = extreme_acclimation
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = applied_inorganics
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = synthetic_crops
+            research_cost_coeff = 1           
+		}
+	
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = industry_folder
+			position = { x = 10 y = @1940 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	extreme_acclimation = {
+	
+		path = {
+			leads_to_tech = exotic_state_crops
+            research_cost_coeff = 1           
+		}
+	
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = industry_folder
+			position = { x = 9 y = @1941 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	exotic_state_crops = {
+	
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = industry_folder
+			position = { x = 9 y = @1942 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	applied_inorganics = {
+	
+		path = {
+			leads_to_tech = dense_nutrification
+            research_cost_coeff = 1           
+		}
+	
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = industry_folder
+			position = { x = 11 y = @1941 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	dense_nutrification = {
+	
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = industry_folder
+			position = { x = 11 y = @1942 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	synthetic_crops = {
+	
+		path = {
+			leads_to_tech = nutrient_specialization
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = soilless_growth
+            research_cost_coeff = 1           
+		}
+	
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = industry_folder
+			position = { x = 10 y = @1943 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	nutrient_specialization = {
+	
+		path = {
+			leads_to_tech = armor_plants
+            research_cost_coeff = 1           
+		}
+	
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = industry_folder
+			position = { x = 9 y = @1944 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	armor_plants = {
+	
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = industry_folder
+			position = { x = 9 y = @1945 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	soilless_growth = {
+	
+		path = {
+			leads_to_tech = concrete_rooting
+            research_cost_coeff = 1           
+		}
+	
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = industry_folder
+			position = { x = 11 y = @1944 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	concrete_rooting = {
+	
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = industry_folder
+			position = { x = 11 y = @1945 }
+		}
+		
+		categories = {
+			agriculture_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

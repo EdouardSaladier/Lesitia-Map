@@ -1539,6 +1539,77 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/automated_building_surveying.dds"
 	}
 	
+	### Food tree
+	
+		SpriteType = {
+		name = "GFX_rudimentary_agronomics_medium"
+		texturefile = "gfx/interface/technologies/rudimentary_agronomics.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_compartmentalization_medium"
+		texturefile = "gfx/interface/technologies/advanced_compartmentalization.dds"
+	}
+	SpriteType = {
+		name = "GFX_hydroponic_frameworks_medium"
+		texturefile = "gfx/interface/technologies/hydroponic_frameworks.dds"
+	}
+	SpriteType = {
+		name = "GFX_low_temperature_hydration_medium"
+		texturefile = "gfx/interface/technologies/low_temperature_hydration.dds"
+	}
+	SpriteType = {
+		name = "GFX_strategic_vertical_farming_medium"
+		texturefile = "gfx/interface/technologies/strategic_vertical_farming.dds"
+	}
+	SpriteType = {
+		name = "GFX_solar_emitter_array_medium"
+		texturefile = "gfx/interface/technologies/solar_emitter_array.dds"
+	}
+	SpriteType = {
+		name = "GFX_mass_hydration_medium"
+		texturefile = "gfx/interface/technologies/mass_hydration.dds"
+	}
+	SpriteType = {
+		name = "GFX_metatrophic_stimulation_medium"
+		texturefile = "gfx/interface/technologies/metatrophic_stimulation.dds"
+	}
+	SpriteType = {
+		name = "GFX_extreme_acclimation_medium"
+		texturefile = "gfx/interface/technologies/extreme_acclimation.dds"
+	}
+	SpriteType = {
+		name = "GFX_exotic_state_crops_medium"
+		texturefile = "gfx/interface/technologies/exotic_state_crops.dds"
+	}
+	SpriteType = {
+		name = "GFX_applied_inorganics_medium"
+		texturefile = "gfx/interface/technologies/applied_inorganics.dds"
+	}
+	SpriteType = {
+		name = "GFX_dense_nutrification_medium"
+		texturefile = "gfx/interface/technologies/dense_nutrification.dds"
+	}
+	SpriteType = {
+		name = "GFX_synthetic_crops_medium"
+		texturefile = "gfx/interface/technologies/synthetic_crops.dds"
+	}
+	SpriteType = {
+		name = "GFX_nutrient_specialization_medium"
+		texturefile = "gfx/interface/technologies/nutrient_specialization.dds"
+	}
+	SpriteType = {
+		name = "GFX_armor_plants_medium"
+		texturefile = "gfx/interface/technologies/armor_plants.dds"
+	}
+	SpriteType = {
+		name = "GFX_soilless_growth_medium"
+		texturefile = "gfx/interface/technologies/soilless_growth.dds"
+	}
+	SpriteType = {
+		name = "GFX_concrete_rooting_medium"
+		texturefile = "gfx/interface/technologies/concrete_rooting.dds"
+	}
+	
 	### Energy Tree
 	
 	SpriteType = {
