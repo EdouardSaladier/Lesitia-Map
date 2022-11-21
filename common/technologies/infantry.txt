@@ -19,6 +19,10 @@ technologies = {
 			primitive_firearms_equipment
 		}
 		
+		enable_subunits = {
+			infantry
+		}
+		
 		path = {
 			leads_to_tech = conventional_firearms
             research_cost_coeff = 1           
@@ -479,6 +483,10 @@ technologies = {
 
 		enable_equipments = {
 			recoiless_rifles_equipment
+		}
+		
+		enable_subunits = {
+			at_infantry
 		}
 		
 		path = {
