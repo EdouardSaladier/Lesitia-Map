@@ -18,6 +18,10 @@ technologies = {
 		enable_equipments = {
 			field_artillery_equipment
 		}
+		
+		enable_subunits = {
+			field_artillery_brigade
+		}
 
 		path = {
 			leads_to_tech = artillery_support_system
@@ -192,6 +196,10 @@ technologies = {
 
 		enable_equipments = {
 			mobile_gun_platform_equipment
+		}
+		
+		enable_subunits = {
+			precision_artillery_brigade
 		}
 		
 		path = {
@@ -557,6 +565,10 @@ technologies = {
 			multiple_launch_rocket_system_equipment
 		}
 		
+		enable_subunits = {
+			rocket_artillery_brigade
+		}
+		
 		path = {
 			leads_to_tech = multiple_guided_missile_platform
 			research_cost_coeff = 1
@@ -769,6 +781,10 @@ technologies = {
 			surface_to_air_weapon_system_equipment
 		}
 		
+		enable_subunits = {
+			rocket_anti_air_brigade
+		}
+		
 		path = {
 			leads_to_tech = aircraft_restriction_zone_system
 			research_cost_coeff = 1
@@ -963,6 +979,10 @@ technologies = {
 		
 		enable_equipments = {
 			flak_cannons_equipment
+		}
+		
+		enable_subunits = {
+			anti_air_brigade
 		}
 		
 

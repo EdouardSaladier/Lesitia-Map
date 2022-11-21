@@ -317,7 +317,7 @@ ideas = {
 			
 			modifier = {
 				country_resource_cost_electronics = 40
-				research_speed_factor = 0.1
+				research_speed_factor = 0.15
 			}
 		}
 		
@@ -328,7 +328,7 @@ ideas = {
 			
 			modifier = {
 				country_resource_cost_electronics = 60
-				research_speed_factor = 0.2
+				research_speed_factor = 0.3
 			}
 		}
 		
@@ -362,6 +362,17 @@ ideas = {
 			modifier = {
 				country_resource_cost_electronics = 400
 				research_speed_factor = 2.0
+			}
+		}
+		
+		quettascale_supercomputers = {
+			cost = 50
+			level = 1
+			cancel_if_invalid = no
+			
+			modifier = {
+				country_resource_cost_electronics = 600
+				research_speed_factor = 4.0
 			}
 		}
 

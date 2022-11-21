@@ -3,250 +3,674 @@
 equipments = {
 
 	artillery_equipment = {
-		year = 1936
-	
+		year = 1918
+
 		is_archetype = yes
-		picture = archetype_infantry_equipment		
-		is_buildable = no
-		type = infantry
+		picture = archetype_artillery_equipment		
+		type = {
+			artillery
+		}
 		group_by = archetype
 		
 		interface_category = interface_category_land
-		
-		active = yes
-		
+
 		#Misc Abilities
-		reliability = 0.9
-		maximum_speed = 4
+		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 20
-		breakthrough = 3
+		defense = 12
+		breakthrough = 4
 		hardness = 0
 		armor_value = 0
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
+		soft_attack = 16
+		hard_attack = 2
 		ap_attack = 4
 		air_attack = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 0.5
+		lend_lease_cost = 4
 		
-		build_cost_ic = 0.5
+		build_cost_ic = 2.8
 		resources = {
-			steel = 2
+			steel = 1
+			explosives = 1
 		}
-		
 	}
 
 	field_artillery_equipment = {
 		year = 1918
 		archetype = artillery_equipment
 		active = yes
-		priority = 05
+		priority = 50
 		visual_level = 0
 	}
 
 	artillery_support_system_equipment = {
-		year = 1918
+		year = 1936
 		archetype = artillery_equipment
 		active = yes
-		priority = 05
+		priority = 50
 		visual_level = 0
+		
+		soft_attack = 24
+		hard_attack = 2
+		defense = 14
+		breakthrough = 5
+		ap_attack = 4
+		
+		build_cost_ic = 3.2
+		
+		resources = {
+			steel = 1
+			explosives = 1
+		}
 	}
 
 	ranged_firepower_striker_equipment = {
-		year = 1918
+		year = 1939
 		archetype = artillery_equipment
 		active = yes
-		priority = 05
+		priority = 50
 		visual_level = 0
+		
+		soft_attack = 30
+		hard_attack = 3
+		defense = 16
+		breakthrough = 6
+		ap_attack = 5
+		
+		build_cost_ic = 3.6
+		
+		resources = {
+			steel = 1
+			explosives = 2
+		}
 	}
 
 	offensive_firepower_projector_equipment = {
-		year = 1918
+		year = 1942
 		archetype = artillery_equipment
 		active = yes
-		priority = 05
+		priority = 50
 		visual_level = 0
+		
+		soft_attack = 36
+		hard_attack = 3
+		defense = 18
+		breakthrough = 7
+		ap_attack = 5
+		
+		build_cost_ic = 4.0
+		
+		resources = {
+			steel = 1
+			explosives = 2
+			electronics = 1
+		}
 	}
 
 	local_fire_saturation_unit_equipment = {
-		year = 1918
+		year = 1945
 		archetype = artillery_equipment
 		active = yes
-		priority = 05
+		priority = 50
 		visual_level = 0
+		
+		soft_attack = 42
+		hard_attack = 4
+		defense = 20
+		breakthrough = 8
+		ap_attack = 6
+		
+		build_cost_ic = 4.4
+		
+		resources = {
+			steel = 1
+			explosives = 3
+			electronics = 1
+		}
+	}
+	
+	precision_artillery_equipment = {
+		year = 1934
+
+		is_archetype = yes
+		picture = archetype_artillery_equipment		
+		type = {
+			artillery
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 14
+		breakthrough = 5
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 20
+		hard_attack = 8
+		ap_attack = 6
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 4
+		
+		build_cost_ic = 3.2
+		resources = {
+			polymers = 1
+			tungsten = 1
+			explosives = 2
+		}
 	}
 
 	mobile_gun_platform_equipment = {
 		year = 1918
-		archetype = artillery_equipment
+		archetype = precision_artillery_equipment
 		active = yes
 		priority = 05
 		visual_level = 0
 	}
 
 	self_propelled_gun_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1936
+		archetype = precision_artillery_equipment
 		active = yes
 		priority = 05
 		visual_level = 0
+		
+		soft_attack = 24
+		hard_attack = 10
+		defense = 16
+		breakthrough = 6
+		ap_attack = 8
+		
+		build_cost_ic = 3.8
+		
+		resources = {
+			polymers = 1
+			tungsten = 1
+			explosives = 2
+		}
 	}
 
 	mobile_ranged_battle_platform_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1938
+		archetype = precision_artillery_equipment
 		active = yes
 		priority = 05
 		visual_level = 0
+		
+		soft_attack = 28
+		hard_attack = 12
+		defense = 19
+		breakthrough = 7
+		ap_attack = 10
+		
+		build_cost_ic = 4.4
+		
+		resources = {
+			polymers = 1
+			tungsten = 1
+			explosives = 3
+		}
 	}
 
 	railgun_artillery_carrier_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1940
+		archetype = precision_artillery_equipment
 		active = yes
 		priority = 05
 		visual_level = 0
+		
+		soft_attack = 34
+		hard_attack = 15
+		defense = 22
+		breakthrough = 8
+		ap_attack = 14
+		
+		build_cost_ic = 5.0
+		
+		resources = {
+			polymers = 1
+			tungsten = 2
+			electronics = 1
+			explosives = 3
+		}
 	}
 
 	mobile_mass_driver_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1943
+		archetype = precision_artillery_equipment
 		active = yes
 		priority = 05
 		visual_level = 0
+		
+		soft_attack = 42
+		hard_attack = 18
+		defense = 26
+		breakthrough = 9
+		ap_attack = 18
+		
+		build_cost_ic = 5.8
+		
+		resources = {
+			polymers = 1
+			tungsten = 2
+			electronics = 2
+			explosives = 3
+		}
 	}
 
 	horizonless_firepower_platform_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1945
+		archetype = precision_artillery_equipment
 		active = yes
 		priority = 05
 		visual_level = 0
+		
+		soft_attack = 50
+		hard_attack = 22
+		defense = 30
+		breakthrough = 10
+		ap_attack = 24
+		
+		build_cost_ic = 6.6
+		
+		resources = {
+			polymers = 1
+			tungsten = 3
+			electronics = 2
+			explosives = 3
+		}
 	}
+	
+	rocket_artillery_equipment = {
+		year = 1936
 
-	multiple_guided_missile_platform_equipment = {
-		year = 1918
-		archetype = artillery_equipment
-		active = yes
-		priority = 05
-		visual_level = 0
+		is_archetype = yes
+		picture = archetype_rocket_artillery_equipment		
+		type = { 
+			artillery
+			rocket
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 8
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 28
+		hard_attack = 1
+		ap_attack = 4
+		air_attack = 0
+		
+		build_cost_ic = 4
+		resources = {
+			polymers = 1
+			explosives = 2
+		}
 	}
-
+	
 	multiple_launch_rocket_system_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1936
+		archetype = rocket_artillery_equipment
 		active = yes
-		priority = 05
+		priority = 60
 		visual_level = 0
+	}
+	
+	multiple_guided_missile_platform_equipment = {
+		year = 1938
+		archetype = rocket_artillery_equipment
+		active = yes
+		priority = 60
+		visual_level = 0
+		
+		soft_attack = 34
+		hard_attack = 1
+		defense = 6
+		breakthrough = 10
+		ap_attack = 4
+		
+		build_cost_ic = 4.4
+		
+		resources = {
+			polymers = 1
+			explosives = 3
+		}
 	}
 
 	continuous_saturation_platforms_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1940
+		archetype = rocket_artillery_equipment
 		active = yes
-		priority = 05
+		priority = 60
 		visual_level = 0
+		
+		soft_attack = 40
+		hard_attack = 1
+		defense = 8
+		breakthrough = 12
+		ap_attack = 5
+		
+		build_cost_ic = 5.0
+		
+		resources = {
+			polymers = 1
+			electronics = 1
+			explosives = 3
+		}
 	}
 
 	intense_firepower_projector_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1943
+		archetype = rocket_artillery_equipment
 		active = yes
-		priority = 05
+		priority = 60
 		visual_level = 0
+		
+		soft_attack = 48
+		hard_attack = 1
+		defense = 10
+		breakthrough = 14
+		ap_attack = 5
+		
+		build_cost_ic = 5.8
+		
+		resources = {
+			polymers = 1
+			electronics = 1
+			explosives = 4
+		}
 	}
 
 	overwhelming_firepower_provider_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1945
+		archetype = rocket_artillery_equipment
 		active = yes
-		priority = 05
+		priority = 60
 		visual_level = 0
+		
+		soft_attack = 60
+		hard_attack = 1
+		defense = 12
+		breakthrough = 16
+		ap_attack = 6
+		
+		build_cost_ic = 6.6
+		
+		resources = {
+			polymers = 1
+			electronics = 2
+			explosives = 4
+		}
+	}
+	
+	rocket_anti_air_equipment = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_anti_air_equipment		
+		type = {
+			anti_air
+			rocket
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 6
+		breakthrough = 1
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 4
+		hard_attack = 8
+		ap_attack = 25
+		air_attack = 18
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+		
+		build_cost_ic = 4
+		resources = {
+			electronics = 1
+			explosives = 2
+		}
 	}
 
 	surface_to_air_weapon_system_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1936
+		archetype = rocket_anti_air_equipment
 		active = yes
-		priority = 05
+		priority = 90
 		visual_level = 0
 	}
 
 	aircraft_restriction_zone_system_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1939
+		archetype = rocket_anti_air_equipment
 		active = yes
-		priority = 05
+		priority = 90
 		visual_level = 0
+		
+		soft_attack = 4
+		hard_attack = 10
+		air_attack = 26
+		defense = 8
+		breakthrough = 1
+		ap_attack = 45
+		
+		build_cost_ic = 5
+		
+		resources = {
+			electronics = 1
+			explosives = 3
+		}
 	}
 
 	aerospace_domination_platform_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1942
+		archetype = rocket_anti_air_equipment
 		active = yes
-		priority = 05
+		priority = 90
 		visual_level = 0
+		
+		soft_attack = 4
+		hard_attack = 12
+		air_attack = 34
+		defense = 10
+		breakthrough = 1
+		ap_attack = 65
+		
+		build_cost_ic = 6
+		
+		resources = {
+			electronics = 2
+			explosives = 3
+		}
 	}
 
 	ground_to_air_suppremacy_system_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1945
+		archetype = rocket_anti_air_equipment
 		active = yes
-		priority = 05
+		priority = 90
 		visual_level = 0
+		
+		soft_attack = 4
+		hard_attack = 16
+		air_attack = 42
+		defense = 12
+		breakthrough = 1
+		ap_attack = 90
+		
+		build_cost_ic = 7
+		
+		resources = {
+			electronics = 2
+			explosives = 4
+		}
 	}
-
-	flowstream_shape_equipment = {
+	
+	anti_air_equipment = {
 		year = 1918
-		archetype = artillery_equipment
-		active = yes
-		priority = 05
-		visual_level = 0
+
+		is_archetype = yes
+		picture = archetype_anti_air_equipment		
+		type = {
+			anti_air
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 1
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 6
+		hard_attack = 2
+		ap_attack = 4
+		air_attack = 10
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+		
+		build_cost_ic = 2
+		resources = {
+			steel = 2
+		}
+		
+		fuel_consumption = 0
+
 	}
 
 	flak_cannons_equipment = {
 		year = 1918
-		archetype = artillery_equipment
+		archetype = anti_air_equipment
 		active = yes
-		priority = 05
+		priority = 80
 		visual_level = 0
 	}
 
 	low_altitude_close_in_weaponry_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1936
+		archetype = anti_air_equipment
 		active = yes
-		priority = 05
+		priority = 80
 		visual_level = 0
+		
+		soft_attack = 8
+		hard_attack = 3
+		air_attack = 15
+		defense = 4
+		breakthrough = 1
+		ap_attack = 6
+		
+		build_cost_ic = 3
+		
+		resources = {
+			steel = 2
+			electronics = 1
+		}
 	}
 
 	firepower_screengate_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1939
+		archetype = anti_air_equipment
 		active = yes
-		priority = 05
+		priority = 80
 		visual_level = 0
+		
+		soft_attack = 10
+		hard_attack = 4
+		air_attack = 20
+		defense = 5
+		breakthrough = 1
+		ap_attack = 8
+		
+		build_cost_ic = 4
+		
+		resources = {
+			steel = 2
+			electronics = 2
+		}
 	}
 
 	laser_air_defence_system_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1942
+		archetype = anti_air_equipment
 		active = yes
-		priority = 05
+		priority = 80
 		visual_level = 0
+		
+		soft_attack = 12
+		hard_attack = 2
+		air_attack = 25
+		defense = 6
+		breakthrough = 1
+		ap_attack = 4
+		
+		build_cost_ic = 4.5
+		
+		resources = {
+			steel = 2
+			electronics = 3
+		}
+		
+		fuel_consumption = 0.12
 	}
 
 	tactical_laser_defence_platform_equipment = {
-		year = 1918
-		archetype = artillery_equipment
+		year = 1945
+		archetype = anti_air_equipment
 		active = yes
-		priority = 05
+		priority = 80
 		visual_level = 0
+		
+		soft_attack = 14
+		hard_attack = 2
+		air_attack = 30
+		defense = 8
+		breakthrough = 1
+		ap_attack = 4
+		
+		build_cost_ic = 5
+		
+		resources = {
+			steel = 2
+			electronics = 4
+		}
+		
+		fuel_consumption = 0.12
 	}
 
 }
