@@ -11,9 +11,9 @@
  obsolete_at_2_tt:0 "§RThis technology will make \"Plunging-Fire Attack Enhancement\" obsolete. It is not possible to research it at the same time as \"Plunging-Fire Attack Enhancement\".§!"
  
  primitive_firearms:0 "Primitive Firearms"
- primitive_firearms_desc:0 "TODO"
+ primitive_firearms_desc:0 "Prior to the introduction of fully automatic weapons, firearms were very limited in their effectiveness. They were mostly semi-automatic or, heaven forbid, bolt action. While these designs are cheap and easy to produce, their effectiveness nowadays is very limited. Most nations do not use these primitive designs anymore, outside of ceremonial honour guards or recreational shooting, however they still can be used as last resort weapons. It is best to move on from these weapons as fast as possible, lest you be left behind."
  primitive_firearms_equipment:0 "Primitive Firearms"
- primitive_firearms_equipment_desc:0 "TODO"
+ primitive_firearms_equipment_desc:0 "Prior to the introduction of fully automatic weapons, firearms were very limited in their effectiveness. They were mostly semi-automatic or, heaven forbid, bolt action. While these designs are cheap and easy to produce, their effectiveness nowadays is very limited. Most nations do not use these primitive designs anymore, outside of ceremonial honour guards or recreational shooting, however they still can be used as last resort weapons. It is best to move on from these weapons as fast as possible, lest you be left behind."
  
  conventional_firearms:0 "Conventional Firearms"
  conventional_firearms_desc:0 "The global standard for firearms since the days of the War that has changed little in that time. Making use of a firing pin to light the gunpower and fire the bullets inside, their ubiguity makes them cheap to make and easy to learn."
@@ -53,38 +53,38 @@
  uv_laser_equipment_desc:0 "Extreme ultraviolet is breathtakingly difficult to work with, because it burns through almost all matter on contact - including the laser's lenses and mirrors in the process. Special new dielectric mirrors, coated with multiple layers of ultra-dense, highly reflective nanomaterials, overcome this complication, enabling our latest weapons to utilize the ultraviolet spectrum without losing intensity. These laser systems are capable of shooting precise beams over long distances, to inflict massive damage."
  
  lithium_sulfur_battery:0 "Lithium-Sulfur Battery"
- lithium_sulfur_battery_desc:0 "TODO"
+ lithium_sulfur_battery_desc:0 "If we are to make our soldiers more effective we must improve their equipment. One avenue to do this is the introduction of Lithium–Sulfur (Li-S) Batteries. Li-S batteries are light, hold a high energy capacity, and with the use of specialised forms of Sulfur, they can be recharged over 4000 times before needing to be replace, giving our soldiers on the field plenty of charge for their gear."
  lithium_sulfur_battery_idea:0 "Lithium-Sulfur Battery"
  
  lithium_sulfur_supercapacitor:0 "Electrolytic Supercapacitors"
- lithium_sulfur_supercapacitor_desc:0 "TODO"
+ lithium_sulfur_supercapacitor_desc:0 "Supercapacitors, as the name implies, are designed to store high amounts of energy and are used for situations of rapid charge and discharge as opposed to long-term storage, making them highly valuable to power our laser weapons. By using an electrolytic material, we are able to both increase their general reliability as well as their tolerance to temperature changes, making them suited for use in the battlefield."
  lithium_sulfur_supercapacitor_idea:0 "Electrolytic Supercapacitors"
  
  graphene_battery:0 "Graphene Battery"
- graphene_battery_desc:0 "TODO"
+ graphene_battery_desc:0 "Although lithium-sulfur batteries are an effective design, it is still possible to improve our battery technology, and a new design has come forth, that involves the use of graphene in batteries. As oppossed to lithium batteries, graphene is in most ways far more effective. They are light weight, have a greater power capacity, recharge quicker, allowing to reduce the load of equipment carried by our infantrymen while increasing their effectiveness at the same time."
  graphene_battery_idea:0 "Graphene Battery"
  
  graphene_supercapacitor:0 "Graphene Supercapacitors"
- graphene_supercapacitor_desc:0 "TODO"
+ graphene_supercapacitor_desc:0 "WIth graphene batteries already proven to be effective, the next step is to produce graphene supercapacitors. Along with all the established benefits of graphene, these are also going to be less prone to overheating and easier to produce. Although the technology still has potential to grow, we believe to have reached the peak efficiency for powering infantry laser and railgun equipments."
  graphene_supercapacitor_idea:0 "Graphene Supercapacitors"
  
  spectral_beam_combining:0 "Spectral Beam Combining"
- spectral_beam_combining_desc:0 "TODO"
+ spectral_beam_combining_desc:0 "By overlaying the outputs of several laser emitters operating at specific wavelengths into a single beam, we are able to increase our laser weapons' effectiveness while also at the same time reducing the effectiveness of enemy anti-laser counter-measures such as materials reflecting specific wavelengths or wavelengths-absorbing synthetic gases."
  spectral_beam_combining_idea:0 "Spectral Beam Combining"
  
  plunging_fire_enhancement:0 "Plunging-Fire Attack Enhancement"
- plunging_fire_enhancement_desc:0 "TODO"
+ plunging_fire_enhancement_desc:0 "Most armoured vehicles possesses armored front and sides, as this is where the attacker is mostly to hit, while the roof of the vehicle is often left with only a thin plate of armor. While infantrymens cannot reach this weakness using direct fire, plunging fire attack weapons will allow us to do this. Rather than moving straight ahead, the missile will fly upward before hitting the target from above, making it far easier for our infantry to take our enermy armor."
  plunging_fire_enhancement_idea:0 "Plunging-Fire Attack Enhancement"
  
  recoiless_rifles:0 "Man-Portable Recoilless Rifle"
- recoiless_rifles_desc:0 "TODO"
+ recoiless_rifles_desc:0 "Our older infantry based anti-tank weapons though more than capable, are often large and bulky. Making transportation and ease of deployment difficult. However, this has now been over come with the development of man-portable recoilless rifles. By ejecting propellant gas out of the back of the weapon, thus creating a forward thrust, we can effectively counteract the recoil and completely remove it, making many of the other far more bulky anti-recoil additions uncesseray and reduce the overall weight of the weapon, meaning that anti-armour weapons can be deployed with our special forces as well as conventional ground troops."
  recoiless_rifles_equipment:0 "Man-Portable Recoilless Rifle"
- recoiless_rifles_equipment_desc:0 "TODO"
+ recoiless_rifles_equipment_desc:0 "Our older infantry based anti-tank weapons though more than capable, are often large and bulky. Making transportation and ease of deployment difficult. However, this has now been over come with the development of man-portable recoilless rifles. By ejecting propellant gas out of the back of the weapon, thus creating a forward thrust, we can effectively counteract the recoil and completely remove it, making many of the other far more bulky anti-recoil additions uncesseray and reduce the overall weight of the weapon, meaning that anti-armour weapons can be deployed with our special forces as well as conventional ground troops."
  
  at_missiles:0 "Guided Anti-Tank Missile System"
- at_missiles_desc:0 "TODO"
+ at_missiles_desc:0 "Though manual anti-tank weapons have served us well, they have proven inefficient and are getting obsolete. To deal with this issue, we have developed guided anti-tank missiles able to fire-and-forget. By marking the target with a laser, the missile's built in guidance system will lead the payload to the target. Combined with greater payloads, these weapons are excellent at taking out enemy armor, at least for now."
  at_missiles_equipment:0 "Guided Anti-Tank Missile System"
- at_missiles_equipment_desc:0 "TODO"
+ at_missiles_equipment_desc:0 "Though manual anti-tank weapons have served us well, they have proven inefficient and are getting obsolete. To deal with this issue, we have developed guided anti-tank missiles able to fire-and-forget. By marking the target with a laser, the missile's built in guidance system will lead the payload to the target. Combined with greater payloads, these weapons are excellent at taking out enemy armor, at least for now."
  
  railguns:0 "Electromagnetic Portative Railgun"
  railguns_desc:0 "By flowing current through an elongated, magnetically-permeable rifle barrel, we can accelerate projectiles without the need for any explosive - achieving muzzle velocities far beyond even our most powerful explosive-based firearms. This is of great benefit to both impact and range. In consequence, slugs fired from these new railguns are able to pierce the densest of armor at extreme distances."
@@ -146,107 +146,107 @@
  hyper_spectral_imagery:0 "Hyper-Spectral Imagery"
  hyper_spectral_imagery_desc:0 "The processing of visual information using our equipment can be further improved by collecting information from across the entire electromagnetic spectrum. This will increase how much information can be processed, allowing our soldiers to see more in better detail."
  
+ ###Spec Troops
+  
  assault_forces:0 "Assault Forces"
- assault_forces_desc:0 "Assault Forces"
+ assault_forces_desc:0 "As defensive measures and automated defenses becomes more and more sophisticated, they now require special troops to be dealt with. Such is the role of the assault troops: to deal with enemy fortifications, from lightly defended trench to the heaviest bunkers, in environments where armor cannot operate under proper conditions. For this purpose, they are equiped with the most powerful portative weapons in our arsenal, as well as the best individual protective gear."
  
  powered_assault_exoskeletons:0 "Powered Assault Exoskeletons"
- powered_assault_exoskeletons_desc:0 "Powered Assault Exoskeletons"
+ powered_assault_exoskeletons_desc:0 "Powered exoskeletons can transform a special forces soldier into a far more capable break-through weapon. The soldier can carry more equipment, heavier guns and walk longer roads, all while carrying heavier and thicker armor into battle. This very first mass-produced and specialized exoskeleton is design to bulk of the new corps of our assault troops and requires both special training and maintenance to be effective, but provides a tangible increase in capabilities for each individual soldier."
  powered_assault_exoskeletons_equipment:0 "Powered Assault Exoskeletons"
  powered_assault_exoskeletons_equipment_desc:0 "Powered Assault Exoskeletons"
  
  portable_bunker_busters:0 "Portable Bunker Busters"
- portable_bunker_busters_desc:0 "Portable Bunker Busters"
+ portable_bunker_busters_desc:0 "Fortifications are a modern staple on the battlefield. Light concrete bunkers or even re-purposed houses can make for roadblocks that a determined enemy can use to hold our armies off. To counter these obstacles, our troops will be equipped with new, high-caliber autocannons that hold specialized anti-fortification rounds to overcome even the toughest of frontline-fortification lines, so that the attack never has to slow down in its breakthrough."
  
  high_modulus_polyethylene_armor:0 "High Modulus Polyethylene Armor"
- high_modulus_polyethylene_armor_desc:0 "High Modulus Polyethylene Armor"
+ high_modulus_polyethylene_armor_desc:0 "The next logical step to improve our modern exosceletons is a greater ease of use and higher modulability for the armor itself. Specialized parts can be easily integrated and exchanged, which allows the troops to carry tailored and specialized weapons and equipment into battle for a greater variability of use."
  
  assault_battlesuit:0 "Assault Battlesuit"
- assault_battlesuit_desc:0 "Assault Battlesuit"
+ assault_battlesuit_desc:0 "These massive new set of powered armors goes beyond the scope of the original exoskeletons by providing greater protection levels to the soldiers wearing them. These heavy weapon platforms on legs are fast superior to the lesser exoskeletons of the past, as each platoon is now able to carry the firepower and equipment-load of an entire formation of infantrymen at once. This makes the armored assault troops into the most devastating assault-troopers Lesita has ever seen, as their firepower can annihilate the enemy’s frontline in devastating attacks without much opposition."
  assault_battlesuit_equipment:0 "Assault Battlesuit"
- assault_battlesuit_equipment_desc:0 "Assault Battlesuit"
+ assault_battlesuit_equipment_desc:0 "These massive new set of powered armors goes beyond the scope of the original exoskeletons by providing greater protection levels to the soldiers wearing them. These heavy weapon platforms on legs are fast superior to the lesser exoskeletons of the past, as each platoon is now able to carry the firepower and equipment-load of an entire formation of infantrymen at once. This makes the armored assault troops into the most devastating assault-troopers Lesita has ever seen, as their firepower can annihilate the enemy’s frontline in devastating attacks without much opposition."
  
  multi_purpose_assault_weapons:0 "Multi Purpose Assault Weapons"
- multi_purpose_assault_weapons_desc:0 "Multi Purpose Assault Weapons"
+ multi_purpose_assault_weapons_desc:0 "The new battlesuits carry massive guns, yet we can make them even more deadly by the use of a modular gun-platform, that can be re-equipped and modulated has the battlefield situation demands and changes. A 120mm Tank cannon, as good as it is, can’t clear out buildings as well as a massive flamethrower can, or devastate enemy trenches and positions as well as rapid-fire rotor-cannons. Intermixing these weapons types within the formation itself based upon one common base system will both greatly help logistics and the effectiveness of the assault troops in battle too."
  
  ceramic_laminate_battlesuit:0 "Ceramic Laminate Battlesuit"
- ceramic_laminate_battlesuit_desc:0 "Ceramic Laminate Battlesuit"
+ ceramic_laminate_battlesuit_desc:0 "These near 6 meter-tall battle systems carry a plethora of weapons and armor, while remaining as mobile as infantry is on the battlefield. Fast, hard-powered legs carry the CL-Battlesuit into battle and allow the machine to rush positions or to out-maneuver tanks. Armed with shoulder-mounted weaponry and even bigger retrofit-guns than their predecessors, these combat suits allows our assault troops to both go in and out of combat with a speed almost to blinding to comprehend; making them perfect for any breakthrough operation."
  ceramic_laminate_battlesuit_equipment:0 "Ceramic Laminate Battlesuit"
- ceramic_laminate_battlesuit_equipment_desc:0 "Ceramic Laminate Battlesuit"
+ ceramic_laminate_battlesuit_equipment_desc:0 "These near 6 meter-tall battle systems carry a plethora of weapons and armor, while remaining as mobile as infantry is on the battlefield. Fast, hard-powered legs carry the CL-Battlesuit into battle and allow the machine to rush positions or to out-maneuver tanks. Armed with shoulder-mounted weaponry and even bigger retrofit-guns than their predecessors, these combat suits allows our assault troops to both go in and out of combat with a speed almost to blinding to comprehend; making them perfect for any breakthrough operation."
  
  additional_polymerised_mix_casting:0 "Additional Polymerised Mix"
  additional_polymerised_mix_casting_desc:0 "Additional Polymerised Mix"
  
  large_range_incinerating_ammunitions:0 "Large Range Incinerating Ammo"
- large_range_incinerating_ammunitions_desc:0 "Large Range Incinerating Ammo"
- 
- ###Spec Ops
+ large_range_incinerating_ammunitions_desc:0 "From the burning arrows of ancient hordes to the flamethrowers of the industrial wars, fire always was weapon of war within Lesitia. Today the power of fire is better understood than ever and deadly like no other before. A specialized chemical combustion round will create a hot-burning flame that will eat through building, troopers and metal alike and burn everything in its path, making it one of the most devastating weapons that can be fired from a rapid-fire autocannon, such as the ones assault troops carry with them into their assaults."
  
  infiltrators:0 "Infiltrators"
- infiltrators_desc:0 "Infiltrators"
+ infiltrators_desc:0 "Skilled in stealth movements and close combat, infiltrators are troops are able to use seemingly hostile environments to their advantage to counceal their assaults on enemy forces. Their role is to advance into enemy rear areas bypassing enemy frontline strongpoints, to strike at any weakpoint they encounter and disrupt enemy logistic lines. Far from being irregulars, these units are instead made of the most highly trained soldiers, selected from the best the regular army has to offer."
  
  multi_scale_camouflage_uniform:0 "Multi Scale Camouflage Uniform"
- multi_scale_camouflage_uniform_desc:0 "Multi Scale Camouflage Uniform"
+ multi_scale_camouflage_uniform_desc:0 "Modern war carries new eyes, mechanical and precise, that can work effectively against most forms of common camouflage used today. A new, complex pattern of interlocking materials and colors specifically designed to work against drone detection will greatly help our troops during their infiltration operations."
  multi_scale_camouflage_uniform_equipment:0 "Multi Scale Camouflage Uniform"
  multi_scale_camouflage_uniform_equipment_desc:0 "Multi Scale Camouflage Uniform"
  
  micro_climate_cooling_system:0 "Micro Climate Cooling System"
- micro_climate_cooling_system_desc:0 "Micro Climate Cooling System"
+ micro_climate_cooling_system_desc:0 "Even the best training alone does not make our soldier's immune to hostile environmental conditions. A micro-climate cooling system maintains the soldier's core body temperature, increasing the infiltrator's effectiveness while also preventing heat stress. In addition, it prevents most equipment from overheating, allowing their continued operations regardless of the external temperature."
  
  retroflector_active_camouflage:0 "Retroflector Active Camouflage"
- retroflector_active_camouflage_desc:0 "Retroflector Active Camouflage"
+ retroflector_active_camouflage_desc:0 "Uniforms can only go so far with colors and patterns, heat-absorbent material and specialized material before they just can no longer keep up with the enemy detection capacities. The retroflector active camouflage is the answer to this problem: complex mechanical uniforms will reflect the light around the infiltrator, greatly reducing its visibility. Additional electronic warfare capabilities and multi-terrain features been added into the design, with functions as a stealth suit, an armor and a environmental-protection-kit at once."
  retroflector_active_camouflage_equipment:0 "Retroflector Active Camouflage"
- retroflector_active_camouflage_equipment_desc:0 "Retroflector Active Camouflage"
+ retroflector_active_camouflage_equipment_desc:0 "Uniforms can only go so far with colors and patterns, heat-absorbent material and specialized material before they just can no longer keep up with the enemy detection capacities. The retroflector active camouflage is the answer to this problem: complex mechanical uniforms will reflect the light around the infiltrator, greatly reducing its visibility. Additional electronic warfare capabilities and multi-terrain features been added into the design, with functions as a stealth suit, an armor and a environmental-protection-kit at once."
  
  underwater_breathing_system:0 "Underwater Breathing System"
- underwater_breathing_system_desc:0 "Underwater Breathing System"
+ underwater_breathing_system_desc:0 "Warding rivers require boats of diving suits, modern infiltrators require neither. Slightly retrofitting the infiltration suit to be water-proof and adding a breathing system makes this upgrade every infiltrators into a combat diver. This way they can hide away deep in water and move through without the need to reach the surface anymore. Rivers, as the jungle-fighter would say, become our highways."
  
  thermal_emission_inhibitor:0 "Thermal Emission Inhibitor"
- thermal_emission_inhibitor_desc:0 "Thermal Emission Inhibitor"
+ thermal_emission_inhibitor_desc:0 "Body, weapons and equipment emits a lot of heat, making them extremely easy to detect with thermal cameras. An all-around system of thermal absorption will make sure to conceal our troop's thermal signature and prevent the enemy from finding our infiltrators in enemy territory. "
  
  phased_array_optical_holographs:0 "Phased Array Optical Holographs"
- phased_array_optical_holographs_desc:0 "Phased Array Optical Holographs"
+ phased_array_optical_holographs_desc:0 "By making use of complex modern holographic systems, our infiltrators are not only able to completely conceal their presence but also to create entire complex system of deception and illusion to bring our enemies into unfavorable positions where they can easily be ambushed, separated and destroyed. By being able to attack at any time at any place, our infiltrators can now put the enemy in a constant state of panic, reducing their unit's cohesion and morale."
  phased_array_optical_holographs_equipment:0 "Phased Array Optical Holographs"
- phased_array_optical_holographs_equipment_desc:0 "Phased Array Optical Holographs"
+ phased_array_optical_holographs_equipment_desc:0 "By making use of complex modern holographic systems, our infiltrators are not only able to completely conceal their presence but also to create entire complex system of deception and illusion to bring our enemies into unfavorable positions where they can easily be ambushed, separated and destroyed. By being able to attack at any time at any place, our infiltrators can now put the enemy in a constant state of panic, reducing their unit's cohesion and morale."
  
  foliage_penetrating_vision:0 "Foliage Penetrating Vision"
- foliage_penetrating_vision_desc:0 "Foliage Penetrating Vision"
+ foliage_penetrating_vision_desc:0 "Leaves are a hindrance to both detection of enemy troops and targeting. A new AI-algorithm build within the visors of our infiltrators will remove this visual hindrance, so that our hunters will be one step ahead of the enemy even within the deepest jungles, the thickest forests and the widest swamps."
  
  open_terrain_stealth_adaptation:0 "Open Terrain Stealth Adaptation"
- open_terrain_stealth_adaptation_desc:0 "Open Terrain Stealth Adaptation"
+ open_terrain_stealth_adaptation_desc:0 "Infiltrators are excellent when protected by the terrain's natural cover. Open ground however has proven more difficult to master for our hidden combat forces and are still a hindrance to their operations. With a better adaptation both to tactics, doctrine and overall mission objectives we will be able to overcome this challenge and allow for even deeper strikes of enemy positions on open ground."
  
  
  aerial_troopers:0 "Aerial Troopers"
  aerial_troopers_desc:0 "Aerial Troopers"
  
  jet_packs:0 "Jet Packs"
- jet_packs_desc:0 "Jet Packs"
+ jet_packs_desc:0 "The old means of bringing air-borne troops to the ground have become obsolete, parachutes offer no mobility and leave our troops vulnerable when landing. Our new air troopers will so make do without them, as the modern weapon for their task is the jet pack. It may be both loud and heavy, but it allow allows the trooper to have a much superior mobility and speed, both on the ground and in the air."
  jet_packs_equipment:0 "Jet Packs"
- jet_packs_equipment_desc:0 "Jet Packs"
+ jet_packs_equipment_desc:0 "The old means of bringing air-borne troops to the ground have become obsolete, parachutes offer no mobility and leave our troops vulnerable when landing. Our new air troopers will so make do without them, as the modern weapon for their task is the jet pack. It may be both loud and heavy, but it allow allows the trooper to have a much superior mobility and speed, both on the ground and in the air."
  
  gyroscopic_aiming_assistance:0 "Gyroscopic Aiming Assistance"
- gyroscopic_aiming_assistance_desc:0 "Gyroscopic Aiming Assistance"
+ gyroscopic_aiming_assistance_desc:0 "Sudden movements while in the air cannot be overcome with training alone, preventing accurate aiming during flight. To solve this problem, we will equip our aerial troopers with a gyroscopic aiming assistance which will allow them to hit their target during flight, as long as it is integrated well into the existing equipment and the our forces are trained to use them accordingly."
  
  auditory_dampener:0 "Auditory Dampener"
- auditory_dampener_desc:0 "Auditory Dampener"
+ auditory_dampener_desc:0 "Jet Packs are loud, and their noise often warn the enemy troops of our advance, allowing them to prepare. Making a jet pack quieter is a hard task, but one that can be solved which will make our air-borne forces much more lethal and combat-ready in a real fight."
  
  fast_target_acquisition:0 "Fast Target Acquisition"
- fast_target_acquisition_desc:0 "Fast Target Acquisition"
+ fast_target_acquisition_desc:0 "The new high flight mobility our paratroopers are developing requires both a doctrinal and material change to our gear. Most importantly, a new AI system that allows our troopers to pre-mark targets and rapidly attack them during short air sorties. This way both action and reaction of our aerial troopers will be much higher and effective."
  
  personal_hoverlift_packs:0 "Aerial Assault Hoverlift Packs"
- personal_hoverlift_packs_desc:0 "Aerial Assault Hoverlift Packs"
+ personal_hoverlift_packs_desc:0 "Hoverlifts can carry more gear with a lighter power-pack without making as much noise as the jet packs, and most importantly they do offer an even greater mobility and flight-control. In addition the rest of the equipment will be re-designed and upgraded to bring the most out of our air-born troops and give them the energy advantage in battle, both flying and on the ground."
  personal_hoverlift_packs_equipment:0 "Aerial Assault Hoverlift Packs"
- personal_hoverlift_packs_equipment_desc:0 "Aerial Assault Hoverlift Packs"
+ personal_hoverlift_packs_equipment_desc:0 "Hoverlifts can carry more gear with a lighter power-pack without making as much noise as the jet packs, and most importantly they do offer an even greater mobility and flight-control. In addition the rest of the equipment will be re-designed and upgraded to bring the most out of our air-born troops and give them the energy advantage in battle, both flying and on the ground."
  
  light_weight_rocket_launcher:0 "Light Weight Rocket Launcher"
- light_weight_rocket_launcher_desc:0 "Light Weight Rocket Launcher"
+ light_weight_rocket_launcher_desc:0 "This very light version of the classical rocket launcher gives our aerial troopers a much needed bost to their offensive abilities, both against enemy personnel and lightly armored vehicles. Rather than being a separate weapon worn by the soldier, it is directly integrated within the fligt suit, and is easily accessible whenever it is needed."
  
  kinetic_reduction_braces:0 "Kinetic Reduction Braces"
- kinetic_reduction_braces_desc:0 "Kinetic Reduction Braces"
+ kinetic_reduction_braces_desc:0 "While soaring in the air is now easy, landing safely without breaking legs or equipment is the hard part, especially under enemy fire. By integrating highly advanced kinetic reduction braces within the boot of our soldiers, they are able to land safely even from the height of a 8-story building, making landing a trivial affair as long as it is done in the right position."
  
  mechanical_armored_wings:0 "Mechanical Armored Wings"
- mechanical_armored_wings_desc:0 "Mechanical Armored Wings"
+ mechanical_armored_wings_desc:0 "In addition of providing an unparalleled air-lift as well as incredible ground-to-air mobility, mechanical armored wings possesses a direct-link system to the user's neural system which makes their control extremely easy, enabling complex aerial assault manoeuvers. This is without a doubt the best individual flying gear ever developed within Lesita."
  mechanical_armored_wings_equipment:0 "Mechanical Armored Wings"
- mechanical_armored_wings_equipment_desc:0 "Mechanical Armored Wings"
+ mechanical_armored_wings_equipment_desc:0 "In addition of providing an unparalleled air-lift as well as incredible ground-to-air mobility, mechanical armored wings possesses a direct-link system to the user's neural system which makes their control extremely easy, enabling complex aerial assault manoeuvers. This is without a doubt the best individual flying gear ever developed within Lesita."
  
  
  #Motorised
@@ -498,7 +498,7 @@
  
  # ARMOR
  main_battle_tank:0 "Main Battle Tank"
- main_battle_tank_desc:0 "TODO
+ main_battle_tank_desc:0 "TODO"
  
  main_ground_combat_system:0 "Main Ground Combat System"
  main_ground_combat_system_desc:0 "TODO"
