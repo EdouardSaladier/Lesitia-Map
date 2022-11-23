@@ -57,24 +57,28 @@ equipments = {
 		visual_level = 1
 						
 		#Misc Abilities
-		maximum_speed = 9
+		maximum_speed = 10
+		
+		#Offensive Abilities
+		soft_attack = 20
+		hard_attack = 16
+		air_attack = 0
+		ap_attack = 44
+		hardness = 0.9
+		
 
 		#Defensive Abilities
-		defense = 7
-		breakthrough = 51
-		armor_value = 80
+		defense = 6
+		breakthrough = 46
+		armor_value = 40
+		
+		reliability = 0.8
+		fuel_consumption = 4
 
-		#Offensive Abilities
-		soft_attack = 25
-		hard_attack = 19
-		ap_attack = 81
-		air_attack = 0
-
-		build_cost_ic = 13
+		build_cost_ic = 10
 		resources = {
-			#oil = 1
-			tungsten = 2
-			steel = 3
+			explosives = 1
+			steel = 2
 		}	
 	}
 	
@@ -86,24 +90,29 @@ equipments = {
 		visual_level = 1
 						
 		#Misc Abilities
-		maximum_speed = 9
+		maximum_speed = 10
+		
+		#Offensive Abilities
+		soft_attack = 26
+		hard_attack = 21
+		air_attack = 0
+		ap_attack = 54
+		hardness = 0.9
+		
 
 		#Defensive Abilities
-		defense = 7
-		breakthrough = 51
-		armor_value = 80
+		defense = 8
+		breakthrough = 58
+		armor_value = 50
+		
+		reliability = 0.8
+		fuel_consumption = 4
 
-		#Offensive Abilities
-		soft_attack = 25
-		hard_attack = 19
-		ap_attack = 81
-		air_attack = 0
-
-		build_cost_ic = 13
+		build_cost_ic = 12
 		resources = {
-			#oil = 1
-			tungsten = 2
-			steel = 3
+			explosives = 1
+			electronics = 1
+			steel = 2
 		}	
 	}
 	
@@ -115,25 +124,32 @@ equipments = {
 		visual_level = 1
 						
 		#Misc Abilities
-		maximum_speed = 9
+		maximum_speed = 11
+		
+		#Offensive Abilities
+		soft_attack = 34
+		hard_attack = 26
+		air_attack = 0
+		ap_attack = 74
+		hardness = 0.95
+		
 
 		#Defensive Abilities
-		defense = 7
-		breakthrough = 51
-		armor_value = 80
+		defense = 10
+		breakthrough = 72
+		armor_value = 65
+		
+		fuel_consumption = 4.5
+		reliability = 0.8
+		
 
-		#Offensive Abilities
-		soft_attack = 25
-		hard_attack = 19
-		ap_attack = 81
-		air_attack = 0
-
-		build_cost_ic = 13
+		build_cost_ic = 14
 		resources = {
-			#oil = 1
-			tungsten = 2
+			explosives = 1
+			electronics = 1
+			chromium = 1
 			steel = 3
-		}	
+		}
 	}
 	
 	general_purpose_railgun_carrier_equipment = {
@@ -144,25 +160,32 @@ equipments = {
 		visual_level = 1
 						
 		#Misc Abilities
-		maximum_speed = 9
+		maximum_speed = 11
+		
+		#Offensive Abilities
+		soft_attack = 34
+		hard_attack = 42
+		air_attack = 0
+		ap_attack = 104
+		hardness = 0.95
+		
 
 		#Defensive Abilities
-		defense = 7
-		breakthrough = 51
+		defense = 12
+		breakthrough = 86
 		armor_value = 80
+		
+		fuel_consumption = 4.5
+		reliability = 0.8
+		
 
-		#Offensive Abilities
-		soft_attack = 25
-		hard_attack = 19
-		ap_attack = 81
-		air_attack = 0
-
-		build_cost_ic = 13
+		build_cost_ic = 16
 		resources = {
-			#oil = 1
-			tungsten = 2
+			tungsten = 1
+			electronics = 1
+			chromium = 1
 			steel = 3
-		}	
+		}
 	}
 	
 	decisive_lethality_platform_equipment = {
@@ -173,24 +196,31 @@ equipments = {
 		visual_level = 1
 						
 		#Misc Abilities
-		maximum_speed = 9
+		maximum_speed = 12
+		
+		#Offensive Abilities
+		soft_attack = 50
+		hard_attack = 50
+		air_attack = 0
+		ap_attack = 124
+		hardness = 0.95
+		
 
 		#Defensive Abilities
-		defense = 7
-		breakthrough = 51
-		armor_value = 80
+		defense = 14
+		breakthrough = 100
+		armor_value = 100
+		
+		fuel_consumption = 5
+		reliability = 0.8
+		
 
-		#Offensive Abilities
-		soft_attack = 25
-		hard_attack = 19
-		ap_attack = 81
-		air_attack = 0
-
-		build_cost_ic = 13
+		build_cost_ic = 18
 		resources = {
-			#oil = 1
-			tungsten = 2
-			steel = 3
+			tungsten = 1
+			electronics = 2
+			chromium = 2
+			steel = 4
 		}	
 	}
 	

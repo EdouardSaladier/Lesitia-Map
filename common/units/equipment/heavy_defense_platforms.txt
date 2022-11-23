@@ -53,6 +53,34 @@ equipments = {
 		archetype = heavy_defense_platform_equipment_arch
 		priority = 70
 		visual_level = 1
+		
+		#Misc Abilities
+		maximum_speed = 6
+		
+		#Offensive Abilities
+		soft_attack = 6
+		hard_attack = 26
+		air_attack = 28
+		ap_attack = 124
+		hardness = 0.95
+		
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 2
+		armor_value = 85
+		
+		fuel_consumption = 2.8
+		reliability = 0.8
+		
+
+		build_cost_ic = 28
+		resources = {
+			tungsten = 1
+			chromium = 3
+			electronics = 1
+			steel = 3
+		}
 	}
 	
 	multi_turreted_railgun_defense_platform_equipment = {
@@ -60,11 +88,67 @@ equipments = {
 		archetype = heavy_defense_platform_equipment_arch
 		priority = 70
 		visual_level = 1
+		
+		#Misc Abilities
+		maximum_speed = 6
+		
+		#Offensive Abilities
+		soft_attack = 8
+		hard_attack = 42
+		air_attack = 38
+		ap_attack = 164
+		hardness = 0.95
+		
+
+		#Defensive Abilities
+		defense = 6
+		breakthrough = 4
+		armor_value = 125
+		
+		fuel_consumption = 3.2
+		reliability = 0.8
+		
+
+		build_cost_ic = 30
+		resources = {
+			tungsten = 1
+			chromium = 4
+			electronics = 1
+			steel = 3
+		}
 	}
 	position_holding_counter_threat_platform_equipment = {
 		year = 1941
 		archetype = heavy_defense_platform_equipment_arch
 		priority = 70
 		visual_level = 1
+		
+		#Misc Abilities
+		maximum_speed = 6
+		
+		#Offensive Abilities
+		soft_attack = 10
+		hard_attack = 60
+		air_attack = 48
+		ap_attack = 224
+		hardness = 0.95
+		
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 6
+		armor_value = 165
+		
+		fuel_consumption = 3.6
+		reliability = 0.8
+		
+
+		build_cost_ic = 30
+		resources = {
+			tungsten = 2
+			chromium = 4
+			electronics = 2
+			steel = 3
+		}
 	}
 }

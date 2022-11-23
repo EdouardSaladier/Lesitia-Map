@@ -53,6 +53,33 @@ equipments = {
 		archetype = mobile_defense_platform_equipment_arch
 		priority = 70
 		visual_level = 1
+		
+		#Misc Abilities
+		maximum_speed = 10
+		
+		#Offensive Abilities
+		soft_attack = 8
+		hard_attack = 26
+		air_attack = 22
+		ap_attack = 84
+		hardness = 0.8
+		
+
+		#Defensive Abilities
+		defense = 14
+		breakthrough = 2
+		armor_value = 50
+		
+		fuel_consumption = 2.4
+		reliability = 0.8
+		
+
+		build_cost_ic = 12
+		resources = {
+			tungsten = 1
+			electronics = 1
+			steel = 2
+		}
 	}
 	
 	railgun_defense_platform_equipment = {
@@ -60,17 +87,99 @@ equipments = {
 		archetype = mobile_defense_platform_equipment_arch
 		priority = 70
 		visual_level = 1
+		
+		#Misc Abilities
+		maximum_speed = 11
+		
+		#Offensive Abilities
+		soft_attack = 10
+		hard_attack = 32
+		air_attack = 32
+		ap_attack = 104
+		hardness = 0.85
+		
+
+		#Defensive Abilities
+		defense = 16
+		breakthrough = 2
+		armor_value = 65
+		
+		fuel_consumption = 2.8
+		reliability = 0.8
+		
+
+		build_cost_ic = 14
+		resources = {
+			tungsten = 2
+			chromium = 1
+			electronics = 1
+			steel = 2
+		}
 	}
 	universal_counter_threat_platform_equipment = {
 		year = 1941
 		archetype = mobile_defense_platform_equipment_arch
 		priority = 70
 		visual_level = 1
+		
+		#Misc Abilities
+		maximum_speed = 12
+		
+		#Offensive Abilities
+		soft_attack = 12
+		hard_attack = 42
+		air_attack = 42
+		ap_attack = 204
+		hardness = 0.9
+		
+
+		#Defensive Abilities
+		defense = 20
+		breakthrough = 2
+		armor_value = 100
+		
+		fuel_consumption = 3.2
+		reliability = 0.9
+		
+
+		build_cost_ic = 14
+		resources = {
+			tungsten = 3
+			chromium = 2
+			electronics = 1
+			steel = 3
+		}
 	}
 	anti_airborne_threat_platform_equipment = {
 		year = 1941
 		archetype = mobile_defense_platform_equipment_arch
 		priority = 70
 		visual_level = 1
+		
+		#Misc Abilities
+		maximum_speed = 12
+		
+		#Offensive Abilities
+		soft_attack = 20
+		hard_attack = 20
+		air_attack = 56
+		ap_attack = 104
+		hardness = 0.9
+		
+
+		#Defensive Abilities
+		defense = 18
+		breakthrough = 2
+		armor_value = 80
+		
+		fuel_consumption = 3.2
+		reliability = 0.8
+		
+
+		build_cost_ic = 16
+		resources = {
+			electronics = 4
+			steel = 3
+		}
 	}
 }
