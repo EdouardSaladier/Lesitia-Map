@@ -28,8 +28,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
 		start_year = 1918
+		research_cost = 2.0
 		
 		folder = {
 			name = infantry_folder
@@ -53,8 +53,8 @@ technologies = {
 			leads_to_tech = fuel_consumption_optimisation
 		}
 
-		research_cost = 1
 		start_year = 1918
+		research_cost = 1.0
 		
 		folder = {
 			name = infantry_folder
@@ -72,8 +72,8 @@ technologies = {
 	
 	fuel_consumption_optimisation = {
 
-		research_cost = 1
 		start_year = 1936
+		research_cost = 1.25
 		
 		folder = {
 			name = infantry_folder
@@ -105,8 +105,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
 		start_year = 1936
+		research_cost = 2.5
 		
 		folder = {
 			name = infantry_folder
@@ -121,8 +121,8 @@ technologies = {
 	
 	built_in_air_conditioning = {
 
-		research_cost = 1
 		start_year = 1937
+		research_cost = 1.35
 		
 		folder = {
 			name = infantry_folder
@@ -150,8 +150,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
 		start_year = 1938
+		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
@@ -169,8 +169,8 @@ technologies = {
 	
 	deep_wading_capacity = {
 
-		research_cost = 1
 		start_year = 1938
+		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
@@ -207,8 +207,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
 		start_year = 1939
+		research_cost = 3.3
 		
 		folder = {
 			name = infantry_folder
@@ -228,8 +228,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
 		start_year = 1939
+		research_cost = 1.65
 		
 		folder = {
 			name = infantry_folder
@@ -247,8 +247,8 @@ technologies = {
 	
 	urban_environment_protection_kits = {
 
-		research_cost = 1
 		start_year = 1941
+		research_cost = 2.1
 		
 		folder = {
 			name = infantry_folder
@@ -266,8 +266,8 @@ technologies = {
 	
 	air_intake_filtration = {
 
-		research_cost = 1
 		start_year = 1940
+		research_cost = 1.85
 		
 		folder = {
 			name = infantry_folder
@@ -304,8 +304,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
 		start_year = 1942
+		research_cost = 5.2
 		
 		folder = {
 			name = infantry_folder
@@ -325,8 +325,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
 		start_year = 1943
+		research_cost = 3.0
 		
 		folder = {
 			name = infantry_folder
@@ -344,8 +344,8 @@ technologies = {
 	
 	self_controling_weapon_station = {
 
-		research_cost = 1
 		start_year = 1945
+		research_cost = 4.5
 		
 		folder = {
 			name = infantry_folder
@@ -363,8 +363,8 @@ technologies = {
 	
 	anti_thermobaric_protection = {
 
-		research_cost = 1
 		start_year = 1944
+		research_cost = 4.0
 		
 		folder = {
 			name = infantry_folder
@@ -386,8 +386,8 @@ technologies = {
 			armored_multirole_carrier_equipment
 		}
 		
-		research_cost = 1.5
 		start_year = 1945
+		research_cost = 9.0
 		
 		folder = {
 			name = infantry_folder

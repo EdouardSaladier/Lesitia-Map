@@ -1,0 +1,196 @@
+technologies = {
+    @1918 = 0
+	@1936 = 3
+	@1937 = 6
+	@1938 = 9
+	@1939 = 12
+	@1940 = 15
+	@1941 = 18
+	@1942 = 21	
+	@1943 = 24
+	@1944 = 27
+	@1945 = 30
+	@1946 = 33
+	
+	commercial_computers = {
+	
+		research_speed_factor = 0.05
+		
+		enable_equipments = {
+			commercial_computers_fake
+		}
+		
+		on_research_complete = {
+			show_ideas_tooltip = commercial_computers_law
+		}
+		
+		path = {
+			leads_to_tech = massively_parallels_computers
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1918
+		research_cost = 1.5
+
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = @1918 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	massively_parallels_computers = {
+	
+		research_speed_factor = 0.05
+		
+		enable_equipments = {
+			massively_parallels_computers_fake
+		}
+		
+		path = {
+			leads_to_tech = mechanical_quantum_computer
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1936
+		research_cost = 2.1
+
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = @1936 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	mechanical_quantum_computer = {
+	
+		research_speed_factor = 0.1
+		
+		enable_equipments = {
+			mechanical_quantum_computer_fake
+		}
+		
+		path = {
+			leads_to_tech = chemical_reaction_networks_computers
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1937
+		research_cost = 2.5
+
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = @1937 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	chemical_reaction_networks_computers = {
+	
+		research_speed_factor = 0.15
+		
+		enable_equipments = {
+			chemical_reaction_networks_computers_fake
+		}
+		
+		path = {
+			leads_to_tech = nondeterministic_dna_computer
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1939
+		research_cost = 3.0
+
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = @1939 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	nondeterministic_dna_computer = {
+	
+		research_speed_factor = 0.25
+		
+		enable_equipments = {
+			nondeterministic_dna_computer_fake
+		}
+		
+		path = {
+			leads_to_tech = optical_photonic_computer
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1941
+		research_cost = 3.7
+
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = @1941 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	optical_photonic_computer = {
+	
+		research_speed_factor = 0.4
+		
+		enable_equipments = {
+			optical_photonic_computer_fake
+		}
+		
+		path = {
+			leads_to_tech = optical_quantum_computer
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1943
+		research_cost = 5.2
+
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = @1943 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	optical_quantum_computer = {
+	
+		research_speed_factor = 0.5
+		
+		enable_equipments = {
+			optical_quantum_computer_fake
+		}
+		
+		start_year = 1945
+		research_cost = 8.0
+
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = @1945 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+
+}

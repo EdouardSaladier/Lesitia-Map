@@ -19,8 +19,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 	
-		research_cost = 1
 		start_year = 1918
+		research_cost = 1.5
 		folder = {
 			name = industry_folder
 			position = { x = 10 y = @1918 }
@@ -52,8 +52,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 	
-		research_cost = 1
 		start_year = 1936
+		research_cost = 1.875
 		folder = {
 			name = industry_folder
 			position = { x = 10 y = @1936 }
@@ -70,8 +70,8 @@ technologies = {
 	
 	hydroponic_frameworks = {
 	
-		research_cost = 1
 		start_year = 1937
+		research_cost = 2.0
 		folder = {
 			name = industry_folder
 			position = { x = 9 y = @1937 }
@@ -88,8 +88,8 @@ technologies = {
 	
 	low_temperature_hydration = {
 	
-		research_cost = 1
 		start_year = 1937
+		research_cost = 2.0
 		folder = {
 			name = industry_folder
 			position = { x = 11 y = @1937 }
@@ -121,8 +121,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 	
-		research_cost = 1
 		start_year = 1938
+		research_cost = 2.25
 		folder = {
 			name = industry_folder
 			position = { x = 10 y = @1938 }
@@ -139,8 +139,8 @@ technologies = {
 	
 	solar_emitter_array = {
 	
-		research_cost = 1
 		start_year = 1939
+		research_cost = 2.5
 		folder = {
 			name = industry_folder
 			position = { x = 9 y = @1939 }
@@ -157,8 +157,8 @@ technologies = {
 	
 	mass_hydration = {
 	
-		research_cost = 1
 		start_year = 1939
+		research_cost = 2.5
 		folder = {
 			name = industry_folder
 			position = { x = 11 y = @1939 }
@@ -190,8 +190,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 	
-		research_cost = 1
 		start_year = 1938
+		research_cost = 2.25
 		folder = {
 			name = industry_folder
 			position = { x = 10 y = @1940 }
@@ -213,8 +213,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 	
-		research_cost = 1
 		start_year = 1941
+		research_cost = 3.15
 		folder = {
 			name = industry_folder
 			position = { x = 9 y = @1941 }
@@ -231,8 +231,8 @@ technologies = {
 	
 	exotic_state_crops = {
 	
-		research_cost = 1
 		start_year = 1942
+		research_cost = 3.9
 		folder = {
 			name = industry_folder
 			position = { x = 9 y = @1942 }
@@ -254,8 +254,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 	
-		research_cost = 1
 		start_year = 1941
+		research_cost = 3.15
 		folder = {
 			name = industry_folder
 			position = { x = 11 y = @1941 }
@@ -272,8 +272,8 @@ technologies = {
 	
 	dense_nutrification = {
 	
-		research_cost = 1
 		start_year = 1942
+		research_cost = 3.9
 		folder = {
 			name = industry_folder
 			position = { x = 11 y = @1942 }
@@ -300,8 +300,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 	
-		research_cost = 1
 		start_year = 1943
+		research_cost = 4.5
 		folder = {
 			name = industry_folder
 			position = { x = 10 y = @1943 }
@@ -323,8 +323,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 	
-		research_cost = 1
 		start_year = 1944
+		research_cost = 6.0
 		folder = {
 			name = industry_folder
 			position = { x = 9 y = @1944 }
@@ -341,8 +341,8 @@ technologies = {
 	
 	armor_plants = {
 	
-		research_cost = 1
 		start_year = 1945
+		research_cost = 6.75
 		folder = {
 			name = industry_folder
 			position = { x = 9 y = @1945 }
@@ -364,8 +364,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 	
-		research_cost = 1
 		start_year = 1944
+		research_cost = 6.0
 		folder = {
 			name = industry_folder
 			position = { x = 11 y = @1944 }
@@ -382,8 +382,8 @@ technologies = {
 	
 	concrete_rooting = {
 	
-		research_cost = 1
 		start_year = 1945
+		research_cost = 6.75
 		folder = {
 			name = industry_folder
 			position = { x = 11 y = @1945 }

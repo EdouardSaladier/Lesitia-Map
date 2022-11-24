@@ -1207,6 +1207,101 @@
  
  proton_exchange_membrane_electrolyzers:0 "Prot-Exc. Membrane Electrolyzers"
  proton_exchange_membrane_electrolyzers_desc:0 "Prot-Exc. Membrane Electrolyzers"
+ 
+ ### Computers
+ 
+ commercial_computers:0 "Commercial Computers"
+ commercial_computers_desc:0 "Commercial Computers"
+ commercial_computers_fake:0 "Commercial Computers"
+ commercial_computers_fake_desc:0 "Commercial Computers"
+
+ massively_parallels_computers:0 "Massively Parallels Computers"
+ massively_parallels_computers_desc:0 "Massively Parallels Computers"
+ massively_parallels_computers_fake:0 "Massively Parallels Computers"
+ massively_parallels_computers_fake_desc:0 "Massively Parallels Computers"
+
+ layered_otps:0 "Layered-OTPs"
+ layered_otps_desc:0 "Layered-OTPs"
+
+ otp_cracking:0 "OTP-Cracking"
+ otp_cracking_desc:0 "OTP-Cracking"
+
+ mechanical_quantum_computer:0 "Mechanical Quantum Computer"
+ mechanical_quantum_computer_desc:0 "Mechanical Quantum Computer"
+ mechanical_quantum_computer_fake:0 "Mechanical Quantum Computer"
+ mechanical_quantum_computer_fake_desc:0 "Mechanical Quantum Computer"
+
+ quantum_extrapolation_encryption:0 "Quantum Extrapolation Encryption"
+ quantum_extrapolation_encryption_desc:0 "Quantum Extrapolation Encryption"
+
+ eigenvector_decryption:0 "Eigenvector Decryption"
+ eigenvector_decryption_desc:0 "Eigenvector Decryption"
+
+ chemical_reaction_networks_computers:0 "Chemical Reaction Networks Computers"
+ chemical_reaction_networks_computers_desc:0 "Chemical Reaction Networks Computers"
+ chemical_reaction_networks_computers_fake:0 "Chemical Reaction Networks Computers"
+ chemical_reaction_networks_computers_fake_desc:0 "Chemical Reaction Networks Computers"
+
+ crn_encryption:0 "CRN Encryption"
+ crn_encryption_desc:0 "CRN Encryption"
+
+ crn_decryption:0 "CRN Decryption"
+ crn_decryption_desc:0 "CRN Decryption"
+
+ nondeterministic_dna_computer:0 "Nondeterministic DNA Computer"
+ nondeterministic_dna_computer_desc:0 "Nondeterministic DNA Computer"
+ nondeterministic_dna_computer_fake:0 "Nondeterministic DNA Computer"
+ nondeterministic_dna_computer_fake_desc:0 "Nondeterministic DNA Computer"
+
+ net_terminal_gene_encryption:0 "Net-Terminal Gene Encryption"
+ net_terminal_gene_encryption_desc:0 "Net-Terminal Gene Encryption"
+
+ net_terminal_genes_replication:0 "Net-Terminal Genes Replication"
+ net_terminal_genes_replication_desc:0 "Net-Terminal Genes Replication"
+
+ optical_photonic_computer:0 "Optical Photonic Computer"
+ optical_photonic_computer_desc:0 "Optical Photonic Computer"
+ optical_photonic_computer_fake:0 "Optical Photonic Computer"
+ optical_photonic_computer_fake_desc:0 "Optical Photonic Computer"
+
+ chaos_encryption:0 "Chaos Encryption"
+ chaos_encryption_desc:0 "Chaos Encryption"
+
+ chaos_decryption:0 "Chaos Decryption"
+ chaos_decryption_desc:0 "Chaos Decryption"
+
+ optical_quantum_computer:0 "Optical Quantum Computer"
+ optical_quantum_computer_desc:0 "Optical Quantum Computer"
+ optical_quantum_computer_fake:0 "Optical Quantum Computer"
+ optical_quantum_computer_fake_desc:0 "Optical Quantum Computer"
+
+ centralized_systems:0 "Centralized Systems"
+ centralized_systems_desc:0 "Centralized Systems"
+
+ relativistic_markets:0 "Relativistic Markets"
+ relativistic_markets_desc:0 "Relativistic Markets"
+
+ micromanaging_harmonics:0 "Micromanaging Harmonics"
+ micromanaging_harmonics_desc:0 "Micromanaging Harmonics"
+
+ optimized_logistics:0 "Optimized Logistics"
+ optimized_logistics_desc:0 "Optimized Logistics"
+
+ self_organizing_data:0 "Self-Organizing Data"
+ self_organizing_data_desc:0 "Self-Organizing Data"
+
+ tactical_forecasting:0 "Tactical Forecasting"
+ tactical_forecasting_desc:0 "Tactical Forecasting"
+
+ long_term_logistics:0 "Long-Term Logistics"
+ long_term_logistics_desc:0 "Long-Term Logistics"
+
+ maximized_negotiations:0 "Maximized Negotiations"
+ maximized_negotiations_desc:0 "Maximized Negotiations"
+
+ perfect_battle_simulation:0 "Perfect Battle Simulation"
+ perfect_battle_simulation_desc:0 "Perfect Battle Simulation"
+
 
  #Artillery
  field_artillery:0 "Field Artillery"

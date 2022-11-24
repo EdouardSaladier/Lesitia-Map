@@ -28,8 +28,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1918
+		research_cost = 2.0
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = @1918 }
@@ -47,8 +47,8 @@ technologies = {
 	
 	volumetric_construction_methods = {
 
-		research_cost = 1
 		start_year = 1918
+		research_cost = 1.5
 		folder = {
 			name = industry_folder
 			position = { x = -2 y = @1918 }
@@ -81,8 +81,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1936
+		research_cost = 1.875
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = @1936 }
@@ -105,8 +105,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1936
+		research_cost = 1.875
 		folder = {
 			name = industry_folder
 			position = { x = -2 y = @1936 }
@@ -129,8 +129,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1937
+		research_cost = 2.0
 		folder = {
 			name = industry_folder
 			position = { x = -2 y = @1937 }
@@ -148,8 +148,8 @@ technologies = {
 	
 	laser_direct_imaging = {
 
-		research_cost = 1
 		start_year = 1938
+		research_cost = 2.25
 		folder = {
 			name = industry_folder
 			position = { x = -2 y = @1938 }
@@ -167,8 +167,8 @@ technologies = {
 	
 	powered_construction_exoskeletons = {
 
-		research_cost = 1
 		start_year = 1937
+		research_cost = 2.0
 		folder = {
 			name = industry_folder
 			position = { x = 1 y = @1937 }
@@ -200,8 +200,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1938
+		research_cost = 3.0
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = @1938 }
@@ -224,8 +224,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1939
+		research_cost = 2.5
 		folder = {
 			name = industry_folder
 			position = { x = -2 y = @1939 }
@@ -243,8 +243,8 @@ technologies = {
 	
 	automated_building_surveying = {
 
-		research_cost = 1
 		start_year = 1940
+		research_cost = 2.8
 		folder = {
 			name = industry_folder
 			position = { x = -2 y = @1940 }
@@ -276,8 +276,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1940
+		research_cost = 3.7
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = @1940 }
@@ -295,8 +295,8 @@ technologies = {
 	
 	3d_construction_printing = {
 
-		research_cost = 1
 		start_year = 1941
+		research_cost = 3.15
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = @1941 }
@@ -328,8 +328,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1942
+		research_cost = 5.2
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = @1942 }
@@ -352,8 +352,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1943
+		research_cost = 4.5
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = @1943 }
@@ -371,8 +371,8 @@ technologies = {
 	
 	metal_foam = {
 
-		research_cost = 1
 		start_year = 1944
+		research_cost = 6.0
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = @1944 }
@@ -395,8 +395,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1943
+		research_cost = 4.5
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = @1943 }
@@ -423,8 +423,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1944
+		research_cost = 8.0
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = @1944 }
@@ -447,8 +447,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1945
+		research_cost = 6.75
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = @1945 }
@@ -466,8 +466,8 @@ technologies = {
 	
 	structure_conversion_tower = {
 
-		research_cost = 1
 		start_year = 1943
+		research_cost = 4.5
 		folder = {
 			name = industry_folder
 			position = { x = -2 y = @1945 }
@@ -491,8 +491,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1918
+		research_cost = 1.5
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = @1918 }
@@ -515,8 +515,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1938
+		research_cost = 2.25
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = @1938 }
@@ -534,8 +534,8 @@ technologies = {
 	
 	aerogel_insulation = {
 
-		research_cost = 1
 		start_year = 1939
+		research_cost = 2.5
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = @1939 }
@@ -558,8 +558,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1918
+		research_cost = 1.5
 		folder = {
 			name = industry_folder
 			position = { x = 4 y = @1918 }
@@ -577,8 +577,8 @@ technologies = {
 	
 	multi_layer_vacuum_lamination = {
 
-		research_cost = 1
 		start_year = 1938
+		research_cost = 2.25
 		folder = {
 			name = industry_folder
 			position = { x = 4 y = @1938 }
@@ -601,8 +601,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1918
+		research_cost = 1.5
 		folder = {
 			name = industry_folder
 			position = { x = 6 y = @1918 }
@@ -620,8 +620,8 @@ technologies = {
 	
 	hexamine_nitration_process = {
 	
-		research_cost = 1
 		start_year = 1938
+		research_cost = 2.25
 		folder = {
 			name = industry_folder
 			position = { x = 6 y = @1938 }
@@ -658,8 +658,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1939
+		research_cost = 3.3
 		folder = {
 			name = industry_folder
 			position = { x = 4 y = @1939 }
@@ -677,8 +677,8 @@ technologies = {
 	
 	self_repairing_concrete = {
 	
-		research_cost = 1
 		start_year = 1940
+		research_cost = 2.8
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = @1940 }
@@ -701,8 +701,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 	
-		research_cost = 1
 		start_year = 1940
+		research_cost = 2.8
 		folder = {
 			name = industry_folder
 			position = { x = 4 y = @1940 }
@@ -720,8 +720,8 @@ technologies = {
 	
 	biological_circuit_fabrication = {
 	
-		research_cost = 1
 		start_year = 1942
+		research_cost = 3.9
 		folder = {
 			name = industry_folder
 			position = { x = 4 y = @1942 }
@@ -744,8 +744,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 	
-		research_cost = 1
 		start_year = 1941
+		research_cost = 3.15
 		folder = {
 			name = industry_folder
 			position = { x = 6 y = @1941 }
@@ -763,8 +763,8 @@ technologies = {
 	
 	organic_super_lubricant = {
 	
-		research_cost = 1
 		start_year = 1943
+		research_cost = 4.5
 		folder = {
 			name = industry_folder
 			position = { x = 6 y = @1943 }

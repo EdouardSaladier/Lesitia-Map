@@ -29,10 +29,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1918
+		research_cost = 1.5
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 12 y = @1918 }
 		}
 		
@@ -53,10 +53,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 	
-		research_cost = 1
 		start_year = 1937
+		research_cost = 2.0
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 11 y = @1937 }
 		}
 		
@@ -77,10 +77,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 	
-		research_cost = 1
 		start_year = 1939
+		research_cost = 2.5
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 11 y = @1939 }
 		}
 		
@@ -96,10 +96,10 @@ technologies = {
 	
 	metal_organic_frameworks = {
 	
-		research_cost = 1
 		start_year = 1942
+		research_cost = 3.9
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 11 y = @1942 }
 		}
 		
@@ -115,10 +115,10 @@ technologies = {
 	
 	alkaline_water_electrolyzers = {
 	
-		research_cost = 1
 		start_year = 1936
+		research_cost = 1.875
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 13 y = @1936 }
 		}
 		
@@ -139,10 +139,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1938
+		research_cost = 2.25
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 12 y = @1938 }
 		}
 		
@@ -168,10 +168,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1940
+		research_cost = 2.8
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 12 y = @1940 }
 		}
 		
@@ -187,10 +187,10 @@ technologies = {
 	
 	solid_oxide_electrolyzers = {
 
-		research_cost = 1
 		start_year = 1941
+		research_cost = 3.15
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 13 y = @1941 }
 		}
 		
@@ -216,10 +216,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1943
+		research_cost = 4.5
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 12 y = @1943 }
 		}
 		
@@ -235,10 +235,10 @@ technologies = {
 	
 	proton_exchange_membrane_electrolyzers = {
 
-		research_cost = 1
 		start_year = 1944
+		research_cost = 6.0
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 13 y = @1944 }
 		}
 		
@@ -254,10 +254,10 @@ technologies = {
 	
 	liquid_organic_hydrogen_carriers = {
 
-		research_cost = 1
 		start_year = 1945
+		research_cost = 6.75
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 11 y = @1945 }
 		}
 		

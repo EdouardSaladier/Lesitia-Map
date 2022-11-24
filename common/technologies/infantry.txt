@@ -28,8 +28,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1918
+		research_cost = 2.0
 		folder = {
 			name = infantry_folder
 			position = { x = -1 y = @1918 }
@@ -56,8 +56,8 @@ technologies = {
             research_cost_coeff = 1           
 		}	
 
-		research_cost = 2
 		start_year = 1918
+		research_cost = 2.0
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = @1918 }
@@ -91,8 +91,8 @@ technologies = {
 			leads_to_tech = laser_rangefinders
 		}
 
-		research_cost = 2
 		start_year = 1936
+		research_cost = 2.5
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = @1936 }
@@ -135,8 +135,8 @@ technologies = {
             research_cost_coeff = 1
 		}		
 
-		research_cost = 1
 		start_year = 1937
+		research_cost = 1.35
 		folder = {
 			name = infantry_folder
 			position = { x = -1 y = @1937 }
@@ -170,8 +170,8 @@ technologies = {
 			airbust_munitions
 		}		
 
-		research_cost = 1
 		start_year = 1938
+		research_cost = 1.5
 		folder = {
 			name = infantry_folder
 			position = { x = -2 y = @1938 }
@@ -205,8 +205,8 @@ technologies = {
 			telescoped_munitions
 		}		
 
-		research_cost = 1
 		start_year = 1938
+		research_cost = 1.5
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1938 }
@@ -273,8 +273,8 @@ technologies = {
 			leads_to_tech = lithium_sulfur_battery
 		}
 
-		research_cost = 2
 		start_year = 1939
+		research_cost = 3.3
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = @1939 }
@@ -301,8 +301,8 @@ technologies = {
 			leads_to_tech = arc_laser
 		}
 
-		research_cost = 2
 		start_year = 1941
+		research_cost = 2.1
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = @1941 }
@@ -327,8 +327,8 @@ technologies = {
 			leads_to_tech = uv_laser
 		}
 
-		research_cost = 2
 		start_year = 1942
+		research_cost = 5.2
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = @1942 }
@@ -359,8 +359,8 @@ technologies = {
 			leads_to_tech = lithium_sulfur_supercapacitor
 		}
 
-		research_cost = 2
 		start_year = 1941
+		research_cost = 2.1
 		folder = {
 			name = infantry_folder
 			position = { x = -1 y = @1940 }
@@ -386,8 +386,8 @@ technologies = {
 			leads_to_tech = graphene_supercapacitor
 		}
 
-		research_cost = 2
 		start_year = 1943
+		research_cost = 3.0
 		folder = {
 			name = infantry_folder
 			position = { x = -2 y = @1942 }
@@ -413,8 +413,8 @@ technologies = {
 			leads_to_tech = graphene_supercapacitor
 		}
 
-		research_cost = 2
 		start_year = 1943
+		research_cost = 3.0
 		folder = {
 			name = infantry_folder
 			position = { x = -1 y = @1943 }
@@ -440,8 +440,8 @@ technologies = {
 			leads_to_tech = uv_laser
 		}
 
-		research_cost = 2
 		start_year = 1943
+		research_cost = 3.0
 		folder = {
 			name = infantry_folder
 			position = { x = -2 y = @1944 }
@@ -462,8 +462,8 @@ technologies = {
 			uv_laser_equipment
 		}
 		
-		research_cost = 2
 		start_year = 1945
+		research_cost = 9.0
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = @1945 }
@@ -494,8 +494,8 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1918
+		research_cost = 2.0
 		folder = {
 			name = infantry_folder
 			position = { x = -4 y = @1918 }
@@ -526,8 +526,8 @@ technologies = {
 			leads_to_tech = plunging_fire_enhancement         
 		}
 
-		research_cost = 1
 		start_year = 1918
+		research_cost = 2.0
 		folder = {
 			name = infantry_folder
 			position = { x = -4 y = @1936 }
@@ -558,8 +558,8 @@ technologies = {
 			custom_effect_tooltip = obsolete_at_tt
 		}
 
-		research_cost = 1
 		start_year = 1937
+		research_cost = 1.35
 		folder = {
 			name = infantry_folder
 			position = { x = -6 y = @1937 }
@@ -608,8 +608,8 @@ technologies = {
 			leads_to_tech = aermet_alloy
 		}	
 
-		research_cost = 2
 		start_year = 1939
+		research_cost = 3.3
 		folder = {
 			name = infantry_folder
 			position = { x = -4 y = @1939 }
@@ -640,8 +640,8 @@ technologies = {
 			leads_to_tech = eglin_alloy
 		}		
 
-		research_cost = 1
 		start_year = 1940
+		research_cost = 1.85
 		folder = {
 			name = infantry_folder
 			position = { x = -6 y = @1940 }
@@ -663,8 +663,8 @@ technologies = {
 
 	eglin_alloy = {	
 
-		research_cost = 1
 		start_year = 1943
+		research_cost = 3.0
 		folder = {
 			name = infantry_folder
 			position = { x = -6 y = @1943 }
@@ -695,8 +695,8 @@ technologies = {
 			leads_to_tech = helical_railguns
 		}		
 
-		research_cost = 1
 		start_year = 1941
+		research_cost = 2.1
 		folder = {
 			name = infantry_folder
 			position = { x = -4 y = @1941 }
@@ -721,8 +721,8 @@ technologies = {
 			leads_to_tech = total_vacuum_bore
 		}		
 
-		research_cost = 2
 		start_year = 1942
+		research_cost = 5.2
 		folder = {
 			name = infantry_folder
 			position = { x = -4 y = @1942 }
@@ -749,8 +749,8 @@ technologies = {
 			leads_to_tech = plasma_railguns
 		}		
 
-		research_cost = 2
 		start_year = 1943
+		research_cost = 3.0
 		folder = {
 			name = infantry_folder
 			position = { x = -4 y = @1944 }
@@ -771,8 +771,8 @@ technologies = {
 			plasma_railguns_equipment
 		}
 
-		research_cost = 2
 		start_year = 1944
+		research_cost = 8.0
 		folder = {
 			name = infantry_folder
 			position = { x = -4 y = @1945 }
@@ -798,8 +798,8 @@ technologies = {
 			soft_attack = 0.05
 		}
 
-		research_cost = 1
 		start_year = 1937
+		research_cost = 1.35
 		folder = {
 			name = infantry_folder
 			position = { x = 3 y = @1937 }
@@ -839,8 +839,8 @@ technologies = {
 			}
 		}
 
-		research_cost = 1.5
 		start_year = 1938
+		research_cost = 3.0
 		folder = {
 			name = infantry_folder
 			position = { x = 3 y = @1938 }
@@ -866,8 +866,8 @@ technologies = {
 			leads_to_tech = tactical_informations_and_communications_system
 		}		
 
-		research_cost = 1
 		start_year = 1940
+		research_cost = 1.85
 		folder = {
 			name = infantry_folder
 			position = { x = 3 y = @1940 }
@@ -897,8 +897,8 @@ technologies = {
 			leads_to_tech = cognitive_technological_threat_warning_system
 		}		
 
-		research_cost = 1
 		start_year = 1942
+		research_cost = 2.6
 		folder = {
 			name = infantry_folder
 			position = { x = 3 y = @1942 }
@@ -924,8 +924,8 @@ technologies = {
 			add_ideas = cognitive_technological_threat_warning_system_idea
 		}			
 
-		research_cost = 1
 		start_year = 1944
+		research_cost = 4.0
 		folder = {
 			name = infantry_folder
 			position = { x = 3 y = @1944 }
@@ -948,8 +948,8 @@ technologies = {
 			leads_to_tech = auto_gating
 		}
 
-		research_cost = 1
 		start_year = 1936
+		research_cost = 1.25
 		folder = {
 			name = infantry_folder
 			position = { x = 5 y = @1936 }
@@ -972,8 +972,8 @@ technologies = {
 			leads_to_tech = hyper_spectral_imagery
 		}
 
-		research_cost = 1
 		start_year = 1938
+		research_cost = 1.5
 		folder = {
 			name = infantry_folder
 			position = { x = 5 y = @1938 }
@@ -992,8 +992,8 @@ technologies = {
 	
 		land_night_attack = 0.35
 
-		research_cost = 1
 		start_year = 1940
+		research_cost = 1.85
 		folder = {
 			name = infantry_folder
 			position = { x = 5 y = @1940 }

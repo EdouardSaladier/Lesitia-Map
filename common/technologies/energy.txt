@@ -23,10 +23,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1918
+		research_cost = 2.0
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 0 y = @1918 }
 		}
 		
@@ -52,10 +52,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1936
+		research_cost = 1.875
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 0 y = @1936 }
 		}
 		
@@ -80,10 +80,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1918
+		research_cost = 2.0
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = -1 y = @1937 }
 		}
 		
@@ -104,10 +104,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1938
+		research_cost = 2.25
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = -1 y = @1938 }
 		}
 		
@@ -132,10 +132,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1918
+		research_cost = 2.0
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 1 y = @1937 }
 		}
 		
@@ -156,10 +156,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1938
+		research_cost = 2.25
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 1 y = @1938 }
 		}
 		
@@ -180,10 +180,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1939
+		research_cost = 2.5
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 0 y = @1939 }
 		}
 		
@@ -209,10 +209,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1940
+		research_cost = 2.8
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 0 y = @1940 }
 		}
 		
@@ -233,10 +233,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1941
+		research_cost = 3.15
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = -1 y = @1941 }
 		}
 		
@@ -257,10 +257,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1941
+		research_cost = 3.15
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 1 y = @1941 }
 		}
 		
@@ -290,10 +290,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1942
+		research_cost = 5.2
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 0 y = @1942 }
 		}
 		
@@ -314,10 +314,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1943
+		research_cost = 4.5
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = -1 y = @1943 }
 		}
 		
@@ -338,10 +338,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1943
+		research_cost = 4.5
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 1 y = @1943 }
 		}
 		
@@ -366,10 +366,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1944
+		research_cost = 8.0
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 0 y = @1944 }
 		}
 		
@@ -390,10 +390,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1945
+		research_cost = 6.75
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 0 y = @1945 }
 		}
 		
@@ -418,10 +418,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1918
+		research_cost = 2.0
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 6 y = @1918 }
 		}
 		
@@ -442,10 +442,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1936
+		research_cost = 1.875
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 6 y = @1936 }
 		}
 		
@@ -480,10 +480,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1937
+		research_cost = 2.7
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 6 y = @1937 }
 		}
 		
@@ -504,10 +504,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1937
+		research_cost = 2.0
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 4 y = @1937 }
 		}
 		
@@ -523,10 +523,10 @@ technologies = {
 	
 	improved_magnetic_capture = {
 
-		research_cost = 1
 		start_year = 1938
+		research_cost = 2.25
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 4 y = @1938 }
 		}
 		
@@ -547,10 +547,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1938
+		research_cost = 2.25
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 8 y = @1938 }
 		}
 		
@@ -571,10 +571,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1939
+		research_cost = 2.5
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 8 y = @1939 }
 		}
 		
@@ -595,10 +595,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1939
+		research_cost = 2.5
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 6 y = @1939 }
 		}
 		
@@ -633,10 +633,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1940
+		research_cost = 3.7
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 6 y = @1940 }
 		}
 		
@@ -657,10 +657,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1940
+		research_cost = 2.8
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 4 y = @1940 }
 		}
 		
@@ -681,10 +681,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1941
+		research_cost = 3.15
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 4 y = @1941 }
 		}
 		
@@ -700,10 +700,10 @@ technologies = {
 	
 	baryonic_shielding = {
 
-		research_cost = 1
 		start_year = 1941
+		research_cost = 3.15
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 8 y = @1941 }
 		}
 		
@@ -738,10 +738,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1942
+		research_cost = 5.2
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 6 y = @1942 }
 		}
 		
@@ -762,10 +762,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1943
+		research_cost = 4.5
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 4 y = @1943 }
 		}
 		
@@ -786,10 +786,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1943
+		research_cost = 4.5
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 6 y = @1943 }
 		}
 		
@@ -810,10 +810,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1943
+		research_cost = 4.5
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 8 y = @1943 }
 		}
 		
@@ -838,10 +838,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1944
+		research_cost = 8.0
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 6 y = @1944 }
 		}
 		
@@ -862,10 +862,10 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		research_cost = 1
 		start_year = 1945
+		research_cost = 6.75
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 6 y = @1945 }
 		}
 		
@@ -885,10 +885,10 @@ technologies = {
 			total_conversion_reactor_fake
 		}
 
-		research_cost = 1
 		start_year = 1945
+		research_cost = 9.0
 		folder = {
-			name = electronics_folder
+			name = energy_folder
 			position = { x = 3 y = @1945 }
 		}
 		

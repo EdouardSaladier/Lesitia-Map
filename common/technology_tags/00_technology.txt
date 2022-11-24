@@ -74,6 +74,9 @@ technology_categories = {
 	nuclear_tech
 	fuel_tech
 	
+	###Engineering tech
+	computer_tech
+	
 	#Doctrines
 	
 	land_doctrine
@@ -134,6 +137,9 @@ technology_folders = {
 		doctrine = yes
 	}
 	electronics_folder = {
+		ledger = civilian
+	}
+	energy_folder = {
 		ledger = civilian
 	}
 	#secret_weapons_folder

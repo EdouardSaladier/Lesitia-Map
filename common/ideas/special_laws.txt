@@ -289,7 +289,7 @@ ideas = {
 		use_list_view = yes
 		
 		no_computers = {
-			cost = 50
+			cost = 5
 			level = 7
 			cancel_if_invalid = no
 			
@@ -298,9 +298,19 @@ ideas = {
 			}
 		}
 		
-		commercial_computers = {
-			cost = 50
+		commercial_computers_law = {
+			cost = 5
 			level = 6
+			
+			available = {
+				has_tech = commercial_computers
+				has_resources_in_country = {
+					resource = electronics
+					amount > 0
+					delivered = yes
+				}
+			}
+			
 			cancel_if_invalid = no
 			
 			modifier = {
@@ -310,10 +320,20 @@ ideas = {
 			default = yes
 		}
 		
-		massively_parallel_computers = {
-			cost = 50
+		massively_parallel_computers_law = {
+			cost = 5
 			level = 5
 			cancel_if_invalid = no
+			
+			available = {
+				has_tech = massively_parallels_computers
+				has_idea = commercial_computers_law
+				has_resources_in_country = {
+					resource = electronics
+					amount > 0
+					delivered = yes
+				}
+			}
 			
 			modifier = {
 				country_resource_cost_electronics = 40
@@ -321,10 +341,20 @@ ideas = {
 			}
 		}
 		
-		petascale_supercomputers = {
-			cost = 50
+		petascale_supercomputers_law = {
+			cost = 5
 			level = 4
 			cancel_if_invalid = no
+			
+			available = {
+				has_tech = mechanical_quantum_computer
+				has_idea = massively_parallel_computers_law
+				has_resources_in_country = {
+					resource = electronics
+					amount > 0
+					delivered = yes
+				}
+			}
 			
 			modifier = {
 				country_resource_cost_electronics = 60
@@ -332,10 +362,20 @@ ideas = {
 			}
 		}
 		
-		exascale_supercomputers = {
-			cost = 50
+		exascale_supercomputers_law = {
+			cost = 5
 			level = 3
 			cancel_if_invalid = no
+			
+			available = {
+				has_tech = chemical_reaction_networks_computers
+				has_idea = petascale_supercomputers_law
+				has_resources_in_country = {
+					resource = electronics
+					amount > 0
+					delivered = yes
+				}
+			}
 			
 			modifier = {
 				country_resource_cost_electronics = 100
@@ -343,10 +383,20 @@ ideas = {
 			}
 		}
 		
-		zettascale_supercomputers = {
-			cost = 50
+		zettascale_supercomputers_law = {
+			cost = 5
 			level = 2
 			cancel_if_invalid = no
+			
+			available = {
+				has_tech = nondeterministic_dna_computer
+				has_idea = exascale_supercomputers_law
+				has_resources_in_country = {
+					resource = electronics
+					amount > 0
+					delivered = yes
+				}
+			}
 			
 			modifier = {
 				country_resource_cost_electronics = 200
@@ -354,10 +404,20 @@ ideas = {
 			}
 		}
 		
-		yottascale_supercomputers = {
-			cost = 50
+		yottascale_supercomputers_law = {
+			cost = 5
 			level = 1
 			cancel_if_invalid = no
+			
+			available = {
+				has_tech = optical_photonic_computer
+				has_idea = zettascale_supercomputers_law
+				has_resources_in_country = {
+					resource = electronics
+					amount > 0
+					delivered = yes
+				}
+			}
 			
 			modifier = {
 				country_resource_cost_electronics = 400
@@ -365,10 +425,20 @@ ideas = {
 			}
 		}
 		
-		quettascale_supercomputers = {
-			cost = 50
+		quettascale_supercomputers_law = {
+			cost = 5
 			level = 1
 			cancel_if_invalid = no
+			
+			available = {
+				has_tech = optical_quantum_computer
+				has_idea = yottascale_supercomputers_law
+				has_resources_in_country = {
+					resource = electronics
+					amount > 0
+					delivered = yes
+				}
+			}
 			
 			modifier = {
 				country_resource_cost_electronics = 600

@@ -1688,12 +1688,6 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX__medium"
-		texturefile = "gfx/interface/technologies/.dds"
-	}
-	
-	
-	SpriteType = {
 		name = "GFX_nuclear_fission_reactors_medium"
 		texturefile = "gfx/interface/technologies/nuclear_fission_reactors.dds"
 	}
@@ -1834,6 +1828,139 @@ spriteTypes = {
 		name = "GFX_proton_exchange_membrane_electrolyzers_medium"
 		texturefile = "gfx/interface/technologies/proton_exchange_membrane_electrolyzers.dds"
 	}
+	
+	### Computer tree
+	
+	SpriteType = {
+		name = "GFX_commercial_computers_medium"
+		texturefile = "gfx/interface/technologies/commercial_computers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_massively_parallels_computers_medium"
+		texturefile = "gfx/interface/technologies/massively_parallels_computers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_layered_otps_medium"
+		texturefile = "gfx/interface/technologies/layered_otps.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_otp_cracking_medium"
+		texturefile = "gfx/interface/technologies/otp_cracking.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mechanical_quantum_computer_medium"
+		texturefile = "gfx/interface/technologies/mechanical_quantum_computer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_quantum_extrapolation_encryption_medium"
+		texturefile = "gfx/interface/technologies/quantum_extrapolation_encryption.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_eigenvector_decryption_medium"
+		texturefile = "gfx/interface/technologies/eigenvector_decryption.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_chemical_reaction_networks_computers_medium"
+		texturefile = "gfx/interface/technologies/chemical_reaction_networks_computers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_crn_encryption_medium"
+		texturefile = "gfx/interface/technologies/crn_encryption.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_crn_decryption_medium"
+		texturefile = "gfx/interface/technologies/crn_decryption.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_nondeterministic_dna_computer_medium"
+		texturefile = "gfx/interface/technologies/nondeterministic_dna_computer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_net_terminal_gene_encryption_medium"
+		texturefile = "gfx/interface/technologies/net_terminal_gene_encryption.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_net_terminal_genes_replication_medium"
+		texturefile = "gfx/interface/technologies/net_terminal_genes_replication.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_optical_photonic_computer_medium"
+		texturefile = "gfx/interface/technologies/optical_photonic_computer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_chaos_encryption_medium"
+		texturefile = "gfx/interface/technologies/chaos_encryption.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_chaos_decryption_medium"
+		texturefile = "gfx/interface/technologies/chaos_decryption.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_optical_quantum_computer_medium"
+		texturefile = "gfx/interface/technologies/optical_quantum_computer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_centralized_systems_medium"
+		texturefile = "gfx/interface/technologies/centralized_systems.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_relativistic_markets_medium"
+		texturefile = "gfx/interface/technologies/relativistic_markets.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_micromanaging_harmonics_medium"
+		texturefile = "gfx/interface/technologies/micromanaging_harmonics.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_optimized_logistics_medium"
+		texturefile = "gfx/interface/technologies/optimized_logistics.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_self_organizing_data_medium"
+		texturefile = "gfx/interface/technologies/self_organizing_data.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tactical_forecasting_medium"
+		texturefile = "gfx/interface/technologies/tactical_forecasting.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_long_term_logistics_medium"
+		texturefile = "gfx/interface/technologies/long_term_logistics.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_maximized_negotiations_medium"
+		texturefile = "gfx/interface/technologies/maximized_negotiations.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_perfect_battle_simulation_medium"
+		texturefile = "gfx/interface/technologies/perfect_battle_simulation.dds"
+	}
+
 	
 	### Naval Tree
 	

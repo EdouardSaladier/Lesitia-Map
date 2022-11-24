@@ -4,86 +4,97 @@ equipments = {
 	assembly_lines_fake = {
 		year = 1918
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	sensors_robotics_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	additive_manufacturing_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	nanomaterials_applications_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	matter_compiler_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	synthetic_biology_theory_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	basic_photovoltaic_cells_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	solar_concentrator_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	geothermal_plants_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	thermophotonic_distortion_reactor_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	regenerative_energy_source_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	nuclear_fission_reactors_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	toroidal_fusion_reactor_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	lattice_confinement_reactor_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	cold_fusion_reactor_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	antimatter_reactors_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
 	}
 	total_conversion_reactor_fake = {
 		year = 1936
 		is_buildable = no
-		build_cost_ic = 0
+	}
+	commercial_computers_fake = {
+		year = 1936
+		is_buildable = no
+	}
+	massively_parallels_computers_fake = {
+		year = 1936
+		is_buildable = no
+	}
+	mechanical_quantum_computer_fake = {
+		year = 1936
+		is_buildable = no
+	}
+	chemical_reaction_networks_computers_fake = {
+		year = 1936
+		is_buildable = no
+	}
+	nondeterministic_dna_computer_fake = {
+		year = 1936
+		is_buildable = no
+	}
+	optical_photonic_computer_fake = {
+		year = 1936
+		is_buildable = no
+	}
+	optical_quantum_computer_fake = {
+		year = 1936
+		is_buildable = no
 	}
 }
