@@ -20,12 +20,13 @@ technologies = {
 			commercial_computers_fake
 		}
 		
-		on_research_complete = {
-			show_ideas_tooltip = commercial_computers_law
+		path = {
+			leads_to_tech = massively_parallels_computers
+            research_cost_coeff = 1           
 		}
 		
 		path = {
-			leads_to_tech = massively_parallels_computers
+			leads_to_tech = centralized_systems
             research_cost_coeff = 1           
 		}
 		
@@ -46,6 +47,10 @@ technologies = {
 	
 		research_speed_factor = 0.05
 		
+		on_research_complete = {
+			show_ideas_tooltip = massively_parallel_computers_law
+		}
+		
 		enable_equipments = {
 			massively_parallels_computers_fake
 		}
@@ -55,8 +60,18 @@ technologies = {
             research_cost_coeff = 1           
 		}
 		
+		path = {
+			leads_to_tech = layered_otps
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = otp_cracking
+            research_cost_coeff = 1           
+		}
+		
 		start_year = 1936
-		research_cost = 2.1
+		research_cost = 2.0
 
 		folder = {
 			name = electronics_folder
@@ -68,9 +83,43 @@ technologies = {
 		}
 	}
 	
+	layered_otps = {
+		
+		start_year = 1936
+		research_cost = 1.25
+
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @1936 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	otp_cracking = {
+		
+		start_year = 1936
+		research_cost = 1.25
+
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @1936 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
 	mechanical_quantum_computer = {
 	
 		research_speed_factor = 0.1
+		
+		on_research_complete = {
+			show_ideas_tooltip = petascale_supercomputers_law
+		}
 		
 		enable_equipments = {
 			mechanical_quantum_computer_fake
@@ -78,6 +127,16 @@ technologies = {
 		
 		path = {
 			leads_to_tech = chemical_reaction_networks_computers
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = quantum_extrapolation_encryption
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = eigenvector_decryption
             research_cost_coeff = 1           
 		}
 		
@@ -94,9 +153,43 @@ technologies = {
 		}
 	}
 	
+	quantum_extrapolation_encryption = {
+		
+		start_year = 1937
+		research_cost = 1.35
+
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @1937 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	eigenvector_decryption = {
+		
+		start_year = 1938
+		research_cost = 1.5
+
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @1938 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
 	chemical_reaction_networks_computers = {
 	
 		research_speed_factor = 0.15
+		
+		on_research_complete = {
+			show_ideas_tooltip = exascale_supercomputers_law
+		}
 		
 		enable_equipments = {
 			chemical_reaction_networks_computers_fake
@@ -104,6 +197,16 @@ technologies = {
 		
 		path = {
 			leads_to_tech = nondeterministic_dna_computer
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = crn_encryption
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = crn_decryption
             research_cost_coeff = 1           
 		}
 		
@@ -120,9 +223,43 @@ technologies = {
 		}
 	}
 	
+	crn_encryption = {
+		
+		start_year = 1939
+		research_cost = 1.65
+
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @1939 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	crn_decryption = {
+		
+		start_year = 1940
+		research_cost = 1.85
+
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @1940 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
 	nondeterministic_dna_computer = {
 	
 		research_speed_factor = 0.25
+		
+		on_research_complete = {
+			show_ideas_tooltip = zettascale_supercomputers_law
+		}
 		
 		enable_equipments = {
 			nondeterministic_dna_computer_fake
@@ -130,6 +267,16 @@ technologies = {
 		
 		path = {
 			leads_to_tech = optical_photonic_computer
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = net_terminal_gene_encryption
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = net_terminal_genes_replication
             research_cost_coeff = 1           
 		}
 		
@@ -146,9 +293,43 @@ technologies = {
 		}
 	}
 	
+	net_terminal_gene_encryption = {
+		
+		start_year = 1941
+		research_cost = 2.1
+
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @1941 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	net_terminal_genes_replication = {
+		
+		start_year = 1942
+		research_cost = 2.6
+
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @1942 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
 	optical_photonic_computer = {
 	
 		research_speed_factor = 0.4
+		
+		on_research_complete = {
+			show_ideas_tooltip = yottascale_supercomputers_law
+		}
 		
 		enable_equipments = {
 			optical_photonic_computer_fake
@@ -156,6 +337,16 @@ technologies = {
 		
 		path = {
 			leads_to_tech = optical_quantum_computer
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = chaos_encryption
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = chaos_decryption
             research_cost_coeff = 1           
 		}
 		
@@ -172,9 +363,43 @@ technologies = {
 		}
 	}
 	
+	chaos_encryption = {
+		
+		start_year = 1943
+		research_cost = 3.0
+
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @1943 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	chaos_decryption = {
+		
+		start_year = 1944
+		research_cost = 4.0
+
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @1944 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
 	optical_quantum_computer = {
 	
 		research_speed_factor = 0.5
+		
+		on_research_complete = {
+			show_ideas_tooltip = quettascale_supercomputers_law
+		}
 		
 		enable_equipments = {
 			optical_quantum_computer_fake
@@ -186,6 +411,181 @@ technologies = {
 		folder = {
 			name = electronics_folder
 			position = { x = 2 y = @1945 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	centralized_systems = {
+	
+		path = {
+			leads_to_tech = optimized_logistics
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = relativistic_markets
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1936
+		research_cost = 1.875
+
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1936 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	relativistic_markets = {
+	
+		path = {
+			leads_to_tech = micromanaging_harmonics
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1937
+		research_cost = 2.0
+
+		folder = {
+			name = electronics_folder
+			position = { x = 7 y = @1937 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	micromanaging_harmonics = {
+		
+		start_year = 1939
+		research_cost = 2.5
+
+		folder = {
+			name = electronics_folder
+			position = { x = 7 y = @1939 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	optimized_logistics = {
+	
+		path = {
+			leads_to_tech = self_organizing_data
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1938
+		research_cost = 2.25
+
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1938 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	self_organizing_data = {
+	
+		path = {
+			leads_to_tech = tactical_forecasting
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1940
+		research_cost = 2.8
+
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1940 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	tactical_forecasting = {
+	
+		path = {
+			leads_to_tech = long_term_logistics
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = maximized_negotiations
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1941
+		research_cost = 3.15
+
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1941 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	long_term_logistics = {
+	
+		start_year = 1942
+		research_cost = 3.9
+
+		folder = {
+			name = electronics_folder
+			position = { x = 7 y = @1942 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	maximized_negotiations = {
+	
+		path = {
+			leads_to_tech = perfect_battle_simulation
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1943
+		research_cost = 4.5
+
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1943 }
+		}
+
+		categories = {
+			computer_tech
+		}
+	}
+	
+	perfect_battle_simulation = {
+		
+		start_year = 1945
+		research_cost = 6.75
+
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @1945 }
 		}
 
 		categories = {

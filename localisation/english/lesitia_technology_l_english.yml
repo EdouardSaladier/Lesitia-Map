@@ -1231,8 +1231,8 @@
  mechanical_quantum_computer_fake:0 "Mechanical Quantum Computer"
  mechanical_quantum_computer_fake_desc:0 "Mechanical Quantum Computer"
 
- quantum_extrapolation_encryption:0 "Quantum Extrapolation Encryption"
- quantum_extrapolation_encryption_desc:0 "Quantum Extrapolation Encryption"
+ quantum_extrapolation_encryption:0 "Q-Extrapolation Encryption"
+ quantum_extrapolation_encryption_desc:0 "Q-Extrapolation Encryption"
 
  eigenvector_decryption:0 "Eigenvector Decryption"
  eigenvector_decryption_desc:0 "Eigenvector Decryption"
