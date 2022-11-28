@@ -43,6 +43,7 @@ technologies = {
 
 		categories = {
 			artillery_tech
+			field_artillery_tech
 			artillery_tech_equipment
 		}
 	}
@@ -74,6 +75,7 @@ technologies = {
 
 		categories = {
 			artillery_tech
+			field_artillery_tech
 			artillery_tech_equipment
 		}
 	}
@@ -125,6 +127,7 @@ technologies = {
 
 		categories = {
 			artillery_tech
+			field_artillery_tech
 			artillery_tech_equipment
 		}
 	}
@@ -167,6 +170,7 @@ technologies = {
 
 		categories = {
 			artillery_tech
+			field_artillery_tech
 			artillery_tech_equipment
 		}
 	}
@@ -188,6 +192,7 @@ technologies = {
 
 		categories = {
 			artillery_tech
+			field_artillery_tech
 			artillery_tech_equipment
 		}
 	}

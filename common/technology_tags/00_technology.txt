@@ -29,6 +29,7 @@ technology_categories = {
 	###Artillery tree
 	artillery_tech
 	artillery_tech_equipment
+	field_artillery_tech
 	spg_tech
 	rocket_tech
 	mlrs_tech
@@ -59,6 +60,7 @@ technology_categories = {
 	stealth_fighter_tech
 	bomber_tech
 	gunship_tech
+	drone_tech
 	
 	###Industry Tree
 	industry_general
@@ -76,6 +78,9 @@ technology_categories = {
 	
 	###Engineering tech
 	computer_tech
+	computer_tech_equipment
+	encryption_tech
+	decryption_tech
 	
 	#Doctrines
 	

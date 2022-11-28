@@ -1076,6 +1076,11 @@ technologies = {
             research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = unmanned_combat_aerial_vehicle
+            research_cost_coeff = 1
+		}
+		
 		start_year = 1918
 		research_cost = 2.0
 		folder = {
@@ -1320,12 +1325,58 @@ technologies = {
 	}
 	
 	hard_vector_targeting_array = {
+	
+		path = {
+			leads_to_tech = radar_warning_receiver
+            research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = moving_target_indication
+            research_cost_coeff = 1
+		}
 
 		start_year = 1937
 		research_cost = 1.35
 		folder = {
 			name = air_techs_folder
 			position = { x = 20 y = @1937 }
+		}
+		
+		categories = {
+			air_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	radar_warning_receiver = {
+
+		start_year = 1938
+		research_cost = 1.5
+		folder = {
+			name = air_techs_folder
+			position = { x = 22 y = @1938 }
+		}
+		
+		categories = {
+			air_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	moving_target_indication = {
+
+		start_year = 1939
+		research_cost = 1.65
+		folder = {
+			name = air_techs_folder
+			position = { x = 20 y = @1939 }
 		}
 		
 		categories = {
@@ -1347,11 +1398,6 @@ technologies = {
 			leads_to_tech = area_obstruction_support
             research_cost_coeff = 1
 		}	
-		
-		path = {
-			leads_to_tech = assisted_submunitions
-            research_cost_coeff = 1
-		}
 
 		start_year = 1938
 		research_cost = 3.0
@@ -1371,13 +1417,47 @@ technologies = {
 		}
 	}
 	
-	assisted_submunitions = {
+	area_obstruction_support = {
 
-		start_year = 1939
-		research_cost = 1.65
+		enable_equipments = {
+			area_obstruction_support_equipment
+		}
+
+		path = {
+			leads_to_tech = ground_saturation_unit
+            research_cost_coeff = 1
+		}	
+		
+		path = {
+			leads_to_tech = assisted_submunitions
+            research_cost_coeff = 1
+		}
+		
+		start_year = 1940
+		research_cost = 3.7
 		folder = {
 			name = air_techs_folder
-			position = { x = 20 y = @1939 }
+			position = { x = 18 y = @1940 }
+		}
+		
+		categories = {
+			air_tech
+			air_tech_equipment
+			gunship_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	assisted_submunitions = {
+
+		start_year = 1941
+		research_cost = 2.1
+		folder = {
+			name = air_techs_folder
+			position = { x = 20 y = @1941 }
 		}
 		
 		path = {
@@ -1396,44 +1476,15 @@ technologies = {
 	
 	recursive_cluster_bombs = {
 	
-		start_year = 1941
-		research_cost = 2.1
+		start_year = 1943
+		research_cost = 3.0
 		folder = {
 			name = air_techs_folder
-			position = { x = 20 y = @1941 }
+			position = { x = 20 y = @1943 }
 		}
 		
 		categories = {
 			air_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	area_obstruction_support = {
-
-		enable_equipments = {
-			area_obstruction_support_equipment
-		}
-
-		path = {
-			leads_to_tech = ground_saturation_unit
-            research_cost_coeff = 1
-		}	
-		
-		start_year = 1940
-		research_cost = 3.7
-		folder = {
-			name = air_techs_folder
-			position = { x = 18 y = @1940 }
-		}
-		
-		categories = {
-			air_tech
-			air_tech_equipment
-			gunship_tech
 		}
 		
 		ai_will_do = {
@@ -1487,6 +1538,336 @@ technologies = {
 			air_tech
 			air_tech_equipment
 			gunship_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unmanned_combat_aerial_vehicle = {
+
+		enable_equipments = {
+			unmanned_combat_aerial_vehicle_equipment
+		}
+		
+		path = {
+			leads_to_tech = thermal_balance_maintenance
+            research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = fire_support_uav
+            research_cost_coeff = 1
+		}	
+
+		start_year = 1936
+		research_cost = 2.5
+		folder = {
+			name = air_techs_folder
+			position = { x = 24 y = @1936 }
+		}
+		
+		categories = {
+			air_tech
+			air_tech_equipment
+			drone_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	thermal_balance_maintenance = {
+	
+		path = {
+			leads_to_tech = methanol_hydrogen_injection
+            research_cost_coeff = 1
+		}
+
+		start_year = 1937
+		research_cost = 1.35
+		folder = {
+			name = air_techs_folder
+			position = { x = 26 y = @1937 }
+		}
+		
+		categories = {
+			air_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	methanol_hydrogen_injection = {
+
+		start_year = 1939
+		research_cost = 1.65
+		folder = {
+			name = air_techs_folder
+			position = { x = 26 y = @1939 }
+		}
+		
+		categories = {
+			air_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	fire_support_uav = {
+
+		enable_equipments = {
+			fire_support_uav_equipment
+		}
+		
+		path = {
+			leads_to_tech = synthetic_aperture_radar
+            research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = autonomous_target_neutraliser_drone
+            research_cost_coeff = 1
+		}	
+
+		start_year = 1938
+		research_cost = 3.0
+		folder = {
+			name = air_techs_folder
+			position = { x = 24 y = @1938 }
+		}
+		
+		categories = {
+			air_tech
+			air_tech_equipment
+			drone_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	synthetic_aperture_radar = {
+	
+		path = {
+			leads_to_tech = automatic_target_recognition
+            research_cost_coeff = 1
+		}
+
+		start_year = 1940
+		research_cost = 1.85
+		folder = {
+			name = air_techs_folder
+			position = { x = 22 y = @1940 }
+		}
+		
+		categories = {
+			air_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	automatic_target_recognition = {
+	
+		path = {
+			leads_to_tech = autonomous_tactical_analysis
+            research_cost_coeff = 1
+		}
+
+		start_year = 1942
+		research_cost = 2.6
+		folder = {
+			name = air_techs_folder
+			position = { x = 22 y = @1942 }
+		}
+		
+		categories = {
+			air_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	autonomous_tactical_analysis = {
+
+		start_year = 1944
+		research_cost = 4.0
+		folder = {
+			name = air_techs_folder
+			position = { x = 22 y = @1944 }
+		}
+		
+		categories = {
+			air_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	autonomous_target_neutraliser_drone = {
+
+		enable_equipments = {
+			autonomous_target_neutraliser_drone_equipment
+		}
+		
+		path = {
+			leads_to_tech = triple_modular_redundancy
+            research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = lethal_air_exterminators
+            research_cost_coeff = 1
+		}	
+		
+		path = {
+			leads_to_tech = stealth_drone_bomber
+            research_cost_coeff = 1
+		}
+
+		start_year = 1941
+		research_cost = 4.2
+		folder = {
+			name = air_techs_folder
+			position = { x = 24 y = @1941 }
+		}
+		
+		categories = {
+			air_tech
+			air_tech_equipment
+			drone_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	triple_modular_redundancy = {
+	
+		path = {
+			leads_to_tech = small_diameter_multi_purpose_ammunition
+            research_cost_coeff = 1
+		}
+
+		start_year = 1942
+		research_cost = 2.6
+		folder = {
+			name = air_techs_folder
+			position = { x = 26 y = @1942 }
+		}
+		
+		categories = {
+			air_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	small_diameter_multi_purpose_ammunition = {
+
+		start_year = 1943
+		research_cost = 3.0
+		folder = {
+			name = air_techs_folder
+			position = { x = 26 y = @1943 }
+		}
+		
+		categories = {
+			air_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	lethal_air_exterminators = {
+
+		enable_equipments = {
+			lethal_air_exterminators_equipment
+		}
+
+		start_year = 1944
+		research_cost = 8.0
+		folder = {
+			name = air_techs_folder
+			position = { x = 24 y = @1944 }
+		}
+		
+		categories = {
+			air_tech
+			air_tech_equipment
+			drone_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	stealth_drone_bomber = {
+
+		enable_equipments = {
+			stealth_drone_bomber_equipment
+		}
+		
+		path = {
+			leads_to_tech = furtive_bomb_carrier
+            research_cost_coeff = 1
+		}
+
+		start_year = 1941
+		research_cost = 4.2
+		folder = {
+			name = air_techs_folder
+			position = { x = 28 y = @1941 }
+		}
+		
+		categories = {
+			air_tech
+			air_tech_equipment
+			drone_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	furtive_bomb_carrier = {
+
+		enable_equipments = {
+			furtive_bomb_carrier_equipment
+		}
+
+		start_year = 1944
+		research_cost = 8.0
+		folder = {
+			name = air_techs_folder
+			position = { x = 28 y = @1944 }
+		}
+		
+		categories = {
+			air_tech
+			air_tech_equipment
+			drone_tech
 		}
 		
 		ai_will_do = {

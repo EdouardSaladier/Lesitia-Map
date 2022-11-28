@@ -275,5 +275,59 @@ equipments = {
 		priority = 05
 		visual_level = 0
 	}
+	
+	unmanned_combat_aerial_vehicle_equipment = {
+		year = 1918
+	
+		archetype = airtechs_equipment 
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	fire_support_uav_equipment = {
+		year = 1918
+	
+		archetype = airtechs_equipment 
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	autonomous_target_neutraliser_drone_equipment = {
+		year = 1918
+	
+		archetype = airtechs_equipment 
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	lethal_air_exterminators_equipment = {
+		year = 1918
+	
+		archetype = airtechs_equipment 
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	stealth_drone_bomber_equipment = {
+		year = 1918
+	
+		archetype = airtechs_equipment 
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	furtive_bomb_carrier_equipment = {
+		year = 1918
+	
+		archetype = airtechs_equipment 
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
 
 }

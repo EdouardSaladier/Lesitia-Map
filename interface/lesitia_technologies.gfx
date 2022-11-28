@@ -1148,6 +1148,83 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/general_purpose_ordonance_deliver.dds"
 	}
 	
+	# Plane tree - Drones
+	
+	SpriteType = {
+		name = "GFX_moving_target_indication_medium"
+		texturefile = "gfx/interface/technologies/moving_target_indication.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_radar_warning_receiver_medium"
+		texturefile = "gfx/interface/technologies/radar_warning_receiver.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_unmanned_combat_aerial_vehicle_medium"
+		texturefile = "gfx/interface/technologies/unmanned_combat_aerial_vehicle.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_thermal_balance_maintenance_medium"
+		texturefile = "gfx/interface/technologies/thermal_balance_maintenance.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_methanol_hydrogen_injection_medium"
+		texturefile = "gfx/interface/technologies/methanol_hydrogen_injection.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fire_support_uav_medium"
+		texturefile = "gfx/interface/technologies/fire_support_uav.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_synthetic_aperture_radar_medium"
+		texturefile = "gfx/interface/technologies/synthetic_aperture_radar.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_automatic_target_recognition_medium"
+		texturefile = "gfx/interface/technologies/automatic_target_recognition.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_autonomous_tactical_analysis_medium"
+		texturefile = "gfx/interface/technologies/autonomous_tactical_analysis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_autonomous_target_neutraliser_drone_medium"
+		texturefile = "gfx/interface/technologies/autonomous_target_neutraliser_drone.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_triple_modular_redundancy_medium"
+		texturefile = "gfx/interface/technologies/triple_modular_redundancy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_small_diameter_multi_purpose_ammunition_medium"
+		texturefile = "gfx/interface/technologies/small_diameter_multi_purpose_ammunition.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_lethal_air_exterminators_medium"
+		texturefile = "gfx/interface/technologies/lethal_air_exterminators.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_stealth_drone_bomber_medium"
+		texturefile = "gfx/interface/technologies/stealth_drone_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_furtive_bomb_carrier_medium"
+		texturefile = "gfx/interface/technologies/furtive_bomb_carrier.dds"
+	}
+	
 	# Artillery tree
 	
 	spriteType = {

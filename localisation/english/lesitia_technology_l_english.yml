@@ -1,4 +1,86 @@
 ﻿l_english:
+#Technology categories
+ infantry_weapons:0 "Laser & Firearms Technology"
+ infantry_weapons_equipment:0 "Laser & Firearms Equipment "
+ at_weapons:0 "Railguns & Anti-Tank Technology"
+ at_weapons_equipment:0 "Railguns & Anti-Tank Equipment"
+ night_vision:0 "Night Vision Technology"
+ spec_ops_tech:0 "Special Forces Technology"
+ spec_ops_tech_equipment:0 "Special Forces Equipment"
+ assault_forces_tech:0 "Assault Forces Technology"
+ infiltrators_tech:0 "Infiltrators Technology"
+ aerial_troopers_tech:0 "Aerial Troopers Technology"
+ mechanised_tech:0 "Motorised Vehicles Technology"
+ mechanised_tech_equipment:0 "Motorised Vehicles Equipment"
+ 
+ ###Support Tree
+ support_tech:0 "Support Companies Technology"
+ support_equipment:0 "Support Companies Equipment"
+ engineers_tech:0 "Engineers Company Technology"
+ recon_tech:0 "Reconnaissance Company Technology"
+ coin_tech:0 "Counter-Insurgency Company Technology"
+ hospital_tech:0 "Field Hospital Company Technology"
+ logistics_tech:0 "Logistics Company Technology"
+ c_c_tech:0 "Command & Control Company Technology"
+ 
+ ###Artillery tree
+ artillery_tech:0 "Artillery Technology"
+ artillery_tech_equipment:0 "Artillery Equipment"
+ field_artillery_tech:0 "Field Artillery Technology"
+ spg_tech:0 "Precision Artillery Technology"
+ rocket_tech:0 "Rocket Artillery Technology"
+ mlrs_tech:0 "Rocket Launcher Technology"
+ sam_tech:0 "Sol-Air Missiles Technology"
+ anti_air_tech:0 "Anti-Air Technology"
+ radar_tech:0 "Radar Technology"
+ 
+ ###Tank tree
+ tank_tech:0 "Tank Technology"
+ tank_tech_equipment:0 "Tank Equipment"
+ defense_platforms_tech:0 "Defense Platforms Technology"
+ heavy_defense_platforms_tech:0 "Heavy Defense Platforms Technology"
+ assault_tank_tech:0 "Assault Tank Technology"
+ mbt_tank_tech:0 "Main Battle Tank Technology"
+ drone_tank_tech:0 "Land Combat Drone Technology"
+ gun_tank_tech:0 "Tank Weaponry Technology"
+ armor_tank_tech:0 "Tank Armor Technology"
+ recon_tank_tech:0 "Reconnaissance Vehicle Technology"
+ hovercraft_tech:0 "Hovercraft Technology"
+ hovercraft_tech_equipment:0 "Hovercraft Equipment"
+ 
+ ###Air tree
+ air_tech:0 "Aircraft Technology"
+ air_weapons_tech:0 "Aircraft Weapons Technology"
+ air_tech_equipment:0 "Aircraft Equipment"
+ fighter_tech:0 "Fighter Technology"
+ interceptor_tech:0 "Interceptor Technology"
+ stealth_fighter_tech:0 "Stealth Fighter Technology"
+ bomber_tech:0 "Bomber Technology"
+ gunship_tech:0 "Gunship Technology"
+ drone_tech:0 "Drone Technology"
+ 
+ ###Industry Tree
+ industry_general:0 "Industry Technology"
+ industry_tech:0 "Production Technology"
+ construction_tech:0 "Construction Technology"
+ excavation_tech:0 "Excavation Technology"
+ resource_production_tech:0 "Resource Production Technology"
+ agriculture_tech:0 "Agriculture Technology"
+ 
+ ###Energy Tree
+ energy_folder:0 "Energy Generation"
+ energy_tech:0 "Energy Generation Technology"
+ renewable_tech:0 "Renewable Energy Technology"
+ nuclear_tech:0 "Nuclear Energy Technology"
+ fuel_tech:0 "Hydrogen Fuel Cell Technology"
+ 
+ ###Engineering tech
+ computer_tech:0 "Computer Technology"
+ computer_tech_equipment:0 "Supercomputer Technology"
+ encryption_tech:0 "Encryption Technology"
+ decryption_tech:0 "Decryption Technology"
+
+
 # INFANTRY
  infantry_equipment:0 "Firearms & Lasers"
  inf_at_equipment:0 "AT equipment & Railguns"
@@ -151,10 +233,10 @@
  assault_forces:0 "Assault Forces"
  assault_forces_desc:0 "As defensive measures and automated defenses becomes more and more sophisticated, they now require special troops to be dealt with. Such is the role of the assault troops: to deal with enemy fortifications, from lightly defended trench to the heaviest bunkers, in environments where armor cannot operate under proper conditions. For this purpose, they are equiped with the most powerful portative weapons in our arsenal, as well as the best individual protective gear."
  
- powered_assault_exoskeletons:0 "Powered Assault Exoskeletons"
+ powered_assault_exoskeletons:0 "Powered Assault Exoskeleton"
  powered_assault_exoskeletons_desc:0 "Powered exoskeletons can transform a special forces soldier into a far more capable break-through weapon. The soldier can carry more equipment, heavier guns and walk longer roads, all while carrying heavier and thicker armor into battle. This very first mass-produced and specialized exoskeleton is design to bulk of the new corps of our assault troops and requires both special training and maintenance to be effective, but provides a tangible increase in capabilities for each individual soldier."
- powered_assault_exoskeletons_equipment:0 "Powered Assault Exoskeletons"
- powered_assault_exoskeletons_equipment_desc:0 "Powered Assault Exoskeletons"
+ powered_assault_exoskeletons_equipment:0 "Powered Assault Exoskeleton"
+ powered_assault_exoskeletons_equipment_desc:0 "Powered Assault Exoskeleton"
  
  portable_bunker_busters:0 "Portable Bunker Busters"
  portable_bunker_busters_desc:0 "Fortifications are a modern staple on the battlefield. Light concrete bunkers or even re-purposed houses can make for roadblocks that a determined enemy can use to hold our armies off. To counter these obstacles, our troops will be equipped with new, high-caliber autocannons that hold specialized anti-fortification rounds to overcome even the toughest of frontline-fortification lines, so that the attack never has to slow down in its breakthrough."
@@ -203,9 +285,9 @@
  thermal_emission_inhibitor:0 "Thermal Emission Inhibitor"
  thermal_emission_inhibitor_desc:0 "Body, weapons and equipment emits a lot of heat, making them extremely easy to detect with thermal cameras. An all-around system of thermal absorption will make sure to conceal our troop's thermal signature and prevent the enemy from finding our infiltrators in enemy territory. "
  
- phased_array_optical_holographs:0 "Phased Array Optical Holographs"
+ phased_array_optical_holographs:0 "Phased Array Optical Holograph"
  phased_array_optical_holographs_desc:0 "By making use of complex modern holographic systems, our infiltrators are not only able to completely conceal their presence but also to create entire complex system of deception and illusion to bring our enemies into unfavorable positions where they can easily be ambushed, separated and destroyed. By being able to attack at any time at any place, our infiltrators can now put the enemy in a constant state of panic, reducing their unit's cohesion and morale."
- phased_array_optical_holographs_equipment:0 "Phased Array Optical Holographs"
+ phased_array_optical_holographs_equipment:0 "Phased Array Optical Holograph"
  phased_array_optical_holographs_equipment_desc:0 "By making use of complex modern holographic systems, our infiltrators are not only able to completely conceal their presence but also to create entire complex system of deception and illusion to bring our enemies into unfavorable positions where they can easily be ambushed, separated and destroyed. By being able to attack at any time at any place, our infiltrators can now put the enemy in a constant state of panic, reducing their unit's cohesion and morale."
  
  foliage_penetrating_vision:0 "Foliage Penetrating Vision"
@@ -250,6 +332,8 @@
  
  
  #Motorised
+ motorized_equipment:0 "Motorised Vehicles"
+ mechanized_equipment:0 "Armored Mechanised Vehicles"
  
  logistic_vehicle_system:0 "Logistic Vehicle System"
  logistic_vehicle_system_desc:0 "Logistic Vehicle System"
@@ -310,6 +394,14 @@
  armored_multirole_carrier_equipment_desc:0 "Armored Multirole Carrier"
  
  #Support
+ main_support_equipment_arch:0 "Main Support Equipment"
+ urav_equipment:0 "Reconnaissance Drones"
+ earth_mover_equipment:0 "Armored Earth Movers"
+ vehicle_launched_bridge_equipment:0 "Vehicle-Launched Bridges"
+ repair_and_recovery_vehicle_equipment:0 "Repair Vehicles"
+ hemorrhage_equipment:0 "Medical Equipment"
+ mine_resistant_vehicle_equipment:0 "Mine-Resistant Vehicles"
+ operations_center_vehicle_equipment:0 "Command Vehicles"
  
  main_support_equipment_tech:0 "Main Support Equipment"
  main_support_equipment_tech_desc:0 "Main Support Equipment"
@@ -497,6 +589,14 @@
  heavy_command_battlestation_equipment_desc:0 "Heavy Command Battlestation"
  
  # ARMOR
+ main_battle_tank_equipment_arch:0 "Main Battle Tank"
+ unmanned_ground_combat_tank_equipment_arch:0 "Land Combat Drone"
+ quadri_thread_assault_tank_equipment_arch:0 "Assault Tank"
+ mobile_defense_platform_equipment_arch:0 "Mobile Defense Platform"
+ heavy_defense_platform_equipment_arch:0 "Heavy Defense Platform"
+ armored_reconnaissance_vehicle_equipment_arch:0 "Reconnaissance Vehicle"
+ air_cushion_fighting_vehicle_equipment_arch:0 "Hovercraft"
+
  main_battle_tank:0 "Main Battle Tank"
  main_battle_tank_desc:0 "TODO"
  
@@ -891,6 +991,64 @@
  
  ground_combat_support_gunship_equipment:0 "Ground Combat Support Gunship"
  ground_combat_support_gunship_equipment_desc:0 "Ground Combat Support Gunship"
+ 
+ moving_target_indication:0 "Moving Target Indicator"
+ moving_target_indication_desc:0 "Moving Target Indicator"
+
+ radar_warning_receiver:0 "Radar Warning Receiver"
+ radar_warning_receiver_desc:0 "Radar Warning Receiver"
+
+ unmanned_combat_aerial_vehicle:0 "Unmanned Combat Aerial Vehicle"
+ unmanned_combat_aerial_vehicle_desc:0 "Unmanned Combat Aerial Vehicle"
+ unmanned_combat_aerial_vehicle_equipment:0 "Unmanned Combat Aerial Vehicle"
+ unmanned_combat_aerial_vehicle_equipment_desc:0 "Unmanned Combat Aerial Vehicle"
+
+ thermal_balance_maintenance:0 "Thermal Balance Maintainer"
+ thermal_balance_maintenance_desc:0 "Thermal Balance Maintainer"
+
+ methanol_hydrogen_injection:0 "Methanol-Hydrogen Injection"
+ methanol_hydrogen_injection_desc:0 "Methanol-Hydrogen Injection"
+
+ fire_support_uav:0 "Fire Support UAV"
+ fire_support_uav_desc:0 "Fire Support UAV"
+ fire_support_uav_equipment:0 "Fire Support UAV"
+ fire_support_uav_equipment_desc:0 "Fire Support UAV"
+
+ synthetic_aperture_radar:0 "Synthetic-Aperture Radar"
+ synthetic_aperture_radar_desc:0 "Synthetic-Aperture Radar"
+
+ automatic_target_recognition:0 "Automatic Target Recognition"
+ automatic_target_recognition_desc:0 "Automatic Target Recognition"
+
+ autonomous_tactical_analysis:0 "Autonomous Tactical Analysis"
+ autonomous_tactical_analysis_desc:0 "Autonomous Tactical Analysis"
+
+ autonomous_target_neutraliser_drone:0 "Target Neutralisation Drone"
+ autonomous_target_neutraliser_drone_desc:0 "Target Neutralisation Drone"
+ autonomous_target_neutraliser_drone_equipment:0 "Target Neutralisation Drone"
+ autonomous_target_neutraliser_drone_equipment_desc:0 "Target Neutralisation Drone"
+
+ triple_modular_redundancy:0 "Triple Modular Redundancy"
+ triple_modular_redundancy_desc:0 "Triple Modular Redundancy"
+
+ small_diameter_multi_purpose_ammunition:0 "Small Diameter Multi-Purpose Ammunition"
+ small_diameter_multi_purpose_ammunition_desc:0 "Small Diameter Multi-Purpose Ammunition"
+
+ lethal_air_exterminators:0 "Lethal Air Exterminator"
+ lethal_air_exterminators_desc:0 "Lethal Air Exterminator"
+ lethal_air_exterminators_equipment:0 "Lethal Air Exterminator"
+ lethal_air_exterminators_equipment_desc:0 "Lethal Air Exterminator"
+
+ stealth_drone_bomber:0 "Stealth Drone Bomber"
+ stealth_drone_bomber_desc:0 "Stealth Drone Bomber"
+ stealth_drone_bomber_equipment:0 "Stealth Drone Bomber"
+ stealth_drone_bomber_equipment_desc:0 "Stealth Drone Bomber"
+
+ furtive_bomb_carrier:0 "Furtive Bomb Carrier"
+ furtive_bomb_carrier_desc:0 "Furtive Bomb Carrier"
+ furtive_bomb_carrier_equipment:0 "Furtive Bomb Carrier"
+ furtive_bomb_carrier_equipment_desc:0 "Furtive Bomb Carrier"
+
  
 ###Industry
 
@@ -1304,6 +1462,12 @@
 
 
  #Artillery
+ artillery_equipment:0 "Field Artillery"
+ precision_artillery_equipment:0 "Precision Artillery"
+ rocket_artillery_equipment:0 "Rocket Launchers"
+ rocket_anti_air_equipment:0 "Sol-Air Missiles"
+ anti_air_equipment:0 "Anti-Air Artillery"
+ 
  field_artillery:0 "Field Artillery"
  field_artillery_desc:0 "Field Artillery"
  artillery_support_system:0 "Artillery Support System"
