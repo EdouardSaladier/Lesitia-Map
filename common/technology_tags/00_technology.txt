@@ -81,6 +81,7 @@ technology_categories = {
 	computer_tech_equipment
 	encryption_tech
 	decryption_tech
+	genetics_tech
 	
 	#Doctrines
 	

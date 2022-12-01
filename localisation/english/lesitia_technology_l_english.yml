@@ -79,6 +79,7 @@
  computer_tech_equipment:0 "Supercomputer Technology"
  encryption_tech:0 "Encryption Technology"
  decryption_tech:0 "Decryption Technology"
+ genetics_tech:0 "Genetics Technology"
 
 
 # INFANTRY
@@ -230,8 +231,8 @@
  
  ###Spec Troops
   
- assault_forces:0 "Assault Forces"
- assault_forces_desc:0 "As defensive measures and automated defenses becomes more and more sophisticated, they now require special troops to be dealt with. Such is the role of the assault troops: to deal with enemy fortifications, from lightly defended trench to the heaviest bunkers, in environments where armor cannot operate under proper conditions. For this purpose, they are equiped with the most powerful portative weapons in our arsenal, as well as the best individual protective gear."
+ assault_forces_t:0 "Assault Forces"
+ assault_forces_t_desc:0 "As defensive measures and automated defenses becomes more and more sophisticated, they now require special troops to be dealt with. Such is the role of the assault troops: to deal with enemy fortifications, from lightly defended trench to the heaviest bunkers, in environments where armor cannot operate under proper conditions. For this purpose, they are equiped with the most powerful portative weapons in our arsenal, as well as the best individual protective gear."
  
  powered_assault_exoskeletons:0 "Powered Assault Exoskeleton"
  powered_assault_exoskeletons_desc:0 "Powered exoskeletons can transform a special forces soldier into a far more capable break-through weapon. The soldier can carry more equipment, heavier guns and walk longer roads, all while carrying heavier and thicker armor into battle. This very first mass-produced and specialized exoskeleton is design to bulk of the new corps of our assault troops and requires both special training and maintenance to be effective, but provides a tangible increase in capabilities for each individual soldier."
@@ -263,8 +264,8 @@
  large_range_incinerating_ammunitions:0 "Large Range Incinerating Ammo"
  large_range_incinerating_ammunitions_desc:0 "From the burning arrows of ancient hordes to the flamethrowers of the industrial wars, fire always was weapon of war within Lesitia. Today the power of fire is better understood than ever and deadly like no other before. A specialized chemical combustion round will create a hot-burning flame that will eat through building, troopers and metal alike and burn everything in its path, making it one of the most devastating weapons that can be fired from a rapid-fire autocannon, such as the ones assault troops carry with them into their assaults."
  
- infiltrators:0 "Infiltrators"
- infiltrators_desc:0 "Skilled in stealth movements and close combat, infiltrators are troops are able to use seemingly hostile environments to their advantage to counceal their assaults on enemy forces. Their role is to advance into enemy rear areas bypassing enemy frontline strongpoints, to strike at any weakpoint they encounter and disrupt enemy logistic lines. Far from being irregulars, these units are instead made of the most highly trained soldiers, selected from the best the regular army has to offer."
+ infiltrators_t:0 "Infiltrators"
+ infiltrators_t_desc:0 "Skilled in stealth movements and close combat, infiltrators are troops are able to use seemingly hostile environments to their advantage to counceal their assaults on enemy forces. Their role is to advance into enemy rear areas bypassing enemy frontline strongpoints, to strike at any weakpoint they encounter and disrupt enemy logistic lines. Far from being irregulars, these units are instead made of the most highly trained soldiers, selected from the best the regular army has to offer."
  
  multi_scale_camouflage_uniform:0 "Multi Scale Camouflage Uniform"
  multi_scale_camouflage_uniform_desc:0 "Modern war carries new eyes, mechanical and precise, that can work effectively against most forms of common camouflage used today. A new, complex pattern of interlocking materials and colors specifically designed to work against drone detection will greatly help our troops during their infiltration operations."
@@ -297,8 +298,8 @@
  open_terrain_stealth_adaptation_desc:0 "Infiltrators are excellent when protected by the terrain's natural cover. Open ground however has proven more difficult to master for our hidden combat forces and are still a hindrance to their operations. With a better adaptation both to tactics, doctrine and overall mission objectives we will be able to overcome this challenge and allow for even deeper strikes of enemy positions on open ground."
  
  
- aerial_troopers:0 "Aerial Troopers"
- aerial_troopers_desc:0 "Aerial Troopers"
+ aerial_troopers_t:0 "Aerial Troopers"
+ aerial_troopers_t_desc:0 "Aerial Troopers"
  
  jet_packs:0 "Jet Packs"
  jet_packs_desc:0 "The old means of bringing air-borne troops to the ground have become obsolete, parachutes offer no mobility and leave our troops vulnerable when landing. Our new air troopers will so make do without them, as the modern weapon for their task is the jet pack. It may be both loud and heavy, but it allow allows the trooper to have a much superior mobility and speed, both on the ground and in the air."
@@ -1459,7 +1460,66 @@
 
  perfect_battle_simulation:0 "Perfect Battle Simulation"
  perfect_battle_simulation_desc:0 "Perfect Battle Simulation"
+ 
+ ### Genetics
+ 
+ gene_edition_framework:0 "Gene Theory Framework"
+ gene_edition_framework_desc:0 "Gene Theory Framework"
 
+ marker_assisted_selection:0 "Marker Assisted Selection"
+ marker_assisted_selection_desc:0 "Marker Assisted Selection"
+
+ genetically_modified_organisms:0 "Genetically Modified Organisms"
+ genetically_modified_organisms_desc:0 "Genetically Modified Organisms"
+
+ sapient_life_cloning_method:0 "Sapient Life Cloning Process"
+ sapient_life_cloning_method_desc:0 "Sapient Life Cloning Process"
+ sapient_life_cloning_method_fake:0 "Sapient Life Cloning Process"
+ sapient_life_cloning_method_fake_desc:0 "Sapient Life Cloning Process"
+
+ extensive_reactive_chemistry:0 "Extensive Reactive Chemistry"
+ extensive_reactive_chemistry_desc:0 "Extensive Reactive Chemistry"
+
+ tectogenetic_biopattern_sequencer:0 "Tectogenetic Biopattern Sequencer"
+ tectogenetic_biopattern_sequencer_desc:0 "Tectogenetic Biopattern Sequencer"
+ tectogenetic_biopattern_sequencer_fake:0 "Tectogenetic Biopattern Sequencer"
+ tectogenetic_biopattern_sequencer_fake_desc:0 "Tectogenetic Biopattern Sequencer"
+
+ full_genome_decryption:0 "Full Genome Decryption"
+ full_genome_decryption_desc:0 "Full Genome Decryption"
+
+ myostatin_gene_amplification:0 "Myostatin Gene Amplification"
+ myostatin_gene_amplification_desc:0 "Myostatin Gene Amplification"
+
+ crispr_gene_editing:0 "CRISPR Gene Editing"
+ crispr_gene_editing_desc:0 "CRISPR Gene Editing"
+
+ mass_scale_clone_production:0 "Mass-Scale Clone Production"
+ mass_scale_clone_production_desc:0 "Mass-Scale Clone Production"
+ mass_scale_clone_production_fake:0 "Mass-Scale Clone Production"
+ mass_scale_clone_production_fake_desc:0 "Mass-Scale Clone Production"
+
+ accelerated_organogenesis:0 "Accelerated Organogenesis"
+ accelerated_organogenesis_desc:0 "Accelerated Organogenesis"
+
+ enhanced_neurogenesis:0 "Enhanced Neurogenesis"
+ enhanced_neurogenesis_desc:0 "Enhanced Neurogenesis"
+
+ bioreplicants:0 "Bioreplicants"
+ bioreplicants_desc:0 "Bioreplicants"
+ bioreplicants_fake:0 "Bioreplicants"
+ bioreplicants_fake_desc:0 "Bioreplicants"
+
+ telomeres_retention:0 "Telomeres Retention"
+ telomeres_retention_desc:0 "Telomeres Retention"
+
+ perfect_genetic_stability:0 "Perfect Genetic Stability"
+ perfect_genetic_stability_desc:0 "Perfect Genetic Stability"
+
+ sapient_life_synthesis:0 "Sapient Life Synthesis"
+ sapient_life_synthesis_desc:0 "Sapient Life Synthesis"
+ sapient_life_synthesis_fake:0 "Sapient Life Synthesis"
+ sapient_life_synthesis_fake_desc:0 "Sapient Life Synthesis"
 
  #Artillery
  artillery_equipment:0 "Field Artillery"

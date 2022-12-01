@@ -156,7 +156,7 @@ sub_units = {
 		}
 	}
 	
-	rocket_artillery_brigade = {
+	rocket_arty_brigade = {
 		abbreviation = "RCKT-ART"
 		sprite = "artillery"
 		map_icon_category = infantry
@@ -305,7 +305,7 @@ sub_units = {
 		}
 	}
 	
-	anti_air_brigade = {
+	anti_air_arty_brigade = {
 		abbreviation = "AAA"
 		sprite = "artillery"
 		map_icon_category = infantry

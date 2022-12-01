@@ -264,7 +264,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "assault_forces_tree"
+				name = "assault_forces_t_tree"
 				position = { x = 140 y = 475 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -272,7 +272,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "infiltrators_tree"
+				name = "infiltrators_t_tree"
 				position = { x = 140 y = 475 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -280,7 +280,7 @@ guiTypes = {
 			}
 			
 			gridboxtype = {
-				name = "aerial_troopers_tree"
+				name = "aerial_troopers_t_tree"
 				position = { x = 140 y = 475 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1421,6 +1421,13 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "commercial_computers_tree"
+				position = { x = 100 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
+				name = "gene_edition_framework_tree"
 				position = { x = 100 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

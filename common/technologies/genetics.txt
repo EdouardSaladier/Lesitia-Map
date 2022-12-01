@@ -1,0 +1,350 @@
+technologies = {
+    @1918 = 0
+	@1936 = 3
+	@1937 = 6
+	@1938 = 9
+	@1939 = 12
+	@1940 = 15
+	@1941 = 18
+	@1942 = 21	
+	@1943 = 24
+	@1944 = 27
+	@1945 = 30
+	@1946 = 33
+	
+	gene_edition_framework = {
+		
+		path = {
+			leads_to_tech = marker_assisted_selection
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = sapient_life_cloning_method
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1918
+		research_cost = 1.5
+
+		folder = {
+			name = electronics_folder
+			position = { x = 12 y = @1918 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	marker_assisted_selection = {
+		
+		path = {
+			leads_to_tech = genetically_modified_organisms
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1937
+		research_cost = 2.0
+
+		folder = {
+			name = electronics_folder
+			position = { x = 11 y = @1937 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	genetically_modified_organisms = {
+		
+		start_year = 1939
+		research_cost = 2.5
+
+		folder = {
+			name = electronics_folder
+			position = { x = 11 y = @1939 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	sapient_life_cloning_method = {
+	
+		enable_equipments = {
+			sapient_life_cloning_method_fake
+		}
+		
+		path = {
+			leads_to_tech = extensive_reactive_chemistry
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = tectogenetic_biopattern_sequencer
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1936
+		research_cost = 2.5
+
+		folder = {
+			name = electronics_folder
+			position = { x = 12 y = @1936 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	extensive_reactive_chemistry = {
+		
+		start_year = 1937
+		research_cost = 2.0
+
+		folder = {
+			name = electronics_folder
+			position = { x = 14 y = @1937 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	tectogenetic_biopattern_sequencer = {
+	
+		enable_equipments = {
+			tectogenetic_biopattern_sequencer_fake
+		}
+		
+		path = {
+			leads_to_tech = full_genome_decryption
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = mass_scale_clone_production
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1938
+		research_cost = 3.0
+
+		folder = {
+			name = electronics_folder
+			position = { x = 12 y = @1938 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	full_genome_decryption = {
+	
+		path = {
+			leads_to_tech = myostatin_gene_amplification
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1939
+		research_cost = 2.5
+
+		folder = {
+			name = electronics_folder
+			position = { x = 14 y = @1939 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	myostatin_gene_amplification = {
+	
+		path = {
+			leads_to_tech = crispr_gene_editing
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1940
+		research_cost = 2.8
+
+		folder = {
+			name = electronics_folder
+			position = { x = 14 y = @1940 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	crispr_gene_editing = {
+		
+		start_year = 1942
+		research_cost = 3.9
+
+		folder = {
+			name = electronics_folder
+			position = { x = 14 y = @1942 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	mass_scale_clone_production = {
+	
+		enable_equipments = {
+			mass_scale_clone_production_fake
+		}
+		
+		path = {
+			leads_to_tech = accelerated_organogenesis
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = bioreplicants
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1941
+		research_cost = 4.2
+
+		folder = {
+			name = electronics_folder
+			position = { x = 12 y = @1941 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	accelerated_organogenesis = {
+	
+		path = {
+			leads_to_tech = enhanced_neurogenesis
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1942
+		research_cost = 3.9
+
+		folder = {
+			name = electronics_folder
+			position = { x = 11 y = @1942 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	enhanced_neurogenesis = {
+		
+		start_year = 1944
+		research_cost = 6.0
+
+		folder = {
+			name = electronics_folder
+			position = { x = 11 y = @1944 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	bioreplicants = {
+	
+		enable_equipments = {
+			bioreplicants_fake
+		}
+		
+		path = {
+			leads_to_tech = telomeres_retention
+            research_cost_coeff = 1           
+		}
+		
+		path = {
+			leads_to_tech = sapient_life_synthesis
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1943
+		research_cost = 6.0
+
+		folder = {
+			name = electronics_folder
+			position = { x = 12 y = @1943 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	telomeres_retention = {
+	
+		path = {
+			leads_to_tech = perfect_genetic_stability
+            research_cost_coeff = 1           
+		}
+		
+		start_year = 1943
+		research_cost = 4.5
+
+		folder = {
+			name = electronics_folder
+			position = { x = 14 y = @1943 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	perfect_genetic_stability = {
+		
+		start_year = 1945
+		research_cost = 6.75
+
+		folder = {
+			name = electronics_folder
+			position = { x = 14 y = @1945 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+	
+	sapient_life_synthesis = {
+	
+		enable_equipments = {
+			sapient_life_synthesis_fake
+		}
+		
+		start_year = 1945
+		research_cost = 9.0
+
+		folder = {
+			name = electronics_folder
+			position = { x = 12 y = @1945 }
+		}
+
+		categories = {
+			genetics_tech
+		}
+	}
+
+}

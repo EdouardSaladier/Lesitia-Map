@@ -97,4 +97,24 @@ equipments = {
 		year = 1936
 		is_buildable = no
 	}
+	sapient_life_cloning_method_fake = {
+		year = 1936
+		is_buildable = no
+	}
+	tectogenetic_biopattern_sequencer_fake = {
+		year = 1936
+		is_buildable = no
+	}
+	mass_scale_clone_production_fake = {
+		year = 1936
+		is_buildable = no
+	}
+	bioreplicants_fake = {
+		year = 1936
+		is_buildable = no
+	}
+	sapient_life_synthesis_fake = {
+		year = 1936
+		is_buildable = no
+	}
 }

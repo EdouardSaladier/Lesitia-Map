@@ -142,7 +142,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_aerial_troopers_medium"
+		name = "GFX_aerial_troopers_t_medium"
 		texturefile = "gfx/interface/technologies/aerial_troopers.dds"
 	}
 
@@ -152,7 +152,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_assault_forces_medium"
+		name = "GFX_assault_forces_t_medium"
 		texturefile = "gfx/interface/technologies/assault_forces.dds"
 	}
 
@@ -187,7 +187,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_infiltrators_medium"
+		name = "GFX_infiltrators_t_medium"
 		texturefile = "gfx/interface/technologies/infiltrators.dds"
 	}
 
@@ -2036,6 +2036,88 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_perfect_battle_simulation_medium"
 		texturefile = "gfx/interface/technologies/perfect_battle_simulation.dds"
+	}
+	
+	### Genetics Tree
+	
+	SpriteType = {
+		name = "GFX_gene_edition_framework_medium"
+		texturefile = "gfx/interface/technologies/gene_edition_framework.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_marker_assisted_selection_medium"
+		texturefile = "gfx/interface/technologies/marker_assisted_selection.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_genetically_modified_organisms_medium"
+		texturefile = "gfx/interface/technologies/genetically_modified_organisms.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sapient_life_cloning_method_medium"
+		texturefile = "gfx/interface/technologies/sapient_life_cloning_method.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_extensive_reactive_chemistry_medium"
+		texturefile = "gfx/interface/technologies/extensive_reactive_chemistry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tectogenetic_biopattern_sequencer_medium"
+		texturefile = "gfx/interface/technologies/tectogenetic_biopattern_sequencer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_full_genome_decryption_medium"
+		texturefile = "gfx/interface/technologies/full_genome_decryption.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_myostatin_gene_amplification_medium"
+		texturefile = "gfx/interface/technologies/myostatin_gene_amplification.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_crispr_gene_editing_medium"
+		texturefile = "gfx/interface/technologies/crispr_gene_editing.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mass_scale_clone_production_medium"
+		texturefile = "gfx/interface/technologies/mass_scale_clone_production.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_accelerated_organogenesis_medium"
+		texturefile = "gfx/interface/technologies/accelerated_organogenesis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_enhanced_neurogenesis_medium"
+		texturefile = "gfx/interface/technologies/enhanced_neurogenesis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bioreplicants_medium"
+		texturefile = "gfx/interface/technologies/bioreplicants.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_telomeres_retention_medium"
+		texturefile = "gfx/interface/technologies/telomeres_retention.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_perfect_genetic_stability_medium"
+		texturefile = "gfx/interface/technologies/perfect_genetic_stability.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sapient_life_synthesis_medium"
+		texturefile = "gfx/interface/technologies/sapient_life_synthesis.dds"
 	}
 
 	

@@ -13,10 +13,14 @@ technologies = {
 	@1945 = 30
 	@1946 = 33
 
-	assault_forces = {
+	assault_forces_t = {
 
 		path = {
 			leads_to_tech = powered_assault_exoskeletons
+		}
+		
+		enable_subunits = {
+			assault_forces
 		}
 
 		start_year = 1918
@@ -230,7 +234,11 @@ technologies = {
 		}
 	}
 	
-	infiltrators = {
+	infiltrators_t = {
+	
+		enable_subunits = {
+			infiltrators
+		}
 
 		path = {
 			leads_to_tech = multi_scale_camouflage_uniform
@@ -448,7 +456,11 @@ technologies = {
 		}
 	}
 	
-	aerial_troopers = {
+	aerial_troopers_t = {
+	
+		enable_subunits = {
+			aerial_troops
+		}
 
 		path = {
 			leads_to_tech = jet_packs
