@@ -230,6 +230,16 @@
  hyper_spectral_imagery_desc:0 "The processing of visual information using our equipment can be further improved by collecting information from across the entire electromagnetic spectrum. This will increase how much information can be processed, allowing our soldiers to see more in better detail."
  
  ###Spec Troops
+ 
+ assault_forces:0 "Assault Forces"
+ assault_forces_desc:0 "Special forces focused on attacking forts and urban terrains"
+ assault_forces_equipment:0 "Assault Forces Equipment"
+ aerial_troops:0 "Aerial Troops"
+ aerial_troops_desc:0 "Special forces focused on fighting in hills and mountain terrains"
+ aerial_troops_equipment:0 "Aerial Troops Equipment"
+ infiltrators:0 "Infiltrators"
+ infiltrators_desc:0 "Special forces focused on fighting in forests, jungles and marshes, as well as conduction amphibious attacks"
+ infiltrators_equipment:0 "Infiltrators Equipment"
   
  assault_forces_t:0 "Assault Forces"
  assault_forces_t_desc:0 "As defensive measures and automated defenses becomes more and more sophisticated, they now require special troops to be dealt with. Such is the role of the assault troops: to deal with enemy fortifications, from lightly defended trench to the heaviest bunkers, in environments where armor cannot operate under proper conditions. For this purpose, they are equiped with the most powerful portative weapons in our arsenal, as well as the best individual protective gear."
@@ -244,6 +254,7 @@
  
  high_modulus_polyethylene_armor:0 "High Modulus Polyethylene Armor"
  high_modulus_polyethylene_armor_desc:0 "The next logical step to improve our modern exosceletons is a greater ease of use and higher modulability for the armor itself. Specialized parts can be easily integrated and exchanged, which allows the troops to carry tailored and specialized weapons and equipment into battle for a greater variability of use."
+ high_modulus_polyethylene_armor_idea:0 "High Modulus Polyethylene Armor"
  
  assault_battlesuit:0 "Assault Battlesuit"
  assault_battlesuit_desc:0 "These massive new set of powered armors goes beyond the scope of the original exoskeletons by providing greater protection levels to the soldiers wearing them. These heavy weapon platforms on legs are fast superior to the lesser exoskeletons of the past, as each platoon is now able to carry the firepower and equipment-load of an entire formation of infantrymen at once. This makes the armored assault troops into the most devastating assault-troopers Lesita has ever seen, as their firepower can annihilate the enemy’s frontline in devastating attacks without much opposition."
@@ -260,9 +271,11 @@
  
  additional_polymerised_mix_casting:0 "Additional Polymerised Mix"
  additional_polymerised_mix_casting_desc:0 "Additional Polymerised Mix"
+ additional_polymerised_mix_casting_idea:0 "Additional Polymerised Mix"
  
  large_range_incinerating_ammunitions:0 "Large Range Incinerating Ammo"
  large_range_incinerating_ammunitions_desc:0 "From the burning arrows of ancient hordes to the flamethrowers of the industrial wars, fire always was weapon of war within Lesitia. Today the power of fire is better understood than ever and deadly like no other before. A specialized chemical combustion round will create a hot-burning flame that will eat through building, troopers and metal alike and burn everything in its path, making it one of the most devastating weapons that can be fired from a rapid-fire autocannon, such as the ones assault troops carry with them into their assaults."
+ 
  
  infiltrators_t:0 "Infiltrators"
  infiltrators_t_desc:0 "Skilled in stealth movements and close combat, infiltrators are troops are able to use seemingly hostile environments to their advantage to counceal their assaults on enemy forces. Their role is to advance into enemy rear areas bypassing enemy frontline strongpoints, to strike at any weakpoint they encounter and disrupt enemy logistic lines. Far from being irregulars, these units are instead made of the most highly trained soldiers, selected from the best the regular army has to offer."

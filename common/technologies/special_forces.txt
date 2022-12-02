@@ -70,9 +70,24 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		assault_forces = {
+			need = {
+				assault_forces_equipment = 50
+			}
+		}
 	}
 	
 	portable_bunker_busters = {
+	
+		assault_forces = {
+			urban = {
+				attack = 0.2
+			}
+			fort = {
+				attack = 0.2
+			}
+		}
 	
 		start_year = 1937
 		research_cost = 2.0
@@ -92,6 +107,11 @@ technologies = {
 	}
 	
 	high_modulus_polyethylene_armor = {
+	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			add_ideas = high_modulus_polyethylene_armor_idea
+		}
 
 		path = {
 			leads_to_tech = assault_battlesuit
@@ -115,6 +135,10 @@ technologies = {
 	}
 	
 	assault_battlesuit = {
+	
+		assault_forces = {
+			max_organisation = 5
+		}
 
 		enable_equipments = {
 			assault_battlesuit_equipment
@@ -143,6 +167,11 @@ technologies = {
 	
 	multi_purpose_assault_weapons = {
 	
+		assault_forces = {
+			soft_attack = 0.2
+			breakthrough = 0.1
+		}
+	
 		path = {
 			leads_to_tech = ceramic_laminate_battlesuit
 		}
@@ -165,6 +194,10 @@ technologies = {
 	}
 	
 	ceramic_laminate_battlesuit = {
+	
+		assault_forces = {
+			max_organisation = 5
+		}
 
 		enable_equipments = {
 			ceramic_laminate_battlesuit_equipment
@@ -197,6 +230,11 @@ technologies = {
 	}
 	
 	additional_polymerised_mix_casting = {
+	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			add_ideas = additional_polymerised_mix_casting_idea
+		}
 
 		start_year = 1943
 		research_cost = 4.5
@@ -216,6 +254,11 @@ technologies = {
 	}
 	
 	large_range_incinerating_ammunitions = {
+	
+		assault_forces = {
+			soft_attack = 0.5
+			breakthrough = 0.2
+		}
 
 		start_year = 1944
 		research_cost = 6.0
@@ -287,9 +330,24 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		infiltrators = {
+			need = {
+				infiltrators_equipment = 50
+			}
+		}
 	}
 	
 	micro_climate_cooling_system = {
+	
+		infiltrators = {
+			acclimatization_hot_climate_gain_factor = 0.50
+			acclimatization_cold_climate_gain_factor = 0.50
+			jungle = {
+				attack = 0.2
+				defence = 0.2
+			}
+		}
 
 		path = {
 			leads_to_tech = retroflector_active_camouflage
@@ -313,6 +371,10 @@ technologies = {
 	}
 	
 	retroflector_active_camouflage = {
+	
+		infiltrators = {
+			max_organisation = 5
+		}
 
 		enable_equipments = {
 			retroflector_active_camouflage_equipment
@@ -345,6 +407,11 @@ technologies = {
 	}
 	
 	thermal_emission_inhibitor = {
+	
+		infiltrators = {
+			defense = 0.2
+			default_morale = 0.1
+		}
 		
 		path = {
 			leads_to_tech = phased_array_optical_holographs
@@ -368,6 +435,10 @@ technologies = {
 	}
 	
 	phased_array_optical_holographs = {
+	
+		infiltrators = {
+			max_organisation = 5
+		}
 
 		enable_equipments = {
 			phased_array_optical_holographs_equipment
@@ -400,6 +471,19 @@ technologies = {
 	}
 	
 	foliage_penetrating_vision = {
+	
+		infiltrators = {
+			soft_attack = 0.1
+			breakthrough = 0.1
+			forest = {
+				attack = 0.2
+				defence = 0.2
+			}
+			jungle = {
+				attack = 0.4
+				defence = 0.4
+			}
+		}
 
 		start_year = 1943
 		research_cost = 4.5
@@ -419,6 +503,19 @@ technologies = {
 	}
 	
 	open_terrain_stealth_adaptation = {
+	
+		infiltrators = {
+			soft_attack = 0.1
+			breakthrough = 0.1
+			plains = {
+				attack = 0.2
+				defence = 0.2
+			}
+			desert = {
+				attack = 0.2
+				defence = 0.2
+			}
+		}
 
 		start_year = 1944
 		research_cost = 6.0
@@ -438,7 +535,22 @@ technologies = {
 	}
 	
 	underwater_breathing_system = {
-
+	
+		infiltrators = {
+			river = {
+				attack = 0.2
+				defence = 0.2
+			}
+			amphibious = {
+				attack = 0.4
+				defence = 0.4
+			}
+			marsh = {
+				attack = 0.4
+				defence = 0.4
+			}
+		}
+		
 		start_year = 1940
 		research_cost = 2.8
 		folder = {
@@ -484,6 +596,10 @@ technologies = {
 	}
 	
 	jet_packs = {
+	
+		aerial_troops = {
+			max_organisation = 5
+		}
 
 		enable_equipments = {
 			jet_packs_equipment
@@ -513,9 +629,27 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		aerial_troops = {
+			need = {
+				aerial_troops_equipment = 50
+			}
+		}
 	}
 	
 	fast_target_acquisition = {
+	
+		aerial_troops = {
+			soft_attack = 0.2
+			hills = {
+				attack = 0.2
+				defence = 0.2
+			}
+			mountain = {
+				attack = 0.2
+				defence = 0.2
+			}
+		}
 
 		start_year = 1938
 		research_cost = 2.25
@@ -535,6 +669,11 @@ technologies = {
 	}
 	
 	auditory_dampener = {
+	
+		aerial_troops = {
+			breakthrough = 0.2
+			defense = 0.2
+		}
 
 		path = {
 			leads_to_tech = personal_hoverlift_packs
@@ -558,6 +697,10 @@ technologies = {
 	}
 	
 	personal_hoverlift_packs = {
+	
+		aerial_troops = {
+			max_organisation = 5
+		}
 
 		enable_equipments = {
 			personal_hoverlift_packs_equipment
@@ -591,6 +734,12 @@ technologies = {
 	
 	light_weight_rocket_launcher = {
 	
+		aerial_troops = {
+			soft_attack = 0.2
+			hard_attack = 0.5
+			ap_attack = 1.0
+		}
+	
 		path = {
 			leads_to_tech = stuff
 		}
@@ -613,6 +762,19 @@ technologies = {
 	}
 	
 	gyroscopic_aiming_assistance = {
+	
+		aerial_troops = {
+			soft_attack = 0.2
+			breakthrough = 0.2
+			hills = {
+				attack = 0.2
+				defence = 0.2
+			}
+			mountain = {
+				attack = 0.4
+				defence = 0.4
+			}
+		}
 
 		path = {
 			leads_to_tech = mechanical_armored_wings
@@ -636,6 +798,10 @@ technologies = {
 	}
 	
 	mechanical_armored_wings = {
+	
+		aerial_troops = {
+			max_organisation = 5
+		}
 
 		enable_equipments = {
 			mechanical_armored_wings_equipment
@@ -664,6 +830,18 @@ technologies = {
 	}	
 	
 	kinetic_reduction_braces = {
+	
+		aerial_troops = {
+			breakthrough = 0.5
+			hills = {
+				attack = 0.2
+				defence = 0.2
+			}
+			mountain = {
+				attack = 0.4
+				defence = 0.2
+			}
+		}
 
 		start_year = 1943
 		research_cost = 4.5

@@ -17,8 +17,9 @@ sub_units = {
 		
 		categories = {
 			category_army
+			category_front_line
 			category_line_artillery
-			category_artillery
+			category_regular_artillery
 		}
 
 		combat_width = 3
@@ -95,8 +96,9 @@ sub_units = {
 		
 		categories = {
 			category_army
+			category_front_line
 			category_line_artillery
-			category_artillery
+			category_regular_artillery
 		}		
 
 		combat_width = 3
@@ -174,8 +176,9 @@ sub_units = {
 		
 		categories = {
 			category_army
+			category_front_line
 			category_line_artillery
-			category_artillery
+			category_rocket_artillery
 		}		
 
 		combat_width = 3
@@ -254,7 +257,10 @@ sub_units = {
 		
 		categories = {
 			category_army
+			category_front_line
 			category_line_artillery
+			category_rocket_artillery
+			category_aa_artillery
 		}		
 		
 		combat_width = 1
@@ -323,7 +329,9 @@ sub_units = {
 		
 		categories = {
 			category_army
+			category_front_line
 			category_line_artillery
+			category_aa_artillery
 		}		
 		
 		combat_width = 1
