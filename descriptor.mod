@@ -33,6 +33,9 @@ replace_path="common/national_focus"
 replace_path="common/ideas"
 replace_path="common/scripted_guis"
 
+replace_path="common/peace_conference/ai_peace"
+replace_path="common/peace_conference/cost_modifiers"
+
 replace_path="common/on_actions"
 replace_path="common/scripted_effects"
 replace_path="common/scripted_localisation"
@@ -56,6 +59,7 @@ replace_path="common/technology_sharing"
 
 replace_path="common/interface/equipmentdesigner"
 replace_path="gfx/interface/equipmentdesigner/tanks/designer"
+replace_path="gfx/interface/equipmentdesigner/graphic_db"
 
 replace_path="events"
 replace_path="music"

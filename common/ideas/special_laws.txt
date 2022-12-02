@@ -307,7 +307,6 @@ ideas = {
 				has_resources_in_country = {
 					resource = electronics
 					amount > 0
-					delivered = yes
 				}
 			}
 			
@@ -331,7 +330,6 @@ ideas = {
 				has_resources_in_country = {
 					resource = electronics
 					amount > 0
-					delivered = yes
 				}
 			}
 			
@@ -352,7 +350,6 @@ ideas = {
 				has_resources_in_country = {
 					resource = electronics
 					amount > 0
-					delivered = yes
 				}
 			}
 			
@@ -373,7 +370,6 @@ ideas = {
 				has_resources_in_country = {
 					resource = electronics
 					amount > 0
-					delivered = yes
 				}
 			}
 			
@@ -394,7 +390,6 @@ ideas = {
 				has_resources_in_country = {
 					resource = electronics
 					amount > 0
-					delivered = yes
 				}
 			}
 			
@@ -415,7 +410,6 @@ ideas = {
 				has_resources_in_country = {
 					resource = electronics
 					amount > 0
-					delivered = yes
 				}
 			}
 			
@@ -436,7 +430,6 @@ ideas = {
 				has_resources_in_country = {
 					resource = electronics
 					amount > 0
-					delivered = yes
 				}
 			}
 			
