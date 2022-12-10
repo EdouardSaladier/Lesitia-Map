@@ -38,6 +38,8 @@
  tank_tech:0 "Tank Technology"
  tank_tech_equipment:0 "Tank Equipment"
  defense_platforms_tech:0 "Defense Platforms Technology"
+ aa_defense_platforms_tech:0 "Anti-Air Defense Platforms Technology"
+ at_defense_platforms_tech:0 "Anti-Tank Defense Platforms Technology"
  heavy_defense_platforms_tech:0 "Heavy Defense Platforms Technology"
  assault_tank_tech:0 "Assault Tank Technology"
  mbt_tank_tech:0 "Main Battle Tank Technology"
@@ -753,6 +755,50 @@
  
  nuclear_turboengines:0 "Nuclear Turboengines"
  heavy_hovertank:0 "Up-Armored Hovertank"
+ 
+ anti_tank_defense_platform:0 "Anti-Tank Defense Platform"
+ anti_tank_defense_platform_desc:0 "Anti-Tank Defense Platform"
+ anti_tank_defense_platform_equipment:0 "Anti-Tank Defense Platform"
+ anti_tank_defense_platform_equipment_desc:0 "Anti-Tank Defense Platform"
+
+ armored_threats_mitigator:0 "Armored Threats Mitigator"
+ armored_threats_mitigator_desc:0 "Armored Threats Mitigator"
+ armored_threats_mitigator_equipment:0 "Armored Threats Mitigator"
+ armored_threats_mitigator_equipment_desc:0 "Armored Threats Mitigator"
+
+ advanced_anti_tank_weapon_system:0 "Advanced Anti-Tank Weapon System"
+ advanced_anti_tank_weapon_system_desc:0 "Advanced Anti-Tank Weapon System"
+ advanced_anti_tank_weapon_system_equipment:0 "Advanced Anti-Tank Weapon System"
+ advanced_anti_tank_weapon_system_equipment_desc:0 "Advanced Anti-Tank Weapon System"
+
+ tank_hunter_killer:0 "Tank Hunter-Killer"
+ tank_hunter_killer_desc:0 "Tank Hunter-Killer"
+ tank_hunter_killer_equipment:0 "Tank Hunter-Killer"
+ tank_hunter_killer_equipment_desc:0 "Tank Hunter-Killer"
+
+ anti_air_defense_platform:0 "Anti-Air Defense Platform"
+ anti_air_defense_platform_desc:0 "Anti-Air Defense Platform"
+ anti_air_defense_platform_equipment:0 "Anti-Air Defense Platform"
+ anti_air_defense_platform_equipment_desc:0 "Anti-Air Defense Platform"
+
+ anti_aircraft_mobile_system:0 "Anti-Aircraft Mobile System"
+ anti_aircraft_mobile_system_desc:0 "Anti-Aircraft Mobile System"
+ anti_aircraft_mobile_system_equipment:0 "Anti-Aircraft Mobile System"
+ anti_aircraft_mobile_system_equipment_desc:0 "Anti-Aircraft Mobile System"
+
+ self_propelled_air_denial_system:0 "Self-Propelled Air Denial System"
+ self_propelled_air_denial_system_desc:0 "Self-Propelled Air Denial System"
+ self_propelled_air_denial_system_equipment:0 "Self-Propelled Air Denial System"
+ self_propelled_air_denial_system_equipment_desc:0 "Self-Propelled Air Denial System"
+
+ automated_aircraft_destroyer:0 "Automated Aircraft Destroyer"
+ automated_aircraft_destroyer_desc:0 "Automated Aircraft Destroyer"
+ automated_aircraft_destroyer_equipment:0 "Automated Aircraft Destroyer"
+ automated_aircraft_destroyer_equipment_desc:0 "Automated Aircraft Destroyer"
+
+ ambush_plannification_algorithms:0 "Ambush Plannification Algorithms"
+ ambush_plannification_algorithms_desc:0 "Ambush Plannification Algorithms"
+
  
  # AERIAL
  multirole_fighter:0 "Multirole Fighter "

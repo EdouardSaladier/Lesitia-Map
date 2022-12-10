@@ -40,7 +40,8 @@ technology_categories = {
 	###Tank tree
 	tank_tech
 	tank_tech_equipment
-	defense_platforms_tech
+	aa_defense_platforms_tech
+	at_defense_platforms_tech
 	heavy_defense_platforms_tech
 	assault_tank_tech
 	mbt_tank_tech

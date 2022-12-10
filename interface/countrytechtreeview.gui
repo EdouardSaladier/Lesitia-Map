@@ -718,7 +718,7 @@ guiTypes = {
 				
 			gridboxtype = {
 				name = "main_battle_tank_tree"
-				position = { x = 100 y = 0 }
+				position = { x = 100 y = 140 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -726,7 +726,7 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "armored_reconnaissance_vehicle_tree"
-				position = { x = 100 y = 0 }
+				position = { x = 100 y = 140 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -734,7 +734,7 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "air_cushion_fighting_vehicle_tree"
-				position = { x = 100 y = 0 }
+				position = { x = 100 y = 140 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

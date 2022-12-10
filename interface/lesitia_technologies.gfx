@@ -676,6 +676,52 @@ spriteTypes = {
 		name = "GFX_heavy_hovertank_medium"
 		texturefile = "gfx/interface/technologies/heavy_hovertank.dds"
 	}
+		
+	SpriteType = {
+		name = "GFX_anti_tank_defense_platform_medium"
+		texturefile = "gfx/interface/technologies/anti_tank_defense_platform.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_armored_threats_mitigator_medium"
+		texturefile = "gfx/interface/technologies/armored_threats_mitigator.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_anti_tank_weapon_system_medium"
+		texturefile = "gfx/interface/technologies/advanced_anti_tank_weapon_system.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tank_hunter_killer_medium"
+		texturefile = "gfx/interface/technologies/tank_hunter_killer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_anti_air_defense_platform_medium"
+		texturefile = "gfx/interface/technologies/anti_air_defense_platform.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_anti_aircraft_mobile_system_medium"
+		texturefile = "gfx/interface/technologies/anti_aircraft_mobile_system.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_self_propelled_air_denial_system_medium"
+		texturefile = "gfx/interface/technologies/self_propelled_air_denial_system.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_automated_aircraft_destroyer_medium"
+		texturefile = "gfx/interface/technologies/automated_aircraft_destroyer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ambush_plannification_algorithms_medium"
+		texturefile = "gfx/interface/technologies/ambush_plannification_algorithms.dds"
+	}
+
 	
 	### Tank Tree - Technologies
 	

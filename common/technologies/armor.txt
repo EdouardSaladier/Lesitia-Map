@@ -14,7 +14,9 @@ technologies = {
 	@1944 = 27
 	@1945 = 30
 	@1946 = 33
-	@computerised = -2
+	@antitank = -4
+	@computerised = -3
+	@airdef = -1
 	@activeprotec = 0
 	@center = 4
 	@quadrithread = 2
@@ -44,7 +46,12 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = active_protection_system
+			leads_to_tech = anti_tank_defense_platform
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = anti_air_defense_platform
 			research_cost_coeff = 1
 		}
 		
@@ -379,46 +386,20 @@ technologies = {
 			mbt_tank_tech
 		}
 	}
-		
-	active_protection_system = {
 	
-		path = {
-			leads_to_tech = mobile_defense_platform
-			research_cost_coeff = 1
-		}
-		
-		start_year = 1918
-		research_cost = 1.0
-		folder = {
-			name = armour_folder
-			position = { x = @activeprotec y = @1918 }
-		}
-
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			tank_tech
-			defense_platforms_tech
-			tank_tech_equipment
-		}
-	}
-	
-	mobile_defense_platform = {
+	anti_air_defense_platform = {
 
 		enable_equipments = {
-			mobile_defense_platform_equipment
+			anti_air_defense_platform_equipment
 		}
 		
 		path = {
-			leads_to_tech = computerized_fire_control_system
+			leads_to_tech = active_protection_system
 			research_cost_coeff = 1
 		}
-	
+		
 		path = {
-			leads_to_tech = automatic_radar_defense
+			leads_to_tech = anti_aircraft_mobile_system
 			research_cost_coeff = 1
 		}
 		
@@ -426,7 +407,85 @@ technologies = {
 		research_cost = 2.5
 		folder = {
 			name = armour_folder
-			position = { x = @activeprotec y = @1936 }
+			position = { x = @airdef y = @1936 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			tank_tech
+			aa_defense_platforms_tech
+			tank_tech_equipment
+		}
+	}
+		
+	active_protection_system = {
+		
+		start_year = 1937
+		research_cost = 1.35
+		folder = {
+			name = armour_folder
+			position = { x = @activeprotec y = @1937 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			tank_tech
+			aa_defense_platforms_tech
+		}
+	}
+	
+	anti_aircraft_mobile_system = {
+
+		enable_equipments = {
+			anti_aircraft_mobile_system_equipment
+		}
+		
+		path = {
+			leads_to_tech = automatic_radar_defense
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = self_propelled_air_denial_system
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1938
+		research_cost = 3.0
+		folder = {
+			name = armour_folder
+			position = { x = @airdef y = @1938 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			tank_tech
+			aa_defense_platforms_tech
+			tank_tech_equipment
+		}
+	}
+	
+	automatic_radar_defense = {
+		
+		path = {
+			leads_to_tech = electronic_counter_measure
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1939
+		research_cost = 1.65
+		folder = {
+			name = armour_folder
+			position = { x = @activeprotec y = @1939 }
 		}
 
 		
@@ -436,7 +495,161 @@ technologies = {
 		
 		categories = {
 			tank_tech
-			defense_platforms_tech
+			aa_defense_platforms_tech
+		}
+	}
+	
+	electronic_counter_measure = {
+		
+		start_year = 1940
+		research_cost = 1.85
+		folder = {
+			name = armour_folder
+			position = { x = @activeprotec  y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			tank_tech
+			aa_defense_platforms_tech
+		}
+	}
+	
+	self_propelled_air_denial_system = {
+
+		enable_equipments = {
+			self_propelled_air_denial_system_equipment
+		}
+		
+		path = {
+			leads_to_tech = quantum_well_infrared_photodetector
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = automated_aircraft_destroyer
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1941
+		research_cost = 4.2
+		folder = {
+			name = armour_folder
+			position = { x = @airdef y = @1941 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			tank_tech
+			aa_defense_platforms_tech
+			tank_tech_equipment
+		}
+	}
+	
+	quantum_well_infrared_photodetector = {
+	
+		path = {
+			leads_to_tech = directed_energy_defense_laser
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1942
+		research_cost = 2.6
+		folder = {
+			name = armour_folder
+			position = { x = @activeprotec y = @1942 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			tank_tech
+			aa_defense_platforms_tech
+		}
+	}
+	
+	automated_aircraft_destroyer = {
+
+		enable_equipments = {
+			automated_aircraft_destroyer_equipment
+		}
+		
+		start_year = 1943
+		research_cost = 6.0
+		folder = {
+			name = armour_folder
+			position = { x = @airdef y = @1943 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			tank_tech
+			aa_defense_platforms_tech
+			tank_tech_equipment
+		}
+	}
+	
+	directed_energy_defense_laser = {
+		
+		start_year = 1944
+		research_cost = 4.0
+		folder = {
+			name = armour_folder
+			position = { x = @activeprotec  y = @1944 }
+		}
+
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			tank_tech
+			aa_defense_platforms_tech
+		}
+	}
+	
+	anti_tank_defense_platform = {
+
+		enable_equipments = {
+			anti_tank_defense_platform_equipment
+		}
+		
+		path = {
+			leads_to_tech = computerized_fire_control_system
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = armored_threats_mitigator
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1936
+		research_cost = 2.5
+		folder = {
+			name = armour_folder
+			position = { x = @antitank y = @1936 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			tank_tech
+			at_defense_platforms_tech
 			tank_tech_equipment
 		}
 	}
@@ -449,7 +662,6 @@ technologies = {
 			name = armour_folder
 			position = { x = @computerised y = @1937 }
 		}
-
 		
 		ai_will_do = {
 			factor = 1
@@ -457,136 +669,56 @@ technologies = {
 		
 		categories = {
 			tank_tech
-			defense_platforms_tech
+			at_defense_platforms_tech
 		}
 	}
 	
-	automatic_radar_defense = {
-		
-		path = {
-			leads_to_tech = heavy_defense_platform
-			research_cost_coeff = 1
+	armored_threats_mitigator = {
+
+		enable_equipments = {
+			armored_threats_mitigator_equipment
 		}
-	
+		
 		path = {
 			leads_to_tech = threat_value_assessment
 			research_cost_coeff = 1
 		}
 		
 		path = {
-			leads_to_tech = electronic_counter_measure
+			leads_to_tech = advanced_anti_tank_weapon_system
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1937
-		research_cost = 1.35
+		start_year = 1939
+		research_cost = 3.3
 		folder = {
 			name = armour_folder
-			position = { x = @activeprotec y = @1937 }
+			position = { x = @antitank y = @1939 }
 		}
 
-		
 		ai_will_do = {
 			factor = 1
 		}
 		
 		categories = {
 			tank_tech
-			defense_platforms_tech
-		}
-	}
-	
-	heavy_defense_platform = {
-
-		enable_equipments = {
-			heavy_defense_platform_equipment
-		}
-		
-		start_year = 1938
-		research_cost = 3.0
-		folder = {
-			name = armour_folder
-			position = { x = @computerised  y = @1938 }
-		}
-
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			tank_tech
-			defense_platforms_tech
-			heavy_defense_platforms_tech
+			at_defense_platforms_tech
 			tank_tech_equipment
-		}
-	}
-	
-	electronic_counter_measure = {
-		
-		start_year = 1940
-		research_cost = 1.85
-		folder = {
-			name = armour_folder
-			position = { x = @computerised  y = @1940 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			tank_tech
-			defense_platforms_tech
 		}
 	}
 	
 	threat_value_assessment = {
 	
 		path = {
-			leads_to_tech = railgun_defense_platform
-			research_cost_coeff = 1
-		}
-		
-		start_year = 1939
-		research_cost = 1.65
-		folder = {
-			name = armour_folder
-			position = { x = @activeprotec y = @1939 }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			tank_tech
-			defense_platforms_tech
-			tank_tech_equipment
-		}
-	}
-	
-	railgun_defense_platform = {
-
-		enable_equipments = {
-			railgun_defense_platform_equipment
-		}
-	
-		path = {
-			leads_to_tech = quantum_well_infrared_photodetector
-			research_cost_coeff = 1
-		}
-		
-		path = {
-			leads_to_tech = multi_turreted_railgun_defense_platform
+			leads_to_tech = ambush_plannification_algorithms
 			research_cost_coeff = 1
 		}
 		
 		start_year = 1940
-		research_cost = 3.7
+		research_cost = 1.85
 		folder = {
 			name = armour_folder
-			position = { x = @activeprotec y = @1940 }
+			position = { x = @computerised y = @1940 }
 		}
 
 		ai_will_do = {
@@ -595,22 +727,45 @@ technologies = {
 		
 		categories = {
 			tank_tech
-			defense_platforms_tech
-			tank_tech_equipment
+			at_defense_platforms_tech
 		}
 	}
 	
-	multi_turreted_railgun_defense_platform = {
+	ambush_plannification_algorithms = {
+		
+		start_year = 1942
+		research_cost = 2.6
+		folder = {
+			name = armour_folder
+			position = { x = @computerised y = @1942 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			tank_tech
+			at_defense_platforms_tech
+		}
+	}
+	
+	advanced_anti_tank_weapon_system = {
 
 		enable_equipments = {
-			multi_turreted_railgun_defense_platform_equipment
+			advanced_anti_tank_weapon_system_equipment
+		}
+		
+		path = {
+			leads_to_tech = tank_hunter_killer
+			research_cost_coeff = 1
 		}
 		
 		start_year = 1941
 		research_cost = 4.2
 		folder = {
 			name = armour_folder
-			position = { x = @computerised  y = @1941 }
+			position = { x = @antitank y = @1941 }
 		}
 
 		ai_will_do = {
@@ -619,140 +774,31 @@ technologies = {
 		
 		categories = {
 			tank_tech
-			defense_platforms_tech
-			heavy_defense_platforms_tech
+			at_defense_platforms_tech
 			tank_tech_equipment
 		}
 	}
 	
-	quantum_well_infrared_photodetector = {
-	
-		path = {
-			leads_to_tech = directed_energy_defense_laser
-			research_cost_coeff = 1
-		}
-		
-		path = {
-			leads_to_tech = universal_counter_threat_platform
-			research_cost_coeff = 1
-		}
-		
-		start_year = 1941
-		research_cost = 2.1
-		folder = {
-			name = armour_folder
-			position = { x = @activeprotec y = @quantum }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			tank_tech
-			defense_platforms_tech
-		}
-	}
-	
-	directed_energy_defense_laser = {
-	
-		path = {
-			leads_to_tech = anti_airborne_threat_platform
-			research_cost_coeff = 1
-		}
-		
-		start_year = 1942
-		research_cost = 2.6
-		folder = {
-			name = armour_folder
-			position = { x = @computerised  y = @1942 }
-		}
-
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			tank_tech
-			defense_platforms_tech
-		}
-	}
-	
-	anti_airborne_threat_platform = {
+	tank_hunter_killer = {
 
 		enable_equipments = {
-			anti_airborne_threat_platform_equipment
-		}
-		
-		start_year = 1943
-		research_cost = 6.0
-		folder = {
-			name = armour_folder
-			position = { x = @computerised y = @1943 }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			tank_tech
-			defense_platforms_tech
-			tank_tech_equipment
-		}
-	}
-	
-	universal_counter_threat_platform = {
-
-		enable_equipments = {
-			universal_counter_threat_platform_equipment
-		}
-	
-		path = {
-			leads_to_tech = position_holding_counter_threat_platform
-			research_cost_coeff = 1
-		}
-		
-		start_year = 1943
-		research_cost = 6.0
-		folder = {
-			name = armour_folder
-			position = { x = @activeprotec y = @univ }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			tank_tech
-			defense_platforms_tech
-			tank_tech_equipment
-		}
-	}
-	
-	position_holding_counter_threat_platform = {
-
-		enable_equipments = {
-			position_holding_counter_threat_platform_equipment
+			tank_hunter_killer_equipment
 		}
 		
 		start_year = 1944
 		research_cost = 8.0
 		folder = {
 			name = armour_folder
-			position = { x = @computerised y = @1944 }
+			position = { x = @antitank y = @1944 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 		
 		categories = {
 			tank_tech
-			defense_platforms_tech
-			heavy_defense_platforms_tech
+			at_defense_platforms_tech
 			tank_tech_equipment
 		}
 	}
