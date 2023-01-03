@@ -61,6 +61,20 @@
  hovercraft_tech:0 "Hovercraft Technology"
  hovercraft_tech_equipment:0 "Hovercraft Equipment"
  
+ anti_air_defense_platform_brigade:0 "Anti-Air Defense Platform"
+ anti_tank_defense_platform_brigade:0 "Anti-Tank Defense Platform"
+ main_battle_tank_brigade:0 "Main Battle Tank"
+ assault_tank_brigade:0 "Assault Tank"
+ unmanned_ground_combat_tank_brigade:0 "Unmanned Ground Combat Tank"
+ armored_reconnaissance_vehicle_brigade:0 "Armored Reconnaissance Vehicle"
+ naval_assault_vehicle_brigade:0 "Naval Assault Vehicle"
+ 
+ category_all_armor:0 "All Armored Vehicles"
+ category_tanks:0 "All Tanks"
+ category_combat_vehicles:0 "All Combat Vehicles"
+ category_defense_platforms:0 "All Defense Platforms"
+
+ 
  ###Air tree
  air_tech:0 "Aircraft Technology"
  air_weapons_tech:0 "Aircraft Weapons Technology"

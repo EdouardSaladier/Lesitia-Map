@@ -36,8 +36,9 @@ technologies = {
 			main_battle_tank_equipment
 
 		}
+		
 		enable_subunits = {
-			light_armor
+			main_battle_tank_brigade
 		}
 	
 		path = {
@@ -153,6 +154,10 @@ technologies = {
 
 		enable_equipments = {
 			quadri_thread_assault_tank_equipment
+		}
+		
+		enable_subunits = {
+			assault_tank_brigade
 		}
 	
 		path = {
@@ -393,6 +398,10 @@ technologies = {
 			anti_air_defense_platform_equipment
 		}
 		
+		enable_subunits = {
+			anti_air_defense_platform_brigade
+		}
+		
 		path = {
 			leads_to_tech = active_protection_system
 			research_cost_coeff = 1
@@ -624,6 +633,10 @@ technologies = {
 
 		enable_equipments = {
 			anti_tank_defense_platform_equipment
+		}
+		
+		enable_subunits = {
+			anti_tank_defense_platform_brigade
 		}
 		
 		path = {
@@ -949,6 +962,10 @@ technologies = {
 		enable_equipments = {
 			unmanned_ground_combat_tank_equipment
 		}
+		
+		enable_subunits = {
+			unmanned_ground_combat_tank_brigade
+		}
 	
 		path = {
 			leads_to_tech = unmanned_railgun_carrier
@@ -1036,6 +1053,10 @@ technologies = {
 
 		enable_equipments = {
 			armored_reconnaissance_vehicle_equipment
+		}
+		
+		enable_subunits = {
+			armored_reconnaissance_vehicle_brigade
 		}
 	
 		path = {
@@ -1383,6 +1404,10 @@ technologies = {
 
 		enable_equipments = {
 			air_cushion_fighting_vehicle_equipment
+		}
+		
+		enable_subunits = {
+			naval_assault_vehicle_brigade
 		}
 	
 		path = {

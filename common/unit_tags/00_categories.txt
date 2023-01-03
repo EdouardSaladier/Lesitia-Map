@@ -13,6 +13,9 @@ sub_unit_categories = {
 	
 	category_support_battalions
 	category_all_armor
+	category_tanks
+	category_combat_vehicles
+	category_defense_platforms
 	
 	category_special_forces
 	
