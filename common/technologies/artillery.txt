@@ -86,7 +86,7 @@ technologies = {
 			leads_to_tech = stuff
 			research_cost_coeff = 1
 		}
-		category_line_artillery = {
+		field_artillery_brigade = {
 			soft_attack = 0.10
 		}
 
@@ -141,7 +141,7 @@ technologies = {
 		start_year = 1941
 		research_cost = 2.1
 
-		category_line_artillery = {
+		field_artillery_brigade = {
 			soft_attack = 0.15
 		}
 
@@ -268,13 +268,15 @@ technologies = {
 	}
 	
 	inertial_navigation_system = {
+	
+		precision_artillery_brigade = {
+			breakthrough = 0.1
+			soft_attack = 0.05
+		}
 		
 		path = {
 			leads_to_tech = stuff
 			research_cost_coeff = 1
-		}
-		category_line_artillery = {
-				maximum_speed  = 0.15
 		}
 
 		start_year = 1937
@@ -325,6 +327,10 @@ technologies = {
 	
 	fire_and_fuck_off = {
 		
+		precision_artillery_brigade = {
+			defense = 0.2
+			soft_attack = 0.1
+		}
 
 		start_year = 1939
 		research_cost = 1.65
@@ -356,7 +362,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-
 		start_year = 1940
 		research_cost = 3.7
 
@@ -374,6 +379,11 @@ technologies = {
 	
 	layered_electro_magnets = {
 		
+		precision_artillery_brigade = {
+			ap_attack = 0.25
+			hard_attack = 0.25
+			soft_attack = 0.15
+		}
 
 		start_year = 1942
 		research_cost = 2.6
@@ -400,7 +410,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-
 		start_year = 1943
 		research_cost = 6.0
 
@@ -422,7 +431,6 @@ technologies = {
 			horizonless_firepower_platform_equipment
 		}
 		
-
 		start_year = 1945
 		research_cost = 9.0
 
@@ -439,15 +447,16 @@ technologies = {
 	}
 	
 	telemetric_target_acquisition = {
+	
+		category_artillery = {
+			soft_attack = 0.1
+		}
 		
 		path = {
 			leads_to_tech = precision_measurements_optics
 			research_cost_coeff = 1
 		}
 		
-		category_line_artillery = {
-		recon  = 0.1
-		}
 		start_year = 1937
 		research_cost = 1.35
 
@@ -462,14 +471,17 @@ technologies = {
 	}
 	
 	precision_measurements_optics = {
+	
+		category_artillery = {
+			breakthrough = 0.1
+			soft_attack = 0.1
+		}
 		
 		path = {
 			leads_to_tech = guided_precision_shells
 			research_cost_coeff = 1
 		}
-		category_line_artillery = {
-		reliability = 0.1
-		}
+		
 		start_year = 1939
 		research_cost = 1.65
 
@@ -484,12 +496,17 @@ technologies = {
 	}
 	
 	guided_precision_shells = {
+	
+		category_artillery = {
+			ap_attack = 0.05
+			hard_attack = 0.05
+			soft_attack = 0.1
+		}
 		
 		path = {
 			leads_to_tech = joint_direct_attack_shells
 			research_cost_coeff = 1
 		}
-		
 
 		start_year = 1941
 		research_cost = 2.1
@@ -505,13 +522,17 @@ technologies = {
 	}
 	
 	joint_direct_attack_shells = {
+	
+		category_artillery = {
+			ap_attack = 0.15
+			hard_attack = 0.15
+			breakthrough = 0.1
+		}
 		
 		path = {
 			leads_to_tech = advanced_precision_laser_guidance_systems
 			research_cost_coeff = 1
 		}
-		
-
 		start_year = 1943
 		research_cost = 3.0
 
@@ -527,7 +548,10 @@ technologies = {
 	
 	advanced_precision_laser_guidance_systems = {
 		
-		
+		category_artillery = {
+			breakthrough = 0.2
+			soft_attact = 0.2
+		}
 
 		start_year = 1945
 		research_cost = 4.5
@@ -583,7 +607,7 @@ technologies = {
 		}
 		
 		enable_subunits = {
-			rocket_artillery_brigade
+			rocket_arty_brigade
 		}
 		
 		path = {
@@ -721,6 +745,11 @@ technologies = {
 	
 	tactical_ballistic_missiles = {
 	
+		enable_building = {
+			building = rocket_site
+			level = 1
+		}
+	
 		enable_equipments = {
 			tactical_ballistic_missiles_equipment
 		}
@@ -747,6 +776,11 @@ technologies = {
 	
 	theatre_ballistic_missiles = {
 	
+		enable_building = {
+			building = rocket_site
+			level = 2
+		}
+	
 		enable_equipments = {
 			theatre_ballistic_missiles_equipment
 		}
@@ -772,6 +806,11 @@ technologies = {
 	}
 	
 	intercontinental_ballistic_missiles = {
+	
+		enable_building = {
+			building = rocket_site
+			level = 3
+		}
 	
 		enable_equipments = {
 			intercontinental_ballistic_missiles_equipment
@@ -904,12 +943,16 @@ technologies = {
 	}
 	
 	flowstream_shape = {
+	
+		category_rocket_artillery = {
+			soft_attack = 0.15
+			air_attack = 0.1
+		}
 		
 		path = {
 			leads_to_tech = trilithium_propellant
 			research_cost_coeff = 1
 		}
-		
 
 		start_year = 1937
 		research_cost = 1.35
@@ -926,12 +969,17 @@ technologies = {
 	}
 	
 	trilithium_propellant = {
+	
+		category_rocket_artillery = {
+			soft_attack = 0.05
+			breakthrough = 0.10
+			air_attack = 0.05
+		}
 		
 		path = {
 			leads_to_tech = ionic_propellant
 			research_cost_coeff = 1
 		}
-		
 
 		start_year = 1939
 		research_cost = 1.65
@@ -948,6 +996,13 @@ technologies = {
 	}
 	
 	ionic_propellant = {
+	
+		category_rocket_artillery = {
+			soft_attack = 0.1
+			hard_attack = 3
+			ap_attack = 1
+			air_attack = 0.15
+		}
 	
 		path = {
 			leads_to_tech = stramjet_missiles
@@ -969,7 +1024,12 @@ technologies = {
 	}
 	
 	stramjet_missiles = {
-		
+	
+		category_rocket_artillery = {
+			soft_attack = 0.2
+			breakthrough = 0.15
+			air_attack = 0.2
+		}	
 
 		start_year = 1943
 		research_cost = 3.0
@@ -999,9 +1059,8 @@ technologies = {
 		}
 		
 		enable_subunits = {
-			anti_air_brigade
+			anti_air_arty_brigade
 		}
-		
 
 		start_year = 1918
 		research_cost = 2.0
@@ -1123,6 +1182,13 @@ technologies = {
 	}
 	
 	early_warning_radar_stations = {
+	
+		static_anti_air_hit_chance_factor = 0.15
+		coordination_bonus = 0.01
+		enable_building = {
+			building = radar_station
+			level = 2
+		}
 		
 		path = {
 			leads_to_tech = phased_array_warning_system
@@ -1144,6 +1210,13 @@ technologies = {
 	}
 	
 	phased_array_warning_system = {
+	
+		static_anti_air_hit_chance_factor = 0.2
+		coordination_bonus = 0.015
+		enable_building = {
+			building = radar_station
+			level = 4
+		}
 		
 		path = {
 			leads_to_tech = active_electronically_scanned_array
@@ -1165,6 +1238,13 @@ technologies = {
 	}
 	
 	active_electronically_scanned_array = {
+	
+		static_anti_air_hit_chance_factor = 0.25
+		coordination_bonus = 0.025
+		enable_building = {
+			building = radar_station
+			level = 6
+		}
 		
 		start_year = 1941
 		research_cost = 2.1

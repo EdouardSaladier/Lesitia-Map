@@ -34,6 +34,17 @@
  anti_air_tech:0 "Anti-Air Technology"
  radar_tech:0 "Radar Technology"
  
+ category_line_artillery:0 "Line Artillery"
+ category_regular_artillery:0 "All Regular Artillery"
+ category_rocket_artillery:0 "All Rocket Artillery"
+ category_aa_artillery:0 "All Anti-Air Artillery"
+ 
+ field_artillery_brigade:0 "Field Artillery"
+ precision_artillery_brigade:0 "Precision Artillery"
+ rocket_arty_brigade:0 "Rocket Artillery"
+ rocket_anti_air_brigade:0 "Air Defense Rocket Artillery"
+ anti_air_arty_brigade:0 "Air Defense Artillery"
+ 
  ###Tank tree
  tank_tech:0 "Tank Technology"
  tank_tech_equipment:0 "Tank Equipment"
