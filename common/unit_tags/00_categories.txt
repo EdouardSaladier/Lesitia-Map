@@ -12,6 +12,8 @@ sub_unit_categories = {
 	category_aa_artillery
 	
 	category_support_battalions
+	category_recon
+	
 	category_all_armor
 	category_tanks
 	category_combat_vehicles
@@ -19,5 +21,4 @@ sub_unit_categories = {
 	
 	category_special_forces
 	
-	category_tanks
 }

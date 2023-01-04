@@ -33,6 +33,11 @@ technologies = {
 	}
 	
 	reconnaissance_company = {
+	
+		enable_subunits = {
+			mot_recon_s_company
+			armored_car_recon_s_company
+		}
 		
 		path = {
 			leads_to_tech = fast_combat_assessment
@@ -75,6 +80,10 @@ technologies = {
 	}
 	
 	unmanned_reconnaissance_aerial_vehicle = {
+	
+		enable_subunits = {
+			drone_recon_s_company
+		}
 	
 		enable_equipments = {
 			unmanned_reconnaissance_aerial_vehicle_equipment
@@ -221,6 +230,10 @@ technologies = {
 	}
 	
 	engineer_company = {
+	
+		enable_subunits = {
+			engineer_s_company
+		}
 		
 		path = {
 			leads_to_tech = wire_mesh_container_fortifications
@@ -373,6 +386,10 @@ technologies = {
 	}
 	
 	logistics_company = {
+	
+		enable_subunits = {
+			logistics_s_company
+		}
 		
 		path = {
 			leads_to_tech = classes_of_supply_organisation
@@ -567,6 +584,10 @@ technologies = {
 	}
 	
 	medical_company = {
+	
+		enable_subunits = {
+			medical_s_company
+		}
 		
 		path = {
 			leads_to_tech = hemorrhage_control_equipment
@@ -756,6 +777,10 @@ technologies = {
 	}
 	
 	counter_insurgency_force = {
+	
+		enable_subunits = {
+			coin_s_company
+		}
 		
 		path = {
 			leads_to_tech = communication_interception_devices
@@ -924,6 +949,10 @@ technologies = {
 	}
 	
 	deployable_command_and_control_company = {
+	
+		enable_subunits = {
+			cc_s_company
+		}
 		
 		path = {
 			leads_to_tech = information_operations_teams

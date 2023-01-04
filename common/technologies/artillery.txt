@@ -21,6 +21,8 @@ technologies = {
 		
 		enable_subunits = {
 			field_artillery_brigade
+			motorised_field_artillery_brigade
+			field_artillery_support
 		}
 
 		path = {
@@ -212,6 +214,7 @@ technologies = {
 		
 		enable_subunits = {
 			precision_artillery_brigade
+			precision_artillery_support
 		}
 		
 		path = {
@@ -608,6 +611,7 @@ technologies = {
 		
 		enable_subunits = {
 			rocket_arty_brigade
+			rocket_arty_support
 		}
 		
 		path = {
@@ -839,6 +843,7 @@ technologies = {
 		
 		enable_subunits = {
 			rocket_anti_air_brigade
+			rocket_anti_air_support
 		}
 		
 		path = {
@@ -1060,6 +1065,7 @@ technologies = {
 		
 		enable_subunits = {
 			anti_air_arty_brigade
+			anti_air_arty_support
 		}
 
 		start_year = 1918

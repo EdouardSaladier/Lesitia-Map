@@ -12,11 +12,28 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_aerial_troops_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_aerial_troops_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_assault_forces_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_assault_forces_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_infiltrators_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_infiltrators_icon.dds" noOfFrames = 2 }
+	
 	spriteType = { name = "GFX_unit_field_artillery_brigade_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_field_artillery_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_motorised_field_artillery_brigade_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_motorised_field_artillery_brigade_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_precision_artillery_brigade_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_precision_artillery_brigade_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_rocket_arty_brigade_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_rocket_arty_brigade_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_rocket_anti_air_brigade_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_rocket_anti_air_brigade_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_anti_air_arty_brigade_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_anti_air_arty_brigade_icon.dds" noOfFrames = 2 }
+	
+	spriteType = { name = "GFX_unit_field_artillery_support_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/support_field_artillery_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_precision_artillery_support_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/support_precision_artillery_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_rocket_arty_support_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/support_rocket_arty_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_rocket_anti_air_support_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/support_rocket_anti_air_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_anti_air_arty_support_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/support_anti_air_arty_brigade_icon.dds" noOfFrames = 2 }
+	
+	spriteType = { name = "GFX_unit_armored_car_recon_s_company_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/support_ac_recon_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mot_recon_s_company_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/support_mot_recon_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_drone_recon_s_company_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/support_drone_recon_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_logistics_s_company_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/support_logistics_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medical_s_company_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/support_medic_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_cc_s_company_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/support_signal_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_coin_s_company_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/support_coin_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_engineer_s_company_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/support_engineer_icon.dds" noOfFrames = 2 }
 	
 	spriteType = { name = "GFX_unit_anti_air_defense_platform_brigade_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_anti_air_defense_platform_brigade_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_anti_tank_defense_platform_brigade_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_anti_tank_defense_platform_brigade_icon.dds" noOfFrames = 2 }
