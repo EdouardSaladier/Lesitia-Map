@@ -2,7 +2,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_ideology_despotism_group"
-		texturefile = "gfx/interface/ideologies/despotism.dds"
+		texturefile = "gfx/interface/ideologies/autoritarianism.dds"
 	}	
 
 	spriteType = {

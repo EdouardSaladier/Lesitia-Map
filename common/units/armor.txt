@@ -2,7 +2,7 @@ sub_units = {
 
 	anti_air_defense_platform_brigade = {
 		abbreviation = "AADP"
-		sprite = medium_armor
+		sprite = light_armor
 		map_icon_category = armored
 		priority = 301
 		ai_priority = 100
@@ -73,7 +73,7 @@ sub_units = {
 	
 	anti_tank_defense_platform_brigade = {
 		abbreviation = "ATDP"
-		sprite = "medium_armor"
+		sprite = light_armor
 		map_icon_category = armored
 		priority = 1796
 		ai_priority = 100
@@ -145,7 +145,7 @@ sub_units = {
 
 	main_battle_tank_brigade = {
 		abbreviation = "MBT"
-		sprite = "medium_armor"
+		sprite = medium_armor
 		map_icon_category = armored
 		priority = 2502
 		ai_priority = 3500
@@ -216,7 +216,7 @@ sub_units = {
 	
 	assault_tank_brigade = {
 		abbreviation = "AST"
-		sprite = medium_armor
+		sprite = heavy_armor
 		map_icon_category = armored
 		priority = 1796
 		ai_priority = 100
@@ -283,7 +283,7 @@ sub_units = {
 	
 	unmanned_ground_combat_tank_brigade = {
 		abbreviation = "UGCV"
-		sprite = "medium_armor"
+		sprite = medium_armor
 		map_icon_category = armored
 		priority = 2502
 		ai_priority = 3500
