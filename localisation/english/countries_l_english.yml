@@ -57,7 +57,7 @@
  EPS_ADJ:0 "Northern Fleet"
  
  SYM:0 "Symbiotic Federation"
- SYM_DEF:0 "the Symbiotic of Federation"
+ SYM_DEF:0 "the Symbiotic Federation"
  SYM_ADJ:0 "Symbiotic"
  
  BOR:0 "Borca"
@@ -103,6 +103,47 @@
  PLC:0 "Placeholder"
  PLC_DEF:0 "Placeholder"
  PLC_ADJ:0 "Placeholder"
+ 
+ VOS:0 "Voskra"
+ VOS_DEF:0 "the Voskran Region"
+ VOS_ADJ:0 "Voskran"
+ 
+ ETH:0 "Eth Republic"
+ ETH_DEF:0 "the Republic of Eth"
+ ETH_ADJ:0 "Ethian"
+ 
+ OAV:0 "Outer Avenska"
+ OAV_DEF:0 "the Outer Areas of Avenska"
+ OAV_ADJ:0 "Avenskan"
+ 
+ TER:0 "Termithia"
+ TER_DEF:0 "Termithia"
+ TER_ADJ:0 "Termithian"
+ 
+ LAV:0 "Lavido"
+ LAV_DEF:0 "the Republic of Lavido"
+ LAV_ADJ:0 "Lavidoan"
+ 
+ SED:0 "Seda"
+ SED_DEF:0 "the Seda Territory"
+ SED_ADJ:0 "Sedan"
+ 
+ TVA:0 "Tiveask Zone"
+ TVA_DEF:0 "the Tiveask Zone"
+ TVA_ADJ:0 "Tiveaskan"
+ 
+ KAK:0 "Kakrikea"
+ KAK_DEF:0 "the Kakriea State"
+ KAK_ADJ:0 "Kakrikean"
+ 
+ MAV:0 "Mavildea"
+ MAV_DEF:0 "the Mavildea Hive"
+ MAV_ADJ:0 "Mavildean"
+ 
+ ZHA:0 "Zhafollis"
+ ZHA_DEF:0 "the Zhafollis District"
+ ZHA_ADJ:0 "Zhafolean"
+ 
  
  
  

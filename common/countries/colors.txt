@@ -108,3 +108,43 @@ NUK = {
 	color = rgb { 38 38 38	}
 	color_ui = rgb { 38 38 38 }
 }
+VOS = {
+	color = rgb { 71 70 70 }
+	color_ui = rgb { 71 70 70 }
+}
+ETH = {
+	color = rgb { 153 76 0 }
+	color_ui = rgb { 153 76 0 }
+}
+OAV = {
+	color = rgb { 249 50 50 }
+	color_ui = rgb { 249 50 50 }
+}
+TER = {
+	color = rgb { 112 127 255 }
+	color_ui = rgb { 112 127 255 }
+}
+LAV = {
+	color = rgb { 182 21 21 }
+	color_ui = rgb { 182 21 21 }
+}
+SED = {
+	color = rgb { 203 208 135 }
+	color_ui = rgb { 203 208 135 }
+}
+TVA = {
+	color = rgb { 46 2 68 }
+	color_ui = rgb { 46 2 68 }
+}
+KAK = {
+	color = rgb { 6 51 201 }
+	color_ui = rgb { 6 51 201 }
+}
+MAV = {
+	color = rgb { 242 237 89 }
+	color_ui = rgb { 242 237 89 }
+}
+ZHA = {
+	color = rgb { 230 230 230 }
+	color_ui = rgb { 230 230 230 }
+}

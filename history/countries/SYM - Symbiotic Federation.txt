@@ -14,15 +14,19 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democracy = 72
-	revolutionarism = 14
-	supremacism = 3
-	corporatism = 11
+	revolutionarism = 11
+	technocracy = 2
+	democracy = 40
+	despotism = 30
+	theocracy = 2
+	corporatism = 5
+	supremacism = 10
+	unclassified = 0
 }
 
 create_country_leader = {
-	name = "Amber Pimpinella"
+	name = "Amber Azkrini"
 	desc = "SYM_Amber_desc"
-	picture = "portrait_amber_pimpinella.dds"
+	picture = "portrait_amber_azkrini.dds"
 	ideology = democracy_type
 }

@@ -11,6 +11,8 @@ state={
 		      7967 10
 	    }
 		add_core_of = SYM
+		add_core_of = KAK
+		add_claim_by = MAV
 		set_variable = { minority = 75 }
 		set_variable = { specie = 74 }
 	}

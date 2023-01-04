@@ -5,6 +5,7 @@ state={
 	history={
 		owner = GLR
 		add_core_of = GLR
+		add_core_of = AVN
 
 	}
 	

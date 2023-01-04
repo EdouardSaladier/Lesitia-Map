@@ -14,6 +14,7 @@ state={
 		      2791 15
 	    }
 		add_core_of = SYM
+		add_core_of = TVA
 		set_variable = { specie = 73 }
 	}
 	

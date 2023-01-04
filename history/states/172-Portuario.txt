@@ -8,6 +8,7 @@ state={
 		      14583 30
 	    }
 		add_core_of = SYM
+		add_core_of = SED
 		set_variable = { minority = 73 }
 		set_variable = { specie = 76 }
 	}

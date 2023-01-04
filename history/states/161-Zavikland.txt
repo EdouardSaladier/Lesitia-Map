@@ -8,6 +8,7 @@ state={
 		      1759 1
 	    }
 		add_core_of = SYM
+		add_core_of = KAK
 		set_variable = { specie = 75 }
 	}
 	

@@ -8,6 +8,8 @@ state={
 		      14537 10
 	    }
 		add_core_of = SYM
+		add_core_of = TVA
+		add_core_of = VRT
 		set_variable = { minority = 73 }
 		set_variable = { specie = 79 }
 	}

@@ -11,6 +11,7 @@ state={
 		      15430 15
 	    }
 		add_core_of = SYM
+		add_core_of = ETH
 		set_variable = { specie = 78 }
 	}
 	

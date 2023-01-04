@@ -8,6 +8,7 @@ state={
 		      8552 5
 	    }
 		add_core_of = SYM
+		add_core_of = KAK
 		set_variable = { minority = 75 }
 		set_variable = { specie = 76 }
 	}

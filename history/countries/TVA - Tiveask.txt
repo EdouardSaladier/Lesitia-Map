@@ -1,0 +1,28 @@
+capital = 201
+
+oob = "standard_templates"
+
+# Starting tech
+
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = corporatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	despotism = 20
+	supremacism = 20
+	democracy = 10
+	corporatism = 50
+}
+
+create_country_leader = {
+	name = "Tiveask Guard"
+	desc = "TVA_tiveask_desc"
+	picture = "portrait_tiveask_guard.dds"
+	ideology = corporatism_type 
+}

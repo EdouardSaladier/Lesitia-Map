@@ -5,6 +5,8 @@ state={
 	history={
 		owner = SYM
 		add_core_of = SYM
+		add_core_of = MAV
+		add_claim_by = KAK
 		set_variable = { specie = 75 }
 	}
 	

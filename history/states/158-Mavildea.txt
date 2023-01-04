@@ -11,6 +11,7 @@ state={
 		      13726 15
 	    }
 		add_core_of = SYM
+		add_core_of = MAV
 		set_variable = { specie = 74 }
 	}
 	

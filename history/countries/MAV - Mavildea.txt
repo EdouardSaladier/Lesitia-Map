@@ -1,0 +1,28 @@
+capital = 158
+
+oob = "standard_templates"
+
+# Starting tech
+
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = democracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	despotism = 0
+	supremacism = 10
+	democracy = 90
+	corporatism = 0
+}
+
+create_country_leader = {
+	name = "Maniare Fettuea"
+	desc = "MAV_maniare_desc"
+	picture = "portrait_maniare_fettua.dds"
+	ideology = democracy_type 
+}

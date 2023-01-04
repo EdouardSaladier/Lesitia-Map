@@ -1,0 +1,28 @@
+capital = 198
+
+oob = "standard_templates"
+
+# Starting tech
+
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = technocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	technocracy = 100
+	supremacism = 0
+	democracy = 0
+	corporatism = 0
+}
+
+create_country_leader = {
+	name = "Slez Zeas"
+	desc = "TER_slez_desc"
+	picture = "portrait_slez_zeas.dds"
+	ideology = technocracy_type 
+}
