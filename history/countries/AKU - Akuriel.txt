@@ -9,11 +9,18 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = unclassified
+	ruling_party = corporatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	unclassified = 100
+	corporatism = 100
+}
+
+create_country_leader = {
+	name = "Trade Prince Council"
+	desc = "aku_trade_prince_council_desc"
+	picture = "aku_trade_prince_council.dds"
+	ideology = corporatism_type
 }
