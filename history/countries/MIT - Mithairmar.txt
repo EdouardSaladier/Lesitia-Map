@@ -1,4 +1,4 @@
-capital = 1
+capital = 27
 
 oob = "standard_templates"
 
@@ -28,9 +28,9 @@ set_popularities = {
 	unclassified = 0
 }
 
-add_ideas = {
-	MIT_dummy
-}
+#add_ideas = {
+#	MIT_dummy
+#}
 
 create_country_leader = {
 	name = "Regency Council"

@@ -12,7 +12,7 @@ state={
 		1884 6357 6370 13473 13494 13561 20658 
 	}
 	manpower=7000
-	state_category=rual
+	state_category=rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -1553,7 +1553,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_3d_construction_printing_medium"
+		name = "GFX_three_dimension_construction_printing_medium"
 		texturefile = "gfx/interface/technologies/3d_construction_printing.dds"
 	}
 	

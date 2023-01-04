@@ -18,7 +18,7 @@ bookmarks = {
 		
 		"CMM"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = democracy
 			ideas = {
 			}
 			focuses = {

@@ -1215,8 +1215,8 @@
  additive_manufacturing_fake:0 "Additive Manufacturing"
  additive_manufacturing_desc:0 "TODO"
  
- 3d_construction_printing:0 "3-D Construction Printing"
- 3d_construction_printing_desc:0 "TODO"
+ three_dimension_construction_printing:0 "3-D Construction Printing"
+ three_dimension_construction_printing_desc:0 "TODO"
  
  nanomaterials_applications:0 "Nanomaterial Industrial Applications"
  nanomaterials_applications_fake:0 "Nanomaterial Industrial Applications"

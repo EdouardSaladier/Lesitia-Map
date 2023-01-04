@@ -272,7 +272,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = 3d_construction_printing
+			leads_to_tech = three_dimension_construction_printing
             research_cost_coeff = 1           
 		}
 
@@ -293,7 +293,7 @@ technologies = {
 		}
 	}
 	
-	3d_construction_printing = {
+	three_dimension_construction_printing = {
 
 		start_year = 1941
 		research_cost = 3.15

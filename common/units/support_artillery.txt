@@ -46,7 +46,7 @@ sub_units = {
 
 		can_be_parachuted = yes
 		
-		same_support_type = regular_artillery
+		#same_support_type = regular_artillery #gives error? can't tell where is it defined
 		
 	}
 	
@@ -96,7 +96,7 @@ sub_units = {
 
 		can_be_parachuted = yes
 		
-		same_support_type = regular_artillery
+		#same_support_type = regular_artillery #gives error? can't tell where is it defined
 		
 	}
 	
@@ -147,7 +147,7 @@ sub_units = {
 
 		can_be_parachuted = yes
 		
-		same_support_type = rocket_artillery
+		#same_support_type = rocket_artillery #gives error? can't tell where is it defined
 	}
 	
 	rocket_anti_air_support = {
@@ -199,7 +199,7 @@ sub_units = {
 
 		can_be_parachuted = yes
 		
-		same_support_type = rocket_artillery
+		#same_support_type = rocket_artillery #gives error? can't tell where is it defined
 	}
 	
 	anti_air_arty_support = {

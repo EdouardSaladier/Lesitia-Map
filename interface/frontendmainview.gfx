@@ -10,7 +10,7 @@ spriteTypes = {
 		
 	spriteType = {
 		name = "GFX_frontend_game_logo"
-		texturefile = "gfx/interface/title.tga"
+		texturefile = "gfx/interface/logo_game.dds"
 	}
 
 	spriteType = {

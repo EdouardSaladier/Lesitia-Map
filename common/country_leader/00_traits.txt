@@ -2559,10 +2559,6 @@ leader_traits = {
 		
 		ai_will_do = {
 			factor = 3
-			modifier = {
-				factor = 0
-				has_navy_size = { unit = carrier size < 1 }
-			}
 		}
 	}
 

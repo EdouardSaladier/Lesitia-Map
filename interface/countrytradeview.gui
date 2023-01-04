@@ -669,6 +669,15 @@ guiTypes = {
 			maxHeight = 28
 			format = left
 		}
+
+		buttonType = {
+			name = "cancel_imports"
+			position = { x= 10 y= 75 }
+			pdx_tooltip = "CANCEL_RESOURCE_IMPORT"
+			quadTextureSprite ="GFX_cancel_import_button"
+			clicksound = click_default
+			scale = 0.6
+		}
 	}
 	
 	containerWindowType = {

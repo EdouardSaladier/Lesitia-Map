@@ -157,7 +157,7 @@ peace_action_modifiers = {
         peace_action_type = liberate
         enable = {
             ROOT = { has_government = democracy }
-            ROOT.FROM = { has_government = democratic }
+            ROOT.FROM = { has_government = democracy }
         }
         cost_multiplier = 0.9
     }
@@ -270,17 +270,17 @@ peace_action_modifiers = {
         cost_multiplier = 1.05
     }
 
-
-    dormant_national_identity = {
-        peace_action_type = liberate
-        enable = {
-            FROM = {
-                is_unlikely_country_tag = yes
-            }
-        }
-        cost_multiplier = 1.25
-    }
-
+#
+#    dormant_national_identity = {
+#        peace_action_type = liberate
+#        enable = {
+#            FROM = {
+#                is_unlikely_country_tag = yes
+#            }
+#        }
+#        cost_multiplier = 1.25
+#    }
+#
 
     war_of_independence = {
         category = other

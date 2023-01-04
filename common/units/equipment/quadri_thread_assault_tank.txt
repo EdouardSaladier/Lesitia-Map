@@ -50,7 +50,7 @@ equipments = {
 
 	quadri_thread_assault_tank_equipment = {
 		year = 1941
-		archetype = mobile_defense_platform_equipment_arch
+		archetype = quadri_thread_assault_tank_equipment_arch
 		priority = 70
 		visual_level = 1
 		
@@ -83,7 +83,7 @@ equipments = {
 	
 	assault_railgun_carrier_equipment = {
 		year = 1941
-		archetype = mobile_defense_platform_equipment_arch
+		archetype = quadri_thread_assault_tank_equipment_arch
 		priority = 70
 		visual_level = 1
 		
@@ -116,7 +116,7 @@ equipments = {
 	
 	fortification_breakthrough_battlestation_equipment = {
 		year = 1941
-		archetype = mobile_defense_platform_equipment_arch
+		archetype = quadri_thread_assault_tank_equipment_arch
 		priority = 70
 		visual_level = 1
 		

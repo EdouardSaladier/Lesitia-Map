@@ -2,13 +2,6 @@
 	gfx = GFX_theatre_army_shield
 	
 	icon = {
-		#Example of icon script, corresponding to the frame index in the .dds files
-		#color_override = no
-		#name = "EQUAL_ICON"
-		#available = 
-		#{
-		#	tag = CHI
-		#}
 	}
 	icon = {
 	}
@@ -37,30 +30,228 @@
 	icon = {
 	}
 	icon = {
+		available = { always = no }
 	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	icon = {
+		available = { always = no }
+	}
+	
+}
+
+army_group = {
+	gfx = GFX_theatre_army_group_shield
+	
 	icon = {
 	}
 	icon = {
+		available = { always = no }
 	}
 	icon = {
+		available = { always = no }
 	}
 	icon = {
+		available = { always = no }
 	}
 	icon = {
+		available = { always = no }
 	}
 	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
+		available = { always = no }
 	}
 }
 
