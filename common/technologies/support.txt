@@ -34,6 +34,10 @@ technologies = {
 	
 	reconnaissance_company = {
 	
+		dependencies = {
+            main_support_equipment_tech = 1
+        }
+	
 		enable_subunits = {
 			mot_recon_s_company
 			armored_car_recon_s_company
@@ -231,6 +235,10 @@ technologies = {
 	
 	engineer_company = {
 	
+		dependencies = {
+            main_support_equipment_tech = 1
+        }
+	
 		enable_subunits = {
 			engineer_s_company
 		}
@@ -386,6 +394,11 @@ technologies = {
 	}
 	
 	logistics_company = {
+	
+		dependencies = {
+            main_support_equipment_tech = 1
+			logistic_vehicle_system = 1
+        }
 	
 		enable_subunits = {
 			logistics_s_company
@@ -585,6 +598,11 @@ technologies = {
 	
 	medical_company = {
 	
+		dependencies = {
+            main_support_equipment_tech = 1
+			logistic_vehicle_system = 1
+        }
+	
 		enable_subunits = {
 			medical_s_company
 		}
@@ -778,6 +796,11 @@ technologies = {
 	
 	counter_insurgency_force = {
 	
+		dependencies = {
+            main_support_equipment_tech = 1
+			logistic_vehicle_system = 1
+        }
+	
 		enable_subunits = {
 			coin_s_company
 		}
@@ -949,6 +972,11 @@ technologies = {
 	}
 	
 	deployable_command_and_control_company = {
+	
+		dependencies = {
+            main_support_equipment_tech = 1
+			logistic_vehicle_system = 1
+        }
 	
 		enable_subunits = {
 			cc_s_company

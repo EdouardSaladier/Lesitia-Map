@@ -1,6 +1,6 @@
 sub_units = {
 
-	drone_recon_s_company = { #trucks, motorcyles, ill-placed cars
+	drone_recon_s_company = {
 		abbreviation = "DREC"
 		sprite = infantry
 		map_icon_category = infantry
@@ -21,7 +21,6 @@ sub_units = {
 			category_recon
 		}
 
-	
 		combat_width = 0
 	
 		#Size Definitions
@@ -34,14 +33,8 @@ sub_units = {
 		#Misc Abilities
 		weight 				= 0.1
 		supply_consumption 	= 0.02
-		recon 				= 1.5
+		recon 				= 2
 		can_be_parachuted 	= yes
-
-		# Support nerfs to combat abilities
-		defense = -0.09
-		breakthrough = -0.5
-		soft_attack = -0.9
-		hard_attack = -0.9
 		
 		essential = {
 			main_support_equipment
@@ -50,7 +43,7 @@ sub_units = {
 		transport = motorized_equipment
 		
 		need = {
-			main_support_equipment = 10
+			urav_equipment = 40
 		}
 
 		forest = {
@@ -117,23 +110,15 @@ sub_units = {
 		supply_consumption 	= 0.02
 		recon 				= 1.5
 		can_be_parachuted 	= yes
-
-		# Support nerfs to combat abilities
-		defense = -0.09
-		breakthrough = -0.5
-		soft_attack = -0.9
-		hard_attack = -0.9
 		
 		essential = {
-			infantry_equipment
 			main_support_equipment
 			motorized_equipment
 		}
 
 		transport = motorized_equipment
 		need = {
-			infantry_equipment = 40
-			main_support_equipment = 10
+			main_support_equipment = 20
 			motorized_equipment = 20
 		}
 
@@ -212,7 +197,7 @@ sub_units = {
 		}
 
 		need = {
-			armored_reconnaissance_vehicle_equipment_arch = 25
+			armored_reconnaissance_vehicle_equipment_arch = 20
 		}
 
 		forest = {
@@ -280,19 +265,16 @@ sub_units = {
 		
 		entrenchment  = 5
 
-				
-		defense = 0.1
-		breakthrough = 0.5
-
 		essential = {
 			main_support_equipment
 		}
 
 		need = {
-			main_support_equipment = 30
+			main_support_equipment = 40
 		}
 
 		can_be_parachuted = yes
+		
 		forest = {
 			defence = 0.25
 			movement = 0.05
@@ -375,7 +357,7 @@ sub_units = {
 		}
 
 		need = {
-			main_support_equipment = 30
+			main_support_equipment = 40
 			motorized_equipment = 20
 		}
 
@@ -428,7 +410,7 @@ sub_units = {
 		}
 		
 		need = {
-			main_support_equipment = 30
+			main_support_equipment = 40
 			motorized_equipment = 20
 		}
 	}
@@ -529,7 +511,7 @@ sub_units = {
 		}
 
 		need = {
-			main_support_equipment = 30
+			main_support_equipment = 40
 			motorized_equipment = 20
 		}
 

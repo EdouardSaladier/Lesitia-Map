@@ -68,7 +68,7 @@ equipments = {
 	}
 
 	conventional_firearms_equipment = {
-		year = 1918
+		year = 1924
 	
 		archetype = infantry_equipment
 		active = yes
@@ -120,7 +120,7 @@ equipments = {
 	}
 	
 	solid_state_laser_equipment = {
-		year = 1918
+		year = 1939
 	
 		archetype = infantry_equipment
 		active = yes
@@ -149,7 +149,7 @@ equipments = {
 	}
 	
 	arc_laser_equipment = {
-		year = 1918
+		year = 1942
 	
 		archetype = infantry_equipment
 		active = yes
@@ -178,7 +178,7 @@ equipments = {
 	}
 	
 	uv_laser_equipment = {
-		year = 1918
+		year = 1945	
 	
 		archetype = infantry_equipment
 		active = yes
@@ -279,7 +279,7 @@ equipments = {
 	}
 	
 	at_missiles_equipment = {
-		year = 1918
+		year = 1936
 	
 		archetype = inf_at_equipment
 		active = yes
@@ -365,7 +365,7 @@ equipments = {
 	}
 	
 	plasma_railguns_equipment = {
-		year = 1944
+		year = 1945
 	
 		archetype = inf_at_equipment
 		active = yes
