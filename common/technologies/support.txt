@@ -63,6 +63,10 @@ technologies = {
 	}
 	
 	fast_combat_assessment = {
+	
+		category_recon = {
+			recon = 1
+		}
 		
 		path = {
 			leads_to_tech = unmanned_reconnaissance_aerial_vehicle
@@ -84,6 +88,10 @@ technologies = {
 	}
 	
 	unmanned_reconnaissance_aerial_vehicle = {
+	
+		category_recon = {
+			recon = 3
+		}
 	
 		enable_subunits = {
 			drone_recon_s_company
@@ -119,6 +127,10 @@ technologies = {
 	}
 	
 	forward_air_control = {
+	
+		drone_recon_s_company = {
+			breakthrough = 0.1
+		}
 		
 		path = {
 			leads_to_tech = tactical_air_control_party
@@ -140,6 +152,10 @@ technologies = {
 	}
 	
 	miniature_urav = {
+	
+		category_recon = {
+			recon = 2
+		}
 	
 		enable_equipments = {
 			miniature_urav_equipment
@@ -171,6 +187,10 @@ technologies = {
 	}
 	
 	tactical_air_control_party = {
+	
+		drone_recon_s_company = {
+			breakthrough = 0.15
+		}
 		
 		path = {
 			leads_to_tech = joint_terminal_attack_controller
@@ -192,6 +212,10 @@ technologies = {
 	}
 	
 	micro_urav = {
+	
+		category_recon = {
+			recon = 2
+		}
 	
 		enable_equipments = {
 			micro_urav_equipment
@@ -218,6 +242,10 @@ technologies = {
 	}
 	
 	joint_terminal_attack_controller = {
+	
+		drone_recon_s_company = {
+			breakthrough = 0.25
+		}
 		
 		start_year = 1945
 		research_cost = 6.75
@@ -263,6 +291,12 @@ technologies = {
 	}
 	
 	wire_mesh_container_fortifications = {
+	
+		dig_in_speed_factor = 0.5
+		
+		engineer_s_company = {
+			entrenchment  = 2
+		}
 		
 		path = {
 			leads_to_tech = armored_earth_mover
@@ -294,6 +328,15 @@ technologies = {
 	}
 	
 	anti_personnel_obstacle_breaching_system = {
+	
+		engineer_s_company = {
+			urban = {
+				attack = 0.2
+			}
+			fort = {
+				attack = 0.2
+			}
+		}
 		
 		start_year = 1939
 		research_cost = 2.5
@@ -313,6 +356,13 @@ technologies = {
 	
 		enable_equipments = {
 			armored_earth_mover_equipment
+		}
+		
+		engineer_s_company = {
+			need = {
+				earth_mover_equipment = 10
+			}
+			entrenchment  = 5
 		}
 		
 		path = {
@@ -337,6 +387,11 @@ technologies = {
 	
 	steel_reinforced_concrete_blast_walls = {
 	
+		cas_damage_reduction = 0.1
+		engineer_s_company = {
+			entrenchment  = 3
+		}
+	
 		path = {
 			leads_to_tech = fast_spraying_concrete
 			research_cost_coeff = 1
@@ -357,6 +412,12 @@ technologies = {
 	}
 	
 	fast_spraying_concrete = {
+	
+		dig_in_speed_factor = 0.5
+	
+		engineer_s_company = {
+			entrenchment  = 2
+		}
 		
 		start_year = 1942
 		research_cost = 3.9
@@ -373,6 +434,15 @@ technologies = {
 	}
 	
 	armored_vehicle_launched_bridge = {
+	
+		engineer_s_company = {
+			need = {
+				vehicle_launched_bridge_equipment = 10
+			}
+			river = {
+				attack = 0.4
+			}
+		}
 	
 		enable_equipments = {
 			armored_vehicle_launched_bridge_equipment
@@ -430,6 +500,13 @@ technologies = {
 	
 	classes_of_supply_organisation = {
 	
+		supply_factor = 0.05
+	
+		logistics_s_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+	
 		path = {
 			leads_to_tech = logistics_support_analysis
 			research_cost_coeff = 1
@@ -451,6 +528,11 @@ technologies = {
 	
 	reliability_centered_maintenance = {
 	
+		logistics_s_company = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+	
 		path = {
 			leads_to_tech = armored_repair_and_recovery_vehicle
 			research_cost_coeff = 1
@@ -471,6 +553,14 @@ technologies = {
 	}
 	
 	armored_repair_and_recovery_vehicle = {
+	
+		logistics_s_company = {
+			need = {
+				repair_and_recovery_vehicle_equipment = 10
+			}
+			reliability_factor = 0.15
+			equipment_capture_factor = 0.15
+		}
 	
 		enable_equipments = {
 			armored_repair_and_recovery_vehicle_equipment
@@ -498,6 +588,13 @@ technologies = {
 	
 	logistics_support_analysis = {
 	
+		army_org_regain = 0.1
+	
+		logistics_s_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+	
 		path = {
 			leads_to_tech = level_of_repair_analysis
 			research_cost_coeff = 1
@@ -524,6 +621,11 @@ technologies = {
 	
 	level_of_repair_analysis = {
 	
+		logistics_s_company = {
+			reliability_factor = 0.1
+			equipment_capture_factor = 0.1
+		}
+	
 		path = {
 			leads_to_tech = built_in_test_equipment
 			research_cost_coeff = 1
@@ -545,6 +647,11 @@ technologies = {
 	
 	built_in_test_equipment = {
 	
+		logistics_s_company = {
+			reliability_factor = 0.15
+			equipment_capture_factor = 0.15
+		}
+	
 		start_year = 1942
 		research_cost = 3.9
 
@@ -560,6 +667,14 @@ technologies = {
 	}
 	
 	forward_area_refuelling_point = {
+	
+		supply_node_range = 0.25
+		truck_attrition_factor = -0.25
+		
+		logistics_s_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
 	
 		path = {
 			leads_to_tech = choke_point_prevention_algorithms
@@ -581,6 +696,13 @@ technologies = {
 	}
 	
 	choke_point_prevention_algorithms = {
+	
+		supply_factor = 0.25
+		
+		logistics_s_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
 		
 		start_year = 1943	
 		research_cost = 4.5
@@ -628,6 +750,14 @@ technologies = {
 	
 	hemorrhage_control_equipment = {
 	
+		medical_s_company = {
+			need = {
+				hemorrhage_equipment = 20
+			}
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.10
+		}
+	
 		enable_equipments = {
 			hemorrhage_control_equipment_equipment
 		}
@@ -658,6 +788,11 @@ technologies = {
 	}
 	
 	airway_management = {
+	
+		medical_s_company = {
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.10
+		}
 		
 		path = {
 			leads_to_tech = automatic_drug_injectors
@@ -679,6 +814,11 @@ technologies = {
 	}
 	
 	automatic_drug_injectors = {
+	
+		org_loss_at_low_org_factor = -0.2
+		category_all_infantry = {
+			army_org = 5
+		}
 		
 		start_year = 1939
 		research_cost = 2.5
@@ -695,6 +835,11 @@ technologies = {
 	}
 	
 	synthetic_blood_transfusion = {
+	
+		medical_s_company = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.10
+		}
 		
 		path = {
 			leads_to_tech = fast_wound_sealant
@@ -716,6 +861,11 @@ technologies = {
 	}
 	
 	fast_wound_sealant = {
+	
+		medical_s_company = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.1
+		}
 		
 		path = {
 			leads_to_tech = fast_organ_regeneration
@@ -742,6 +892,13 @@ technologies = {
 	}
 	
 	fast_organ_regeneration = {
+	
+		army_org_regain = 0.15
+	
+		medical_s_company = {
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.1
+		}
 		
 		path = {
 			leads_to_tech = artificial_organs
@@ -763,6 +920,10 @@ technologies = {
 	}
 	
 	artificial_organs = {
+	
+		category_all_infantry = {
+			army_org = 5
+		}
 		
 		start_year = 1943
 		research_cost = 4.5
@@ -779,6 +940,11 @@ technologies = {
 	}
 	
 	head_trauma_medical_gel = {
+	
+		medical_s_company = {
+			casualty_trickleback = 0.2
+			experience_loss_factor = -0.2
+		}
 		
 		start_year = 1944
 		research_cost = 6.0
@@ -826,6 +992,11 @@ technologies = {
 	
 	communication_interception_devices = {
 	
+		resistance_damage_to_garrison = -0.1
+		coin_s_company = {
+			suppression_factor = 0.1
+		}
+	
 		path = {
 			leads_to_tech = operational_surveillance_system
 			research_cost_coeff = 1
@@ -852,6 +1023,13 @@ technologies = {
 	
 	mine_resistant_protected_vehicle = {
 	
+		coin_s_company = {
+			need = {
+				mine_resistant_vehicle_equipment = 20
+			}
+			suppression_factor = 0.1
+		}
+	
 		enable_equipments = {
 			mine_resistant_protected_vehicle_equipment
 		}
@@ -877,6 +1055,11 @@ technologies = {
 	}
 	
 	vehicle_jammer_system = {
+	
+		resistance_damage_to_garrison = -0.1	
+		coin_s_company = {
+			suppression_factor = 0.1
+		}
 		
 		start_year = 1939
 		research_cost = 2.5
@@ -893,6 +1076,11 @@ technologies = {
 	}
 	
 	operational_surveillance_system = {
+	
+		required_garrison_factor = -0.1
+		coin_s_company = {
+			suppression_factor = 0.1
+		}
 		
 		path = {
 			leads_to_tech = wide_area_motion_imagery
@@ -914,6 +1102,8 @@ technologies = {
 	}
 	
 	wide_area_motion_imagery = {
+	
+		required_garrison_factor = -0.15
 		
 		path = {
 			leads_to_tech = behavioral_pattern_analysis
@@ -940,6 +1130,11 @@ technologies = {
 	}
 	
 	behavioral_pattern_analysis = {
+	
+		resistance_damage_to_garrison = -0.1
+		coin_s_company = {
+			suppression_factor = 0.1
+		}
 		
 		start_year = 1941
 		research_cost = 3.15
@@ -956,6 +1151,11 @@ technologies = {
 	}
 	
 	global_security_monitoring = {
+	
+		required_garrison_factor = -0.25
+		coin_s_company = {
+			suppression_factor = 0.1
+		}
 		
 		start_year = 1942
 		research_cost = 3.9
@@ -1003,6 +1203,12 @@ technologies = {
 	
 	information_operations_teams = {
 	
+		compliance_growth = 0.05
+		
+		cc_s_company = {
+			initiative = 0.1
+		}
+	
 		path = {
 			leads_to_tech = tactical_operations_center_vehicle
 			research_cost_coeff = 1
@@ -1028,6 +1234,14 @@ technologies = {
 	}
 	
 	computer_network_operations = {
+	
+		org_loss_when_moving = -0.1
+		
+		cc_s_company = {
+			initiative = 0.1
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
 		
 		path = {
 			leads_to_tech = signal_intelligence_units
@@ -1049,6 +1263,13 @@ technologies = {
 	}
 	
 	signal_intelligence_units = {
+	
+		compliance_growth = 0.1
+	
+		cc_s_company = {
+			initiative = 0.1
+			breakthrough = 0.1
+		}
 		
 		path = {
 			leads_to_tech = electronic_warfare_support_measures
@@ -1070,6 +1291,14 @@ technologies = {
 	}
 	
 	electronic_warfare_support_measures = {
+	
+		org_loss_when_moving = -0.1
+		
+		cc_s_company = {
+			initiative = 0.1
+			soft_attack = 0.25
+			hard_attack = 0.25
+		}
 		
 		start_year = 1942
 		research_cost = 3.9
@@ -1086,6 +1315,13 @@ technologies = {
 	}
 	
 	tactical_operations_center_vehicle = {
+	
+		cc_s_company = {
+			need = {
+				operations_center_vehicle_equipment = 20
+			}
+			initiative = 0.2
+		}
 	
 		enable_equipments = {
 			tactical_operations_center_vehicle_equipment
@@ -1112,6 +1348,14 @@ technologies = {
 	}
 	
 	joint_tactical_information_distribution_system = {
+	
+		max_planning_factor = 0.1	
+		planning_speed = 0.1
+	
+		cc_s_company = {
+			initiative = 0.1
+			breakthrough = 0.15
+		}
 		
 		path = {
 			leads_to_tech = mobile_headquarters_support_vehicle
@@ -1159,6 +1403,17 @@ technologies = {
 	}
 	
 	global_information_grid = {
+	
+		max_planning_factor = 0.2	
+		planning_speed = 0.2
+	
+		cc_s_company = {
+			initiative = 0.1
+			breakthrough = 0.25
+		}
+		
+		soft_attack = 0.15
+			hard_attack = 0.15
 		
 		path = {
 			leads_to_tech = heavy_command_battlestation
