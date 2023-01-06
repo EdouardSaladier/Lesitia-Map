@@ -16,7 +16,7 @@ sub_units = {
 		group = armor
 		
 		categories = {
-			category_defense_platforms
+			category_aa_defense_platforms
 			category_front_line
 			category_all_armor
 			category_army
@@ -87,7 +87,7 @@ sub_units = {
 		group = armor
 		
 		categories = {
-			category_defense_platforms
+			category_at_defense_platforms
 			category_front_line
 			category_all_armor
 			category_army
@@ -371,6 +371,7 @@ sub_units = {
 		
 		categories = {
 			category_combat_vehicles
+			category_armored_cars
 			category_front_line
 			category_all_armor
 			category_army

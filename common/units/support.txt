@@ -169,6 +169,7 @@ sub_units = {
 			category_support_battalions
 			category_army
 			category_recon
+			category_armored_cars
 		}
 
 		combat_width = 0

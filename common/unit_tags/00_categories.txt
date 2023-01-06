@@ -17,7 +17,9 @@ sub_unit_categories = {
 	category_all_armor
 	category_tanks
 	category_combat_vehicles
-	category_defense_platforms
+	category_aa_defense_platforms
+	category_at_defense_platforms
+	category_armored_cars
 	
 	category_special_forces
 	

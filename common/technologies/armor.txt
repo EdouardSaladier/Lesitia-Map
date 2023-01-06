@@ -118,6 +118,10 @@ technologies = {
 	
 	titanium_carbide_modular_armor = {
 	
+		category_all_armor = {
+			armor_value = 0.15
+		}
+	
 		path = {
 			leads_to_tech = carbon_silicate_lace_plating
 			research_cost_coeff = 1
@@ -185,6 +189,10 @@ technologies = {
 	}
 	
 	assault_railgun_carrier = {
+	
+		dependencies = {
+            railgun = 1
+        }
 
 		enable_equipments = {
 			assault_railgun_carrier_equipment
@@ -241,6 +249,10 @@ technologies = {
 	
 	carbon_silicate_lace_plating = {
 	
+		category_all_armor = {
+			armor_value = 0.2
+		}
+	
 		path = {
 			leads_to_tech = electromagnetic_armor
 			research_cost_coeff = 1
@@ -266,6 +278,10 @@ technologies = {
 	
 	electromagnetic_armor = {
 	
+		category_all_armor = {
+			armor_value = 0.25
+		}
+	
 		path = {
 			leads_to_tech = self_repairing_components
 			research_cost_coeff = 1
@@ -290,6 +306,11 @@ technologies = {
 	}
 	
 	self_repairing_components = {
+	
+		category_all_armor = {
+			armor_value = 0.3
+			reliability = 0.1
+		}
 		
 		start_year = 1942
 		research_cost = 2.6
@@ -339,6 +360,10 @@ technologies = {
 	}
 	
 	general_purpose_railgun_carrier = {
+	
+		dependencies = {
+            railgun = 1
+        }
 
 		enable_equipments = {
 			general_purpose_railgun_carrier_equipment
@@ -431,6 +456,14 @@ technologies = {
 	}
 		
 	active_protection_system = {
+	
+		category_all_armor = {
+			soft_attack = 0.05
+			defense = 0.1
+		}
+		category_aa_defense_platforms = {
+			air_attack = 0.1
+		}
 		
 		start_year = 1937
 		research_cost = 1.35
@@ -484,6 +517,10 @@ technologies = {
 	}
 	
 	automatic_radar_defense = {
+	
+		category_aa_defense_platforms = {
+			air_attack = 0.15
+		}
 		
 		path = {
 			leads_to_tech = electronic_counter_measure
@@ -509,6 +546,11 @@ technologies = {
 	}
 	
 	electronic_counter_measure = {
+	
+		category_aa_defense_platforms = {
+			defense = 0.2
+			air_attack = 0.1
+		}
 		
 		start_year = 1940
 		research_cost = 1.85
@@ -563,6 +605,10 @@ technologies = {
 	
 	quantum_well_infrared_photodetector = {
 	
+		category_aa_defense_platforms = {
+			air_attack = 0.25
+		}
+	
 		path = {
 			leads_to_tech = directed_energy_defense_laser
 			research_cost_coeff = 1
@@ -610,6 +656,10 @@ technologies = {
 	}
 	
 	directed_energy_defense_laser = {
+	
+		category_aa_defense_platforms = {
+			air_attack = 0.25
+		}
 		
 		start_year = 1944
 		research_cost = 4.0
@@ -668,6 +718,14 @@ technologies = {
 	}
 	
 	computerized_fire_control_system = {
+	
+		category_all_armor = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+		category_aa_defense_platforms = {
+			ap_attack = 0.1
+		}
 		
 		start_year = 1937
 		research_cost = 1.35
@@ -722,6 +780,12 @@ technologies = {
 	
 	threat_value_assessment = {
 	
+		category_aa_defense_platforms = {
+			defense = 0.2
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+	
 		path = {
 			leads_to_tech = ambush_plannification_algorithms
 			research_cost_coeff = 1
@@ -745,6 +809,12 @@ technologies = {
 	}
 	
 	ambush_plannification_algorithms = {
+	
+		category_aa_defense_platforms = {
+			defense = 0.25
+			hard_attack = 0.25
+			ap_attack = 0.25
+		}
 		
 		start_year = 1942
 		research_cost = 2.6
@@ -818,11 +888,15 @@ technologies = {
 	
 	electrothermal_chemical_technology = {
 	
+		category_all_armor = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+	
 		path = {
 			leads_to_tech = combustion_light_gas_gun
 			research_cost_coeff = 1
 		}
-		
 		
 		start_year = 1936
 		research_cost = 1.25
@@ -842,6 +916,11 @@ technologies = {
 	}
 	
 	combustion_light_gas_gun = {
+	
+		category_all_armor = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
 	
 		path = {
 			leads_to_tech = railgun
@@ -867,6 +946,11 @@ technologies = {
 	
 	railgun = {
 	
+		category_all_armor = {
+			hard_attack = 0.2
+			ap_attack = 0.2
+		}
+	
 		path = {
 			leads_to_tech = extreme_recoil_compensation
 			research_cost_coeff = 1
@@ -891,6 +975,11 @@ technologies = {
 	
 	extreme_recoil_compensation = {
 	
+		category_all_armor = {
+			hard_attack = 0.25
+			ap_attack = 0.25
+		}
+	
 		path = {
 			leads_to_tech = multi_barrel_railguns
 			research_cost_coeff = 1
@@ -914,6 +1003,11 @@ technologies = {
 	}
 	
 	multi_barrel_railguns = {
+	
+		category_all_armor = {
+			hard_attack = 0.3
+			ap_attack = 0.3
+		}
 		
 		start_year = 1942
 		research_cost = 2.6
@@ -934,6 +1028,10 @@ technologies = {
 	
 	
 	remote_controlled_weapon_station = {
+	
+		category_all_armor = {
+			defense = 0.1
+		}
 	
 		path = {
 			leads_to_tech = unmanned_ground_combat_tank
@@ -996,6 +1094,10 @@ technologies = {
 	}
 	
 	unmanned_railgun_carrier = {
+	
+		dependencies = {
+            railgun = 1
+        }
 
 		enable_equipments = {
 			unmanned_railgun_carrier_equipment
@@ -1090,6 +1192,10 @@ technologies = {
 	
 	autonomous_navigation_system = {
 	
+		category_armored_cars = {
+			breakthrough = 0.05
+		}
+	
 		path = {
 			leads_to_tech = automated_infantry_suppression_vehicle
 			research_cost_coeff = 1
@@ -1152,6 +1258,8 @@ technologies = {
 	}
 	
 	hostile_terrain_analysis = {
+	
+		terrain_penalty_reduction = 0.2
 		
 		start_year = 1939
 		research_cost = 1.65
@@ -1174,6 +1282,11 @@ technologies = {
 	}
 	
 	rocket_propelled_grenades = {
+	
+		category_armored_cars = {
+			soft_attack = 0.2
+			breakthrough = 0.05
+		}
 	
 		path = {
 			leads_to_tech = lethal_autonomous_vehicle
@@ -1232,6 +1345,12 @@ technologies = {
 	}
 	
 	seeker_ammunitions = {
+	
+		category_armored_cars = {
+			soft_attack = 0.1
+			hard_attack = 0.2
+			ap_attack = 0.2
+		}
 		
 		start_year = 1942
 		research_cost = 2.6
@@ -1255,6 +1374,10 @@ technologies = {
 	}
 	
 	sentient_combat_systems = {
+	
+		category_armored_cars = {
+			breakthrough = 0.2
+		}
 	
 		path = {
 			leads_to_tech = multi_terrain_extermination_platform
@@ -1307,6 +1430,19 @@ technologies = {
 	
 	infrared_profile_dissimulation = {
 	
+		category_armored_cars = {
+			defense = 0.1
+			soft_attack = 0.1
+			forest = {
+				attack = 0.2
+				defence = 0.2
+			}
+			jungle = {
+				attack = 0.2
+				defence = 0.2
+			}
+		}
+	
 		path = {
 			leads_to_tech = multi_spectral_camouflage
 			research_cost_coeff = 1
@@ -1334,6 +1470,16 @@ technologies = {
 	
 	multi_spectral_camouflage = {
 	
+		category_armored_cars = {	
+			defense = 0.2
+			hard_attack = 0.15
+			ap_attack = 0.15
+			acclimatization_hot_climate_gain_factor = 0.50
+			acclimatization_cold_climate_gain_factor = 0.50
+		}
+	
+		
+	
 		path = {
 			leads_to_tech = active_cloaking_devices
 			research_cost_coeff = 1
@@ -1359,6 +1505,11 @@ technologies = {
 	
 	active_cloaking_devices = {
 	
+		category_armored_cars = {
+			defense = 0.15
+			breakthrough = 0.15
+		}
+	
 		path = {
 			leads_to_tech = stealth_field_generators
 			research_cost_coeff = 1
@@ -1382,6 +1533,13 @@ technologies = {
 	}
 	
 	stealth_field_generators = {
+	
+		category_armored_cars = {
+			hard_attack = 0.25
+			ap_attack = 0.25
+			defense = 0.35
+			breakthrough = 0.35	
+		}
 		
 		start_year = 1943
 		research_cost = 3.0
@@ -1439,6 +1597,11 @@ technologies = {
 	
 	gas_turbine_noise_reduction = {
 	
+		naval_assault_vehicle_brigade = {
+			breakthrough = 0.05
+			defense = 0.1
+		}
+	
 		path = {
 			leads_to_tech = vibration_damping_materials
 			research_cost_coeff = 1
@@ -1462,6 +1625,12 @@ technologies = {
 	
 	vibration_damping_materials = {
 	
+		naval_assault_vehicle_brigade = {
+			soft_attack = 0.2
+			hard_attack = 0.2
+			ap_attack = 0.2
+		}
+	
 		start_year = 1937
 		research_cost = 1.35
 		folder = {
@@ -1479,6 +1648,10 @@ technologies = {
 	}
 	
 	explosion_resilient_soft_coating = {
+	
+		naval_assault_vehicle_brigade = {
+			armor_value = 0.1
+		}
 	
 		path = {
 			leads_to_tech = armored_assault_hovercraft
@@ -1536,6 +1709,10 @@ technologies = {
 	
 	magnetic_mine_protection = {
 	
+		naval_assault_vehicle_brigade = {
+			armor_value = 0.15
+		}
+	
 		start_year = 1939
 		research_cost = 1.65
 		folder = {
@@ -1554,6 +1731,11 @@ technologies = {
 	}
 	
 	heavy_lift_turboengines = {
+	
+		naval_assault_vehicle_brigade = {
+			breakthrough = 0.1
+			maximum_speed = 0.1
+		}
 	
 		path = {
 			leads_to_tech = hovertank
@@ -1605,6 +1787,11 @@ technologies = {
 	}
 	
 	nuclear_turboengines = {
+	
+		naval_assault_vehicle_brigade = {
+			breakthrough = 0.25
+			maximum_speed = 0.25
+		}
 	
 		path = {
 			leads_to_tech = heavy_hovertank
