@@ -14,6 +14,9 @@ technologies = {
 	
 	assembly_lines = {
 	
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.15
+	
 		enable_equipments = {
 			assembly_lines_fake
 		}
@@ -46,6 +49,10 @@ technologies = {
 	}
 	
 	volumetric_construction_methods = {
+	
+		production_speed_buildings_factor = 0.10
+		industry_repair_factor = 0.10
+		global_building_slots_factor = 0.20
 
 		start_year = 1918
 		research_cost = 1.5
@@ -65,6 +72,9 @@ technologies = {
 	}
 	
 	articulated_robotics_arms = {
+	
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.1
 
 		path = {
 			leads_to_tech = sensors_robotics
@@ -100,6 +110,10 @@ technologies = {
 	
 	computer_aided_design = {
 	
+		equipment_conversion_speed = 0.25
+		production_factory_max_efficiency_factor = 0.05
+		production_factory_start_efficiency_factor = 0.2
+	
 		path = {
 			leads_to_tech = computer_aided_manufacturing
             research_cost_coeff = 1           
@@ -124,6 +138,10 @@ technologies = {
 	
 	computer_aided_manufacturing = {
 	
+		equipment_conversion_speed = 0.25
+		production_factory_max_efficiency_factor = 0.05
+		line_change_production_efficiency_factor = 0.2
+	
 		path = {
 			leads_to_tech = laser_direct_imaging
             research_cost_coeff = 1           
@@ -147,6 +165,17 @@ technologies = {
 	}
 	
 	laser_direct_imaging = {
+	
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.1
+		
+		on_research_complete = {
+			modify_building_resources = {
+				building = electronics_factory
+				resource = electronics
+				amount = 1
+			}
+		}
 
 		start_year = 1938
 		research_cost = 2.25
@@ -166,6 +195,10 @@ technologies = {
 	}
 	
 	powered_construction_exoskeletons = {
+	
+		production_speed_buildings_factor = 0.15
+		industry_repair_factor = 0.15
+		global_building_slots_factor = 0.20
 
 		start_year = 1937
 		research_cost = 2.0
@@ -185,6 +218,10 @@ technologies = {
 	}
 	
 	sensors_robotics = {
+	
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.15
+		global_building_slots_factor = 0.20
 	
 		enable_equipments = {
 			sensors_robotics_fake
@@ -219,6 +256,10 @@ technologies = {
 	
 	automatic_optical_inspection = {
 	
+		equipment_conversion_speed = 0.25
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.2
+	
 		path = {
 			leads_to_tech = automated_building_surveying
             research_cost_coeff = 1           
@@ -242,6 +283,9 @@ technologies = {
 	}
 	
 	automated_building_surveying = {
+	
+		production_speed_buildings_factor = 0.10
+		industry_repair_factor = 0.10
 
 		start_year = 1940
 		research_cost = 2.8
@@ -261,6 +305,9 @@ technologies = {
 	}
 	
 	additive_manufacturing = {
+	
+		industrial_capacity_factory = 0.20
+		industrial_capacity_dockyard = 0.20
 	
 		enable_equipments = {
 			additive_manufacturing_fake
@@ -294,6 +341,10 @@ technologies = {
 	}
 	
 	three_dimension_construction_printing = {
+	
+		production_speed_buildings_factor = 0.20
+		industry_repair_factor = 0.20
+		global_building_slots_factor = 0.20
 
 		start_year = 1941
 		research_cost = 3.15
@@ -313,6 +364,9 @@ technologies = {
 	}
 	
 	nanomaterials_applications = {
+	
+		industrial_capacity_factory = 0.20
+		industrial_capacity_dockyard = 0.20
 	
 		enable_equipments = {
 			nanomaterials_applications_fake
@@ -347,6 +401,9 @@ technologies = {
 	
 	construction_nanomaterials = {
 	
+		production_speed_buildings_factor = 0.25
+		global_building_slots_factor = 0.25
+	
 		path = {
 			leads_to_tech = metal_foam
             research_cost_coeff = 1           
@@ -370,6 +427,9 @@ technologies = {
 	}
 	
 	metal_foam = {
+	
+		industry_repair_factor = 0.5
+		global_building_slots_factor = 0.25
 
 		start_year = 1944
 		research_cost = 6.0
@@ -389,6 +449,11 @@ technologies = {
 	}
 	
 	tensile_memory_polarised_matter = {
+		
+		equipment_conversion_speed = 0.5
+		production_factory_efficiency_gain_factor = 0.25
+		line_change_production_efficiency_factor = 0.25
+		production_factory_start_efficiency_factor = 0.25
 
 		path = {
 			leads_to_tech = matter_compiler
@@ -413,6 +478,9 @@ technologies = {
 	}
 	
 	matter_compiler = {
+	
+		industrial_capacity_factory = 0.5
+		industrial_capacity_dockyard = 0.5
 	
 		enable_equipments = {
 			matter_compiler_fake
@@ -441,6 +509,11 @@ technologies = {
 	}
 	
 	perfect_device_replication = {
+	
+		equipment_conversion_speed = 0.5
+		production_factory_efficiency_gain_factor = 0.5
+		line_change_production_efficiency_factor = 0.5
+		production_factory_start_efficiency_factor = 0.5
 
 		path = {
 			leads_to_tech = structure_conversion_tower
@@ -465,6 +538,10 @@ technologies = {
 	}
 	
 	structure_conversion_tower = {
+	
+		production_speed_buildings_factor = 0.75
+		industry_repair_factor = 0.75
+		global_building_slots_factor = 0.75
 
 		start_year = 1943
 		research_cost = 4.5
@@ -485,6 +562,14 @@ technologies = {
 	}
 	
 	plasticisation_units = {
+	
+		on_research_complete = {
+			modify_building_resources = {
+				building = polymers_factory
+				resource = polymers
+				amount = 1
+			}
+		}
 	
 		path = {
 			leads_to_tech = thermoforming_moulding
@@ -510,6 +595,14 @@ technologies = {
 	
 	thermoforming_moulding = {
 	
+		on_research_complete = {
+			modify_building_resources = {
+				building = polymers_factory
+				resource = polymers
+				amount = 2
+			}
+		}
+	
 		path = {
 			leads_to_tech = aerogel_insulation
             research_cost_coeff = 1           
@@ -533,6 +626,10 @@ technologies = {
 	}
 	
 	aerogel_insulation = {
+	
+		production_speed_buildings_factor = 0.10
+		industry_repair_factor = 0.10
+		global_building_slots_factor = 0.20
 
 		start_year = 1939
 		research_cost = 2.5
@@ -552,6 +649,14 @@ technologies = {
 	}
 	
 	chemical_etching_process = {
+	
+		on_research_complete = {
+			modify_building_resources = {
+				building = electronics_factory
+				resource = electronics
+				amount = 1
+			}
+		}
 	
 		path = {
 			leads_to_tech = multi_layer_vacuum_lamination
@@ -576,6 +681,14 @@ technologies = {
 	}
 	
 	multi_layer_vacuum_lamination = {
+	
+		on_research_complete = {
+			modify_building_resources = {
+				building = electronics_factory
+				resource = electronics
+				amount = 2
+			}
+		}
 
 		start_year = 1938
 		research_cost = 2.25
@@ -595,6 +708,14 @@ technologies = {
 	}
 	
 	glycerylnitrate_chemical_synthesis = {
+	
+		on_research_complete = {
+			modify_building_resources = {
+				building = explosive_factory
+				resource = explosives
+				amount = 1
+			}
+		}
 	
 		path = {
 			leads_to_tech = hexamine_nitration_process
@@ -620,6 +741,14 @@ technologies = {
 	
 	hexamine_nitration_process = {
 	
+		on_research_complete = {
+			modify_building_resources = {
+				building = explosive_factory
+				resource = explosives
+				amount = 2
+			}
+		}
+	
 		start_year = 1938
 		research_cost = 2.25
 		folder = {
@@ -638,6 +767,26 @@ technologies = {
 	}
 	
 	synthetic_biology_theory = {
+	
+		industrial_capacity_factory = 0.10
+		industrial_capacity_dockyard = 0.10
+		on_research_complete = {
+			modify_building_resources = {
+				building = polymers_factory
+				resource = polymers
+				amount = 1
+			}
+			modify_building_resources = {
+				building = electronics_factory
+				resource = electronics
+				amount = 1
+			}
+			modify_building_resources = {
+				building = explosive_factory
+				resource = explosives
+				amount = 1
+			}
+		}
 	
 		enable_equipments = {
 			synthetic_biology_theory_fake
@@ -677,6 +826,10 @@ technologies = {
 	
 	self_repairing_concrete = {
 	
+		production_speed_buildings_factor = 0.15
+		industry_repair_factor = 0.25
+		global_building_slots_factor = 0.20
+	
 		start_year = 1940
 		research_cost = 2.8
 		folder = {
@@ -695,6 +848,14 @@ technologies = {
 	}
 	
 	biopolymers = {
+	
+		on_research_complete = {
+			modify_building_resources = {
+				building = polymers_factory
+				resource = polymers
+				amount = 2
+			}
+		}
 	
 		path = {
 			leads_to_tech = biological_circuit_fabrication
@@ -720,6 +881,14 @@ technologies = {
 	
 	biological_circuit_fabrication = {
 	
+		on_research_complete = {
+			modify_building_resources = {
+				building = electronics_factory
+				resource = electronics
+				amount = 3
+			}
+		}
+	
 		start_year = 1942
 		research_cost = 3.9
 		folder = {
@@ -738,6 +907,14 @@ technologies = {
 	}
 	
 	organic_solvent_recrystalisation = {
+	
+		on_research_complete = {
+			modify_building_resources = {
+				building = explosive_factory
+				resource = explosives
+				amount = 3
+			}
+		}
 	
 		path = {
 			leads_to_tech = organic_super_lubricant
@@ -762,6 +939,12 @@ technologies = {
 	}
 	
 	organic_super_lubricant = {
+		
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.15
+		production_factory_efficiency_gain_factor = 0.15
+		line_change_production_efficiency_factor = 0.15
+		production_factory_start_efficiency_factor = 0.15
 	
 		start_year = 1943
 		research_cost = 4.5
