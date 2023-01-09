@@ -23,4 +23,7 @@ sub_unit_categories = {
 	
 	category_special_forces
 	
+	category_fighter
+	category_cas
+	
 }

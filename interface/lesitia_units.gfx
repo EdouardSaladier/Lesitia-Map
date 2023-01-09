@@ -84,4 +84,41 @@ spriteTypes = {
 	### Large ships images used in NAVAL-COMBAT-VIEW and SELECTED-FLEETS-VIEW ###
 
 	#spriteType = { name = "GFX_unit_battle_cruiser_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser.dds"		noOfFrames = 2 }
+	
+	###################################################
+	### Air icons (for some reason originally in navalcombat.gfx)
+	# Same as above but for the survivor line (we use smaller icons)
+	# Code expect GFX_navalcombat_air_small_icon_ + sprite name
+	
+	# Small airframe
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_multirole_fighter_equipment"
+		texturefile = "gfx/interface/counters/air_small/onmap_multirole_fighter.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_stealth_fighter_equipment"
+		texturefile = "gfx/interface/counters/air_small/onmap_stealth_fighter.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_interceptors_equipment"
+		texturefile = "gfx/interface/counters/air_small/onmap_interceptors.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_gunship_equipment"
+		texturefile = "gfx/interface/counters/air_small/onmap_gunship.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_drones_equipment"
+		texturefile = "gfx/interface/counters/air_small/onmap_drone.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_bombers_equipment"
+		texturefile = "gfx/interface/counters/air_small/onmap_bomber.dds"
+		noOfFrames = 2
+	}
 }
