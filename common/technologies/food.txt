@@ -14,6 +14,18 @@ technologies = {
 	
 	rudimentary_agronomics = {
 	
+		monthly_population = 0.1
+		country_resource_food = 5
+	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = farms
+				resource = food
+				amount = 1
+			}
+		}
+	
 		path = {
 			leads_to_tech = advanced_compartmentalization
             research_cost_coeff = 1           
@@ -36,6 +48,43 @@ technologies = {
 	}
 	
 	advanced_compartmentalization = {
+	
+		monthly_population = 0.15
+		country_resource_food = 15
+	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = vertical_farm
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = vertical_farm
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = vertical_farm
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	
 		path = {
 			leads_to_tech = hydroponic_frameworks
@@ -70,6 +119,8 @@ technologies = {
 	
 	hydroponic_frameworks = {
 	
+		production_speed_vertical_farm_factor = 0.15
+	
 		start_year = 1937
 		research_cost = 2.0
 		folder = {
@@ -88,6 +139,15 @@ technologies = {
 	
 	low_temperature_hydration = {
 	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = vertical_farm
+				resource = food
+				amount = 1
+			}
+		}
+	
 		start_year = 1937
 		research_cost = 2.0
 		folder = {
@@ -105,6 +165,48 @@ technologies = {
 	}
 	
 	strategic_vertical_farming = {
+	
+		production_speed_vertical_farm_factor = 0.1
+		monthly_population = 0.2
+	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = farms
+				resource = vertical_farm
+				amount = 1
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = vertical_farm
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = vertical_farm
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = vertical_farm
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	
 		path = {
 			leads_to_tech = solar_emitter_array
@@ -139,6 +241,8 @@ technologies = {
 	
 	solar_emitter_array = {
 	
+		production_speed_vertical_farm_factor = 0.25
+	
 		start_year = 1939
 		research_cost = 2.5
 		folder = {
@@ -157,6 +261,15 @@ technologies = {
 	
 	mass_hydration = {
 	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = vertical_farm
+				resource = food
+				amount = 2
+			}
+		}
+	
 		start_year = 1939
 		research_cost = 2.5
 		folder = {
@@ -174,6 +287,42 @@ technologies = {
 	}
 	
 	metatrophic_stimulation = {
+	
+		monthly_population = 0.25
+		
+		show_effect_as_desc = yes
+		on_research_complete = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = vertical_farm
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = vertical_farm
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = vertical_farm
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	
 		path = {
 			leads_to_tech = extreme_acclimation
@@ -208,6 +357,10 @@ technologies = {
 	
 	extreme_acclimation = {
 	
+		monthly_population = 0.2
+		recruitable_population_factor = 0.015
+		supply_factor = 0.05
+	
 		path = {
 			leads_to_tech = exotic_state_crops
             research_cost_coeff = 1           
@@ -231,6 +384,11 @@ technologies = {
 	
 	exotic_state_crops = {
 	
+		monthly_population = 0.3
+		recruitable_population_factor = 0.035
+		attrition = -0.1
+		no_supply_grace = 60
+	
 		start_year = 1942
 		research_cost = 3.9
 		folder = {
@@ -248,6 +406,15 @@ technologies = {
 	}
 	
 	applied_inorganics = {
+	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = vertical_farm
+				resource = food
+				amount = 1
+			}
+		}
 	
 		path = {
 			leads_to_tech = dense_nutrification
@@ -271,6 +438,15 @@ technologies = {
 	}
 	
 	dense_nutrification = {
+		
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = vertical_farm
+				resource = food
+				amount = 2
+			}
+		}
 	
 		start_year = 1942
 		research_cost = 3.9
@@ -289,6 +465,42 @@ technologies = {
 	}
 	
 	synthetic_crops = {
+	
+		monthly_population = 0.4
+		
+		show_effect_as_desc = yes
+		on_research_complete = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = vertical_farm
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = vertical_farm
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = vertical_farm
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	
 		path = {
 			leads_to_tech = nutrient_specialization
@@ -317,6 +529,16 @@ technologies = {
 	}
 	
 	nutrient_specialization = {
+		
+		monthly_population = 0.5
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = vertical_farm
+				resource = food
+				amount = 1
+			}
+		}
 	
 		path = {
 			leads_to_tech = armor_plants
@@ -341,6 +563,18 @@ technologies = {
 	
 	armor_plants = {
 	
+		supply_factor = 0.15
+		supply_node_range = 0.15
+		
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = vertical_farm
+				resource = food
+				amount = 2
+			}
+		}
+	
 		start_year = 1945
 		research_cost = 6.75
 		folder = {
@@ -358,6 +592,8 @@ technologies = {
 	}
 	
 	soilless_growth = {
+	
+		production_speed_vertical_farm_factor = 0.3
 	
 		path = {
 			leads_to_tech = concrete_rooting
@@ -381,6 +617,8 @@ technologies = {
 	}
 	
 	concrete_rooting = {
+	
+		production_speed_vertical_farm_factor = 0.5
 	
 		start_year = 1945
 		research_cost = 6.75
