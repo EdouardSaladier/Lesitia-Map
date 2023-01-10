@@ -194,7 +194,7 @@ equipments = {
 
 		upgrades = {
 			plane_cas_upgrade
-			cv_plane_range_upgrade
+			plane_range_upgrade
 			plane_engine_upgrade
 			plane_reliability_upgrade
 		}
@@ -217,8 +217,54 @@ equipments = {
 			aluminium = 2
 		}
 		
-		manpower = 20
+		manpower = 2
 		fuel_consumption = 0.26
+	}
+	
+	drones_bombers_equipment = {
+		year = 1936
+	
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_strat_bomber_equipment			
+		is_buildable = no
+		type = strategic_bomber
+		group_by = archetype
+		sprite = heavy_plane
+		air_map_icon_frame = 11
+		
+		interface_category = interface_category_air
+		
+		# Strategic bomber
+		interface_overview_category_index = 5
+		
+		upgrades = {
+			plane_bomb_upgrade
+			plane_range_upgrade
+			plane_engine_upgrade
+			plane_reliability_upgrade
+		}
+
+		air_superiority = 0.01
+		reliability = 0.8
+
+		# Air vs Navy - high damage / low hit chance / hard to hurt
+		naval_strike_attack = 1.5
+		naval_strike_targetting = 0.6
+		surface_detection = 10 # For airwing of 100 planes (Destroyer I: 20 surface detection)
+		sub_detection = 2.5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
+		
+		#Space taken in convoy
+		lend_lease_cost = 12
+		
+		build_cost_ic = 60
+		resources = {
+			#oil = 1
+			aluminium = 3
+		}
+		
+		manpower = 4
+		fuel_consumption = 0.8
 	}
 
 	multirole_fighter_equipment = {
@@ -1247,7 +1293,7 @@ equipments = {
 	stealth_drone_bomber_equipment = {
 		year = 1918
 	
-		archetype = drones_equipment 
+		archetype = drones_bombers_equipment 
 		active = yes
 		priority = 05
 		visual_level = 0
@@ -1281,7 +1327,7 @@ equipments = {
 	furtive_bomb_carrier_equipment = {
 		year = 1918
 	
-		archetype = drones_equipment 
+		archetype = drones_bombers_equipment 
 		active = yes
 		priority = 05
 		visual_level = 0

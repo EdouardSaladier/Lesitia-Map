@@ -117,6 +117,11 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
+		name = "GFX_navalcombat_air_small_icon_drones_bombers_equipment"
+		texturefile = "gfx/interface/counters/air_small/onmap_bomber.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
 		name = "GFX_navalcombat_air_small_icon_bombers_equipment"
 		texturefile = "gfx/interface/counters/air_small/onmap_bomber.dds"
 		noOfFrames = 2

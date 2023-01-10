@@ -87,6 +87,11 @@ technologies = {
 	}
 	
 	pulse_vector_ramjets = {
+	
+		category_fighter = {
+			maximum_speed = 0.10
+			fuel_consumption = 0.1
+		}
 		
 		start_year = 1937
 		research_cost = 1.35
@@ -111,6 +116,11 @@ technologies = {
 	
 	overtuned_aerospike_ramjets = {
 	
+		category_fighter = {
+			maximum_speed = 0.15
+			fuel_consumption = 0.15
+		}
+	
 		path = {
 			leads_to_tech = low_state_ion_plasma_engines
             research_cost_coeff = 1
@@ -133,6 +143,11 @@ technologies = {
 	}
 	
 	low_state_ion_plasma_engines = {
+	
+		category_fighter = {
+			maximum_speed = 0.25
+			fuel_consumption = 0.25
+		}
 		
 		path = {
 			leads_to_tech = automatic_variable_plasma_engines
@@ -156,6 +171,11 @@ technologies = {
 	}
 	
 	automatic_variable_plasma_engines = {
+	
+		category_fighter = {
+			air_range = 0.25
+			fuel_consumption = -0.25	
+		}
 		
 		path = {
 			leads_to_tech = electronic_plasma_hypersonic_scamjet
@@ -179,6 +199,11 @@ technologies = {
 	}
 	
 	electronic_plasma_hypersonic_scamjet = {
+	
+		category_fighter = {
+			maximum_speed = 0.4
+			fuel_consumption = 0.4
+		}
 
 		start_year = 1944
 		research_cost = 4.0
@@ -308,6 +333,14 @@ technologies = {
 	}
 	
 	minimal_radar_crossection = {
+	
+		category_fighter = {
+			air_defence = 0.1
+		}
+		
+		category_bombers = {
+			air_defence = 0.05
+		}
 		
 		path = {
 			leads_to_tech = stealth_combat_fighter
@@ -336,6 +369,14 @@ technologies = {
 	}
 	
 	electromagnetic_absorbant_material = {
+	
+		stealth_fighter = {
+			air_defence = 0.1
+		}
+		
+		category_bombers = {
+			air_defence = 0.05
+		}
 		
 		path = {
 			leads_to_tech = vibration_nullification_coating
@@ -359,6 +400,15 @@ technologies = {
 	}
 	
 	vibration_nullification_coating = {
+	
+		stealth_fighter = {
+			air_defence = 0.15
+			air_agility = 0.1
+		}
+		
+		category_bombers = {
+			air_defence = 0.1
+		}
 		
 		path = {
 			leads_to_tech = digital_optical_diffusion_coat
@@ -382,6 +432,15 @@ technologies = {
 	}
 	
 	digital_optical_diffusion_coat = {
+	
+		stealth_fighter = {
+			air_defence = 0.25
+			air_attack = 0.1
+		}
+		
+		category_bombers = {
+			air_defence = 0.15
+		}
 		
 		path = {
 			leads_to_tech = high_information_noise_diffuser
@@ -405,6 +464,16 @@ technologies = {
 	}
 	
 	high_information_noise_diffuser = {
+	
+		stealth_fighter = {
+			air_defence = 0.4
+			air_agility = 0.1
+			air_attack = 0.1
+		}
+		
+		category_bombers = {
+			air_defence = 0.25
+		}
 
 		start_year = 1944
 		research_cost = 4.0
@@ -452,6 +521,10 @@ technologies = {
 	}
 	
 	leveled_map_display = {
+	
+		stealth_fighter = {
+			air_attack = 0.15
+		}
 		
 		path = {
 			leads_to_tech = interdictor_suppremacy_fighter
@@ -596,6 +669,10 @@ technologies = {
 	}
 	
 	integrated_electronic_warfare_system = {
+	
+		category_fighter = {
+			air_agility = 0.1
+		}
 		
 		path = {
 			leads_to_tech = infrared_countermeasure_flares
@@ -621,6 +698,10 @@ technologies = {
 	
 	infrared_countermeasure_flares = {
 	
+		category_fighter = {
+			air_agility = 0.15
+		}
+	
 		path = {
 			leads_to_tech = directed_electromagnetic_micropulser
             research_cost_coeff = 1
@@ -643,6 +724,10 @@ technologies = {
 	}
 	
 	directed_electromagnetic_micropulser = {
+	
+		category_fighter = {
+			air_agility = 0.25
+		}
 		
 		path = {
 			leads_to_tech = micro_missile_interceptor_pods
@@ -666,12 +751,16 @@ technologies = {
 	}
 	
 	micro_missile_interceptor_pods = {
+	
+		category_fighter = {
+			air_agility = 0.4
+		}
 
-		start_year = 1942
-		research_cost = 2.6
+		start_year = 1943
+		research_cost = 3.0
 		folder = {
 			name = air_techs_folder
-			position = { x = 4 y = @1942 }
+			position = { x = 4 y = @1943 }
 		}
 		
 		categories = {
@@ -795,6 +884,10 @@ technologies = {
 	}
 	
 	versatile_hardmount_system = {
+	
+		category_fighter = {
+			air_attack = 0.05
+		}
 		
 		path = {
 			leads_to_tech = quick_maneuver_missiles
@@ -824,6 +917,15 @@ technologies = {
 	}
 	
 	high_rate_autocannons = {
+	
+		multirole_fighter = {
+			air_attack = 0.05
+			air_ground_attack = 0.1
+		}
+	
+		interceptor = {
+			air_attack = 0.05
+		}
 		
 		path = {
 			leads_to_tech = electromagnetic_launcher_pod
@@ -848,6 +950,14 @@ technologies = {
 	}
 	
 	electromagnetic_launcher_pod = {
+	
+		multirole_fighter = {
+			air_attack = 0.1
+		}
+		
+		interceptor = {
+			air_attack = 0.1
+		}
 		
 		path = {
 			leads_to_tech = gyroscopic_railgun_system
@@ -873,6 +983,14 @@ technologies = {
 	
 	gyroscopic_railgun_system = {
 	
+		multirole_fighter = {
+			air_ground_attack = 0.25
+		}
+		
+		interceptor = {
+			air_attack = 0.15
+		}
+	
 		path = {
 			leads_to_tech = ruby_zircon_pulse_laser_platform
             research_cost_coeff = 1
@@ -896,6 +1014,11 @@ technologies = {
 	}
 	
 	ruby_zircon_pulse_laser_platform = {
+	
+		category_fighter = {
+			air_attack = 0.1
+			air_defence = 0.25
+		}
 		
 		path = {
 			leads_to_tech = particle_lance
@@ -920,6 +1043,14 @@ technologies = {
 	}
 	
 	particle_lance = {
+	
+		multirole_fighter = {
+			air_ground_attack = 0.4
+		}
+		
+		interceptor = {
+			air_attack = 0.4
+		}
 
 		start_year = 1943
 		research_cost = 3.0
@@ -939,6 +1070,11 @@ technologies = {
 	}
 	
 	quick_maneuver_missiles = {
+	
+		category_fighter = {
+			air_agility = 0.1
+			air_defence = 0.1
+		}
 		
 		path = {
 			leads_to_tech = supressive_concussion_missiles
@@ -963,6 +1099,10 @@ technologies = {
 	}
 	
 	supressive_concussion_missiles = {
+	
+		category_fighter = {
+			air_attack = 0.1
+		}
 		
 		path = {
 			leads_to_tech = cluster_burst_missiles
@@ -987,6 +1127,11 @@ technologies = {
 	}
 	
 	cluster_burst_missiles = {
+	
+		category_fighter = {
+			air_attack = 0.15
+			air_ground_attack = 0.25
+		}
 		
 		path = {
 			leads_to_tech = all_directional_multi_purpose_missiles
@@ -1012,6 +1157,11 @@ technologies = {
 	
 	all_directional_multi_purpose_missiles = {
 	
+		category_fighter = {
+			air_attack = 0.25
+			naval_strike_attack = 0.25
+		}
+	
 		path = {
 			leads_to_tech = omnidirectional_permatrack_missiles
             research_cost_coeff = 1
@@ -1035,6 +1185,10 @@ technologies = {
 	}
 	
 	omnidirectional_permatrack_missiles = {
+	
+		category_fighter = {
+			air_attack = 0.4
+		}
 		
 		path = {
 			leads_to_tech = stuff
@@ -1134,6 +1288,11 @@ technologies = {
 	}
 	
 	real_time_battlefield_display = {
+	
+		category_bombers = {
+			air_bombing = 0.1
+			naval_strike_attack = 0.15
+		}
 		
 		path = {
 			leads_to_tech = stuff
@@ -1191,6 +1350,11 @@ technologies = {
 	}
 	
 	dynamic_tactical_solidograph = {
+	
+		category_bombers = {
+			air_bombing = 0.15
+			naval_strike_attack = 0.25
+		}
 
 		start_year = 1939
 		research_cost = 1.65
@@ -1326,6 +1490,11 @@ technologies = {
 	
 	hard_vector_targeting_array = {
 	
+		gunship = {
+			air_ground_attack = 0.1
+			naval_strike_attack = 0.1
+		}
+	
 		path = {
 			leads_to_tech = radar_warning_receiver
             research_cost_coeff = 1
@@ -1353,6 +1522,11 @@ technologies = {
 	}
 	
 	radar_warning_receiver = {
+	
+		category_cas = {
+			air_defence = 0.1
+			air_agility = 0.1
+		}
 
 		start_year = 1938
 		research_cost = 1.5
@@ -1371,6 +1545,11 @@ technologies = {
 	}
 	
 	moving_target_indication = {
+	
+		gunship = {
+			air_ground_attack = 0.15
+			naval_strike_attack = 0.15
+		}
 
 		start_year = 1939
 		research_cost = 1.65
@@ -1452,6 +1631,11 @@ technologies = {
 	}
 	
 	assisted_submunitions = {
+	
+		gunship = {
+			air_ground_attack = 0.25
+			naval_strike_attack = 0.25
+		}
 
 		start_year = 1941
 		research_cost = 2.1
@@ -1475,6 +1659,11 @@ technologies = {
 	}
 	
 	recursive_cluster_bombs = {
+	
+		gunship = {
+			air_ground_attack = 0.4
+			naval_strike_attack = 0.4
+		}
 	
 		start_year = 1943
 		research_cost = 3.0
@@ -1581,6 +1770,10 @@ technologies = {
 	
 	thermal_balance_maintenance = {
 	
+		category_drones = {
+			air_range = 0.15
+		}
+	
 		path = {
 			leads_to_tech = methanol_hydrogen_injection
             research_cost_coeff = 1
@@ -1603,6 +1796,11 @@ technologies = {
 	}
 	
 	methanol_hydrogen_injection = {
+	
+		category_drones = {
+			air_range = 0.25
+			fuel_consumption = -0.2
+		}
 
 		start_year = 1939
 		research_cost = 1.65
@@ -1656,6 +1854,11 @@ technologies = {
 	
 	synthetic_aperture_radar = {
 	
+		category_cas = {
+			air_defence = 0.1
+			air_agility = 0.1
+		}	
+	
 		path = {
 			leads_to_tech = automatic_target_recognition
             research_cost_coeff = 1
@@ -1679,6 +1882,12 @@ technologies = {
 	
 	automatic_target_recognition = {
 	
+		category_cas = {
+			air_ground_attack = 0.1
+			naval_strike_targetting = 0.2
+			naval_strike_attack = 0.2
+		}	
+	
 		path = {
 			leads_to_tech = autonomous_tactical_analysis
             research_cost_coeff = 1
@@ -1701,6 +1910,12 @@ technologies = {
 	}
 	
 	autonomous_tactical_analysis = {
+	
+		category_cas = {
+			air_ground_attack = 0.15
+			naval_strike_targetting = 0.3
+			naval_strike_attack = 0.3
+		}	
 
 		start_year = 1944
 		research_cost = 4.0
@@ -1759,6 +1974,11 @@ technologies = {
 	
 	triple_modular_redundancy = {
 	
+		category_drones = {
+			reliability = 0.25
+			build_cost_ic = 0.25
+		}
+	
 		path = {
 			leads_to_tech = small_diameter_multi_purpose_ammunition
             research_cost_coeff = 1
@@ -1781,6 +2001,10 @@ technologies = {
 	}
 	
 	small_diameter_multi_purpose_ammunition = {
+	
+		category_drones = {
+			air_ground_attack = 0.4
+		}
 
 		start_year = 1943
 		research_cost = 3.0

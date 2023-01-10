@@ -25,5 +25,7 @@ sub_unit_categories = {
 	
 	category_fighter
 	category_cas
+	category_drones
+	category_bombers
 	
 }
