@@ -5,13 +5,14 @@ state={
 	history={
 		buildings = {
 			infrastructure = 1
+			arms_factory = 1
 		}
 		owner = SYM
 		victory_points = {
-		      7530 10
+		      7530 5
 	    }
 		victory_points = {
-		      13726 15
+		      13726 10
 	    }
 		add_core_of = SYM
 		add_core_of = MAV

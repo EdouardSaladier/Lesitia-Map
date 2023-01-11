@@ -2,9 +2,19 @@ state={
 	id=208
 	name="STATE_208"
 	
+	resources = {
+        steel = 3
+	}
+	
 	history={
 		buildings = {
 			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			farms = 1
+			566 = {
+				naval_base = 2
+			}
 		}
 		owner = AVN
 		victory_points = {

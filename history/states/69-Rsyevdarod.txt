@@ -6,6 +6,7 @@ state={
 	history={
 		buildings = {
 			infrastructure = 2
+			farms = 3
 		}
 		owner = VRT
 		victory_points = {

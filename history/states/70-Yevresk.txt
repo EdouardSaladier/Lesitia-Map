@@ -5,6 +5,12 @@ state={
 	history={
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 3
+			dockyard = 1
+			explosive_factory = 1
+			14213 = {
+				naval_base = 8
+			}
 		}
 		owner = VRT
 		victory_points = {

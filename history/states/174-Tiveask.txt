@@ -5,6 +5,7 @@ state={
 	history={
 		buildings = {
 			infrastructure = 2
+			air_base = 3
 			dockyard = 1
 			15319 = {
 				naval_base = 10

@@ -5,6 +5,13 @@ state={
 	history={
 		buildings = {
 			infrastructure = 2
+			explosive_factory = 1
+			farms = 1
+			air_base = 6
+			dockyard = 1
+			6223 = {
+				naval_base = 6
+			}
 		}
 		owner = AVN
 		victory_points = {

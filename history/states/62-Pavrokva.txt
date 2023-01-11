@@ -2,10 +2,19 @@
 state={
 	id=62
 	name="STATE_62"
+	
+	resources = {
+		aluminium = 3
+	}
 
 	history={
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
+			polymers_factory = 3
+			14192 = {
+				naval_base = 3
+			}
 		}
 		owner = VRT
 		victory_points = {

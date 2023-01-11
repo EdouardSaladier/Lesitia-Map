@@ -2,10 +2,16 @@
 state={
 	id=68
 	name="STATE_68"
+	
+	resources = {
+        steel = 12
+	}
 
 	history={
 		buildings = {
 			infrastructure = 1
+			air_base = 8
+			farms = 2
 		}
 		owner = VRT
 		victory_points = {

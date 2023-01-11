@@ -2,6 +2,10 @@
 state={
 	id=67
 	name="STATE_67"
+	
+	resources = {
+        chromium = 3
+	}
 
 	history={
 		buildings = {
