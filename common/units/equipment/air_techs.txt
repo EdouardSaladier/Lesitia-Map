@@ -317,7 +317,6 @@ equipments = {
 		year = 1918
 	
 		archetype = multirole_fighter_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -352,7 +351,6 @@ equipments = {
 		year = 1918
 	
 		archetype = interceptors_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -386,7 +384,6 @@ equipments = {
 		year = 1918
 	
 		archetype = interceptors_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -420,7 +417,6 @@ equipments = {
 		year = 1918
 	
 		archetype = multirole_fighter_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -454,7 +450,6 @@ equipments = {
 		year = 1918
 	
 		archetype = stealth_fighter_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -488,7 +483,6 @@ equipments = {
 		year = 1918
 	
 		archetype = interceptors_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -522,7 +516,6 @@ equipments = {
 		year = 1918
 	
 		archetype = interceptors_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -556,7 +549,6 @@ equipments = {
 		year = 1918
 	
 		archetype = interceptors_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -590,7 +582,6 @@ equipments = {
 		year = 1918
 	
 		archetype = multirole_fighter_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -624,7 +615,6 @@ equipments = {
 		year = 1918
 	
 		archetype = stealth_fighter_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -658,7 +648,6 @@ equipments = {
 		year = 1918
 	
 		archetype = stealth_fighter_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -692,7 +681,6 @@ equipments = {
 		year = 1918
 	
 		archetype = multirole_fighter_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -726,7 +714,6 @@ equipments = {
 		year = 1918
 	
 		archetype = multirole_fighter_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -760,7 +747,6 @@ equipments = {
 		year = 1918
 	
 		archetype = stealth_fighter_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -794,7 +780,6 @@ equipments = {
 		year = 1918
 	
 		archetype = bombers_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -827,7 +812,6 @@ equipments = {
 		year = 1918
 	
 		archetype = bombers_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -861,7 +845,6 @@ equipments = {
 		year = 1918
 	
 		archetype = gunship_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -894,7 +877,6 @@ equipments = {
 		year = 1918
 	
 		archetype = bombers_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -928,7 +910,6 @@ equipments = {
 		year = 1918
 	
 		archetype = gunship_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -961,7 +942,6 @@ equipments = {
 		year = 1918
 	
 		archetype = gunship_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -994,7 +974,6 @@ equipments = {
 		year = 1918
 	
 		archetype = bombers_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -1028,7 +1007,6 @@ equipments = {
 		year = 1918
 	
 		archetype = bombers_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -1062,7 +1040,6 @@ equipments = {
 		year = 1918
 	
 		archetype = gunship_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -1095,7 +1072,6 @@ equipments = {
 		year = 1918
 	
 		archetype = bombers_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -1129,7 +1105,6 @@ equipments = {
 		year = 1918
 	
 		archetype = gunship_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -1162,7 +1137,6 @@ equipments = {
 		year = 1918
 	
 		archetype = drones_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -1195,7 +1169,6 @@ equipments = {
 		year = 1918
 	
 		archetype = drones_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -1228,7 +1201,6 @@ equipments = {
 		year = 1918
 	
 		archetype = drones_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -1261,7 +1233,6 @@ equipments = {
 		year = 1918
 	
 		archetype = drones_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -1294,7 +1265,6 @@ equipments = {
 		year = 1918
 	
 		archetype = drones_bombers_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -1328,7 +1298,6 @@ equipments = {
 		year = 1918
 	
 		archetype = drones_bombers_equipment 
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -1403,7 +1372,6 @@ equipments = {
 		year = 1933
 
 		archetype = transport_plane_equipment
-		active = yes
 		priority = 130
 
 		air_superiority = 0

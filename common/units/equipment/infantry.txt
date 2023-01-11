@@ -71,7 +71,6 @@ equipments = {
 		year = 1924
 	
 		archetype = infantry_equipment
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -97,7 +96,6 @@ equipments = {
 		year = 1936
 	
 		archetype = infantry_equipment
-		active = yes
 		priority = 10
 		visual_level = 0
 		
@@ -123,7 +121,6 @@ equipments = {
 		year = 1939
 	
 		archetype = infantry_equipment
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -152,7 +149,6 @@ equipments = {
 		year = 1942
 	
 		archetype = infantry_equipment
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -181,7 +177,6 @@ equipments = {
 		year = 1945	
 	
 		archetype = infantry_equipment
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -217,7 +212,6 @@ equipments = {
 		
 		interface_category = interface_category_land
 		
-		active = yes
 		
 		#Misc Abilities
 		reliability = 0.9
@@ -251,7 +245,6 @@ equipments = {
 		year = 1918
 	
 		archetype = inf_at_equipment
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -282,7 +275,6 @@ equipments = {
 		year = 1936
 	
 		archetype = inf_at_equipment
-		active = yes
 		priority = 05
 		visual_level = 0
 		
@@ -311,7 +303,6 @@ equipments = {
 		year = 1939
 	
 		archetype = inf_at_equipment
-		active = yes
 		priority = 10
 		visual_level = 0
 		
@@ -339,7 +330,6 @@ equipments = {
 		year = 1942
 	
 		archetype = inf_at_equipment
-		active = yes
 		priority = 10
 		visual_level = 0
 		
@@ -368,7 +358,6 @@ equipments = {
 		year = 1945
 	
 		archetype = inf_at_equipment
-		active = yes
 		priority = 10
 		visual_level = 0
 		
@@ -404,7 +393,6 @@ equipments = {
 		
 		interface_category = interface_category_land
 		
-		active = yes
 		
 		#Misc Abilities
 		reliability = 0.8
@@ -438,7 +426,6 @@ equipments = {
 		year = 1937
 	
 		archetype = hud_equipment
-		active = yes
 		priority = 05
 		visual_level = 0
 		
