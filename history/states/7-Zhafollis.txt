@@ -6,6 +6,9 @@ state={
 	history={
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 3
+			air_base = 5
+			arms_factory = 1
 		}
 		owner = SYM
 		victory_points = {

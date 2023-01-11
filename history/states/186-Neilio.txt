@@ -5,6 +5,12 @@ state={
 	history={
 		buildings = {
 			infrastructure = 3
+			dockyard = 2
+			nuclear_reactor = 1
+			farms = 1
+			15533 = {
+				naval_base = 6
+			}
 		}
 		owner = SYM
 		victory_points = {
