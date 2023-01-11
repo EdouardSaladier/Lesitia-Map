@@ -13,7 +13,7 @@ technologies = {
 	@1945 = 30
 	@1946 = 33
 
-	hidden_special buildings = { #don't research this pls
+	hidden_special_buildings = { #don't research this pls
 		
 		allow = {
 			always = no
