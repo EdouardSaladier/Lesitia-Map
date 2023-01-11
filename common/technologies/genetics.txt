@@ -13,6 +13,10 @@ technologies = {
 	@1946 = 33
 	
 	gene_edition_framework = {
+	
+		monthly_population = 0.1
+		industrial_capacity_factory = 0.05
+		industrial_capacity_dockyard = 0.05
 		
 		path = {
 			leads_to_tech = marker_assisted_selection
@@ -38,6 +42,17 @@ technologies = {
 	}
 	
 	marker_assisted_selection = {
+	
+		show_effect_as_desc = yes
+		country_resource_food = 10
+		
+		on_research_complete = {
+			modify_building_resources = {
+				building = farms
+				resource = food
+				amount = 1
+			}
+		}
 		
 		path = {
 			leads_to_tech = genetically_modified_organisms
@@ -58,6 +73,22 @@ technologies = {
 	}
 	
 	genetically_modified_organisms = {
+	
+		show_effect_as_desc = yes
+		country_resource_food = 20
+		
+		on_research_complete = {
+			modify_building_resources = {
+				building = farms
+				resource = food
+				amount = 2
+			}
+			modify_building_resources = {
+				building = vertical_farm
+				resource = food
+				amount = 2
+			}
+		}
 		
 		start_year = 1939
 		research_cost = 2.5
@@ -73,6 +104,11 @@ technologies = {
 	}
 	
 	sapient_life_cloning_method = {
+	
+		enable_building = {
+			building = cloning_facility
+			level = 1
+		}
 	
 		enable_equipments = {
 			sapient_life_cloning_method_fake
@@ -102,6 +138,17 @@ technologies = {
 	}
 	
 	extensive_reactive_chemistry = {
+	
+		industrial_capacity_factory = 0.1
+	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = polymers_factory
+				resource = polymers
+				amount = 1
+			}
+		}
 		
 		start_year = 1937
 		research_cost = 2.0
@@ -117,6 +164,13 @@ technologies = {
 	}
 	
 	tectogenetic_biopattern_sequencer = {
+	
+		production_speed_cloning_facility_factor = 0.35
+	
+		enable_building = {
+			building = cloning_facility
+			level = 2
+		}
 	
 		enable_equipments = {
 			tectogenetic_biopattern_sequencer_fake
@@ -147,6 +201,9 @@ technologies = {
 	
 	full_genome_decryption = {
 	
+		conscription_factor = 0.1
+		training_time_factor = -0.1
+	
 		path = {
 			leads_to_tech = myostatin_gene_amplification
             research_cost_coeff = 1           
@@ -167,6 +224,12 @@ technologies = {
 	
 	myostatin_gene_amplification = {
 	
+		category_all_infantry = {
+			soft_attack = 0.05
+			breakthrough = 0.05
+			max_organisation = 5
+		}
+	
 		path = {
 			leads_to_tech = crispr_gene_editing
             research_cost_coeff = 1           
@@ -186,6 +249,12 @@ technologies = {
 	}
 	
 	crispr_gene_editing = {
+	
+		category_all_infantry = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			breakthrough = 0.1
+		}
 		
 		start_year = 1942
 		research_cost = 3.9
@@ -201,6 +270,13 @@ technologies = {
 	}
 	
 	mass_scale_clone_production = {
+	
+		production_speed_cloning_facility_factor = 0.65
+	
+		enable_building = {
+			building = cloning_facility
+			level = 3
+		}
 	
 		enable_equipments = {
 			mass_scale_clone_production_fake
@@ -231,6 +307,9 @@ technologies = {
 	
 	accelerated_organogenesis = {
 	
+		land_reinforce_rate = 0.1
+		army_org_regain = 0.2
+	
 		path = {
 			leads_to_tech = enhanced_neurogenesis
             research_cost_coeff = 1           
@@ -250,6 +329,9 @@ technologies = {
 	}
 	
 	enhanced_neurogenesis = {
+	
+		experience_loss_factor = -0.25
+		training_time_factor = -0.25
 		
 		start_year = 1944
 		research_cost = 6.0
@@ -265,6 +347,13 @@ technologies = {
 	}
 	
 	bioreplicants = {
+	
+		production_speed_cloning_facility_factor = 2.0
+	
+		enable_building = {
+			building = cloning_facility
+			level = 4
+		}
 	
 		enable_equipments = {
 			bioreplicants_fake
@@ -295,6 +384,11 @@ technologies = {
 	
 	telomeres_retention = {
 	
+		experience_loss_factor = -0.1
+		party_popularity_stability_factor = 0.25
+		political_power_factor = 0.1
+		drift_defence_factor = 0.25
+	
 		path = {
 			leads_to_tech = perfect_genetic_stability
             research_cost_coeff = 1           
@@ -314,6 +408,9 @@ technologies = {
 	}
 	
 	perfect_genetic_stability = {
+	
+		stability_factor = 0.1
+		consumer_goods_factor = -0.05
 		
 		start_year = 1945
 		research_cost = 6.75
@@ -329,6 +426,13 @@ technologies = {
 	}
 	
 	sapient_life_synthesis = {
+	
+		production_speed_cloning_facility_factor = 4.0
+	
+		enable_building = {
+			building = cloning_facility
+			level = 5
+		}
 	
 		enable_equipments = {
 			sapient_life_synthesis_fake

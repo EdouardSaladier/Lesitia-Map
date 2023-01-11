@@ -60,7 +60,7 @@ buildings = {
 	
 	supply_node = {
 		show_on_map = 1
-		base_cost = 20000
+		base_cost = 10000
 		provincial = yes
 		disabled_in_dmz = yes
 		icon_frame = 15
@@ -246,7 +246,7 @@ buildings = {
 	
 	extraction_facility = {
 		show_on_map = 0
-		base_cost = 10800
+		base_cost = 15000
 		icon_frame = 19
 		max_level = 1 # This is the max unlock level
 		shares_slots = yes
@@ -259,15 +259,15 @@ buildings = {
 	
 	cloning_facility = {
 		show_on_map = 0
-		base_cost = 6400
+		base_cost = 20000
 		icon_frame = 20
-		max_level = 1 # This is the max unlock level
+		max_level = 5 # This is the max unlock level
 		shares_slots = yes
 		value = 1
 		infrastructure_construction_effect = yes
 		
 		show_modifier = yes
-		weekly_manpower = 100
+		weekly_manpower = 500
 	}
 	
 	hydrogen_storage_facility = {
@@ -286,9 +286,9 @@ buildings = {
 
 	renewable_power_station = {
 		show_on_map = 0
-		base_cost = 3600
+		base_cost = 5000
 		icon_frame = 22
-		local_resources_energy = 1
+		local_resources_energy = 2
 		max_level = 10 # This is the max unlock level
 		shares_slots = yes
 		value = 5
@@ -300,11 +300,11 @@ buildings = {
 
 	nuclear_reactor = {
 		show_on_map = 0
-		base_cost = 30000
+		base_cost = 50000
 		icon_frame = 23
 		nuclear_reactor = yes
 		nuclear_production_factor = 1
-		local_resources_energy = 10
+		local_resources_energy = 20
 		max_level = 2 # This is the max unlock level
 		shares_slots = yes
 		value = 10

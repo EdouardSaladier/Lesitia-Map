@@ -1,0 +1,36 @@
+technologies = {
+
+    @1918 = 0
+	@1936 = 3
+	@1937 = 6
+	@1938 = 9
+	@1939 = 12
+	@1940 = 15
+	@1941 = 18
+	@1942 = 21	
+	@1943 = 24
+	@1944 = 27
+	@1945 = 30
+	@1946 = 33
+
+	hidden_special buildings = { #don't research this pls
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 10
+		start_year = 1960
+
+		enable_building = {
+			building = farms
+			level = 10
+		}
+
+		enable_building = {
+			building = ruins
+			level = 10
+		}
+	}
+
+}
