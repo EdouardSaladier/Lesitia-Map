@@ -4,6 +4,9 @@ state={
 	name="STATE_24"
 
 	history={
+		buildings = {
+			infrastructure = 2
+		}
 		owner = CMM
 		add_core_of = CMM
 		set_variable = {

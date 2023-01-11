@@ -3,6 +3,9 @@ state={
 	name="STATE_150"
 	
 	history={
+		buildings = {
+			infrastructure = 2
+		}
 		owner = REO
 		victory_points = {
 		      12319 30

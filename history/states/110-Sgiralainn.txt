@@ -3,6 +3,9 @@ state={
 	name="STATE_110"
 	
 	history={
+		buildings = {
+			infrastructure = 4
+		}
 		owner = CMM
 		add_core_of = CMM
 		set_variable = { specie = 49 }

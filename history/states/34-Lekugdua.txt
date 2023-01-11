@@ -4,6 +4,9 @@ state={
 	name="STATE_34"
 
 	history={
+		buildings = {
+			infrastructure = 1
+		}
 		owner = LUR
 		add_core_of = LUR
 

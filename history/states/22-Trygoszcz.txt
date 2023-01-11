@@ -4,6 +4,9 @@ state={
 	name="STATE_22"
 
 	history={
+		buildings = {
+			infrastructure = 3
+		}
 		owner = AVN
 		victory_points = {
 		      14930 10

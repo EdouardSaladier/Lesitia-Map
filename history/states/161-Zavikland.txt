@@ -3,6 +3,9 @@ state={
 	name="STATE_161"
 	
 	history={
+		buildings = {
+			infrastructure = 1
+		}
 		owner = SYM
 		victory_points = {
 		      1759 1

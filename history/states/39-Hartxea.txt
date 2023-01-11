@@ -3,6 +3,9 @@ state={
 	name="STATE_39"
 	
 	history={
+		buildings = {
+			infrastructure = 4
+		}
 		owner = LUR
 		victory_points = {
 		      3569 20

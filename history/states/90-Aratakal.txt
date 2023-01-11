@@ -4,6 +4,9 @@ state={
 	name="STATE_90"
 
 	history={
+		buildings = {
+			infrastructure = 1
+		}
 		owner = AKU
 		add_core_of = AKU
 		set_variable = { specie = 66 }

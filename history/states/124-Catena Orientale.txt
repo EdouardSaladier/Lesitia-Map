@@ -4,6 +4,9 @@ state={
 	name="STATE_124"
 
 	history={
+		buildings = {
+			infrastructure = 1
+		}
 		owner = BOR
 		add_core_of = BOR
 		set_variable = { specie = 7 }
@@ -14,6 +17,6 @@ state={
 	}
 	manpower=263472
 	buildings_max_level_factor=1.000
-	state_category=Rural
+	state_category=rural
 	local_supplies=0.000
 }

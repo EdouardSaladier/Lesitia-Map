@@ -4,6 +4,9 @@ state={
 	name="STATE_3"
 
 	history={
+		buildings = {
+			infrastructure = 2
+		}
 		owner = GLR
 		add_core_of = GLR
 

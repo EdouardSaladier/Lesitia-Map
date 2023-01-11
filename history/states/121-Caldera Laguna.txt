@@ -3,6 +3,9 @@ state={
 	name="STATE_121"
 	
 	history={
+		buildings = {
+			infrastructure = 1
+		}
 		owner = BOR
 		add_core_of = BOR
 		set_variable = { specie = 20 }

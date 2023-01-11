@@ -3,6 +3,9 @@ state={
 	name="STATE_122"
 	
 	history={
+		buildings = {
+			infrastructure = 4
+		}
 		owner = BOR
 		add_core_of = BOR
 		set_variable = { specie = 20 }
@@ -12,7 +15,7 @@ state={
 		306 3361 4192 5447 8013 8666 10024 14602 
 	}
 	manpower=4510000
-	state_category=Metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

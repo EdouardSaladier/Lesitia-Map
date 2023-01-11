@@ -3,6 +3,9 @@ state={
 	name="STATE_231"
 	
 	history={
+		buildings = {
+			infrastructure = 2
+		}
 		owner = REZ
 		add_core_of = REZ
 

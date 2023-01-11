@@ -4,6 +4,9 @@ state={
 	name="STATE_69"
 
 	history={
+		buildings = {
+			infrastructure = 2
+		}
 		owner = VRT
 		victory_points = {
 		      9136 5

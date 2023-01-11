@@ -4,6 +4,9 @@ state={
 	name="STATE_85"
 
 	history={
+		buildings = {
+			infrastructure = 1
+		}
 		owner = AKU
 		victory_points = {
 		      7639 15

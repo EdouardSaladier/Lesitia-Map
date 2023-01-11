@@ -4,6 +4,9 @@ state={
 	name="STATE_26"
 
 	history={
+		buildings = {
+			infrastructure = 1
+		}
 		owner = VRT
 		add_core_of = VRT
 		set_variable = { specie = 75 }

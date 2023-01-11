@@ -4,6 +4,9 @@ state={
 	name="STATE_17"
 	
 	history={
+		buildings = {
+			infrastructure = 2
+		}
 		owner = LEN
 		add_core_of = LEN
 

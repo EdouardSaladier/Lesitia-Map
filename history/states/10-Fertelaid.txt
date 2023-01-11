@@ -4,6 +4,9 @@ state={
 	name="STATE_10"
 
 	history={
+		buildings = {
+			infrastructure = 2
+		}
 		owner = MIT
 		add_core_of = MIT
 

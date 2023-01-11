@@ -4,6 +4,9 @@ state={
 	name="STATE_247"
 
 	history={
+		buildings = {
+			infrastructure = 1
+		}
 		owner = HAF
 		add_core_of = HAF
 

@@ -3,6 +3,9 @@ state={
 	name="STATE_159"
 	
 	history={
+		buildings = {
+			infrastructure = 1
+		}
 		owner = SYM
 		add_core_of = SYM
 		add_core_of = MAV
