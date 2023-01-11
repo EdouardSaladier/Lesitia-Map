@@ -1466,38 +1466,38 @@
  total_conversion_reactor_fake_desc:0 "A Total Conversion Reactor is a type of nuclear reactor that aims to achieve complete conversion of nuclear fuel into energy. This would mean that virtually all of the energy locked in the atomic nuclei of the fuel would be harnessed to generate electricity, and there would be little or no radioactive waste produced. The concept of a total conversion reactor is based on nuclear processes called transmutation, where the isotopes of the nuclei of the fuel are transformed into other isotopes that are either more stable or have a lower atomic number."
  
  #Fuel
- alkanine_fuel_cell:0 "Alkanine Fuel Cell"
- alkanine_fuel_cell_desc:0 "Alkanine Fuel Cell"
+ alkanine_fuel_cell:0 "Alkaline Fuel Cell"
+ alkanine_fuel_cell_desc:0 "An Alkaline Fuel Cell (AFC) is a type of fuel cell that uses an alkaline electrolyte, typically potassium hydroxide (KOH), to generate electricity. In an AFC, hydrogen gas is fed into the anode compartment of the cell, where it is oxidized and forms protons and electrons. The protons pass through the electrolyte to the cathode, while the electrons flow through an external circuit to generate electricity. Oxygen is typically fed into the cathode compartment, where it is reduced to water."
  
  metal_hydride_fuel_cell:0 "Metal-Hydride Fuel Cell"
- metal_hydride_fuel_cell_desc:0 "Metal-Hydride Fuel Cell"
+ metal_hydride_fuel_cell_desc:0 "A Metal-Hydride Fuel Cell (MHFC) is a type of fuel cell that uses a metal hydride material as the storage medium for hydrogen fuel. A metal-hydride material is a metal alloy or compound that can absorb and store hydrogen in its atomic structure through a process called absorption. In a MHFC, hydrogen is stored in the metal-hydride material in the form of metal hydrides."
  
  solid_state_alkanine_fuel_cell:0 "Solid-State Alkanine Fuel Cell"
- solid_state_alkanine_fuel_cell_desc:0 "Solid-State Alkanine Fuel Cell"
+ solid_state_alkanine_fuel_cell_desc:0 "A Solid-State Alkaline Fuel Cell (SSAFC) is a type of fuel cell that combines the features of both solid-state electrolyte and alkaline electrolyte technology. The benefits of using solid-state electrolyte are mainly its stability and durability, which allows the SSAFCs to work in harsh environment and at high temperatures."
  
  solid_oxide_fuel_cell:0 "Solid Oxide Fuel Cell"
- solid_oxide_fuel_cell_desc:0 "Solid Oxide Fuel Cell"
+ solid_oxide_fuel_cell_desc:0 "A Solid Oxide Fuel Cell (SOFC) is a type of fuel cell that uses a solid oxide electrolyte to generate electricity. The electrolyte, which is typically made of a ceramic material such as yttria-stabilized zirconia (YSZ), is sandwiched between two electrodes, the anode and cathode."
  
  proton_exchange_membrane_fuel_cell:0 "Proton-Exchange Membrane Fuel Cell"
- proton_exchange_membrane_fuel_cell_desc:0 "Proton-Exchange Membrane Fuel Cell"
+ proton_exchange_membrane_fuel_cell_desc:0 "A Proton-Exchange Membrane Fuel Cell (PEMFC) is a type of fuel cell that uses a proton-conducting polymer membrane as the electrolyte. The membrane, which is typically made of a material such as Nafion, is sandwiched between two electrodes, the anode and cathode."
  
  metal_hydride_hydrogen_compressors:0 "Metal-Hydride Hyd. Compressors"
- metal_hydride_hydrogen_compressors_desc:0 "Metal-Hydride Hyd. Compressors"
+ metal_hydride_hydrogen_compressors_desc:0 "Metal-Hydride Hydrogen Compressors are a type of compressor that uses metal hydride materials to compress hydrogen gas. The compression process is based on the principle that hydrogen can be absorbed into certain metal alloys or compounds to form metal hydrides. When these metal hydrides are heated, the hydrogen is released and can be compressed into a high-pressure storage container."
  
  metal_organic_frameworks:0 "Metal-Organic Frameworks"
- metal_organic_frameworks_desc:0 "Metal-Organic Frameworks"
+ metal_organic_frameworks_desc:0 "Metal-Organic Frameworks (MOFs) are a class of materials that are composed of metal ions or clusters connected by organic ligands. They are highly porous, with a large surface area and a highly ordered structure, which makes them suitable for various applications such as gas storage, gas separation, catalysis, sensing, and drug delivery."
  
  liquid_organic_hydrogen_carriers:0 "Liquid Organic Hydrogen Carriers"
- liquid_organic_hydrogen_carriers_desc:0 "Liquid Organic Hydrogen Carriers"
+ liquid_organic_hydrogen_carriers_desc:0 "Liquid Organic Hydrogen Carriers (LOHCs) is a technology that aims to overcome the limitations of hydrogen storage by using a liquid organic carrier that can store hydrogen in chemical form. In this technology, hydrogen is first reacted with a liquid organic compound, forming a hydrogen-rich liquid that can be stored and transported in a conventional tank. The hydrogen is later released from the liquid by heating or a chemical reaction, making it available for use in a fuel cell."
  
  alkaline_water_electrolyzers:0 "Alkaline Water Electrolyzers"
- alkaline_water_electrolyzers_desc:0 "Alkaline Water Electrolyzers"
+ alkaline_water_electrolyzers_desc:0 "Alkaline Water Electrolyzers (AWE) are devices that use electricity to break down water (H2O) into hydrogen (H2) and oxygen (O2) gases. The process is called electrolysis, which is the passing an electric current through an electrolyte solution that is composed mainly of water and an alkali, such as potassium hydroxide (KOH) or sodium hydroxide (NaOH) which is why they are named as "Alkaline" electrolyzers."
  
  solid_oxide_electrolyzers:0 "Solid Oxide Electrolyzers"
- solid_oxide_electrolyzers_desc:0 "Solid Oxide Electrolyzers"
+ solid_oxide_electrolyzers_desc:0 "Solid Oxide Electrolyzers (SOE) are devices that use electricity to break down water (H2O) into hydrogen (H2) and oxygen (O2) gases using a solid oxide electrolyte. The process is called electrolysis, and it is similar to that of the alkaline water electrolyzer, but with the key difference being the solid oxide electrolyte used instead of a liquid."
  
  proton_exchange_membrane_electrolyzers:0 "Prot-Exc. Membrane Electrolyzers"
- proton_exchange_membrane_electrolyzers_desc:0 "Prot-Exc. Membrane Electrolyzers"
+ proton_exchange_membrane_electrolyzers_desc:0 ""Proton-Exchange Membrane Electrolyzers" (PEME) are devices that use electricity to break down water (H2O) into hydrogen (H2) and oxygen (O2) gases using a proton-exchange membrane electrolyte. The process is called electrolysis, and it is similar to that of the alkaline water electrolyzer and solid oxide electrolyzer, but with the key difference being the proton-exchange membrane used instead of a liquid or solid electrolyte."
  
  ### Computers
  
