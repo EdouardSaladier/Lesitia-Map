@@ -173,7 +173,7 @@
  conventional_firearms_equipment_desc:0 "The global standard for firearms since the days of the War that has changed little in that time. Making use of a firing pin to light the gunpower and fire the bullets inside, their ubiguity makes them cheap to make and easy to learn."
 
  caseless_munitions:0 "Caseless Munitions"
- caseless_munitions_desc:0 "One of the few recent advances made to firearms in the last few decades ahs been caseless muntions. Not only does this make the manufacturing of firearms easier, but also means less raw materials needed for the production of ammunition."
+ caseless_munitions_desc:0 "One of the few recent advances made to firearms in the last few decades has been caseless munitions. Not only does this make the manufacturing of firearms easier, but also means less raw materials needed for the production of ammunition."
  caseless_munitions_idea:0 "Caseless Munitions"
 
  telescoped_munitions:0 "Telescoped Munitions"
@@ -1181,283 +1181,289 @@
 
  assembly_lines:0 "Mass Production Assembly Lines"
  assembly_lines_fake:0 "Mass Production Assembly Lines"
- assembly_lines_desc:0 "TODO"
+ assembly_lines_fake_desc:0 "An assembly line is just like the name suggests, it’s a production process that breaks the manufacturing of a good into different steps/workstations in a pre-defined sequence until the product is assembled, it is one of the most used systems for mass producing goods."
+ assembly_lines_desc:0 "An assembly line is just like the name suggests, it’s a production process that breaks the manufacturing of a good into different steps/workstations in a pre-defined sequence until the product is assembled, it is one of the most used systems for mass producing goods."
  
  volumetric_construction_methods:0 "Volumetric Construction Methods"
- volumetric_construction_methods_desc:0 "TODO"
+ volumetric_construction_methods_desc:0 "A volumetric construction is the use of modular building techniques where large portions of the finished product are manufactured off site in a factory and then assembled on site to form a finished structure, with modular construction being a subset of it, with the terms being used interchangeably."
  
  articulated_robotics_arms:0 "Articulated Robotics Arms"
- articulated_robotics_arms_desc:0 "TODO"
+ articulated_robotics_arms_desc:0 "A type of mechanical arm that is programmable and can carry out similar functions to a sapient creature, with its main use being in mass manufacturing."
  
  computer_aided_design:0 "Computer-Aided Design"
- computer_aided_design_desc:0 "TODO"
+ computer_aided_design_desc:0 "A CAD (computer-aided design) allows experts to create more accurate design representations, replacing manual design drafting, allowing design development, alteration and optimization, enabling engineers to craft more precise designs and manipulate them virtually."
  
  computer_aided_manufacturing:0 "Computer-Aided Manufacturing"
- computer_aided_manufacturing_desc:0 "TODO"
+ computer_aided_manufacturing_desc:0 "Computer-aided Manufacturing (CAM) is a term used to describe the use of computerized systems to control the operations at a manufacturing plant. These computerized systems assist manufacturers in various operations such as planning, transportation, management, and storage."
  
  laser_direct_imaging:0 "Laser Direct Imaging"
- laser_direct_imaging_desc:0 "TODO"
+ laser_direct_imaging_desc:0 "The Laser Direct Imaging (LDI) process imprints a pattern (saved on a digital file) onto a certain substrate or laminate utilizing a highly focused laser beam, being able to make such things as precise metal stamping and circuit boards."
  
  powered_construction_exoskeletons:0 "Powered Construction Exoskeletons"
- powered_construction_exoskeletons_desc:0 "TODO"
+ powered_construction_exoskeletons_desc:0 "With the use of an exoskeleton it is possible to give the common worker much more strength and maneuverability when transporting heavy materials such as crates and steel beams, while also providing stability when used to transport delicate goods, such as glass."
  
  sensors_robotics:0 "Sensor Robotics Manufacturing"
  sensors_robotics_fake:0 "Sensor Robotics Manufacturing"
- sensors_robotics_desc:0 "TODO"
+ sensors_robotics_fake_desc:0 "Sensors are required to supply the necessary data for robots to do their tasks appropriately, with this greater automation is possible, since the machine itself can recognize what something is without the direct intervention of an outside agent."
+ sensors_robotics_desc:0 "Sensors are required to supply the necessary data for robots to do their tasks appropriately, with this greater automation is possible, since the machine itself can recognize what something is without the direct intervention of an outside agent."
  
  automatic_optical_inspection:0 "Automatic Optical Inspection"
- automatic_optical_inspection_desc:0 "TODO"
+ automatic_optical_inspection_desc:0 "An Automated Optical Inspection (AOI) is an automated visual inspection methodology used primarily to test for defects in printed circuit board assemblies, being able to detect missing components and overall quality failures."
  
  automated_building_surveying:0 "Automated Building Surveying"
- automated_building_surveying_desc:0 "TODO"
+ automated_building_surveying_desc:0 "Automated Building Surveying is to stake out reference points and markers that will guide the construction of new structures such as roads or buildings, these markers are usually staked out according to a suitable coordinate system selected for the project, with GPS being commonly used."
  
  additive_manufacturing:0 "Additive Manufacturing"
  additive_manufacturing_fake:0 "Additive Manufacturing"
- additive_manufacturing_desc:0 "TODO"
+ additive_manufacturing_fake_desc:0 "Additive manufacturing is the process of creating an object by building it one layer at a time, it is the opposite of subtractive manufacturing, in which an object is created by cutting away at a solid block of material until the final product is complete."
+ additive_manufacturing_desc:0 "Additive manufacturing is the process of creating an object by building it one layer at a time, it is the opposite of subtractive manufacturing, in which an object is created by cutting away at a solid block of material until the final product is complete."
  
  three_dimension_construction_printing:0 "3-D Construction Printing"
- three_dimension_construction_printing_desc:0 "TODO"
+ three_dimension_construction_printing_desc:0 "3D construction Printing (3DCP) refers to various technologies that use 3D printing as a core method to fabricate buildings or construction components, such as 3D Concrete, Autonomous Robotic Construction System (ARCS), large-scale additive manufacturing (LSAM) and freeform construction (FC)."
  
  nanomaterials_applications:0 "Nanomaterial Industrial Applications"
  nanomaterials_applications_fake:0 "Nanomaterial Industrial Applications"
- nanomaterials_applications_desc:0 "TODO"
+ nanomaterials_applications_fake_desc:0 "Nanomaterials are chemical substances that are manufactured and used at very small scales, they can be designed for increased strength, chemical reactivity, or conductivity, and are actively changing the field of engineering every day, they can help to reinforce structures, fabrics and sometimes they even find their way into civilian goods."
+ nanomaterials_applications_desc:0 "Nanomaterials are chemical substances that are manufactured and used at very small scales, they can be designed for increased strength, chemical reactivity, or conductivity, and are actively changing the field of engineering every day, they can help to reinforce structures, fabrics and sometimes they even find their way into civilian goods."
  
  construction_nanomaterials:0 "Construction Nanomaterials"
- construction_nanomaterials_desc:0 "TODO"
+ construction_nanomaterials_desc:0 "Nanotechnology has a significant impact in the construction sector, several applications have been developed for this specific sector to improve the durability and enhanced performance of construction components, energy efficiency and safety of the buildings, facilitating the ease of maintenance and to provide increased living comfort."
  
  metal_foam:0 "Metal Foam"
- metal_foam_desc:0 "TODO"
+ metal_foam_desc:0 "Metal foam is a cellular structure consisting of a solid metal (frequently aluminum) with gas-filled pores comprising a large portion of the volume. The pores can be sealed (closed-cell foam) or interconnected (open-cell foam). The defining characteristic of metal foams is a high porosity, the strength of the material is due to the square–cube law. Metal foams can withstand great damage with little deformation, and they can be made into complex geometrical forms easily with heat resistance and sound absorption."
  
  tensile_memory_polarised_matter:0 "Tensile Memory Polarized Matter"
- tensile_memory_polarised_matter_desc:0 "TODO"
+ tensile_memory_polarised_matter_desc:0 "To put it simply, Tensile Memory Matter is a matter that can memorize a certain specific shape, easily being able to pull itself back together to its original or new shape."
  
  matter_compiler:0 "Matter Compiler"
  matter_compiler_fake:0 "Matter Compiler"
- matter_compiler_desc:0 "TODO"
+ matter_compiler_fake_desc:0 "A matter compiler is something that can build new materials molecule by molecule, basically being able to create anything from anything, no matter what matter it can compile it into something completely new."
+ matter_compiler_desc:0 "A matter compiler is something that can build new materials molecule by molecule, basically being able to create anything from anything, no matter what matter it can compile it into something completely new."
  
  perfect_device_replication:0 "Perfect Device Replication"
- perfect_device_replication_desc:0 "TODO"
+ perfect_device_replication_desc:0 "Now it is possible to completely copy and replicate devices, being able to easily replace any damaged or destroyed devices on factories, vehicles and normal home appliances, everything being stored in a giant database, including blueprints and specifications, being able to recreate it in the same exact way as the original, with the use of nanomachines and nanomaterials making the process all the much faster."
  
  structure_conversion_tower:0 "Structure Conversion Tower"
- structure_conversion_tower_desc:0 "TODO"
+ structure_conversion_tower_desc:0 "A S.C.T is something that can convert surrounding matter into virtually anything that it wants, being able to synthesize any structure, material, machine, vehicle and drone in a matter of nanoseconds, no matter if it is a natural element or a completely mechanical sapient creation."
  
  plasticisation_units:0 "Placticisation Units"
- plasticisation_units_desc:0 "TODO"
+ plasticisation_units_desc:0 "Plasticisation basically is the transformation of thermoplastic powder or granules into a homogeneous melt state."
  
  thermoforming_moulding:0 "Thermoforming Moulding"
- thermoforming_moulding_desc:0 "TODO"
+ thermoforming_moulding_desc:0 "Thermoforming is a process of heating a thermoplastic sheet to its softening point. The sheet is stretched across a single-sided mold and then manipulated. Then, it cools into the desired shape."
  
  aerogel_insulation:0 "Aerogel Insulation"
- aerogel_insulation_desc:0 "TODO"
+ aerogel_insulation_desc:0 "With fiber reinforced silica aerogel insulation boards insulation thickness can be reduced by about 50% compared to conventional materials. This makes silica aerogel boards well suited for the retrofit of historic buildings or for the application in dense city areas; as other examples, aerogel has been added in granular form to skylights for this purpose."
  
  chemical_etching_process:0 "Chemical Etching Process"
- chemical_etching_process_desc:0 "TODO"
+ chemical_etching_process_desc:0 "Chemical etching is a method of engraving that uses a high-pressure high-temperature chemical spray to remove material to create a permanent etched image in metal, a mask or resist is applied to the surface of the material and is selectively removed, exposing the metal, to create the desired image."
  
  multi_layer_vacuum_lamination:0 "Multi-Layer Vacuum Lamination"
- multi_layer_vacuum_lamination_desc:0 "TODO"
+ multi_layer_vacuum_lamination_desc:0 "A method for laminating the layers of a printed circuit board composed of printed circuit layers and adhesive layers, the method including loading the board between a pair of platens of a vacuum chamber, moving the platens together to a pre-specified distance apart, and allowing activation and curing of the adhesive layers at a pre-specified temperature and duration."
  
  glycerylnitrate_chemical_synthesis:0 "Glyceryl-Nitrate Chemical Synthesis"
- glycerylnitrate_chemical_synthesis_desc:0 "TODO"
+ glycerylnitrate_chemical_synthesis_desc:0 "Nitroglycerin, also called glyceryl trinitrate, is a powerful explosive and an important ingredient of most forms of dynamite, it is also used with nitrocellulose in some propellants, especially for rockets and missiles."
  
  hexamine_nitration_process:0 "Hexamine Nitration Process"
- hexamine_nitration_process_desc:0 "TODO"
+ hexamine_nitration_process_desc:0 "The process transforms hexamine into RDX via nitration (using HNO3) and paraformaldehyde, RDX being the abbreviation of “research Department eXplosive” also known as Hexogen; it is widely used as an explosive."
  
  synthetic_biology_theory:0 "Synthetic Biology Theory"
  synthetic_biology_theory_fake:0 "Synthetic Biology Theory"
- synthetic_biology_theory_desc:0 "TODO"
+ synthetic_biology_theory_fake_desc:0 "Synthetic biology is a field of science that involves redesigning organisms for useful purposes by engineering them to have new abilities, aiming to engineer new living functionalities by creating, characterizing and assembling biological parts, devices and systems in living cells."
+ synthetic_biology_theory_desc:0 "Synthetic biology is a field of science that involves redesigning organisms for useful purposes by engineering them to have new abilities, aiming to engineer new living functionalities by creating, characterizing and assembling biological parts, devices and systems in living cells."
  
  self_repairing_concrete:0 "Self-Repairing Concrete"
- self_repairing_concrete_desc:0 "TODO"
+ self_repairing_concrete_desc:0 "Self-Repairing Concrete imitates the automatic healing of body wounds by the secretion of some kind of material; to create self-healing concrete, some special materials (such as fibers or capsules), which contain some adhesive liquids, are dispensed into the concrete mix. When cracks happen, the fibers or capsules will break and the liquid contained in them will then heal the crack at once."
  
  biopolymers:0 "Biopolymers"
- biopolymers_desc:0 "TODO"
+ biopolymers_desc:0 "Biopolymers are polymers produced from natural sources, these can either be chemically synthesized from biological materials or biosynthesised by living organisms, they are made up of monomeric units bonded together by covalent bonds, these monomeric units form larger molecules, as biopolymers are derived from living organisms like plants and microbes, they are a renewable resource, unlike most polymers which are petroleum-based polymers."
  
  biological_circuit_fabrication:0 "Biological Circuit Fabrication"
- biological_circuit_fabrication_desc:0 "TODO"
+ biological_circuit_fabrication_desc:0 "Synthetic biological circuits are an application of synthetic biology where biological parts inside a cell are designed to perform logical functions mimicking those observed in electronic circuits, the applications range from simply inducing production to adding a measurable element, to an existing natural biological circuit to implementing completely new systems of many parts."
  
  organic_solvent_recrystalisation:0 "Organic Solvent Re-crystalisation"
- organic_solvent_recrystalisation_desc:0 "TODO"
+ organic_solvent_recrystalisation_desc:0 "Recrystallization is the most important method of purifying nonvolatile organic solids, recrystallization involves dissolving the material to be purified (the solute) in an appropriate hot solvent, as the solvent cools, the solution becomes saturated with the solute and the solute crystallizes out (reforms a solid)."
  
  organic_super_lubricant:0 "Organic Super Lubricant"
- organic_super_lubricant_desc:0 "TODO"
+ organic_super_lubricant_desc:0 "An Organic Super Lubricant is a Lubricant that learns where to apply itself."
  
  ### Food tree
  
  rudimentary_agronomics:0 "Rudimentary Agronomics"
- rudimentary_agronomics_desc:0 "Rudimentary Agronomics"
+ rudimentary_agronomics_desc:0 "Rudimentary agronomics refers to the basic principles and practices of crop cultivation, focusing on the selection, planting, and maintenance of crops in order to produce a yield. This can include activities such as soil preparation, seed selection and planting, irrigation, fertilization, pest management, and harvesting."
  
  advanced_compartmentalization:0 "Advanced Compartmentalization"
- advanced_compartmentalization_desc:0 "Advanced Compartmentalization"
+ advanced_compartmentalization_desc:0 "Advanced compartmentalization refers to the concept of using technology to create highly controlled, isolated environments that can be used for a variety of purposes, like preserving the quality of food or to grow better crops in a more controlled environment. In this technology, advanced methods are used to maintain and control the conditions within the compartmentalized environment, such as temperature, humidity, light, and pressure."
  
  hydroponic_frameworks:0 "Hydroponic Frameworks"
- hydroponic_frameworks_desc:0 "Hydroponic Frameworks"
+ hydroponic_frameworks_desc:0 "Hydroponic frameworks refers to the method of growing plants in a nutrient-rich solution, rather than in soil. The plants are typically grown in a controlled environment, with their roots suspended in the nutrient solution and their leaves exposed to light. Hydroponic systems can be open or closed, meaning that the nutrient solution can be recirculated or used just once."
  
  low_temperature_hydration:0 "Low-Temperature Hydration"
- low_temperature_hydration_desc:0 "Low-Temperature Hydration"
+ low_temperature_hydration_desc:0 "Low-Temperature Hydration refers to the process of hydrating (adding water) to materials at low temperatures. This can include freezing or chilling the materials to slow down or inhibit certain chemical or biological processes, such as bacterial growth or enzymatic activity."
  
  strategic_vertical_farming:0 "Strategic Vertical Farming"
- strategic_vertical_farming_desc:0 "Strategic Vertical Farming"
+ strategic_vertical_farming_desc:0 "Strategic Vertical Farming refers to the method of growing crops in stacked layers in a controlled environment, using techniques such as hydroponics, aeroponics or aquaponics, rather than in soil. The stacked layers of the farm can be inside a building, such as a warehouse, or outside using a multi-story structure."
  
  solar_emitter_array:0 "Artificial Sunlight"
- solar_emitter_array_desc:0 "Artificial Sunlight"
+ solar_emitter_array_desc:0 "Artificial sunlight refers to the concept of using technology to mimic the effects of natural sunlight, in order to provide plants with the light they need to grow. This can include using artificial light sources, such as LED lights or high-intensity discharge lamps, as well as sophisticated systems for controlling the intensity, spectrum, and duration of the light."
  
  mass_hydration:0 "Optimised Hydration"
- mass_hydration_desc:0 "Optimised Hydration"
+ mass_hydration_desc:0 "Optimized Hydration refers to the process of providing the optimal amount of water to living organisms, such as plants or animals, in order to support their growth, health and performance. In agriculture, optimized hydration is a critical aspect of crop production, as it can affect growth rates, yield, and quality of the crops. It can be achieved through a combination of practices such as precision irrigation, soil moisture sensors, weather forecasting, and crop modeling."
  
  metatrophic_stimulation:0 "Metatrophic Stimulation"
- metatrophic_stimulation_desc:0 "Metatrophic Stimulation"
+ metatrophic_stimulation_desc:0 "The term Metatrophic Stimulation means the process of stimulating a transformation and/or cycle in a organisms life, for faster production or for better quality of the output, for example, getting the crops at the correct and most ripe moment in the cycle of growth."
  
  extreme_acclimation:0 "Crassulacean Acid Metabolism"
- extreme_acclimation_desc:0 "Crassulacean Acid Metabolism"
+ extreme_acclimation_desc:0 "Crassulacean acid metabolism (CAM) is a metabolic process that allows some plants to efficiently conserve water by temporarily storing carbon dioxide in the form of organic acids during the night, and then releasing it during the day for photosynthesis. This process allows the plant to reduce water loss during the day by closing the stomata (pores on the leaf surface) when it is hot and dry, while still being able to perform photosynthesis."
  
  exotic_state_crops:0 "Artificial Parthenocarpy"
- exotic_state_crops_desc:0 "Artificial Parthenocarpy"
+ exotic_state_crops_desc:0 "Artificial Parthenocarpy refers to the process of inducing the growth and development of fruit in plants without the need for fertilization by a pollen grain. This is achieved by artificially activating the process of parthenocarpy, which is the natural development of fruit without fertilization."
  
  applied_inorganics:0 "Applied Inorganics"
- applied_inorganics_desc:0 "Applied Inorganics"
+ applied_inorganics_desc:0 "Applied Inorganics in agriculture refers to the use of inorganic materials, such as fertilizers and pesticides, in agriculture to improve crop yield and quality. Inorganic fertilizers, such as those that contain Nitrogen, Phosphorus and Potassium (NPK), can be used to supplement the soil with essential plant nutrients that may be lacking, promoting faster growth and healthier plants. These fertilizers come in various forms, like granular, liquid or slow-release, which allow farmers to adjust the timing and quantity of nutrient application based on the crop's needs."
  
  dense_nutrification:0 "Nutrification Enrichment"
- dense_nutrification_desc:0 "Nutrification Enrichment"
+ dense_nutrification_desc:0 "Nutrification Enrichment refers to the process of adding nutrients to a specific environment, such as soil or water, in order to enhance its fertility and support the growth of plants or other organisms. This can include adding fertilizers, organic matter, or other nutrient sources to the environment."
  
  synthetic_crops:0 "Cellular Agriculture"
- synthetic_crops_desc:0 "Cellular Agriculture"
+ synthetic_crops_desc:0 "Cellular Agriculture refers to the use of modern biotechnology and cell culture techniques to produce agricultural products such as food, fibers, and biomaterials. This can include techniques such as growing cells, tissues or organoids in a controlled environment and using them to produce food, as well as using genetic engineering and fermentation to produce food products."
  
  nutrient_specialization:0 "Nutrient Specialization"
- nutrient_specialization_desc:0 "Nutrient Specialization"
+ nutrient_specialization_desc:0 " Nutrient Specialization refers to the practice of tailoring the nutritional content of food or feed for specific organisms, this can be done by adjusting the composition of feed ingredients, the levels of various nutrients, or the ratio of nutrients provided to an organism."
  
  armor_plants:0 "Adaptative Pest Resistance"
- armor_plants_desc:0 "Adaptative Pest Resistance"
+ armor_plants_desc:0 "Adaptive Pest Resistance is the idea of not using conventional pesticides, but instead allowing and helping plants to create their very own natural pesticide, therefore cutting down on health risks, since the plant is adapting to new pests, like a quick evolution."
  
  soilless_growth:0 "Soilless Growth"
- soilless_growth_desc:0 "Soilless Growth"
+ soilless_growth_desc:0 "Soilless Growth is the idea of completely growing a plant outside of the soil, therefore the crop doesn't need to compete with weeds and pests, and also is much cleaner as a result of not being on the ground, this process can be done with hydroponics, artificial sunlight and the use of water with varied nutrients infused on it."
  
  concrete_rooting:0 "Agressive Biosequestration"
- concrete_rooting_desc:0 "Agressive Biosequestration"
+ concrete_rooting_desc:0 "Aggressive Biosequestration is the idea of creating a organism that can break down certain chemicals, mostly breaking down harmful chemicals into harmless ones."
 
  #Energy Tree
  basic_photovoltaic_cells:0 "Basic Photovoltaic Cells"
- basic_photovoltaic_cells_desc:0 "Basic Photovoltaic Cells"
+ basic_photovoltaic_cells_desc:0 "A Photovoltaic Cell, or as it is more known, a Solar Cell is a electronic device that converts the energy of light (irrespective of whether the source is sunlight or an artificial light) directly into energy using the photovoltaic effect, the operation of a photovoltaic is separated in three attributes that are required, that being the absorption of light that generates excitons or plasmons, The separation of charge carriers of opposite types and the separate extraction of those carriers to an external circuit."
  basic_photovoltaic_cells_fake:0 "Basic Photovoltaic Cells"
- basic_photovoltaic_cells_fake_desc:0 "Basic Photovoltaic Cells"
+ basic_photovoltaic_cells_fake_desc:0 "A Photovoltaic Cell, or as it is more known, a Solar Cell is a electronic device that converts the energy of light (irrespective of whether the source is sunlight or an artificial light) directly into energy using the photovoltaic effect, the operation of a photovoltaic is separated in three attributes that are required, that being the absorption of light that generates excitons or plasmons, The separation of charge carriers of opposite types and the separate extraction of those carriers to an external circuit."
  
  applied_sustainability_concept:0 "Applied Sustainability Concept"
- applied_sustainability_concept_desc:0 "Applied Sustainability Concept"
+ applied_sustainability_concept_desc:0 "As the name implies, the concept is to build a sustainable society/system, which consists of fulfilling the needs of current generations without compromising the needs of future generations, while still taking care of the economy, the environment and the well-being of the population. In other words, it is meant to prevent such things as pollution and resource scarcity in the future by using more sustainable methods, such as renewable energy."
  
  solar_concentrator:0 "Solar Concentrator"
- solar_concentrator_desc:0 "Solar Concentrator"
+ solar_concentrator_desc:0 "With the aid of specialized lenses it is possible to take a large area of sunlight and funnel it towards a specific spot by bending the rays of light and focusing them, similar to the process of using a magnifying glass to focus the sunrays to start a kindle on a pile of paper. The lenses are shaped like a dart board, with concentric rings of prisms around a lens that is a magnifying glass. All of these features let them focus scattered light from the Sun into a tight beam."
  solar_concentrator_fake:0 "Solar Concentrator"
- solar_concentrator_fake_desc:0 "Solar Concentrator"
+ solar_concentrator_fake_desc:0 "With the aid of specialized lenses it is possible to take a large area of sunlight and funnel it towards a specific spot by bending the rays of light and focusing them, similar to the process of using a magnifying glass to focus the sunrays to start a kindle on a pile of paper. The lenses are shaped like a dart board, with concentric rings of prisms around a lens that is a magnifying glass. All of these features let them focus scattered light from the Sun into a tight beam."
  
  dielectric_panels:0 "Dielectric Panels"
- dielectric_panels_desc:0 "Dielectric Panels"
+ dielectric_panels_desc:0 "Dielectric is another word for insulating, to conserve energy solar panels are to be well insulated on their backside, therefore nothing will be lost as the energy is being transmitted."
  
  geothermal_plants:0 "Geothermal Plants"
- geothermal_plants_desc:0 "Geothermal Plants"
+ geothermal_plants_desc:0 "Geothermal plants produce energy with steam, this steam comes from reservoirs of hot water found a few miles below the planet’s surface, the steam rotates a turbine that activates a generator, which produces electricity. It is often considered one of the cleanest forms of energy, while also being renewable, the only downside being that it needs a proper specific location to function, like near the boundaries of tectonic plates."
  geothermal_plants_fake:0 "Geothermal Plants"
- geothermal_plants_fake_desc:0 "Geothermal Plants"
+ geothermal_plants_fake_desc:0 "Geothermal plants produce energy with steam, this steam comes from reservoirs of hot water found a few miles below the planet’s surface, the steam rotates a turbine that activates a generator, which produces electricity. It is often considered one of the cleanest forms of energy, while also being renewable, the only downside being that it needs a proper specific location to function, like near the boundaries of tectonic plates."
  
  mantle_breakthrough:0 "Mantle Breakthrough"
- mantle_breakthrough_desc:0 "Mantle Breakthrough"
+ mantle_breakthrough_desc:0 "With the use of more powerful drilling machines and instruments it is possible to reach deeper near the center of the planet, tapping into near-limitless amounts of potential energy, even bypassing placement issues that geothermal power plants used to suffer with."
  
  thermodynamic_isolation_fields:0 "Thermodynamic Isolation Fields"
- thermodynamic_isolation_fields_desc:0 "Thermodynamic Isolation Fields"
+ thermodynamic_isolation_fields_desc:0 "A Thermodynamic isolation means a system that cannot exchange either energy or matter outside the boundaries of the system, There are two ways in which this may occur, the system may be so distant from another system that it cannot interact with them or the system may be enclosed such that neither energy nor mass may enter or exit."
  
  thermal_waste_capture:0 "Thermal Waste Capture"
- thermal_waste_capture_desc:0 "Thermal Waste Capture"
+ thermal_waste_capture_desc:0 "By capturing heat that otherwise would be wasted it is possible to give a boost to solar systems, using a hyperbolic thermal emitter that can absorb intense heat, squeeze it into a narrow bandwidth, and emit it as light that can be turned into electricity. This is possible with the use of arrays of nanotubes with submicron-scale cavities, the cavities trap thermal photons and narrow their bandwidth, turning them into light that can then be recycled as electricity."
  
  solar_arrays:0 "Solar Arrays"
- solar_arrays_desc:0 "Solar Arrays"
+ solar_arrays_desc:0 "A Solar Array is a quite simple concept, it’s basically a collection of multiple solar panels that generate electricity as a system."
  
  core_mining:0 "Deep Core Mining"
- core_mining_desc:0 "Deep Core Mining"
+ core_mining_desc:0 "With greater advancements into mining technology such as larger and more heat-resistant drills it is now possible to reach deeper than ever before, now with the intended use of mining into and in the planet’s core for greater energy opportunities and resources."
  
  thermophotonic_distortion_reactor:0 "Thermophotonic Distortion Reactor"
- thermophotonic_distortion_reactor_desc:0 "Thermophotonic Distortion Reactor"
+ thermophotonic_distortion_reactor_desc:0 "Thermophotonics (abbreviated as TPX) is a concept for generating usable power from heat, A TPX system consists of a light-emitting diode (LED), a photovoltaic (PV) cell, an optical coupling between the two, and an electronic control circuit. The LED is heated to a temperature higher than the PV temperature by an external heat source; if a forward bias is applied at some fraction of the bandgap potential, an increased number of electron-hole pairs (EHPs) will be thermally excited to the bandgap energy."
  thermophotonic_distortion_reactor_fake:0 "Thermophotonic Distortion Reactor"
- thermophotonic_distortion_reactor_fake_desc:0 "Thermophotonic Distortion Reactor"
+ thermophotonic_distortion_reactor_fake_desc:0 "Thermophotonics (abbreviated as TPX) is a concept for generating usable power from heat, A TPX system consists of a light-emitting diode (LED), a photovoltaic (PV) cell, an optical coupling between the two, and an electronic control circuit. The LED is heated to a temperature higher than the PV temperature by an external heat source; if a forward bias is applied at some fraction of the bandgap potential, an increased number of electron-hole pairs (EHPs) will be thermally excited to the bandgap energy."
  
  advanced_photonics:0 "Advanced Photonics"
- advanced_photonics_desc:0 "Advanced Photonics"
+ advanced_photonics_desc:0 "Photonics is the science of generation, emission, transmission, modulation, processing, amplification and detection of light; advanced photonic power converters generate electrical power from light through the photovoltaic effect, when light impinges on the device, photons are absorbed, generating a potential difference, or photovoltage, and an electric current."
  
  thermodynamic_shielding:0 "Thermodynamic Shielding"
- thermodynamic_shielding_desc:0 "Thermodynamic Shielding"
+ thermodynamic_shielding_desc:0 "Thermodynamic/Thermal shielding is where there are layers of high-density material to try and keep the heat in or out of somewhere, being able to be used on power generating to concentrate the maximum amount of energy in a determined area of a system while not harming other parts of said system."
  
  regenerative_energy_source:0 "Regenerative Energy Source"
- regenerative_energy_source_desc:0 "Regenerative Energy Source"
+ regenerative_energy_source_desc:0 "A regenerative energy source is a source of power that can replenish itself within the time scales of most sapient creatures, such as solar, tides and geothermal power, to be able to get a energy grid to fully run on them means a drastic fall of costs in buying and mining new fuel while also being less harmful for the environment."
  regenerative_energy_source_fake:0 "Regenerative Energy Source"
- regenerative_energy_source_fake_desc:0 "Regenerative Energy Source"
+ regenerative_energy_source_fake_desc:0 "A regenerative energy source is a source of power that can replenish itself within the time scales of most sapient creatures, such as solar, tides and geothermal power, to be able to get a energy grid to fully run on them means a drastic fall of costs in buying and mining new fuel while also being less harmful for the environment."
  
  quantum_photonics:0 "Quantum Photonics"
- quantum_photonics_desc:0 "Quantum Photonics"
+ quantum_photonics_desc:0 "Quantum Photonics, or as it is more known, Integrated quantum photonics, uses photonic integrated circuits to control photonic quantum states for applications in quantum technologies. As such, integrated quantum photonics provides a promising approach to the miniaturization and scaling up of optical quantum circuits. The major application of integrated quantum photonics is Quantum technology; for example quantum computing, quantum communication, quantum simulation, quantum walks, quantum energy generation and quantum metrology."
  
  nuclear_fission_reactors:0 "Nuclear Fission Reactor"
- nuclear_fission_reactors_desc:0 "Nuclear Fission Reactor"
+ nuclear_fission_reactors_desc:0 "The reactors of old, still incredibly advanced and impressive, but will be nothing compared to what is about to come in the near future, the legacy reactors use the concept of nuclear fission power instead of fusion where the water in the core is heated by nuclear fission and then pumped into tubes inside a heat exchanger. Those tubes heat a separate water source to create steam. The steam then turns an electric generator to produce electricity. The core water cycles back to the reactor to be reheated and the process is repeated."
  nuclear_fission_reactors_fake:0 "Nuclear Fission Reactor"
- nuclear_fission_reactors_fake_desc:0 "Nuclear Fission Reactor"
+ nuclear_fission_reactors_fake_desc:0 "The reactors of old, still incredibly advanced and impressive, but will be nothing compared to what is about to come in the near future, the legacy reactors use the concept of nuclear fission power instead of fusion where the water in the core is heated by nuclear fission and then pumped into tubes inside a heat exchanger. Those tubes heat a separate water source to create steam. The steam then turns an electric generator to produce electricity. The core water cycles back to the reactor to be reheated and the process is repeated."
  
  fusion_theory:0 "Nuclear Fusion Theory"
- fusion_theory_desc:0 "Nuclear Fusion Theory"
+ fusion_theory_desc:0 "In a fusion reaction, two light nuclei merge to form a single heavier nucleus. The process releases energy because the total mass of the resulting single nucleus is less than the mass of the two original nuclei. The leftover mass becomes energy, this energy theoretically could be harvested for electricity."
  
  toroidal_fusion_reactor:0 "Toroidal Fusion Reactor"
- toroidal_fusion_reactor_desc:0 "Toroidal Fusion Reactor"
+ toroidal_fusion_reactor_desc:0 "A Toroidal reactor is a machine for controlled thermonuclear fusion with a toroidal shape, similar to a doughnut. Inside we have the plasma, a very hot and rarefied gas of ions and electrons, which is suspended away from the internal walls thanks to a magnetic field. In a magnetic field, particles with an electric charge cannot move freely but are forced to follow the direction of the field itself. In the Toroidal the magnetic field closes on itself as it travels the doughnut, without ever intercepting the physical container."
  toroidal_fusion_reactor_fake:0 "Toroidal Fusion Reactor"
- toroidal_fusion_reactor_fake_desc:0 "Toroidal Fusion Reactor"
+ toroidal_fusion_reactor_fake_desc:0 "A Toroidal reactor is a machine for controlled thermonuclear fusion with a toroidal shape, similar to a doughnut. Inside we have the plasma, a very hot and rarefied gas of ions and electrons, which is suspended away from the internal walls thanks to a magnetic field. In a magnetic field, particles with an electric charge cannot move freely but are forced to follow the direction of the field itself. In the Toroidal the magnetic field closes on itself as it travels the doughnut, without ever intercepting the physical container."
  
  powered_magnetic_couplers:0 "Powered Magnetic Couplers"
- powered_magnetic_couplers_desc:0 "Powered Magnetic Couplers"
+ powered_magnetic_couplers_desc:0 "Magnetic coupling occurs when energy is coupled from one circuit to another through a magnetic field."
  
  improved_magnetic_capture:0 "Improved Magnetic Capture"
- improved_magnetic_capture_desc:0 "Improved Magnetic Capture"
+ improved_magnetic_capture_desc:0 "With greater strength magnetics the safety of fusion energy can be further increased, the chances of the unstable plasma leaking or damaging the reactor walls now is close to none as the magnets will prevent it from happening, even more than before."
  
  exotic_thermodynamics:0 "Exotic Thermodynamics"
- exotic_thermodynamics_desc:0 "Exotic Thermodynamics"
+ exotic_thermodynamics_desc:0 "Turning the concept of negative mass materials from theory to fact is a huge leap; exceedingly powerful drives and energy sources are now available as technology is developed that affects entropy itself."
  
  high_energy_containment_field:0 "High-Energy Containment Field"
- high_energy_containment_field_desc:0 "High-Energy Containment Field"
+ high_energy_containment_field_desc:0 "Shielding is very useful to protect fragile materials, machines and reactors from outside malice, deterioration and any impure chemicals to prevent unexpected reactions, but also quite useful in keeping dangerous radiation, plasma and chemicals inside the field, sparing the outside world of any possible damages."
  
  advanced_magnetic_drivers:0 "Advanced Magnetic Drivers"
- advanced_magnetic_drivers_desc:0 "Advanced Magnetic Drivers"
+ advanced_magnetic_drivers_desc:0 "With advanced magnetic drivers fusion reactors will be able to reach much higher temperatures to cause the nuclear fusion, since the magnetic field will be much more able to hold back the high-temperature plasma, making it output more energy in quicker times."
  
  lattice_confinement_reactor:0 "Lattice Confinement Reactor"
- lattice_confinement_reactor_desc:0 "Lattice Confinement Reactor"
+ lattice_confinement_reactor_desc:0 "A Lattice Confinement Reactor is one that produces a lattice confinement fusion (LCF) a type of nuclear fusion via exposing deuteron-saturated metals to gamma radiation, avoiding the usage of confined high-temperature gasses used in other methods of fusion."
  lattice_confinement_reactor_fake:0 "Lattice Confinement Reactor"
- lattice_confinement_reactor_fake_desc:0 "Lattice Confinement Reactor"
+ lattice_confinement_reactor_fake_desc:0 "A Lattice Confinement Reactor is one that produces a lattice confinement fusion (LCF) a type of nuclear fusion via exposing deuteron-saturated metals to gamma radiation, avoiding the usage of confined high-temperature gasses used in other methods of fusion."
  
  cold_fusion_theory:0 "Cold Fusion Theory"
- cold_fusion_theory_desc:0 "Cold Fusion Theory"
+ cold_fusion_theory_desc:0 "A hypothetical method for achieving nuclear fusion at low temperature (such as room temperature), the cold fusion theory claims to do so when deuterium is dissolved in a solid, usually palladium metal, The idea, is that hydrogen and its isotopes can dissolve to such high concentrations in certain solids that the hydrogen nuclei approach closer to one another than even in solid hydrogen. Furthermore, negative electrical charges from the electrons of the solid host partly cancel the repulsion between the nuclei."
  
  systemic_miniaturization:0 "Systemic Miniaturisation"
- systemic_miniaturization_desc:0 "Systemic Miniaturisation"
+ systemic_miniaturization_desc:0 "Because of fusion power now it is possible to decrease the size of the reactor that causes the process, the hope is that it will be able to be installed in buildings, disconnected cities/towns, and even in vehicles later on, being also used in military configurations, for large vehicle-mounted railguns or even handheld energy guns, robotics also has shown to be a good potential use for these miniaturized reactors, being able to power a automatron for several years without needing to be changed or fixed, fixing the power issue that robots normally have."
  
  baryonic_shielding:0 "Baryonic Shielding"
- baryonic_shielding_desc:0 "Baryonic Shielding"
+ baryonic_shielding_desc:0 "Even if there were some minor particles that could pass the previous containment procedure, the newly improved version comes to prevent penetration by any baryon particle (primarily neutrons and protons), making it even safer."
  
  cold_fusion_reactor:0 "Cold Fusion Reactor"
- cold_fusion_reactor_desc:0 "Cold Fusion Reactor"
+ cold_fusion_reactor_desc:0 "After countless testings a functioning concept for a cold-fusion reactor was finally put together, this will allow fusion power without requiring the increased energy requirement for elevated heats of the old fusion process, now it is much safer and produces way more due to that change, making it a must-have for any decently sized nation."
  cold_fusion_reactor_fake:0 "Cold Fusion Reactor"
- cold_fusion_reactor_fake_desc:0 "Cold Fusion Reactor"
+ cold_fusion_reactor_fake_desc:0 "After countless testings a functioning concept for a cold-fusion reactor was finally put together, this will allow fusion power without requiring the increased energy requirement for elevated heats of the old fusion process, now it is much safer and produces way more due to that change, making it a must-have for any decently sized nation."
  
  exotic_matter_mechanics:0 "Exotic Matter Mechanics"
- exotic_matter_mechanics_desc:0 "Exotic Matter Mechanics"
+ exotic_matter_mechanics_desc:0 "In order to continue the march to the future the science field has now begun experimenting and studying more about matter, such as hypothetical particles, states of matter, forms of matter that are poorly understood (such as dark matter), ordinary matter under specific exotic circumstances, degenerative matter and matter that is not commonly encountered, with the latest studies being on  those that defy the laws of physics as we know it, hoping to find a use for them."
  
  pev_scale_magnetics:0 "PEV-Scale Magnetics"
- pev_scale_magnetics_desc:0 "PEV-Scale Magnetics"
+ pev_scale_magnetics_desc:0 "The construction of large scale and high-energy magnets allows an even larger increase to production inside the advanced cold-fusion reactors, even if they do take more energy they are also much more efficient as fewer will need to be used, meaning a greater energy save at the end of the process."
  
  virtualization_theory:0 "Virtualisation Theory"
- virtualization_theory_desc:0 "Virtualisation Theory"
+ virtualization_theory_desc:0 "Virtualization theory is process virtualizability, which describes how amenable a process is to being. conducted without physical interaction between people or between people and objects, basically an advanced planning tool, it proposes a set of constructs and relationships to explain and predict how suitable a process is to be conducted in a virtual environment and later on in reality."
  
  antimatter_reactors:0 "Antimatter Reactor"
- antimatter_reactors_desc:0 "Antimatter Reactor"
+ antimatter_reactors_desc:0 "The most advanced type of reactor to probably be ever built, the idea of the Antimatter reactor is simple (even if building and researching it is not), that being that antimatter is the opposite of matter, so when the two meet they would go about destroying each other, releasing a tremendous amount of energy. The antimatter would be contained separate from the normal matter by magnetic fields so that no unintended reactions take place. The energy would then be extracted in much the same way that nuclear reactors capture the expended heat and light energy from fission reactions."
  antimatter_reactors_fake:0 "Antimatter Reactor"
- antimatter_reactors_fake_desc:0 "Antimatter Reactor"
+ antimatter_reactors_fake_desc:0 "The most advanced type of reactor to probably be ever built, the idea of the Antimatter reactor is simple (even if building and researching it is not), that being that antimatter is the opposite of matter, so when the two meet they would go about destroying each other, releasing a tremendous amount of energy. The antimatter would be contained separate from the normal matter by magnetic fields so that no unintended reactions take place. The energy would then be extracted in much the same way that nuclear reactors capture the expended heat and light energy from fission reactions."
  
  mass_converters:0 "Mass Converters"
- mass_converters_desc:0 "Mass Converters"
+ mass_converters_desc:0 "The idea of a mass converter is to convert energy into mass, the very same process theoretically being the one used to create the universe itself, and just like the creation of the universe they will require massive amounts of energy to work."
  
  total_conversion_reactor:0 "Total Conversion Reactor"
- total_conversion_reactor_desc:0 "Total Conversion Reactor"
+ total_conversion_reactor_desc:0 "A Total Conversion Reactor is a type of nuclear reactor that aims to achieve complete conversion of nuclear fuel into energy. This would mean that virtually all of the energy locked in the atomic nuclei of the fuel would be harnessed to generate electricity, and there would be little or no radioactive waste produced. The concept of a total conversion reactor is based on nuclear processes called transmutation, where the isotopes of the nuclei of the fuel are transformed into other isotopes that are either more stable or have a lower atomic number."
  total_conversion_reactor_fake:0 "Total Conversion Reactor"
- total_conversion_reactor_fake_desc:0 "Total Conversion Reactor"
+ total_conversion_reactor_fake_desc:0 "A Total Conversion Reactor is a type of nuclear reactor that aims to achieve complete conversion of nuclear fuel into energy. This would mean that virtually all of the energy locked in the atomic nuclei of the fuel would be harnessed to generate electricity, and there would be little or no radioactive waste produced. The concept of a total conversion reactor is based on nuclear processes called transmutation, where the isotopes of the nuclei of the fuel are transformed into other isotopes that are either more stable or have a lower atomic number."
  
  #Fuel
  alkanine_fuel_cell:0 "Alkanine Fuel Cell"
@@ -1496,156 +1502,156 @@
  ### Computers
  
  commercial_computers:0 "Commercial Computers"
- commercial_computers_desc:0 "Commercial Computers"
+ commercial_computers_desc:0 "Commercial Computers refers to computers that are manufactured and sold by companies for use by consumers or businesses. These computers are generally designed for a wide range of purposes and can include desktop computers, laptops, tablets, and servers. Commercial computers are typically based on standardized designs and use widely available components, such as microprocessors, memory, storage devices and peripherals."
  commercial_computers_fake:0 "Commercial Computers"
- commercial_computers_fake_desc:0 "Commercial Computers"
+ commercial_computers_fake_desc:0 "Commercial Computers refers to computers that are manufactured and sold by companies for use by consumers or businesses. These computers are generally designed for a wide range of purposes and can include desktop computers, laptops, tablets, and servers. Commercial computers are typically based on standardized designs and use widely available components, such as microprocessors, memory, storage devices and peripherals."
 
  massively_parallels_computers:0 "Massively Parallels Computers"
- massively_parallels_computers_desc:0 "Massively Parallels Computers"
+ massively_parallels_computers_desc:0 "The process of interconnecting computers and forming a grid-pattern system allows for an unparalleled speed of computing against other modern computing mainframes. Although requiring a cluster-type network, Massively Parallel computers solve this issue."
  massively_parallels_computers_fake:0 "Massively Parallels Computers"
- massively_parallels_computers_fake_desc:0 "Massively Parallels Computers"
+ massively_parallels_computers_fake_desc:0 "The process of interconnecting computers and forming a grid-pattern system allows for an unparalleled speed of computing against other modern computing mainframes. Although requiring a cluster-type network, Massively Parallel computers solve this issue."
 
  layered_otps:0 "Layered-OTPs"
- layered_otps_desc:0 "Layered-OTPs"
+ layered_otps_desc:0 "By layering one-time-pad encryptions on top or within one another, the time needed to decrypt the message or datum would take longer than usual and requires algorithms rather than brute force to break it."
 
  otp_cracking:0 "OTP-Cracking"
- otp_cracking_desc:0 "OTP-Cracking"
+ otp_cracking_desc:0 "Focusing all computing power either through de-randomization systems and networks or pure brute force allows for OTPs to be cracked and exploit its weaknesses."
 
  mechanical_quantum_computer:0 "Mechanical Quantum Computer"
- mechanical_quantum_computer_desc:0 "Mechanical Quantum Computer"
+ mechanical_quantum_computer_desc:0 "A Hybrid form of Quantum Computing, combining Photonic and Superconducting architecture, the lattice-chain superstructure it exhibits creates an impressive Kiloscale Qubit Computing. Although not scalable with traditional computing, it excels greatly in other processes than traditional computing."
  mechanical_quantum_computer_fake:0 "Mechanical Quantum Computer"
- mechanical_quantum_computer_fake_desc:0 "Mechanical Quantum Computer"
+ mechanical_quantum_computer_fake_desc:0 "A Hybrid form of Quantum Computing, combining Photonic and Superconducting architecture, the lattice-chain superstructure it exhibits creates an impressive Kiloscale Qubit Computing. Although not scalable with traditional computing, it excels greatly in other processes than traditional computing."
 
  quantum_extrapolation_encryption:0 "Q-Extrapolation Encryption"
- quantum_extrapolation_encryption_desc:0 "Q-Extrapolation Encryption"
+ quantum_extrapolation_encryption_desc:0 "Kilo-qubit scale mechanical quantum computers allow for seemingly impossible combinations and even “plainsight encryption” to be executed that requires quantum extrapolation to be decrypted."
 
  eigenvector_decryption:0 "Eigenvector Decryption"
- eigenvector_decryption_desc:0 "Eigenvector Decryption"
+ eigenvector_decryption_desc:0 "Decrypting a quantum cipher matrix can be achieved using a couple of different techniques, depending on the computing of the principal eigenvector of a collection of data matrices belonging to multiple Extrapolation “parties” and “entities”, multiple may be required."
 
  chemical_reaction_networks_computers:0 "Chemical Reaction Networks Computers"
- chemical_reaction_networks_computers_desc:0 "Chemical Reaction Networks Computers"
+ chemical_reaction_networks_computers_desc:0 "Via the manipulation of DNA strands as well as multi-polynomial molecular encoders, engineers have found a way to create a substantial and practical CRN Computer through mass kinetic theories and internal self-regulation protocols, and semi-linear logarithms. Due to the nature of this computer, miniaturization is possible and allows for more compact Petaflop computing."
  chemical_reaction_networks_computers_fake:0 "Chemical Reaction Networks Computers"
- chemical_reaction_networks_computers_fake_desc:0 "Chemical Reaction Networks Computers"
+ chemical_reaction_networks_computers_fake_desc:0 "Via the manipulation of DNA strands as well as multi-polynomial molecular encoders, engineers have found a way to create a substantial and practical CRN Computer through mass kinetic theories and internal self-regulation protocols, and semi-linear logarithms. Due to the nature of this computer, miniaturization is possible and allows for more compact Petaflop computing."
 
  crn_encryption:0 "CRN Encryption"
- crn_encryption_desc:0 "CRN Encryption"
+ crn_encryption_desc:0 "Via chemical reactions and using the measurements and data received during the reaction process such as ultraviolet light, decay, energy level, acidity. These characteristics can be used to encrypt data files that use CRN systems."
 
  crn_decryption:0 "CRN Decryption"
- crn_decryption_desc:0 "CRN Decryption"
+ crn_decryption_desc:0 "Via processing and rudimentary chemical equations, CRN encryption can be solved through colour-based algorithms in response to optical-data networks and chemical-based data matrices"
 
  nondeterministic_dna_computer:0 "Nondeterministic DNA Computer"
- nondeterministic_dna_computer_desc:0 "Nondeterministic DNA Computer"
+ nondeterministic_dna_computer_desc:0 "The core framework exploits DNA's ability to replicate to execute an exponential number of computational paths in P time as well as using a novel combination of polymerase chain reactions and site-directed mutagenesis. In order to achieve Exa or even Zetta-scale computing, these computers require large amounts of power however conventional NDNA computing devices (i.e. desktops) require little power."
  nondeterministic_dna_computer_fake:0 "Nondeterministic DNA Computer"
- nondeterministic_dna_computer_fake_desc:0 "Nondeterministic DNA Computer"
+ nondeterministic_dna_computer_fake_desc:0 "The core framework exploits DNA's ability to replicate to execute an exponential number of computational paths in P time as well as using a novel combination of polymerase chain reactions and site-directed mutagenesis. In order to achieve Exa or even Zetta-scale computing, these computers require large amounts of power however conventional NDNA computing devices (i.e. desktops) require little power."
 
  net_terminal_gene_encryption:0 "Net-Terminal Gene Encryption"
- net_terminal_gene_encryption_desc:0 "Net-Terminal Gene Encryption"
+ net_terminal_gene_encryption_desc:0 "Via using genetic engineering and genetic tampering, using a string of genes or a “Net-Terminal Gene” allows for an extremely difficult form of encryption, far more complex than both OTP and CRN encryption due to its usage of randomized genetic mutation decay."
 
  net_terminal_genes_replication:0 "Net-Terminal Genes Replication"
- net_terminal_genes_replication_desc:0 "Net-Terminal Genes Replication"
+ net_terminal_genes_replication_desc:0 "By predicting the decay rate, resequencing form, and mutation pattern of net-terminal genes, decryption of NTG-based cryptolocks becomes possible, although resource and energy intensive."
 
  optical_photonic_computer:0 "Optical Photonic Computer"
- optical_photonic_computer_desc:0 "Optical Photonic Computer"
+ optical_photonic_computer_desc:0 "By using self-assembling colloidal photonic crystals a new zenith in computing has been achieved. Major breakthroughs in nonlinear photonics and artificial neural networks allow the computer to exceed Zettaflop speeds through fuzzy logic, multi-wavelength processing and compressing light sources and waveguides on the same wafer-slate. Exponential increases in computing power allow for far more accurate and precise simulations, computations and processes."
  optical_photonic_computer_fake:0 "Optical Photonic Computer"
- optical_photonic_computer_fake_desc:0 "Optical Photonic Computer"
+ optical_photonic_computer_fake_desc:0 "By using self-assembling colloidal photonic crystals a new zenith in computing has been achieved. Major breakthroughs in nonlinear photonics and artificial neural networks allow the computer to exceed Zettaflop speeds through fuzzy logic, multi-wavelength processing and compressing light sources and waveguides on the same wafer-slate. Exponential increases in computing power allow for far more accurate and precise simulations, computations and processes."
 
  chaos_encryption:0 "Chaos Encryption"
- chaos_encryption_desc:0 "Chaos Encryption"
+ chaos_encryption_desc:0 "Using pure chaos theory and multiple chaos algorithms, this sort of encryption become virtually impossible to decrypt without the same sort of computer or logarithm that allowed it to encrypt initially."
 
  chaos_decryption:0 "Chaos Decryption"
- chaos_decryption_desc:0 "Chaos Decryption"
+ chaos_decryption_desc:0 "Only through vast amounts of simultaneous systems of operations and superposition complex allowing for deterministic chaos to be rearranged into a viable order and eliminating attractors and infinite dimensional maps from the algorithm."
 
  optical_quantum_computer:0 "Optical Quantum Computer"
- optical_quantum_computer_desc:0 "Optical Quantum Computer"
+ optical_quantum_computer_desc:0 "Combining Mechanical Quantum Computing and the precepts, concepts and interdisciplinary motions and actions with Optical Photonic Computing, Optical Quantum Computing can be described with its capabilities and processing limits, or lack thereof, a “Hypercomputer”allowing to surpass turing-computables, solve halting problems and execute supertasking functions."
  optical_quantum_computer_fake:0 "Optical Quantum Computer"
- optical_quantum_computer_fake_desc:0 "Optical Quantum Computer"
+ optical_quantum_computer_fake_desc:0 "Combining Mechanical Quantum Computing and the precepts, concepts and interdisciplinary motions and actions with Optical Photonic Computing, Optical Quantum Computing can be described with its capabilities and processing limits, or lack thereof, a “Hypercomputer”allowing to surpass turing-computables, solve halting problems and execute supertasking functions."
 
  centralized_systems:0 "Centralized Systems"
- centralized_systems_desc:0 "Centralized Systems"
+ centralized_systems_desc:0 "The complexities of managing a nation are enormous, and more so when the problems of time, distance, and communication stretch across a continent. Systems of Command, Control, and Communications that move at the speed of thought are necessary, and would likely not be possible without a rudimentary understanding of dynamics."
 
  relativistic_markets:0 "Relativistic Markets"
- relativistic_markets_desc:0 "Relativistic Markets"
+ relativistic_markets_desc:0 "As economies become more diverse, more widespread, and even larger, economies require institutions and other organizations to keep things in check. Instead of bureaucracy controlling and managing the economy, we have a multi-faceted mathematical logarithmic system in place allowing to do predictions, risk management, and financial forecasting for multiple entities."
 
  micromanaging_harmonics:0 "Micromanaging Harmonics"
- micromanaging_harmonics_desc:0 "Micromanaging Harmonics"
+ micromanaging_harmonics_desc:0 "Whether it be in a tactical, economic, logistical, or administrative sense, micromanaging is one of the vital and important lynchpins holding all systems together. By subdividing already existing logistical systems and clustering adjacent units, micromanaging can exhibit a “harmonic” pattern that allows for efficiency and effectiveness."
 
  optimized_logistics:0 "Optimized Logistics"
- optimized_logistics_desc:0 "Optimized Logistics"
+ optimized_logistics_desc:0 "NP-hard solutions to organizational problems can lead to optimized logistics, and these computational solutions to large-scale distribution networks, even with their high time complexity, have a wide range of applications beyond just demand management and load prediction when extended into time-relative mathematics."
 
  self_organizing_data:0 "Self-Organizing Data"
- self_organizing_data_desc:0 "Self-Organizing Data"
+ self_organizing_data_desc:0 "It is commonly assumed that data consists of separate, unconnected pieces of information that must be gathered and studied by an external source. However, with the use of number theory and data architecture models, as well as powerful computing capabilities, real-time data streams can be taught to self-organize and self-define, creating theories and connections without any outside help."
 
  tactical_forecasting:0 "Tactical Forecasting"
- tactical_forecasting_desc:0 "Tactical Forecasting"
+ tactical_forecasting_desc:0 "When two battle systems are equally intelligent, it can be difficult to gain an advantage over the other. This is because both parties can anticipate and execute the best possible strategies, leading to a stalemate. To break this deadlock, advanced game theory techniques that incorporate relativistic physics can be used to give one side the edge."
 
  long_term_logistics:0 "Long-Term Logistics"
- long_term_logistics_desc:0 "Long-Term Logistics"
+ long_term_logistics_desc:0 "It is one thing to pull resources out of the ground; it is quite another to know how to quality check, refine, encapsulate, ship, and receive them. By maximizing the processes of extraction, refining, transport, storage, and distribution, enormous gains in efficiency and volume can come with the added value of reduced waste."
 
  maximized_negotiations:0 "Maximized Negotiations"
- maximized_negotiations_desc:0 "Maximized Negotiations"
+ maximized_negotiations_desc:0 "Advanced AI routines are being applied to decisions on how to use cash in order to maximize returns. These AI routines take into account a variety of factors, such as weather, raw material prices, real estate trends, and political trends, to determine the best way to spend money. This application of AI is surprisingly robust, and can generate a 'perfect' return on investment."
 
  perfect_battle_simulation:0 "Perfect Battle Simulation"
- perfect_battle_simulation_desc:0 "Perfect Battle Simulation"
+ perfect_battle_simulation_desc:0 "Perfect Battle Simulations accurately creates the conditions of a real-life battle. It involves an extremely detailed recreation of the environment, weapons, and forces involved in the battle, as well as the ability to accurately simulate the outcomes of various strategies and tactics. Perfect Battle Simulations are used to train military personnel, test new weapons and tactics, and to study the effects of different battlefield conditions."
  
  ### Genetics
  
  gene_edition_framework:0 "Gene Theory Framework"
- gene_edition_framework_desc:0 "Gene Theory Framework"
+ gene_edition_framework_desc:0 "The Gene Theory Framework is a theoretical framework that explains how genes control the traits and characteristics of living organisms. It is based on the idea that genetic information is stored in DNA, and that this information is used to create proteins, which in turn control the development and function of an organism. "
 
  marker_assisted_selection:0 "Marker Assisted Selection"
- marker_assisted_selection_desc:0 "Marker Assisted Selection"
+ marker_assisted_selection_desc:0 "Marker-assisted selection (MAS) is a technology used in plant and animal breeding that allows breeders to select for desired traits more efficiently. It is based on the use of genetic markers, which are specific sequences of DNA that are linked to particular traits. By identifying these markers, breeders can quickly and accurately predict which individuals will have the desired traits, and then select those individuals for breeding."
 
  genetically_modified_organisms:0 "Genetically Modified Organisms"
- genetically_modified_organisms_desc:0 "Genetically Modified Organisms"
+ genetically_modified_organisms_desc:0 "Genetically modified organisms (GMOs) are living organisms whose genetic material has been artificially modified in a way that does not occur naturally through mating or natural recombination. The most common method for creating GMOs is to use recombinant DNA techniques, which involve cutting and pasting DNA from one organism into the DNA of another. The goal of using GMOs is typically to introduce new traits or characteristics that are desirable for agriculture, medicine, or industry."
 
  sapient_life_cloning_method:0 "Sapient Life Cloning Process"
- sapient_life_cloning_method_desc:0 "Sapient Life Cloning Process"
+ sapient_life_cloning_method_desc:0 "Cloning is the process of creating an identical copy of a living organism or part of it using the material of the original species, plant or organism."
  sapient_life_cloning_method_fake:0 "Sapient Life Cloning Process"
- sapient_life_cloning_method_fake_desc:0 "Sapient Life Cloning Process"
+ sapient_life_cloning_method_fake_desc:0 "Cloning is the process of creating an identical copy of a living organism or part of it using the material of the original species, plant or organism."
 
  extensive_reactive_chemistry:0 "Extensive Reactive Chemistry"
- extensive_reactive_chemistry_desc:0 "Extensive Reactive Chemistry"
+ extensive_reactive_chemistry_desc:0 "Extensive reactive chemistry refers to a type of chemical reaction that proceeds in many steps or stages, and generates multiple products as a result. This type of chemistry is often used in the synthesis of complex molecules or materials, where it's needed to connect multiple building blocks or precursor together in a controlled manner to generate a specific product or class of products."
 
  tectogenetic_biopattern_sequencer:0 "Tectogenetic Biopattern Sequencer"
- tectogenetic_biopattern_sequencer_desc:0 "Tectogenetic Biopattern Sequencer"
+ tectogenetic_biopattern_sequencer_desc:0 "A Tectogenetic Biopattern Sequencer is a technology that refers to the ability to manipulate and control the structural features of living organisms by modifying their genetic code. This technology is based on the principles of genetics, molecular biology and biotechnology to create and modify the patterns of tissues, organs and organisms in a specific and controlled manner. Tectogenetics is the study of the genetic and molecular mechanisms that control tissue development and morphogenesis."
  tectogenetic_biopattern_sequencer_fake:0 "Tectogenetic Biopattern Sequencer"
- tectogenetic_biopattern_sequencer_fake_desc:0 "Tectogenetic Biopattern Sequencer"
+ tectogenetic_biopattern_sequencer_fake_desc:0 "A Tectogenetic Biopattern Sequencer is a technology that refers to the ability to manipulate and control the structural features of living organisms by modifying their genetic code. This technology is based on the principles of genetics, molecular biology and biotechnology to create and modify the patterns of tissues, organs and organisms in a specific and controlled manner. Tectogenetics is the study of the genetic and molecular mechanisms that control tissue development and morphogenesis."
 
  full_genome_decryption:0 "Full Genome Decryption"
- full_genome_decryption_desc:0 "Full Genome Decryption"
+ full_genome_decryption_desc:0 "Full genome decryption refers to the process of completely decoding the entire genetic makeup of an organism. This process involves determining the sequence of all the nucleotides that make up an organism's DNA and identifying the specific genes and their locations within the genome. Once a genome has been decrypted, scientists can study the functions and interactions of all of the genes within it, as well as their variations among individuals."
 
  myostatin_gene_amplification:0 "Myostatin Gene Amplification"
- myostatin_gene_amplification_desc:0 "Myostatin Gene Amplification"
+ myostatin_gene_amplification_desc:0 "Myostatin gene amplification refers to the process of increasing the activity or the amount of the myostatin gene in an organism. Myostatin is a protein that acts as a negative regulator of muscle growth, meaning that it acts to limit the size of muscles. By increasing the activity of the myostatin gene, it results in less of the myostatin protein being produced, which leads to increased muscle growth."
 
  crispr_gene_editing:0 "CRISPR Gene Editing"
- crispr_gene_editing_desc:0 "CRISPR Gene Editing"
+ crispr_gene_editing_desc:0 "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) gene editing is a technology that allows scientists to make precise and targeted changes to the DNA of living organisms. CRISPR-based gene editing makes use of a specific enzyme, called Cas9, which acts like a pair of molecular scissors to cut DNA at specific locations. This cut can then be repaired by the cell's own repair machinery, with the possibility of introducing specific changes, such as the deletion, insertion or replacement of specific DNA sequences."
 
  mass_scale_clone_production:0 "Mass-Scale Clone Production"
- mass_scale_clone_production_desc:0 "Mass-Scale Clone Production"
+ mass_scale_clone_production_desc:0 "Mass-scale clone production refers to the process of creating large numbers of genetically identical copies of a living organism, also known as cloning. This type of cloning has the potential to produce identical organisms on a large scale, which can be used for various applications in agriculture, industry, and medicine."
  mass_scale_clone_production_fake:0 "Mass-Scale Clone Production"
- mass_scale_clone_production_fake_desc:0 "Mass-Scale Clone Production"
+ mass_scale_clone_production_fake_desc:0 "Mass-scale clone production refers to the process of creating large numbers of genetically identical copies of a living organism, also known as cloning. This type of cloning has the potential to produce identical organisms on a large scale, which can be used for various applications in agriculture, industry, and medicine."
 
  accelerated_organogenesis:0 "Accelerated Organogenesis"
- accelerated_organogenesis_desc:0 "Accelerated Organogenesis"
+ accelerated_organogenesis_desc:0 "Accelerated organogenesis refers to the process of creating functional organs or organ-like structures quickly, effectively and efficiently. This process is based on the use of stem cells and the manipulation of cellular signals to guide the cells to differentiate into specific cell types, arrange and assemble themselves into a functional organ."
 
  enhanced_neurogenesis:0 "Enhanced Neurogenesis"
- enhanced_neurogenesis_desc:0 "Enhanced Neurogenesis"
+ enhanced_neurogenesis_desc:0 "Enhanced neurogenesis refers to the process of increasing the production of new neurons in the brain, beyond the normal rate of neurogenesis that occurs during development and throughout adult life. This process can be used to improve brain function and repair damaged or diseased brain tissue."
 
  bioreplicants:0 "Bioreplicants"
- bioreplicants_desc:0 "Bioreplicants"
+ bioreplicants_desc:0 "Bioreplicants is a term that describes the idea of creating artificial organisms that are biologically similar to natural organisms, but engineered to have specific desired characteristics or functions. The concept of bioreplicants is derived from the idea of replicating or mimicking the natural biological processes in a laboratory environment, which would allow scientists to create artificial organisms with a high level of precision and control."
  bioreplicants_fake:0 "Bioreplicants"
- bioreplicants_fake_desc:0 "Bioreplicants"
+ bioreplicants_fake_desc:0 "Bioreplicants is a term that describes the idea of creating artificial organisms that are biologically similar to natural organisms, but engineered to have specific desired characteristics or functions. The concept of bioreplicants is derived from the idea of replicating or mimicking the natural biological processes in a laboratory environment, which would allow scientists to create artificial organisms with a high level of precision and control."
 
  telomeres_retention:0 "Telomeres Retention"
- telomeres_retention_desc:0 "Telomeres Retention"
+ telomeres_retention_desc:0 "Telomeres are the protective end caps of chromosomes, composed of repetitive sequences of DNA, which shorten with each cell division. In most normal somatic cells, telomeres shorten over time, and when they become too short, the cell will stop dividing or undergo cell death. Telomere length is used as a marker of cellular aging. Telomeres retention refers to the process of maintaining the length of telomeres, in order to extend the lifespan of cells, and potentially delay or even prevent the onset of age-related diseases."
 
  perfect_genetic_stability:0 "Perfect Genetic Stability"
- perfect_genetic_stability_desc:0 "Perfect Genetic Stability"
+ perfect_genetic_stability_desc:0 "Perfect Genetic Stability is a concept that refers to the idea of ensuring that an organism's genetic makeup remains unchanged and free of errors or mutations over time."
 
  sapient_life_synthesis:0 "Sapient Life Synthesis"
- sapient_life_synthesis_desc:0 "Sapient Life Synthesis"
+ sapient_life_synthesis_desc:0 "Sapient Life Synthesis is a concept that refers to the idea of creating artificially intelligent beings that possess sapient-like intelligence and consciousness. This would involve creating a synthetic brain, or a computer system that is capable of simulating sapient-like thought and decision-making, and then combining it with a physical body."
  sapient_life_synthesis_fake:0 "Sapient Life Synthesis"
- sapient_life_synthesis_fake_desc:0 "Sapient Life Synthesis"
+ sapient_life_synthesis_fake_desc:0 "Sapient Life Synthesis is a concept that refers to the idea of creating artificially intelligent beings that possess sapient-like intelligence and consciousness. This would involve creating a synthetic brain, or a computer system that is capable of simulating sapient-like thought and decision-making, and then combining it with a physical body."
 
  #Artillery
  artillery_equipment:0 "Field Artillery"
@@ -1806,8 +1812,8 @@
 
  
 # Naval
-surface_combat_vessel:0 "Surface Combat Vessel "
-surface_combat_vessel_desc:0 "Surface Combat Vessel "
+surface_combat_vessel:0 "Surface Combat Vessel"
+surface_combat_vessel_desc:0 "Surface Combat Vessel"
 
 electromagnetic_gun_launcher:0 "Electromagnetic Gun Launcher "
 electromagnetic_gun_launcher_desc:0 "Electromagnetic Gun Launcher "
