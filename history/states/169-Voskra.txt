@@ -10,7 +10,6 @@ state={
 				naval_base = 8
 			}
 		}
-		}
 		owner = SYM
 		victory_points = {
 		      14761 50
