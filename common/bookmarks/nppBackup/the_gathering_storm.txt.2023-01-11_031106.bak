@@ -51,15 +51,6 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		
-		"REZ"={
-			history = "REZ_GATHERING_STORM_DESC"
-			ideology = democracy
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 
 	}
 

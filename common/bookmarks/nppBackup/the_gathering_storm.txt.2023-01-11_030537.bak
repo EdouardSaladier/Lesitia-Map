@@ -25,7 +25,7 @@ bookmarks = {
 			}
 		}
 		
-		"AVN"={
+		AVN"={
 			history = "AVN_GATHERING_STORM_DESC"
 			ideology = democracy
 			ideas = {
@@ -45,15 +45,6 @@ bookmarks = {
 		
 		"CMM"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democracy
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		
-		"REZ"={
-			history = "REZ_GATHERING_STORM_DESC"
 			ideology = democracy
 			ideas = {
 			}
