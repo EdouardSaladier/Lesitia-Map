@@ -365,8 +365,8 @@ technologies = {
 	
 	nanomaterials_applications = {
 	
-		industrial_capacity_factory = 0.20
-		industrial_capacity_dockyard = 0.20
+		industrial_capacity_factory = 0.25
+		industrial_capacity_dockyard = 0.25
 	
 		enable_equipments = {
 			nanomaterials_applications_fake
@@ -514,6 +514,8 @@ technologies = {
 		production_factory_efficiency_gain_factor = 0.5
 		line_change_production_efficiency_factor = 0.5
 		production_factory_start_efficiency_factor = 0.5
+		industrial_capacity_factory = 0.25
+		industrial_capacity_dockyard = 0.25
 
 		path = {
 			leads_to_tech = structure_conversion_tower

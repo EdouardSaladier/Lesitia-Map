@@ -13,6 +13,11 @@ technologies = {
 	@1946 = 33
 	
 	alkanine_fuel_cell = {
+	
+		enable_building = {
+			building = hydrogen_storage_facility
+			level = 1
+		}
 
 		path = {
 			leads_to_tech = metal_hydride_fuel_cell
@@ -48,6 +53,13 @@ technologies = {
 	
 	metal_hydride_fuel_cell = {
 	
+		max_fuel_factor = 0.15
+	
+		enable_building = {
+			building = hydrogen_storage_facility
+			level = 2
+		}
+	
 		path = {
 			leads_to_tech = metal_hydride_hydrogen_compressors
             research_cost_coeff = 1           
@@ -71,6 +83,13 @@ technologies = {
 	}
 	
 	metal_hydride_hydrogen_compressors = {
+	
+		max_fuel_factor = 0.25
+	
+		enable_building = {
+			building = hydrogen_storage_facility
+			level = 3
+		}
 	
 		path = {
 			leads_to_tech = metal_organic_frameworks
@@ -96,6 +115,13 @@ technologies = {
 	
 	metal_organic_frameworks = {
 	
+		max_fuel_factor = 0.6
+	
+		enable_building = {
+			building = hydrogen_storage_facility
+			level = 5
+		}
+	
 		start_year = 1942
 		research_cost = 3.9
 		folder = {
@@ -115,6 +141,8 @@ technologies = {
 	
 	alkaline_water_electrolyzers = {
 	
+		fuel_gain_factor = 0.25
+	
 		start_year = 1936
 		research_cost = 1.875
 		folder = {
@@ -133,6 +161,11 @@ technologies = {
 	}
 	
 	solid_state_alkanine_fuel_cell = {
+	
+		army_fuel_capacity_factor = 0.1
+		army_fuel_consumption_factor = -0.05
+		air_fuel_consumption_factor = -0.05
+		navy_fuel_consumption_factor = -0.05
 
 		path = {
 			leads_to_tech = solid_oxide_fuel_cell
@@ -157,6 +190,11 @@ technologies = {
 	}
 	
 	solid_oxide_fuel_cell = {
+	
+		army_fuel_capacity_factor = 0.2
+		army_fuel_consumption_factor = -0.1
+		air_fuel_consumption_factor = -0.1
+		navy_fuel_consumption_factor = -0.1
 
 		path = {
 			leads_to_tech = proton_exchange_membrane_fuel_cell
@@ -186,6 +224,8 @@ technologies = {
 	}
 	
 	solid_oxide_electrolyzers = {
+	
+		fuel_gain_factor = 0.5
 
 		start_year = 1941
 		research_cost = 3.15
@@ -205,6 +245,11 @@ technologies = {
 	}
 	
 	proton_exchange_membrane_fuel_cell = {
+	
+		army_fuel_capacity_factor = 0.4
+		army_fuel_consumption_factor = -0.2
+		air_fuel_consumption_factor = -0.2
+		navy_fuel_consumption_factor = -0.2
 
 		path = {
 			leads_to_tech = proton_exchange_membrane_electrolyzers
@@ -234,6 +279,8 @@ technologies = {
 	}
 	
 	proton_exchange_membrane_electrolyzers = {
+	
+		fuel_gain_factor = 1.0
 
 		start_year = 1944
 		research_cost = 6.0
@@ -253,6 +300,11 @@ technologies = {
 	}
 	
 	liquid_organic_hydrogen_carriers = {
+	
+		army_fuel_capacity_factor = 1
+		army_fuel_consumption_factor = -0.25
+		air_fuel_consumption_factor = -0.25
+		navy_fuel_consumption_factor = -0.25
 
 		start_year = 1945
 		research_cost = 6.75

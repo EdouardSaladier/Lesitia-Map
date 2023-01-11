@@ -17,6 +17,11 @@ technologies = {
 		enable_equipments = {
 			basic_photovoltaic_cells_fake
 		}
+		
+		enable_building = {
+			building = renewable_power_station
+			level = 1
+		}
 
 		path = {
 			leads_to_tech = applied_sustainability_concept
@@ -41,6 +46,8 @@ technologies = {
 	}
 	
 	applied_sustainability_concept = {
+	
+		consumer_goods_factor = -0.01
 	
 		path = {
 			leads_to_tech = solar_concentrator
@@ -71,6 +78,12 @@ technologies = {
 	
 	solar_concentrator = {
 	
+		production_speed_renewable_power_station_factor = 0.25
+		enable_building = {
+			building = renewable_power_station
+			level = 2
+		}
+	
 		enable_equipments = {
 			solar_concentrator_fake
 		}
@@ -99,6 +112,15 @@ technologies = {
 	
 	dielectric_panels = {
 	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = renewable_power_station
+				resource = energy
+				amount = 1
+			}
+		}
+	
 		path = {
 			leads_to_tech = thermodynamic_shielding
             research_cost_coeff = 1           
@@ -122,6 +144,17 @@ technologies = {
 	}
 	
 	geothermal_plants = {
+	
+		production_speed_renewable_power_station_factor = -0.25
+		
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = renewable_power_station
+				resource = energy
+				amount = 1
+			}
+		}
 	
 		enable_equipments = {
 			geothermal_plants_fake
@@ -151,6 +184,8 @@ technologies = {
 	
 	mantle_breakthrough = {
 	
+		local_resources_factor = 0.1
+	
 		path = {
 			leads_to_tech = thermodynamic_shielding
             research_cost_coeff = 1           
@@ -175,6 +210,9 @@ technologies = {
 	
 	thermodynamic_shielding = {
 	
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.1
+	
 		path = {
 			leads_to_tech = thermal_waste_capture
             research_cost_coeff = 1           
@@ -198,6 +236,10 @@ technologies = {
 	}
 	
 	thermal_waste_capture = {
+	
+		consumer_goods_factor = -0.01
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
 	
 		path = {
 			leads_to_tech = solar_arrays
@@ -228,6 +270,15 @@ technologies = {
 	
 	solar_arrays = {
 	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = renewable_power_station
+				resource = energy
+				amount = 1
+			}
+		}
+	
 		path = {
 			leads_to_tech = thermophotonic_distortion_reactor
             research_cost_coeff = 1           
@@ -252,6 +303,8 @@ technologies = {
 	
 	core_mining = {
 	
+		local_resources_factor = 0.15
+	
 		path = {
 			leads_to_tech = thermophotonic_distortion_reactor
             research_cost_coeff = 1           
@@ -275,6 +328,20 @@ technologies = {
 	}
 	
 	thermophotonic_distortion_reactor = {
+	
+		production_speed_renewable_power_station_factor = 0.25
+		enable_building = {
+			building = renewable_power_station
+			level = 6
+		}
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = renewable_power_station
+				resource = energy
+				amount = 2
+			}
+		}
 	
 		enable_equipments = {
 			thermophotonic_distortion_reactor_fake
@@ -309,6 +376,15 @@ technologies = {
 	
 	advanced_photonics = {
 	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = renewable_power_station
+				resource = energy
+				amount = 1
+			}
+		}
+	
 		path = {
 			leads_to_tech = regenerative_energy_source
             research_cost_coeff = 1           
@@ -333,6 +409,9 @@ technologies = {
 	
 	thermodynamic_isolation_fields = {
 	
+		production_factory_max_efficiency_factor = 0.15
+		production_factory_efficiency_gain_factor = 0.15
+	
 		path = {
 			leads_to_tech = regenerative_energy_source
             research_cost_coeff = 1           
@@ -356,6 +435,22 @@ technologies = {
 	}
 	
 	regenerative_energy_source = {
+	
+		global_building_slots_factor = 0.2
+		production_speed_renewable_power_station_factor = 0.5
+	
+		enable_building = {
+			building = renewable_power_station
+			level = 10
+		}
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = renewable_power_station
+				resource = energy
+				amount = 4
+			}
+		}
 	
 		enable_equipments = {
 			regenerative_energy_source_fake
@@ -385,6 +480,15 @@ technologies = {
 	
 	quantum_photonics = {
 	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = renewable_power_station
+				resource = energy
+				amount = 2
+			}
+		}
+	
 		path = {
 			leads_to_tech = total_conversion_reactor
             research_cost_coeff = 1           
@@ -408,6 +512,11 @@ technologies = {
 	}
 	
 	nuclear_fission_reactors = {
+	
+		enable_building = {
+			building = nuclear_reactor
+			level = 1
+		}
 	
 		enable_equipments = {
 			nuclear_fission_reactors_fake
@@ -437,6 +546,8 @@ technologies = {
 	
 	fusion_theory = {
 	
+		research_speed_factor = 0.05
+	
 		path = {
 			leads_to_tech = toroidal_fusion_reactor
             research_cost_coeff = 1           
@@ -460,6 +571,20 @@ technologies = {
 	}
 	
 	toroidal_fusion_reactor = {
+	
+		enable_building = {
+			building = nuclear_reactor
+			level = 2
+		}
+		
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = nuclear_reactor
+				resource = energy
+				amount = 15
+			}
+		}
 	
 		enable_equipments = {
 			toroidal_fusion_reactor_fake
@@ -499,6 +624,10 @@ technologies = {
 	
 	powered_magnetic_couplers = {
 	
+		production_factory_max_efficiency_factor = 0.05
+		production_factory_efficiency_gain_factor = 0.05
+		production_speed_nuclear_reactor_factor = 0.05
+	
 		path = {
 			leads_to_tech = improved_magnetic_capture
             research_cost_coeff = 1           
@@ -522,6 +651,8 @@ technologies = {
 	}
 	
 	improved_magnetic_capture = {
+	
+		production_speed_nuclear_reactor_factor = 0.15
 
 		start_year = 1938
 		research_cost = 2.25
@@ -541,6 +672,9 @@ technologies = {
 	}
 	
 	exotic_thermodynamics = {
+	
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.1
 	
 		path = {
 			leads_to_tech = high_energy_containment_field
@@ -566,6 +700,8 @@ technologies = {
 	
 	high_energy_containment_field = {
 	
+		production_speed_nuclear_reactor_factor = 0.5
+	
 		path = {
 			leads_to_tech = lattice_confinement_reactor
             research_cost_coeff = 1           
@@ -590,6 +726,10 @@ technologies = {
 	
 	advanced_magnetic_drivers = {
 	
+		global_building_slots_factor = 0.1
+		production_speed_buildings_factor = 0.1
+		production_speed_nuclear_reactor_factor = 0.3
+	
 		path = {
 			leads_to_tech = lattice_confinement_reactor
             research_cost_coeff = 1           
@@ -613,6 +753,15 @@ technologies = {
 	}
 	
 	lattice_confinement_reactor = {
+	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			modify_building_resources = {
+				building = nuclear_reactor
+				resource = energy
+				amount = 20
+			}
+		}
 	
 		enable_equipments = {
 			lattice_confinement_reactor_fake
@@ -652,6 +801,8 @@ technologies = {
 	
 	cold_fusion_theory = {
 	
+		research_speed_factor = 0.15
+	
 		path = {
 			leads_to_tech = systemic_miniaturization
             research_cost_coeff = 1           
@@ -676,6 +827,9 @@ technologies = {
 	
 	systemic_miniaturization = {
 	
+		production_factory_max_efficiency_factor = 0.15
+		production_factory_efficiency_gain_factor = 0.15
+	
 		path = {
 			leads_to_tech = cold_fusion_reactor
             research_cost_coeff = 1           
@@ -699,6 +853,8 @@ technologies = {
 	}
 	
 	baryonic_shielding = {
+	
+		production_speed_nuclear_reactor_factor = 1
 
 		start_year = 1941
 		research_cost = 3.15
@@ -718,6 +874,19 @@ technologies = {
 	}
 	
 	cold_fusion_reactor = {
+	
+		enable_building = {
+			building = nuclear_reactor
+			level = 3
+		}
+	
+		on_research_complete = {
+			modify_building_resources = {
+				building = nuclear_reactor
+				resource = energy
+				amount = 25
+			}
+		}
 	
 		enable_equipments = {
 			cold_fusion_reactor_fake
@@ -757,6 +926,8 @@ technologies = {
 	
 	exotic_matter_mechanics = {
 	
+		production_speed_nuclear_reactor_factor = 2
+	
 		path = {
 			leads_to_tech = antimatter_reactors
             research_cost_coeff = 1           
@@ -780,6 +951,9 @@ technologies = {
 	}
 	
 	pev_scale_magnetics = {
+	
+		production_factory_max_efficiency_factor = 0.25
+		production_factory_efficiency_gain_factor = 0.25
 	
 		path = {
 			leads_to_tech = antimatter_reactors
@@ -805,6 +979,8 @@ technologies = {
 	
 	virtualization_theory = {
 	
+		research_speed_factor = 0.2
+	
 		path = {
 			leads_to_tech = antimatter_reactors
             research_cost_coeff = 1           
@@ -828,6 +1004,19 @@ technologies = {
 	}
 	
 	antimatter_reactors = {
+	
+		enable_building = {
+			building = nuclear_reactor
+			level = 4
+		}
+	
+		on_research_complete = {
+			modify_building_resources = {
+				building = nuclear_reactor
+				resource = energy
+				amount = 25
+			}
+		}
 	
 		enable_equipments = {
 			antimatter_reactors_fake
@@ -857,6 +1046,8 @@ technologies = {
 	
 	mass_converters = {
 	
+		local_resources_factor = 0.5
+	
 		path = {
 			leads_to_tech = total_conversion_reactor
             research_cost_coeff = 1           
@@ -880,6 +1071,11 @@ technologies = {
 	}
 	
 	total_conversion_reactor = {
+	
+		enable_building = {
+			building = total_conversion_reactor_building
+			level = 1
+		}
 	
 		enable_equipments = {
 			total_conversion_reactor_fake

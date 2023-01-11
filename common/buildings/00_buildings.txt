@@ -208,6 +208,7 @@ buildings = {
 		max_level = 10 # This is the max unlock level
 		shares_slots = yes
 		value = 1
+		refinery = yes
 		infrastructure_construction_effect = yes
 	}
 	
@@ -219,6 +220,7 @@ buildings = {
 		max_level = 10 # This is the max unlock level
 		shares_slots = yes
 		value = 1
+		refinery = yes
 		infrastructure_construction_effect = yes
 	}
 	
@@ -230,6 +232,7 @@ buildings = {
 		max_level = 10 # This is the max unlock level
 		shares_slots = yes
 		value = 1
+		refinery = yes
 		infrastructure_construction_effect = yes
 	}
 	
@@ -241,6 +244,7 @@ buildings = {
 		max_level = 10 # This is the max unlock level
 		shares_slots = yes
 		value = 1
+		refinery = yes
 		infrastructure_construction_effect = yes
 	}
 	
@@ -277,6 +281,7 @@ buildings = {
 		#max_level = 1
 		shares_slots = yes
 		value = 5
+		refinery = yes
 		infrastructure_construction_effect = yes
 		fuel_silo = yes
 		
@@ -291,7 +296,8 @@ buildings = {
 		local_resources_energy = 2
 		max_level = 10 # This is the max unlock level
 		shares_slots = yes
-		value = 5
+		value = 1
+		refinery = yes
 		infrastructure_construction_effect = yes
 		
 		show_modifier = yes
@@ -303,28 +309,37 @@ buildings = {
 		base_cost = 50000
 		icon_frame = 23
 		nuclear_reactor = yes
-		nuclear_production_factor = 1
-		local_resources_energy = 20
-		max_level = 2 # This is the max unlock level
+		nuclear_production_factor = 0.1
+		local_resources_energy = 15
+		max_level = 4 # This is the max unlock level
 		shares_slots = yes
 		value = 10
+		refinery = yes
 		infrastructure_construction_effect = yes
 		
 		fuel_gain_from_states = 5.0 #per hour
 	}
 	
-	total_conversion_reactor = {
+	total_conversion_reactor_building = {
 		show_on_map = 0
-		base_cost = 50000
+		base_cost = 20000
 		icon_frame = 24
 		nuclear_reactor = yes
 		nuclear_production_factor = 5
-		local_resources_energy = 50
+		local_resources_aluminium = 20
+		local_resources_steel = 20
+		local_resources_tungsten = 20
+		local_resources_chromium = 20
+		local_resources_explosives = 20
+		local_resources_electronics = 20
+		local_resources_polymers = 20
+		state_resource_cost_energy = 100
 		max_level = 1 # This is the max unlock level
 		shares_slots = yes
 		value = 10
+		refinery = yes
 		infrastructure_construction_effect = yes
 		
-		fuel_gain_from_states = 25.0 #per hour
+		fuel_gain_from_states = 50.0 #per hour
 	}
 }
