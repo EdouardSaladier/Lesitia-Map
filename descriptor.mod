@@ -74,4 +74,4 @@ replace_path="common/occupation_laws"
 tags={
 	"Map"
 }
-supported_version="1.11.*"
+supported_version="1.12.*"
