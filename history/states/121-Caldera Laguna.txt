@@ -7,6 +7,9 @@ state={
 			infrastructure = 1
 		}
 		owner = BOR
+		victory_points = {
+		      8874 1
+	    }
 		add_core_of = BOR
 		set_variable = { specie = 20 }
 	}
