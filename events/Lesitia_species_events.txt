@@ -13,7 +13,8 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	immediate = {
+	option = {
+		name = lesitia_species.1.a
 		random_state = {
 			limit = {
 				AND = {
@@ -21,16 +22,18 @@ country_event = {
 					has_variable = minority
 				}
 			}
-			log = "lesitia_species.1 State: [?GetName]"
+			log = "lesitia_species.1 State: [?GetName][?id]"
 			set_temp_variable = { temp_maj = majority }
 			set_temp_variable = { temp_min = minority }
 			set_variable = { majority = temp_min }
 			set_variable = { minority = temp_maj }
 		}
-	}
-
-	option = {
-		name = lesitia_species.1.a
+		force_update_map_mode = {
+			limit = {
+				is_ai = no
+			}
+			mapmode = lesitia_species_map_mode
+		}
 	}
 }
 
@@ -42,18 +45,74 @@ country_event = {
 	hidden = yes
 	
 	is_triggered_only = yes
-	
-	immediate = {
+
+	option = {
+		name = lesitia_species.2.a
 		random_state = {
 			limit = {
 				check_variable = { minority > 0 }
 			}
-			log = "lesitia_species.2 State: [?GetName]"
+			log = "lesitia_species.2 State: [?GetName][?id]"
 			clear_variable = minority
 		}
+		force_update_map_mode = {
+			limit = {
+				is_ai = no
+			}
+			mapmode = lesitia_species_map_mode
+		}
 	}
+}
 
+country_event = {
+	id = lesitia_species.3
+	title = lesitia_species.3.t
+	desc = lesitia_species.3.d
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	
 	option = {
-		name = lesitia_species.2.a
+		name = lesitia_species.3.a
+		random_state = {
+			limit = {
+				check_variable = { majority > 0 }
+				any_neighbor_state = {
+					OR = {
+						AND = {
+							has_variable = majority
+							NOT = { check_variable = { majority = PREV.majority } }
+						}
+					}
+				}
+			}
+			set_temp_variable = { temp_min = majority }
+			random_neighbor_state = {
+				limit = {
+					AND = {
+						has_variable = majority
+						NOT = { check_variable = { majority = PREV.majority } }
+					}
+				}
+				if = {
+					limit = { check_variable = { minority = PREV.majority } }
+					set_temp_variable = { temp_maj = majority }
+					set_variable = { majority = temp_min }
+					set_variable = { minority = temp_maj }
+				}
+				else = {
+					set_variable = { minority = temp_min }
+				}
+				log = "lesitia_species.3 State Modified: [?GetName][?id]"
+			}
+			log = "lesitia_species.3 Base State: [?GetName][?id]"
+		}
+		force_update_map_mode = {
+			limit = {
+				is_ai = no
+			}
+			mapmode = lesitia_species_map_mode
+		}
 	}
 }
