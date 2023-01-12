@@ -72,7 +72,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
-					position = { x = 40 y = 1400 }
+					position = { x = 60 y = 1400 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -85,7 +85,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_motorized"
-					position = { x = 30 y = 1040 }
+					position = { x = 60 y = 1040 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -696,18 +696,44 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "armour_subtitles"
-				position = { x = 0 y = 172 }
-				size = { width = 600 height = 80% }				
-				orientation = center_up
+				position = { x= 0 y= 0 }
+				size = { width = 80 height = 100%% }
+				orientation = upper_left
 				origo = center_up
 			
 				instantTextBoxType = {
-					name = "armour_subtitle_heavy"
-					position = { x = -430 y = 330 }
+					name = "armour_subtitle_dp"
+					position = { x = 350 y = 280 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "ARMOUR_TITLE_HEAVY"
+					text = "ARMOUR_TITLE_DP"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "armour_subtitle_tanks"
+					position = { x = 350 y = 880 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "ARMOUR_TITLE_TANK"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "armour_subtitle_cv"
+					position = { x = 350 y = 1380 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "ARMOUR_TITLE_CV"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -1348,46 +1374,206 @@ guiTypes = {
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
+				
+				instantTextBoxType = {
+					name = "industry_subtitle_industry"
+					position = { x = 115 y = 110 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "INDUSTRY_TITLE_INDUSTRY"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "industry_subtitle_agriculture"
+					position = { x = 90 y = 950 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "INDUSTRY_TITLE_AGRICULTURE"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "industry_year2"
+					position = { x = 150 y = 50 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3358"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_year3"
+					position = { x = 350 y = 50 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3376"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "industry_year4"
+					position = { x = 560 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3377"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_year5"
+					position = { x = 770 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3378"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_year6"
+					position = { x = 980 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3379"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_year7"
+					position = { x = 1190 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3380"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_year8"
+					position = { x = 1400 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3381"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}				
+
+				instantTextBoxType = {
+					name = "industry_year9"
+					position = { x = 1610 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3382"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_year10"
+					position = { x = 1820 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3383"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}		
+				
+				instantTextBoxType = {
+					name = "industry_year11"
+					position = { x = 2030 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3384"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}						
+				instantTextBoxType = {
+					name = "industry_year12"
+					position = { x = 2240 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3385"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
 			}
 			
 			gridboxtype = {
 				name = "assembly_lines_tree"
-				position = { x = 100 y = 340 }
+				position = { x = 140 y = 380 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			
 			gridboxtype = {
 				name = "plasticisation_units_tree"
-				position = { x = 100 y = 340 }
+				position = { x = 140 y = 380 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			
 			gridboxtype = {
 				name = "chemical_etching_process_tree"
-				position = { x = 100 y = 340 }
+				position = { x = 140 y = 380 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			
 			gridboxtype = {
 				name = "glycerylnitrate_chemical_synthesis_tree"
-				position = { x = 100 y = 340 }
+				position = { x = 140 y = 380 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			
 			gridboxtype = {
 				name = "synthetic_biology_theory_tree"
-				position = { x = 100 y = 340 }
+				position = { x = 140 y = 380 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			
 			gridboxtype = {
 				name = "rudimentary_agronomics_tree"
-				position = { x = 100 y = 340 }
+				position = { x = 140 y = 380 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -1413,22 +1599,181 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = {
-					width = 2360 height = 1300
+					width = 2360 height = 1200
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
+				
+				instantTextBoxType = {
+					name = "electronics_subtitle_electronics"
+					position = { x = 40 y = 180 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "ELECTRONICS_TITLE_ELECTRONICS"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_subtitle_genetics"
+					position = { x = 115 y = 800 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "ELECTRONICS_TITLE_GENETICS"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year2"
+					position = { x = 150 y = 50 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3358"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "electronics_year3"
+					position = { x = 350 y = 50 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3376"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year4"
+					position = { x = 560 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3377"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "electronics_year5"
+					position = { x = 770 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3378"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "electronics_year6"
+					position = { x = 980 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3379"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "electronics_year7"
+					position = { x = 1190 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3380"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "electronics_year8"
+					position = { x = 1400 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3381"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}				
+
+				instantTextBoxType = {
+					name = "electronics_year9"
+					position = { x = 1610 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3382"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "electronics_year10"
+					position = { x = 1820 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3383"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}		
+				
+				instantTextBoxType = {
+					name = "electronics_year11"
+					position = { x = 2030 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3384"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}						
+				instantTextBoxType = {
+					name = "electronics_year12"
+					position = { x = 2240 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3385"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
 			}
 			
 			gridboxtype = {
 				name = "commercial_computers_tree"
-				position = { x = 100 y = 100 }
+				position = { x = 140 y = 180 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			
 			gridboxtype = {
 				name = "gene_edition_framework_tree"
-				position = { x = 100 y = 100 }
+				position = { x = 140 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -1459,25 +1804,197 @@ guiTypes = {
 				}
 				clipping = no
 				
+				instantTextBoxType = {
+					name = "energy_subtitle_renewable"
+					position = { x = 100 y = 140 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "ENERGY_TITLE_RENEWABLE"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "energy_subtitle_nuclear"
+					position = { x = 120 y = 560 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "ENERGY_TITLE_NUCLEAR"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "energy_subtitle_hydrogen"
+					position = { x = 60 y = 960 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "ENERGY_TITLE_HYDROGEN"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "energy_year2"
+					position = { x = 150 y = 50 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3358"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "energy_year3"
+					position = { x = 350 y = 50 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3376"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "energy_year4"
+					position = { x = 560 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3377"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "energy_year5"
+					position = { x = 770 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3378"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "energy_year6"
+					position = { x = 980 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3379"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "energy_year7"
+					position = { x = 1190 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3380"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "energy_year8"
+					position = { x = 1400 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3381"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}				
+
+				instantTextBoxType = {
+					name = "energy_year9"
+					position = { x = 1610 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3382"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "energy_year10"
+					position = { x = 1820 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3383"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}		
+				
+				instantTextBoxType = {
+					name = "energy_year11"
+					position = { x = 2030 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3384"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}						
+				instantTextBoxType = {
+					name = "energy_year12"
+					position = { x = 2240 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "3385"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
 			}
 			
 			gridboxtype = {
 				name = "basic_photovoltaic_cells_tree"
-				position = { x = 100 y = 340 }
+				position = { x = 140 y = 260 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			
 			gridboxtype = {
 				name = "nuclear_fission_reactors_tree"
-				position = { x = 100 y = 340 }
+				position = { x = 140 y = 260 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			
 			gridboxtype = {
 				name = "alkanine_fuel_cell_tree"
-				position = { x = 100 y = 340 }
+				position = { x = 100 y = 260 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}

@@ -49,6 +49,9 @@
  recon_tank_tech:0 "Reconnaissance Vehicle Technology"
  hovercraft_tech:0 "Hovercraft Technology"
  hovercraft_tech_equipment:0 "Hovercraft Equipment"
+ ARMOUR_TITLE_DP:0 "DEFENSE PLATFORMS"
+ ARMOUR_TITLE_TANK:0 "MAIN BATTLE TANKS"
+ ARMOUR_TITLE_CV:0 "COMBAT VEHICLES"
 
  ###Air tree
  air_tech:0 "Aircraft Technology"
@@ -68,6 +71,8 @@
  excavation_tech:0 "Excavation Technology"
  resource_production_tech:0 "Resource Production Technology"
  agriculture_tech:0 "Agriculture Technology"
+ INDUSTRY_TITLE_INDUSTRY:0 "INDUSTRY"
+ INDUSTRY_TITLE_AGRICULTURE:0 "AGRICULTURE"
  
  ###Energy Tree
  energy_folder:0 "Energy Generation"
@@ -75,6 +80,9 @@
  renewable_tech:0 "Renewable Energy Technology"
  nuclear_tech:0 "Nuclear Energy Technology"
  fuel_tech:0 "Hydrogen Fuel Cell Technology"
+ ENERGY_TITLE_NUCLEAR:0 "NUCLEAR"
+ ENERGY_TITLE_RENEWABLE:0 "RENEWABLE"
+ ENERGY_TITLE_HYDROGEN:0 "HYDROGEN"
  
  ###Engineering tech
  computer_tech:0 "Computer Technology"
@@ -82,6 +90,8 @@
  encryption_tech:0 "Encryption Technology"
  decryption_tech:0 "Decryption Technology"
  genetics_tech:0 "Genetics Technology"
+ ELECTRONICS_TITLE_ELECTRONICS:0 "SUPERCOMPUTERS"
+ ELECTRONICS_TITLE_GENETICS:0 "GENETICS"
 
 
 # INFANTRY
