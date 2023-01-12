@@ -1,7 +1,7 @@
 equipments = {
 	
 	guided_missile_equipment = {
-		year = 1936
+		year = 3376
 
 		allow_mission_type = {
 			strategic_bomber
@@ -36,7 +36,7 @@ equipments = {
 	}
 
 	tactical_ballistic_missiles_equipment = {
-		year = 1944
+		year = 3384
 
 		archetype = guided_missile_equipment
 		is_buildable = no
@@ -52,7 +52,7 @@ equipments = {
 	}
 
 	theatre_ballistic_missiles_equipment = {
-		year = 1945
+		year = 3385
 
 		archetype = guided_missile_equipment
 		parent = tactical_ballistic_missiles_equipment
@@ -67,7 +67,7 @@ equipments = {
 	}
 	
 	intercontinental_ballistic_missiles_equipment = {
-		year = 1946
+		year = 3386
 
 		archetype = guided_missile_equipment
 		parent = theatre_ballistic_missiles_equipment

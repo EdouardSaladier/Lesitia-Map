@@ -3,7 +3,7 @@
 equipments = {
 
 	assault_forces_equipment = {
-		year = 1918
+		year = 3358
 	
 		is_archetype = yes
 		picture = archetype_infantry_equipment		
@@ -42,7 +42,7 @@ equipments = {
 	}
 
 	powered_assault_exoskeletons_equipment = {
-		year = 1936
+		year = 3376
 		archetype = assault_forces_equipment
 		active = no
 		priority = 05
@@ -72,7 +72,7 @@ equipments = {
 	}
 
 	assault_battlesuit_equipment = {
-		year = 1939
+		year = 3379
 		archetype = assault_forces_equipment
 		active = no
 		priority = 05
@@ -102,7 +102,7 @@ equipments = {
 	}
 
 	ceramic_laminate_battlesuit_equipment = {
-		year = 1942
+		year = 3382
 		archetype = assault_forces_equipment
 		active = no
 		priority = 05
@@ -132,7 +132,7 @@ equipments = {
 	}
 	
 	infiltrators_equipment = {
-		year = 1918
+		year = 3358
 	
 		is_archetype = yes
 		picture = archetype_infantry_equipment		
@@ -170,7 +170,7 @@ equipments = {
 	}
 
 	multi_scale_camouflage_uniform_equipment = {
-		year = 1936
+		year = 3376
 		archetype = infiltrators_equipment
 		active = no
 		priority = 05
@@ -199,7 +199,7 @@ equipments = {
 	}
 
 	retroflector_active_camouflage_equipment = {
-		year = 1939
+		year = 3379
 		archetype = infiltrators_equipment
 		active = no
 		priority = 05
@@ -228,7 +228,7 @@ equipments = {
 	}
 
 	phased_array_optical_holographs_equipment = {
-		year = 1942
+		year = 3382
 		archetype = infiltrators_equipment
 		active = no
 		priority = 05
@@ -258,7 +258,7 @@ equipments = {
 	}
 	
 	aerial_troops_equipment = {
-		year = 1918
+		year = 3358
 	
 		is_archetype = yes
 		picture = archetype_infantry_equipment		
@@ -296,7 +296,7 @@ equipments = {
 	}
 
 	jet_packs_equipment = {
-		year = 1918
+		year = 3358
 		archetype = aerial_troops_equipment
 		active = no
 		priority = 05
@@ -325,7 +325,7 @@ equipments = {
 	}
 
 	personal_hoverlift_packs_equipment = {
-		year = 1918
+		year = 3358
 		archetype = aerial_troops_equipment
 		active = no
 		priority = 05
@@ -354,7 +354,7 @@ equipments = {
 	}
 
 	mechanical_armored_wings_equipment = {
-		year = 1918
+		year = 3358
 		archetype = aerial_troops_equipment
 		active = no
 		priority = 05

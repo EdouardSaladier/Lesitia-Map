@@ -1,7 +1,7 @@
 equipments = {
 
 	main_battle_tank_equipment_arch = {
-		year = 1934
+		year = 3374
 
 		is_archetype = yes
 		is_convertable = yes
@@ -48,9 +48,9 @@ equipments = {
 		fuel_consumption = 3.6
 	}
 
-	# 1941
+	# 3381
 	main_battle_tank_equipment = {
-		year = 1941
+		year = 3381
 
 		archetype = main_battle_tank_equipment_arch
 		priority = 50
@@ -83,7 +83,7 @@ equipments = {
 	}
 	
 	main_ground_combat_system_equipment = {
-		year = 1941
+		year = 3381
 
 		archetype = main_battle_tank_equipment_arch
 		priority = 50
@@ -117,7 +117,7 @@ equipments = {
 	}
 	
 	frontline_breakthrough_tank_equipment = {
-		year = 1941
+		year = 3381
 
 		archetype = main_battle_tank_equipment_arch
 		priority = 50
@@ -153,7 +153,7 @@ equipments = {
 	}
 	
 	general_purpose_railgun_carrier_equipment = {
-		year = 1941
+		year = 3381
 
 		archetype = main_battle_tank_equipment_arch
 		priority = 50
@@ -189,7 +189,7 @@ equipments = {
 	}
 	
 	decisive_lethality_platform_equipment = {
-		year = 1941
+		year = 3381
 
 		archetype = main_battle_tank_equipment_arch
 		priority = 50

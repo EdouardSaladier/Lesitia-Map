@@ -32,7 +32,7 @@ equipments = {
 	}
 
 	logistic_vehicle_system_equipment = {
-		year = 1918
+		year = 3358
 
 		archetype = motorized_equipment
 		priority = 30	

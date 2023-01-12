@@ -1,7 +1,7 @@
 equipments = {
 
 	mechanized_equipment = {
-		year = 1936
+		year = 3376
 
 		is_archetype = yes
 		picture = archetype_motorized_equipment
@@ -50,7 +50,7 @@ equipments = {
 	}
 
 	armored_troop_transport_equipment = {
-		year = 1936
+		year = 3376
 
 		archetype = mechanized_equipment
 		priority = 40
@@ -77,7 +77,7 @@ equipments = {
 	}
 	
 	infantry_transport_support_vehicle_equipment = {
-		year = 1939
+		year = 3379
 
 		archetype = mechanized_equipment
 		parent = armored_troop_transport_equipment
@@ -106,7 +106,7 @@ equipments = {
 	}
 	
 	multi_role_armored_vehicle_equipment = {
-		year = 1942
+		year = 3382
 
 		archetype = mechanized_equipment
 		parent = infantry_transport_support_vehicle_equipment
@@ -135,7 +135,7 @@ equipments = {
 	}
 	
 	armored_multirole_carrier_equipment = {
-		year = 1945
+		year = 3385
 
 		archetype = mechanized_equipment
 		parent = multi_role_armored_vehicle_equipment

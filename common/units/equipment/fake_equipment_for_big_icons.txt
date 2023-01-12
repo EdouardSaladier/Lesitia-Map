@@ -2,119 +2,119 @@
 
 equipments = {
 	assembly_lines_fake = {
-		year = 1918
+		year = 3358
 		is_buildable = no
 	}
 	sensors_robotics_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	additive_manufacturing_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	nanomaterials_applications_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	matter_compiler_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	synthetic_biology_theory_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	basic_photovoltaic_cells_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	solar_concentrator_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	geothermal_plants_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	thermophotonic_distortion_reactor_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	regenerative_energy_source_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	nuclear_fission_reactors_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	toroidal_fusion_reactor_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	lattice_confinement_reactor_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	cold_fusion_reactor_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	antimatter_reactors_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	total_conversion_reactor_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	commercial_computers_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	massively_parallels_computers_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	mechanical_quantum_computer_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	chemical_reaction_networks_computers_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	nondeterministic_dna_computer_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	optical_photonic_computer_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	optical_quantum_computer_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	sapient_life_cloning_method_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	tectogenetic_biopattern_sequencer_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	mass_scale_clone_production_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	bioreplicants_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 	sapient_life_synthesis_fake = {
-		year = 1936
+		year = 3376
 		is_buildable = no
 	}
 }

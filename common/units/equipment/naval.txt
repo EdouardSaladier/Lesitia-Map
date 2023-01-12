@@ -3,7 +3,7 @@
 equipments = {
 
 	naval_equipment = {
-		year = 1936
+		year = 3376
 	
 		is_archetype = yes
 		picture = archetype_infantry_equipment		
@@ -41,168 +41,168 @@ equipments = {
 	}
 	
 	surface_combat_vessel_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	naval_armored_fighting_vessel_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	sea_firepower_projector_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	naval_supremacy_warship_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	naval_railguns_carrier_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	long_range_striker_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	firepower_saturation_warship_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	naval_escort_vessel_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	light_vessels_destroyer_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	surface_combattant_ship_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	local_superiority_vessel_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	high_intensity_combat_warship_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	fast_attack_craft_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	littoral_combat_ship_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	unmaned_surface_vessel_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	automated_swarming_ships_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	hunter_killer_submarine_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	trade_interdiction_vessel_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	unmaned_undersea_raider_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	autonomous_convoy_diruption_vehicle_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	main_fleet_carrier_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	universal_weapon_naval_platform_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	expeditionarry_advance_base_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0
 	}
 	
 	aeronaval_dominance_platform_equipment = {
-		year = 1936
+		year = 3376
 		archetype = naval_equipment
 		priority = 05
 		visual_level = 0

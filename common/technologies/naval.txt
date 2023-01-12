@@ -1,16 +1,16 @@
 technologies = {
 
-	@1936 = 0
-	@1937 = 3
-	@1938 = 6
-	@1939 = 9
-	@1940 = 12
-	@1941 = 15
-	@1942 = 18
-	@1943 = 21
-	@1944 = 24
-	@1945 = 27
-	@1946 = 30
+	@3376 = 0
+	@3377 = 3
+	@3378 = 6
+	@3379 = 9
+	@3380 = 12
+	@3381 = 15
+	@3382 = 18
+	@3383 = 21
+	@3384 = 24
+	@3385 = 27
+	@3386 = 30
 
 	surface_combat_vessel = {
 
@@ -33,11 +33,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1936
+		start_year = 3376
 		research_cost = 2.5
 		folder = {
 			name = naval_folder
-			position = { x = -5 y = @1936 }
+			position = { x = -5 y = @3376 }
 		}
 		
 		categories = {
@@ -62,11 +62,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1937
+		start_year = 3377
 		research_cost = 1.35
 		folder = {
 			name = naval_folder
-			position = { x = -5 y = @1937 }
+			position = { x = -5 y = @3377 }
 		}
 		
 		categories = {
@@ -95,11 +95,11 @@ technologies = {
 		}
 		
 
-		start_year = 1938
+		start_year = 3378
 		research_cost = 3.0
 		folder = {
 			name = naval_folder
-			position = { x = -7 y = @1938 }
+			position = { x = -7 y = @3378 }
 		}
 		
 		categories = {
@@ -120,11 +120,11 @@ technologies = {
 		}
 		
 
-		start_year = 1940
+		start_year = 3380
 		research_cost = 1.85
 		folder = {
 			name = naval_folder
-			position = { x = -5 y = @1940 }
+			position = { x = -5 y = @3380 }
 		}
 		
 		categories = {
@@ -145,11 +145,11 @@ technologies = {
 		}
 		
 
-		start_year = 1943
+		start_year = 3383
 		research_cost = 3.0
 		folder = {
 			name = naval_folder
-			position = { x = -5 y = @1943 }
+			position = { x = -5 y = @3383 }
 		}
 		
 		categories = {
@@ -165,11 +165,11 @@ technologies = {
 
 				
 
-		start_year = 1945
+		start_year = 3385
 		research_cost = 4.5
 		folder = {
 			name = naval_folder
-			position = { x = -5 y = @1945 }
+			position = { x = -5 y = @3385 }
 		}
 		
 		categories = {
@@ -193,11 +193,11 @@ technologies = {
 		}
 		
 
-		start_year = 1941
+		start_year = 3381
 		research_cost = 4.2
 		folder = {
 			name = naval_folder
-			position = { x = -7 y = @1941 }
+			position = { x = -7 y = @3381 }
 		}
 		
 		categories = {
@@ -216,11 +216,11 @@ technologies = {
 		}
 		
 
-		start_year = 1944
+		start_year = 3384
 		research_cost = 8.0
 		folder = {
 			name = naval_folder
-			position = { x = -7 y = @1944 }
+			position = { x = -7 y = @3384 }
 		}
 		
 		categories = {
@@ -243,11 +243,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1938
+		start_year = 3378
 		research_cost = 3.0
 		folder = {
 			name = naval_folder
-			position = { x = -3 y = @1938 }
+			position = { x = -3 y = @3378 }
 		}
 		
 		categories = {
@@ -270,11 +270,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1941
+		start_year = 3381
 		research_cost = 4.2
 		folder = {
 			name = naval_folder
-			position = { x = -3 y = @1941 }
+			position = { x = -3 y = @3381 }
 		}
 		
 		categories = {
@@ -292,11 +292,11 @@ technologies = {
 			firepower_saturation_warship_equipment
 		}
 
-		start_year = 1944
+		start_year = 3384
 		research_cost = 8.0
 		folder = {
 			name = naval_folder
-			position = { x = -3 y = @1944 }
+			position = { x = -3 y = @3384 }
 		}
 		
 		categories = {
@@ -316,11 +316,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1937
+		start_year = 3377
 		research_cost = 1.35
 		folder = {
 			name = naval_folder
-			position = { x = -1 y = @1937 }
+			position = { x = -1 y = @3377 }
 		}
 		
 		categories = {
@@ -340,11 +340,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1939
+		start_year = 3379
 		research_cost = 1.65
 		folder = {
 			name = naval_folder
-			position = { x = -1 y = @1939 }
+			position = { x = -1 y = @3379 }
 		}
 		
 		categories = {
@@ -359,11 +359,11 @@ technologies = {
 	super_heating_defense_laser = {
 
 		
-		start_year = 1942
+		start_year = 3382
 		research_cost = 2.6
 		folder = {
 			name = naval_folder
-			position = { x = -1 y = @1942 }
+			position = { x = -1 y = @3382 }
 		}
 		
 		categories = {
@@ -383,11 +383,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1937
+		start_year = 3377
 		research_cost = 1.35
 		folder = {
 			name = naval_folder
-			position = { x = 3 y = @1937 }
+			position = { x = 3 y = @3377 }
 		}
 		
 		categories = {
@@ -407,11 +407,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1939
+		start_year = 3379
 		research_cost = 1.65
 		folder = {
 			name = naval_folder
-			position = { x = 3 y = @1939 }
+			position = { x = 3 y = @3379 }
 		}
 		
 		categories = {
@@ -431,11 +431,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1941
+		start_year = 3381
 		research_cost = 2.1
 		folder = {
 			name = naval_folder
-			position = { x = 3 y = @1941 }
+			position = { x = 3 y = @3381 }
 		}
 		
 		categories = {
@@ -450,11 +450,11 @@ technologies = {
 	advanced_thermo_magnetic_detection = {
 
 		
-		start_year = 1944
+		start_year = 3384
 		research_cost = 4.0
 		folder = {
 			name = naval_folder
-			position = { x = 3 y = @1944 }
+			position = { x = 3 y = @3384 }
 		}
 		
 		categories = {
@@ -483,11 +483,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1936
+		start_year = 3376
 		research_cost = 2.5
 		folder = {
 			name = naval_folder
-			position = { x = 1 y = @1936 }
+			position = { x = 1 y = @3376 }
 		}
 		
 		categories = {
@@ -510,11 +510,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1938
+		start_year = 3378
 		research_cost = 3.0
 		folder = {
 			name = naval_folder
-			position = { x = 1 y = @1938 }
+			position = { x = 1 y = @3378 }
 		}
 		
 		categories = {
@@ -537,11 +537,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1940
+		start_year = 3380
 		research_cost = 3.7
 		folder = {
 			name = naval_folder
-			position = { x = 1 y = @1940 }
+			position = { x = 1 y = @3380 }
 		}
 		
 		categories = {
@@ -564,11 +564,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1943
+		start_year = 3383
 		research_cost = 6.0
 		folder = {
 			name = naval_folder
-			position = { x = 1 y = @1943 }
+			position = { x = 1 y = @3383 }
 		}
 		
 		categories = {
@@ -586,11 +586,11 @@ technologies = {
 			local_superiority_vessel_equipment
 		}
 
-		start_year = 1945
+		start_year = 3385
 		research_cost = 9.0
 		folder = {
 			name = naval_folder
-			position = { x = 1 y = @1945 }
+			position = { x = 1 y = @3385 }
 		}
 		
 		categories = {
@@ -619,11 +619,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1936
+		start_year = 3376
 		research_cost = 2.5
 		folder = {
 			name = naval_folder
-			position = { x = 5 y = @1936 }
+			position = { x = 5 y = @3376 }
 		}
 		
 		categories = {
@@ -646,11 +646,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1939
+		start_year = 3379
 		research_cost = 3.3
 		folder = {
 			name = naval_folder
-			position = { x = 5 y = @1939 }
+			position = { x = 5 y = @3379 }
 		}
 		
 		categories = {
@@ -673,11 +673,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1941
+		start_year = 3381
 		research_cost = 4.2
 		folder = {
 			name = naval_folder
-			position = { x = 5 y = @1941 }
+			position = { x = 5 y = @3381 }
 		}
 		
 		categories = {
@@ -696,11 +696,11 @@ technologies = {
 		}
 		
 
-		start_year = 1944
+		start_year = 3384
 		research_cost = 8.0
 		folder = {
 			name = naval_folder
-			position = { x = 5 y = @1944 }
+			position = { x = 5 y = @3384 }
 		}
 		
 		categories = {
@@ -720,11 +720,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1937
+		start_year = 3377
 		research_cost = 1.35
 		folder = {
 			name = naval_folder
-			position = { x = 7 y = @1937 }
+			position = { x = 7 y = @3377 }
 		}
 		
 		categories = {
@@ -744,11 +744,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1941
+		start_year = 3381
 		research_cost = 2.1
 		folder = {
 			name = naval_folder
-			position = { x = 7 y = @1941 }
+			position = { x = 7 y = @3381 }
 		}
 		
 		categories = {
@@ -763,11 +763,11 @@ technologies = {
 	sulfur_hexafluoride_chemical_propellant = {
 
 		
-		start_year = 1943
+		start_year = 3383
 		research_cost = 3.0
 		folder = {
 			name = naval_folder
-			position = { x = 7 y = @1943 }
+			position = { x = 7 y = @3383 }
 		}
 		
 		categories = {
@@ -801,11 +801,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1936
+		start_year = 3376
 		research_cost = 2.5
 		folder = {
 			name = naval_folder
-			position = { x = 9 y = @1936 }
+			position = { x = 9 y = @3376 }
 		}
 		
 		categories = {
@@ -820,11 +820,11 @@ technologies = {
 	acoustic_signature_reduction = {
 
 		
-		start_year = 1937
+		start_year = 3377
 		research_cost = 1.35
 		folder = {
 			name = naval_folder
-			position = { x = 10 y = @1937 }
+			position = { x = 10 y = @3377 }
 		}
 		
 		categories = {
@@ -852,11 +852,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1939
+		start_year = 3379
 		research_cost = 3.3
 		folder = {
 			name = naval_folder
-			position = { x = 9 y = @1939 }
+			position = { x = 9 y = @3379 }
 		}
 		
 		categories = {
@@ -871,11 +871,11 @@ technologies = {
 	wave_absorbant_coating = {
 
 		
-		start_year = 1940
+		start_year = 3380
 		research_cost = 1.85
 		folder = {
 			name = naval_folder
-			position = { x = 10 y = @1940 }
+			position = { x = 10 y = @3380 }
 		}
 		
 		categories = {
@@ -898,11 +898,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1942
+		start_year = 3382
 		research_cost = 5.2
 		folder = {
 			name = naval_folder
-			position = { x = 9 y = @1942 }
+			position = { x = 9 y = @3382 }
 		}
 		
 		categories = {
@@ -920,11 +920,11 @@ technologies = {
 			autonomous_convoy_diruption_vehicle_equipment
 		}
 
-		start_year = 1945
+		start_year = 3385
 		research_cost = 9.0
 		folder = {
 			name = naval_folder
-			position = { x = 9 y = @1945 }
+			position = { x = 9 y = @3385 }
 		}
 		
 		categories = {
@@ -953,11 +953,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1936
+		start_year = 3376
 		research_cost = 2.5
 		folder = {
 			name = naval_folder
-			position = { x = 12 y = @1936 }
+			position = { x = 12 y = @3376 }
 		}
 		
 		categories = {
@@ -972,11 +972,11 @@ technologies = {
 	electromagnetic_aircraft_launch_system = {
 
 		
-		start_year = 1937
+		start_year = 3377
 		research_cost = 1.35
 		folder = {
 			name = naval_folder
-			position = { x = 13 y = @1937 }
+			position = { x = 13 y = @3377 }
 		}
 		
 		categories = {
@@ -1004,11 +1004,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1938
+		start_year = 3378
 		research_cost = 3.0
 		folder = {
 			name = naval_folder
-			position = { x = 12 y = @1938 }
+			position = { x = 12 y = @3378 }
 		}
 		
 		categories = {
@@ -1023,11 +1023,11 @@ technologies = {
 	optical_landing_system = {
 
 		
-		start_year = 1939
+		start_year = 3379
 		research_cost = 1.65
 		folder = {
 			name = naval_folder
-			position = { x = 13 y = @1939 }
+			position = { x = 13 y = @3379 }
 		}
 		
 		categories = {
@@ -1055,11 +1055,11 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 1941
+		start_year = 3381
 		research_cost = 4.2
 		folder = {
 			name = naval_folder
-			position = { x = 12 y = @1941 }
+			position = { x = 12 y = @3381 }
 		}
 		
 		categories = {
@@ -1074,11 +1074,11 @@ technologies = {
 	advanced_arresting_gear = {
 
 		
-		start_year = 1942
+		start_year = 3382
 		research_cost = 2.6
 		folder = {
 			name = naval_folder
-			position = { x = 13 y = @1942 }
+			position = { x = 13 y = @3382 }
 		}
 		
 		categories = {
@@ -1096,11 +1096,11 @@ technologies = {
 			aeronaval_dominance_platform_equipment
 		}
 
-		start_year = 1944
+		start_year = 3384
 		research_cost = 8.0
 		folder = {
 			name = naval_folder
-			position = { x = 12 y = @1944 }
+			position = { x = 12 y = @3384 }
 		}
 		
 		categories = {

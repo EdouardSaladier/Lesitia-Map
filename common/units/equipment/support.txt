@@ -1,7 +1,7 @@
 equipments = {
 
 	main_support_equipment_arch = {
-		year = 1918
+		year = 3358
 
 		is_archetype = yes
 		picture = archetype_support_equipment
@@ -26,14 +26,14 @@ equipments = {
 	}
 
 	main_support_equipment = {
-		year = 1918
+		year = 3358
 
 		archetype = main_support_equipment_arch
 		priority = 20	
 	}
 	
 	urav_equipment = {
-		year = 1918
+		year = 3358
 
 		is_archetype = yes
 		picture = archetype_support_equipment
@@ -59,14 +59,14 @@ equipments = {
 	}
 
 	unmanned_reconnaissance_aerial_vehicle_equipment = {
-		year = 1939
+		year = 3379
 
 		archetype = urav_equipment
 		priority = 20	
 	}
 	
 	miniature_urav_equipment = {
-		year = 1941
+		year = 3381
 		breakthrough = 14
 		build_cost_ic = 3
 		fuel_consumption = 0.3
@@ -76,7 +76,7 @@ equipments = {
 	}
 	
 	micro_urav_equipment = {
-		year = 1944
+		year = 3384
 		breakthrough = 20
 		build_cost_ic = 4
 		fuel_consumption = 0.2
@@ -91,7 +91,7 @@ equipments = {
 	}
 	
 	earth_mover_equipment = {
-		year = 1918
+		year = 3358
 
 		is_archetype = yes
 		picture = archetype_support_equipment
@@ -119,14 +119,14 @@ equipments = {
 	}
 
 	armored_earth_mover_equipment = {
-		year = 1918
+		year = 3358
 
 		archetype = earth_mover_equipment
 		priority = 20	
 	}
 	
 	vehicle_launched_bridge_equipment = {
-		year = 1918
+		year = 3358
 
 		is_archetype = yes
 		picture = archetype_support_equipment
@@ -154,14 +154,14 @@ equipments = {
 	}
 
 	armored_vehicle_launched_bridge_equipment = {
-		year = 1918
+		year = 3358
 
 		archetype = vehicle_launched_bridge_equipment
 		priority = 20	
 	}
 	
 	repair_and_recovery_vehicle_equipment = {
-		year = 1918
+		year = 3358
 
 		is_archetype = yes
 		picture = archetype_support_equipment
@@ -189,14 +189,14 @@ equipments = {
 	}
 
 	armored_repair_and_recovery_vehicle_equipment = {
-		year = 1918
+		year = 3358
 
 		archetype = repair_and_recovery_vehicle_equipment
 		priority = 20	
 	}
 	
 	hemorrhage_equipment = {
-		year = 1918
+		year = 3358
 
 		is_archetype = yes
 		picture = archetype_support_equipment
@@ -219,14 +219,14 @@ equipments = {
 	}
 
 	hemorrhage_control_equipment_equipment = {
-		year = 1918
+		year = 3358
 
 		archetype = hemorrhage_equipment
 		priority = 20	
 	}
 	
 	mine_resistant_vehicle_equipment = {
-		year = 1918
+		year = 3358
 
 		is_archetype = yes
 		picture = archetype_support_equipment
@@ -254,14 +254,14 @@ equipments = {
 	}
 
 	mine_resistant_protected_vehicle_equipment = {
-		year = 1918
+		year = 3358
 
 		archetype = mine_resistant_vehicle_equipment
 		priority = 20	
 	}
 	
 	operations_center_vehicle_equipment = {
-		year = 1918
+		year = 3358
 
 		is_archetype = yes
 		picture = archetype_support_equipment
@@ -293,14 +293,14 @@ equipments = {
 	}
 
 	tactical_operations_center_vehicle_equipment = {
-		year = 1938
+		year = 3378
 
 		archetype = operations_center_vehicle_equipment
 		priority = 20	
 	}
 	
 	mobile_headquarters_support_vehicle_equipment = {
-		year = 1941
+		year = 3381
 		
 		soft_attack = 8
 		hard_attack = 8
@@ -315,7 +315,7 @@ equipments = {
 	}
 	
 	heavy_command_battlestation_equipment = {
-		year = 1944
+		year = 3384
 
 		archetype = operations_center_vehicle_equipment
 		priority = 20	

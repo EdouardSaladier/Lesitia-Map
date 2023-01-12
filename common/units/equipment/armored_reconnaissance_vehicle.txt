@@ -1,7 +1,7 @@
 equipments = {
 
 	armored_reconnaissance_vehicle_equipment_arch = {
-		year = 1934
+		year = 3374
 
 		is_archetype = yes
 		is_convertable = yes
@@ -49,7 +49,7 @@ equipments = {
 	}
 
 	armored_reconnaissance_vehicle_equipment = {
-		year = 1941
+		year = 3381
 		archetype = armored_reconnaissance_vehicle_equipment_arch
 		priority = 70
 		visual_level = 1
@@ -82,7 +82,7 @@ equipments = {
 	}
 	
 	automated_infantry_suppression_vehicle_equipment = {
-		year = 1941
+		year = 3381
 		archetype = armored_reconnaissance_vehicle_equipment_arch
 		priority = 70
 		visual_level = 1
@@ -116,7 +116,7 @@ equipments = {
 	}
 	
 	lethal_autonomous_vehicle_equipment = {
-		year = 1941
+		year = 3381
 		archetype = armored_reconnaissance_vehicle_equipment_arch
 		priority = 70
 		visual_level = 1
@@ -150,7 +150,7 @@ equipments = {
 	}
 	
 	multi_terrain_extermination_platform_equipment = {
-		year = 1941
+		year = 3381
 		archetype = armored_reconnaissance_vehicle_equipment_arch
 		priority = 70
 		visual_level = 1

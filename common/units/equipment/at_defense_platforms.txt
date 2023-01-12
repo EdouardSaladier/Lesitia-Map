@@ -1,7 +1,7 @@
 equipments = {
 
 	anti_tank_defense_platform_arch = {
-		year = 1934
+		year = 3374
 
 		is_archetype = yes
 		is_convertable = yes
@@ -49,7 +49,7 @@ equipments = {
 	}
 
 	anti_tank_defense_platform_equipment = {
-		year = 1941
+		year = 3381
 		archetype = anti_tank_defense_platform_arch
 		priority = 70
 		visual_level = 1
@@ -83,7 +83,7 @@ equipments = {
 	}
 	
 	armored_threats_mitigator_equipment = {
-		year = 1941
+		year = 3381
 		archetype = anti_tank_defense_platform_arch
 		priority = 70
 		visual_level = 1
@@ -118,7 +118,7 @@ equipments = {
 	}
 	
 	advanced_anti_tank_weapon_system_equipment = {
-		year = 1941
+		year = 3381
 		archetype = anti_tank_defense_platform_arch
 		priority = 70
 		visual_level = 1
@@ -153,7 +153,7 @@ equipments = {
 	}
 	
 	tank_hunter_killer_equipment = {
-		year = 1941
+		year = 3381
 		archetype = anti_tank_defense_platform_arch
 		priority = 70
 		visual_level = 1

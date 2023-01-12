@@ -1,19 +1,19 @@
 technologies = {
 
-	@1918 = 0
-	@1936 = 4
-	@1937 = 7
-	@1938 = 10
-	@1939 = 12
-	@1940 = 15
-	@1941 = 18
+	@3358 = 0
+	@3376 = 4
+	@3377 = 7
+	@3378 = 10
+	@3379 = 12
+	@3380 = 15
+	@3381 = 18
 	@quantum = 19
-	@1942 = 21
-	@1943 = 24
+	@3382 = 21
+	@3383 = 24
 	@univ = 25
-	@1944 = 27
-	@1945 = 30
-	@1946 = 33
+	@3384 = 27
+	@3385 = 30
+	@3386 = 33
 	@antitank = -4
 	@computerised = -3
 	@airdef = -1
@@ -66,11 +66,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1918
+		start_year = 3358
 		research_cost = 2.0
 		folder = {
 			name = armour_folder
-			position = { x = @center y = @1918 }
+			position = { x = @center y = @3358 }
 		}
 		
 		ai_will_do = {
@@ -95,11 +95,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1936
+		start_year = 3376
 		research_cost = 2.5
 		folder = {
 			name = armour_folder
-			position = { x = @center y = @1936 }
+			position = { x = @center y = @3376 }
 		}
 		
 		ai_will_do = {
@@ -137,11 +137,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1937
+		start_year = 3377
 		research_cost = 1.35
 		folder = {
 			name = armour_folder
-			position = { x = @center y = @1937 }
+			position = { x = @center y = @3377 }
 		}
 
 		ai_will_do = {
@@ -169,11 +169,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1938
+		start_year = 3378
 		research_cost = 3.0
 		folder = {
 			name = armour_folder
-			position = { x = @quadrithread y = @1938 }
+			position = { x = @quadrithread y = @3378 }
 		}
 
 		
@@ -203,11 +203,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1940
+		start_year = 3380
 		research_cost = 3.7
 		folder = {
 			name = armour_folder
-			position = { x = @quadrithread y = @1940 }
+			position = { x = @quadrithread y = @3380 }
 		}
 
 		
@@ -228,11 +228,11 @@ technologies = {
 			fortification_breakthrough_battlestation_equipment
 		}
 		
-		start_year = 1943
+		start_year = 3383
 		research_cost = 6.0
 		folder = {
 			name = armour_folder
-			position = { x = @quadrithread y = @1943 }
+			position = { x = @quadrithread y = @3383 }
 		}
 
 		
@@ -258,11 +258,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1939
+		start_year = 3379
 		research_cost = 1.65
 		folder = {
 			name = armour_folder
-			position = { x = @center y = @1939 }
+			position = { x = @center y = @3379 }
 		}
 
 		
@@ -287,11 +287,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1941
+		start_year = 3381
 		research_cost = 2.1
 		folder = {
 			name = armour_folder
-			position = { x = @center y = @1941 }
+			position = { x = @center y = @3381 }
 		}
 
 		
@@ -312,11 +312,11 @@ technologies = {
 			reliability = 0.1
 		}
 		
-		start_year = 1942
+		start_year = 3382
 		research_cost = 2.6
 		folder = {
 			name = armour_folder
-			position = { x = @center y = @1942 }
+			position = { x = @center y = @3382 }
 		}
 
 		
@@ -341,11 +341,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1938
+		start_year = 3378
 		research_cost = 3.0
 		folder = {
 			name = armour_folder
-			position = { x = @frontlinebreakthrough y = @1938 }
+			position = { x = @frontlinebreakthrough y = @3378 }
 		}
 
 		ai_will_do = {
@@ -374,11 +374,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1940
+		start_year = 3380
 		research_cost = 3.7
 		folder = {
 			name = armour_folder
-			position = { x = @frontlinebreakthrough y = @1940 }
+			position = { x = @frontlinebreakthrough y = @3380 }
 		}
 
 		
@@ -399,11 +399,11 @@ technologies = {
 			decisive_lethality_platform_equipment
 		}
 		
-		start_year = 1943
+		start_year = 3383
 		research_cost = 6.0
 		folder = {
 			name = armour_folder
-			position = { x = @frontlinebreakthrough y = @1943 }
+			position = { x = @frontlinebreakthrough y = @3383 }
 		}
 		
 		ai_will_do = {
@@ -437,11 +437,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1936
+		start_year = 3376
 		research_cost = 2.5
 		folder = {
 			name = armour_folder
-			position = { x = @airdef y = @1936 }
+			position = { x = @airdef y = @3376 }
 		}
 
 		ai_will_do = {
@@ -465,11 +465,11 @@ technologies = {
 			air_attack = 0.1
 		}
 		
-		start_year = 1937
+		start_year = 3377
 		research_cost = 1.35
 		folder = {
 			name = armour_folder
-			position = { x = @activeprotec y = @1937 }
+			position = { x = @activeprotec y = @3377 }
 		}
 
 		ai_will_do = {
@@ -498,11 +498,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1938
+		start_year = 3378
 		research_cost = 3.0
 		folder = {
 			name = armour_folder
-			position = { x = @airdef y = @1938 }
+			position = { x = @airdef y = @3378 }
 		}
 
 		ai_will_do = {
@@ -527,11 +527,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1939
+		start_year = 3379
 		research_cost = 1.65
 		folder = {
 			name = armour_folder
-			position = { x = @activeprotec y = @1939 }
+			position = { x = @activeprotec y = @3379 }
 		}
 
 		
@@ -552,11 +552,11 @@ technologies = {
 			air_attack = 0.1
 		}
 		
-		start_year = 1940
+		start_year = 3380
 		research_cost = 1.85
 		folder = {
 			name = armour_folder
-			position = { x = @activeprotec  y = @1940 }
+			position = { x = @activeprotec  y = @3380 }
 		}
 		
 		ai_will_do = {
@@ -585,11 +585,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1941
+		start_year = 3381
 		research_cost = 4.2
 		folder = {
 			name = armour_folder
-			position = { x = @airdef y = @1941 }
+			position = { x = @airdef y = @3381 }
 		}
 
 		ai_will_do = {
@@ -614,11 +614,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1942
+		start_year = 3382
 		research_cost = 2.6
 		folder = {
 			name = armour_folder
-			position = { x = @activeprotec y = @1942 }
+			position = { x = @activeprotec y = @3382 }
 		}
 
 		ai_will_do = {
@@ -637,11 +637,11 @@ technologies = {
 			automated_aircraft_destroyer_equipment
 		}
 		
-		start_year = 1943
+		start_year = 3383
 		research_cost = 6.0
 		folder = {
 			name = armour_folder
-			position = { x = @airdef y = @1943 }
+			position = { x = @airdef y = @3383 }
 		}
 
 		ai_will_do = {
@@ -661,11 +661,11 @@ technologies = {
 			air_attack = 0.25
 		}
 		
-		start_year = 1944
+		start_year = 3384
 		research_cost = 4.0
 		folder = {
 			name = armour_folder
-			position = { x = @activeprotec  y = @1944 }
+			position = { x = @activeprotec  y = @3384 }
 		}
 
 		
@@ -699,11 +699,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1936
+		start_year = 3376
 		research_cost = 2.5
 		folder = {
 			name = armour_folder
-			position = { x = @antitank y = @1936 }
+			position = { x = @antitank y = @3376 }
 		}
 
 		ai_will_do = {
@@ -727,11 +727,11 @@ technologies = {
 			ap_attack = 0.1
 		}
 		
-		start_year = 1937
+		start_year = 3377
 		research_cost = 1.35
 		folder = {
 			name = armour_folder
-			position = { x = @computerised y = @1937 }
+			position = { x = @computerised y = @3377 }
 		}
 		
 		ai_will_do = {
@@ -760,11 +760,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1939
+		start_year = 3379
 		research_cost = 3.3
 		folder = {
 			name = armour_folder
-			position = { x = @antitank y = @1939 }
+			position = { x = @antitank y = @3379 }
 		}
 
 		ai_will_do = {
@@ -791,11 +791,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1940
+		start_year = 3380
 		research_cost = 1.85
 		folder = {
 			name = armour_folder
-			position = { x = @computerised y = @1940 }
+			position = { x = @computerised y = @3380 }
 		}
 
 		ai_will_do = {
@@ -816,11 +816,11 @@ technologies = {
 			ap_attack = 0.25
 		}
 		
-		start_year = 1942
+		start_year = 3382
 		research_cost = 2.6
 		folder = {
 			name = armour_folder
-			position = { x = @computerised y = @1942 }
+			position = { x = @computerised y = @3382 }
 		}
 
 		ai_will_do = {
@@ -844,11 +844,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1941
+		start_year = 3381
 		research_cost = 4.2
 		folder = {
 			name = armour_folder
-			position = { x = @antitank y = @1941 }
+			position = { x = @antitank y = @3381 }
 		}
 
 		ai_will_do = {
@@ -868,11 +868,11 @@ technologies = {
 			tank_hunter_killer_equipment
 		}
 		
-		start_year = 1944
+		start_year = 3384
 		research_cost = 8.0
 		folder = {
 			name = armour_folder
-			position = { x = @antitank y = @1944 }
+			position = { x = @antitank y = @3384 }
 		}
 
 		ai_will_do = {
@@ -898,11 +898,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1936
+		start_year = 3376
 		research_cost = 1.25
 		folder = {
 			name = armour_folder
-			position = { x = @electrothermal y = @1936 }
+			position = { x = @electrothermal y = @3376 }
 		}
 
 		ai_will_do = {
@@ -927,11 +927,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1937
+		start_year = 3377
 		research_cost = 1.35
 		folder = {
 			name = armour_folder
-			position = { x = @electrothermal y = @1937 }
+			position = { x = @electrothermal y = @3377 }
 		}
 
 		ai_will_do = {
@@ -956,11 +956,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1939
+		start_year = 3379
 		research_cost = 1.65
 		folder = {
 			name = armour_folder
-			position = { x = @electrothermal y = @1939 }
+			position = { x = @electrothermal y = @3379 }
 		}
 
 		ai_will_do = {
@@ -985,11 +985,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1941
+		start_year = 3381
 		research_cost = 2.1
 		folder = {
 			name = armour_folder
-			position = { x = @electrothermal y = @1941 }
+			position = { x = @electrothermal y = @3381 }
 		}
 
 		ai_will_do = {
@@ -1009,11 +1009,11 @@ technologies = {
 			ap_attack = 0.3
 		}
 		
-		start_year = 1942
+		start_year = 3382
 		research_cost = 2.6
 		folder = {
 			name = armour_folder
-			position = { x = @electrothermal y = @1942 }
+			position = { x = @electrothermal y = @3382 }
 		}
 
 		ai_will_do = {
@@ -1038,11 +1038,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1936
+		start_year = 3376
 		research_cost = 1.25
 		folder = {
 			name = armour_folder
-			position = { x = @remotecontrolled y = @1936 }
+			position = { x = @remotecontrolled y = @3376 }
 		}
 
 		ai_will_do = {
@@ -1075,11 +1075,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1938
+		start_year = 3378
 		research_cost = 3.0
 		folder = {
 			name = armour_folder
-			position = { x = @remotecontrolled y = @1938 }
+			position = { x = @remotecontrolled y = @3378 }
 		}
 
 		ai_will_do = {
@@ -1108,11 +1108,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1940
+		start_year = 3380
 		research_cost = 3.7
 		folder = {
 			name = armour_folder
-			position = { x = @remotecontrolled y = @1940 }
+			position = { x = @remotecontrolled y = @3380 }
 		}
 
 		
@@ -1133,11 +1133,11 @@ technologies = {
 			unmanned_lethality_platform_equipment
 		}
 		
-		start_year = 1943
+		start_year = 3383
 		research_cost = 6.0
 		folder = {
 			name = armour_folder
-			position = { x = @remotecontrolled y = @1943 }
+			position = { x = @remotecontrolled y = @3383 }
 		}
 
 		ai_will_do = {
@@ -1171,12 +1171,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1918
+		start_year = 3358
 		research_cost = 2.0
 		
 		folder = {
 			name = armour_folder
-			position = { x = @armored_reconnaissance y = @1918 }
+			position = { x = @armored_reconnaissance y = @3358 }
 		}
 
 		ai_will_do = {
@@ -1206,11 +1206,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1937
+		start_year = 3377
 		research_cost = 1.35
 		folder = {
 			name = armour_folder
-			position = { x = @armored_reconnaissance y = @1937 }
+			position = { x = @armored_reconnaissance y = @3377 }
 		}
 
 		ai_will_do = {
@@ -1239,11 +1239,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1938
+		start_year = 3378
 		research_cost = 3.0
 		folder = {
 			name = armour_folder
-			position = { x = @armored_reconnaissance y = @1938 }
+			position = { x = @armored_reconnaissance y = @3378 }
 		}
 
 		ai_will_do = {
@@ -1261,11 +1261,11 @@ technologies = {
 	
 		terrain_penalty_reduction = 0.2
 		
-		start_year = 1939
+		start_year = 3379
 		research_cost = 1.65
 		folder = {
 			name = armour_folder
-			position = { x = @hostile y = @1939 }
+			position = { x = @hostile y = @3379 }
 		}
 
 		ai_will_do = {
@@ -1293,11 +1293,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1940
+		start_year = 3380
 		research_cost = 1.85
 		folder = {
 			name = armour_folder
-			position = { x = @armored_reconnaissance y = @1940 }
+			position = { x = @armored_reconnaissance y = @3380 }
 		}
 		
 		ai_will_do = {
@@ -1326,11 +1326,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1941
+		start_year = 3381
 		research_cost = 4.2
 		folder = {
 			name = armour_folder
-			position = { x = @armored_reconnaissance y = @1941 }
+			position = { x = @armored_reconnaissance y = @3381 }
 		}
 
 		ai_will_do = {
@@ -1352,11 +1352,11 @@ technologies = {
 			ap_attack = 0.2
 		}
 		
-		start_year = 1942
+		start_year = 3382
 		research_cost = 2.6
 		folder = {
 			name = armour_folder
-			position = { x = @hostile y = @1942 }
+			position = { x = @hostile y = @3382 }
 		}
 
 		
@@ -1384,11 +1384,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1943
+		start_year = 3383
 		research_cost = 3.0
 		folder = {
 			name = armour_folder
-			position = { x = @armored_reconnaissance y = @1943 }
+			position = { x = @armored_reconnaissance y = @3383 }
 		}
 
 		ai_will_do = {
@@ -1407,11 +1407,11 @@ technologies = {
 			multi_terrain_extermination_platform_equipment
 		}
 		
-		start_year = 1944
+		start_year = 3384
 		research_cost = 8.0
 		folder = {
 			name = armour_folder
-			position = { x = @armored_reconnaissance y = @1944 }
+			position = { x = @armored_reconnaissance y = @3384 }
 		}
 
 		ai_will_do = {
@@ -1448,11 +1448,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1937
+		start_year = 3377
 		research_cost = 1.35
 		folder = {
 			name = armour_folder
-			position = { x = @infrared y = @1937 }
+			position = { x = @infrared y = @3377 }
 		}
 
 		ai_will_do = {
@@ -1486,11 +1486,11 @@ technologies = {
 		}
 		
 		
-		start_year = 1939
+		start_year = 3379
 		research_cost = 1.65
 		folder = {
 			name = armour_folder
-			position = { x = @infrared y = @1939 }
+			position = { x = @infrared y = @3379 }
 		}
 
 		ai_will_do = {
@@ -1515,11 +1515,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1941
+		start_year = 3381
 		research_cost = 2.1
 		folder = {
 			name = armour_folder
-			position = { x = @infrared y = @1941 }
+			position = { x = @infrared y = @3381 }
 		}
 
 		ai_will_do = {
@@ -1541,11 +1541,11 @@ technologies = {
 			breakthrough = 0.35	
 		}
 		
-		start_year = 1943
+		start_year = 3383
 		research_cost = 3.0
 		folder = {
 			name = armour_folder
-			position = { x = @infrared y = @1943 }
+			position = { x = @infrared y = @3383 }
 		}
 
 		ai_will_do = {
@@ -1578,11 +1578,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1918
+		start_year = 3358
 		research_cost = 2.0
 		folder = {
 			name = armour_folder
-			position = { x = @aircushion y = @1918 }
+			position = { x = @aircushion y = @3358 }
 		}
 
 		ai_will_do = {
@@ -1607,11 +1607,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1936
+		start_year = 3376
 		research_cost = 1.25
 		folder = {
 			name = armour_folder
-			position = { x = @gasturbine y = @1936 }
+			position = { x = @gasturbine y = @3376 }
 		}
 
 		ai_will_do = {
@@ -1631,11 +1631,11 @@ technologies = {
 			ap_attack = 0.2
 		}
 	
-		start_year = 1937
+		start_year = 3377
 		research_cost = 1.35
 		folder = {
 			name = armour_folder
-			position = { x = @gasturbine y = @1937 }
+			position = { x = @gasturbine y = @3377 }
 		}
 
 		ai_will_do = {
@@ -1658,11 +1658,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1937
+		start_year = 3377
 		research_cost = 1.35
 		folder = {
 			name = armour_folder
-			position = { x = @aircushion y = @1937 }
+			position = { x = @aircushion y = @3377 }
 		}
 
 		ai_will_do = {
@@ -1690,11 +1690,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1938
+		start_year = 3378
 		research_cost = 3.0
 		folder = {
 			name = armour_folder
-			position = { x = @aircushion y = @1938 }
+			position = { x = @aircushion y = @3378 }
 		}
 
 		ai_will_do = {
@@ -1713,11 +1713,11 @@ technologies = {
 			armor_value = 0.15
 		}
 	
-		start_year = 1939
+		start_year = 3379
 		research_cost = 1.65
 		folder = {
 			name = armour_folder
-			position = { x = @gasturbine y = @1939 }
+			position = { x = @gasturbine y = @3379 }
 		}
 
 		ai_will_do = {
@@ -1742,11 +1742,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1940
+		start_year = 3380
 		research_cost = 1.85
 		folder = {
 			name = armour_folder
-			position = { x = @aircushion y = @1940 }
+			position = { x = @aircushion y = @3380 }
 		}
 
 		ai_will_do = {
@@ -1769,11 +1769,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1941
+		start_year = 3381
 		research_cost = 4.2
 		folder = {
 			name = armour_folder
-			position = { x = @aircushion y = @1941 }
+			position = { x = @aircushion y = @3381 }
 		}
 
 		ai_will_do = {
@@ -1798,11 +1798,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1943
+		start_year = 3383
 		research_cost = 3.0
 		folder = {
 			name = armour_folder
-			position = { x = @aircushion y = @1943 }
+			position = { x = @aircushion y = @3383 }
 		}
 
 		ai_will_do = {
@@ -1820,11 +1820,11 @@ technologies = {
 			heavy_hovertank_equipment
 		}
 		
-		start_year = 1944
+		start_year = 3384
 		research_cost = 8.0
 		folder = {
 			name = armour_folder
-			position = { x = @aircushion y = @1944 }
+			position = { x = @aircushion y = @3384 }
 		}
 
 		ai_will_do = {

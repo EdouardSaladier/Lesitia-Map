@@ -3,7 +3,7 @@
 equipments = {
 
 	artillery_equipment = {
-		year = 1918
+		year = 3358
 
 		is_archetype = yes
 		picture = archetype_artillery_equipment		
@@ -40,14 +40,14 @@ equipments = {
 	}
 
 	field_artillery_equipment = {
-		year = 1918
+		year = 3358
 		archetype = artillery_equipment
 		priority = 50
 		visual_level = 0
 	}
 
 	artillery_support_system_equipment = {
-		year = 1936
+		year = 3376
 		archetype = artillery_equipment
 		priority = 50
 		visual_level = 0
@@ -67,7 +67,7 @@ equipments = {
 	}
 
 	ranged_firepower_striker_equipment = {
-		year = 1939
+		year = 3379
 		archetype = artillery_equipment
 		priority = 50
 		visual_level = 0
@@ -87,7 +87,7 @@ equipments = {
 	}
 
 	offensive_firepower_projector_equipment = {
-		year = 1942
+		year = 3382
 		archetype = artillery_equipment
 		priority = 50
 		visual_level = 0
@@ -108,7 +108,7 @@ equipments = {
 	}
 
 	local_fire_saturation_unit_equipment = {
-		year = 1945
+		year = 3385
 		archetype = artillery_equipment
 		priority = 50
 		visual_level = 0
@@ -129,7 +129,7 @@ equipments = {
 	}
 	
 	precision_artillery_equipment = {
-		year = 1934
+		year = 3374
 
 		is_archetype = yes
 		picture = archetype_artillery_equipment		
@@ -167,14 +167,14 @@ equipments = {
 	}
 
 	mobile_gun_platform_equipment = {
-		year = 1918
+		year = 3358
 		archetype = precision_artillery_equipment
 		priority = 05
 		visual_level = 0
 	}
 
 	self_propelled_gun_equipment = {
-		year = 1936
+		year = 3376
 		archetype = precision_artillery_equipment
 		priority = 05
 		visual_level = 0
@@ -195,7 +195,7 @@ equipments = {
 	}
 
 	mobile_ranged_battle_platform_equipment = {
-		year = 1938
+		year = 3378
 		archetype = precision_artillery_equipment
 		priority = 05
 		visual_level = 0
@@ -216,7 +216,7 @@ equipments = {
 	}
 
 	railgun_artillery_carrier_equipment = {
-		year = 1940
+		year = 3380
 		archetype = precision_artillery_equipment
 		priority = 05
 		visual_level = 0
@@ -238,7 +238,7 @@ equipments = {
 	}
 
 	mobile_mass_driver_equipment = {
-		year = 1943
+		year = 3383
 		archetype = precision_artillery_equipment
 		priority = 05
 		visual_level = 0
@@ -260,7 +260,7 @@ equipments = {
 	}
 
 	horizonless_firepower_platform_equipment = {
-		year = 1945
+		year = 3385
 		archetype = precision_artillery_equipment
 		priority = 05
 		visual_level = 0
@@ -282,7 +282,7 @@ equipments = {
 	}
 	
 	rocket_artillery_equipment = {
-		year = 1936
+		year = 3376
 
 		is_archetype = yes
 		picture = archetype_rocket_artillery_equipment		
@@ -317,14 +317,14 @@ equipments = {
 	}
 	
 	multiple_launch_rocket_system_equipment = {
-		year = 1936
+		year = 3376
 		archetype = rocket_artillery_equipment
 		priority = 60
 		visual_level = 0
 	}
 	
 	multiple_guided_missile_platform_equipment = {
-		year = 1938
+		year = 3378
 		archetype = rocket_artillery_equipment
 		priority = 60
 		visual_level = 0
@@ -344,7 +344,7 @@ equipments = {
 	}
 
 	continuous_saturation_platforms_equipment = {
-		year = 1940
+		year = 3380
 		archetype = rocket_artillery_equipment
 		priority = 60
 		visual_level = 0
@@ -365,7 +365,7 @@ equipments = {
 	}
 
 	intense_firepower_projector_equipment = {
-		year = 1943
+		year = 3383
 		archetype = rocket_artillery_equipment
 		priority = 60
 		visual_level = 0
@@ -386,7 +386,7 @@ equipments = {
 	}
 
 	overwhelming_firepower_provider_equipment = {
-		year = 1945
+		year = 3385
 		archetype = rocket_artillery_equipment
 		priority = 60
 		visual_level = 0
@@ -407,7 +407,7 @@ equipments = {
 	}
 	
 	rocket_anti_air_equipment = {
-		year = 1918
+		year = 3358
 
 		is_archetype = yes
 		picture = archetype_anti_air_equipment		
@@ -445,14 +445,14 @@ equipments = {
 	}
 
 	surface_to_air_weapon_system_equipment = {
-		year = 1936
+		year = 3376
 		archetype = rocket_anti_air_equipment
 		priority = 90
 		visual_level = 0
 	}
 
 	aircraft_restriction_zone_system_equipment = {
-		year = 1939
+		year = 3379
 		archetype = rocket_anti_air_equipment
 		priority = 90
 		visual_level = 0
@@ -473,7 +473,7 @@ equipments = {
 	}
 
 	aerospace_domination_platform_equipment = {
-		year = 1942
+		year = 3382
 		archetype = rocket_anti_air_equipment
 		priority = 90
 		visual_level = 0
@@ -494,7 +494,7 @@ equipments = {
 	}
 
 	ground_to_air_suppremacy_system_equipment = {
-		year = 1945
+		year = 3385
 		archetype = rocket_anti_air_equipment
 		priority = 90
 		visual_level = 0
@@ -515,7 +515,7 @@ equipments = {
 	}
 	
 	anti_air_equipment = {
-		year = 1918
+		year = 3358
 
 		is_archetype = yes
 		picture = archetype_anti_air_equipment		
@@ -554,14 +554,14 @@ equipments = {
 	}
 
 	flak_cannons_equipment = {
-		year = 1918
+		year = 3358
 		archetype = anti_air_equipment
 		priority = 80
 		visual_level = 0
 	}
 
 	low_altitude_close_in_weaponry_equipment = {
-		year = 1936
+		year = 3376
 		archetype = anti_air_equipment
 		priority = 80
 		visual_level = 0
@@ -582,7 +582,7 @@ equipments = {
 	}
 
 	firepower_screengate_equipment = {
-		year = 1939
+		year = 3379
 		archetype = anti_air_equipment
 		priority = 80
 		visual_level = 0
@@ -603,7 +603,7 @@ equipments = {
 	}
 
 	laser_air_defence_system_equipment = {
-		year = 1942
+		year = 3382
 		archetype = anti_air_equipment
 		priority = 80
 		visual_level = 0
@@ -626,7 +626,7 @@ equipments = {
 	}
 
 	tactical_laser_defence_platform_equipment = {
-		year = 1945
+		year = 3385
 		archetype = anti_air_equipment
 		priority = 80
 		visual_level = 0
