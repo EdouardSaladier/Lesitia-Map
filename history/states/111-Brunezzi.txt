@@ -9,7 +9,7 @@ state={
 		}
 		owner = BOR
 		add_core_of = BOR
-		set_variable = { specie = 6 }
+		set_variable = { majority = 6 }
 		set_variable = { minority = 20 }
 	}
 

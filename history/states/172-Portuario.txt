@@ -20,7 +20,7 @@ state={
 		add_core_of = SYM
 		add_core_of = SED
 		set_variable = { minority = 73 }
-		set_variable = { specie = 76 }
+		set_variable = { majority = 76 }
 	}
 	
 	provinces={

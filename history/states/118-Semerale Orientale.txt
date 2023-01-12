@@ -8,7 +8,7 @@ state={
 		      13114 1
 	    }
 		add_core_of = BOR
-		set_variable = { specie = 66 }
+		set_variable = { majority = 66 }
 	}
 	
 	provinces={

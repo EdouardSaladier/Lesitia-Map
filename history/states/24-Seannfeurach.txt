@@ -10,7 +10,7 @@ state={
 		owner = CMM
 		add_core_of = CMM
 		set_variable = {
-			specie = 49
+			majority = 49
 
 		}
 

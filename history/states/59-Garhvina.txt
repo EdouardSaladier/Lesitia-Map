@@ -9,7 +9,7 @@ state={
 		}
 		owner = SLR
 		add_core_of = SLR
-		set_variable = { specie = 66 }
+		set_variable = { majority = 66 }
 	}
 
 	provinces={

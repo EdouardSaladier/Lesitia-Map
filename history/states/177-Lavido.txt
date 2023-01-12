@@ -20,7 +20,7 @@ state={
 	    }
 		add_core_of = SYM
 		add_core_of = LAV
-		set_variable = { specie = 80 }
+		set_variable = { majority = 80 }
 	}
 	
 	provinces={

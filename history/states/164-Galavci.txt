@@ -24,7 +24,7 @@ state={
 		add_core_of = KAK
 		add_claim_by = MAV
 		set_variable = { minority = 75 }
-		set_variable = { specie = 74 }
+		set_variable = { majority = 74 }
 	}
 	
 	provinces={

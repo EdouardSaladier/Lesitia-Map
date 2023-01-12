@@ -14,7 +14,7 @@ state={
 		owner = VRT
 		add_core_of = VRT
 		set_variable = { minority = 75 }
-		set_variable = { specie = 79 }
+		set_variable = { majority = 79 }
 	}
 
 	provinces={

@@ -9,7 +9,7 @@ state={
 		}
 		owner = AKU
 		add_core_of = AKU
-		set_variable = { specie = 6 }
+		set_variable = { majority = 6 }
 		set_variable = { minority = 66 }
 	}
 	

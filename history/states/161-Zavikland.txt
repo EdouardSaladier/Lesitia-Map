@@ -17,7 +17,7 @@ state={
 	    }
 		add_core_of = SYM
 		add_core_of = KAK
-		set_variable = { specie = 75 }
+		set_variable = { majority = 75 }
 	}
 	
 	provinces={

@@ -10,7 +10,7 @@ state={
 		owner = CMM
 		add_core_of = CMM
 		set_variable = { minority = 49 }
-		set_variable = { specie = 25 }
+		set_variable = { majority = 25 }
 		
 		victory_points = {
 		    9512 15

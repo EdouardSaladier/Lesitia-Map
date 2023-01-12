@@ -23,7 +23,7 @@ state={
 		add_core_of = SYM
 		add_core_of = TER
 		add_core_of = TVA
-		set_variable = { specie = 78 }
+		set_variable = { majority = 78 }
 	}
 	
 	provinces={

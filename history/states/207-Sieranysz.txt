@@ -21,7 +21,7 @@ state={
 		      15297 10
 	    }
 		add_core_of = AVN
-		set_variable = { specie = 77 }
+		set_variable = { majority = 77 }
 	}
 	
 	provinces={

@@ -1,0 +1,2091 @@
+defined_text = {
+	name = GetMajority
+	text = { # No Culture
+		trigger = {
+			check_variable = { majority = 0 }
+		}
+		localization_key = var_majority.0
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 1 }
+		}
+		localization_key = var_majority.1
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 2 }
+		}
+		localization_key = var_majority.2
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 3 }
+		}
+		localization_key = var_majority.3
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 4 }
+		}
+		localization_key = var_majority.4
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 5 }
+		}
+		localization_key = var_majority.5
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 6 }
+		}
+		localization_key = var_majority.6
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 7 }
+		}
+		localization_key = var_majority.7
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 8 }
+		}
+		localization_key = var_majority.8
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 9 }
+		}
+		localization_key = var_majority.9
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 10 }
+		}
+		localization_key = var_majority.10
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 11 }
+		}
+		localization_key = var_majority.11
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 12 }
+		}
+		localization_key = var_majority.12
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 13 }
+		}
+		localization_key = var_majority.13
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 14 }
+		}
+		localization_key = var_majority.14
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 15 }
+		}
+		localization_key = var_majority.15
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 16 }
+		}
+		localization_key = var_majority.16
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 17 }
+		}
+		localization_key = var_majority.17
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 18 }
+		}
+		localization_key = var_majority.18
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 19 }
+		}
+		localization_key = var_majority.19
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 20 }
+		}
+		localization_key = var_majority.20
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 21 }
+		}
+		localization_key = var_majority.21
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 22 }
+		}
+		localization_key = var_majority.22
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 23 }
+		}
+		localization_key = var_majority.23
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 24 }
+		}
+		localization_key = var_majority.24
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 25 }
+		}
+		localization_key = var_majority.25
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 26 }
+		}
+		localization_key = var_majority.26
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 27 }
+		}
+		localization_key = var_majority.27
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 28 }
+		}
+		localization_key = var_majority.28
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 29 }
+		}
+		localization_key = var_majority.29
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 30 }
+		}
+		localization_key = var_majority.30
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 31 }
+		}
+		localization_key = var_majority.31
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 32 }
+		}
+		localization_key = var_majority.32
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 33 }
+		}
+		localization_key = var_majority.33
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 34 }
+		}
+		localization_key = var_majority.34
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 35 }
+		}
+		localization_key = var_majority.35
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 36 }
+		}
+		localization_key = var_majority.36
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 37 }
+		}
+		localization_key = var_majority.37
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 38 }
+		}
+		localization_key = var_majority.38
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 39 }
+		}
+		localization_key = var_majority.39
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 40 }
+		}
+		localization_key = var_majority.40
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 41 }
+		}
+		localization_key = var_majority.41
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 42 }
+		}
+		localization_key = var_majority.42
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 43 }
+		}
+		localization_key = var_majority.43
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 44 }
+		}
+		localization_key = var_majority.44
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 45 }
+		}
+		localization_key = var_majority.45
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 46 }
+		}
+		localization_key = var_majority.46
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 47 }
+		}
+		localization_key = var_majority.47
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 48 }
+		}
+		localization_key = var_majority.48
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 49 }
+		}
+		localization_key = var_majority.49
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 50 }
+		}
+		localization_key = var_majority.50
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 51 }
+		}
+		localization_key = var_majority.51
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 52 }
+		}
+		localization_key = var_majority.52
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 53 }
+		}
+		localization_key = var_majority.53
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 54 }
+		}
+		localization_key = var_majority.54
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 55 }
+		}
+		localization_key = var_majority.55
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 56 }
+		}
+		localization_key = var_majority.56
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 57 }
+		}
+		localization_key = var_majority.57
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 58 }
+		}
+		localization_key = var_majority.58
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 59 }
+		}
+		localization_key = var_majority.59
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 60 }
+		}
+		localization_key = var_majority.60
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 61 }
+		}
+		localization_key = var_majority.61
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { majority = 62 }
+		}
+		localization_key = var_majority.62
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 63 }
+		}
+		localization_key = var_majority.63
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 64 }
+		}
+		localization_key = var_majority.64
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 65 }
+		}
+		localization_key = var_majority.65
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 66 }
+		}
+		localization_key = var_majority.66
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 67 }
+		}
+		localization_key = var_majority.67
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 68 }
+		}
+		localization_key = var_majority.68
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 69 }
+		}
+		localization_key = var_majority.69
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 70 }
+		}
+		localization_key = var_majority.70
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 71 }
+		}
+		localization_key = var_majority.71
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 72 }
+		}
+		localization_key = var_majority.72
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 73 }
+		}
+		localization_key = var_majority.73
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 74 }
+		}
+		localization_key = var_majority.74
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 75 }
+		}
+		localization_key = var_majority.75
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 76 }
+		}
+		localization_key = var_majority.76
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 77 }
+		}
+		localization_key = var_majority.77
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 78 }
+		}
+		localization_key = var_majority.78
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 79 }
+		}
+		localization_key = var_majority.79
+	}
+
+	text = {
+		trigger = {
+			check_variable = { majority = 80 }
+		}
+		localization_key = var_majority.80
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 81 }
+		}
+		localization_key = var_majority.81
+	}
+
+	text = {
+		trigger = {
+			check_variable = { majority = 82 }
+		}
+		localization_key = var_majority.82
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 83 }
+		}
+		localization_key = var_majority.83
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 84 }
+		}
+		localization_key = var_majority.84
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 85 }
+		}
+		localization_key = var_majority.85
+	}
+}
+
+defined_text = {
+	name = GetMajorityT
+	text = { # No Culture
+		trigger = {
+			check_variable = { majority = 0 }
+		}
+		localization_key = var_specie.0
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 1 }
+		}
+		localization_key = var_specie.1
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 2 }
+		}
+		localization_key = var_specie.2
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 3 }
+		}
+		localization_key = var_specie.3
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 4 }
+		}
+		localization_key = var_specie.4
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 5 }
+		}
+		localization_key = var_specie.5
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 6 }
+		}
+		localization_key = var_specie.6
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 7 }
+		}
+		localization_key = var_specie.7
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 8 }
+		}
+		localization_key = var_specie.8
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 9 }
+		}
+		localization_key = var_specie.9
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 10 }
+		}
+		localization_key = var_specie.10
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 11 }
+		}
+		localization_key = var_specie.11
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 12 }
+		}
+		localization_key = var_specie.12
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 13 }
+		}
+		localization_key = var_specie.13
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 14 }
+		}
+		localization_key = var_specie.14
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 15 }
+		}
+		localization_key = var_specie.15
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 16 }
+		}
+		localization_key = var_specie.16
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 17 }
+		}
+		localization_key = var_specie.17
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 18 }
+		}
+		localization_key = var_specie.18
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 19 }
+		}
+		localization_key = var_specie.19
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 20 }
+		}
+		localization_key = var_specie.20
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 21 }
+		}
+		localization_key = var_specie.21
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 22 }
+		}
+		localization_key = var_specie.22
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 23 }
+		}
+		localization_key = var_specie.23
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 24 }
+		}
+		localization_key = var_specie.24
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 25 }
+		}
+		localization_key = var_specie.25
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 26 }
+		}
+		localization_key = var_specie.26
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 27 }
+		}
+		localization_key = var_specie.27
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 28 }
+		}
+		localization_key = var_specie.28
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 29 }
+		}
+		localization_key = var_specie.29
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 30 }
+		}
+		localization_key = var_specie.30
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 31 }
+		}
+		localization_key = var_specie.31
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 32 }
+		}
+		localization_key = var_specie.32
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 33 }
+		}
+		localization_key = var_specie.33
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 34 }
+		}
+		localization_key = var_specie.34
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 35 }
+		}
+		localization_key = var_specie.35
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 36 }
+		}
+		localization_key = var_specie.36
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 37 }
+		}
+		localization_key = var_specie.37
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 38 }
+		}
+		localization_key = var_specie.38
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 39 }
+		}
+		localization_key = var_specie.39
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 40 }
+		}
+		localization_key = var_specie.40
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 41 }
+		}
+		localization_key = var_specie.41
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 42 }
+		}
+		localization_key = var_specie.42
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 43 }
+		}
+		localization_key = var_specie.43
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 44 }
+		}
+		localization_key = var_specie.44
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 45 }
+		}
+		localization_key = var_specie.45
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 46 }
+		}
+		localization_key = var_specie.46
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 47 }
+		}
+		localization_key = var_specie.47
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 48 }
+		}
+		localization_key = var_specie.48
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 49 }
+		}
+		localization_key = var_specie.49
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 50 }
+		}
+		localization_key = var_specie.50
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 51 }
+		}
+		localization_key = var_specie.51
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 52 }
+		}
+		localization_key = var_specie.52
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 53 }
+		}
+		localization_key = var_specie.53
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 54 }
+		}
+		localization_key = var_specie.54
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 55 }
+		}
+		localization_key = var_specie.55
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 56 }
+		}
+		localization_key = var_specie.56
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 57 }
+		}
+		localization_key = var_specie.57
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 58 }
+		}
+		localization_key = var_specie.58
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 59 }
+		}
+		localization_key = var_specie.59
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 60 }
+		}
+		localization_key = var_specie.60
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 61 }
+		}
+		localization_key = var_specie.61
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { majority = 62 }
+		}
+		localization_key = var_specie.62
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 63 }
+		}
+		localization_key = var_specie.63
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 64 }
+		}
+		localization_key = var_specie.64
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 65 }
+		}
+		localization_key = var_specie.65
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 66 }
+		}
+		localization_key = var_specie.66
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 67 }
+		}
+		localization_key = var_specie.67
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 68 }
+		}
+		localization_key = var_specie.68
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 69 }
+		}
+		localization_key = var_specie.69
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 70 }
+		}
+		localization_key = var_specie.70
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 71 }
+		}
+		localization_key = var_specie.71
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 72 }
+		}
+		localization_key = var_specie.72
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 73 }
+		}
+		localization_key = var_specie.73
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 74 }
+		}
+		localization_key = var_specie.74
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 75 }
+		}
+		localization_key = var_specie.75
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 76 }
+		}
+		localization_key = var_specie.76
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 77 }
+		}
+		localization_key = var_specie.77
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 78 }
+		}
+		localization_key = var_specie.78
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 79 }
+		}
+		localization_key = var_specie.79
+	}
+
+	text = {
+		trigger = {
+			check_variable = { majority = 80 }
+		}
+		localization_key = var_specie.80
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 81 }
+		}
+		localization_key = var_specie.81
+	}
+
+	text = {
+		trigger = {
+			check_variable = { majority = 82 }
+		}
+		localization_key = var_specie.82
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 83 }
+		}
+		localization_key = var_specie.83
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 84 }
+		}
+		localization_key = var_specie.84
+	}
+	text = {
+		trigger = {
+			check_variable = { majority = 85 }
+		}
+		localization_key = var_specie.85
+	}
+}
+
+defined_text = {
+	name = GetMinority
+	text = { # No Minority
+		trigger = {
+			check_variable = { minority = 0 }
+		}
+		localization_key = var_minority.0
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 1 }
+		}
+		localization_key = var_minority.1
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 2 }
+		}
+		localization_key = var_minority.2
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 3 }
+		}
+		localization_key = var_minority.3
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 4 }
+		}
+		localization_key = var_minority.4
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 5 }
+		}
+		localization_key = var_minority.5
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 6 }
+		}
+		localization_key = var_minority.6
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 7 }
+		}
+		localization_key = var_minority.7
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 8 }
+		}
+		localization_key = var_minority.8
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 9 }
+		}
+		localization_key = var_minority.9
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 10 }
+		}
+		localization_key = var_minority.10
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 11 }
+		}
+		localization_key = var_minority.11
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 12 }
+		}
+		localization_key = var_minority.12
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 13 }
+		}
+		localization_key = var_minority.13
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 14 }
+		}
+		localization_key = var_minority.14
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 15 }
+		}
+		localization_key = var_minority.15
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 16 }
+		}
+		localization_key = var_minority.16
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 17 }
+		}
+		localization_key = var_minority.17
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 18 }
+		}
+		localization_key = var_minority.18
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 19 }
+		}
+		localization_key = var_minority.19
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 20 }
+		}
+		localization_key = var_minority.20
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 21 }
+		}
+		localization_key = var_minority.21
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 22 }
+		}
+		localization_key = var_minority.22
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 23 }
+		}
+		localization_key = var_minority.23
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 24 }
+		}
+		localization_key = var_minority.24
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 25 }
+		}
+		localization_key = var_minority.25
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 26 }
+		}
+		localization_key = var_minority.26
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 27 }
+		}
+		localization_key = var_minority.27
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 28 }
+		}
+		localization_key = var_minority.28
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 29 }
+		}
+		localization_key = var_minority.29
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 30 }
+		}
+		localization_key = var_minority.30
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 31 }
+		}
+		localization_key = var_minority.31
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 32 }
+		}
+		localization_key = var_minority.32
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 33 }
+		}
+		localization_key = var_minority.33
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 34 }
+		}
+		localization_key = var_minority.34
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 35 }
+		}
+		localization_key = var_minority.35
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 36 }
+		}
+		localization_key = var_minority.36
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 37 }
+		}
+		localization_key = var_minority.37
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 38 }
+		}
+		localization_key = var_minority.38
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 39 }
+		}
+		localization_key = var_minority.39
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 40 }
+		}
+		localization_key = var_minority.40
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 41 }
+		}
+		localization_key = var_minority.41
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 42 }
+		}
+		localization_key = var_minority.42
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 43 }
+		}
+		localization_key = var_minority.43
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 44 }
+		}
+		localization_key = var_minority.44
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 45 }
+		}
+		localization_key = var_minority.45
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 46 }
+		}
+		localization_key = var_minority.46
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 47 }
+		}
+		localization_key = var_minority.47
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 48 }
+		}
+		localization_key = var_minority.48
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 49 }
+		}
+		localization_key = var_minority.49
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 50 }
+		}
+		localization_key = var_minority.50
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 51 }
+		}
+		localization_key = var_minority.51
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 52 }
+		}
+		localization_key = var_minority.52
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 53 }
+		}
+		localization_key = var_minority.53
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 54 }
+		}
+		localization_key = var_minority.54
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 55 }
+		}
+		localization_key = var_minority.55
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 56 }
+		}
+		localization_key = var_minority.56
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 57 }
+		}
+		localization_key = var_minority.57
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 58 }
+		}
+		localization_key = var_minority.58
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 59 }
+		}
+		localization_key = var_minority.59
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 60 }
+		}
+		localization_key = var_minority.60
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 61 }
+		}
+		localization_key = var_minority.61
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { minority = 62 }
+		}
+		localization_key = var_minority.62
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 63 }
+		}
+		localization_key = var_minority.63
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 64 }
+		}
+		localization_key = var_minority.64
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 65 }
+		}
+		localization_key = var_minority.65
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 66 }
+		}
+		localization_key = var_minority.66
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 67 }
+		}
+		localization_key = var_minority.67
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 68 }
+		}
+		localization_key = var_minority.68
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 69 }
+		}
+		localization_key = var_minority.69
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 70 }
+		}
+		localization_key = var_minority.70
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 71 }
+		}
+		localization_key = var_minority.71
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 72 }
+		}
+		localization_key = var_minority.72
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 73 }
+		}
+		localization_key = var_minority.73
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 74 }
+		}
+		localization_key = var_minority.74
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 75 }
+		}
+		localization_key = var_minority.75
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 76 }
+		}
+		localization_key = var_minority.76
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 77 }
+		}
+		localization_key = var_minority.77
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 78 }
+		}
+		localization_key = var_minority.78
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 79 }
+		}
+		localization_key = var_minority.79
+	}
+
+	text = {
+		trigger = {
+			check_variable = { minority = 80 }
+		}
+		localization_key = var_minority.80
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 81 }
+		}
+		localization_key = var_minority.81
+	}
+
+	text = {
+		trigger = {
+			check_variable = { minority = 82 }
+		}
+		localization_key = var_minority.82
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 83 }
+		}
+		localization_key = var_minority.83
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 84 }
+		}
+		localization_key = var_minority.84
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 85 }
+		}
+		localization_key = var_minority.85
+	}
+}
+
+defined_text = {
+	name = GetMinorityT
+	text = { # No Minority
+		trigger = {
+			check_variable = { minority = 0 }
+		}
+		localization_key = var_specie2.0
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 1 }
+		}
+		localization_key = var_specie.1
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 2 }
+		}
+		localization_key = var_specie.2
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 3 }
+		}
+		localization_key = var_specie.3
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 4 }
+		}
+		localization_key = var_specie.4
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 5 }
+		}
+		localization_key = var_specie.5
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 6 }
+		}
+		localization_key = var_specie.6
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 7 }
+		}
+		localization_key = var_specie.7
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 8 }
+		}
+		localization_key = var_specie.8
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 9 }
+		}
+		localization_key = var_specie.9
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 10 }
+		}
+		localization_key = var_specie.10
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 11 }
+		}
+		localization_key = var_specie.11
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 12 }
+		}
+		localization_key = var_specie.12
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 13 }
+		}
+		localization_key = var_specie.13
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 14 }
+		}
+		localization_key = var_specie.14
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 15 }
+		}
+		localization_key = var_specie.15
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 16 }
+		}
+		localization_key = var_specie.16
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 17 }
+		}
+		localization_key = var_specie.17
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 18 }
+		}
+		localization_key = var_specie.18
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 19 }
+		}
+		localization_key = var_specie.19
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 20 }
+		}
+		localization_key = var_specie.20
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 21 }
+		}
+		localization_key = var_specie.21
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 22 }
+		}
+		localization_key = var_specie.22
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 23 }
+		}
+		localization_key = var_specie.23
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 24 }
+		}
+		localization_key = var_specie.24
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 25 }
+		}
+		localization_key = var_specie.25
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 26 }
+		}
+		localization_key = var_specie.26
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 27 }
+		}
+		localization_key = var_specie.27
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 28 }
+		}
+		localization_key = var_specie.28
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 29 }
+		}
+		localization_key = var_specie.29
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 30 }
+		}
+		localization_key = var_specie.30
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 31 }
+		}
+		localization_key = var_specie.31
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 32 }
+		}
+		localization_key = var_specie.32
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 33 }
+		}
+		localization_key = var_specie.33
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 34 }
+		}
+		localization_key = var_specie.34
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 35 }
+		}
+		localization_key = var_specie.35
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 36 }
+		}
+		localization_key = var_specie.36
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 37 }
+		}
+		localization_key = var_specie.37
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 38 }
+		}
+		localization_key = var_specie.38
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 39 }
+		}
+		localization_key = var_specie.39
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 40 }
+		}
+		localization_key = var_specie.40
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 41 }
+		}
+		localization_key = var_specie.41
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 42 }
+		}
+		localization_key = var_specie.42
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 43 }
+		}
+		localization_key = var_specie.43
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 44 }
+		}
+		localization_key = var_specie.44
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 45 }
+		}
+		localization_key = var_specie.45
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 46 }
+		}
+		localization_key = var_specie.46
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 47 }
+		}
+		localization_key = var_specie.47
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 48 }
+		}
+		localization_key = var_specie.48
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 49 }
+		}
+		localization_key = var_specie.49
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 50 }
+		}
+		localization_key = var_specie.50
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 51 }
+		}
+		localization_key = var_specie.51
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 52 }
+		}
+		localization_key = var_specie.52
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 53 }
+		}
+		localization_key = var_specie.53
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 54 }
+		}
+		localization_key = var_specie.54
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 55 }
+		}
+		localization_key = var_specie.55
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 56 }
+		}
+		localization_key = var_specie.56
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 57 }
+		}
+		localization_key = var_specie.57
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 58 }
+		}
+		localization_key = var_specie.58
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 59 }
+		}
+		localization_key = var_specie.59
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 60 }
+		}
+		localization_key = var_specie.60
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 61 }
+		}
+		localization_key = var_specie.61
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { minority = 62 }
+		}
+		localization_key = var_specie.62
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 63 }
+		}
+		localization_key = var_specie.63
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 64 }
+		}
+		localization_key = var_specie.64
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 65 }
+		}
+		localization_key = var_specie.65
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 66 }
+		}
+		localization_key = var_specie.66
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 67 }
+		}
+		localization_key = var_specie.67
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 68 }
+		}
+		localization_key = var_specie.68
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 69 }
+		}
+		localization_key = var_specie.69
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 70 }
+		}
+		localization_key = var_specie.70
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 71 }
+		}
+		localization_key = var_specie.71
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 72 }
+		}
+		localization_key = var_specie.72
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 73 }
+		}
+		localization_key = var_specie.73
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 74 }
+		}
+		localization_key = var_specie.74
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 75 }
+		}
+		localization_key = var_specie.75
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 76 }
+		}
+		localization_key = var_specie.76
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 77 }
+		}
+		localization_key = var_specie.77
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 78 }
+		}
+		localization_key = var_specie.78
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 79 }
+		}
+		localization_key = var_specie.79
+	}
+
+	text = {
+		trigger = {
+			check_variable = { minority = 80 }
+		}
+		localization_key = var_specie.80
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 81 }
+		}
+		localization_key = var_specie.81
+	}
+
+	text = {
+		trigger = {
+			check_variable = { minority = 82 }
+		}
+		localization_key = var_specie.82
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 83 }
+		}
+		localization_key = var_specie.83
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 84 }
+		}
+		localization_key = var_specie.84
+	}
+	text = {
+		trigger = {
+			check_variable = { minority = 85 }
+		}
+		localization_key = var_specie.85
+	}
+}

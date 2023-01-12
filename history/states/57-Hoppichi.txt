@@ -11,7 +11,7 @@ state={
 		      13479 15
 	    }
 		add_core_of = SLR
-		set_variable = { specie = 25 }
+		set_variable = { majority = 25 }
 		set_variable = { minority = 66 }
 	}
 	

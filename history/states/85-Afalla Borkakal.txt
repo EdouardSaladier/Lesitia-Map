@@ -12,7 +12,7 @@ state={
 		      7639 15
 	    }
 		add_core_of = AKU
-		set_variable = { specie = 6 }
+		set_variable = { majority = 6 }
 		set_variable = { minority = 20 }
 	}
 

@@ -15,7 +15,7 @@ state={
 		add_core_of = TER
 		add_core_of = VRT
 		set_variable = { minority = 75 }
-		set_variable = { specie = 77 }
+		set_variable = { majority = 77 }
 	}
 	
 	provinces={

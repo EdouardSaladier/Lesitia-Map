@@ -18,7 +18,7 @@ state={
 		add_core_of = SYM
 		add_core_of = ETH
 		set_variable = { minority = 78 }
-		set_variable = { specie = 38 }
+		set_variable = { majority = 38 }
 	}
 	
 	provinces={

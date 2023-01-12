@@ -14,7 +14,7 @@ state={
 		add_core_of = OAV
 		add_core_of = AVN
 		set_variable = { minority = 78 }
-		set_variable = { specie = 77 }
+		set_variable = { majority = 77 }
 	}
 	
 	provinces={

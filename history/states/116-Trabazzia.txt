@@ -11,7 +11,7 @@ state={
 		      1766 1
 	    }
 		add_core_of = BOR
-		set_variable = { specie = 20 }
+		set_variable = { majority = 20 }
 		set_variable = { minority = 66 }
 	}
 	

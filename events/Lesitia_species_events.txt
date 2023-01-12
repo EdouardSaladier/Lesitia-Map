@@ -1,0 +1,59 @@
+﻿###########################
+# food event cause on_add is too fast
+###########################
+
+add_namespace = lesitia_species
+
+country_event = {
+	id = lesitia_species.1
+	title = lesitia_species.1.t
+	desc = lesitia_species.1.d
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_state = {
+			limit = {
+				AND = {
+					has_variable = majority
+					has_variable = minority
+				}
+			}
+			log = "lesitia_species.1 State: [?GetName]"
+			set_temp_variable = { temp_maj = majority }
+			set_temp_variable = { temp_min = minority }
+			set_variable = { majority = temp_min }
+			set_variable = { minority = temp_maj }
+		}
+	}
+
+	option = {
+		name = lesitia_species.1.a
+	}
+}
+
+country_event = {
+	id = lesitia_species.2
+	title = lesitia_species.2.t
+	desc = lesitia_species.2.d
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_state = {
+			limit = {
+				check_variable = { minority > 0 }
+			}
+			log = "lesitia_species.2 State: [?GetName]"
+			clear_variable = minority
+		}
+	}
+
+	option = {
+		name = lesitia_species.2.a
+	}
+}
