@@ -5,6 +5,7 @@ state={
 	history={
 		buildings = {
 			infrastructure = 1
+			farms = 2
 		}
 		owner = REZ
 		add_core_of = REZ

@@ -3,9 +3,15 @@ state={
 	id=227
 	name="STATE_227"
 	
+	resources = {
+        aluminium = 4
+		steel = 3
+	}
+	
 	history={
 		buildings = {
 			infrastructure = 3
+			farms = 3
 		}
 		owner = REZ
 		add_core_of = REZ

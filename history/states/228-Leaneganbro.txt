@@ -5,6 +5,12 @@ state={
 	history={
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 3
+			dockyard = 2
+			air_base = 6
+			14881 = {
+				naval_base = 8
+			}
 		}
 		owner = REZ
 		victory_points = {
