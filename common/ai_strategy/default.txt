@@ -1,0 +1,133 @@
+# Written by Henrik "Groogy" Hansson
+# Modified by Daniel "Da9L" Sjöberg
+
+default_unit_production = { #If adding country-unique ones, bear in mind that they STACK
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 80
+	}
+
+	#Air unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = fighter
+		value = 60
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = interceptor
+		value = 20
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = cas
+		value = 15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = strategic_bomber
+		value = 5
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 100
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 35
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 40
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 25
+	}
+}
+
+default_pp_spend_amount = {
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = pp_spend_amount
+		id = idea
+		value = 100
+	}
+
+	ai_strategy = {
+		type = pp_spend_amount
+		id = decision
+		value = 100
+	}
+}
+
+default_stockpile_management = {
+	enable = {
+		num_divisions > 150
+	}
+
+	abort = {
+		num_divisions < 130
+	}
+
+	ai_strategy = {
+		type = equipment_stockpile_surplus_ratio
+		value = 35 # double base stockpile #from 25 to 35
+	}
+}
+
+do_not_waste_pp_if_saving_for_manpower_laws = {
+
+	enable = {
+		manpower_per_military_factory < 500
+		has_war = yes
+	}
+	abort = {
+		OR = {
+			manpower_per_military_factory > 500
+			has_war = no
+		}
+	}
+
+	ai_strategy = {
+		type = pp_spend_priority
+		id = relation
+		value = -9999
+	}
+
+	ai_strategy = {
+		type = pp_spend_priority
+		id = guarantee
+		value = -9999
+	}
+}
+
+put_garrisons_on_high_prio = {
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = garrison_reinforcement_priority
+		value = 100 # positive is high prio, negative is low prio
+	}
+}

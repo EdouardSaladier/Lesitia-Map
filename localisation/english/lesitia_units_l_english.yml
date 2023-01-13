@@ -1,4 +1,13 @@
 ﻿l_english:
+ at_infantry:0 "Anti-Tank Infantry"
+ at_infantry_desc:0 "Anti-Tank Infantry"
+ infiltrators:0 "Infiltrators"
+ infiltrators_desc:0 "Infiltrators"
+ aerial_troops:0 "Aerial Troops"
+ aerial_troops_desc:0 "Aerial Troops"
+ assault_forces:0 "Assault Forces"
+ assault_forces_desc:0 "Assault Forces"
+
  drone_recon_s_company:0 "Drone Reconnaissance Company"
  drone_recon_s_company_desc:0 "Drone Reconnaissance Company"
  mot_recon_s_company:0 "Motorised Reconnaissance Company"
