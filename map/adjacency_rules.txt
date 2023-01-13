@@ -54,6 +54,45 @@ adjacency_rule =
 
 adjacency_rule =
 {
+	name = "NORTH_ARCHEA_CANAL"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 3118 3308 3374 3456 6748 7144 8583 12920 13086 20450 20460 }
+		
+	icon = 3374
+	offset = { 0 0 0 }
+}
+
+adjacency_rule =
+{
 	name = "NORTH_AGRIA_CANAL_1"
 
 	contested =

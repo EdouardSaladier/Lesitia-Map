@@ -1,5 +1,6 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 18668;19533;sea;6208;-1;-1;-1;-1;ARCHEA_CANAL;Archea Canal
+19087;19449;sea;3374;-1;-1;-1;-1;NORTH_ARCHEA_CANAL;North Archea Canal
 18406;18788;sea;5313;-1;-1;-1;-1;NORTH_AGRIA_CANAL_1;North Agria Canal 1
 18788;20269;sea;10801;-1;-1;-1;-1;NORTH_AGRIA_CANAL_2;North Agria Canal 2
 20268;20269;sea;10829;-1;-1;-1;-1;NORTH_AGRIA_CANAL_3;North Agria Canal 3
