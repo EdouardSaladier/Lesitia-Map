@@ -6,7 +6,7 @@ state={
 	history={
 		owner = LUR
 		add_core_of = LUR
-
+		set_variable = { majority = 66 }
 	}
 
 	provinces={

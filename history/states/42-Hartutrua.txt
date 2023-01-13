@@ -12,7 +12,7 @@ state={
 		      13015 5
 	    }
 		add_core_of = LUR
-
+		set_variable = { majority = 68 }
 	}
 
 	provinces={

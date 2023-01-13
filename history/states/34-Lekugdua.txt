@@ -9,7 +9,8 @@ state={
 		}
 		owner = LUR
 		add_core_of = LUR
-
+		set_variable = { majority = 68 }
+		set_variable = { minority = 66 }
 	}
 
 	provinces={
