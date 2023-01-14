@@ -15,8 +15,8 @@ state={
 		}
 		owner = VRT
 		victory_points = {
-		      6279 30
-	    }
+			6279 30
+		}
 		add_core_of = VRT
 		set_variable = { majority = 75 }
 	}

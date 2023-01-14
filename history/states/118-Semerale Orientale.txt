@@ -5,8 +5,8 @@ state={
 	history={
 		owner = BOR
 		victory_points = {
-		      13114 1
-	    }
+			13114 1
+		}
 		add_core_of = BOR
 		set_variable = { majority = 66 }
 	}

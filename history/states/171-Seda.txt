@@ -12,8 +12,8 @@ state={
 		}
 		owner = SYM
 		victory_points = {
-		      14617 15
-	    }
+			14617 15
+		}
 		add_core_of = SYM
 		add_core_of = SED
 		set_variable = { majority = 73 }

@@ -8,6 +8,7 @@ state={
 		}
 		owner = SUR
 		add_core_of = SUR
+			set_variable = { majority = 9 }
 
 	}
 	

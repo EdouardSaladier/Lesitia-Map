@@ -6,11 +6,11 @@ state={
 	history={
 		owner = SYM
 		victory_points = {
-		      1691 10
-	    }
+			1691 10
+		}
 		victory_points = {
-		      14795 5
-	    }
+			14795 5
+		}
 		add_core_of = SYM
 		add_core_of = TVA
 		set_variable = { majority = 73 }

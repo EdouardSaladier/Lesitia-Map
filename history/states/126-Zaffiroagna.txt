@@ -8,8 +8,8 @@ state={
 		}
 		owner = BOR
 		victory_points = {
-		      12934 5
-	    }
+			12934 5
+		}
 		add_core_of = BOR
 		set_variable = { majority = 20 }
 	}

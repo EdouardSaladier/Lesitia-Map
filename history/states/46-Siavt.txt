@@ -8,8 +8,8 @@ state={
 		}
 		owner = LUR
 		victory_points = {
-		      13593 5
-	    }
+			13593 5
+		}
 		add_core_of = LUR
 		set_variable = { majority = 29 }
 	}

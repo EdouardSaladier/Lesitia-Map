@@ -6,6 +6,7 @@ state={
 	history={
 		owner = SUR
 		add_core_of = SUR
+			set_variable = { majority = 66 }
 
 	}
 
@@ -17,4 +18,5 @@ state={
 	state_category=wasteland
 	impassable = yes
 	local_supplies=0.000
+
 }

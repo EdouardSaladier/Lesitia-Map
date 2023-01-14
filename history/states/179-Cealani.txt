@@ -3,7 +3,7 @@ state={
 	name="STATE_179"
 	
 	resources = {
-        steel = 10
+		steel = 10
 		aluminium = 10
 	}
 	
@@ -17,11 +17,11 @@ state={
 		}
 		owner = SYM
 		victory_points = {
-		      3628 15
-	    }
+			3628 15
+		}
 		victory_points = {
-		      15109 10
-	    }
+			15109 10
+		}
 		add_core_of = SYM
 		add_core_of = LAV
 		set_variable = { majority = 80 }

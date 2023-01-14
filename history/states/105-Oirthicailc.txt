@@ -11,8 +11,8 @@ state={
 		set_variable = { majority = 49 }
 		
 		victory_points = {
-		    3164 10
-	    }
+			3164 10
+		}
 	}
 	
 	provinces={

@@ -8,8 +8,8 @@ state={
 		}
 		owner = SYM
 		victory_points = {
-		      20547 1
-	    }
+			20547 1
+		}
 		add_core_of = SYM
 		add_core_of = OAV
 		add_core_of = AVN

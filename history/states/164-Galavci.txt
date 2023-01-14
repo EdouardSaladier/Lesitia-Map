@@ -3,9 +3,9 @@ state={
 	name="STATE_164"
 		 
 	resources = {
-        steel = 10
-        tungsten = 5
-    }
+		steel = 10
+		tungsten = 5
+	}
 	
 	history={
 		buildings = {
@@ -15,11 +15,11 @@ state={
 		}
 		owner = SYM
 		victory_points = {
-		      7386 20
-	    }
+			7386 20
+		}
 		victory_points = {
-		      7967 10
-	    }
+			7967 10
+		}
 		add_core_of = SYM
 		add_core_of = KAK
 		add_claim_by = MAV

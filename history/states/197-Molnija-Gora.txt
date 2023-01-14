@@ -9,8 +9,8 @@ state={
 		}
 		owner = SYM
 		victory_points = {
-		      8555 1
-	    }
+			8555 1
+		}
 		add_core_of = SYM
 		add_core_of = TER
 		add_core_of = VRT

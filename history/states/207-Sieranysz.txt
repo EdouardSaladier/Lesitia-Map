@@ -15,11 +15,11 @@ state={
 		}
 		owner = AVN
 		victory_points = {
-		      6223 5
-	    }
+			6223 5
+		}
 		victory_points = {
-		      15297 10
-	    }
+			15297 10
+		}
 		add_core_of = AVN
 		set_variable = { majority = 77 }
 	}

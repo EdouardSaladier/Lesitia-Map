@@ -9,10 +9,11 @@ state={
 		}
 		owner = HAF
 		victory_points = {
-		      12683 10
-	    }
+			12683 10
+		}
 		add_core_of = HAF
-
+		set_variable = { majority = 68 }
+		set_variable = { minority = 66 }
 	}
 	
 	provinces={

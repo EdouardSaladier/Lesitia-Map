@@ -3,7 +3,7 @@ state={
 	name="STATE_242"
 	
 	resources = {
-        steel = 3
+		steel = 3
 	}
 	
 	history={
@@ -13,8 +13,8 @@ state={
 		}
 		owner = REZ
 		victory_points = {
-		      14672 10
-	    }
+			14672 10
+		}
 		add_core_of = REZ
 		set_variable = { minority = 77 }
 		set_variable = { majority = 25 }

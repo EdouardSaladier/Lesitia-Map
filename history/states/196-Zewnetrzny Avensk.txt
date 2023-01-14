@@ -3,7 +3,7 @@ state={
 	name="STATE_196"
 	
 	resources = {
-        chromium = 5
+		chromium = 5
 		tungsten = 2
 		steel = 5
 	}
@@ -14,8 +14,8 @@ state={
 		}
 		owner = SYM
 		victory_points = {
-		      15221 10
-	    }
+			15221 10
+		}
 		add_core_of = SYM
 		add_core_of = OAV
 		add_core_of = AVN

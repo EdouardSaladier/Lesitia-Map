@@ -4,7 +4,7 @@ state={
 	name="STATE_65"
 	
 	resources = {
-        aluminium = 8
+		aluminium = 8
 	}
 
 	history={
@@ -15,8 +15,8 @@ state={
 		}
 		owner = VRT
 		victory_points = {
-		      2848 10
-	    }
+			2848 10
+		}
 		add_core_of = VRT
 		set_variable = { majority = 75 }
 	}

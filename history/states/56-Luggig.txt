@@ -9,8 +9,8 @@ state={
 		}
 		owner = SLR
 		victory_points = {
-		      7671 10
-	    }
+			7671 10
+		}
 		add_core_of = SLR
 		set_variable = { majority = 25 }
 	}

@@ -3,16 +3,16 @@ state={
 	name="STATE_181"
 	
 	history={
-	    buildings = {
-		    dockyard = 1
+		buildings = {
+			dockyard = 1
 			6642 = {
 				naval_base = 3
 			}
 		}
 		owner = SYM
 		victory_points = {
-		      6642 1
-	    }
+			6642 1
+		}
 		add_core_of = SYM
 		add_core_of = ETH
 		set_variable = { majority = 38 }

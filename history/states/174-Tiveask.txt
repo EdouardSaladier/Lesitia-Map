@@ -13,8 +13,8 @@ state={
 		}
 		owner = SYM
 		victory_points = {
-		      15319 20
-	    }
+			15319 20
+		}
 		add_core_of = SYM
 		add_core_of = TVA
 		set_variable = { majority = 73 }

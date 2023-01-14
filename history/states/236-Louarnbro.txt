@@ -8,13 +8,13 @@ state={
 		}
 		owner = REZ
 		victory_points = {
-		      8069 1
-	    }
+			8069 1
+		}
 		victory_points = {
-		      20653 5
-	    }
+			20653 5
+		}
 		add_core_of = REZ
-		set_variable = { minority = 37 }
+		set_variable = { minority = 26 }
 		set_variable = { majority = 9 }
 
 	}

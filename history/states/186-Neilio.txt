@@ -15,11 +15,11 @@ state={
 		}
 		owner = SYM
 		victory_points = {
-		      15533 20
-	    }
+			15533 20
+		}
 		victory_points = {
-		      15430 15
-	    }
+			15430 15
+		}
 		add_core_of = SYM
 		add_core_of = ETH
 		set_variable = { majority = 78 }

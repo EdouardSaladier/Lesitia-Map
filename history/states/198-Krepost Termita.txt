@@ -12,14 +12,14 @@ state={
 		}
 		owner = SYM
 		victory_points = {
-		      14994 20
-	    }
+			14994 20
+		}
 		victory_points = {
-		      14939 40
-	    }
+			14939 40
+		}
 		victory_points = {
-		      14986 10
-	    }
+			14986 10
+		}
 		add_core_of = SYM
 		add_core_of = TER
 		add_core_of = TVA

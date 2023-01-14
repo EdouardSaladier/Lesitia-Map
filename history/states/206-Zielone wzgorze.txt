@@ -4,7 +4,7 @@ state={
 	name="STATE_206"
 	
 	resources = {
-        tungsten = 8
+		tungsten = 8
 	}
 	
 	history={
@@ -15,8 +15,8 @@ state={
 		}
 		owner = AVN
 		victory_points = {
-		      4588 10
-	    }
+			4588 10
+		}
 		add_core_of = AVN
 		set_variable = { majority = 77 }
 	}

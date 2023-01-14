@@ -10,8 +10,8 @@ state={
 		add_core_of = CMM
 		set_variable = { majority = 25 }
 		victory_points = {
-		    1116 5
-	    }
+			1116 5
+		}
 	}
 	
 	provinces={

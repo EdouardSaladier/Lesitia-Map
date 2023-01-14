@@ -10,8 +10,8 @@ state={
 		}
 		owner = SYM
 		victory_points = {
-		      14794 5
-	    }
+			14794 5
+		}
 		add_core_of = SYM
 		add_core_of = LAV
 		set_variable = { minority = 80 }

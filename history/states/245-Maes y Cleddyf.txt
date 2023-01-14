@@ -8,7 +8,7 @@ state={
 		}
 		owner = HAF
 		add_core_of = HAF
-
+		set_variable = { majority = 68 }
 	}
 	
 	provinces={

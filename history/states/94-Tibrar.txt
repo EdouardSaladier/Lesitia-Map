@@ -9,11 +9,11 @@ state={
 		}
 		owner = AKU
 		victory_points = {
-		      1448 30
-	    }
+			1448 30
+		}
 		victory_points = {
-		      11784 10
-	    }
+			11784 10
+		}
 		add_core_of = AKU
 		set_variable = { majority = 6 }
 	}

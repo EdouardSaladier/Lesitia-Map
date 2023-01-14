@@ -9,11 +9,11 @@ state={
 		}
 		owner = SYM
 		victory_points = {
-		      7530 5
-	    }
+			7530 5
+		}
 		victory_points = {
-		      13726 10
-	    }
+			13726 10
+		}
 		add_core_of = SYM
 		add_core_of = MAV
 		set_variable = { majority = 74 }

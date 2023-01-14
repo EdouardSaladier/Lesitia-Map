@@ -8,11 +8,11 @@ state={
 		}
 		owner = REO
 		victory_points = {
-		      12319 30
-	    }
+			12319 30
+		}
 		victory_points = {
-		      4483 25
-	    }
+			4483 25
+		}
 		add_core_of = REO
 		set_variable = { majority = 72 }
 	}
