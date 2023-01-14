@@ -20,7 +20,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Trade Prince Council"
-	desc = "aku_trade_prince_council_desc"
+	desc = "AKU_trade_prince_council_desc"
 	picture = "aku_trade_prince_council.dds"
 	ideology = corporatism_type
 }
