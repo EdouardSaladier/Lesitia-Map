@@ -8,11 +8,20 @@ oob = "standard_templates"
 set_convoys = 20
 
 set_politics = {
-	ruling_party = unclassified
+	ruling_party = despotism
 	last_election = "3374.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	unclassified = 100
+	despotism = 80
+	supremacism = 15
+	unclassified = 5
+}
+
+create_country_leader = {
+	name = "Lars Glaidir"
+	desc = "REO_Lars_desc"
+	picture = "portrait_lars_glaidir.dds"
+	ideology = despotism_type
 }
