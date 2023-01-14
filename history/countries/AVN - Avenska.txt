@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Pyotr Kavinse"
-	desc = "TER_pyotr_desc"
+	desc = "AVN_pyotr_desc"
 	picture = "portrait_pyotr_kavinse.dds"
 	ideology = despotism_type 
 }

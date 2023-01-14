@@ -11,4 +11,8 @@ REZ_Alban_desc:0 "Age: 24\n\nAlban Briz isn't a native to the region, his ancest
 #####partys names###
 REZ_despotism_party:0 "Reclamation Congress"
 REZ_despotism_party_long:0 "Reclamation Congress"
+REZ_supremacism_party:0 "Native Congress of Rodents"
+REZ_supremacism_party_long:0 "Native Congress of Rodents"
+REZ_democracy_party:0 "Liberal Movement"
+REZ_democracy_party_long:0 "Liberal Movement"
 

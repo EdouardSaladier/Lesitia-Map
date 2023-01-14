@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Vera Triansbuer"
-	desc = "TER_vera_desc"
+	desc = "VRT_vera_desc"
 	picture = "portrait_vera_trian.dds"
 	ideology = supremacism_type 
 }

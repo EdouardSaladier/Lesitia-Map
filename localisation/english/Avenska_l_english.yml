@@ -1,0 +1,17 @@
+﻿
+l_english:
+######### countryname
+AVN_despotism:0 "Avenska"
+AVN_despotism_DEF:0 "The Directorate of Avenska"
+AVN_despotism_ADJ:0 "Avenskan"
+
+### LEADER DESC
+AVN_pyotr_desc:0 "Age: 29\n\nPyotr Kavinse might be considered young compared to other leaders, but his determination and fierceness towards Avenska's better future and preservation make it so he is trusted by the population, so far, there hasn't been any meaningful political movement aiming to remove him, he is sometimes jokingly called the "Tyrant with a Feather Fist" due to his moderation and level-headedness when it comes to his rulership, not ordering any large or small-scale persecution of his adversaries or shutting down public discourse for example, some even say he might be opening the country up for a possible democratization.\n\nPyotr was born in a small religious commune on a very remote area of what would be the country today, during his childhood he had very limited interactions with reptiles, making so his opinion of them wasn't that negative when comparing to other insects; during his time in the community he would get very interested in old literary works of Avenska, together with old philosophers and great thinkers, after all, Avenska's history was over a millenia old, there was a lot to get interested by, this interest would cause him to form a cultural preservation society and get quite a bit of attention from other mantises, which would ultimately culminate with him being appointed as the provisional leader of the country after the revolt, where the country was finally free from the Empire."
+
+#####partys names###
+AVN_despotism_party:0 "Mantid Council"
+AVN_despotism_party_long:0 "Mantid Council"
+AVN_democracy_party:0 "Mantid Federal Association"
+AVN_democracy_party_long:0 "Mantid Federal Association"
+AVN_corporatism_party:0 "United Companies"
+AVN_corporatism_party_long:0 "United Companies"
