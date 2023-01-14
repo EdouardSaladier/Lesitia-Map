@@ -11,6 +11,7 @@ state={
 		      12040 10
 	    }
 		add_core_of = REO
+		set_variable = { majority = 70 }
 	}
 	
 	provinces={
