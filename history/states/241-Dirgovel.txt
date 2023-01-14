@@ -8,6 +8,8 @@ state={
 		}
 		owner = REZ
 		add_core_of = REZ
+		set_variable = { minority = 26 }
+		set_variable = { majority = 25 }
 
 	}
 	

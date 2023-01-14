@@ -20,7 +20,7 @@ state={
 		      5448 30
 	    }
 		add_core_of = REZ
-
+		set_variable = { majority = 61 }
 	}
 	
 	provinces={

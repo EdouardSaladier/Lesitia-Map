@@ -15,6 +15,7 @@ state={
 		      14316 15
 	    }
 		add_core_of = REZ
+		set_variable = { majority = 26 }
 
 	}
 	
