@@ -4,6 +4,14 @@ oob = "standard_templates"
 
 # Starting tech
 
+set_research_slots = 1
+
+set_technology = {
+	primitive_firearms = 1
+	rudimentary_agronomics = 1
+	main_support_equipment_tech = 1
+	field_artillery = 1
+}
 
 set_convoys = 20
 

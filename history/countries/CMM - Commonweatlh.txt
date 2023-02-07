@@ -4,6 +4,49 @@ oob = "standard_templates"
 
 # Starting tech
 
+set_research_slots = 3
+
+set_technology = {
+	primitive_firearms = 1
+	conventional_firearms = 1
+	recoiless_rifles = 1
+	main_support_equipment_tech = 1
+
+	engineer_company = 1
+	logistic_vehicle_system = 1
+
+	main_battle_tank = 1
+	electrothermal_chemical_technology = 1
+
+	field_artillery = 1
+	rocketry_advancements = 1
+	multiple_launch_rocket_system = 1
+	surface_to_air_weapon_system = 1
+	
+	hunter_killer_submarine = 1
+	fast_attack_craft = 1
+	surface_combat_vessel = 1
+
+	multirole_fighter = 1
+	aerial_coverage_unit = 1
+	strike_interceptor_equipment = 1
+	minimal_radar_crossection = 1
+	stealth_combat_fighter = 1
+	advanced_combat_bomber = 1
+	logistical_bomber = 1
+	grount_combat_support_gunship = 1
+
+	commercial_computers = 1
+	massively_parallels_computers = 1
+	centralized_systems = 1
+
+	gene_edition_framework = 1
+	assembly_lines = 1
+	rudimentary_agronomics = 1
+	nuclear_fission_reactors = 1
+	alkanine_fuel_cell = 1
+}
+
 set_convoys = 20
 
 set_politics = {
