@@ -428,7 +428,7 @@ technologies = {
 	
 	metal_foam = {
 	
-		industry_repair_factor = 0.25
+		industry_repair_factor = 0.5
 		global_building_slots_factor = 0.25
 
 		start_year = 3384
@@ -511,9 +511,9 @@ technologies = {
 	perfect_device_replication = {
 	
 		equipment_conversion_speed = 0.5
-		production_factory_efficiency_gain_factor = 0.25
-		line_change_production_efficiency_factor = 0.25
-		production_factory_start_efficiency_factor = 0.25
+		production_factory_efficiency_gain_factor = 0.5
+		line_change_production_efficiency_factor = 0.5
+		production_factory_start_efficiency_factor = 0.5
 		industrial_capacity_factory = 0.25
 		industrial_capacity_dockyard = 0.25
 
