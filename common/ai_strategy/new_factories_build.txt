@@ -1,0 +1,50 @@
+build_electronics_factories = {
+	enable = {
+		OR = {
+			check_variable = { resource@electronics < 0 }
+			check_variable = { resource_imported@electronics > 16.0 }
+		}
+	}
+	
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = electronics_factory
+		value = 100
+	}
+}
+
+build_explosive_factories = {
+	enable = {
+		OR = {
+			check_variable = { resource@explosives < 0 }
+			check_variable = { resource_imported@explosives > 16.0 }
+		}
+	}
+	
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = explosive_factory
+		value = 100
+	}
+}
+
+build_polymers_factories = {
+	enable = {
+		OR = {
+			check_variable = { resource@polymers < 0 }
+			check_variable = { resource_imported@polymers > 16.0 }
+		}
+	}
+	
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = polymers_factory
+		value = 100
+	}
+}

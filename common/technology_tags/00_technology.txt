@@ -33,6 +33,7 @@ technology_categories = {
 	spg_tech
 	rocket_tech
 	mlrs_tech
+	missile_tech
 	sam_tech
 	anti_air_tech
 	radar_tech

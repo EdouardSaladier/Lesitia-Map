@@ -774,6 +774,7 @@ technologies = {
 		categories = {
 			artillery_tech
 			rocket_tech
+			missile_tech
 			artillery_tech_equipment
 		}
 	}
@@ -805,6 +806,7 @@ technologies = {
 		categories = {
 			artillery_tech
 			rocket_tech
+			missile_tech
 			artillery_tech_equipment
 		}
 	}
@@ -831,6 +833,7 @@ technologies = {
 		categories = {
 			artillery_tech
 			rocket_tech
+			missile_tech
 			artillery_tech_equipment
 		}
 	}
@@ -1210,7 +1213,6 @@ technologies = {
 		}
 
 		categories = {
-			artillery_tech
 			radar_tech
 		}
 	}
@@ -1238,7 +1240,6 @@ technologies = {
 		}
 
 		categories = {
-			artillery_tech
 			radar_tech
 		}
 	}
@@ -1261,7 +1262,6 @@ technologies = {
 		}
 
 		categories = {
-			artillery_tech
 			radar_tech
 		}
 	}

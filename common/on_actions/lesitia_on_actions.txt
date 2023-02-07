@@ -20,9 +20,9 @@ on_actions = {
 		}
 	}
 	
-	on_weekly_FRA = {
+	on_weekly_NUK = {
 		effect = {
-			FRA = {
+			every_country = {
 				set_temp_variable = { civ_core_food_modifier_t = 100 }
 				subtract_from_temp_variable = { civ_core_food_modifier_t = modifier@civ_core_food_modifier }
 				set_temp_variable = { civ_non_core_food_modifier_t = 100 }
@@ -101,7 +101,64 @@ on_actions = {
 				set_variable = { food_civ_core_consumption_i = mtth:food_civ_core_consumption } #food Civilian Core Consumption - Saved at beginning of each month
 				set_variable = { food_civ_non_core_consumption_i = mtth:food_civ_non_core_consumption } #food Civilian Non Core Consumption - Saved at beginning of each month
 				set_variable = { food_total_consumption_i = mtth:food_total_consumption }
-
+			}
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_resources_in_country = {
+						resource = electronics
+						amount > 0
+					}
+					has_political_power > 5
+				}
+				if = {
+					limit = {
+						has_tech = massively_parallels_computers
+						has_idea = commercial_computers_law
+					}
+					add_political_power = -5
+					add_ideas = massively_parallel_computers_law
+				}
+				else_if = {
+					limit = {
+						has_tech = mechanical_quantum_computer
+						has_idea = massively_parallel_computers_law
+					}
+					add_political_power = -5
+					add_ideas = petascale_supercomputers_law
+				}
+				else_if = {
+					limit = {
+						has_tech = chemical_reaction_networks_computers
+						has_idea = petascale_supercomputers_law
+					}
+					add_political_power = -5
+					add_ideas = exascale_supercomputers_law
+				}
+				else_if = {
+					limit = {
+						has_tech = nondeterministic_dna_computer
+						has_idea = exascale_supercomputers_law
+					}
+					add_political_power = -5
+					add_ideas = zettascale_supercomputers_law
+				}
+				else_if = {
+					limit = {
+						has_tech = optical_photonic_computer
+						has_idea = zettascale_supercomputers_law
+					}
+					add_political_power = -5
+					add_ideas = yottascale_supercomputers_law
+				}
+				else_if = {
+					limit = {
+						has_tech = optical_quantum_computer
+						has_idea = yottascale_supercomputers_law
+					}
+					add_political_power = -5
+					add_ideas = quettascale_supercomputers_law
+				}
 			}
 		}
 	}

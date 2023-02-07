@@ -428,7 +428,7 @@ technologies = {
 	
 	metal_foam = {
 	
-		industry_repair_factor = 0.5
+		industry_repair_factor = 0.25
 		global_building_slots_factor = 0.25
 
 		start_year = 3384
@@ -511,9 +511,9 @@ technologies = {
 	perfect_device_replication = {
 	
 		equipment_conversion_speed = 0.5
-		production_factory_efficiency_gain_factor = 0.5
-		line_change_production_efficiency_factor = 0.5
-		production_factory_start_efficiency_factor = 0.5
+		production_factory_efficiency_gain_factor = 0.25
+		line_change_production_efficiency_factor = 0.25
+		production_factory_start_efficiency_factor = 0.25
 		industrial_capacity_factory = 0.25
 		industrial_capacity_dockyard = 0.25
 
@@ -591,7 +591,26 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.35
+			modifier = {
+				factor = 0
+				polymers_factory < 2
+			}
+			modifier = {
+				factor = 2
+				polymers_factory > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@polymers < 0 }
+					check_variable = { resource_imported@polymers > 16.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				polymers_factory > 10
+			}
 		}
 	}
 	
@@ -623,7 +642,26 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.35
+			modifier = {
+				factor = 0
+				polymers_factory < 4
+			}
+			modifier = {
+				factor = 2
+				polymers_factory > 10
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@polymers < 0 }
+					check_variable = { resource_imported@polymers > 16.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				polymers_factory > 15
+			}
 		}
 	}
 	
@@ -678,7 +716,26 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.35
+			modifier = {
+				factor = 0
+				electronics_factory < 2
+			}
+			modifier = {
+				factor = 2
+				electronics_factory > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@electronics < 0 }
+					check_variable = { resource_imported@electronics > 16.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				electronics_factory > 10
+			}
 		}
 	}
 	
@@ -705,7 +762,26 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.35
+			modifier = {
+				factor = 0
+				electronics_factory < 4
+			}
+			modifier = {
+				factor = 2
+				electronics_factory > 10
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@electronics < 0 }
+					check_variable = { resource_imported@electronics > 16.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				electronics_factory > 15
+			}
 		}
 	}
 	
@@ -737,7 +813,26 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.35
+			modifier = {
+				factor = 0
+				explosive_factory < 2
+			}
+			modifier = {
+				factor = 2
+				explosive_factory > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@explosives < 0 }
+					check_variable = { resource_imported@explosives > 16.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				explosive_factory > 10
+			}
 		}
 	}
 	
@@ -764,7 +859,26 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.35
+			modifier = {
+				factor = 0
+				explosive_factory < 4
+			}
+			modifier = {
+				factor = 2
+				explosive_factory > 10
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@explosives < 0 }
+					check_variable = { resource_imported@explosives > 16.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				explosive_factory > 15
+			}
 		}
 	}
 	
@@ -877,7 +991,26 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.35
+			modifier = {
+				factor = 0
+				polymers_factory < 4
+			}
+			modifier = {
+				factor = 2
+				polymers_factory > 10
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@polymers < 0 }
+					check_variable = { resource_imported@polymers > 16.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				polymers_factory > 15
+			}
 		}
 	}
 	
@@ -904,7 +1037,26 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.35
+			modifier = {
+				factor = 0
+				electronics_factory < 4
+			}
+			modifier = {
+				factor = 2
+				electronics_factory > 10
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@electronics < 0 }
+					check_variable = { resource_imported@electronics > 16.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				electronics_factory > 15
+			}
 		}
 	}
 	
@@ -936,7 +1088,26 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.35
+			modifier = {
+				factor = 0
+				explosive_factory < 4
+			}
+			modifier = {
+				factor = 2
+				explosive_factory > 10
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@explosives < 0 }
+					check_variable = { resource_imported@explosives > 16.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				explosive_factory > 15
+			}
 		}
 	}
 	

@@ -1,0 +1,101 @@
+
+ai_focus_defense = {
+	research = {
+		defensive = 5.0	
+		radar_tech = 1.0
+		construction_tech = 1.0
+		at_weapons = 2.0
+		artillery_tech = 1.0
+		artillery_tech_equipment = 2.0
+	}
+}
+
+ai_focus_aggressive = {
+	research = {
+		offensive = 5.0
+		synth_resources = 1.0
+		motorized_equipment = 2.0
+		tank_tech = 2.0
+	}
+}
+
+ai_focus_war_production = {
+	research = {
+		industry_general = 10.0
+		construction_tech = 2.0
+		computer_tech = 2.0
+		computer_tech_equipment = 2.0
+		energy_tech = 1.0
+		fuel_tech = 1.0
+		resource_production_tech = 0.5
+		agriculture_tech = 0.5
+	}
+}
+
+ai_focus_military_equipment = {
+	research = {
+		infantry_weapons = 75.0
+		infantry_tech = 15.0
+		at_weapons = 15.0
+		artillery_tech = 15.0
+		support_tech = 7.5
+	}
+}
+
+ai_focus_military_advancements = {
+	research = {
+		tank_tech = 10.0
+		stealth_fighter_tech = 2.0
+		land_doctrine = 100.0
+		missile_tech = 7.5
+		radar_tech = 3.0
+		computer_tech_equipment = 10.0
+		encryption_tech = 2.5
+		decryption_tech = 2.5
+		resource_production_tech = 2.0
+		mechanised_tech = 4.0
+		night_vision = 5.0
+		spec_ops_tech = 5.0
+		support_tech = 2.0
+		at_weapons = 2.0
+	}
+}
+
+ai_focus_peaceful = {
+	research = {
+		industry_general = 15.0
+		construction_tech = 5.0
+		resource_production_tech = 2.0
+		energy_tech = 5.0
+		fuel_tech = 2.0
+		agriculture_tech = 5.0
+		computer_tech = 10.0
+		computer_tech_equipment = 20.0
+		genetics_tech = 5.0
+	}
+}
+
+ai_focus_naval = {
+	research = {
+	}
+}
+
+ai_focus_naval_air = {
+	research = {
+	}
+}
+
+ai_focus_aviation = {
+	research = {
+		air_doctrine = 50.0		
+		air_tech = 1.5
+		air_weapons_tech = 1.5
+		air_tech_equipment = 2.0
+		fighter_tech = 20.0
+		interceptor_tech = 5.0
+		stealth_fighter_tech = 20.0
+		bomber_tech = 1.5
+		gunship_tech = 2.0
+		drone_tech = 2.0
+	}
+}

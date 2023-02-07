@@ -296,6 +296,10 @@ ideas = {
 			modifier = {
 				research_speed_factor = -0.2
 			}
+			
+			ai_will_do = {
+   				factor = 0
+			}
 		}
 		
 		commercial_computers_law = {
@@ -308,6 +312,10 @@ ideas = {
 					resource = electronics
 					amount > 0
 				}
+			}
+			
+			ai_will_do = {
+   				factor = 1
 			}
 			
 			cancel_if_invalid = no
@@ -337,6 +345,10 @@ ideas = {
 				country_resource_cost_electronics = 40
 				research_speed_factor = 0.15
 			}
+			
+			ai_will_do = {
+   				factor = 2
+			}
 		}
 		
 		petascale_supercomputers_law = {
@@ -356,6 +368,10 @@ ideas = {
 			modifier = {
 				country_resource_cost_electronics = 60
 				research_speed_factor = 0.3
+			}
+			
+			ai_will_do = {
+   				factor = 3
 			}
 		}
 		
@@ -377,6 +393,10 @@ ideas = {
 				country_resource_cost_electronics = 100
 				research_speed_factor = 0.5
 			}
+			
+			ai_will_do = {
+   				factor = 4
+			}
 		}
 		
 		zettascale_supercomputers_law = {
@@ -396,6 +416,10 @@ ideas = {
 			modifier = {
 				country_resource_cost_electronics = 200
 				research_speed_factor = 1.0
+			}
+			
+			ai_will_do = {
+   				factor = 5
 			}
 		}
 		
@@ -417,6 +441,10 @@ ideas = {
 				country_resource_cost_electronics = 400
 				research_speed_factor = 2.0
 			}
+			
+			ai_will_do = {
+   				factor = 6
+			}
 		}
 		
 		quettascale_supercomputers_law = {
@@ -436,6 +464,10 @@ ideas = {
 			modifier = {
 				country_resource_cost_electronics = 600
 				research_speed_factor = 4.0
+			}
+			
+			ai_will_do = {
+   				factor = 100
 			}
 		}
 
