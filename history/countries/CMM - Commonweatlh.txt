@@ -43,7 +43,7 @@ set_technology = {
 	gene_edition_framework = 1
 	assembly_lines = 1
 	rudimentary_agronomics = 1
-	nuclear_fission_reactors = 1
+
 	alkanine_fuel_cell = 1
 }
 
