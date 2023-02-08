@@ -154,6 +154,17 @@ ideas = {
 					hours = 1
 				}
 			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 10
+					OR = {
+						check_variable = { resource@food > 50 }
+						check_variable = { resource_exported@food > 50.0 }
+					}
+				}
+			}
 		}
 		
 		civ_non_core_food_cons_normal = {
@@ -172,6 +183,10 @@ ideas = {
 				}
 			}
 			default = yes
+			
+			ai_will_do = {
+   				factor = 1
+			}
 		}		
 		
 		civ_non_core_food_cons_low = {
