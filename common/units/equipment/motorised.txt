@@ -36,6 +36,7 @@ equipments = {
 
 		archetype = motorized_equipment
 		priority = 30	
+		visual_level = 96
 		
 		maximum_speed = 12
 

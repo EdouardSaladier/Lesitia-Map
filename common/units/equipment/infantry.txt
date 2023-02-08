@@ -47,7 +47,7 @@ equipments = {
 		archetype = infantry_equipment
 		active = yes
 		priority = 05
-		visual_level = 0
+		visual_level = 100
 		
 		#Defensive Abilities
 		defense = 20
@@ -72,7 +72,8 @@ equipments = {
 	
 		archetype = infantry_equipment
 		priority = 05
-		visual_level = 0
+		visual_level = 100
+		parent = primitive_firearms_equipment
 		
 		#Defensive Abilities
 		defense = 22
@@ -97,7 +98,8 @@ equipments = {
 	
 		archetype = infantry_equipment
 		priority = 10
-		visual_level = 0
+		visual_level = 100
+		parent = conventional_firearms_equipment
 		
 		#Defensive Abilities
 		defense = 28
@@ -122,7 +124,8 @@ equipments = {
 	
 		archetype = infantry_equipment
 		priority = 05
-		visual_level = 0
+		visual_level = 100
+		parent = precision_guided_firearms_equipment
 		
 		#Defensive Abilities
 		defense = 36
@@ -150,7 +153,8 @@ equipments = {
 	
 		archetype = infantry_equipment
 		priority = 05
-		visual_level = 0
+		visual_level = 100
+		parent = solid_state_laser_equipment
 		
 		#Defensive Abilities
 		defense = 44
@@ -178,7 +182,8 @@ equipments = {
 	
 		archetype = infantry_equipment
 		priority = 05
-		visual_level = 0
+		visual_level = 100
+		parent = arc_laser_equipment
 		
 		#Defensive Abilities
 		defense = 52
@@ -207,7 +212,10 @@ equipments = {
 		is_archetype = yes
 		picture = archetype_infantry_equipment		
 		is_buildable = no
-		type = infantry
+		type = { 
+			anti_tank
+			infantry #adding infantry type
+		}
 		group_by = archetype
 		
 		interface_category = interface_category_land
@@ -246,7 +254,7 @@ equipments = {
 	
 		archetype = inf_at_equipment
 		priority = 05
-		visual_level = 0
+		visual_level = 99
 		
 		#Defensive Abilities
 		defense = 2
@@ -276,7 +284,8 @@ equipments = {
 	
 		archetype = inf_at_equipment
 		priority = 05
-		visual_level = 0
+		visual_level = 99
+		parent = recoiless_rifles_equipment
 		
 		#Defensive Abilities
 		defense = 4
@@ -304,7 +313,8 @@ equipments = {
 	
 		archetype = inf_at_equipment
 		priority = 10
-		visual_level = 0
+		visual_level = 99
+		parent = at_missiles_equipment
 		
 		#Defensive Abilities
 		defense = 6
@@ -331,7 +341,8 @@ equipments = {
 	
 		archetype = inf_at_equipment
 		priority = 10
-		visual_level = 0
+		visual_level = 99
+		parent = railguns_equipment
 		
 		#Defensive Abilities
 		defense = 8
@@ -359,7 +370,8 @@ equipments = {
 	
 		archetype = inf_at_equipment
 		priority = 10
-		visual_level = 0
+		visual_level = 99
+		parent = helical_railguns_equipment
 		
 		#Defensive Abilities
 		defense = 10
@@ -427,7 +439,7 @@ equipments = {
 	
 		archetype = hud_equipment
 		priority = 05
-		visual_level = 0
+		visual_level = 98
 		
 		#Offensive Abilities
 		soft_attack = 4

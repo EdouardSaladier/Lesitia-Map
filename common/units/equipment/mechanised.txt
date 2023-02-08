@@ -54,7 +54,7 @@ equipments = {
 
 		archetype = mechanized_equipment
 		priority = 40
-		visual_level = 0
+		visual_level = 95
 		
 		maximum_speed = 8
 
@@ -80,9 +80,9 @@ equipments = {
 		year = 3379
 
 		archetype = mechanized_equipment
-		parent = armored_troop_transport_equipment
 		priority = 40
-		visual_level = 1
+		visual_level = 95
+		parent = armored_troop_transport_equipment
 
 		maximum_speed = 10
 
@@ -109,9 +109,9 @@ equipments = {
 		year = 3382
 
 		archetype = mechanized_equipment
-		parent = infantry_transport_support_vehicle_equipment
 		priority = 40
-		visual_level = 0
+		visual_level = 95
+		parent = infantry_transport_support_vehicle_equipment
 		
 		maximum_speed = 12
 
@@ -138,9 +138,9 @@ equipments = {
 		year = 3385
 
 		archetype = mechanized_equipment
-		parent = multi_role_armored_vehicle_equipment
 		priority = 40
-		visual_level = 0
+		visual_level = 95
+		parent = multi_role_armored_vehicle_equipment
 		
 		maximum_speed = 10
 

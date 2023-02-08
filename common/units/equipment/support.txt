@@ -30,6 +30,7 @@ equipments = {
 
 		archetype = main_support_equipment_arch
 		priority = 20	
+		visual_level = 94
 	}
 	
 	urav_equipment = {
@@ -62,7 +63,8 @@ equipments = {
 		year = 3379
 
 		archetype = urav_equipment
-		priority = 20	
+		priority = 20
+		visual_level = 93
 	}
 	
 	miniature_urav_equipment = {
@@ -73,6 +75,8 @@ equipments = {
 
 		archetype = urav_equipment
 		priority = 20	
+		visual_level = 93
+		parent = unmanned_reconnaissance_aerial_vehicle_equipment
 	}
 	
 	micro_urav_equipment = {
@@ -87,7 +91,9 @@ equipments = {
 		}
 
 		archetype = urav_equipment
-		priority = 20	
+		priority = 20
+		visual_level = 93
+		parent = miniature_urav_equipment		
 	}
 	
 	earth_mover_equipment = {
@@ -122,7 +128,8 @@ equipments = {
 		year = 3358
 
 		archetype = earth_mover_equipment
-		priority = 20	
+		priority = 20
+		visual_level = 92
 	}
 	
 	vehicle_launched_bridge_equipment = {
@@ -157,7 +164,8 @@ equipments = {
 		year = 3358
 
 		archetype = vehicle_launched_bridge_equipment
-		priority = 20	
+		priority = 20
+		visual_level = 91
 	}
 	
 	repair_and_recovery_vehicle_equipment = {
@@ -192,7 +200,8 @@ equipments = {
 		year = 3358
 
 		archetype = repair_and_recovery_vehicle_equipment
-		priority = 20	
+		priority = 20
+		visual_level = 90
 	}
 	
 	hemorrhage_equipment = {
@@ -222,7 +231,8 @@ equipments = {
 		year = 3358
 
 		archetype = hemorrhage_equipment
-		priority = 20	
+		priority = 20
+		visual_level = 89
 	}
 	
 	mine_resistant_vehicle_equipment = {
@@ -257,7 +267,8 @@ equipments = {
 		year = 3358
 
 		archetype = mine_resistant_vehicle_equipment
-		priority = 20	
+		priority = 20
+		visual_level = 88
 	}
 	
 	operations_center_vehicle_equipment = {
@@ -296,7 +307,8 @@ equipments = {
 		year = 3378
 
 		archetype = operations_center_vehicle_equipment
-		priority = 20	
+		priority = 20
+		visual_level = 87
 	}
 	
 	mobile_headquarters_support_vehicle_equipment = {
@@ -311,7 +323,9 @@ equipments = {
 		build_cost_ic = 4
 
 		archetype = operations_center_vehicle_equipment
-		priority = 20	
+		priority = 20
+		visual_level = 87
+		parent = tactical_operations_center_vehicle_equipment
 	}
 	
 	heavy_command_battlestation_equipment = {
@@ -332,6 +346,8 @@ equipments = {
 		resources = {
 			steel = 3
 		}
+		visual_level = 87
+		parent = mobile_headquarters_support_vehicle_equipment
 	}
 
 
