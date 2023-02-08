@@ -17,6 +17,12 @@ on_actions = {
 				set_variable = { manpower_laws_cost = mtth:army_xp_cost_professionnalism }
 				set_variable = { manpower_laws_cost_n = mtth:army_xp_cost_professionnalism_n }
 			}
+			every_country = {
+				limit = {
+					is_ai = yes
+				}
+				add_ideas = AI_buff_idea
+			}
 		}
 	}
 	
@@ -110,6 +116,7 @@ on_actions = {
 						amount > 0
 					}
 					has_political_power > 5
+					NOT = { has_country_flag = upgraded_supercomputer_law }
 				}
 				if = {
 					limit = {
@@ -118,6 +125,10 @@ on_actions = {
 					}
 					add_political_power = -5
 					add_ideas = massively_parallel_computers_law
+					set_country_flag = {
+						flag = upgraded_supercomputer_law
+						days = 300
+					}
 				}
 				else_if = {
 					limit = {
@@ -126,6 +137,10 @@ on_actions = {
 					}
 					add_political_power = -5
 					add_ideas = petascale_supercomputers_law
+					set_country_flag = {
+						flag = upgraded_supercomputer_law
+						days = 400
+					}
 				}
 				else_if = {
 					limit = {
@@ -134,6 +149,10 @@ on_actions = {
 					}
 					add_political_power = -5
 					add_ideas = exascale_supercomputers_law
+					set_country_flag = {
+						flag = upgraded_supercomputer_law
+						days = 600
+					}
 				}
 				else_if = {
 					limit = {
@@ -142,6 +161,10 @@ on_actions = {
 					}
 					add_political_power = -5
 					add_ideas = zettascale_supercomputers_law
+					set_country_flag = {
+						flag = upgraded_supercomputer_law
+						days = 800
+					}
 				}
 				else_if = {
 					limit = {
@@ -150,6 +173,10 @@ on_actions = {
 					}
 					add_political_power = -5
 					add_ideas = yottascale_supercomputers_law
+					set_country_flag = {
+						flag = upgraded_supercomputer_law
+						days = 1000
+					}
 				}
 				else_if = {
 					limit = {

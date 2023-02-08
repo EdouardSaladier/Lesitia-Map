@@ -11,6 +11,12 @@ default_unit_production = { #If adding country-unique ones, bear in mind that th
 		id = infantry
 		value = 80
 	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = motorized
+		value = 5
+	}
 
 	#Air unit factors
 	ai_strategy = {
@@ -46,7 +52,7 @@ default_unit_production = { #If adding country-unique ones, bear in mind that th
 	ai_strategy = {
 		type = equipment_production_factor
 		id = fighter
-		value = 35
+		value = 20
 	}
 
 	ai_strategy = {
@@ -59,6 +65,142 @@ default_unit_production = { #If adding country-unique ones, bear in mind that th
 		type = equipment_production_factor
 		id = artillery
 		value = 25
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 15
+	}
+}
+
+default_mobile_production = {
+	enable = {
+		ai_wants_divisions > 11
+		has_tech = logistic_vehicle_system
+	}
+	abort = {
+		ai_wants_divisions < 12
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = motorized
+		value = 5
+	}
+}
+
+default_armored_production = {
+
+	enable = {
+		ai_wants_divisions > 29
+	}
+	
+	abort = {
+		ai_wants_divisions < 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 2
+	}
+}
+
+highered_armored_production = {
+	enable = {
+		NOT = { original_tag = GER }
+		num_of_military_factories > 69
+	}
+	abort = {
+		num_of_military_factories < 70
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 5
+	}
+}
+
+DEFAULT_early_template_design = {
+	enable = {
+		date < 3379.1.1
+	}
+	abort = {
+		date > 3379.1.1
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = armored_reconnaissance_vehicle_brigade
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = unmanned_ground_combat_tank_brigade
+		value = 10
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = main_battle_tank_brigade
+		value = 10
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = assault_tank_brigade
+		value = -50
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = infantry
+		value = 60
+	}
+}
+
+DEFAULT_midlate_template_design = {
+	enable = {
+		date > 3379.1.1
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = mechanized
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = unmanned_ground_combat_tank_brigade
+		value = 20
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = main_battle_tank_brigade
+		value = 20
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = assault_tank_brigade
+		value = 20
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = infantry
+		value = 10
 	}
 }
 
