@@ -865,6 +865,7 @@ equipments = {
 		resources = {
 			aluminium = 2
 			polymers = 1
+			explosives = 1
 		}
 		
 		reliability = 0.8
@@ -898,6 +899,7 @@ equipments = {
 			aluminium = 3
 			polymers = 1
 			electronics = 1
+			explosives = 2
 		}
 		
 		reliability = 0.8
@@ -930,6 +932,7 @@ equipments = {
 		resources = {
 			aluminium = 2
 			polymers = 1
+			explosives = 1
 		}
 		
 		reliability = 0.8
@@ -962,6 +965,7 @@ equipments = {
 		resources = {
 			aluminium = 3
 			polymers = 1
+			explosives = 2
 		}
 		
 		reliability = 0.8
@@ -995,6 +999,7 @@ equipments = {
 			aluminium = 3
 			polymers = 1
 			electronics = 2
+			explosives = 2
 		}
 		
 		reliability = 0.8
@@ -1028,6 +1033,7 @@ equipments = {
 			aluminium = 3
 			polymers = 1
 			electronics = 2
+			explosives = 3
 		}
 		
 		reliability = 0.8
@@ -1060,6 +1066,7 @@ equipments = {
 		resources = {
 			aluminium = 3
 			polymers = 1
+			explosives = 2
 		}
 		
 		reliability = 0.8
@@ -1093,6 +1100,7 @@ equipments = {
 			aluminium = 3
 			polymers = 1
 			electronics = 2
+			explosives = 3
 		}
 		
 		reliability = 0.8
@@ -1125,6 +1133,7 @@ equipments = {
 		resources = {
 			aluminium = 3
 			polymers = 1
+			explosives = 2
 		}
 		
 		reliability = 0.8
@@ -1157,6 +1166,7 @@ equipments = {
 		resources = {
 			electronics = 1
 			polymers = 1
+			explosives = 1
 		}
 		
 		reliability = 0.8
@@ -1189,6 +1199,7 @@ equipments = {
 		resources = {
 			electronics = 1
 			polymers = 2
+			explosives = 1
 		}
 		
 		reliability = 0.8
@@ -1221,6 +1232,7 @@ equipments = {
 		resources = {
 			electronics = 1
 			polymers = 2
+			explosives = 1
 		}
 		
 		reliability = 0.8
@@ -1253,6 +1265,7 @@ equipments = {
 		resources = {
 			electronics = 2
 			polymers = 2
+			explosives = 1
 		}
 		
 		reliability = 0.8
@@ -1286,6 +1299,7 @@ equipments = {
 			aluminium = 1
 			electronics = 2
 			polymers = 2
+			explosives = 2
 		}
 		
 		reliability = 0.8
@@ -1319,6 +1333,7 @@ equipments = {
 			aluminium = 1
 			electronics = 2
 			polymers = 2
+			explosives = 2
 		}
 		
 		reliability = 0.8

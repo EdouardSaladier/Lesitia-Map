@@ -44,6 +44,7 @@ equipments = {
 			#oil = 1
 			tungsten = 2
 			steel = 2
+			explosives = 2
 		}
 		fuel_consumption = 0.9
 	}
@@ -78,6 +79,7 @@ equipments = {
 		resources = {
 			steel = 3
 			chromium = 2
+			explosives = 3
 		}
 	}
 	
@@ -111,6 +113,7 @@ equipments = {
 		resources = {
 			steel = 3
 			chromium = 3
+			explosives = 3
 		}
 	}
 	
@@ -144,6 +147,7 @@ equipments = {
 		resources = {
 			steel = 3
 			chromium = 4
+			explosives = 3
 		}
 	}
 	

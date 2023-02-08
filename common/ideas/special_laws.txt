@@ -182,6 +182,28 @@ ideas = {
 					hours = 1
 				}
 			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 10
+					OR = {
+						check_variable = { resource@food < 0 }
+						check_variable = { resource_imported@food > 50.0 }
+					}
+				}
+				modifier = {
+					factor = 0.5
+					OR = {
+						check_variable = { resource@food < -20 }
+						check_variable = { resource_imported@food > 100.0 }
+					}
+				}
+				modifier = {
+					factor = 0
+					num_occupied_states < 1 #No law change if AI holds no occupied states
+				}
+			}
 		}
 
 		civ_non_core_food_cons_very_low = {
@@ -198,6 +220,21 @@ ideas = {
 				country_event = {
 					id = lesitia_food.1
 					hours = 1
+				}
+			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 10
+					OR = {
+						check_variable = { resource@food < -20 }
+						check_variable = { resource_imported@food > 100.0 }
+					}
+				}
+				modifier = {
+					factor = 0
+					num_occupied_states < 1 #No law change if AI holds no occupied states
 				}
 			}
 		}
@@ -221,6 +258,14 @@ ideas = {
 				production_speed_buildings_factor = 0.10
 			}
 			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 5
+					fuel_ratio > 0.95
+				}
+			}
+			
 			
 		}
 		
@@ -235,6 +280,14 @@ ideas = {
 			}
 			
 			default = yes
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 0
+					has_idea = power_rationing
+				}
+			}
 		}
 		
 		power_austerity = {
@@ -246,12 +299,32 @@ ideas = {
 				fuel_gain_factor = -0.25
 				max_fuel_factor = -0.25
 			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 10
+					fuel_ratio < 0.5
+				}
+				modifier = {
+					factor = 0
+					has_idea = power_rationing
+				}
+			}
 		}
 		
 		power_rationing = {
 			cost = 50
 			level = 3
 			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 2
+				modifier = {
+					factor = 10
+					fuel_ratio < 0.5
+				}
+			}
 		}
 		
 		army_power_priority = {
@@ -266,6 +339,13 @@ ideas = {
 				industrial_capacity_dockyard = -0.10
 				production_speed_buildings_factor = -0.10
 			}
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 25
+					fuel_ratio < 0.25
+				}
+			}
 		}
 		
 		all_power_to_the_army = {
@@ -279,6 +359,14 @@ ideas = {
 				industrial_capacity_factory = -0.25
 				industrial_capacity_dockyard = -0.25
 				production_speed_buildings_factor = -0.25
+			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 50
+					fuel_ratio < 0.1
+				}
 			}
 		}
 
