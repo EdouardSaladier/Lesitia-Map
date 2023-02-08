@@ -49,6 +49,7 @@ sub_units = {
 		need = { drones_equipment = 1 }
 		categories = { category_cas category_drones }
 		land_air_wing_size = 100
+		carrier_air_wing_size = 10
 	}
 
 	# Large airframe

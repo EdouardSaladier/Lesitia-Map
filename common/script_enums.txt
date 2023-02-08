@@ -1,5 +1,56 @@
 script_enum_equipment_bonus_type = {
 	## Air
+	gunship_equipment
+	bombers_equipment
+	stealth_fighter_equipment
+	interceptors_equipment
+	drones_equipment
+	drones_bombers_equipment
+	multirole_fighter_equipment
+	transport_plane_equipment
+
+	## Land
+	infantry_equipment
+	inf_at_equipment
+	hud_equipment
+	support_equipment
+	assault_forces_equipment
+	infiltrators_equipment
+	aerial_troops_equipment
+	
+	main_support_equipment_arch
+	urav_equipment
+	earth_mover_equipment
+	vehicle_launched_bridge_equipment
+	repair_and_recovery_vehicle_equipment
+	hemorrhage_equipment
+	mine_resistant_vehicle_equipment
+	operations_center_vehicle_equipment
+	
+	motorized_equipment
+	mechanized_equipment
+	train_equipment
+	
+	artillery_equipment
+	precision_artillery_equipment
+	rocket_artillery_equipment
+	rocket_anti_air_equipment
+	anti_air_equipment
+	guided_missile_equipment
+
+	anti_air_defense_platform_arch
+	anti_tank_defense_platform_arch
+	quadri_thread_assault_tank_equipment_arch
+	main_battle_tank_equipment_arch
+	armored_reconnaissance_vehicle_equipment_arch
+	air_cushion_fighting_vehicle_equipment_arch
+	unmanned_ground_combat_tank_equipment_arch
+	
+	##Sea
+	convoy
+	naval_equipment
+	
+	###Old shit
 	fighter_equipment
 	cv_fighter_equipment
 	jet_fighter_equipment
@@ -33,28 +84,10 @@ script_enum_equipment_bonus_type = {
 	cas
 	tactical_bomber
 	scout_plane
-
-	## Land
-	infantry_equipment
-	inf_at_equipment
-	hud_equipment
-	support_equipment
-	assault_forces_equipment
-	infiltrators_equipment
-	aerial_troops_equipment
 	
-	artillery_equipment
-	precision_artillery_equipment
-	rocket_artillery_equipment
-	rocket_anti_air_equipment
-	anti_air_equipment
-
 	amphibious_mechanized_equipment
 	armored_car_equipment
-	mechanized_equipment
-	motorized_equipment
 	motorized_rocket_equipment
-	train_equipment
 	railway_gun_equipment
 
 	armor

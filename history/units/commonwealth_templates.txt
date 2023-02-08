@@ -28,12 +28,12 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		at_infantry = { x = 2 y = 0 }
-		field_artillery_brigade = { x = 2 y = 1 }
-		field_artillery_brigade = { x = 2 y = 2 }
+		rocket_arty_brigade = { x = 2 y = 1 }
+		rocket_arty_brigade = { x = 2 y = 2 }
 	}
 	support = {
 		engineer_s_company = { x = 0 y = 0 }
-		field_artillery_support = { x = 0 y = 1 }
+		rocket_arty_support = { x = 0 y = 1 }
 	}
 }
 
@@ -49,11 +49,11 @@ division_template = {
 		motorized = { x = 1 y = 2 }
 		motorized = { x = 2 y = 0 }
 		at_motorized = { x = 2 y = 1 }
-		motorised_field_artillery_brigade = { x = 2 y = 2 }
+		rocket_arty_brigade = { x = 2 y = 2 }
 	}
 	support = {
 		engineer_s_company = { x = 0 y = 0 }
-		field_artillery_support = { x = 0 y = 1 }
+		rocket_arty_support = { x = 0 y = 1 }
 		mot_recon_s_company = { x = 0 y = 2 }
 	}
 }
@@ -68,13 +68,13 @@ division_template = {
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
-		precision_artillery_brigade = { x = 2 y = 0 }
-		precision_artillery_brigade = { x = 2 y = 1 }
-		precision_artillery_brigade = { x = 2 y = 2 }
+		rocket_arty_brigade = { x = 2 y = 0 }
+		rocket_arty_brigade = { x = 2 y = 1 }
+		rocket_arty_brigade = { x = 2 y = 2 }
 	}
 	support = {
 		engineer_s_company = { x = 0 y = 0 }
-		precision_artillery_support = { x = 0 y = 1 }
+		rocket_arty_support = { x = 0 y = 1 }
 		mot_recon_s_company = { x = 0 y = 2 }
 	}
 }

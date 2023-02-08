@@ -1,6 +1,6 @@
 capital = 19
 
-oob = "standard_templates"
+oob = "primitive_templates"
 
 # Starting tech
 
@@ -10,6 +10,7 @@ set_technology = {
 	primitive_firearms = 1
 	rudimentary_agronomics = 1
 	main_support_equipment_tech = 1
+	engineer_company = 1
 	field_artillery = 1
 }
 

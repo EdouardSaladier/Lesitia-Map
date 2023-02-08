@@ -942,8 +942,8 @@
  atmospheric_armament_deployer:0 "Atmospheric Armament Deployer "
  atmospheric_armament_deployer_desc:0 "Atmospheric Armament Deployer "
  
- grount_combat_support_gunship:0 "Grount Combat Support Gunship "
- grount_combat_support_gunship_desc:0 "Grount Combat Support Gunship "
+ ground_combat_support_gunship:0 "Grount Combat Support Gunship "
+ ground_combat_support_gunship_desc:0 "Grount Combat Support Gunship "
  
  dynamic_tactical_solidograph:0 "Dynamic Tactical Solidograph "
  dynamic_tactical_solidograph_desc:0 "Dynamic Tactical Solidograph "
@@ -1029,8 +1029,8 @@
  logistical_bomber_equipment:0 "Logistical Bomber "
  logistical_bomber_equipment_desc:0 "Logistical Bomber "
  
- grount_combat_support_gunship_equipment:0 "Grount Combat Support Gunship "
- grount_combat_support_gunship_equipment_desc:0 "Grount Combat Support Gunship "
+ ground_combat_support_gunship_equipment:0 "Grount Combat Support Gunship "
+ ground_combat_support_gunship_equipment_desc:0 "Grount Combat Support Gunship "
  
  long_range_strike_bomber_equipment:0 "Long Range Strike Bomber "
  long_range_strike_bomber_equipment_desc:0 "Long Range Strike Bomber "

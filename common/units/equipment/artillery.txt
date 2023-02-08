@@ -6,9 +6,12 @@ equipments = {
 		year = 3358
 
 		is_archetype = yes
-		picture = archetype_artillery_equipment		
+		picture = archetype_artillery_equipment	
+		is_buildable = no
 		type = {
 			artillery
+			infantry #adding infantry type
+			#motorized #Removing motorized type
 		}
 		group_by = archetype
 		
@@ -135,6 +138,7 @@ equipments = {
 		picture = archetype_artillery_equipment		
 		type = {
 			artillery
+			motorized
 		}
 		group_by = archetype
 		
@@ -288,6 +292,7 @@ equipments = {
 		picture = archetype_rocket_artillery_equipment		
 		type = { 
 			artillery
+			motorized
 			rocket
 		}
 		group_by = archetype
@@ -410,9 +415,11 @@ equipments = {
 		year = 3358
 
 		is_archetype = yes
-		picture = archetype_anti_air_equipment		
-		type = {
+		picture = archetype_anti_air_equipment
+		type = { 
+			artillery
 			anti_air
+			motorized
 			rocket
 		}
 		group_by = archetype
@@ -520,6 +527,7 @@ equipments = {
 		is_archetype = yes
 		picture = archetype_anti_air_equipment		
 		type = {
+			infantry
 			anti_air
 		}
 		group_by = archetype
