@@ -13,7 +13,7 @@ food_civ_core_consumption = {
 			divide_temp_variable = { core_cons = 100 }
 			multiply_temp_variable = { core_cons = modifier@civ_core_food_modifier }	
 		}
-		divide_temp_variable = { core_cons = 500 }
+		divide_temp_variable = { core_cons = 1000 }
 		round_temp_variable = core_cons
 		add = core_cons
 	}
@@ -34,7 +34,7 @@ food_civ_non_core_consumption = {
 			divide_temp_variable = { non_core_cons = 100 }
 			multiply_temp_variable = { non_core_cons = modifier@civ_non_core_food_modifier }	
 		}
-		divide_temp_variable = { non_core_cons = 500 }
+		divide_temp_variable = { non_core_cons = 1000 }
 		round_temp_variable = non_core_cons
 		add = non_core_cons
 	}

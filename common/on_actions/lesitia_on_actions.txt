@@ -102,6 +102,12 @@ on_actions = {
 						set_variable = { food_civ_core_deficit = civ_core_food_modifier_t }
 						set_variable = { food_mil_deficit = 0 }
 					}
+					if = {
+						limit = {
+							num_occupied_states < 1
+						}
+						set_variable = { food_civ_non_core_deficit = 0 }
+					}
 				}
 				set_variable = { food_mil_consumption_i = mtth:food_mil_consumption } #food Military Consumption - Saved at beginning of each month
 				set_variable = { food_civ_core_consumption_i = mtth:food_civ_core_consumption } #food Civilian Core Consumption - Saved at beginning of each month
