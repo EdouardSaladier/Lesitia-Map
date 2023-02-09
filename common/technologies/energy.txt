@@ -42,27 +42,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -94,27 +73,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -124,14 +82,6 @@ technologies = {
 		enable_building = {
 			building = renewable_power_station
 			level = 2
-		}
-		
-		on_research_complete = {
-			modify_building_resources = {
-				building = renewable_power_station
-				resource = energy
-				amount = 1
-			}
 		}
 	
 		enable_equipments = {
@@ -143,7 +93,7 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 3377
+		start_year = 3358
 		research_cost = 2.0
 		folder = {
 			name = energy_folder
@@ -157,27 +107,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -188,7 +117,7 @@ technologies = {
 			modify_building_resources = {
 				building = renewable_power_station
 				resource = energy
-				amount = 2
+				amount = 1
 			}
 		}
 	
@@ -211,31 +140,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -261,7 +165,7 @@ technologies = {
             research_cost_coeff = 1           
 		}
 
-		start_year = 3377
+		start_year = 3358
 		research_cost = 2.0
 		folder = {
 			name = energy_folder
@@ -275,27 +179,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -322,27 +205,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -370,27 +232,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -424,27 +265,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -455,7 +275,7 @@ technologies = {
 			modify_building_resources = {
 				building = renewable_power_station
 				resource = energy
-				amount = 2
+				amount = 1
 			}
 		}
 	
@@ -478,27 +298,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -525,27 +324,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -561,7 +339,7 @@ technologies = {
 			modify_building_resources = {
 				building = renewable_power_station
 				resource = energy
-				amount = 4
+				amount = 2
 			}
 		}
 	
@@ -593,27 +371,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -624,7 +381,7 @@ technologies = {
 			modify_building_resources = {
 				building = renewable_power_station
 				resource = energy
-				amount = 2
+				amount = 1
 			}
 		}
 	
@@ -647,27 +404,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -695,27 +431,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -760,27 +475,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -814,27 +508,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				renewable_power_station > 7
-			}
-			modifier = {
-				factor = 2
-				renewable_power_station > 15
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 0.5
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 0
-				nuclear_reactor > 8
-				renewable_power_station < 10
-			}
 		}
 	}
 	
@@ -870,16 +543,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
-				num_of_civilian_factories < 20
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
+				num_of_civilian_factories < 30
 			}
 		}
 	}
@@ -909,16 +573,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
-				num_of_civilian_factories < 20
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
+				num_of_civilian_factories < 30
 			}
 		}
 	}
@@ -974,16 +629,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
-				num_of_civilian_factories < 20
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
+				num_of_civilian_factories < 30
 			}
 		}
 	}
@@ -1016,15 +662,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1050,15 +687,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1090,15 +718,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1129,15 +748,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1170,15 +780,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1230,15 +831,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1269,15 +861,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1309,15 +892,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1343,15 +917,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1407,15 +972,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1446,15 +1002,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1486,15 +1033,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1525,15 +1063,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1579,15 +1108,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1618,15 +1138,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}
@@ -1660,15 +1171,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_civilian_factories < 30
-				nuclear_reactor < 2
-			}
-			modifier = {
-				factor = 2
-				nuclear_reactor > 3
-			}
-			modifier = {
-				factor = 5
-				nuclear_reactor > 10
 			}
 		}
 	}

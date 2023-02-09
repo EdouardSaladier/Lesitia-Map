@@ -7,7 +7,6 @@ ai_focus_defense = {
 		at_weapons = 2.0
 		artillery_tech = 1.0
 		artillery_tech_equipment = 2.0
-		support_tech = 1.0
 	}
 }
 
@@ -30,7 +29,6 @@ ai_focus_war_production = {
 		fuel_tech = 1.0
 		resource_production_tech = 0.5
 		agriculture_tech = 0.5
-		genetics_tech = 1.0
 	}
 }
 
@@ -40,7 +38,7 @@ ai_focus_military_equipment = {
 		infantry_tech = 15.0
 		at_weapons = 15.0
 		artillery_tech = 15.0
-		support_tech = 15.0
+		support_tech = 7.5
 	}
 }
 
@@ -52,8 +50,8 @@ ai_focus_military_advancements = {
 		missile_tech = 7.5
 		radar_tech = 3.0
 		computer_tech_equipment = 10.0
-		encryption_tech = 1.5
-		decryption_tech = 1.5
+		encryption_tech = 2.5
+		decryption_tech = 2.5
 		resource_production_tech = 2.0
 		mechanised_tech = 4.0
 		night_vision = 5.0
