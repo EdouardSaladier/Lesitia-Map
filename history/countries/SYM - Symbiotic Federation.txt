@@ -68,3 +68,28 @@ create_country_leader = {
 	picture = "portrait_amber_azkrini.dds"
 	ideology = democracy_type
 }
+
+create_corps_commander = {
+	name = "Luã Vescitu"
+	picture = "Portrait_SYM_lua.dds"
+	traits = { war_hero media_personality politically_connected }
+	skill = 5
+
+	attack_skill = 7 
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+    name = "Godofredo da Silva"
+	id = 602
+	picture = "Portrait_SYM_godofredo.dds"
+	traits = { logistics_wizard organizer trait_cautious }
+	skill = 7
+	
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}
