@@ -72,7 +72,7 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Luã Vescitu"
 	picture = "Portrait_SYM_lua.dds"
-	traits = { war_hero media_personality politically_connected }
+	traits = { war_hero media_personality politically_connected offensive_doctrine }
 	skill = 5
 
 	attack_skill = 7 
@@ -92,4 +92,65 @@ create_field_marshal = {
 	defense_skill = 4
 	planning_skill = 5
 	logistics_skill = 5
+}
+
+create_field_marshal = {
+    name = "Alessandro Ricci"
+	id = 405
+	picture = "Portrait_SYM_alessandro.dds"
+	traits = { old_guard infantry_officer hill_fighter urban_assault_specialist }
+	skill = 6
+	
+	attack_skill = 3
+	defense_skill = 7
+	planning_skill = 5
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Marco Russo"
+	picture = "Portrait_SYM_marco.dds"
+	traits = { war_hero media_personality brilliant_strategist thorough_planner }
+	skill = 5
+
+	attack_skill = 5 
+	defense_skill = 5
+	planning_skill = 6
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Fyodor Belyaev"
+	picture = "Portrait_SYM_fyodor.dds"
+	traits = { war_hero ranger trait_mountaineer }
+	skill = 5
+
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kallista Sokolova"
+	picture = "Portrait_SYM_kallista.dds"
+	traits = { media_personality trait_reckless harsh_leader armor_officer }
+	skill = 4
+
+	attack_skill = 5 
+	defense_skill = 6
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Abbas Laghmani Faez"
+	picture = "Portrait_SYM_abbas.dds"
+	traits = { harsh_leader desert_fox organizer trickster commando}
+	skill = 3
+
+	attack_skill = 4 
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 8
 }
