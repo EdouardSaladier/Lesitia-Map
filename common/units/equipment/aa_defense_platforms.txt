@@ -86,7 +86,8 @@ equipments = {
 		archetype = anti_air_defense_platform_arch
 		priority = 70
 		visual_level = 1
-		
+		parent = anti_air_defense_platform_equipment
+
 		#Misc Abilities
 		maximum_speed = 11
 		
@@ -120,7 +121,8 @@ equipments = {
 		archetype = anti_air_defense_platform_arch
 		priority = 70
 		visual_level = 1
-		
+		parent = anti_aircraft_mobile_system_equipment
+
 		#Misc Abilities
 		maximum_speed = 12
 		
@@ -154,6 +156,7 @@ equipments = {
 		archetype = anti_air_defense_platform_arch
 		priority = 70
 		visual_level = 1
+		parent = self_propelled_air_denial_system_equipment
 		
 		#Misc Abilities
 		maximum_speed = 12
