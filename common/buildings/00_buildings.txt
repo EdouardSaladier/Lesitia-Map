@@ -132,7 +132,7 @@ buildings = {
 		show_on_map = 0
 		base_cost = 4800
 		icon_frame = 17
-		local_resources_food = 15
+		local_resources_food = 8
 		max_level = 10 # This is the max unlock level
 		shares_slots = yes
 		value = 1
@@ -306,7 +306,7 @@ buildings = {
 
 	nuclear_reactor = {
 		show_on_map = 0
-		base_cost = 50000
+		base_cost = 30000
 		icon_frame = 23
 		local_resources_energy = 15
 		max_level = 4 # This is the max unlock level
