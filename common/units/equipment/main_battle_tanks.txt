@@ -88,7 +88,8 @@ equipments = {
 		archetype = main_battle_tank_equipment_arch
 		priority = 50
 		visual_level = 1
-						
+		parent = main_battle_tank_equipment
+
 		#Misc Abilities
 		maximum_speed = 10
 		
@@ -122,7 +123,8 @@ equipments = {
 		archetype = main_battle_tank_equipment_arch
 		priority = 50
 		visual_level = 1
-						
+		parent = main_ground_combat_system_equipment
+
 		#Misc Abilities
 		maximum_speed = 11
 		
@@ -158,6 +160,7 @@ equipments = {
 		archetype = main_battle_tank_equipment_arch
 		priority = 50
 		visual_level = 1
+		parent = frontline_breakthrough_tank_equipment
 						
 		#Misc Abilities
 		maximum_speed = 11
@@ -194,7 +197,8 @@ equipments = {
 		archetype = main_battle_tank_equipment_arch
 		priority = 50
 		visual_level = 1
-						
+		parent = general_purpose_railgun_carrier_equipment
+		
 		#Misc Abilities
 		maximum_speed = 12
 		
