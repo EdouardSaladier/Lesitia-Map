@@ -5,7 +5,8 @@ state={
 	history={
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2	
+			industrial_complex = 2
+			farms = 1
 		}
 		owner = SYM
 		victory_points = {

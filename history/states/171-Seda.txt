@@ -5,6 +5,7 @@ state={
 	history={
 		buildings = {
 			infrastructure = 2
+			renewable_power_station = 1
 			hydrogen_storage_facility = 1
 			14617 = {
 				naval_base = 3

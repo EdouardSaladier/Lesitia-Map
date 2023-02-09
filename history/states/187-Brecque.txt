@@ -10,7 +10,6 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			farms = 2
 		}
 		owner = SYM
 		victory_points = {

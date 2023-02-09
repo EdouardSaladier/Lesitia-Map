@@ -9,7 +9,7 @@ state={
 	history={
 		buildings = {
 			infrastructure = 1
-			nuclear_reactor = 1
+			renewable_power_station = 1
 		}
 		owner = SYM
 		victory_points = {

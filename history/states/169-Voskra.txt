@@ -11,6 +11,8 @@ state={
 			infrastructure = 4
 			air_base = 7
 			arms_factory = 3
+			farms = 1
+			renewable_power_station = 1
 			14761 = {
 				naval_base = 8
 			}

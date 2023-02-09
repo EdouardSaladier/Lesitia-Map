@@ -5,6 +5,7 @@ state={
 	history={
 		buildings = {
 			infrastructure = 3
+			farms = 1
 			8405 = {
 				naval_base = 4
 				coastal_bunker = 1

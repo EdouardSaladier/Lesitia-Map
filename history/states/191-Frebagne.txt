@@ -5,6 +5,7 @@ state={
 	history={
 		buildings = {
 			infrastructure = 3
+			renewable_power_station = 2
 			air_base = 2
 		}
 		owner = SYM

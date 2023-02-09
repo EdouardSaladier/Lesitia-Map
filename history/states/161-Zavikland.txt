@@ -3,13 +3,14 @@ state={
 	name="STATE_161"
 	
 	resources = {
-		aluminium = 8
-		chromium = 4
+		aluminium = 20
+		chromium = 10
 	}
 	
 	history={
 		buildings = {
 			infrastructure = 1
+			farms = 1
 		}
 		owner = SYM
 		victory_points = {

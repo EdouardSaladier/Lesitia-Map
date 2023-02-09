@@ -6,6 +6,7 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 4
+			renewable_power_station = 2
 			air_base = 8
 		}
 		owner = SYM
