@@ -108,6 +108,19 @@ create_field_marshal = {
 	logistics_skill = 3
 }
 
+create_field_marshal = {
+    name = "Oscar Azkrini"
+	id = 777
+	picture = "Portrait_SYM_oscar.dds"
+	traits = { infantry_officer urban_assault_specialist war_hero politically_connected harsh_leader }
+	skill = 7
+	
+	attack_skill = 7
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 5
+}
+
 create_corps_commander = {
 	name = "Marco Russo"
 	picture = "Portrait_SYM_marco.dds"
