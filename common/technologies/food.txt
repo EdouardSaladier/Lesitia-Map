@@ -44,6 +44,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -114,6 +133,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -134,6 +172,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -161,6 +218,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -173,7 +249,7 @@ technologies = {
 		on_research_complete = {
 			modify_building_resources = {
 				building = farms
-				resource = vertical_farm
+				resource = food
 				amount = 1
 			}
 			random_owned_controlled_state = {
@@ -236,6 +312,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -256,6 +351,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -283,6 +397,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -352,6 +485,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -379,6 +531,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -402,6 +573,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -412,7 +602,7 @@ technologies = {
 			modify_building_resources = {
 				building = vertical_farm
 				resource = food
-				amount = 1
+				amount = 2
 			}
 		}
 	
@@ -434,6 +624,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -444,7 +653,7 @@ technologies = {
 			modify_building_resources = {
 				building = vertical_farm
 				resource = food
-				amount = 2
+				amount = 3
 			}
 		}
 	
@@ -461,6 +670,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -525,6 +753,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -536,7 +783,7 @@ technologies = {
 			modify_building_resources = {
 				building = vertical_farm
 				resource = food
-				amount = 1
+				amount = 2
 			}
 		}
 	
@@ -558,6 +805,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -588,6 +854,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -613,6 +898,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 	
@@ -633,6 +937,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				vertical_farm > 5
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					check_variable = { resource@food < 0 }
+					check_variable = { resource_imported@food > 50.0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				vertical_farm > 10
+			}
+			modifier = {
+				factor = 0
+				check_variable = { resource@food > 20 }
+			}
 		}
 	}
 }
