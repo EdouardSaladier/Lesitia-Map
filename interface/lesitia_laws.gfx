@@ -1,4 +1,21 @@
 spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_no_subsidies"
+		texturefile = "gfx/interface/laws/no_subsidies.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_small_subsidies"
+		texturefile = "gfx/interface/laws/small_subsidies.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_medium_subsidies"
+		texturefile = "gfx/interface/laws/medium_subsidies.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_generous_subsidies"
+		texturefile = "gfx/interface/laws/generous_subsidies.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_civ_core_food_cons_plenitude"
@@ -54,4 +71,84 @@ spriteTypes = {
 		name = "GFX_idea_consumer_paradise"
 		texturefile = "gfx/interface/laws/consumer_paradise.dds"
 	}
+	
+	# spriteType = {
+		# name = "GFX_idea_no_computers"
+		# texturefile = "gfx/interface/laws/no_computers.dds"
+	# }	
+	# spriteType = {
+		# name = "GFX_idea_commercial_computers_law"
+		# texturefile = "gfx/interface/laws/commercial_computers_law.dds"
+	# }	
+	# spriteType = {
+		# name = "GFX_idea_massively_parallel_computers_law"
+		# texturefile = "gfx/interface/laws/massively_parallel_computers_law.dds"
+	# }	
+	# spriteType = {
+		# name = "GFX_idea_petascale_supercomputers_law"
+		# texturefile = "gfx/interface/laws/petascale_supercomputers_law.dds"
+	# }	
+	# spriteType = {
+		# name = "GFX_idea_exascale_supercomputers_law"
+		# texturefile = "gfx/interface/laws/exascale_supercomputers_law.dds"
+	# }	
+	# spriteType = {
+		# name = "GFX_idea_zettascale_supercomputers_law"
+		# texturefile = "gfx/interface/laws/zettascale_supercomputers_law.dds"
+	# }	
+	# spriteType = {
+		# name = "GFX_idea_yottascale_supercomputers_law"
+		# texturefile = "gfx/interface/laws/yottascale_supercomputers_law.dds"
+	# }	
+	# spriteType = {
+		# name = "GFX_idea_quettascale_supercomputers_law"
+		# texturefile = "gfx/interface/laws/quettascale_supercomputers_law.dds"
+	# }	
+	
+	spriteType = {
+		name = "GFX_idea_unrestricted_power_access"
+		texturefile = "gfx/interface/laws/unrestricted_power_access.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_regular_power_consumption"
+		texturefile = "gfx/interface/laws/regular_power_consumption.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_power_austerity"
+		texturefile = "gfx/interface/laws/power_austerity.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_power_rationing"
+		texturefile = "gfx/interface/laws/power_rationing.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_army_power_priority"
+		texturefile = "gfx/interface/laws/army_power_priority.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_all_power_to_the_army"
+		texturefile = "gfx/interface/laws/all_power_to_the_army.dds"
+	}	
+	
+	
+	# spriteType = {
+		# name = "GFX_idea_prof_5_law"
+		# texturefile = "gfx/interface/laws/prof_5_law.dds"
+	# }	
+	# spriteType = {
+		# name = "GFX_idea_prof_4_law"
+		# texturefile = "gfx/interface/laws/prof_4_law.dds"
+	# }	
+	# spriteType = {
+		# name = "GFX_idea_prof_3_law"
+		# texturefile = "gfx/interface/laws/prof_3_law.dds"
+	# }	
+	# spriteType = {
+		# name = "GFX_idea_prof_2_law"
+		# texturefile = "gfx/interface/laws/prof_2_law.dds"
+	# }	
+	# spriteType = {
+		# name = "GFX_idea_prof_1_law"
+		# texturefile = "gfx/interface/laws/prof_1_law.dds"
+	# }	
 }
