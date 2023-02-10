@@ -53,8 +53,7 @@ equipments = {
 		year = 3381
 		archetype = quadri_thread_assault_tank_equipment_arch
 		priority = 70
-		visual_level = 1
-		parent = quadri_thread_assault_tank_equipment_arch 
+		visual_level = 1 
 
 		#Misc Abilities
 		maximum_speed = 6

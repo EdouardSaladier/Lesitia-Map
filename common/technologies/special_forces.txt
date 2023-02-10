@@ -343,6 +343,10 @@ technologies = {
 		infiltrators = {
 			acclimatization_hot_climate_gain_factor = 0.50
 			acclimatization_cold_climate_gain_factor = 0.50
+			desert = {
+				attack = 0.2
+				defence = 0.2
+			}
 			jungle = {
 				attack = 0.2
 				defence = 0.2

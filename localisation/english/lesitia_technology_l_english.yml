@@ -368,9 +368,11 @@
  
  general_parts_standardisation:0 "General Parts Standardisation"
  general_parts_standardisation_desc:0 "General Parts Standardisation"
+ general_parts_standardisation_idea:0 "General Parts Standardisation"
  
  fuel_consumption_optimisation:0 "Fuel Consumption Optimisation"
  fuel_consumption_optimisation_desc:0 "Fuel Consumption Optimisation"
+ fuel_consumption_optimisation_idea:0 "Fuel Consumption Optimisation"
  
  armored_troop_transport:0 "Armored Troop Transport"
  armored_troop_transport_desc:0 "Armored Troop Transport"
@@ -393,12 +395,14 @@
  
  standardised_modular_armor:0 "Standardised Modular Armor"
  standardised_modular_armor_desc:0 "Standardised Modular Armor"
+ standardised_modular_armor_idea:0 "Standardised Modular Armor"
  
  urban_environment_protection_kits:0 "Urban Environment Protection Kits"
  urban_environment_protection_kits_desc:0 "Urban Environment Protection Kits"
  
  air_intake_filtration:0 "Air Intake Filtration"
  air_intake_filtration_desc:0 "Air Intake Filtration"
+ air_intake_filtration_idea:0 "Air Intake Filtration"
  
  multi_role_armored_vehicle:0 "Multi-Role Armored Vehicle"
  multi_role_armored_vehicle_desc:0 "Multi-Role Armored Vehicle"
@@ -407,6 +411,7 @@
  
  anti_thermobaric_protection:0 "Anti-Thermobaric Protection"
  anti_thermobaric_protection_desc:0 "Anti-Thermobaric Protection"
+ anti_thermobaric_protection_idea:0 "Anti-Thermobaric Protection"
  
  enemy_fire_localisation_system:0 "Enemy Fire Localisation System"
  enemy_fire_localisation_system_desc:0 "Enemy Fire Localisation System"

@@ -2,6 +2,8 @@ ideas = {
 	
 	hidden_ideas = {
 	
+		###Infantry
+	
 		caseless_munitions_idea = {
 			allowed = {
 				always = no
@@ -314,6 +316,149 @@ ideas = {
 					soft_attack = 0.5
 					defense = 1.5
 					breakthrough = 1
+					instant = yes
+				}
+			}		
+		}
+		
+		###Spec Ops
+	
+		high_modulus_polyethylene_armor_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				assault_forces_equipment = {
+					armor_value = 0.1
+					defense = 0.2
+					instant = yes
+				}
+			}		
+		}
+		
+		additional_polymerised_mix_casting_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				assault_forces_equipment = {
+					armor_value = 0.25
+					defense = 0.2
+					instant = yes
+				}
+			}		
+		}
+		
+		###Motorized
+		
+		general_parts_standardisation_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.2
+					reliability = 0.2
+					instant = yes
+				}
+			}		
+		}
+		
+		fuel_consumption_optimisation_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				motorized_equipment = {
+					fuel_consumption = -0.2
+					instant = yes
+				}
+			}		
+		}
+		
+		standardised_modular_armor_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				mechanized_equipment = {
+					armor_value = 0.15
+					defense = 0.15
+					build_cost_ic = -0.2
+					instant = yes
+				}
+			}		
+		}
+		
+		air_intake_filtration_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				mechanized_equipment = {
+					reliability = 0.25
+					instant = yes
+				}
+			}		
+		}
+		
+		anti_thermobaric_protection_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				mechanized_equipment = {
+					armor_value = 0.25
+					defense = 0.25
 					instant = yes
 				}
 			}		

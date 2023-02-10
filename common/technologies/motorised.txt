@@ -49,6 +49,11 @@ technologies = {
 	
 	general_parts_standardisation = {
 	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			add_ideas = general_parts_standardisation_idea
+		}
+	
 		path = {
 			leads_to_tech = fuel_consumption_optimisation
 		}
@@ -71,6 +76,11 @@ technologies = {
 	}
 	
 	fuel_consumption_optimisation = {
+	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			add_ideas = fuel_consumption_optimisation_idea
+		}
 
 		start_year = 3376
 		research_cost = 1.25
@@ -124,6 +134,42 @@ technologies = {
 		start_year = 3377
 		research_cost = 1.35
 		
+		category_motorised = {
+			acclimatization_hot_climate_gain_factor = 0.50
+			acclimatization_cold_climate_gain_factor = 0.50
+			
+		}
+		motorized = {
+			desert = {
+				attack = 0.2
+				defence = 0.2
+			}
+			jungle = {
+				attack = 0.1
+				defence = 0.1
+			}
+		}
+		at_motorized = {
+			desert = {
+				attack = 0.2
+				defence = 0.2
+			}
+			jungle = {
+				attack = 0.1
+				defence = 0.1
+			}
+		}
+		mechanized = {
+			desert = {
+				attack = 0.2
+				defence = 0.2
+			}
+			jungle = {
+				attack = 0.1
+				defence = 0.1
+			}
+		}
+		
 		folder = {
 			name = infantry_folder
 			position = { x = 11 y = @3377 }
@@ -139,6 +185,11 @@ technologies = {
 	}
 	
 	integrated_cbrn_defense = {
+	
+		category_motorised = {
+			suppression = 0.15
+			defense = 0.15
+		}
 	
 		path = {
 			leads_to_tech = infantry_transport_support_vehicle
@@ -171,6 +222,49 @@ technologies = {
 
 		start_year = 3378
 		research_cost = 1.5
+		
+		motorized = {
+			river = {
+				attack = 0.2
+				defence = 0.2
+			}
+			amphibious = {
+				attack = 0.2
+				defence = 0.2
+			}
+			marsh = {
+				attack = 0.2
+				defence = 0.2
+			}
+		}
+		at_motorized = {
+			river = {
+				attack = 0.2
+				defence = 0.2
+			}
+			amphibious = {
+				attack = 0.2
+				defence = 0.2
+			}
+			marsh = {
+				attack = 0.2
+				defence = 0.2
+			}
+		}
+		mechanized = {
+			river = {
+				attack = 0.2
+				defence = 0.2
+			}
+			amphibious = {
+				attack = 0.2
+				defence = 0.2
+			}
+			marsh = {
+				attack = 0.2
+				defence = 0.2
+			}
+		}
 		
 		folder = {
 			name = infantry_folder
@@ -223,6 +317,11 @@ technologies = {
 	
 	standardised_modular_armor = {
 	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			add_ideas = standardised_modular_armor_idea
+		}
+	
 		path = {
 			leads_to_tech = urban_environment_protection_kits
 			research_cost_coeff = 1
@@ -245,7 +344,26 @@ technologies = {
 		}
 	}
 	
-	urban_environment_protection_kits = {
+	urban_environment_protection_kits = { #Cope cage cope cage cope cage
+	
+		motorized = {
+			urban = {
+				attack = 0.3
+				defence = 0.3
+			}
+		}
+		at_motorized = {
+			urban = {
+				attack = 0.3
+				defence = 0.3
+			}
+		}
+		mechanized = {
+			urban = {
+				attack = 0.3
+				defence = 0.3
+			}
+		}
 
 		start_year = 3381
 		research_cost = 2.1
@@ -265,6 +383,13 @@ technologies = {
 	}
 	
 	air_intake_filtration = {
+	
+		truck_attrition_factor = -0.5
+	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			add_ideas = air_intake_filtration_idea
+		}
 
 		start_year = 3380
 		research_cost = 1.85
@@ -320,6 +445,11 @@ technologies = {
 	
 	enemy_fire_localisation_system = {
 	
+		category_motorised = {
+			suppression = 0.25
+			defense = 0.25
+		}
+	
 		path = {
 			leads_to_tech = self_controling_weapon_station
 			research_cost_coeff = 1
@@ -343,6 +473,11 @@ technologies = {
 	}
 	
 	self_controling_weapon_station = {
+	
+		category_motorised = {
+			soft_attack = 0.25
+			breakthrough = 0.25
+		}
 
 		start_year = 3385
 		research_cost = 4.5
@@ -362,6 +497,11 @@ technologies = {
 	}
 	
 	anti_thermobaric_protection = {
+	
+		show_effect_as_desc = yes
+		on_research_complete = {
+			add_ideas = anti_thermobaric_protection_idea
+		}
 
 		start_year = 3384
 		research_cost = 4.0
