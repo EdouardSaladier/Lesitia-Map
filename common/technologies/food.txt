@@ -472,7 +472,7 @@ technologies = {
             research_cost_coeff = 1           
 		}
 	
-		start_year = 3378
+		start_year = 3380
 		research_cost = 2.25
 		folder = {
 			name = industry_folder

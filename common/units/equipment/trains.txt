@@ -1,7 +1,7 @@
 equipments = {
 	#archetype
 	train_equipment = {
-		year = 1910
+		year = 3358
 
 		is_archetype = yes
 		is_buildable = no
@@ -15,23 +15,71 @@ equipments = {
 
 		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
 
-		build_cost_ic = 70
-		resources = {
-			steel = 1
-		}
+		build_cost_ic = 60
 	}
 	# regular trains
-	train_equipment_1 = {
-		year = 1910
+	high_speed_train_equipment = {
+		year = 3358
 
 		archetype = train_equipment
 		priority = 10
 
 		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
 
-		build_cost_ic = 70
+		build_cost_ic = 60
 		resources = {
-			steel = 1
+			aluminium = 2
+		}
+	}
+	
+	magnetic_levitation_train_equipment = {
+		year = 3380
+
+		archetype = train_equipment
+		parent = high_speed_train_equipment
+		priority = 30
+
+		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
+
+		build_cost_ic = 40
+		resources = {
+			aluminium = 2
+			electronics = 1
+		}
+	}
+	
+	armored_train_equipment = {
+		year = 3378
+
+		archetype = train_equipment
+		parent = high_speed_train_equipment
+		priority = 20
+
+		armor_value = 200
+		air_attack = 15
+
+		build_cost_ic = 80
+		resources = {
+			steel = 2
+			chromium = 2
+		}
+	}
+	
+	self_defending_train_equipment = {
+		year = 3382
+
+		archetype = train_equipment
+		parent = armored_train_equipment
+		priority = 40
+
+		armor_value = 250
+		air_attack = 60
+
+		build_cost_ic = 80
+		resources = {
+			steel = 2
+			chromium = 2
+			electronics = 2
 		}
 	}
 }

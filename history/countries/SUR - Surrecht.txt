@@ -13,6 +13,7 @@ set_technology = {
 
 	main_support_equipment_tech = 1
 	reconnaissance_company = 1
+	high_speed_train = 1
 	engineer_company = 1
 	logistics_company = 1
 	

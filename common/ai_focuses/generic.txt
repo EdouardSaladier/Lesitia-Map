@@ -37,30 +37,40 @@ ai_focus_war_production = {
 
 ai_focus_military_equipment = {
 	research = {
-		infantry_weapons = 75.0
+		infantry_weapons = 50.0
+		infantry_weapons_equipment = 1.5
 		infantry_tech = 15.0
 		at_weapons = 15.0
+		at_weapons_equipment = 1.5
 		artillery_tech = 15.0
+		artillery_tech_equipment = 1.5
 		support_tech = 15.0
+		support_equipment = 1.5
+		anti_air_tech = 5.0
 	}
 }
 
 ai_focus_military_advancements = {
 	research = {
 		tank_tech = 10.0
+		tank_tech_equipment = 1.5
 		stealth_fighter_tech = 2.0
 		land_doctrine = 100.0
 		missile_tech = 7.5
+		rocket_tech = 5.0
 		radar_tech = 3.0
 		computer_tech_equipment = 10.0
-		encryption_tech = 1.5
-		decryption_tech = 1.5
+		encryption_tech = 1.0
+		decryption_tech = 1.0
 		resource_production_tech = 2.0
 		mechanised_tech = 4.0
 		night_vision = 5.0
 		spec_ops_tech = 5.0
+		spec_ops_tech_equipment = 1.5
 		support_tech = 2.0
+		support_equipment = 1.5
 		at_weapons = 2.0
+		at_weapons_equipment = 1.5
 	}
 }
 
@@ -75,6 +85,7 @@ ai_focus_peaceful = {
 		computer_tech = 10.0
 		computer_tech_equipment = 20.0
 		genetics_tech = 5.0
+		train_tech = 5.0
 	}
 }
 

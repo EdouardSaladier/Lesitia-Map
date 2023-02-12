@@ -549,6 +549,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/heavy_command_battlestation.dds"
 	}
 	
+	### Train Tree
+	spriteType = {
+		name = "GFX_high_speed_train_medium"
+		texturefile = "gfx/interface/technologies/high_speed_train.dds"
+	}
+	spriteType = {
+		name = "GFX_magnetic_levitation_train_medium"
+		texturefile = "gfx/interface/technologies/magnetic_levitation_train.dds"
+	}
+	spriteType = {
+		name = "GFX_armored_train_medium"
+		texturefile = "gfx/interface/technologies/armored_train.dds"
+	}
+	spriteType = {
+		name = "GFX_self_defending_train_medium"
+		texturefile = "gfx/interface/technologies/self_defending_train.dds"
+	}
+	
 	### Tank Tree - Equipments
 	
 	SpriteType = {

@@ -25,6 +25,7 @@ technology_categories = {
 	hospital_tech
 	logistics_tech
 	c_c_tech
+	train_tech
 	
 	###Artillery tree
 	artillery_tech

@@ -359,7 +359,7 @@ technologies = {
 		research_cost = 2.1
 		folder = {
 			name = infantry_folder
-			position = { x = -1 y = @3380 }
+			position = { x = -1 y = @3381 }
 		}
 		
 		categories = {

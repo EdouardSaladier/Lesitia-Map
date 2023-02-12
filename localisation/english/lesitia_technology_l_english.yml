@@ -22,6 +22,7 @@
  hospital_tech:0 "Medical Support Company Technology"
  logistics_tech:0 "Logistics Company Technology"
  c_c_tech:0 "Command & Control Company Technology"
+ train_tech:0 "Train Technology"
  
  ###Artillery tree
  artillery_tech:0 "Artillery Technology"
@@ -423,6 +424,24 @@
  armored_multirole_carrier_desc:0 "Armored Multirole Carrier"
  armored_multirole_carrier_equipment:0 "Armored Multirole Carrier"
  armored_multirole_carrier_equipment_desc:0 "Armored Multirole Carrier"
+ 
+ #Train Technology
+ high_speed_train:0 "High Speed Train"
+ high_speed_train_desc:0 "High Speed Train"
+ high_speed_train_equipment:0 "High Speed Train"
+ high_speed_train_equipment_desc:0 "High Speed Train"
+ magnetic_levitation_train:0 "Magnetic Levitation Train"
+ magnetic_levitation_train_desc:0 "Magnetic Levitation Train"
+ magnetic_levitation_train_equipment:0 "Magnetic Levitation Train"
+ magnetic_levitation_train_equipment_desc:0 "Magnetic Levitation Train"
+ armored_train:0 "Armored Train"
+ armored_train_desc:0 "Armored Train"
+ armored_train_equipment:0 "Armored Train"
+ armored_train_equipment_desc:0 "Armored Train"
+ self_defending_train:0 "Self-Defending Train"
+ self_defending_train_desc:0 "Self-Defending Train"
+ self_defending_train_equipment:0 "Self-Defending Train"
+ self_defending_train_equipment_desc:0 "Self-Defending Train"
  
  #Support
  main_support_equipment_arch:0 "Main Support Equipment"

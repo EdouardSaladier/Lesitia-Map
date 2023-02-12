@@ -1,0 +1,104 @@
+technologies = {
+    @3358 = 0
+	@3376 = 3
+	@3377 = 5
+	@3378 = 8
+	@3379 = 11
+	@3380 = 13
+	@3381 = 16
+	@3382 = 18	
+	@3383 = 20
+	@3384 = 22
+	@3385 = 24
+	@3386 = 26
+	
+	high_speed_train = {
+	
+		path = {
+			leads_to_tech = magnetic_levitation_train
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = armored_train
+			research_cost_coeff = 1
+		}
+		
+		enable_equipments = {
+			high_speed_train_equipment
+		}
+		start_year = 3358
+		research_cost = 2.0
+
+		folder = {
+			name = support_folder
+			position = { x = 18 y = @3358 }
+		}
+		
+		categories = {
+			train_tech
+		}
+	}
+	
+	magnetic_levitation_train = {
+		
+		enable_equipments = {
+			magnetic_levitation_train_equipment
+		}
+		
+		start_year = 3380
+		research_cost = 3.7
+
+		folder = {
+			name = support_folder
+			position = { x = 18 y = @3380 }
+		}
+		
+		categories = {
+			train_tech
+		}
+	}
+	
+	armored_train = {
+		
+		enable_equipments = {
+			armored_train_equipment
+		}
+		
+		path = {
+			leads_to_tech = self_defending_train
+			research_cost_coeff = 1
+		}
+		
+		start_year = 3378
+		research_cost = 3.0
+
+		folder = {
+			name = support_folder
+			position = { x = 19 y = @3378 }
+		}
+		
+		categories = {
+			train_tech
+		}
+	}
+	
+	self_defending_train = {
+		
+		enable_equipments = {
+			self_defending_train_equipment
+		}
+		
+		start_year = 3382
+		research_cost = 5.2
+
+		folder = {
+			name = support_folder
+			position = { x = 19 y = @3382 }
+		}
+		
+		categories = {
+			train_tech
+		}
+	}
+}

@@ -38,7 +38,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 7 y = @3358 }
+			position = { x = 5 y = @3358 }
 		}
 		
 		categories = {

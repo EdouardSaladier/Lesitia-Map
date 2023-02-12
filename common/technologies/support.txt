@@ -1,16 +1,16 @@
 technologies = {
     @3358 = 0
 	@3376 = 3
-	@3377 = 6
-	@3378 = 9
-	@3379 = 12
-	@3380 = 15
-	@3381 = 18
-	@3382 = 21	
-	@3383 = 24
-	@3384 = 27
-	@3385 = 30
-	@3386 = 33
+	@3377 = 5
+	@3378 = 8
+	@3379 = 11
+	@3380 = 13
+	@3381 = 16
+	@3382 = 18	
+	@3383 = 20
+	@3384 = 22
+	@3385 = 24
+	@3386 = 26
 	
 	main_support_equipment_tech = {
 		
@@ -281,7 +281,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 4 y = @3358 }
+			position = { x = 3 y = @3358 }
 		}
 
 		categories = {
@@ -318,7 +318,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 4 y = @3377 }
+			position = { x = 3 y = @3377 }
 		}
 
 		categories = {
@@ -343,7 +343,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 4 y = @3379 }
+			position = { x = 3 y = @3379 }
 		}
 
 		categories = {
@@ -453,7 +453,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 6 y = @3378 }
+			position = { x = 4 y = @3378 }
 		}
 
 		categories = {
@@ -475,11 +475,6 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = classes_of_supply_organisation
-			research_cost_coeff = 1
-		}
-		
-		path = {
 			leads_to_tech = reliability_centered_maintenance
 			research_cost_coeff = 1
 		}
@@ -489,7 +484,38 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 10 y = @3358 }
+			position = { x = 7 y = @3358 }
+		}
+
+		categories = {
+			support_tech
+			logistics_tech
+		}
+	}
+	
+	reliability_centered_maintenance = {
+	
+		logistics_s_company = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+	
+		path = {
+			leads_to_tech = armored_repair_and_recovery_vehicle
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = classes_of_supply_organisation
+			research_cost_coeff = 1
+		}
+		
+		start_year = 3376
+		research_cost = 2.0
+
+		folder = {
+			name = support_folder
+			position = { x = 7 y = @3376 }
 		}
 
 		categories = {
@@ -512,38 +538,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 3376
+		start_year = 3377
 		research_cost = 1.875
 
 		folder = {
 			name = support_folder
-			position = { x = 10 y = @3376 }
-		}
-
-		categories = {
-			support_tech
-			logistics_tech
-		}
-	}
-	
-	reliability_centered_maintenance = {
-	
-		logistics_s_company = {
-			reliability_factor = 0.05
-			equipment_capture_factor = 0.05
-		}
-	
-		path = {
-			leads_to_tech = armored_repair_and_recovery_vehicle
-			research_cost_coeff = 1
-		}
-		
-		start_year = 3377
-		research_cost = 2.0
-
-		folder = {
-			name = support_folder
-			position = { x = 8 y = @3377 }
+			position = { x = 6 y = @3377 }
 		}
 
 		categories = {
@@ -576,7 +576,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 8 y = @3378 }
+			position = { x = 7 y = @3378 }
 		}
 
 		categories = {
@@ -610,7 +610,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 10 y = @3379 }
+			position = { x = 6 y = @3379 }
 		}
 
 		categories = {
@@ -636,7 +636,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 8 y = @3380 }
+			position = { x = 7 y = @3380 }
 		}
 
 		categories = {
@@ -657,7 +657,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 8 y = @3382 }
+			position = { x = 7 y = @3382 }
 		}
 
 		categories = {
@@ -686,7 +686,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 10 y = @3381 }
+			position = { x = 6 y = @3381 }
 		}
 
 		categories = {
@@ -709,7 +709,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 10 y = @3383 }
+			position = { x = 6 y = @3383 }
 		}
 
 		categories = {
@@ -739,7 +739,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 12 y = @3358 }
+			position = { x = 9 y = @3358 }
 		}
 
 		categories = {
@@ -777,7 +777,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 12 y = @3376 }
+			position = { x = 9 y = @3376 }
 		}
 
 		categories = {
@@ -804,7 +804,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 14 y = @3377 }
+			position = { x = 10 y = @3377 }
 		}
 
 		categories = {
@@ -825,7 +825,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 14 y = @3379 }
+			position = { x = 10 y = @3379 }
 		}
 
 		categories = {
@@ -851,7 +851,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 12 y = @3378 }
+			position = { x = 9 y = @3378 }
 		}
 
 		categories = {
@@ -882,7 +882,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 12 y = @3380 }
+			position = { x = 9 y = @3380 }
 		}
 
 		categories = {
@@ -910,7 +910,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 14 y = @3381 }
+			position = { x = 10 y = @3381 }
 		}
 
 		categories = {
@@ -930,7 +930,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 14 y = @3383 }
+			position = { x = 10 y = @3383 }
 		}
 
 		categories = {
@@ -951,7 +951,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 12 y = @3384 }
+			position = { x = 9 y = @3384 }
 		}
 
 		categories = {
@@ -981,7 +981,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 16 y = @3358 }
+			position = { x = 12 y = @3358 }
 		}
 
 		categories = {
@@ -1012,7 +1012,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 16 y = @3376 }
+			position = { x = 12 y = @3376 }
 		}
 
 		categories = {
@@ -1044,7 +1044,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 18 y = @3377 }
+			position = { x = 13 y = @3377 }
 		}
 
 		categories = {
@@ -1066,7 +1066,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 18 y = @3379 }
+			position = { x = 13 y = @3379 }
 		}
 
 		categories = {
@@ -1092,7 +1092,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 16 y = @3378 }
+			position = { x = 12 y = @3378 }
 		}
 
 		categories = {
@@ -1120,7 +1120,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 16 y = @3380 }
+			position = { x = 12 y = @3380 }
 		}
 
 		categories = {
@@ -1141,7 +1141,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 18 y = @3381 }
+			position = { x = 13 y = @3381 }
 		}
 
 		categories = {
@@ -1162,7 +1162,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 16 y = @3382 }
+			position = { x = 12 y = @3382 }
 		}
 
 		categories = {
@@ -1192,7 +1192,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 20 y = @3358 }
+			position = { x = 15 y = @3358 }
 		}
 
 		categories = {
@@ -1224,7 +1224,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 20 y = @3376 }
+			position = { x = 15 y = @3376 }
 		}
 
 		categories = {
@@ -1253,7 +1253,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 22 y = @3377 }
+			position = { x = 16 y = @3377 }
 		}
 
 		categories = {
@@ -1281,7 +1281,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 22 y = @3379 }
+			position = { x = 16 y = @3379 }
 		}
 
 		categories = {
@@ -1305,7 +1305,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 22 y = @3382 }
+			position = { x = 16 y = @3382 }
 		}
 
 		categories = {
@@ -1337,7 +1337,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 20 y = @3378 }
+			position = { x = 15 y = @3378 }
 		}
 
 		categories = {
@@ -1367,7 +1367,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 20 y = @3380 }
+			position = { x = 15 y = @3380 }
 		}
 
 		categories = {
@@ -1392,7 +1392,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 20 y = @3381 }
+			position = { x = 15 y = @3381 }
 		}
 
 		categories = {
@@ -1422,7 +1422,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 20 y = @3383 }
+			position = { x = 15 y = @3383 }
 		}
 
 		categories = {
@@ -1442,7 +1442,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 20 y = @3384 }
+			position = { x = 15 y = @3384 }
 		}
 
 		categories = {
