@@ -9,6 +9,7 @@ spriteTypes = {
 	### Large images for DIVISIONS ###
 
 	spriteType = { name = "GFX_unit_at_infantry_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_at_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_at_motorized_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_at_motorized_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_aerial_troops_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_aerial_troops_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_assault_forces_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_assault_forces_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_infiltrators_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_infiltrators_icon.dds" noOfFrames = 2 }
