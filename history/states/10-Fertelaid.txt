@@ -5,7 +5,8 @@ state={
 
 	history={
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			farms = 1
 		}
 		owner = MIT
 		add_core_of = MIT
@@ -17,7 +18,7 @@ state={
 	provinces={
 		5521 9978 13237 13250 13393 13428 
 	}
-	manpower=1
+	manpower=102364
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

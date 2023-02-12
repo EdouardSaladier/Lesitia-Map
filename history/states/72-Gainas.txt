@@ -4,7 +4,8 @@ state={
 	
 	history={
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			farms = 1
 		}
 		owner = MIT
 		add_core_of = MIT

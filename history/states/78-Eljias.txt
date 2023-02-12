@@ -4,7 +4,11 @@ state={
 	
 	history={
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+			industrial_complex = 3
+			polymers_factory = 2
+			arms_factory = 2
+			farms = 1
 		}
 		owner = MIT
 		victory_points = {
