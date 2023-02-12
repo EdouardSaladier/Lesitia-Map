@@ -6,7 +6,7 @@ state={
 	history={
 		buildings = {
 			infrastructure = 1
-			farms = 3
+			farms = 2
 		}
 		owner = VRT
 		add_core_of = VRT
