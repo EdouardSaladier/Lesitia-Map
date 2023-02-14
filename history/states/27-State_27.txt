@@ -7,9 +7,8 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		owner = MIT
-		add_core_of = MIT
-		set_variable = { majority = 60 }
+		owner = GLR
+		add_core_of = GLR
 	}
 	
 	provinces={

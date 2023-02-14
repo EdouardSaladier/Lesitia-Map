@@ -1,0 +1,17 @@
+state={
+	id=255
+	name="STATE_255"
+	
+	history={
+		owner = NUK
+		add_core_of = NUK
+	}
+	
+	provinces={
+		20694 20695 20698 20703 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

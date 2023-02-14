@@ -6,16 +6,23 @@ state={
 	history={
 		buildings = {
 			infrastructure = 2
+
 		}
 		owner = REO
 		add_core_of = REO
-		set_variable = { majority = 68 }
-		set_variable = { minority = 66 }
+		set_variable = {
+			majority = 68
+
+		}
+		set_variable = {
+			minority = 66
+
+		}
 
 	}
 
 	provinces={
-		46 3839 8906 12370 12435 20497 20500 
+		46 3839 12370 12435 20497 20500 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

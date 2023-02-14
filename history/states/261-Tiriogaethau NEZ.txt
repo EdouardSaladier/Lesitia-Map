@@ -1,0 +1,18 @@
+state={
+	id=261
+	name="STATE_261"
+	
+	history={
+		owner = NUK
+		add_core_of = NUK
+	}
+	
+	provinces={
+		20717 20719 20723 20724 20725 20736 20738 20740 20741 20742 20743 20745 20747 20749 20751 20758 20770 20849 
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}
