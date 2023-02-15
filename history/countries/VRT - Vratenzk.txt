@@ -65,3 +65,43 @@ create_country_leader = {
 	picture = "portrait_vera_trian.dds"
 	ideology = supremacism_type 
 }
+
+create_field_marshal = {
+    name = "Vera Triansbuer"
+	desc = "VRT_Vera2_desc"
+	id = 545
+	picture = "portrait_VRT_vera.dds"
+	traits = { infantry_officer urban_assault_specialist politically_connected harsh_leader }
+	skill = 5
+	
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Makno Yurivez"
+	desc = "VRT_Makno_desc"
+	picture = "portrait_VRT_makno.dds"
+	traits = { organizer harsh_leader }
+	skill = 3
+
+	attack_skill = 4 
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Matthiv Vinre"
+	desc = "VRT_Matthiv_desc"
+	picture = "portrait_VRT_matthiv.dds"
+	traits = { harsh_leader media_personality brilliant_strategist }
+	skill = 3
+
+	attack_skill = 6 
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 4
+}
