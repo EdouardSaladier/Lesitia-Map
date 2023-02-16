@@ -65,3 +65,43 @@ create_country_leader = {
 	picture = "portrait_pyotr_kavinse.dds"
 	ideology = despotism_type 
 }
+
+create_field_marshal = {
+    name = "Pyotr Kavinse"
+	desc = "AVN_Peter_desc"
+	id = 211
+	picture = "portrait_AVN_peter.dds"
+	traits = { infantry_officer politically_connected inflexible_strategist }
+	skill = 6
+	
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 2
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Albert Jakubowski"
+	desc = "AVN_Albert_desc"
+	picture = "portrait_AVN_albert.dds"
+	traits = { organizer harsh_leader }
+	skill = 3
+
+	attack_skill = 4 
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Borys Witkowski"
+	desc = "AVN_Borys_desc"
+	picture = "portrait_AVN_borys.dds"
+	traits = { brilliant_strategist skilled_staffer infantry_leader }
+	skill = 4
+
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 6
+}
