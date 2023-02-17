@@ -8,7 +8,7 @@ state={
 		}
 		owner = LUR
 		victory_points = {
-			3569 20
+			3569 5
 		}
 		add_core_of = LUR
 		set_variable = { majority = 66 }
@@ -17,8 +17,8 @@ state={
 	provinces={
 		2655 3569 6198 13090 13249 13332 
 	}
-	manpower=6257863
-	state_category=metropolis
+	manpower=3257863
+	state_category=large_city
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

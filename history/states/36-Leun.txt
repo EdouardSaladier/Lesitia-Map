@@ -6,6 +6,9 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
+		victory_points = {
+			13158 50
+		}
 		owner = LUR
 		add_core_of = LUR
 		set_variable = { majority = 66 }
@@ -14,8 +17,8 @@ state={
 	provinces={
 		9732 13158 
 	}
-	manpower=2793000
-	state_category=city
+	manpower=5793000
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
