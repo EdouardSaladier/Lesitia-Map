@@ -37,3 +37,43 @@ create_country_leader = {
 	picture = "portrait_alban_briz.dds"
 	ideology = despotism_type
 }
+
+create_field_marshal = {
+    name = "Alban Briz"
+	desc = "REZ_Alban_desc"
+	id = 137
+	picture = "portrait_alban_briz.dds"
+	traits = { infantry_officer politically_connected }
+	skill = 6
+	
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Canncine Roneeau"
+	desc = "REZ_Canncine_desc"
+	picture = "portrait_REZ_Canncine.dds"
+	traits = { organizer harsh_leader skilled_staffer }
+	skill = 4
+
+	attack_skill = 5 
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Imenund Caleline"
+	desc = "REZ_Imenund_desc"
+	picture = "portrait_REZ_Imenund.dds"
+	traits = { brilliant_strategist skilled_staffer infantry_leader }
+	skill = 3
+
+	attack_skill = 6
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
