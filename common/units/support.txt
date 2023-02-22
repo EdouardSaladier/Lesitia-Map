@@ -34,6 +34,7 @@ sub_units = {
 		weight 				= 0.1
 		supply_consumption 	= 0.02
 		recon 				= 2
+		initiative = 0.2
 		can_be_parachuted 	= yes
 		
 		essential = {
@@ -185,6 +186,7 @@ sub_units = {
 		weight = 0.1
 		supply_consumption = 0.02
 		recon = 2
+		initiative = 0.1
 		can_be_parachuted = yes
 
 		# Support nerfs to combat abilities

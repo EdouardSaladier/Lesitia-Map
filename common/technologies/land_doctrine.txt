@@ -1,2 +1,695 @@
 technologies = {
+	
+	swift_strike = {
+		
+		doctrine_name = "RAPID_DEPLOYMENT_DOCTRINE"
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		# xor = { superior_firepower trench_warfare mass_assault } 
+
+		path = {
+			leads_to_tech = reconnaissance_in_force 
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = network_maneuver_warfare 
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = rapid_reaction_task_forces 
+			research_cost_coeff = 1
+		}
+		
+		category_motorised = {
+			breakthrough = 0.50
+			max_organisation = 10
+		}
+		category_armored_cars = {
+			breakthrough = 0.50
+			max_organisation = 5
+		}
+		
+		planning_speed = 0.5
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	reconnaissance_in_force = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		xor={
+			network_maneuver_warfare
+		}
+		
+		path = {
+			leads_to_tech = advanced_ambush_tactics 
+			research_cost_coeff = 1
+		}
+		
+		armored_car_recon_s_company = {
+			breakthrough = 1.0
+			initiative = 1.0
+			recon = 1
+		}
+		category_motorised = {
+			max_organisation = 10
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	advanced_ambush_tactics = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		category_armored_cars = {
+			defense = 1.0
+			hard_attack = 1.0
+			ap_attack = 1.0
+			max_organisation = 5
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	network_maneuver_warfare = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		xor={
+			reconnaissance_in_force
+		}
+		
+		path = {
+			leads_to_tech = mobile_strike_force 
+			research_cost_coeff = 1
+		}
+		
+		org_loss_when_moving = -0.25
+		
+		armored_reconnaissance_vehicle_brigade = {
+			combat_width = -0.5
+			initiative = 0.5
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	mobile_strike_force = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		org_loss_when_moving = -0.25
+		
+		category_motorised = {
+			breakthrough = 0.50
+			default_morale = 0.25
+		}
+		category_armored_cars = {
+			breakthrough = 0.50
+			default_morale = 0.50
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	rapid_reaction_task_forces = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		path = {
+			leads_to_tech = precision_guided_rockets 
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = high_firepower_deployment 
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = tactical_mobility_coordination 
+			research_cost_coeff = 1
+		}
+		
+		category_motorised = {
+			max_organisation = 10
+		}
+		category_armored_cars = {
+			max_organisation = 10
+		}
+		
+		org_loss_when_moving = -0.25
+		land_reinforce_rate = 0.02
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	precision_guided_rockets = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		xor={
+			high_firepower_deployment
+		}
+		
+		path = {
+			leads_to_tech = hit_and_run 
+			research_cost_coeff = 1
+		}
+		
+		category_rocket_artillery = {
+			defense = 1.0
+			hard_attack = 1.0
+			ap_attack = 1.0
+			max_organisation = 10
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	hit_and_run = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		category_rocket_artillery = {
+			default_morale = 0.5
+			breakthrough = 0.5
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	high_firepower_deployment = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		xor={
+			precision_guided_rockets
+		}
+		
+		path = {
+			leads_to_tech = rolling_barrages 
+			research_cost_coeff = 1
+		}
+		
+		category_rocket_artillery = {
+			soft_attack = 0.25
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	rolling_barrages = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		rocket_arty_brigade = {
+			combat_width = -1
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	tactical_mobility_coordination = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		path = {
+			leads_to_tech = stealth_operations 
+			research_cost_coeff = 1
+		}
+		
+		cc_s_company = {
+			soft_attack = 1.0
+			hard_attack = 1.0
+			breakthrough = 1.0
+			defense = 0.5
+			initiative = 1.0
+		}
+		
+		org_loss_when_moving = -0.25
+		planning_speed = 0.5
+		land_reinforce_rate = 0.02
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	stealth_operations = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		path = {
+			leads_to_tech = amphibious_flanking 
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = lightning_insertion 
+			research_cost_coeff = 1
+		}
+		
+		category_all_infantry = {
+			defense = 0.25
+		}
+		category_motorised = {
+			defense = 0.25
+		}
+		
+		dig_in_speed_factor = 0.5
+		max_planning_factor = 0.25
+		land_reinforce_rate = 0.02
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	amphibious_flanking = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		xor={
+			lightning_insertion
+		}
+		
+		path = {
+			leads_to_tech = self_sufficiency 
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		infiltrators = {
+			soft_attack = 0.5
+			breakthrough = 1
+		}
+		
+		river_crossing_factor = -0.5
+		naval_invasion_penalty = -0.5
+		invasion_preparation = -0.5
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	self_sufficiency = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		supply_consumption_factor = -0.1
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	lightning_insertion = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		xor={
+			amphibious_flanking
+		}
+		
+		path = {
+			leads_to_tech = airborne_resupply 
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		aerial_troops = {
+			soft_attack = 0.5
+			breakthrough = 1
+		}
+		
+		paradrop_organization_factor = 0.5
+		land_reinforce_rate = 0.04
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	airborne_resupply = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		doctrine = yes	
+		research_cost = 1
+
+		categories = {
+			land_doctrine
+			cat_rapid_deployment
+		}
+		
+		show_effect_as_desc = yes
+		on_research_complete = {
+			add_ideas = airborne_resupply_idea
+		}
+		
+		no_supply_grace = 240
+		out_of_supply_factor = -0.5
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
 }

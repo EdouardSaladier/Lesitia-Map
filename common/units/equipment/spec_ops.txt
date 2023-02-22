@@ -57,7 +57,7 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 8
-		breakthrough = 4
+		breakthrough = 6
 		armor_value = 22
 		
 		fuel_consumption = 2.4
@@ -87,7 +87,7 @@ equipments = {
 		
 		#Defensive Abilities
 		defense = 12
-		breakthrough = 6
+		breakthrough = 8
 		armor_value = 32
 		
 		fuel_consumption = 2.8
@@ -117,7 +117,7 @@ equipments = {
 		
 		#Defensive Abilities
 		defense = 18
-		breakthrough = 8
+		breakthrough = 10
 		armor_value = 42
 		
 		fuel_consumption = 3.2
@@ -153,7 +153,7 @@ equipments = {
 		
 		#Defensive Abilities
 		defense = 16
-		breakthrough = 4
+		breakthrough = 6
 		armor_value = 0
 		
 		fuel_consumption = 0.4
@@ -185,7 +185,7 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 16
-		breakthrough = 4
+		breakthrough = 8
 		armor_value = 0
 		
 		fuel_consumption = 0.4
@@ -214,7 +214,7 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 20
-		breakthrough = 4
+		breakthrough = 10
 		armor_value = 0
 		
 		fuel_consumption = 0.6

@@ -457,7 +457,7 @@ technologies = {
 	
 	centralized_systems = {
 	
-		land_reinforce_rate = 0.05
+		land_reinforce_rate = 0.02
 		coordination_bonus = 0.01
 		production_factory_max_efficiency_factor = 0.1
 	
@@ -552,7 +552,7 @@ technologies = {
 	self_organizing_data = {
 	
 		supply_factor = 0.15
-		land_reinforce_rate = 0.1
+		land_reinforce_rate = 0.02
 		coordination_bonus = 0.03
 	
 		path = {

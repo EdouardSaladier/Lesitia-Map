@@ -307,7 +307,7 @@ technologies = {
 	
 	accelerated_organogenesis = {
 	
-		land_reinforce_rate = 0.1
+		land_reinforce_rate = 0.02
 		army_org_regain = 0.2
 	
 		path = {

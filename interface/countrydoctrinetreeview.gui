@@ -323,7 +323,7 @@ guiTypes = {
 			}
 				
 			gridboxtype = {
-				name = "mobile_warfare_tree"
+				name = "swift_strike_tree"
 				position = { x=80 y=172 }
 				size = { width = 478 height = 1350 }
 				slotsize = { width=60 height= 60 }
