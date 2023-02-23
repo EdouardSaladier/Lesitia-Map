@@ -51,17 +51,114 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "mob_warfare_title"
+				name = "rapid_deployment_title"
 				position = { x = 120 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "MOBILE_WARFARE_DOCTRINE_LABEL"
+				text = "RAPID_DEPLOYMENT_DOCTRINE_LABEL"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-			}			
+			}		
+
+			instantTextBoxType = {
+				name = "rapid_deployment_desc"
+				position = { x = 140 y = 70 }
+				textureFile = ""
+				font = "hoi_20b"
+				borderSize = {x = 0 y = 4}
+				text = "RAPID_DEPLOYMENT_DOCTRINE_DESC"
+				maxWidth = 350
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "rapid_deployment_subtitle1"
+				position = { x = 150 y = 200 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "SUPPORT_AC_LABEL"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "SUPPORT_AC_LABEL_TT"
+			}
+
+			instantTextBoxType = {
+				name = "rapid_deployment_subtitle2"
+				position = { x = 380 y = 200 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "FRONT_AC_LABEL"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "FRONT_AC_LABEL_TT"
+			}
+			
+			instantTextBoxType = {
+				name = "rapid_deployment_subtitle3"
+				position = { x = 150 y = 540 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "ROCKET_1_LABEL"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "ROCKET_1_LABEL_TT"
+			}
+
+			instantTextBoxType = {
+				name = "rapid_deployment_subtitle4"
+				position = { x = 380 y = 540 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "ROCKET_2_LABEL"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "ROCKET_2_LABEL"
+			}
+			
+			instantTextBoxType = {
+				name = "rapid_deployment_subtitle5"
+				position = { x = 150 y = 1040 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_ATTACK_LABEL"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_ATTACK_LABEL_TT"
+			}
+
+			instantTextBoxType = {
+				name = "rapid_deployment_subtitle6"
+				position = { x = 380 y = 1040 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "AIR_ATTACK_LABEL"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "AIR_ATTACK_LABEL_TT"
+			}
 
 			instantTextBoxType = {
 				name = "superior_firepower_title"
@@ -100,20 +197,7 @@ guiTypes = {
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-			}				
-
-			instantTextBoxType = {
-				name = "mob_warfare_desc"
-				position = { x = 140 y = 90 }
-				textureFile = ""
-				font = "hoi_20b"
-				borderSize = {x = 0 y = 4}
-				text = "MOBILE_WARFARE_DOCTRINE_DESC"
-				maxWidth = 350
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
+			}		
 
 			instantTextBoxType = {
 				name = "superior_firepower_desc"
@@ -152,62 +236,6 @@ guiTypes = {
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-			}
-			
-			instantTextBoxType = {
-				name = "mob_warfare_subtitle1"
-				position = { x = 110 y = 435 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "MOBILE_INFANTRY_LABEL"
-				maxWidth = 150
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "MOBILE_INFANTRY_LABEL_TT"
-			}
-
-			instantTextBoxType = {
-				name = "mob_warfare_subtitle2"
-				position = { x = 355 y = 455 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "BLITZKRIEG_LABEL"
-				maxWidth = 200
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "BLITZKRIEG_LABEL_TT"
-			}
-			
-			instantTextBoxType = {
-				name = "mob_warfare_subtitle3"
-				position = { x = 110 y = 919 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "DESPERATE_DEFENSE_LABEL"
-				maxWidth = 150
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "DESPERATE_DEFENSE_LABEL_TT"
-			}
-
-			instantTextBoxType = {
-				name = "mob_warfare_subtitle4"
-				position = { x = 360 y = 919 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "MODERN_BLITZKRIEG_LABEL"
-				maxWidth = 180
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "MODERN_BLITZKRIEG_LABEL_TT"
 			}				
 			
 			instantTextBoxType = {
@@ -820,7 +848,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=3 y=3 }
+			position = { x=1 y=1 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}
@@ -856,7 +884,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=3 y=3 }
+			position = { x=1 y=1 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}
@@ -892,7 +920,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=3 y=3 }
+			position = { x=1 y=1 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}

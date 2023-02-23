@@ -591,7 +591,10 @@ technologies = {
 			cat_rapid_deployment
 		}
 		
-		supply_consumption_factor = -0.1
+		naval_assault_vehicle_brigade = {
+			combat_width = -0.5
+			breakthrough = 0.5
+		}
 		
 		folder = {
 			name = land_doctrine_folder

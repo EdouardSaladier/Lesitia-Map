@@ -7,6 +7,8 @@
  aerial_troops_desc:0 "Aerial Troops"
  assault_forces:0 "Assault Forces"
  assault_forces_desc:0 "Assault Forces"
+ 
+ category_armored_cars:0 "Frontline & Support Armored Cars"
 
  drone_recon_s_company:0 "Drone Reconnaissance Company"
  drone_recon_s_company_desc:0 "Drone Reconnaissance Company"

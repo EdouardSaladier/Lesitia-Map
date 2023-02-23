@@ -1,0 +1,69 @@
+spriteTypes = {
+
+	### Rapid Deployment
+	
+	SpriteType = {
+		name = "GFX_swift_strike_medium"
+		texturefile = "gfx/interface/technologies/swift_strike.dds"
+	}
+	SpriteType = {
+		name = "GFX_reconnaissance_in_force_medium"
+		texturefile = "gfx/interface/technologies/reconnaissance_in_force.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_ambush_tactics_medium"
+		texturefile = "gfx/interface/technologies/advanced_ambush_tactics.dds"
+	}
+	SpriteType = {
+		name = "GFX_network_maneuver_warfare_medium"
+		texturefile = "gfx/interface/technologies/network_maneuver_warfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_mobile_strike_force_medium"
+		texturefile = "gfx/interface/technologies/mobile_strike_force.dds"
+	}
+	SpriteType = {
+		name = "GFX_rapid_reaction_task_forces_medium"
+		texturefile = "gfx/interface/technologies/rapid_reaction_task_forces.dds"
+	}
+	SpriteType = {
+		name = "GFX_precision_guided_rockets_medium"
+		texturefile = "gfx/interface/technologies/precision_guided_rockets.dds"
+	}
+	SpriteType = {
+		name = "GFX_hit_and_run_medium"
+		texturefile = "gfx/interface/technologies/hit_and_run.dds"
+	}
+	SpriteType = {
+		name = "GFX_high_firepower_deployment_medium"
+		texturefile = "gfx/interface/technologies/high_firepower_deployment.dds"
+	}
+	SpriteType = {
+		name = "GFX_rolling_barrages_medium"
+		texturefile = "gfx/interface/technologies/rolling_barrages.dds"
+	}
+	SpriteType = {
+		name = "GFX_tactical_mobility_coordination_medium"
+		texturefile = "gfx/interface/technologies/tactical_mobility_coordination.dds"
+	}
+	SpriteType = {
+		name = "GFX_stealth_operations_medium"
+		texturefile = "gfx/interface/technologies/stealth_operations.dds"
+	}
+	SpriteType = {
+		name = "GFX_amphibious_flanking_medium"
+		texturefile = "gfx/interface/technologies/amphibious_flanking.dds"
+	}
+	SpriteType = {
+		name = "GFX_self_sufficiency_medium"
+		texturefile = "gfx/interface/technologies/self_sufficiency.dds"
+	}
+	SpriteType = {
+		name = "GFX_lightning_insertion_medium"
+		texturefile = "gfx/interface/technologies/lightning_insertion.dds"
+	}
+	SpriteType = {
+		name = "GFX_airborne_resupply_medium"
+		texturefile = "gfx/interface/technologies/airborne_resupply.dds"
+	}
+}
