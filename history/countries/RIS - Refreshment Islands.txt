@@ -1,0 +1,28 @@
+capital = 181
+
+oob = "standard_templates"
+
+# Starting tech
+
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = corporatism
+	last_election = "3374.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	despotism = 20
+	supremacism = 0
+	democracy = 0
+	corporatism = 80
+}
+
+create_country_leader = {
+	name = "Paragram Kalil"
+	desc = "RIS_paragram_desc"
+	picture = "portrait_paragram_briz.dds"
+	ideology = corporatism_type 
+}

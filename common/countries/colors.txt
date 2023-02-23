@@ -148,3 +148,7 @@ ZHA = {
 	color = rgb { 230 230 230 }
 	color_ui = rgb { 230 230 230 }
 }
+RIS = {
+	color = rgb { 55 5 155 }
+	color_ui = rgb { 55 5 155 }
+}
