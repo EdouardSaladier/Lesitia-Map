@@ -483,5 +483,24 @@ ideas = {
 			}		
 		}
 		
+		mass_produced_ugvs_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				unmanned_ground_combat_tank_equipment_arch = {
+					build_cost_ic = -0.20
+					instant = yes
+				}
+			}		
+		}
+		
 	}
 }

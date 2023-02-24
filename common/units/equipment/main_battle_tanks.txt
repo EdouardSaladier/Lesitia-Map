@@ -40,8 +40,6 @@ equipments = {
 		
 		build_cost_ic = 12 
 		resources = {
-			#oil = 1
-			tungsten = 2
 			steel = 2
 		}
 		
@@ -50,7 +48,7 @@ equipments = {
 
 	# 3381
 	main_battle_tank_equipment = {
-		year = 3381
+		year = 3358
 
 		archetype = main_battle_tank_equipment_arch
 		priority = 50
@@ -83,7 +81,7 @@ equipments = {
 	}
 	
 	main_ground_combat_system_equipment = {
-		year = 3381
+		year = 3376
 
 		archetype = main_battle_tank_equipment_arch
 		priority = 50
@@ -118,7 +116,7 @@ equipments = {
 	}
 	
 	frontline_breakthrough_tank_equipment = {
-		year = 3381
+		year = 3378
 
 		archetype = main_battle_tank_equipment_arch
 		priority = 50
@@ -155,7 +153,7 @@ equipments = {
 	}
 	
 	general_purpose_railgun_carrier_equipment = {
-		year = 3381
+		year = 3380
 
 		archetype = main_battle_tank_equipment_arch
 		priority = 50
@@ -192,7 +190,7 @@ equipments = {
 	}
 	
 	decisive_lethality_platform_equipment = {
-		year = 3381
+		year = 3383
 
 		archetype = main_battle_tank_equipment_arch
 		priority = 50

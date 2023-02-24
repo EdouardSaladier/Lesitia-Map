@@ -76,6 +76,20 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 			
+			gridboxtype = {
+				name = "swift_strike_tree"
+				position = { x=80 y=172 }
+				size = { width = 478 height = 1350 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=0 y=-150 }					
+				}				
+			}
+			
 			instantTextBoxType = {
 				name = "rapid_deployment_subtitle1"
 				position = { x = 150 y = 200 }
@@ -161,17 +175,100 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
-				name = "superior_firepower_title"
+				name = "remote_strike_title"
 				position = { x = 600 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "SUPERIOR_FIREPOWER_DOCTRINE_LABEL"
+				text = "REMOTE_STRIKE_DOCTRINE_LABEL"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
 			}
+			
+			instantTextBoxType = {
+				name = "remote_strike_desc"
+				position = { x = 600 y = 70 }
+				textureFile = ""
+				font = "hoi_20b"
+				borderSize = {x = 0 y = 4}
+				text = "REMOTE_STRIKE_DOCTRINE_DESC"
+				maxWidth = 400
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+			}
+			
+			gridboxtype = {
+				name = "precision_strikes_tree"
+				position = { x=560 y=172 }
+				size = { width = 480 height = 1350 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+				
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=0 y=-150 }					
+				}									
+			}
+			
+			instantTextBoxType = {
+				name = "precision_strikes_subtitle1"
+				position = { x = 620 y = 320 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "ARMY_SUPPORT_LABEL"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "ARMY_SUPPORT_LABEL_TT"
+			}				
+
+			instantTextBoxType = {
+				name = "precision_strikes_subtitle2"
+				position = { x = 870 y = 300 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "TARGET_DESTRUCTION_LABEL"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "TARGET_DESTRUCTION_LABEL_TT"
+			}
+			
+			instantTextBoxType = {
+				name = "precision_strikes_subtitle3"
+				position = { x = 620 y = 920 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "MASS_UGV_DEPLOYMENT"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "MASS_UGV_DEPLOYMENTL_TT"
+			}				
+
+			instantTextBoxType = {
+				name = "precision_strikes_subtitle4"
+				position = { x = 870 y = 920 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "UGV_COMBAT_OPTIMISATION"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "UGV_COMBAT_OPTIMISATION_TT"
+			}				
 
 			instantTextBoxType = {
 				name = "grand_battleplan_title"
@@ -193,19 +290,6 @@ guiTypes = {
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
 				text = "MASS_ASSAULT_DOCTRINE_LABEL"
-				maxWidth = 400
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}		
-
-			instantTextBoxType = {
-				name = "superior_firepower_desc"
-				position = { x = 600 y = 90 }
-				textureFile = ""
-				font = "hoi_20b"
-				borderSize = {x = 0 y = 4}
-				text = "SUPERIOR_FIREPOWER_DOCTRINE_DESC"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
@@ -236,62 +320,6 @@ guiTypes = {
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-			}				
-			
-			instantTextBoxType = {
-				name = "sup_firepower_subtitle1"
-				position = { x = 600 y = 435 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "DISPERSED_SUPPORT_LABEL"
-				maxWidth = 150
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "DISPERSED_SUPPORT_LABEL_TT"
-			}				
-
-			instantTextBoxType = {
-				name = "sup_firepower_subtitle2"
-				position = { x = 850 y = 435 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "INTEGRATED_SUPPORT_LABEL"
-				maxWidth = 170
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "INTEGRATED_SUPPORT_LABEL_TT"
-			}
-			
-			instantTextBoxType = {
-				name = "sup_firepower_subtitle3"
-				position = { x = 600 y = 795 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "AIRLAND_BATTLE_LABEL"
-				maxWidth = 150
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "AIRLAND_BATTLE_LABEL_TT"
-			}				
-
-			instantTextBoxType = {
-				name = "sup_firepower_subtitle4"
-				position = { x = 840 y = 795 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "SHOCK_AND_AWE_LABEL"
-				maxWidth = 170
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "SHOCK_AND_AWE_LABEL_TT"
 			}				
 			
 			instantTextBoxType = {
@@ -348,34 +376,6 @@ guiTypes = {
 				format = center
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "MASS_MOBILIZATION_LABEL_TT"
-			}
-				
-			gridboxtype = {
-				name = "swift_strike_tree"
-				position = { x=80 y=172 }
-				size = { width = 478 height = 1350 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}				
-			}
-
-			gridboxtype = {
-				name = "superior_firepower_tree"
-				position = { x=560 y=172 }
-				size = { width = 480 height = 1350 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}									
 			}
 
 			gridboxtype = {

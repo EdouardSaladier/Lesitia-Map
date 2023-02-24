@@ -10,6 +10,8 @@ sub_unit_categories = {
 	category_artillery
 	category_line_artillery
 	category_regular_artillery
+	category_field_artillery
+	category_precision_artillery
 	category_rocket_artillery
 	category_aa_artillery
 	

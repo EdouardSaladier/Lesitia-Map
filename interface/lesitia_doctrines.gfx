@@ -66,4 +66,67 @@ spriteTypes = {
 		name = "GFX_airborne_resupply_medium"
 		texturefile = "gfx/interface/technologies/airborne_resupply.dds"
 	}
+	
+	###Remote strike docrine
+	
+	SpriteType = {
+		name = "GFX_precision_strikes_medium"
+		texturefile = "gfx/interface/technologies/precision_strikes.dds"
+	}
+	SpriteType = {
+		name = "GFX_network_centric_operations_medium"
+		texturefile = "gfx/interface/technologies/network_centric_operations.dds"
+	}
+	SpriteType = {
+		name = "GFX_general_artillery_integration_medium"
+		texturefile = "gfx/interface/technologies/general_artillery_integration.dds"
+	}
+	SpriteType = {
+		name = "GFX_real_time_fire_support_medium"
+		texturefile = "gfx/interface/technologies/real_time_fire_support.dds"
+	}
+	SpriteType = {
+		name = "GFX_autonomous_targets_destruction_medium"
+		texturefile = "gfx/interface/technologies/autonomous_targets_destruction.dds"
+	}
+	SpriteType = {
+		name = "GFX_high_value_targets_priorisation_medium"
+		texturefile = "gfx/interface/technologies/high_value_targets_priorisation.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_target_designation_medium"
+		texturefile = "gfx/interface/technologies/infantry_target_designation.dds"
+	}
+	SpriteType = {
+		name = "GFX_satellite_based_guidance_systems_medium"
+		texturefile = "gfx/interface/technologies/satellite_based_guidance_systems.dds"
+	}
+	SpriteType = {
+		name = "GFX_drone_target_designators_medium"
+		texturefile = "gfx/interface/technologies/drone_target_designators.dds"
+	}
+	SpriteType = {
+		name = "GFX_armored_breakthrough_exploitations_medium"
+		texturefile = "gfx/interface/technologies/armored_breakthrough_exploitations.dds"
+	}
+	SpriteType = {
+		name = "GFX_mass_produced_ugvs_medium"
+		texturefile = "gfx/interface/technologies/mass_produced_ugvs.dds"
+	}
+	SpriteType = {
+		name = "GFX_ugv_swarm_tactics_medium"
+		texturefile = "gfx/interface/technologies/ugv_swarm_tactics.dds"
+	}
+	SpriteType = {
+		name = "GFX_supportive_overwatch_medium"
+		texturefile = "gfx/interface/technologies/supportive_overwatch.dds"
+	}
+	SpriteType = {
+		name = "GFX_search_and_destroy_manoeuvers_medium"
+		texturefile = "gfx/interface/technologies/search_and_destroy_manoeuvers.dds"
+	}
+	SpriteType = {
+		name = "GFX_long_range_strikes_medium"
+		texturefile = "gfx/interface/technologies/long_range_strikes.dds"
+	}
 }
