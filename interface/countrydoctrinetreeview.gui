@@ -269,18 +269,101 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "UGV_COMBAT_OPTIMISATION_TT"
 			}				
-
+			
+			gridboxtype = {
+				name = "industrial_warfare_tree"
+				position = { x=1040 y=172 }
+				size = { width = 480 height = 1350 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+				
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=0 y=-150 }					
+				}
+			}
+			
 			instantTextBoxType = {
-				name = "grand_battleplan_title"
+				name = "industrial_warfare_title"
 				position = { x = 1080 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "GRAND_BATTLEPLAN_DOCTRINE_LABEL"
+				text = "INDUSTRIAL_WARFARE_DOCTRINE_LABEL"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "industrial_warfare_desc"
+				position = { x = 1100 y = 70 }
+				textureFile = ""
+				font = "hoi_20b"
+				borderSize = {x = 0 y = 4}
+				text = "INDUSTRIAL_WARFARE_DOCTRINE_DESC"
+				maxWidth = 350
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "industrial_warfare_subtitle1"
+				position = { x = 1100 y = 200 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "QUALITY_TANKS_LABEL"
+				maxWidth = 120
+				maxHeight = 60
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "QUALITY_TANKS_LABEL_TT"
+			}
+
+			instantTextBoxType = {
+				name = "industrial_warfare_subtitle2"
+				position = { x = 1340 y = 200 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "MASS_TANKS_LABEL"
+				maxWidth = 120
+				maxHeight = 60
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "MASS_TANKS_LABEL_TT"
+			}
+			
+			instantTextBoxType = {
+				name = "industrial_warfare_subtitle3"
+				position = { x = 1100 y = 680 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "SPEC_OPS_LABEL"
+				maxWidth = 120
+				maxHeight = 60
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "SPEC_OPS_LABEL_TT"
+			}
+
+			instantTextBoxType = {
+				name = "industrial_warfare_subtitle4"
+				position = { x = 1340 y = 680 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "INFANTRY_MASS_LABEL"
+				maxWidth = 120
+				maxHeight = 60
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "INFANTRY_MASS_LABEL_TT"
 			}
 			
 			instantTextBoxType = {
@@ -291,19 +374,6 @@ guiTypes = {
 				borderSize = {x = 0 y = 4}
 				text = "MASS_ASSAULT_DOCTRINE_LABEL"
 				maxWidth = 400
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
-
-			instantTextBoxType = {
-				name = "grand_battleplan_desc"
-				position = { x = 1100 y = 90 }
-				textureFile = ""
-				font = "hoi_20b"
-				borderSize = {x = 0 y = 4}
-				text = "GRAND_BATTLEPLAN_DOCTRINE_DESC"
-				maxWidth = 350
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
@@ -320,34 +390,6 @@ guiTypes = {
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-			}				
-			
-			instantTextBoxType = {
-				name = "grand_battleplan_subtitle1"
-				position = { x = 1070 y = 575 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "ASSAULT_LABEL"
-				maxWidth = 170
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "ASSAULT_LABEL_TT"
-			}
-
-			instantTextBoxType = {
-				name = "grand_battleplan_subtitle2"
-				position = { x = 1310 y = 575 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "INFILTRATION_LABEL"
-				maxWidth = 200
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "INFILTRATION_LABEL_TT"
 			}
 			
 			instantTextBoxType = {
@@ -377,22 +419,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "MASS_MOBILIZATION_LABEL_TT"
 			}
-
-			gridboxtype = {
-				name = "trench_warfare_tree"
-				position = { x=1040 y=172 }
-				size = { width = 480 height = 1350 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}					
-				
-			}
-
+			
 			gridboxtype = {
 				name = "mass_assault_tree"
 				position = { x=1520 y=172 }

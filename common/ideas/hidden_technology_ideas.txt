@@ -502,5 +502,82 @@ ideas = {
 			}		
 		}
 		
+		tank_production_rationalisation_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				main_battle_tank_equipment_arch = {
+					build_cost_ic = -0.10
+					instant = yes
+				}
+			}		
+		}
+		
+		artillery_production_optimisation_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+			}		
+		}
+		
+		advanced_explosive_production_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = 0.1
+					soft_attack = 0.25
+					instant = yes
+				}
+			}		
+		}
+		
+		rail_war_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				train_equipment = {
+					build_cost_ic = -0.25
+					instant = yes
+				}
+			}		
+		}
+		
 	}
 }

@@ -9,7 +9,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		xor = { precision_strikes } 
+		xor = { precision_strikes industrial_warfare } 
 
 		path = {
 			leads_to_tech = reconnaissance_in_force 
@@ -706,7 +706,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		xor = { swift_strike } 
+		xor = { swift_strike industrial_warfare } 
 
 		path = {
 			leads_to_tech = network_centric_operations 
@@ -1281,6 +1281,621 @@ technologies = {
 		categories = {
 			land_doctrine
 			cat_remote_strike
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	###Tank Doctrine
+	
+	industrial_warfare = {
+		
+		doctrine_name = "INDUSTRIAL_WARFARE_DOCTRINE"
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		xor = { swift_strike precision_strikes } 
+
+		path = {
+			leads_to_tech = rupture_tanks
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_production_rationalisation
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = deep_combat_reserves
+			research_cost_coeff = 1
+		}
+		
+		industrial_capacity_factory = 0.1
+		industry_repair_factor = 0.25
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	rupture_tanks = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		xor = { tank_production_rationalisation } 
+
+		path = {
+			leads_to_tech = breakthrough_exploitation_tactics
+			research_cost_coeff = 1
+		}
+		
+		main_battle_tank_brigade = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			ap_attack = 0.1
+			armor_value = 0.1
+		}
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	breakthrough_exploitation_tactics = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		main_battle_tank_brigade = {
+			breakthrough = 0.1
+			default_morale = 0.25
+		}
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	tank_production_rationalisation = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		xor = { rupture_tanks } 
+
+		path = {
+			leads_to_tech = armored_shock_wave
+			research_cost_coeff = 1
+		}
+		
+		show_effect_as_desc = yes
+		on_research_complete = {
+			add_ideas = tank_production_rationalisation_idea
+		}
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	armored_shock_wave = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		main_battle_tank_brigade = {
+			combat_width = -0.5
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	deep_combat_reserves = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		path = {
+			leads_to_tech = rail_war
+			research_cost_coeff = 1
+		}
+		
+		land_reinforce_rate = 0.02
+		
+		category_all_infantry = {
+			max_organisation = 10
+			default_morale = 0.25
+		}
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	rail_war = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		path = {
+			leads_to_tech = focus_on_elite_forces
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = relentless_mobilisation
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = firepower_saturation
+			research_cost_coeff = 1
+		}
+		
+		show_effect_as_desc = yes
+		on_research_complete = {
+			add_ideas = rail_war_idea
+		}
+		
+		production_speed_infrastructure_factor = 0.25
+		production_speed_rail_way_factor = 0.25
+		production_speed_supply_node_factor = 0.25
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	focus_on_elite_forces = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		xor = { relentless_mobilisation } 
+
+		path = {
+			leads_to_tech = special_assault_detachments
+			research_cost_coeff = 1
+		}
+		
+		special_forces_cap = 0.25
+		special_forces_min = 100
+		special_forces_no_supply_grace = 480
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 10 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	special_assault_detachments = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		category_special_forces = {
+			soft_attack = 0.1
+			breakthrough = 0.1
+		}
+		heat_attrition_factor = -0.25
+		winter_attrition_factor = -0.25
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 12 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	relentless_mobilisation = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		xor = { focus_on_elite_forces } 
+
+		path = {
+			leads_to_tech = heavy_infantry_deployment
+			research_cost_coeff = 1
+		}
+		
+		conscription_factor = 0.1
+		mobilization_speed = 0.25
+		experience_loss_factor = -0.1
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	heavy_infantry_deployment = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		infantry = {
+			combat_width = -0.25
+		}
+		at_infantry = {
+			combat_width = -0.25
+		}
+		unit_upkeep_attrition_factor = -0.1
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 12 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	firepower_saturation = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		path = {
+			leads_to_tech = artillery_production_optimisation
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = advanced_explosive_production
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = orchestrated_warfare
+			research_cost_coeff = 1
+		}
+		
+		field_artillery_brigade = {
+			combat_width = -0.5
+		}
+		
+		army_artillery_attack_factor = 0.1
+		army_artillery_defence_factor = 0.1
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	artillery_production_optimisation = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		xor = { advanced_explosive_production }
+		
+		show_effect_as_desc = yes
+		on_research_complete = {
+			add_ideas = artillery_production_optimisation_idea
+		}
+		
+		production_factory_efficiency_gain_factor = 0.1
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 16 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	advanced_explosive_production = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		xor = { artillery_production_optimisation }
+		
+		show_effect_as_desc = yes
+		on_research_complete = {
+			add_ideas = advanced_explosive_production_idea
+			modify_building_resources = {
+				building = explosive_factory
+				resource = explosives
+				amount = 2
+			}
+		}
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 16 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
+		}
+		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	orchestrated_warfare = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		
+		truck_attrition_factor = -0.5
+		breakthrough_factor = 0.1
+		max_planning_factor = 0.5
+		planning_speed = 0.5
+
+		doctrine = yes	
+		research_cost = 1
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 18 }
+		}
+		
+		categories = {
+			land_doctrine
+			cat_classical_armored_warfare
 		}
 		
 		ai_will_do = {

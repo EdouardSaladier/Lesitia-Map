@@ -129,4 +129,65 @@ spriteTypes = {
 		name = "GFX_long_range_strikes_medium"
 		texturefile = "gfx/interface/technologies/long_range_strikes.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_industrial_warfare_medium"
+		texturefile = "gfx/interface/technologies/industrial_warfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_rupture_tanks_medium"
+		texturefile = "gfx/interface/technologies/rupture_tanks.dds"
+	}
+	SpriteType = {
+		name = "GFX_breakthrough_exploitation_tactics_medium"
+		texturefile = "gfx/interface/technologies/breakthrough_exploitation_tactics.dds"
+	}
+	SpriteType = {
+		name = "GFX_tank_production_rationalisation_medium"
+		texturefile = "gfx/interface/technologies/tank_production_rationalisation.dds"
+	}
+	SpriteType = {
+		name = "GFX_armored_shock_wave_medium"
+		texturefile = "gfx/interface/technologies/armored_shock_wave.dds"
+	}
+	SpriteType = {
+		name = "GFX_deep_combat_reserves_medium"
+		texturefile = "gfx/interface/technologies/deep_combat_reserves.dds"
+	}
+	SpriteType = {
+		name = "GFX_rail_war_medium"
+		texturefile = "gfx/interface/technologies/rail_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_on_elite_forces_medium"
+		texturefile = "gfx/interface/technologies/focus_on_elite_forces.dds"
+	}
+	SpriteType = {
+		name = "GFX_special_assault_detachments_medium"
+		texturefile = "gfx/interface/technologies/special_assault_detachments.dds"
+	}
+	SpriteType = {
+		name = "GFX_relentless_mobilisation_medium"
+		texturefile = "gfx/interface/technologies/relentless_mobilisation.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_infantry_deployment_medium"
+		texturefile = "gfx/interface/technologies/heavy_infantry_deployment.dds"
+	}
+	SpriteType = {
+		name = "GFX_firepower_saturation_medium"
+		texturefile = "gfx/interface/technologies/firepower_saturation.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery_production_optimisation_medium"
+		texturefile = "gfx/interface/technologies/artillery_production_optimisation.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_explosive_production_medium"
+		texturefile = "gfx/interface/technologies/advanced_explosive_production.dds"
+	}
+	SpriteType = {
+		name = "GFX_orchestrated_warfare_medium"
+		texturefile = "gfx/interface/technologies/orchestrated_warfare.dds"
+	}
 }
