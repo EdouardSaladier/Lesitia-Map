@@ -173,120 +173,10 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "AIR_ATTACK_LABEL_TT"
 			}
-
-			instantTextBoxType = {
-				name = "remote_strike_title"
-				position = { x = 600 y = 35 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "REMOTE_STRIKE_DOCTRINE_LABEL"
-				maxWidth = 400
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
-			
-			instantTextBoxType = {
-				name = "remote_strike_desc"
-				position = { x = 600 y = 70 }
-				textureFile = ""
-				font = "hoi_20b"
-				borderSize = {x = 0 y = 4}
-				text = "REMOTE_STRIKE_DOCTRINE_DESC"
-				maxWidth = 400
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
-			
-			gridboxtype = {
-				name = "precision_strikes_tree"
-				position = { x=560 y=172 }
-				size = { width = 480 height = 1350 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}									
-			}
-			
-			instantTextBoxType = {
-				name = "precision_strikes_subtitle1"
-				position = { x = 620 y = 320 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "ARMY_SUPPORT_LABEL"
-				maxWidth = 120
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "ARMY_SUPPORT_LABEL_TT"
-			}				
-
-			instantTextBoxType = {
-				name = "precision_strikes_subtitle2"
-				position = { x = 870 y = 300 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "TARGET_DESTRUCTION_LABEL"
-				maxWidth = 120
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TARGET_DESTRUCTION_LABEL_TT"
-			}
-			
-			instantTextBoxType = {
-				name = "precision_strikes_subtitle3"
-				position = { x = 620 y = 920 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "MASS_UGV_DEPLOYMENT"
-				maxWidth = 120
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "MASS_UGV_DEPLOYMENTL_TT"
-			}				
-
-			instantTextBoxType = {
-				name = "precision_strikes_subtitle4"
-				position = { x = 870 y = 920 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "UGV_COMBAT_OPTIMISATION"
-				maxWidth = 120
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "UGV_COMBAT_OPTIMISATION_TT"
-			}				
-			
-			gridboxtype = {
-				name = "industrial_warfare_tree"
-				position = { x=1040 y=172 }
-				size = { width = 480 height = 1350 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}
-			}
 			
 			instantTextBoxType = {
 				name = "industrial_warfare_title"
-				position = { x = 1080 y = 35 }
+				position = { x = 610 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -299,7 +189,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "industrial_warfare_desc"
-				position = { x = 1100 y = 70 }
+				position = { x = 630 y = 70 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
@@ -310,9 +200,23 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 			
+			gridboxtype = {
+				name = "industrial_warfare_tree"
+				position = { x=560 y=172 }
+				size = { width = 480 height = 1350 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+				
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=0 y=-150 }					
+				}
+			}
+			
 			instantTextBoxType = {
 				name = "industrial_warfare_subtitle1"
-				position = { x = 1100 y = 200 }
+				position = { x = 620 y = 200 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -326,7 +230,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "industrial_warfare_subtitle2"
-				position = { x = 1340 y = 200 }
+				position = { x = 870 y = 200 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -340,7 +244,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "industrial_warfare_subtitle3"
-				position = { x = 1100 y = 680 }
+				position = { x = 620 y = 680 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -354,7 +258,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "industrial_warfare_subtitle4"
-				position = { x = 1340 y = 680 }
+				position = { x = 870 y = 680 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -365,14 +269,14 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "INFANTRY_MASS_LABEL_TT"
 			}
-			
+
 			instantTextBoxType = {
-				name = "mass_assault_title"
-				position = { x = 1560 y = 35 }
+				name = "remote_strike_title"
+				position = { x = 1085 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "MASS_ASSAULT_DOCTRINE_LABEL"
+				text = "REMOTE_STRIKE_DOCTRINE_LABEL"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
@@ -380,12 +284,108 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "mass assault_desc"
-				position = { x = 1606 y = 90 }
+				name = "remote_strike_desc"
+				position = { x = 1070 y = 70 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
-				text = "MASS_ASSAULT_DOCTRINE_DESC"
+				text = "REMOTE_STRIKE_DOCTRINE_DESC"
+				maxWidth = 400
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+			}
+			
+			gridboxtype = {
+				name = "precision_strikes_tree"
+				position = { x=1040 y=172 }
+				size = { width = 480 height = 1350 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+				
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=0 y=-150 }					
+				}									
+			}
+			
+			instantTextBoxType = {
+				name = "precision_strikes_subtitle1"
+				position = { x = 1100 y = 320 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "ARMY_SUPPORT_LABEL"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "ARMY_SUPPORT_LABEL_TT"
+			}				
+
+			instantTextBoxType = {
+				name = "precision_strikes_subtitle2"
+				position = { x = 1340 y = 300 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "TARGET_DESTRUCTION_LABEL"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "TARGET_DESTRUCTION_LABEL_TT"
+			}
+			
+			instantTextBoxType = {
+				name = "precision_strikes_subtitle3"
+				position = { x = 1100 y = 920 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "MASS_UGV_DEPLOYMENT"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "MASS_UGV_DEPLOYMENTL_TT"
+			}				
+
+			instantTextBoxType = {
+				name = "precision_strikes_subtitle4"
+				position = { x = 1340 y = 920 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "UGV_COMBAT_OPTIMISATION"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "UGV_COMBAT_OPTIMISATION_TT"
+			}
+			
+			instantTextBoxType = {
+				name = "asymmetric_warfare_title"
+				position = { x = 1560 y = 35 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "ASYMMETRIC_WARFARE_DOCTRINE_LABEL"
+				maxWidth = 400
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "asymmetric_warfare_desc"
+				position = { x = 1606 y = 70 }
+				textureFile = ""
+				font = "hoi_20b"
+				borderSize = {x = 0 y = 4}
+				text = "ASYMMETRIC_WARFARE_DOCTRINE_DESC"
 				maxWidth = 300
 				maxHeight = 122
 				format = center
@@ -393,35 +393,63 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "mass_assault_subtitle1"
-				position = { x = 1560 y = 435 }
+				name = "asymmetric_warfare_subtitle1"
+				position = { x = 1580 y = 200 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "DEEP_BATTLE_LABEL"
-				maxWidth = 150
+				text = "WAR_OF_RESISTANCE_LABEL"
+				maxWidth = 120
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "DEEP_BATTLE_LABEL_TT"
+				pdx_tooltip = "WAR_OF_RESISTANCE_LABEL_TT"
 			}				
 
 			instantTextBoxType = {
-				name = "mass_assault_subtitle2"
-				position = { x = 1816 y = 435 }
+				name = "asymmetric_warfare_subtitle2"
+				position = { x = 1820 y = 220 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "MASS_MOBILIZATION_LABEL"
-				maxWidth = 150
+				text = "PEOPLE_WAR_LABEL"
+				maxWidth = 120
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "MASS_MOBILIZATION_LABEL_TT"
+				pdx_tooltip = "PEOPLE_WAR_LABEL_TT"
+			}
+			
+			instantTextBoxType = {
+				name = "asymmetric_warfare_subtitle3"
+				position = { x = 1580 y = 680 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "ALL_TERRAIN_ASSAULT_LABEL"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "ALL_TERRAIN_ASSAULT_LABEL_TT"
+			}
+			
+			instantTextBoxType = {
+				name = "asymmetric_warfare_subtitle4"
+				position = { x = 1820 y = 680 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "EMERGENCY_DEFENSE_LABEL"
+				maxWidth = 120
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "EMERGENCY_DEFENSE_LABEL_TT"
 			}
 			
 			gridboxtype = {
-				name = "mass_assault_tree"
+				name = "distributed_authority_tree"
 				position = { x=1520 y=172 }
 				size = { width = 480 height = 1350 }
 				slotsize = { width=60 height= 60 }

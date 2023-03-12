@@ -33,6 +33,7 @@
  category_precision_artillery:0 "Frontline & Support Precision Artillery"
  category_rocket_artillery:0 "All Rocket Artillery"
  category_aa_artillery:0 "All Anti-Air Artillery"
+ category_support_artillery:0 "All Support Artillery"
  
  field_artillery_brigade:0 "Field Artillery"
  field_artillery_brigade_desc:0 "Field Artillery"

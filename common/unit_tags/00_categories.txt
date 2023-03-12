@@ -14,6 +14,7 @@ sub_unit_categories = {
 	category_precision_artillery
 	category_rocket_artillery
 	category_aa_artillery
+	category_support_artillery
 	
 	category_support_battalions
 	category_recon

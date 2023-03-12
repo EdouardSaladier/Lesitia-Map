@@ -18,6 +18,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_support_battalions
+			category_support_artillery
 			category_artillery
 			category_regular_artillery
 			category_field_artillery
@@ -69,6 +70,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_support_battalions
+			category_support_artillery
 			category_artillery
 			category_regular_artillery
 			category_precision_artillery
@@ -121,6 +123,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_support_battalions
+			category_support_artillery
 			category_artillery
 			category_rocket_artillery
 		}
@@ -172,6 +175,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_support_battalions
+			category_support_artillery
 			category_artillery
 			category_rocket_artillery
 			category_aa_artillery
@@ -223,6 +227,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_support_battalions
+			category_support_artillery
 			category_artillery
 			category_aa_artillery
 		}

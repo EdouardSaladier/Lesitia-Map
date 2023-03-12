@@ -92,6 +92,7 @@ technology_categories = {
 	cat_rapid_deployment
 	cat_remote_strike
 	cat_classical_armored_warfare
+	cat_asymmetric_warfare
 	
 	air_doctrine
 	naval_doctrine

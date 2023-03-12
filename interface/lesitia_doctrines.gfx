@@ -190,4 +190,65 @@ spriteTypes = {
 		name = "GFX_orchestrated_warfare_medium"
 		texturefile = "gfx/interface/technologies/orchestrated_warfare.dds"
 	}
+	#Asymmetric Warfare
+	SpriteType = {
+		name = "GFX_distributed_authority_medium"
+		texturefile = "gfx/interface/technologies/distributed_authority.dds"
+	}
+	SpriteType = {
+		name = "GFX_underground_network_operation_medium"
+		texturefile = "gfx/interface/technologies/underground_network_operation.dds"
+	}
+	SpriteType = {
+		name = "GFX_shadow_cell_tactics_medium"
+		texturefile = "gfx/interface/technologies/shadow_cell_tactics.dds"
+	}
+	SpriteType = {
+		name = "GFX_large_scale_civilian_military_integration_medium"
+		texturefile = "gfx/interface/technologies/large_scale_civilian_military_integration.dds"
+	}
+	SpriteType = {
+		name = "GFX_unified_people_military_force_medium"
+		texturefile = "gfx/interface/technologies/unified_people_military_force.dds"
+	}
+	SpriteType = {
+		name = "GFX_military_scavenging_formation_medium"
+		texturefile = "gfx/interface/technologies/military_scavenging_formation.dds"
+	}
+	SpriteType = {
+		name = "GFX_modular_force_structure_medium"
+		texturefile = "gfx/interface/technologies/modular_force_structure.dds"
+	}
+	SpriteType = {
+		name = "GFX_distributed_fire_network_medium"
+		texturefile = "gfx/interface/technologies/distributed_fire_network.dds"
+	}
+	SpriteType = {
+		name = "GFX_cross_environments_combat_protocols_medium"
+		texturefile = "gfx/interface/technologies/cross_environments_combat_protocols.dds"
+	}
+	SpriteType = {
+		name = "GFX_adaptive_response_system_medium"
+		texturefile = "gfx/interface/technologies/adaptive_response_system.dds"
+	}
+	SpriteType = {
+		name = "GFX_improvised_defense_systems_medium"
+		texturefile = "gfx/interface/technologies/improvised_defense_systems.dds"
+	}
+	SpriteType = {
+		name = "GFX_economical_use_of_assets_medium"
+		texturefile = "gfx/interface/technologies/economical_use_of_assets.dds"
+	}
+	SpriteType = {
+		name = "GFX_autonomous_anti_air_squads_medium"
+		texturefile = "gfx/interface/technologies/autonomous_anti_air_squads.dds"
+	}
+	SpriteType = {
+		name = "GFX_permanent_relocations_medium"
+		texturefile = "gfx/interface/technologies/permanent_relocations.dds"
+	}
+	SpriteType = {
+		name = "GFX_dynamic_operations_strategy_medium"
+		texturefile = "gfx/interface/technologies/dynamic_operations_strategy.dds"
+	}
 }
