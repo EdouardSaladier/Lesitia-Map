@@ -6,6 +6,10 @@ state={
 	history={
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			farms = 1
+			dockyard = 2
 		}
 		owner = CMM
 		add_core_of = CMM
