@@ -439,7 +439,7 @@ ideas = {
 			cancel_if_invalid = no
 			
 			modifier = {
-				country_resource_cost_electronics = 20
+				country_resource_cost_electronics = 10
 			}
 			
 			default = yes

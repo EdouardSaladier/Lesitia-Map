@@ -77,38 +77,38 @@ spriteTypes = {
 		texturefile = "gfx/interface/laws/consumer_paradise.dds"
 	}
 	
-	# spriteType = {
-		# name = "GFX_idea_no_computers"
-		# texturefile = "gfx/interface/laws/no_computers.dds"
-	# }	
-	# spriteType = {
-		# name = "GFX_idea_commercial_computers_law"
-		# texturefile = "gfx/interface/laws/commercial_computers_law.dds"
-	# }	
-	# spriteType = {
-		# name = "GFX_idea_massively_parallel_computers_law"
-		# texturefile = "gfx/interface/laws/massively_parallel_computers_law.dds"
-	# }	
-	# spriteType = {
-		# name = "GFX_idea_petascale_supercomputers_law"
-		# texturefile = "gfx/interface/laws/petascale_supercomputers_law.dds"
-	# }	
-	# spriteType = {
-		# name = "GFX_idea_exascale_supercomputers_law"
-		# texturefile = "gfx/interface/laws/exascale_supercomputers_law.dds"
-	# }	
-	# spriteType = {
-		# name = "GFX_idea_zettascale_supercomputers_law"
-		# texturefile = "gfx/interface/laws/zettascale_supercomputers_law.dds"
-	# }	
-	# spriteType = {
-		# name = "GFX_idea_yottascale_supercomputers_law"
-		# texturefile = "gfx/interface/laws/yottascale_supercomputers_law.dds"
-	# }	
-	# spriteType = {
-		# name = "GFX_idea_quettascale_supercomputers_law"
-		# texturefile = "gfx/interface/laws/quettascale_supercomputers_law.dds"
-	# }	
+	spriteType = {
+		name = "GFX_idea_no_computers"
+		texturefile = "gfx/interface/laws/no_computers.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_commercial_computers_law"
+		texturefile = "gfx/interface/laws/commercial_computers_law.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_massively_parallel_computers_law"
+		texturefile = "gfx/interface/laws/massively_parallel_computers_law.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_petascale_supercomputers_law"
+		texturefile = "gfx/interface/laws/petascale_supercomputers_law.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_exascale_supercomputers_law"
+		texturefile = "gfx/interface/laws/exascale_supercomputers_law.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_zettascale_supercomputers_law"
+		texturefile = "gfx/interface/laws/zettascale_supercomputers_law.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_yottascale_supercomputers_law"
+		texturefile = "gfx/interface/laws/yottascale_supercomputers_law.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_quettascale_supercomputers_law"
+		texturefile = "gfx/interface/laws/quettascale_supercomputers_law.dds"
+	}	
 	
 	spriteType = {
 		name = "GFX_idea_unrestricted_power_access"
