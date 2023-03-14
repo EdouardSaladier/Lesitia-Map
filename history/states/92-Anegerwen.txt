@@ -2,9 +2,18 @@ state={
 	id=92
 	name="STATE_92"
 	
+	resources = {
+		steel = 4
+	}
+	
 	history={
 		buildings = {
+		    industrial_complex = 2
+			dockyard = 1
 			infrastructure = 3
+			7621 = {
+				naval_base = 3
+			}
 		}
 		owner = AKU
 		victory_points = {

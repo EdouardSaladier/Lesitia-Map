@@ -6,6 +6,11 @@ state={
 	history={
 		buildings = {
 			infrastructure = 1
+			farms = 1
+			industrial_complex = 1
+			7639 = {
+				naval_base = 1
+			}
 		}
 		owner = AKU
 		victory_points = {
