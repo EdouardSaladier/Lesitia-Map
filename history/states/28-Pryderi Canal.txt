@@ -2,10 +2,20 @@
 state={
 	id=28
 	name="STATE_28"
+	
+	resources = {
+		steel = 3
+		tungsten = 5
+	}
 
 	history={
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 3
+			dockyard = 1
+			8583 = {
+				naval_base = 3
+			}
 		}
 		owner = REO
 		victory_points = {

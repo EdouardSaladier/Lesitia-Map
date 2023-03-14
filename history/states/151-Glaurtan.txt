@@ -5,6 +5,9 @@ state={
 	history={
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 4
+			electronics_factory = 2
+			nuclear_reactor = 1
 		}
 		owner = REO
 		victory_points = {

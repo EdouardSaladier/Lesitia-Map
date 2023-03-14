@@ -2,6 +2,12 @@ state={
 	id=147
 	name="STATE_147"
 	
+	resources = {
+		chromium = 6
+		tungsten = 4
+		steel = 8
+	}
+	
 	history={
 		buildings = {
 			infrastructure = 2

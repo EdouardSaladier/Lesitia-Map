@@ -2,9 +2,21 @@ state={
 	id=132
 	name="STATE_132"
 	
+	resources = {
+		steel = 6
+	}
+	
 	history={
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 5
+			dockyard = 1
+			12254 = {
+				naval_base = 5
+			}
+			917 = {
+				naval_base = 3
+			}
 		}
 		owner = REO
 		victory_points = {
