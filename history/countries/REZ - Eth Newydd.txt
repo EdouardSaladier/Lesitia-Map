@@ -25,9 +25,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democracy = 3
-	supremacism = 7
-	despotism = 90
+	democracy = 30
+	supremacism = 0
+	despotism = 60
+	revolutionarism = 10
 	corporatism = 0
 }
 

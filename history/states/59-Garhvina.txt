@@ -6,6 +6,7 @@ state={
 	history={
 		buildings = {
 			infrastructure = 2
+			explosive_factory = 4
 		}
 		owner = SLR
 		add_core_of = SLR

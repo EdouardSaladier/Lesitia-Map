@@ -6,6 +6,7 @@ state={
 	history={
 		buildings = {
 			infrastructure = 1
+			farms = 1
 		}
 		owner = SLR
 		victory_points = {
