@@ -8,7 +8,7 @@ ideas = {
 
 			cost = 100
 			removal_cost = -1
-			level = 6
+			level = 7
 
 			modifier = {
 				conscription = 0.0005
@@ -21,7 +21,7 @@ ideas = {
 
 			cost = 100
 			removal_cost = -1
-			level = 5
+			level = 6
 
 			modifier = {
 				conscription = 0.001
@@ -36,7 +36,7 @@ ideas = {
 
 			cost = 100
 			removal_cost = -1
-			level = 4
+			level = 5
 
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
@@ -66,6 +66,10 @@ ideas = {
 					factor = 20
 					manpower_per_military_factory < 1000
 				}
+				modifier = {
+					factor = 0
+					NOT = { has_idea = volunteer_only }
+				}
 			}
 
 			cancel_if_invalid = no
@@ -75,7 +79,7 @@ ideas = {
 		
 			cost = 100
 			removal_cost = -1
-			level = 3
+			level = 4
 
 			available = {
 				OR = {
@@ -92,16 +96,19 @@ ideas = {
 					factor = 0.5
 					manpower_per_military_factory > 3000
 				}
-
 				modifier = {
 					#Prio if low on manpower
 					factor = 20
 					manpower_per_military_factory <  800
 				}
+				modifier = {
+					factor = 0
+					NOT = { has_idea = limited_conscription }
+				}
 			}
 			
 			modifier = {
-				conscription = 0.02
+				conscription = 0.01
 				industrial_capacity_factory = -0.2
 				industrial_capacity_dockyard = -0.2
 				production_speed_buildings_factor = -0.20
@@ -132,7 +139,55 @@ ideas = {
 					factor = 0.5
 					manpower_per_military_factory >  1000
 				}
-				
+				modifier = {
+					factor = 0
+					NOT = { has_idea = extensive_conscription }
+				}				
+			}
+
+			cost = 100
+			removal_cost = -1
+			level = 3
+
+			modifier = {
+				conscription = 0.025
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				production_speed_buildings_factor = -0.3
+				training_time_factor = 0.3
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		all_adults_serve = {
+
+
+			available = {
+				has_war = yes
+				OR = {
+					has_war_support > 0.8
+					surrender_progress > 0.2
+				}
+			}
+
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					#Prio if low on manpower
+					factor = 20
+					manpower_per_military_factory <  600
+				}
+				modifier = {
+					#Lower chance if has decent amount
+					factor = 0.5
+					manpower_per_military_factory >  1000
+				}
+				modifier = {
+					factor = 0
+					NOT = { has_idea = service_by_requirement }
+				}
+
 			}
 
 			cost = 100
@@ -141,10 +196,10 @@ ideas = {
 
 			modifier = {
 				conscription = 0.05
-				industrial_capacity_factory = -0.3
-				industrial_capacity_dockyard = -0.3
-				production_speed_buildings_factor = -0.3
-				training_time_factor = 0.3
+				industrial_capacity_factory = -0.5
+				industrial_capacity_dockyard = -0.5
+				production_speed_buildings_factor = -0.5
+				training_time_factor = 0.5
 			}
 
 			cancel_if_invalid = no
@@ -155,8 +210,8 @@ ideas = {
 			available = {
 				has_war = yes
 				OR = {
-					has_war_support > 0.8
-					surrender_progress > 0.2
+					has_war_support > 0.9
+					surrender_progress > 0.4
 				}
 			}
 
@@ -180,10 +235,10 @@ ideas = {
 
 			modifier = {
 				conscription = 0.1
-				industrial_capacity_factory = -0.6
-				industrial_capacity_dockyard = -0.6
-				production_speed_buildings_factor = -0.6
-				training_time_factor = 0.6
+				industrial_capacity_factory = -0.75
+				industrial_capacity_dockyard = -0.75
+				production_speed_buildings_factor = -0.75
+				training_time_factor = 0.75
 			}
 
 			cancel_if_invalid = no
