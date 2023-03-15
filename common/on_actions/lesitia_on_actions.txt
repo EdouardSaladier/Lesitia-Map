@@ -3,6 +3,11 @@ on_actions = {
 	on_startup = {
 		effect = {
 			every_country = {
+				country_event = {
+					id = lesitia_units.1
+				}
+			}
+			every_country = {
 				set_variable = { food_surplus = 0 } #food Surplus
 				set_variable = { food_mil_consumption_i = mtth:food_mil_consumption } #food Military Consumption - Saved at beginning of each month
 				set_variable = { food_civ_core_consumption_i = mtth:food_civ_core_consumption } #food Civilian Core Consumption - Saved at beginning of each month

@@ -1,6 +1,6 @@
 capital = 19
 
-oob = "primitive_templates"
+oob = "standard_templates"
 
 # Starting tech
 

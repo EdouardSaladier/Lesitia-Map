@@ -1,0 +1,20 @@
+﻿###########################
+# food event cause on_add is too fast
+###########################
+
+add_namespace = lesitia_units
+
+country_event = {
+	id = lesitia_units.1
+	title = lesitia_units.1.t
+	desc = lesitia_units.1.d
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = lesitia_units.1.a
+		load_initial_units_effect = yes
+	}
+}

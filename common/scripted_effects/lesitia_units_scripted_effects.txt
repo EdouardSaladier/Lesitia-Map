@@ -1,0 +1,45 @@
+delete_unit_and_templates = {
+	delete_unit_template_and_units = {
+		division_template = "Basic Infantry Division"
+	}
+	delete_unit_template_and_units = {
+		division_template = "Infantry Division"
+	}
+	delete_unit_template_and_units = {
+		division_template = "Motorised Infantry Division"
+	}
+	delete_unit_template_and_units = {
+		division_template = "Basic Artillery Division"
+	}
+	delete_unit_template_and_units = {
+		division_template = "Artillery Division"
+	}
+	delete_unit_template_and_units = {
+		division_template = "Motorised Artillery Division"
+	}
+	delete_unit_template_and_units = {
+		division_template = "Basic Tank Division"
+	}
+	delete_unit_template_and_units = {
+		division_template = "Tank Division"
+	}
+	delete_unit_template_and_units = {
+		division_template = "Infiltrators Division"
+	}
+	delete_unit_template_and_units = {
+		division_template = "Aerial Troops Division"
+	}
+	delete_unit_template_and_units = {
+		division_template = "Assault Forces Division"
+	}
+}
+
+load_initial_units_effect = {
+	if = {
+		limit = {
+			tag = CMM
+		}
+		load_oob = "standard_templates"
+		load_oob = "CMM"
+	}
+}

@@ -1,10 +1,15 @@
 capital = 110
 
-oob = "commonwealth_templates"
-
 # Starting tech
 
 set_research_slots = 3
+
+###Chemical etching process
+modify_building_resources = {
+	building = electronics_factory
+	resource = electronics
+	amount = 1
+}
 
 set_technology = {
 	primitive_firearms = 1
@@ -46,12 +51,25 @@ set_technology = {
 
 	gene_edition_framework = 1
 	assembly_lines = 1
+	chemical_etching_process = 1
 	rudimentary_agronomics = 1
 	basic_photovoltaic_cells = 1
 	alkanine_fuel_cell = 1
 }
 
 set_convoys = 20
+
+# Starting trucks & trains
+add_equipment_to_stockpile = {
+    type = high_speed_train_equipment
+    amount = 40
+    producer = CMM
+}
+add_equipment_to_stockpile = {
+    type = logistic_vehicle_system_equipment
+    amount = 400
+    producer = CMM
+}
 
 set_politics = {
 	ruling_party = theocracy

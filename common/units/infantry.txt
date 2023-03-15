@@ -56,7 +56,6 @@ sub_units = {
 		active = no
 
 		type = {
-			infantry
 			anti_tank
 		}
 		

@@ -8,13 +8,31 @@ default_unit_production = { #If adding country-unique ones, bear in mind that th
 
 	ai_strategy = {
 		type = role_ratio
-		id = infantry
-		value = 80
+		id = basic_infantry
+		value = 20
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = motorized
+		id = at_infantry
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = motorised_infantry
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = artillery
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = aerial_troops
 		value = 5
 	}
 
