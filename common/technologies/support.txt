@@ -30,6 +30,10 @@ technologies = {
 			support_tech
 			support_equipment
 		}
+		
+		ai_will_do = {
+			factor = 100
+		}
 	}
 	
 	reconnaissance_company = {
@@ -60,6 +64,10 @@ technologies = {
 			support_tech
 			recon_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	
 	fast_combat_assessment = {
@@ -84,6 +92,16 @@ technologies = {
 		categories = {
 			support_tech
 			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = drone_recon_s_company }
+				NOT = { has_template_containing_unit = mot_recon_s_company }
+				NOT = { has_template_containing_unit = armored_car_recon_s_company }
+			}
 		}
 	}
 	
@@ -124,6 +142,16 @@ technologies = {
 			recon_tech
 			support_equipment
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = drone_recon_s_company }
+				NOT = { has_template_containing_unit = mot_recon_s_company }
+				NOT = { has_template_containing_unit = armored_car_recon_s_company }
+			}
+		}
 	}
 	
 	forward_air_control = {
@@ -148,6 +176,16 @@ technologies = {
 		categories = {
 			support_tech
 			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = drone_recon_s_company }
+				NOT = { has_template_containing_unit = mot_recon_s_company }
+				NOT = { has_template_containing_unit = armored_car_recon_s_company }
+			}
 		}
 	}
 	
@@ -184,6 +222,16 @@ technologies = {
 			recon_tech
 			support_equipment
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = drone_recon_s_company }
+				NOT = { has_template_containing_unit = mot_recon_s_company }
+				NOT = { has_template_containing_unit = armored_car_recon_s_company }
+			}
+		}
 	}
 	
 	tactical_air_control_party = {
@@ -208,6 +256,16 @@ technologies = {
 		categories = {
 			support_tech
 			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = drone_recon_s_company }
+				NOT = { has_template_containing_unit = mot_recon_s_company }
+				NOT = { has_template_containing_unit = armored_car_recon_s_company }
+			}
 		}
 	}
 	
@@ -239,6 +297,16 @@ technologies = {
 			recon_tech
 			support_equipment
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = drone_recon_s_company }
+				NOT = { has_template_containing_unit = mot_recon_s_company }
+				NOT = { has_template_containing_unit = armored_car_recon_s_company }
+			}
+		}
 	}
 	
 	joint_terminal_attack_controller = {
@@ -258,6 +326,16 @@ technologies = {
 		categories = {
 			support_tech
 			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = drone_recon_s_company }
+				NOT = { has_template_containing_unit = mot_recon_s_company }
+				NOT = { has_template_containing_unit = armored_car_recon_s_company }
+			}
 		}
 	}
 	
@@ -325,6 +403,14 @@ technologies = {
 			support_tech
 			engineers_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = engineer_s_company }
+			}
+		}
 	}
 	
 	anti_personnel_obstacle_breaching_system = {
@@ -349,6 +435,14 @@ technologies = {
 		categories = {
 			support_tech
 			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = engineer_s_company }
+			}
 		}
 	}
 	
@@ -383,6 +477,18 @@ technologies = {
 			engineers_tech
 			support_equipment
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = engineer_s_company }
+			}
+			modifier = {
+				factor = 0
+				arms_factory < 15
+			}
+		}
 	}
 	
 	steel_reinforced_concrete_blast_walls = {
@@ -409,6 +515,14 @@ technologies = {
 			support_tech
 			engineers_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = engineer_s_company }
+			}
+		}
 	}
 	
 	fast_spraying_concrete = {
@@ -430,6 +544,14 @@ technologies = {
 		categories = {
 			support_tech
 			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = engineer_s_company }
+			}
 		}
 	}
 	
@@ -460,6 +582,18 @@ technologies = {
 			support_tech
 			engineers_tech
 			support_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = engineer_s_company }
+			}
+			modifier = {
+				factor = 0
+				arms_factory < 15
+			}
 		}
 	}
 	
@@ -522,6 +656,14 @@ technologies = {
 			support_tech
 			logistics_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = logistics_s_company }
+			}
+		}
 	}
 	
 	classes_of_supply_organisation = {
@@ -549,6 +691,14 @@ technologies = {
 		categories = {
 			support_tech
 			logistics_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = logistics_s_company }
+			}
 		}
 	}
 	
@@ -584,6 +734,18 @@ technologies = {
 			logistics_tech
 			support_equipment
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = logistics_s_company }
+			}
+			modifier = {
+				factor = 0
+				arms_factory < 15
+			}
+		}
 	}
 	
 	logistics_support_analysis = {
@@ -617,6 +779,14 @@ technologies = {
 			support_tech
 			logistics_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = logistics_s_company }
+			}
+		}
 	}
 	
 	level_of_repair_analysis = {
@@ -643,6 +813,14 @@ technologies = {
 			support_tech
 			logistics_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = logistics_s_company }
+			}
+		}
 	}
 	
 	built_in_test_equipment = {
@@ -663,6 +841,14 @@ technologies = {
 		categories = {
 			support_tech
 			logistics_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = logistics_s_company }
+			}
 		}
 	}
 	
@@ -693,6 +879,14 @@ technologies = {
 			support_tech
 			logistics_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = logistics_s_company }
+			}
+		}
 	}
 	
 	choke_point_prevention_algorithms = {
@@ -715,6 +909,14 @@ technologies = {
 		categories = {
 			support_tech
 			logistics_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = logistics_s_company }
+			}
 		}
 	}
 	
@@ -785,6 +987,18 @@ technologies = {
 			hospital_tech
 			support_equipment
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = medical_company }
+			}
+			modifier = {
+				factor = 0
+				arms_factory < 10
+			}
+		}
 	}
 	
 	airway_management = {
@@ -811,6 +1025,14 @@ technologies = {
 			support_tech
 			hospital_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = medical_company }
+			}
+		}
 	}
 	
 	automatic_drug_injectors = {
@@ -831,6 +1053,14 @@ technologies = {
 		categories = {
 			support_tech
 			hospital_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = medical_company }
+			}
 		}
 	}
 	
@@ -857,6 +1087,14 @@ technologies = {
 		categories = {
 			support_tech
 			hospital_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = medical_company }
+			}
 		}
 	}
 	
@@ -889,6 +1127,14 @@ technologies = {
 			support_tech
 			hospital_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = medical_company }
+			}
+		}
 	}
 	
 	fast_organ_regeneration = {
@@ -917,6 +1163,14 @@ technologies = {
 			support_tech
 			hospital_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = medical_company }
+			}
+		}
 	}
 	
 	artificial_organs = {
@@ -936,6 +1190,14 @@ technologies = {
 		categories = {
 			support_tech
 			hospital_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = medical_company }
+			}
 		}
 	}
 	
@@ -957,6 +1219,14 @@ technologies = {
 		categories = {
 			support_tech
 			hospital_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = medical_company }
+			}
 		}
 	}
 	
@@ -1019,6 +1289,18 @@ technologies = {
 			support_tech
 			coin_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = coin_s_company }
+			}
+			modifier = {
+				factor = 0
+				num_occupied_states < 1 #No law change if AI holds no occupied states
+			}
+		}
 	}
 	
 	mine_resistant_protected_vehicle = {
@@ -1052,6 +1334,22 @@ technologies = {
 			coin_tech
 			support_equipment
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = coin_s_company }
+			}
+			modifier = {
+				factor = 0
+				num_occupied_states < 1 #No law change if AI holds no occupied states
+			}
+			modifier = {
+				factor = 0
+				arms_factory < 15
+			}
+		}
 	}
 	
 	vehicle_jammer_system = {
@@ -1072,6 +1370,18 @@ technologies = {
 		categories = {
 			support_tech
 			coin_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = coin_s_company }
+			}
+			modifier = {
+				factor = 0
+				num_occupied_states < 1 #No law change if AI holds no occupied states
+			}
 		}
 	}
 	
@@ -1098,6 +1408,18 @@ technologies = {
 		categories = {
 			support_tech
 			coin_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = coin_s_company }
+			}
+			modifier = {
+				factor = 0
+				num_occupied_states < 1 #No law change if AI holds no occupied states
+			}
 		}
 	}
 	
@@ -1127,6 +1449,18 @@ technologies = {
 			support_tech
 			coin_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = coin_s_company }
+			}
+			modifier = {
+				factor = 0
+				num_occupied_states < 1 #No law change if AI holds no occupied states
+			}
+		}
 	}
 	
 	behavioral_pattern_analysis = {
@@ -1148,6 +1482,18 @@ technologies = {
 			support_tech
 			coin_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = coin_s_company }
+			}
+			modifier = {
+				factor = 0
+				num_occupied_states < 1 #No law change if AI holds no occupied states
+			}
+		}
 	}
 	
 	global_security_monitoring = {
@@ -1168,6 +1514,18 @@ technologies = {
 		categories = {
 			support_tech
 			coin_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = coin_s_company }
+			}
+			modifier = {
+				factor = 0
+				num_occupied_states < 1 #No law change if AI holds no occupied states
+			}
 		}
 	}
 	
@@ -1231,6 +1589,14 @@ technologies = {
 			support_tech
 			c_c_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = cc_s_company }
+			}
+		}
 	}
 	
 	computer_network_operations = {
@@ -1260,6 +1626,14 @@ technologies = {
 			support_tech
 			c_c_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = cc_s_company }
+			}
+		}
 	}
 	
 	signal_intelligence_units = {
@@ -1288,6 +1662,14 @@ technologies = {
 			support_tech
 			c_c_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = cc_s_company }
+			}
+		}
 	}
 	
 	electronic_warfare_support_measures = {
@@ -1311,6 +1693,14 @@ technologies = {
 		categories = {
 			support_tech
 			c_c_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = cc_s_company }
+			}
 		}
 	}
 	
@@ -1345,6 +1735,18 @@ technologies = {
 			c_c_tech
 			support_equipment
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = cc_s_company }
+			}
+			modifier = {
+				factor = 0
+				arms_factory < 15
+			}
+		}
 	}
 	
 	joint_tactical_information_distribution_system = {
@@ -1374,6 +1776,14 @@ technologies = {
 			support_tech
 			c_c_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = cc_s_company }
+			}
+		}
 	}
 	
 	mobile_headquarters_support_vehicle = {
@@ -1399,6 +1809,14 @@ technologies = {
 			support_tech
 			c_c_tech
 			support_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = cc_s_company }
+			}
 		}
 	}
 	
@@ -1429,6 +1847,14 @@ technologies = {
 			support_tech
 			c_c_tech
 		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = cc_s_company }
+			}
+		}
 	}
 	
 	heavy_command_battlestation = {
@@ -1449,6 +1875,14 @@ technologies = {
 			support_tech
 			c_c_tech
 			support_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_template_containing_unit = cc_s_company }
+			}
 		}
 	}
 
