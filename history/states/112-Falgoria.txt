@@ -2,9 +2,16 @@ state={
 	id=112
 	name="STATE_112"
 	
+	resources = {
+		chromium = 11
+		steel = 2
+	}
+	
 	history={
 		buildings = {
 			infrastructure = 2
+			arms_factory = 3
+			industrial_complex = 1
 		}
 		owner = BOR
 		victory_points = {

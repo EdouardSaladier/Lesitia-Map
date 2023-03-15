@@ -2,6 +2,10 @@ state={
 	id=119
 	name="STATE_119"
 	
+	resources = {
+		aluminium = 2
+	}
+	
 	history={
 		owner = BOR
 		add_core_of = BOR

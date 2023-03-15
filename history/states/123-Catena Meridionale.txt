@@ -2,9 +2,16 @@ state={
 	id=123
 	name="STATE_123"
 	
+	resources = {
+		aluminium = 9
+		steel = 8
+		tungsten = 6
+	}
+	
 	history={
 		buildings = {
 			infrastructure = 2
+			renewable_power_station = 1
 		}
 		owner = BOR
 		add_core_of = BOR

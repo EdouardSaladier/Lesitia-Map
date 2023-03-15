@@ -5,6 +5,11 @@ state={
 	history={
 		buildings = {
 			infrastructure = 1
+			explosive_factory = 1
+			renewable_power_station = 1
+			8874 = {
+				naval_base = 2
+			}
 		}
 		owner = BOR
 		victory_points = {

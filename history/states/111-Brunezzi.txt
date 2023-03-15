@@ -2,10 +2,16 @@
 state={
 	id=111
 	name="STATE_111"
+	
+	resources = {
+		chromium = 12
+		steel = 3
+	}
 
 	history={
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 2
 		}
 		owner = BOR
 		add_core_of = BOR

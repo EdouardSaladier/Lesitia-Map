@@ -2,9 +2,18 @@ state={
 	id=113
 	name="STATE_113"
 	
+	resources = {
+		tungsten = 3
+	}
+	
 	history={
 		buildings = {
 			infrastructure = 3
+			farms = 5
+			industrial_complex = 1
+			5919 = {
+				naval_base = 4
+			}
 		}
 		owner = BOR
 		victory_points = {

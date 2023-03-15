@@ -2,9 +2,15 @@ state={
 	id=128
 	name="STATE_128"
 	
+	resources = {
+		steel = 12
+	}
+	
 	history={
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
 		}
 		owner = BOR
 		add_core_of = BOR
