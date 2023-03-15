@@ -6,6 +6,8 @@ state={
 	history={
 		buildings = {
 			infrastructure = 2
+			farms = 2
+			industrial_complex = 2
 		}
 		owner = HAF
 		add_core_of = HAF

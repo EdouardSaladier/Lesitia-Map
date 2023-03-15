@@ -9,6 +9,9 @@ state={
 			polymers_factory = 2
 			renewable_power_station = 2
 			air_base = 5
+			13404 = {
+				naval_base = 3
+			}
 		}
 		owner = MIT
 		victory_points = {

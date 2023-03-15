@@ -3,9 +3,19 @@ state={
 	id=246
 	name="STATE_246"
 	
+	resources = {
+		tungsten = 6
+		steel = 12
+		chromium = 5
+	}
+	
 	history={
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 4
+			renewable_power_station = 1
+			nuclear_reactor = 1
 		}
 		owner = HAF
 		victory_points = {

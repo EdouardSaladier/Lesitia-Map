@@ -5,6 +5,7 @@ state={
 	history={
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 		}
 		owner = SUR
 		add_core_of = SUR

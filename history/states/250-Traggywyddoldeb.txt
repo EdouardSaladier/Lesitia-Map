@@ -2,9 +2,18 @@ state={
 	id=250
 	name="STATE_250"
 	
+	resources = {
+		tungsten = 5
+		steel = 5
+		aluminium = 2
+	}
+	
 	history={
 		buildings = {
 			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 1
+			renewable_power_station = 2
 		}
 		owner = HAF
 		victory_points = {

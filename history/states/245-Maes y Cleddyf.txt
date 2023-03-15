@@ -2,9 +2,15 @@ state={
 	id=245
 	name="STATE_245"
 	
+	resources = {
+		tungsten = 7
+		steel = 10
+	}
+	
 	history={
 		buildings = {
 			infrastructure = 2
+			farms = 2
 		}
 		owner = HAF
 		add_core_of = HAF

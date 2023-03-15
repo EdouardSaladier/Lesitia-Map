@@ -7,6 +7,9 @@ state={
 			infrastructure = 2
 			industrial_complex = 3
 			farms = 2
+			4198 = {
+				naval_base = 3
+			}
 		}
 		owner = MIT
 		victory_points = {

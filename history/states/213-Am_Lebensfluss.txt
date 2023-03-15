@@ -5,6 +5,10 @@ state={
 	history={
 		buildings = {
 			infrastructure = 2
+			farms = 3
+			6047 = {
+				naval_base = 3
+			}
 		}
 		owner = SUR
 		victory_points = {
