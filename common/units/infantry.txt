@@ -56,6 +56,7 @@ sub_units = {
 		active = no
 
 		type = {
+			infantry
 			anti_tank
 		}
 		
@@ -85,7 +86,7 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 100
-			inf_at_equipment = 30
+			inf_at_equipment = 20
 		}
 	}
 	

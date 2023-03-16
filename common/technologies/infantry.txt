@@ -483,6 +483,7 @@ technologies = {
 		
 		enable_subunits = {
 			at_infantry
+			at_motorized
 		}
 		
 		path = {
