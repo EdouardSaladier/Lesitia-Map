@@ -62,12 +62,12 @@ set_convoys = 20
 # Starting trucks & trains
 add_equipment_to_stockpile = {
     type = high_speed_train_equipment
-    amount = 40
+    amount = 26
     producer = CMM
 }
 add_equipment_to_stockpile = {
     type = logistic_vehicle_system_equipment
-    amount = 400
+    amount = 260
     producer = CMM
 }
 

@@ -7,6 +7,7 @@ sub_units = {
 		priority = 0
 		ai_priority = 0
 		active = no
+		affects_speed = no
 
 		type = {
 			infantry
@@ -38,10 +39,8 @@ sub_units = {
 		can_be_parachuted 	= yes
 		
 		essential = {
-			main_support_equipment
+			main_support_equipment_arch
 		}
-
-		transport = motorized_equipment
 		
 		need = {
 			urav_equipment = 40
@@ -82,6 +81,7 @@ sub_units = {
 		priority = 0
 		ai_priority = 0
 		active = no
+		affects_speed = no
 
 		type = {
 			infantry
@@ -113,13 +113,12 @@ sub_units = {
 		can_be_parachuted 	= yes
 		
 		essential = {
-			main_support_equipment
+			main_support_equipment_arch
 			motorized_equipment
 		}
-
-		transport = motorized_equipment
+		
 		need = {
-			main_support_equipment = 20
+			main_support_equipment_arch = 20
 			motorized_equipment = 20
 		}
 
@@ -158,6 +157,7 @@ sub_units = {
 		priority = 0
 		ai_priority = 0
 		active = no
+		affects_speed = no
 
 		type = {
 			infantry
@@ -269,11 +269,11 @@ sub_units = {
 		entrenchment  = 5
 
 		essential = {
-			main_support_equipment
+			main_support_equipment_arch
 		}
 
 		need = {
-			main_support_equipment = 40
+			main_support_equipment_arch = 40
 		}
 
 		can_be_parachuted = yes
@@ -355,12 +355,12 @@ sub_units = {
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 		
 		essential = {
-			main_support_equipment
+			main_support_equipment_arch
 			motorized_equipment
 		}
 
 		need = {
-			main_support_equipment = 40
+			main_support_equipment_arch = 40
 			motorized_equipment = 20
 		}
 
@@ -408,12 +408,12 @@ sub_units = {
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 
 		essential = {
-			main_support_equipment
+			main_support_equipment_arch
 			motorized_equipment
 		}
 		
 		need = {
-			main_support_equipment = 20
+			main_support_equipment_arch = 20
 			motorized_equipment = 20
 		}
 	}
@@ -458,11 +458,11 @@ sub_units = {
 
 		essential = {
 			infantry_equipment
-			main_support_equipment
+			main_support_equipment_arch
 		}
 		
 		need = {
-			main_support_equipment = 10
+			main_support_equipment_arch = 10
 			infantry_equipment = 40
 		}
 
@@ -509,12 +509,12 @@ sub_units = {
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 		
 		essential = {
-			main_support_equipment
+			main_support_equipment_arch
 			motorized_equipment
 		}
 
 		need = {
-			main_support_equipment = 40
+			main_support_equipment_arch = 40
 			motorized_equipment = 20
 		}
 

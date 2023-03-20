@@ -47,7 +47,18 @@ set_technology = {
 	alkanine_fuel_cell = 1
 }
 
-set_convoys = 20
+set_convoys = 0 #Landlocked
+
+add_equipment_to_stockpile = {
+    type = high_speed_train_equipment
+    amount = 18
+    producer = SLR
+}
+add_equipment_to_stockpile = {
+    type = logistic_vehicle_system_equipment
+    amount = 180
+    producer = SLR
+}
 
 
 set_politics = {

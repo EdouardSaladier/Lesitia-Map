@@ -46,6 +46,17 @@ set_technology = {
 
 set_convoys = 0 #landlocked
 
+add_equipment_to_stockpile = {
+    type = high_speed_train_equipment
+    amount = 23
+    producer = HAF
+}
+add_equipment_to_stockpile = {
+    type = logistic_vehicle_system_equipment
+    amount = 230
+    producer = HAF
+}
+
 set_politics = {
 	ruling_party = despotism
 	last_election = "3374.1.1"

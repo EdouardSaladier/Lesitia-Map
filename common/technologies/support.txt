@@ -992,7 +992,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { has_template_containing_unit = medical_company }
+				NOT = { has_template_containing_unit = medical_s_company }
 			}
 			modifier = {
 				factor = 0
@@ -1030,7 +1030,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { has_template_containing_unit = medical_company }
+				NOT = { has_template_containing_unit = medical_s_company }
 			}
 		}
 	}
@@ -1059,7 +1059,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { has_template_containing_unit = medical_company }
+				NOT = { has_template_containing_unit = medical_s_company }
 			}
 		}
 	}
@@ -1093,7 +1093,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { has_template_containing_unit = medical_company }
+				NOT = { has_template_containing_unit = medical_s_company }
 			}
 		}
 	}
@@ -1132,7 +1132,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { has_template_containing_unit = medical_company }
+				NOT = { has_template_containing_unit = medical_s_company }
 			}
 		}
 	}
@@ -1168,7 +1168,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { has_template_containing_unit = medical_company }
+				NOT = { has_template_containing_unit = medical_s_company }
 			}
 		}
 	}
@@ -1196,7 +1196,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { has_template_containing_unit = medical_company }
+				NOT = { has_template_containing_unit = medical_s_company }
 			}
 		}
 	}
@@ -1225,7 +1225,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { has_template_containing_unit = medical_company }
+				NOT = { has_template_containing_unit = medical_s_company }
 			}
 		}
 	}

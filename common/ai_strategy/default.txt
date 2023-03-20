@@ -222,6 +222,29 @@ DEFAULT_midlate_template_design = {
 	}
 }
 
+ignore_nuke_zones = {
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = ignore
+		id = "NUK"
+		value = 100
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NUK"
+		value = -2000
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = "NUK"
+		target = declare_war
+		value = -50000
+	}
+}
+
 default_pp_spend_amount = {
 	enable = {
 		always = yes

@@ -46,6 +46,17 @@ set_technology = {
 
 set_convoys = 20
 
+add_equipment_to_stockpile = {
+    type = high_speed_train_equipment
+    amount = 7
+    producer = AKU
+}
+add_equipment_to_stockpile = {
+    type = logistic_vehicle_system_equipment
+    amount = 70
+    producer = AKU
+}
+
 
 set_politics = {
 	ruling_party = corporatism

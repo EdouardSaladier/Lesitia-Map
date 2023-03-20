@@ -37,9 +37,72 @@ delete_unit_and_templates = {
 load_initial_units_effect = {
 	if = {
 		limit = {
+			tag = AKU
+		}
+		load_oob = "standard_templates"
+		load_oob = "AKU"
+	}
+	if = {
+		limit = {
+			tag = AVN
+		}
+		load_oob = "standard_templates"
+		load_oob = "AVN"
+	}
+	if = {
+		limit = {
 			tag = CMM
 		}
 		load_oob = "standard_templates"
 		load_oob = "CMM"
+	}
+	if = {
+		limit = {
+			tag = HAF
+		}
+		load_oob = "standard_templates"
+		load_oob = "HAF"
+	}
+	if = {
+		limit = {
+			tag = REO
+		}
+		load_oob = "standard_templates"
+		load_oob = "REO"
+	}
+	if = {
+		limit = {
+			tag = REZ
+		}
+		load_oob = "standard_templates"
+		load_oob = "REZ"
+	}
+	if = {
+		limit = {
+			tag = SLR
+		}
+		load_oob = "standard_templates"
+		load_oob = "SLR"
+	}
+	if = {
+		limit = {
+			tag = SUR
+		}
+		load_oob = "standard_templates"
+		load_oob = "SUR"
+	}
+	if = {
+		limit = {
+			tag = SYM
+		}
+		load_oob = "standard_templates"
+		load_oob = "SYM"
+	}
+	if = {
+		limit = {
+			tag = VRT
+		}
+		load_oob = "standard_templates"
+		load_oob = "VRT"
 	}
 }

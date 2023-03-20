@@ -47,6 +47,17 @@ set_technology = {
 
 set_convoys = 20
 
+add_equipment_to_stockpile = {
+    type = high_speed_train_equipment
+    amount = 44
+    producer = SYM
+}
+add_equipment_to_stockpile = {
+    type = logistic_vehicle_system_equipment
+    amount = 440
+    producer = SYM
+}
+
 set_politics = {
 	ruling_party = democracy
 	last_election = "3374.1.1"

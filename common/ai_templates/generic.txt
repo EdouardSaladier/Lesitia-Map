@@ -36,7 +36,7 @@ basic_infantry = {
 			0.00 #-- defense
 			1.00 #-- breakthrough
 			0.00 #-- hardness
-			4.00 #-- soft_attack
+			6.00 #-- soft_attack
 			0.00 #-- hard_attack
 			0.00 #-- recon
 			1.00 #-- entrenchment
@@ -56,7 +56,7 @@ basic_infantry = {
 			0.40 #-- max_strength
 			0.00 #-- maximum_speed
 			0.00 #-- armor_value
-			0.20 #-- ap_attack
+			0.40 #-- ap_attack
 			0.00 #-- reliability
 			0.00 #-- reliability_factor
 			0.00 #-- weight
@@ -66,11 +66,11 @@ basic_infantry = {
 			0.00 #-- carrier_size
 			0.00 #-- acc_hot_gain
 			0.00 #-- acc_cold_gain
-			0.00 #-- build_cost_ic
+			0.40 #-- build_cost_ic
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 3000.0
 			
 			support = {
@@ -124,7 +124,7 @@ basic_infantry = {
 			0.00 #-- defense
 			1.00 #-- breakthrough
 			0.00 #-- hardness
-			4.00 #-- soft_attack
+			6.00 #-- soft_attack
 			0.00 #-- hard_attack
 			0.00 #-- recon
 			1.00 #-- entrenchment
@@ -144,7 +144,7 @@ basic_infantry = {
 			0.40 #-- max_strength
 			0.00 #-- maximum_speed
 			0.00 #-- armor_value
-			0.20 #-- ap_attack
+			0.40 #-- ap_attack
 			0.00 #-- reliability
 			0.00 #-- reliability_factor
 			0.00 #-- weight
@@ -154,11 +154,11 @@ basic_infantry = {
 			0.00 #-- carrier_size
 			0.00 #-- acc_hot_gain
 			0.00 #-- acc_cold_gain
-			0.00 #-- build_cost_ic
+			0.40 #-- build_cost_ic
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 3000.0
 			
 			support = {
@@ -223,6 +223,8 @@ at_infantry = {
 			}
 		}
 		
+		reinforce_prio = 2
+		
 		target_width = 20.0
 		width_weight = 1.0
 		column_swap_factor = 0.5
@@ -235,8 +237,8 @@ at_infantry = {
 			0.00 #-- defense
 			1.00 #-- breakthrough
 			0.00 #-- hardness
-			4.00 #-- soft_attack
-			0.00 #-- hard_attack
+			6.00 #-- soft_attack
+			1.00 #-- hard_attack
 			0.00 #-- recon
 			1.00 #-- entrenchment
 			0.00 #-- initiative
@@ -255,7 +257,7 @@ at_infantry = {
 			0.40 #-- max_strength
 			0.00 #-- maximum_speed
 			0.00 #-- armor_value
-			0.20 #-- ap_attack
+			0.40 #-- ap_attack
 			0.00 #-- reliability
 			0.00 #-- reliability_factor
 			0.00 #-- weight
@@ -265,11 +267,11 @@ at_infantry = {
 			0.00 #-- carrier_size
 			0.00 #-- acc_hot_gain
 			0.00 #-- acc_cold_gain
-			0.00 #-- build_cost_ic
+			0.40 #-- build_cost_ic
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 3000.0
 			
 			support = {
@@ -314,6 +316,8 @@ at_infantry = {
 			}
 		}
 		
+		reinforce_prio = 2
+		
 		target_width = 20.0
 		width_weight = 1.0
 		column_swap_factor = 0.5
@@ -324,7 +328,7 @@ at_infantry = {
 			0.00 #-- defense
 			1.00 #-- breakthrough
 			0.00 #-- hardness
-			4.00 #-- soft_attack
+			6.00 #-- soft_attack
 			0.00 #-- hard_attack
 			0.00 #-- recon
 			1.00 #-- entrenchment
@@ -354,11 +358,11 @@ at_infantry = {
 			0.00 #-- carrier_size
 			0.00 #-- acc_hot_gain
 			0.00 #-- acc_cold_gain
-			0.00 #-- build_cost_ic
+			0.40 #-- build_cost_ic
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 3000.0
 			
 			support = {
@@ -470,7 +474,7 @@ motorised_infantry = {
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 3000.0
 			
 			support = {
@@ -558,7 +562,7 @@ motorised_infantry = {
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 3000.0
 			
 			support = {
@@ -633,7 +637,7 @@ basic_artillery = {
 			0.00 #-- defense
 			1.00 #-- breakthrough
 			0.00 #-- hardness
-			4.00 #-- soft_attack
+			6.00 #-- soft_attack
 			0.00 #-- hard_attack
 			0.00 #-- recon
 			1.00 #-- entrenchment
@@ -667,7 +671,7 @@ basic_artillery = {
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 3000.0
 			
 			support = {
@@ -727,7 +731,7 @@ basic_artillery = {
 			0.00 #-- defense
 			1.00 #-- breakthrough
 			0.00 #-- hardness
-			4.00 #-- soft_attack
+			6.00 #-- soft_attack
 			0.00 #-- hard_attack
 			0.00 #-- recon
 			1.00 #-- entrenchment
@@ -761,7 +765,7 @@ basic_artillery = {
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 3000.0
 			
 			support = {
@@ -824,6 +828,8 @@ artillery = {
 			}
 		}
 		
+		reinforce_prio = 2
+		
 		target_width = 20.0
 		width_weight = 1.0
 		column_swap_factor = 0.5
@@ -836,7 +842,7 @@ artillery = {
 			0.00 #-- defense
 			1.00 #-- breakthrough
 			0.00 #-- hardness
-			4.00 #-- soft_attack
+			6.00 #-- soft_attack
 			0.00 #-- hard_attack
 			0.00 #-- recon
 			1.00 #-- entrenchment
@@ -870,7 +876,7 @@ artillery = {
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 3000.0
 			
 			support = {
@@ -917,6 +923,8 @@ artillery = {
 			}
 		}
 		
+		reinforce_prio = 2
+		
 		target_width = 20.0
 		width_weight = 1.0
 		column_swap_factor = 0.5
@@ -927,7 +935,7 @@ artillery = {
 			0.00 #-- defense
 			1.00 #-- breakthrough
 			0.00 #-- hardness
-			4.00 #-- soft_attack
+			6.00 #-- soft_attack
 			0.00 #-- hard_attack
 			0.00 #-- recon
 			1.00 #-- entrenchment
@@ -961,7 +969,7 @@ artillery = {
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 3000.0
 			
 			support = {
@@ -1040,7 +1048,7 @@ aerial_troops = {
 			0.00 #-- defense
 			1.00 #-- breakthrough
 			0.00 #-- hardness
-			4.00 #-- soft_attack
+			6.00 #-- soft_attack
 			0.00 #-- hard_attack
 			0.00 #-- recon
 			1.00 #-- entrenchment
@@ -1074,7 +1082,7 @@ aerial_troops = {
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 3000.0
 			
 			support = {
@@ -1129,7 +1137,7 @@ aerial_troops = {
 			0.00 #-- defense
 			1.00 #-- breakthrough
 			0.00 #-- hardness
-			4.00 #-- soft_attack
+			6.00 #-- soft_attack
 			0.00 #-- hard_attack
 			0.00 #-- recon
 			1.00 #-- entrenchment
@@ -1163,7 +1171,7 @@ aerial_troops = {
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 3000.0
 			
 			support = {
