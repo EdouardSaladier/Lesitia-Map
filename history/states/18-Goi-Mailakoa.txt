@@ -6,6 +6,8 @@ state={
 	history={
 		buildings = {
 			infrastructure = 2
+			explosive_factory = 2
+			farms = 1
 		}
 		owner = LUR
 		victory_points = {
