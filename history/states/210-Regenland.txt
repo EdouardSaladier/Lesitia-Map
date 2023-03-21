@@ -11,6 +11,7 @@ state={
 		buildings = {
 			infrastructure = 1
 			farms = 3
+			air_base = 1
 		}
 		owner = SUR
 		add_core_of = SUR

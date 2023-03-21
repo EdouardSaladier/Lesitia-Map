@@ -8,6 +8,7 @@ state={
 			industrial_complex = 4
 			electronics_factory = 2
 			nuclear_reactor = 1
+			air_base = 3
 		}
 		owner = REO
 		victory_points = {

@@ -9,6 +9,7 @@ state={
 			polymers_factory = 2
 			arms_factory = 2
 			farms = 1
+			air_base = 5
 			3908 = {
 				naval_base = 3
 			}

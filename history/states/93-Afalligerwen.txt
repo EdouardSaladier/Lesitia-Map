@@ -10,6 +10,7 @@ state={
 			explosive_factory = 1
 			polymers_factory = 1
 			industrial_complex = 1
+			air_base = 5
 			7144 = {
 				naval_base = 4
 			}

@@ -10,6 +10,7 @@ state={
 			arms_factory = 2
 			farms = 1
 			dockyard = 2
+			air_base = 3
 		}
 		owner = CMM
 		add_core_of = CMM

@@ -16,6 +16,7 @@ state={
 			arms_factory = 4
 			renewable_power_station = 1
 			nuclear_reactor = 1
+			air_base = 6
 		}
 		owner = HAF
 		victory_points = {

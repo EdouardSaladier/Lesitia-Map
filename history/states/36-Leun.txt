@@ -8,6 +8,7 @@ state={
 			industrial_complex = 3
 			arms_factory = 1
 			nuclear_reactor = 1
+			air_base = 5
 		}
 		victory_points = {
 			13158 50
