@@ -9,12 +9,42 @@ country_event = {
 	title = lesitia_units.1.t
 	desc = lesitia_units.1.d
 	
-	hidden = yes
-	
 	is_triggered_only = yes
 
 	option = {
 		name = lesitia_units.1.a
+		set_country_flag = high_velocity_doctrine
+		set_technology = {
+			swift_strike = 1
+			popup = no
+		}
+		load_initial_units_effect = yes
+	}
+	option = {
+		name = lesitia_units.1.b
+		set_country_flag = remote_strike_doctrine
+		set_technology = {
+			precision_strikes = 1
+			popup = no
+		}
+		load_initial_units_effect = yes
+	}
+	option = {
+		name = lesitia_units.1.c
+		set_country_flag = industrial_doctrine
+		set_technology = {
+			industrial_warfare = 1
+			popup = no
+		}
+		load_initial_units_effect = yes
+	}
+	option = {
+		name = lesitia_units.1.d
+		set_country_flag = asymmetric_doctrine
+		set_technology = {
+			distributed_authority = 1
+			popup = no
+		}
 		load_initial_units_effect = yes
 	}
 }

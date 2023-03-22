@@ -37,72 +37,89 @@ delete_unit_and_templates = {
 load_initial_units_effect = {
 	if = {
 		limit = {
-			tag = AKU
+			has_country_flag = high_velocity_doctrine
+		}
+		load_oob = "high_velocity_templates"
+	}
+	else_if = {
+		limit = {
+			has_country_flag = remote_strike_doctrine
+		}
+		load_oob = "remote_strike_templates"
+	}
+	else_if = {
+		limit = {
+			has_country_flag = industrial_doctrine
+		}
+		load_oob = "standard_templates" #Industrial doctrine got default templates
+	}
+	else_if = {
+		limit = {
+			has_country_flag = asymmetric_doctrine
 		}
 		load_oob = "standard_templates"
+	}
+	else = {
+		load_oob = "standard_templates"
+	}
+	if = {
+		limit = {
+			tag = AKU
+		}
 		load_oob = "AKU"
 	}
 	if = {
 		limit = {
 			tag = AVN
 		}
-		load_oob = "standard_templates"
 		load_oob = "AVN"
 	}
 	if = {
 		limit = {
 			tag = CMM
 		}
-		load_oob = "standard_templates"
 		load_oob = "CMM"
 	}
 	if = {
 		limit = {
 			tag = HAF
 		}
-		load_oob = "standard_templates"
 		load_oob = "HAF"
 	}
 	if = {
 		limit = {
 			tag = REO
 		}
-		load_oob = "standard_templates"
 		load_oob = "REO"
 	}
 	if = {
 		limit = {
 			tag = REZ
 		}
-		load_oob = "standard_templates"
 		load_oob = "REZ"
 	}
 	if = {
 		limit = {
 			tag = SLR
 		}
-		load_oob = "standard_templates"
 		load_oob = "SLR"
 	}
 	if = {
 		limit = {
 			tag = SUR
 		}
-		load_oob = "standard_templates"
 		load_oob = "SUR"
 	}
 	if = {
 		limit = {
 			tag = SYM
 		}
-		load_oob = "standard_templates"
 		load_oob = "SYM"
 	}
 	if = {
 		limit = {
 			tag = VRT
 		}
-		load_oob = "standard_templates"
 		load_oob = "VRT"
 	}
 }

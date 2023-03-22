@@ -1,0 +1,216 @@
+﻿division_template = {
+	name = "Basic Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer_s_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		at_infantry = { x = 2 y = 0 }
+		at_infantry = { x = 2 y = 1 }
+		at_infantry = { x = 2 y = 2 }
+		at_infantry = { x = 2 y = 3 }
+	}
+	support = {
+		engineer_s_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Motorised Infantry Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		at_motorized = { x = 2 y = 0 }
+		precision_artillery_brigade = { x = 2 y = 1 }
+		precision_artillery_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		engineer_s_company = { x = 0 y = 0 }
+		precision_artillery_support = { x = 0 y = 1 }
+		mot_recon_s_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Basic Artillery Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		at_infantry = { x = 2 y = 0 }
+		precision_artillery_brigade = { x = 2 y = 1 }
+		precision_artillery_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		engineer_s_company = { x = 0 y = 0 }
+		precision_artillery_support = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		at_infantry = { x = 1 y = 2 }
+		precision_artillery_brigade = { x = 2 y = 0 }
+		precision_artillery_brigade = { x = 2 y = 1 }
+		precision_artillery_brigade = { x = 2 y = 2 }
+		precision_artillery_brigade = { x = 2 y = 3 }
+	}
+	support = {
+		engineer_s_company = { x = 0 y = 0 }
+		precision_artillery_support = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Motorised Artillery Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		precision_artillery_brigade = { x = 2 y = 0 }
+		precision_artillery_brigade = { x = 2 y = 1 }
+		precision_artillery_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		engineer_s_company = { x = 0 y = 0 }
+		precision_artillery_support = { x = 0 y = 1 }
+		mot_recon_s_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Basic Tank Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		unmanned_ground_combat_tank_brigade = { x = 2 y = 0 }
+		unmanned_ground_combat_tank_brigade = { x = 2 y = 1 }
+		unmanned_ground_combat_tank_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		logistics_s_company = { x = 0 y = 0 }
+		precision_artillery_support = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Tank Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		unmanned_ground_combat_tank_brigade = { x = 2 y = 0 }
+		unmanned_ground_combat_tank_brigade = { x = 2 y = 1 }
+		unmanned_ground_combat_tank_brigade = { x = 2 y = 2 }
+		unmanned_ground_combat_tank_brigade = { x = 3 y = 0 }
+		unmanned_ground_combat_tank_brigade = { x = 3 y = 1 }
+		unmanned_ground_combat_tank_brigade = { x = 3 y = 2 }	
+	}
+	support = {
+		logistics_s_company = { x = 0 y = 0 }
+		precision_artillery_support = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Infiltrators Division"
+
+	regiments = {
+		infiltrators = { x = 0 y = 0 }
+		infiltrators = { x = 0 y = 1 }
+		infiltrators = { x = 0 y = 2 }
+		infiltrators = { x = 1 y = 0 }
+		infiltrators = { x = 1 y = 1 }
+		infiltrators = { x = 1 y = 2 }
+		infiltrators = { x = 2 y = 0 }
+		infiltrators = { x = 2 y = 1 }
+		infiltrators = { x = 2 y = 2 }
+	}
+	support = {
+		engineer_s_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Aerial Troops Division"
+
+	regiments = {
+		aerial_troops = { x = 0 y = 0 }
+		aerial_troops = { x = 0 y = 1 }
+		aerial_troops = { x = 0 y = 2 }
+		aerial_troops = { x = 1 y = 0 }
+		aerial_troops = { x = 1 y = 1 }
+		aerial_troops = { x = 1 y = 2 }
+		aerial_troops = { x = 2 y = 0 }
+		aerial_troops = { x = 2 y = 1 }
+		aerial_troops = { x = 2 y = 2 }
+	}
+	support = {
+		engineer_s_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Assault Forces Division"
+
+	regiments = {
+		assault_forces = { x = 0 y = 0 }
+		assault_forces = { x = 0 y = 1 }
+		assault_forces = { x = 0 y = 2 }
+		assault_forces = { x = 1 y = 0 }
+		assault_forces = { x = 1 y = 1 }
+		assault_forces = { x = 1 y = 2 }
+		assault_forces = { x = 2 y = 0 }
+		assault_forces = { x = 2 y = 1 }
+		assault_forces = { x = 2 y = 2 }
+	}
+	support = {
+		engineer_s_company = { x = 0 y = 0 }
+	}
+}
