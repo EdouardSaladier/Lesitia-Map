@@ -125,8 +125,8 @@ TER = {
 	color_ui = rgb { 112 127 255 }
 }
 LAV = {
-	color = rgb { 182 21 21 }
-	color_ui = rgb { 182 21 21 }
+	color = rgb { 164 85 203 }
+	color_ui = rgb { 164 85 203 }
 }
 SED = {
 	color = rgb { 203 208 135 }
