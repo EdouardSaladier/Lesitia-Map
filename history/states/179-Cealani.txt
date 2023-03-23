@@ -24,6 +24,7 @@ state={
 		}
 		add_core_of = SYM
 		add_core_of = LAV
+		add_core_of = UHL
 		set_variable = { majority = 80 }
 	}
 	

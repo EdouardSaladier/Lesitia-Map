@@ -10,6 +10,7 @@ state={
 		add_core_of = SYM
 		add_core_of = TVA
 		add_core_of = VRT
+		add_core_of = TPG
 		set_variable = { minority = 73 }
 		set_variable = { majority = 79 }
 	}

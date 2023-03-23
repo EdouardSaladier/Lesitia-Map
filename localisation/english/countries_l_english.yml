@@ -132,6 +132,10 @@
  TVA_DEF:0 "the Tiveask Zone"
  TVA_ADJ:0 "Tiveaskan"
  
+ TVA_despotism:0 "Tiveask Free Army"
+ TVA_despotism_DEF:0 "the Tiveask Free Army"
+ TVA_despotism_ADJ:0 "Tiveaskan"
+ 
  KAK:0 "Kakrikea"
  KAK_DEF:0 "the Kakrikean State"
  KAK_ADJ:0 "Kakrikean"
@@ -144,9 +148,41 @@
  ZHA_DEF:0 "the Zhafollis District"
  ZHA_ADJ:0 "Zhafolean"
  
+ ZHA_unclassified:0 "Surrealistica"
+ ZHA_unclassified_DEF:0 "Surrealistica"
+ ZHA_unclassified_ADJ:0 "Zhafolean"
+ 
  RIS:0 "Refreshment Islands"
  RIS_DEF:0 "the Refreshment Islands"
  RIS_ADJ:0 "Rescanian"
+ 
+ RFT:0 "Republican Front"
+ RFT_DEF:0 "the Republican Front"
+ RFT_ADJ:0 "Symbiotic"
+ 
+ ACS:0 "Army Command South"
+ ACS_DEF:0 "the South Command"
+ ACS_ADJ:0 "Symbiotic"
+ 
+ TPG:0 "Tiveask Provisional Government"
+ TPG_DEF:0 "the Provisional Government"
+ TPG_ADJ:0 "Tiveaskan"
+ 
+ TBZ:0 "Tiveask Bandit Zone"
+ TBZ_DEF:0 "the Tiveaskan Bandit Zone"
+ TBZ_ADJ:0 "Tiveaskan"
+ 
+ UHL:0 "United Hives of Lavido"
+ UHL_DEF:0 "the United Hives of Lavido"
+ UHL_ADJ:0 "Lavidoan"
+ 
+ SCM:0 "Seda Commune"
+ SCM_DEF:0 "the Seda Commune"
+ SCM_ADJ:0 "Sedanese"
+ 
+ CSR:0 "Central Symbiotic Republic"
+ CSR_DEF:0 "the Central Symbiotic Republic"
+ CSR_ADJ:0 "Symbiotic"
  
  
  

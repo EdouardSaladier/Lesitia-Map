@@ -23,6 +23,7 @@ state={
 		}
 		add_core_of = SYM
 		add_core_of = KAK
+		add_core_of = CSR
 		add_claim_by = MAV
 		set_variable = { minority = 75 }
 		set_variable = { majority = 74 }

@@ -16,6 +16,7 @@ state={
 		}
 		add_core_of = SYM
 		add_core_of = KAK
+		add_core_of = CSR
 		set_variable = { majority = 75 }
 	}
 	

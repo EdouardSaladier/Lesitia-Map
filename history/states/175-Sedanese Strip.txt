@@ -12,6 +12,7 @@ state={
 		}
 		add_core_of = SYM
 		add_core_of = SED
+		add_core_of = TBZ
 		add_claim_by = TVA
 		set_variable = { majority = 73 }
 	}

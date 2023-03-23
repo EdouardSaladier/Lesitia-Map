@@ -26,3 +26,10 @@ create_country_leader = {
 	picture = "portrait_robar_tevis.dds"
 	ideology = democracy_type 
 }
+
+create_country_leader = {
+	name = "Maximillian Rez"
+	desc = "ZHA_maxi_desc"
+	picture = "portrait_maximillian_rez.dds"
+	ideology = unclassified_type 
+}

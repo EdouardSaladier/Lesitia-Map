@@ -12,6 +12,7 @@ state={
 		}
 		add_core_of = SYM
 		add_core_of = ETH
+		add_core_of = ACS
 		set_variable = { minority = 38 }
 		set_variable = { majority = 78 }
 	}

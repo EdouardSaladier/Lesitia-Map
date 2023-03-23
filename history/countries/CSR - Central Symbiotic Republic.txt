@@ -1,0 +1,27 @@
+capital = 164
+oob = "standard_templates"
+
+# Starting tech
+
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = democracy
+	last_election = "3374.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	despotism = 20
+	supremacism = 0
+	democracy = 70
+	revolutionarism = 10
+}
+
+create_country_leader = {
+	name = "Ultimum Mormorare"
+	desc = "CSR_ultimum_desc"
+	picture = "portrait_ultimum_mormorare.dds"
+	ideology = democracy_type 
+}

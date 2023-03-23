@@ -1,0 +1,28 @@
+capital = 200
+
+oob = "standard_templates"
+
+# Starting tech
+
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = corporatism
+	last_election = "3374.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	despotism = 20
+	supremacism = 20
+	democracy = 10
+	corporatism = 50
+}
+
+create_country_leader = {
+	name = "Andrei Rodion"
+	desc = "TBZ_tiveask_desc"
+	picture = "portrait_andrei_rodion.dds"
+	ideology = corporatism_type 
+}
