@@ -1,0 +1,13 @@
+﻿
+l_english:
+######### countryname
+ACS_despotism:0 "Army Command South"
+ACS_despotism_DEF:0 "The Southern Army Command"
+ACS_despotism_ADJ:0 "Symbiotic"
+
+### LEADER DESC
+ACS_oscar_desc:0 "Artist: ArtChoiAila\n\nAge: 48\n\nOscar is native to the region of Zhafollis, born in the small rural town of Vaselios, now known as Ambersville.\n\nOscar is president Amber's older brother, during the occupation Oscar was much more active than Amber, being present in many of the popular revolts and major acts of resistance, he was one of the main figures of the freedom movements, being a undying defender of democracy, not being shy to show his support for the libertation and creation of the Federation, being one of it's founding members together with his brother.\n\nAt first Oscar supported his brother being the president, he honestly thought he would do a nice job and did believe his younger sibling when he said he truly believed in democracy, but recent times and events have made Oscar retract his support, specially with the more authoritarian methods employed by the president, now there exists this quiet rivalry between the two, with Oscar being ready to act if Amber further steps out of line."
+
+#####partys names###
+ACS_despotism_party:0 "Southern Military Council"
+ACS_despotism_party_long:0 "the Southern Military Council"

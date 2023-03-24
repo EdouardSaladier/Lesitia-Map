@@ -1,0 +1,6 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_southern_command"
+		texturefile = "gfx/interface/ideas/southern_army_command.dds"
+	}		
+}
