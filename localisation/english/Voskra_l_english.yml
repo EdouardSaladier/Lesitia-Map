@@ -1,0 +1,13 @@
+﻿
+l_english:
+######### countryname
+VOS_despotism:0 "Voskra Collective"
+VOS_despotism_DEF:0 "The Voskra Collective"
+VOS_despotism_ADJ:0 "Voskran"
+
+### LEADER DESC
+VOS_kallista_desc:0 "Artist: ArtChoiAila\n\nAge: 23\n\nKallista is native to and the governor of the region of Voskra, she was born in the city of Cochea.\n\nKallista is quite young compared to other generals and governors, and this surely isn't a surprise to anybody, after all she wasn't supposed to be in charge, she only got that occupation after the ant queen of Voskra mysteriously went missing, most have just assumed that Kallista has gotten rid of her after the fiasco that was the queen's handling of the region and her collaboration with the reptiles, now Kallista serves as the regent of the region as well as an appointed general of the Federation due to her important status and the fact she was a pretty high rank in the Voskran royal guard.\n\nKallista has no interest in the rest of the nation, she cares exclusively about her region and antkind, always defending her own species whenever she gets the chance, she has shown a slight interest in running in the elections, most likely so she can use that position to take revenge against the reptiles, she will most likely not join any revolts, as she doesn't want to weaken the country."
+
+#####partys names###
+VOS_despotism_party:0 "Voskran Collective"
+VOS_despotism_party_long:0 "the Voskran Collective"

@@ -1,0 +1,43 @@
+ideas = {
+
+	country = {
+		voskra_colony = {
+			picture = voskra_colony
+			
+			allowed = { 
+			    tag = VOS
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.2
+				stability_factor = -0.2
+				compliance_growth_on_our_occupied_states = 0.5
+				resistance_activity = 0.5
+				resistance_growth_on_our_occupied_states = -0.5
+				civilian_factory_use = 3
+				production_speed_buildings_factor = 0.5
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.3
+				recruitable_population_factor = 0.2
+				recruitable_population = 0.03
+				production_factory_efficiency_gain_factor = 0.5
+				army_org_factor = 0.3
+				resistance_damage_to_garrison_on_our_occupied_states = -0.5
+				resistance_target = 0.5
+				industrial_capacity_factory = 0.3
+			}
+		}
+	}
+}

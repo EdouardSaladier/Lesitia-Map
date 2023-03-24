@@ -1,0 +1,40 @@
+ideas = {
+
+	country = {
+		sister_republics = {
+			picture = sister_republics
+			
+			allowed = { 
+			    tag = SYM
+				tag = BOR
+            }
+
+            available = {
+			    country_exists = BOR
+				country_exists = SYM
+            }
+
+            cancel = {
+				OR = {
+				    has_war_with = BOR
+				    has_war_with = SYM
+				}
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.1
+				army_org_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05 
+				production_speed_buildings_factor = 0.05
+			}
+		}
+	}
+}

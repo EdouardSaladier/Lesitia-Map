@@ -4,3 +4,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/southern_army_command.dds"
 	}		
 }
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_voskra_colony"
+		texturefile = "gfx/interface/ideas/voskra_colony.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_sister_republics"
+		texturefile = "gfx/interface/ideas/sister_republics.dds"
+	}		
+}

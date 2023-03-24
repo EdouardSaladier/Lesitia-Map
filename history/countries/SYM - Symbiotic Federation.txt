@@ -75,6 +75,10 @@ set_popularities = {
 	unclassified = 0
 }
 
+add_ideas = {
+    sister_republics
+}
+
 create_country_leader = {
 	name = "Amber Azkrini"
 	desc = "SYM_Amber_desc"

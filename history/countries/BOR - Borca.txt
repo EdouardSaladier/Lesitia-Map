@@ -51,11 +51,16 @@ set_technology = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = unclassified
+	ruling_party = despotism
 	last_election = "3374.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	unclassified = 100
+	democracy = 50
+	despotism = 50
+}
+
+add_ideas = {
+    sister_republics
 }
