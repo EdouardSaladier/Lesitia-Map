@@ -30,10 +30,140 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.05
 				stability_factor = 0.1
-				army_org_factor = 0.1
+				army_org_factor = 0.05
 				production_factory_efficiency_gain_factor = 0.05
 				production_factory_max_efficiency_factor = 0.05 
 				production_speed_buildings_factor = 0.05
+			}
+		}
+		
+		symbiotic_army = {
+			picture = symbiotic_army
+			
+			allowed = { 
+			    tag = SYM
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.15
+				surrender_limit = -0.1
+				training_time_factor = 0.1
+				war_support_factor = 0.1
+				army_org_factor = 0.1
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.08
+				experience_gain_army = 0.10
+			}
+		}
+		
+		chaotic_existence = {
+			picture = chaotic_existence
+			
+			allowed = { 
+			    tag = SYM
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.5
+				stability_factor = -0.2
+				surrender_limit = -0.4
+				war_support_factor = -0.3
+				production_speed_buildings_factor = -0.5
+				production_factory_efficiency_gain_factor = -0.5 
+				production_lack_of_resource_penalty_factor = 0.5
+				supremacism_drift = 0.03
+				revolutionarism_drift = 0.03
+				production_factory_max_efficiency_factor = -0.5 
+				industrial_capacity_factory = -0.3
+			}
+		}
+		
+		regionalism_problem = {
+			picture = regionalism_problem
+			
+			allowed = { 
+			    tag = SYM
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.2
+				stability_factor = -0.3
+				surrender_limit = -0.2
+				war_support_factor = -0.3
+				conscription = -0.2
+				conscription_factor = -0.3
+				local_resources_factor = -0.3
+				required_garrison_factor = -0.5
+				compliance_growth_on_our_occupied_states = -0.8
+				resistance_activity = -0.5
+			}
+		}
+		
+		emergency_assistance = {
+			picture = emergency_assistance
+			
+			allowed = { 
+			    tag = SYM
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.05
+				consumer_goods_factor = 0.1
+				civilian_factory_use = 4
+				stability_factor = 0.05
+				monthly_population = 0.8
+				weekly_manpower = 500
+				democracy_drift = 0.02
+				production_speed_buildings_factor = 0.2
 			}
 		}
 	}

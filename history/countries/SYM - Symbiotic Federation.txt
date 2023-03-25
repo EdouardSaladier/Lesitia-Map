@@ -77,6 +77,10 @@ set_popularities = {
 
 add_ideas = {
     sister_republics
+	symbiotic_army
+	chaotic_existence
+	regionalism_problem
+	emergency_assistance
 }
 
 create_country_leader = {

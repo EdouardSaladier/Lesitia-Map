@@ -16,3 +16,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/sister_republics.dds"
 	}		
 }
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_symbiotic_army"
+		texturefile = "gfx/interface/ideas/symbiotic_army.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_chaotic_existence"
+		texturefile = "gfx/interface/ideas/chaotic_existence.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_regionalism_problem"
+		texturefile = "gfx/interface/ideas/regionalism_problem.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_emergency_assistance"
+		texturefile = "gfx/interface/ideas/emergency_assistance.dds"
+	}		
+}
