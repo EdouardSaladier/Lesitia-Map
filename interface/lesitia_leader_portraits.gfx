@@ -1,0 +1,24 @@
+spriteTypes = {
+
+	### FHI
+
+	spriteType = {
+		name = "GFX_portrait_labhrann_iomharach"
+		texturefile = "gfx/leaders/FHI/portrait_labhrann_iomharach.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_laomann_illebhain"
+		texturefile = "gfx/leaders/FHI/portrait_laomann_illebhain.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_cormag_lutair"
+		texturefile = "gfx/leaders/FHI/portrait_cormag_lutair.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_silis_lutair"
+		texturefile = "gfx/leaders/FHI/portrait_silis_lutair.dds"
+	}
+}

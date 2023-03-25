@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 3376.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "CMM"
+		default_country = "FHI"
 		default = yes
 		
 		"SYM"={
@@ -43,7 +43,7 @@ bookmarks = {
 			}
 		}
 		
-		"CMM"={
+		"FHI"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democracy
 			ideas = {

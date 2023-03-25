@@ -76,9 +76,9 @@
  VRT_DEF:0 "Vratenzk"
  VRT_ADJ:0 "Vratenzkian"
  
- CMM:0 "Fhìreanta"
- CMM_DEF:0 "Fhìreanta"
- CMM_ADJ:0 "Fhìreantan"
+ FHI:0 "Fhìreanta"
+ FHI_DEF:0 "the Commonwealth of Fhìreanta"
+ FHI_ADJ:0 "Fhìreantan"
  
  AKU:0 "Akuriel"
  AKU_DEF:0 "Akuriel"

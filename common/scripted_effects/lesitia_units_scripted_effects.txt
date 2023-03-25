@@ -76,9 +76,9 @@ load_initial_units_effect = {
 	}
 	if = {
 		limit = {
-			tag = CMM
+			tag = FHI
 		}
-		load_oob = "CMM"
+		load_oob = "FHI"
 	}
 	if = {
 		limit = {

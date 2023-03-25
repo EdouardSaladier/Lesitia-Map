@@ -1,0 +1,37 @@
+﻿
+l_english:
+######### countryname
+FHI_despotism:0 "Fhíreantan Directorate"
+FHI_despotism_DEF:0 "the Fhíreantan Directorate"
+FHI_despotism_ADJ:0 "Fhíreantan"
+
+###Leaders
+FHI_labhrann_iomharach:0 "Labhrann Ìomharach"
+FHI_laomann_illebhain:0 "Laomann IlleBhàin"
+FHI_cormag_lutair:0 "Cormag Lùtair"
+FHI_silis_lutair:0 "Sìlis Lùtair"
+
+#####partys names###
+FHI_despotism_party:0 "BSTP"
+FHI_despotism_party_long:0 "Buidheann-Stiùiridh Tèarainteachd Poblach (Public Security Directorate)"
+
+FHI_revolutionarism_party:0 "ASC"
+FHI_revolutionarism_party_long:0 "Arm Saoraidh Coineanach (Rabbit Liberation Front)"
+
+FHI_corporatism_party:0 "SSG H.I."
+FHI_corporatism_party_long:0 "StàSaiGual Heavy Industry"
+
+FHI_supremacism_party:0 "Aiseirigh"
+FHI_supremacism_party_long:0 "Gluasad an Aiseirigh (Resurrection Movement)"
+
+FHI_democracy_party:0 "DnSG"
+FHI_democracy_party_long:0 "Dòigh na Smuain Ghlan (Way of the Pure Thought)"
+
+FHI_technocracy_party:0 "CLE"
+FHI_technocracy_party_long:0 "Coimisean Leasachaidh Eaconamach (Economic Development Commission)"
+
+FHI_theocracy_party:0 "Coimisean Rèiteachaidh"
+FHI_theocracy_party_long:0 "Coimisean Rèiteachaidh (Arbitration Commission)"
+
+FHI_unclassified_party:0 "Caraidean"
+FHI_unclassified_party_long:0 "Caraidean Rheol (Friends of Rheol)"

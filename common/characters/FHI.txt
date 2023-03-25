@@ -1,0 +1,63 @@
+characters = {
+	FHI_labhrann_iomharach = {
+		name = FHI_labhrann_iomharach
+		portraits = {
+			civilian = {
+				large = GFX_portrait_labhrann_iomharach
+			}
+		}
+		country_leader = {
+			ideology = despotism_type
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	FHI_laomann_illebhain = {
+		name = FHI_laomann_illebhain
+		portraits = {
+			civilian = {
+				large = GFX_portrait_laomann_illebhain
+			}
+		}
+		country_leader = {
+			ideology = theocracy_type
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	FHI_cormag_lutair={
+		name=FHI_cormag_lutair
+		portraits={
+			army={
+				large=GFX_portrait_cormag_lutair
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		field_marshal={
+			traits={ old_guard war_hero unyielding_defender }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=3
+		}
+	}
+	FHI_silis_lutair={
+		name=FHI_silis_lutair
+		gender = female
+		portraits={
+			army={
+				large=GFX_portrait_silis_lutair
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader commando }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=4
+		}
+	}
+}

@@ -63,12 +63,12 @@ set_convoys = 20
 add_equipment_to_stockpile = {
     type = high_speed_train_equipment
     amount = 26
-    producer = CMM
+    producer = FHI
 }
 add_equipment_to_stockpile = {
     type = logistic_vehicle_system_equipment
     amount = 260
-    producer = CMM
+    producer = FHI
 }
 
 set_politics = {
@@ -81,25 +81,15 @@ set_politics = {
 set_popularities = {
 	revolutionarism = 5
 	technocracy = 3
-	democracy = 28
+	democracy = 23
 	despotism = 12
 	theocracy = 36
-	corporatism = 14
-	supremacism = 2
-	unclassified = 0
+	corporatism = 2
+	supremacism = 18
+	unclassified = 1
 }
 
-
-create_country_leader = {
-	name = "Labhrann Ìomharach"
-	desc = "CMM_Labhrann_desc"
-	picture = "portrait_labhrann_iomharach.dds"
-	ideology = theocracy_type
-}
-
-create_country_leader = {
-	name = "Laomann IlleBhàin"
-	desc = "CMM_Labhrann_desc"
-	picture = "portrait_labhrann_iomharach.dds"
-	ideology = theocracy_type
-}
+recruit_character = FHI_labhrann_iomharach
+recruit_character = FHI_laomann_illebhain
+recruit_character = FHI_cormag_lutair
+recruit_character = FHI_silis_lutair

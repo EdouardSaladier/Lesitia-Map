@@ -10,8 +10,8 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-		owner = CMM
-		add_core_of = CMM
+		owner = FHI
+		add_core_of = FHI
 		set_variable = { majority = 49 }
 		
 		victory_points = {

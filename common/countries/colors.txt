@@ -80,7 +80,7 @@ VRT = {
 	color = rgb { 161 101 153 }
 	color_ui = rgb { 161 101 153 }
 }
-CMM = {
+FHI = {
 	color = rgb { 198 167 83 }
 	color_ui = rgb { 198 167 83 }
 }

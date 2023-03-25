@@ -11,8 +11,8 @@ state={
 			electronics_factory = 2
 			air_base = 5
 		}
-		owner = CMM
-		add_core_of = CMM
+		owner = FHI
+		add_core_of = FHI
 		set_variable = { majority = 25 }
 		
 		victory_points = {
