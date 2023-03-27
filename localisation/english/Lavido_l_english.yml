@@ -1,0 +1,12 @@
+﻿l_english:
+######### countryname
+LAV_democracy:0 "Lavido Miners Republic"
+LAV_democracy_DEF:0 "The Lavido Miners Republic"
+LAV_democracy_ADJ:0 "Lavidoan"
+
+### LEADER DESC
+LAV_Intona_desc:0 "Artist: ArtChoiAila\n\nAge: 56\n\nIntona Rubrum was born within the closed Lavido colony, the colony wasn't directly occupied by the empire as it was difficult to access it without thousands of reptile soldiers dying in the process, instead the empire occupied the areas above it and just demanded taxes and other minor concessions, making so the life of Intona was rather nice compared to other insects of the region, she was raised as part of the higher class inside the colony, later being chosen as the new queen as the old one passed away, although she could have easily continued the despotist rule that previous queens had she instead turned towards a more social and democratic approach, trying to help those exploited by unfair conditions and positions within society, this idea continuing even after the liberation wars, where she was allowed to be governor over the region, although some within the interior of Lavido refuse to recognize her as the leader due to her royal connection."
+
+#####partys names###
+LAV_democracy_party:0 "LSWP"
+LAV_democracy_party_long:0 "the Lavido Social Worker Party"

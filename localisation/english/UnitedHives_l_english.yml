@@ -1,0 +1,13 @@
+﻿
+l_english:
+######### countryname
+UHL_revolutionarism:0 "United Hives of Lavido"
+UHL_revolutionarism_DEF:0 "The United Hives of Lavido"
+UHL_revolutionarism_ADJ:0 "Lavidoan"
+
+### LEADER DESC
+UHL_matvey_desc:0 "Artist: ArtChoiAila\n\nAge: 44\n\nMatvey Velazik was born into a family of farmers in Lavido, in the city of Nordollato, where he witnessed the struggles of the working class under the oppressive reptilian occupation. He became a vocal advocate for revolutionarism, believing that it was the only way to achieve true equality and justice for all.\n\nAfter a century of occupation, the insects of Lavido finally succeeded in expelling the reptilian occupiers. However, instead of rising to a position of leadership, Matvey chose to serve under the ant queen of Lavido. Although he had reservations about the concept of a monarch, he believed that it was important to work within the system in order to effect change.\n\nDespite his official position, Matvey remained an outspoken anti-monarchist and troublemaker, constantly causing headaches for the ant queen. He agitated for worker's rights and spoke out against the privileges enjoyed by the queen and her court. He believed that true power should reside with the people, not with a select few rulers.\n\nMatvey's actions often put him at odds with the queen and her loyalists, but he remained steadfast in his commitment to his principles. He continued to speak out and organize for the cause of revolutionarism, never wavering in his belief that a better system was possible. He would even accuse the queen of using her "social-democratic" idelogy to gaslight the workers into accepting their fate and to keep them from fighting back against injustices.\n\nHe would get the majority of his support after an episode of the Lavido government where the queen sided with mechanization of the farms and mines, virtually ending thousands of jobs if the changes went into effect, this causing him to gather enough support to launch a revolt on the north of the region, creating the United Hives."
+
+#####partys names###
+UHL_revolutionarism_party:0 "Lavido Miners Union"
+UHL_revolutionarism_party_long:0 "the Lavido Miners Union"

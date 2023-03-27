@@ -1,0 +1,12 @@
+﻿l_english:
+######### countryname
+TPG_democracy:0 "Tiveask Provisional Government"
+TPG_democracy_DEF:0 "The Neutral Zone"
+TPG_democracy_ADJ:0 "Tiveaskan"
+
+### LEADER DESC
+TPG_mel_desc:0 "Artist: ArtChoiAila\n\nAge: 26\n\nMeloe Aonte was born in the area of what today is Tiveask, but what city exactly is not known due to the fact he was taken away from home at a very young age by Imperial authorities, he would find himself locked up in one of the many camps found back at the core imperial lands, being frequently tortured and tested on until the faithful day the bombs dropped, where he, together with other prisoners, begun a march back to the south to try to find their freedom; but Meloe is still feeling the mental and physical effects of the tests, not having been able to move on."
+
+#####partys names###
+TPG_democracy_party:0 "TCSS"
+TPG_democracy_party_long:0 "the Tiveask Council for Safety and Security"

@@ -1,0 +1,12 @@
+﻿l_english:
+######### countryname
+ETH_supremacism:0 "Resse Republic"
+ETH_supremacism_DEF:0 "Resse National Republic"
+ETH_supremacism_ADJ:0 "Ressian"
+
+### LEADER DESC
+ETH_russet_desc:0 "Artist: ArtChoiAila\n\nAge: 44\n\nRusset Vero was born in the metropolis of Périvers during imperial occupation, from a young age he started developing a deep respect by the nationalistic and brutal approach the reptiles used, even if he didn't like them he couldn't help but notice how well it worked to keep revolts and revolutions down, how well it worked to form a functional economy and so on, even after the liberation wars he would continue with his belief and respect for a supremacist approach, so much so he would form his own party, the RNIP, a party founded on all the policies of the defunct empire, it was such a hit with the local population due to the chaotic nature Resse found itself after freedom that Russet got easily elected, promising to deal with the instability of the state and the divisions of society, while also bringing back the old Ressian culture."
+
+#####partys names###
+ETH_supremacism_party:0 "RNIP"
+ETH_supremacism_party_long:0 "the Ressian National Integralist Party"

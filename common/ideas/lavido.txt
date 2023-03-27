@@ -1,0 +1,44 @@
+ideas = {
+
+	country = {
+		lavido_democracy = {
+			picture = lavido_democracy
+			
+			allowed = { 
+			    tag = LAV
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				party_popularity_stability_factor = 0.3
+				stability_factor = -0.2
+				war_support_factor = -0.1
+				local_resources_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.2
+				recruitable_population_factor = 0.2
+				democracy_drift = 0.03
+				democracy_acceptance = 50
+				revolutionarism_acceptance = 50
+				state_production_speed_industrial_complex_factor = 0.1
+			}
+			
+			targeted_modifier = {
+                tag = UHL
+                attack_bonus_against = -0.1
+                defense_bonus_against = -0.2
+            }
+		}
+	}
+}

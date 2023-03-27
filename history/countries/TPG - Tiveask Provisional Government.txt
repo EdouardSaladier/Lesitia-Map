@@ -4,6 +4,46 @@ oob = "standard_templates"
 
 # Starting tech
 
+set_research_slots = 2
+
+set_technology = {
+	primitive_firearms = 1
+	conventional_firearms = 1
+	recoiless_rifles = 1
+
+	main_support_equipment_tech = 1
+	reconnaissance_company = 1
+	high_speed_train = 1
+	engineer_company = 1
+	logistics_company = 1
+	
+	assault_forces_t = 1
+	infiltrators_t = 1
+	aerial_troopers_t = 1
+	
+	logistic_vehicle_system = 1
+
+	main_battle_tank = 1
+
+	field_artillery = 1
+	mobile_gun_platform = 1
+	flak_cannons = 1
+	rocketry_advancements = 1
+
+	multirole_fighter = 1
+	aerial_coverage_unit = 1
+
+	commercial_computers = 1
+	massively_parallels_computers = 1
+	centralized_systems = 1
+
+	gene_edition_framework = 1
+	assembly_lines = 1
+	rudimentary_agronomics = 1
+	basic_photovoltaic_cells = 1
+	nuclear_fission_reactors = 1
+	alkanine_fuel_cell = 1
+}
 
 set_convoys = 20
 
@@ -18,6 +58,10 @@ set_popularities = {
 	supremacism = 0
 	democracy = 100
 	corporatism = 0
+}
+
+add_ideas = {
+    refugee_state
 }
 
 create_country_leader = {

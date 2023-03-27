@@ -40,3 +40,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/emergency_assistance.dds"
 	}		
 }
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_refugee_state"
+		texturefile = "gfx/interface/ideas/refugee_state.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_ressian_machine"
+		texturefile = "gfx/interface/ideas/ressian_machine.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_lavido_democracy"
+		texturefile = "gfx/interface/ideas/lavido_democracy.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_revolutionary_revolt"
+		texturefile = "gfx/interface/ideas/revolutionary_revolt.dds"
+	}		
+}
