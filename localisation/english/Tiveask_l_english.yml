@@ -1,0 +1,13 @@
+﻿
+l_english:
+######### countryname
+TVA_despotism:0 "Tiveask Free Army"
+TVA_despotism_DEF:0 "The Tiveask Free Army"
+TVA_despotism_ADJ:0 "Tiveaskan"
+
+### LEADER DESC
+TVA_leonid_desc:0 "Artist: ArtChoiAila\n\nAge: 35\n\nLeonid Marat lived through some of the toughest times in the region of Tiveask. He had served in the military when he was younger, and after leaving the service, he had become a farmer like many others in the region.\n\nHowever, life was hard in Tiveask. The fog that had descended upon the region had made it almost impossible to grow crops or raise livestock. The fog was thick and persistent, and it was accompanied by strange, unexplained phenomena that made living in Tiveask a dangerous and miserable experience.\n\nTo make matters worse, ruthless bandits had begun operating inside the fog, taking advantage of the unarmed civilians and robbing them of everything they owned. The authorities were powerless to stop them, and the people of Tiveask had been left to fend for themselves.\n\nThat was when Leonid Marat decided to take matters into his own hands. He formed the Tiveask Free Army, a group of volunteers who were dedicated to protecting the people of Tiveask from the bandits and other dangers that lurked in the fog.\n\nLeonid was a natural leader, and his military training had given him the skills and discipline necessary to command a fighting force. He was respected by his followers, who saw him as a fearless and capable leader who was willing to do whatever it took to protect the people of Tiveask.\n\nUnder Leonid's leadership, the Tiveask Free Army became a formidable force to be reckoned with. They waged a guerrilla war against the bandits, striking at them from the shadows and using the fog to their advantage, much like what the bandits had been doing towards the civilians. The bandits soon learned to fear the Tiveask Free Army, and many of them fled the region in search of easier targets, although one group to the west remained insistent.\n\nDespite the many hardships that the people of Tiveask faced, Leonid remained committed to his cause. He knew that the fog was unlikely to lift anytime soon, and that the people of Tiveask would continue to suffer unless someone stood up to protect them. So he continues to lead the Tiveask Free Army, fighting for the rights of the people and working to make their lives just a little bit easier in the face of adversity."
+
+#####partys names###
+TVA_despotism_party:0 "T.F.A"
+TVA_despotism_party_long:0 "the Tiveask Free Army"

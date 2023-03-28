@@ -62,6 +62,8 @@ set_popularities = {
 
 add_ideas = {
     refugee_state
+	tiveask_fog
+	tiveask_bandits
 }
 
 create_country_leader = {

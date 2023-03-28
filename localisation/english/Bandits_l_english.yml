@@ -1,0 +1,13 @@
+﻿
+l_english:
+######### countryname
+TBZ_corporatism:0 "Tiveask Bandit Zone"
+TBZ_corporatism_DEF:0 "The Tiveask Free Zone"
+TBZ_corporatism_ADJ:0 "Tiveaskan"
+
+### LEADER DESC
+TBZ_tiveask_desc:0 "Artist: ArtChoiAila\n\nAge: 37\n\nAndrei Rodion is a praying mantis, one who had always been a survivor. He grew up in the region of Tiveask, and had learned from an early age that life was tough and unforgiving there. But instead of working hard and trying to build a better life, Andrei had chose a different path.\n\nHe would form the Ephemeral Gang with like-minded individuals, a group of bandits who roamed the foggy region of Tiveask, preying on the weak and vulnerable. Andrei had no qualms about exploiting the civilians of Tiveask for his own gain. He and his gang would steal whatever they could get their claws on and sell it to foreign buyers for a tidy profit, one of their major investors being Akurii millionaires interested in "artifacts".\n\nA couple of years later new problems would arrive, the Tiveask Free Army had been a thorn in Andrei's side since its formation. Leonid Marat and his volunteers had been a constant obstacle to Andrei's schemes, and the two groups had clashed many times over the years. But despite the losses he had suffered at the hands of the Free Army, Andrei had remained resolute, building up his power and supporters on the west region of Tiveask.\n\nHe was and still is a ruthless and cold-blooded leader, feared by his own gang as much as he was by his enemies. He had no qualms about killing those who crossed him, and had built a reputation as one of the most dangerous figures in Tiveask.\n\nAndrei's past had left him with a deep-seated hatred for authority and those who would stand in his way. He saw the world as a harsh and unforgiving place, and believed that only the strong survived. To him, the civilians of Tiveask were nothing but pawns to be used and discarded, and he had no sympathy for their plight, believing they were at fault for their own situation, that they simply aren't trying hard enough.\n\nDespite his ruthless nature, there were some who admired Andrei for his strength and determination. His gang was fiercely loyal to him, and many saw him as a symbol of the freedom and independence that they so craved. But to those who knew the true cost of his actions, Andrei was nothing but a heartless villain, a monster who would stop at nothing to get what he wanted."
+
+#####partys names###
+TBZ_corporatism_party:0 "Ephemeral Gang"
+TBZ_corporatism_party_long:0 "the Ephemeral Gang"

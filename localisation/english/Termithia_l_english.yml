@@ -1,0 +1,15 @@
+﻿
+l_english:
+######### countryname
+TER_technocracy:0 "Termithia"
+TER_technocracy_DEF:0 "The Termite Mound"
+TER_technocracy_ADJ:0 "Termithian"
+
+### LEADER DESC
+TER_slez_desc:0 "Artist: ArtChoiAila\n\nAge: ???\n\nSlez's birth place is not known, his real age is also unclear, this is due to the fact the Termite Mound doesn't keep any files on it's citizens history, seeing no use on it, instead citizens are normally just given a number and called when needed to do a task, if they ever commit a crime the punishment is death, no matter the offence, without any lawyers or tribunals, therefore background checks are not required, normally those inside the mound don't even get a name, Slez being a special case since he was handpicked by the royal couple to be the representative of the mound."
+TER_hundredth_desc:0 "Artist: ArtChoiAila\n\nAge: ???\n\nAs any other termite her background is not known, what is known about her is that she is a female termite that used to work as an police investigator, mostly to find and contain other termites so they could be brought to "justice", she was never a part of the royal guard, but because of her experience and cunning discipline she was allowed to be part of the expedition to the surface."
+TER_seventy_desc:0 "Artist: ArtChoiAila\n\nAge: ???\n\nThe only thing of note that anybody knows about Seventy-Thousand is that he used to work fixing robots and other lesser machines, he would basically become the main mechanic of the mound, and due to his knowledge and practice he was chosen to go to the surface expedition."
+
+#####partys names###
+TER_technocracy_party:0 "TCE"
+TER_technocracy_party_long:0 "the Termite Council of Experts"

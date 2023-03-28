@@ -1,0 +1,289 @@
+ideas = {
+
+	country = {
+		termite_future = {
+			picture = termite_future
+			
+			allowed = { 
+			    tag = TER
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.2
+				stability_factor = 0.2
+				local_resources_factor = 0.2
+				surrender_limit = 0.6
+				research_speed_factor = 0.4
+				production_speed_buildings_factor = 0.5
+				production_speed_nuclear_reactor_factor = 0.5
+				production_speed_electronics_factory_factor = 0.5
+				industrial_capacity_factory = 0.1
+				production_factory_efficiency_gain_factor = 0.2
+				industry_repair_factor = 0.3
+			}
+		
+		}
+		
+		outsider_issue = {
+			picture = outsider_issue
+			
+			allowed = { 
+			    tag = TER
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				local_non_core_manpower = -0.8
+				non_core_manpower = -0.8
+				resistance_growth = 0.3
+				starting_compliance = -0.3
+                no_compliance_gain = 1
+                resistance_target = 0.5				
+			}
+		
+		}
+		
+		tiveask_fog = {
+			picture = tiveask_fog
+			
+			allowed = { 
+			    tag = TER
+				tag = TVA
+				tag = TPG
+				tag = TBZ
+				tag = CSR
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+                air_accidents_factor = 0.8
+				air_agility_factor = -0.3
+				air_defence_factor = -0.3
+				air_cas_efficiency = -0.5
+				air_escort_efficiency = -0.5
+				air_intercept_efficiency = -0.5
+				air_mission_efficiency = -0.7
+				air_night_penalty = 0.5
+				air_strategic_bomber_bombing_factor = -0.3
+				air_superiority_efficiency = -0.5
+				air_weather_penalty = 0.5
+				ground_attack_factor = -0.2
+				strategic_bomb_visibility = 0.5
+				rocket_attack_factor = -0.5
+				army_speed_factor = -0.2
+                army_morale_factor = -0.1
+                army_org_factor = -0.1
+                army_org_regain = -0.1	
+				recon_factor = -0.2
+				dig_in_speed_factor = -0.2
+				org_loss_when_moving = 0.1
+			}
+		
+		}
+		
+		tiveask_bandits = {
+			picture = tiveask_bandits
+			
+			allowed = { 
+				tag = TVA
+				tag = TPG
+				tag = CSR
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.1
+				political_power_gain = -0.1
+				resistance_damage_to_garrison = 0.3
+				resistance_growth = 0.3
+				civilian_factory_use = 1
+			}
+		
+		}
+		
+		glistening_hope = {
+			picture = glistening_hope
+			
+			allowed = { 
+				tag = TVA
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.2
+				war_support_factor = 0.2
+				political_power_gain = 0.1
+				resistance_damage_to_garrison = -0.6
+				resistance_growth = -0.8
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				army_strength_factor = 0.1
+				local_org_regain = 0.2
+				local_supplies = 0.2
+				weekly_manpower = 500
+				conscription_factor = 0.5
+				army_morale_factor = 0.4
+				surrender_limit = 0.7
+			}
+			
+			targeted_modifier = {
+                tag = TBZ
+                attack_bonus_against = 0.1
+                defense_bonus_against = 0.1
+            }
+		
+		}
+		
+		ruthless_rule = {
+			picture = ruthless_rule
+			
+			allowed = { 
+				tag = TBZ
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = -0.1
+				political_power_gain = 0.3
+				resistance_damage_to_garrison = -0.5
+				resistance_growth = -0.5
+			}
+		
+		}
+		
+		ephemeral_militia = {
+			picture = ephemeral_militia
+			
+			allowed = { 
+				tag = TBZ
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    industrial_factory_donations = 6
+				military_factory_donations = 2
+				weekly_manpower = 500
+				breakthrough_factor = 0.1
+				conscription_factor = 0.3
+				planning_speed = 0.1
+				army_org_factor = 0.1
+			}
+		
+		}
+		
+		last_stand = {
+			picture = last_stand
+			
+			allowed = { 
+				tag = CSR
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    stability_factor = 0.1
+				war_support_factor = 0.2
+				democracy_drift = 0.03
+				democracy_acceptance = 50
+				political_power_gain = 0.5
+				army_morale_factor = 0.3
+				conscription_factor = 0.2
+				army_defence_factor = 0.1
+				dig_in_speed_factor = 0.2
+			}
+		
+		}
+	}
+}

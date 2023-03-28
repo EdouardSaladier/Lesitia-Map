@@ -64,3 +64,51 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/revolutionary_revolt.dds"
 	}		
 }
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_termite_future"
+		texturefile = "gfx/interface/ideas/termite_future.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_outsider_issue"
+		texturefile = "gfx/interface/ideas/outsider_issue.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_tiveask_fog"
+		texturefile = "gfx/interface/ideas/tiveask_fog.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_tiveask_bandits"
+		texturefile = "gfx/interface/ideas/tiveask_bandits.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_glistening_hope"
+		texturefile = "gfx/interface/ideas/glistening_hope.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_ruthless_rule"
+		texturefile = "gfx/interface/ideas/ruthless_rule.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_ephemeral_militia"
+		texturefile = "gfx/interface/ideas/ephemeral_militia.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_last_stand"
+		texturefile = "gfx/interface/ideas/last_stand.dds"
+	}		
+}
