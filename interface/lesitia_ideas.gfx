@@ -112,3 +112,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/last_stand.dds"
 	}		
 }
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_fanatic_idealism"
+		texturefile = "gfx/interface/ideas/fanatic_idealism.dds"
+	}		
+}
