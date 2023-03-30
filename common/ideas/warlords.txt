@@ -320,5 +320,239 @@ ideas = {
 			}
 		
 		}
+		
+		republican_army = {
+			picture = republican_army
+			
+			allowed = { 
+				tag = RFT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    stability_factor = 0.1
+				war_support_factor = 0.2
+				army_morale_factor = 0.1
+				conscription_factor = 0.3
+				surrender_limit = 0.2
+				democracy_drift = 0.03
+				democracy_acceptance = 50
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		
+		}
+		
+		zaroa_faith = {
+			picture = zaroa_faith
+			
+			allowed = { 
+				tag = OAV
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    stability_factor = 0.2
+				war_support_factor = 0.2
+				army_morale_factor = 0.1
+				conscription_factor = 0.6
+				surrender_limit = 0.5
+				theocracy_drift = 0.03
+				theocracy_acceptance = 50
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		
+		}
+		
+		millenium_traditions = {
+			picture = millenium_traditions
+			
+			allowed = { 
+				tag = SED
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    stability_factor = 0.1
+				army_morale_factor = 0.1
+				conscription_factor = 0.1
+				theocracy_drift = 0.01
+				theocracy_acceptance = 50
+				despotism_drift = 0.01
+				despotism_acceptance = 50
+				army_defence_factor = 0.05
+				research_speed_factor = -0.1
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		
+		}
+		
+		shared_identity = {
+			picture = shared_identity
+			
+			allowed = { 
+				tag = SCM
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    stability_factor = -0.1
+				army_morale_factor = 0.1
+				conscription_factor = 0.5
+				revolutionarism_drift = 0.01
+				revolutionarism_acceptance = 50
+				army_attack_factor = 0.05
+				research_speed_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.2
+				production_factory_max_efficiency_factor = 0.3
+				industrial_capacity_factory = 0.3
+			}
+		
+		}
+		
+		kakrikea_army = {
+			picture = kakrikea_army
+			
+			allowed = { 
+				tag = KAK
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.1
+				conscription_factor = 0.5
+				democracy_drift = 0.01
+				democracy_acceptance = 50
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_speed_factor = 0.1
+			}
+		
+		}
+		
+		hive_democracy = {
+			picture = hive_democracy
+			
+			allowed = { 
+				tag = MAV
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    political_power_gain = 0.2
+				stability_factor = 0.1
+				army_morale_factor = 0.1
+				conscription_factor = 0.3
+				democracy_drift = 0.03
+				democracy_acceptance = 50
+				production_speed_farms_factor = 0.3
+				production_speed_renewable_power_station_factor = 0.3
+				industrial_capacity_factory = 0.1
+				army_core_defence_factor = 0.2
+			}
+		
+		}
+		
+		sin_islands = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }
+
+            available = {
+			    has_government = corporatism
+            }
+
+            cancel = {
+			    has_government = democracy
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    political_power_gain = 0.3
+				stability_factor = 0.1
+				industrial_capacity_factory = 0.2
+				production_factory_efficiency_gain_factor = 0.2
+				production_factory_max_efficiency_factor = 0.2
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = -0.1
+				industrial_factory_donations = 6
+				military_factory_donations = 2
+			}
+		
+		}
 	}
 }

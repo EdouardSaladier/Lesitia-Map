@@ -1,0 +1,13 @@
+﻿
+l_english:
+######### countryname
+RFT_democracy:0 "Republican Front"
+RFT_democracy_DEF:0 "The Republican Front"
+RFT_democracy_ADJ:0 "Ressian"
+
+### LEADER DESC
+RFT_leo_desc:0 "Artist: ArtChoiAila\n\nAge: 45\n\nLéo Laze is a charismatic and passionate democratic leader hailing from the region of Resse, a former member of the now-collapsed Symbiotic Federation. After the fall of the federation due to instability, Léo found himself ruling over one part of his region while his supremacist brother, Russet Vero, controlled the other part.\n\nLéo and Russet had vastly different ideologies and beliefs, with Léo being a fervent supporter of democracy and equal rights for all while Russet espoused supremacist views that favored their own race and culture above all others. Despite being brothers, Léo and Russet had a strained and tumultuous relationship, with Léo harboring deep resentment towards his brother for his extremist views and actions.\n\nAs the co-leader of his region, Léo worked tirelessly to promote democracy and civil liberties, working to create a more inclusive and equal society for all. He championed causes such as universal suffrage, freedom of speech, and an end to discrimination based on race, gender, or sexual orientation.\n\nLéo's efforts were often met with resistance and hostility from Russet and his supporters, who saw Léo's beliefs as a threat to their own power and privilege. Russet and his followers frequently clashed with Léo's supporters, leading to outbreaks of violence and civil unrest.\n\nDespite the challenges he faced, Léo remained steadfast in his commitment to democracy and justice. He continued to fight for his beliefs and his vision of a more equal and just society, even in the face of overwhelming opposition."
+
+#####partys names###
+RFT_democracy_party:0 "Federal Party"
+RFT_democracy_party_long:0 "the Federal Party"

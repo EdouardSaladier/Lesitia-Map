@@ -1,0 +1,13 @@
+﻿
+l_english:
+######### countryname
+KAK_despotism:0 "Kakrikea Hive"
+KAK_despotism_DEF:0 "The Kakrikea Hive"
+KAK_despotism_ADJ:0 "Kakrikean"
+
+### LEADER DESC
+KAK_lua_desc:0 "Artist: ArtChoiAila\n\nAge: 36\n\nLuã is native to the region of Kakrikea, also being it's governor, being born in the city of Zentra.\n\nHe always showed despise towards the reptiles and always started fights with them in his teenage and young adult years, he quickly showed himself as a capable fighter, specially since he was able to defeat opponents two times his size just by brute force alone, of course he isn't invincible, most times being overconfident and planning things poorly, causing him to get beat up quite a bit on his many brawls, even leaving some scars around his body, but even with that his abilites were quickly noticed by resistance members, causing them to invite him into the movement and later make him be part of the insurrection army.\n\nDue to his confidence and deeds during the liberation war he was chosen by the queen to be the governor of the region as she was finally stepping down from power, his reign has been quite the authoritarian one, but with slight flirting towards democracy, he seems to support the more liberal pro-Federation faction inside of the army."
+
+#####partys names###
+KAK_despotism_party:0 "Kakrikea Council"
+KAK_despotism_party_long:0 "the Kakrikea Council"

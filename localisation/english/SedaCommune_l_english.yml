@@ -1,0 +1,13 @@
+﻿
+l_english:
+######### countryname
+SCM_revolutionarism:0 "Seda Commune"
+SCM_revolutionarism_DEF:0 "The Seda Commune"
+SCM_revolutionarism_ADJ:0 "Sedanese"
+
+### LEADER DESC
+SCM_valentin_desc:0 "Artist: ArtChoiAila\n\nAge: 37\n\nArtem Valentin was born into a humble family of fireflies in the southern region of what was once the Symbiotic Federation. From a young age, he was fascinated by the idea of collective action and the power of the community to effect change. As he grew older, he became increasingly involved in local politics, joining a group of like-minded fireflies who shared his passion for collectivism.\n\nArtem quickly rose through the ranks of his group, demonstrating a natural talent for leadership and a deep commitment to the principles of socialism and egalitarianism. He believed that the only way to build a truly just and equitable society was to put the needs of the collective ahead of the interests of the individual.\n\nAs the Symbiotic Federation began to collapse, Artem saw an opportunity to put his beliefs into action. He rallied his followers and declared the formation of a new socialist state in south Seda, one that would be governed by the principles of collective action and community empowerment.\n\nDespite facing opposition from traditionalists like Railanderson Olivensa, Artem remained undeterred. He pouring his energy into building a strong and resilient society in the south, one that would serve as a model for the rest of the world."
+
+#####partys names###
+SCM_revolutionarism_party:0 "Seda Collectivist Party"
+SCM_revolutionarism_party_long:0 "the Seda Collectivist Party"

@@ -118,3 +118,51 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/fanatic_idealism.dds"
 	}		
 }
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_republican_army"
+		texturefile = "gfx/interface/ideas/republican_army.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_zaroa_faith"
+		texturefile = "gfx/interface/ideas/zaroa_faith.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_millenium_traditions"
+		texturefile = "gfx/interface/ideas/millenium_traditions.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_shared_identity"
+		texturefile = "gfx/interface/ideas/shared_identity.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_kakrikea_army"
+		texturefile = "gfx/interface/ideas/kakrikea_army.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_kakrikea_army"
+		texturefile = "gfx/interface/ideas/kakrikea_army.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_hive_democracy"
+		texturefile = "gfx/interface/ideas/hive_democracy.dds"
+	}		
+}
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_sin_islands"
+		texturefile = "gfx/interface/ideas/sin_islands.dds"
+	}		
+}

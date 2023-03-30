@@ -1,0 +1,13 @@
+﻿
+l_english:
+######### countryname
+OAV_theocracy:0 "Western Avenskan Republic"
+OAV_theocracy_DEF:0 "West Avenska"
+OAV_theocracy_ADJ:0 "Avenskan"
+
+### LEADER DESC
+OAV_polistik_desc:0 "Artist: ArtChoiAila\n\nAge: 21\n\nPolistik Sorak was born into a family of devout Zaroa practitioners in the region of Outer Avenska, located on the outskirts of what was then known as the Symbiotic Federation. From a young age, he was fascinated by the teachings of Zaroa, and spent much of his time studying the holy texts and learning about the history of the faith.\n\nAs he grew older, Polistik became increasingly involved in the local government of Outer Avenska, using his knowledge of the Zaroa faith to help guide the town's policies and decision-making. He quickly gained a reputation as a fair and just leader, and was eventually elected as the governor of Outer Avenska.\n\nFor years, Polistik worked tirelessly to improve the lives of his constituents, using his position of power to advocate for greater investment in infrastructure, education, and healthcare. He became known throughout the region as a compassionate and visionary leader, and many looked to him as a model for how government should be run.\n\nBut everything changed when the Symbiotic Federation began to crumble. As political tensions and economic instability swept across the region, Polistik found himself increasingly disillusioned with the central government's ability to provide for its citizens. He began to see the Federation as corrupt and decadent, a symbol of all that was wrong with the world, blaming the secular democratic system for the tragedy.\n\nDriven by his faith and his commitment to his people, Polistik made the bold decision to declare independence from the Symbiotic Federation. He rallied the people of Outer Avenska behind him, and soon the entire region was in open revolt.\n\nWith his leadership and guidance, the rebellion was a resounding success. Polistik's forces defeated the remnants of the Symbiotic Federation, and he was able to establish the Western Avenskan Republic, a new nation with strong ties to Avenska to the east. Under Polistik's rule, the Western Avenskan Republic quickly became known as a theocratic state, with Zaroa serving as the official religion. Polistik himself became the country's first leader, taking on the title of High Priest and ruling with a firm but benevolent hand, inspired by way the president of Avenska rules his nation."
+
+#####partys names###
+OAV_theocracy_party:0 "SLPWA"
+OAV_theocracy_party_long:0 "the Spiritual Liberation Party of West Avenska"

@@ -1,0 +1,19 @@
+﻿
+l_english:
+######### countryname
+RIS_corporatism:0 "Refreshment Islands"
+RIS_corporatism_DEF:0 "the Refreshment Islands"
+RIS_corporatism_ADJ:0 "Rescanian"
+RIS_democracy:0 "Republic of Symbiotica"
+RIS_democracy_DEF:0 "the Symbiotic Federation in Exile"
+RIS_democracy_ADJ:0 "Symbiotic"
+
+### LEADER DESC
+RIS_paragram_desc:0 "Artist: ArtChoiAila\n\nAge: 44\n\nParagram was born in the archipelago of Rescanie, his family always being wealthy and his father always telling him that the accumulation of capital was one of the main objectives of life, Paragram would make sure to follow what his father said, forming a casino and betting-house chain on the islands, basically turning the entire region into a vacation destination for gamblers and the rich."
+RIS_baris_desc:0 "Artist: ArtChoiAila\n\nAge: 35\n\nBaris was a minor military member within the Federal army before the collapse, but that didn't stop him from respecting and defending the nation and system he loved so much, due to this the collapse of the Federation hurt nobody as much as him, from that day forward he would keep his head down in sadness, until he came to the conclusion that he might be able to bring it back, gathering some loyalists he would take the Rescanie islands to himself and his cause, planning to come back to the mainland when the opportunity presents itself."
+
+#####partys names###
+RIS_corporatism_party:0 "Casino Board"
+RIS_corporatism_party_long:0 "the Casino Board"
+RIS_democracy_party:0 "Reclamation Council"
+RIS_democracy_party_long:0 "the Reclamation Council"
