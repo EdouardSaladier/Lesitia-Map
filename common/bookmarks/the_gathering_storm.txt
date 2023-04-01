@@ -11,8 +11,14 @@ bookmarks = {
 			history = "SYM_GATHERING_STORM_DESC"
 			ideology = democracy
 			ideas = {
+				symbiotic_army
+				regionalism_problem
+				chaotic_existence
 			}
 			focuses = {
+				SYM_internal_report
+				SYM_3376_elections
+				SYM_reachout_to_socialists
 			}
 		}
 		

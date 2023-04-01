@@ -1,0 +1,154 @@
+focus_tree = {
+	id = SYM
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SYM
+		}
+	}
+	default = no
+	
+	###Initial Temporary Tree
+	
+	focus = {
+		id = SYM_the_current_situation
+		icon = GFX_goal_SYM_the_current_situation
+		cost = 4
+		x = 10
+		y = 0
+	}
+	
+	focus = {
+		id = SYM_internal_report
+		icon = GFX_goal_SYM_internal_report
+		cost = 4
+		prerequisite = {
+			focus = SYM_the_current_situation
+		}
+		x = 10
+		y = 1
+
+	}
+	
+	focus = {
+		id = SYM_federal_party
+		icon = GFX_goal_SYM_federal_party
+		cost = 4
+		prerequisite = {
+			focus = SYM_internal_report
+		}
+		x = 8
+		y = 2
+
+	}
+	
+	focus = {
+		id = SYM_secure_donations
+		icon = GFX_goal_SYM_secure_donations
+		cost = 4
+		prerequisite = {
+			focus = SYM_federal_party
+		}
+		x = 8
+		y = 3
+
+	}
+	
+	focus = {
+		id = SYM_reachout_to_socialists
+		icon = GFX_goal_SYM_reachout_to_socialists
+		cost = 4
+		prerequisite = {
+			focus = SYM_internal_report
+		}
+		x = 10
+		y = 2
+
+	}
+	
+	focus = {
+		id = SYM_trinket_reforms
+		icon = GFX_goal_SYM_trinket_reforms
+		cost = 4
+		prerequisite = {
+			focus = SYM_reachout_to_socialists
+		}
+		x = 10
+		y = 3
+
+	}
+
+	focus = {
+		id = SYM_meet_with_governors
+		icon = GFX_goal_SYM_meet_with_governors
+		cost = 4
+		prerequisite = {
+			focus = SYM_internal_report
+		}
+		x = 12
+		y = 2
+
+	}
+	
+	focus = {
+		id = SYM_putdown_revolts
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 4
+		prerequisite = {
+			focus = SYM_meet_with_governors
+		}
+		x = 12
+		y = 3
+
+	}
+	
+	focus = {
+		id = SYM_3376_elections
+		icon = GFX_goal_SYM_3376_elections
+		cost = 4
+		prerequisite = {
+			focus = SYM_putdown_revolts
+		}
+		prerequisite = {
+			focus = SYM_trinket_reforms
+		}
+		prerequisite = {
+			focus = SYM_secure_donations
+		}
+		x = 10
+		y = 4
+
+	}
+	
+	focus = {
+		id = SYM_the_candis
+		icon = GFX_goal_SYM_the_candis
+		cost = 4
+		mutually_exclusive = {
+			focus = SYM_not_ready
+		}
+		prerequisite = {
+			focus = SYM_3376_elections
+		}
+		x = 11
+		y = 5
+
+	}
+	
+	focus = {
+		id = SYM_not_ready
+		icon = GFX_goal_SYM_not_ready
+		cost = 4
+		mutually_exclusive = {
+			focus = SYM_the_candis
+		}
+		prerequisite = {
+			focus = SYM_3376_elections
+		}
+		x = 9
+		y = 5
+
+	}
+
+}
