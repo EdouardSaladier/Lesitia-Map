@@ -1,0 +1,38 @@
+
+LUR_ustelak = {
+	icon = GFX_idea_fanatic_idealism
+	enable = { always = yes }
+	remove_trigger = { always = no }
+		
+}
+
+LUR_the_scalen_earth = {
+	icon = GFX_idea_fanatic_idealism
+	enable = { always = yes }
+	remove_trigger = {
+		NOT = {
+			is_owned_by = LUR
+		}
+	}
+	
+	enemy_intel_network_gain_factor_over_occupied_tag = -0.1
+	enemy_operative_detection_chance_factor_over_occupied_tag = 0.25
+	local_intel_to_enemies = -0.5
+	local_org_regain = 0.1
+}
+
+LUR_the_avian_directory = {
+	icon = GFX_idea_fanatic_idealism
+	enable = { always = yes }
+	remove_trigger = {
+		NOT = {
+			is_owned_by = LUR
+		}
+	}
+	
+	local_manpower = -0.2
+	local_resources = -0.25
+	disable_strategic_redeployment = yes
+	state_production_speed_buildings_factor = 0.1
+	max_fuel_building = 1000
+}

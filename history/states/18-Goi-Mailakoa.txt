@@ -15,6 +15,9 @@ state={
 		}
 		add_core_of = LUR
 		set_variable = { majority = 66 }
+		add_dynamic_modifier = {
+			modifier = LUR_the_scalen_earth
+		}
 	}
 
 	provinces={

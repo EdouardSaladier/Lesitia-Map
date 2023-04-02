@@ -44,15 +44,37 @@ set_technology = {
 	alkanine_fuel_cell = 1
 }
 
-set_convoys = 20
+set_convoys = 0
 
+LUR = {
+    add_dynamic_modifier = {
+        modifier = LUR_ustelak
+	}
+	add_ideas = {
+		LUR_suarra_majus_providence
+		LUR_spirit_of_the_suzokalak
+	}
+}
 
 set_politics = {
-	ruling_party = unclassified
+	ruling_party = theocracy
 	last_election = "3374.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	unclassified = 100
+	despotism = 11
+	revolutionarism = 3
+	corporatism = 6
+	supremacism = 18
+	democracy = 0
+	technocracy = 9
+	theocracy = 53
+}
+
+create_country_leader = {
+	name = "Thursish Gilyog"
+	desc = "LUR_thursish_gilyog_desc"
+	picture = "gfx/leaders/leader_unknown.dds"
+	ideology = theocracy_type
 }

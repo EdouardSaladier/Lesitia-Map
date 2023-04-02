@@ -1,0 +1,27 @@
+﻿l_english:
+######### countryname
+
+### LEADER DESC
+LUR_thursish_gilyog_desc: "placeholder"
+
+#####partys names###
+LUR_theocracy_party: "BOSM(H)"
+LUR_theocracy_party_long: "Body Of Suarra Maju (Hardliner)"
+LUR_supremacism_party: "BOSM(M)"
+LUR_supremacism_party_long: "Body Of Suarra Maju (Modernist)"
+LUR_despotism_party: "BOSM(R)"
+LUR_despotism_party_long: "Body Of Suarra Maju (Reformer)"
+LUR_technocracy_party: "The Directory"
+LUR_technocracy_party_long: "The Directory Of Avian Affairs"
+LUR_corporatism_party: "UACC"
+LUR_corporatism_party_long: "United Avian Corporate Council"
+LUR_revolutionarism_party: "CIA"
+LUR_revolutionarism_party_long: "Castorid Indigenous Army"
+####Ideas####
+LUR_suarra_majus_providence: "Suarra Maju's Providence"
+LUR_spirit_of_the_suzokalak: "The Spirit of the Suzokalak"
+
+####Dynamic Modifiers####
+LUR_ustelak: "Ustelak"
+LUR_the_scalen_earth: "The Scalen Earth"
+LUR_the_avian_directory: "The Avian Directory"
