@@ -12,12 +12,15 @@ state={
 		owner = LUR
 		add_core_of = LUR
 		set_variable = { majority = 26 }
+		add_dynamic_modifier = {
+			modifier = LUR_enslavement_of_the_lohikatua
+		}
 	}
 
 	provinces={
 		7323 13640 13754 20441 
 	}
-	manpower=2809678
+	manpower=289678
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

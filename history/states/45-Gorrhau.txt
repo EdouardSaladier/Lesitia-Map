@@ -6,7 +6,7 @@ state={
 	history={
 		buildings = {
 			infrastructure = 4
-			farms = 5
+			farms = 7
 		}
 		owner = LUR
 		victory_points = {
@@ -14,12 +14,15 @@ state={
 		}
 		add_core_of = LUR
 		set_variable = { majority = 29 }
+		add_dynamic_modifier = {
+			modifier = LUR_enslavement_of_the_lohikatua
+		}
 	}
 	
 	provinces={
 		2626 4034 6191 6537 6626 8892 13312 13349 13457 13458 13480 13569 13672 
 	}
-	manpower=6139000
+	manpower=1139000
 	state_category=metropolis
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

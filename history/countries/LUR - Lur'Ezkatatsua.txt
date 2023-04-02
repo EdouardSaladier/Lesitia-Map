@@ -1,6 +1,6 @@
 capital = 36
 
-oob = "standard_templates"
+oob = "LUR"
 
 # Starting tech
 
@@ -53,6 +53,8 @@ LUR = {
 	add_ideas = {
 		LUR_suarra_majus_providence
 		LUR_spirit_of_the_suzokalak
+		LUR_the_iraunkorrak_military
+		limited_conscription
 	}
 }
 

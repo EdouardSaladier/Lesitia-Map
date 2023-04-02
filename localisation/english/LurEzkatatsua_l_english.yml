@@ -20,8 +20,15 @@ LUR_revolutionarism_party_long: "Castorid Indigenous Army"
 ####Ideas####
 LUR_suarra_majus_providence: "Suarra Maju's Providence"
 LUR_spirit_of_the_suzokalak: "The Spirit of the Suzokalak"
+LUR_the_iraunkorrak_military: "The Iraunkorrak Military"
 
 ####Dynamic Modifiers####
 LUR_ustelak: "Ustelak"
 LUR_the_scalen_earth: "The Scalen Earth"
 LUR_the_avian_directory: "The Avian Directory"
+LUR_enslavement_of_the_lohikatua: "Enslavement of the Lohikatua"
+
+####Tooltips####
+ustelak_liz_tooltip: "§GThe Effects of the Iraunkorraks' Status§!"
+ustelak_avi_tooltip: "§YThe Effects of the Corvoids' Status§!"
+ustelak_cst_tooltip: "§LThe Effects of the Lohikatuas' Status§!"

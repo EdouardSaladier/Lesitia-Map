@@ -20,5 +20,18 @@ ideas = {
 				army_core_defence_factor = 0.1
 			}
 		}
+		LUR_the_iraunkorrak_military = {
+			#picture = 
+			modifier = {
+				conscription = 0.02
+				army_morale_factor = 0.1
+				max_training = -0.1
+				army_attack_factor = -0.2
+				training_time_army_factor = -0.2
+				experience_gain_army_factor = -0.5
+				experience_gain_air_factor = -0.75
+				max_command_power_mult = -0.25
+			}
+		}
 	}
 }

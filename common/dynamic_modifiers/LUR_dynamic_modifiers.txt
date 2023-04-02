@@ -3,7 +3,27 @@ LUR_ustelak = {
 	icon = GFX_idea_fanatic_idealism
 	enable = { always = yes }
 	remove_trigger = { always = no }
-		
+	
+	political_power_gain = -0.15
+	drift_defence_factor = -0.1
+	
+	custom_modifier_tooltip = ustelak_liz_tooltip
+	theocracy_drift = ustelak_liz_drift_var
+	despotism_drift = ustelak_liz_drift_var
+	supremacism_drift = ustelak_liz_drift_var
+	stability_weekly = ustelak_liz_st_var
+	war_support_weekly = ustelak_liz_ws_var
+	
+	custom_modifier_tooltip = ustelak_avi_tooltip
+	technocracy_drift = ustelak_avi_drift_var
+	corporatism_drift = ustelak_avi_drift_var
+	consumer_goods_factor = ustelak_avi_cg_var
+	industrial_capacity_factory = ustelak_avi_fo_var
+	
+	custom_modifier_tooltip = ustelak_cst_tooltip
+	revolutionarism_drift = ustelak_cst_drift_var
+	resistance_target = ustelak_cst_rt_var
+	local_resources_factor = ustelak_cst_lr_var
 }
 
 LUR_the_scalen_earth = {
@@ -18,11 +38,10 @@ LUR_the_scalen_earth = {
 	enemy_intel_network_gain_factor_over_occupied_tag = -0.1
 	enemy_operative_detection_chance_factor_over_occupied_tag = 0.25
 	local_intel_to_enemies = -0.5
-	local_org_regain = 0.1
 }
 
 LUR_the_avian_directory = {
-	icon = GFX_idea_fanatic_idealism
+	icon = GFX_idea_shared_identity
 	enable = { always = yes }
 	remove_trigger = {
 		NOT = {
@@ -35,4 +54,19 @@ LUR_the_avian_directory = {
 	disable_strategic_redeployment = yes
 	state_production_speed_buildings_factor = 0.1
 	max_fuel_building = 1000
+}
+
+LUR_enslavement_of_the_lohikatua = {
+	icon = GFX_idea_ruthless_rule
+	enable = { always = yes }
+	remove_trigger = {
+		NOT = {
+			is_owned_by = LUR
+		}
+	}
+	local_manpower = -0.1
+	local_resources = 0.5
+	local_factories = 0.25
+	local_building_slots_factor = -0.2
+	state_resource_food = 2
 }
