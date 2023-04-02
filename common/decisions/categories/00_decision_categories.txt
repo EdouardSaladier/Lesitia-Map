@@ -5,3 +5,11 @@ lesitia_generic_decisions = {
 
 	}
 }
+
+lesitia_debug_decisions = {
+	icon = generic_propaganda
+
+	visible = {
+		is_debug = yes
+	}
+}

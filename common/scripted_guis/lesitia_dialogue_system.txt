@@ -1,0 +1,65 @@
+scripted_gui = {
+	dialogue_system = {
+		window_name = "dialogue_system_container"
+		context_type = player_context
+		
+		visible = {
+            has_country_flag = dialogue_system
+		}
+		
+		effects = {
+			dialogue_bar_container_effect_click = {
+				dialogue_test_1_progress = yes
+			}
+		}
+	}
+	
+	dialogue_system_background = {
+		window_name = "dialogue_system_background_container"
+		context_type = player_context
+		
+		visible = {
+            has_country_flag = dialogue_system
+		}
+		
+		effects = {
+			dialogue_close_button_click = {
+				clr_country_flag = dialogue_system
+				clr_country_flag = d1_s1
+				clear_variable = dialogue_progress
+				clear_array = char1_talking_turns
+				clear_array = char2_talking_turns
+			}
+		}
+	}
+	
+	dialogue_system_char_left = {
+		window_name = "dialogue_system_char_left_container"
+		context_type = player_context
+		
+		visible = {
+            has_country_flag = dialogue_system
+		}
+		
+		properties = {
+			dialogue_char1 = {
+				image = "[GetChar1Icon]"
+			}
+		}
+	}
+	
+	dialogue_system_char_right = {
+		window_name = "dialogue_system_char_right_container"
+		context_type = player_context
+		
+		visible = {
+            has_country_flag = dialogue_system
+		}
+		
+		properties = {
+			dialogue_char2 = {
+				image = "[GetChar2Icon]"
+			}
+		}
+	}
+}

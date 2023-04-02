@@ -1,0 +1,33 @@
+#background sprite is in frontendmainviewbg.gfx
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_dialogue_bg1"
+		texturefile = "gfx/interface/dialogue_system/backgrounds/bg1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_dialogue_char0"
+		texturefile = "gfx/interface/dialogue_system/chars/char0.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_dialogue_char1"
+		texturefile = "gfx/interface/dialogue_system/chars/char1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_dialogue_char1d"
+		texturefile = "gfx/interface/dialogue_system/chars/char1d.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_dialogue_char2"
+		texturefile = "gfx/interface/dialogue_system/chars/char2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_dialogue_char2d"
+		texturefile = "gfx/interface/dialogue_system/chars/char2d.dds"
+	}
+}

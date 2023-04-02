@@ -1,0 +1,273 @@
+defined_text = {
+	name = GetChar1Icon
+	text = { # Char 1 talking
+		trigger = {
+			has_country_flag = char1_talking
+		}
+		localization_key = "GFX_dialogue_char1"
+	}
+	text = { # Char 1 NOT talking
+		trigger = {
+			NOT = { has_country_flag = char1_talking }
+		}
+		localization_key = "GFX_dialogue_char1d"
+	}
+}
+defined_text = {
+	name = GetChar2Icon
+	text = { # Char 2 talking
+		trigger = {
+			has_country_flag = char2_talking
+		}
+		localization_key = "GFX_dialogue_char2"
+	}
+	text = { # Char 2 NOT talking
+		trigger = {
+			NOT = { has_country_flag = char2_talking }
+		}
+		localization_key = "GFX_dialogue_char2d"
+	}
+}
+defined_text = {
+	name = GetCharName
+	text = { # Char 1 talking
+		trigger = {
+			has_country_flag = char1_talking
+		}
+		localization_key = "char_name1"
+	}
+	text = { # Char 2 talking
+		trigger = {
+			NOT = { has_country_flag = char1_talking }
+			has_country_flag = char2_talking
+		}
+		localization_key = "char_name2"
+	}
+	text = { # Nobody talking
+		trigger = {
+			NOT = { has_country_flag = char1_talking }
+			NOT = { has_country_flag = char2_talking }
+		}
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = GetDialogueText
+	text = { # Dialogue 1 - Stage 1 - Line 0
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 0 }
+		}
+		localization_key = "d1_s1_l0"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 1
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 1 }
+		}
+		localization_key = "d1_s1_l1"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 2
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 2 }
+		}
+		localization_key = "d1_s1_l2"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 3
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 3 }
+		}
+		localization_key = "d1_s1_l3"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 4
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 4 }
+		}
+		localization_key = "d1_s1_l4"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 5
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 5 }
+		}
+		localization_key = "d1_s1_l5"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 6
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 6 }
+		}
+		localization_key = "d1_s1_l6"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 7
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 7 }
+		}
+		localization_key = "d1_s1_l7"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 8
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 8 }
+		}
+		localization_key = "d1_s1_l8"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 9
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 9 }
+		}
+		localization_key = "d1_s1_l9"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 10
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 10 }
+		}
+		localization_key = "d1_s1_l10"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 11
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 11 }
+		}
+		localization_key = "d1_s1_l11"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 12
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 12 }
+		}
+		localization_key = "d1_s1_l12"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 13
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 13 }
+		}
+		localization_key = "d1_s1_l13"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 14
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 14 }
+		}
+		localization_key = "d1_s1_l14"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 15
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 15 }
+		}
+		localization_key = "d1_s1_l15"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 16
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 16 }
+		}
+		localization_key = "d1_s1_l16"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 17
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 17 }
+		}
+		localization_key = "d1_s1_l17"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 18
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 18 }
+		}
+		localization_key = "d1_s1_l18"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 19
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 19 }
+		}
+		localization_key = "d1_s1_l19"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 20
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 20 }
+		}
+		localization_key = "d1_s1_l20"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 21
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 21 }
+		}
+		localization_key = "d1_s1_l21"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 22
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 22 }
+		}
+		localization_key = "d1_s1_l22"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 23
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 23 }
+		}
+		localization_key = "d1_s1_l23"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 24
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 24 }
+		}
+		localization_key = "d1_s1_l24"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 25
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 25 }
+		}
+		localization_key = "d1_s1_l25"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 26
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 26 }
+		}
+		localization_key = "d1_s1_l26"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 27
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 27 }
+		}
+		localization_key = "d1_s1_l27"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 28
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 28 }
+		}
+		localization_key = "d1_s1_l28"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 29
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 29 }
+		}
+		localization_key = "d1_s1_l29"
+	}
+	text = { # Dialogue 1 - Stage 1 - Line 30
+		trigger = {
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 30 }
+		}
+		localization_key = "d1_s1_l30"
+	}
+}

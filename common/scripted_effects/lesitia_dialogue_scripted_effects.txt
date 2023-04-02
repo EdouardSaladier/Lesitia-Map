@@ -1,0 +1,66 @@
+dialogue_test_1_init = {
+	set_country_flag = dialogue_system
+	set_country_flag = d1_s1
+	set_variable = { dialogue_progress = 0 }
+	
+	add_to_array = { char1_talking_turns = 1 }
+	add_to_array = { char1_talking_turns = 2 }
+	add_to_array = { char1_talking_turns = 4 }
+	add_to_array = { char1_talking_turns = 8 }
+	add_to_array = { char1_talking_turns = 10 }
+	add_to_array = { char1_talking_turns = 12 }
+	add_to_array = { char1_talking_turns = 14 }
+	add_to_array = { char1_talking_turns = 19 }
+	add_to_array = { char2_talking_turns = 21 }
+	
+	add_to_array = { char2_talking_turns = 3 }
+	add_to_array = { char2_talking_turns = 5 }
+	add_to_array = { char2_talking_turns = 6 }
+	add_to_array = { char2_talking_turns = 7 }
+	add_to_array = { char2_talking_turns = 9 }
+	add_to_array = { char2_talking_turns = 11 }
+	add_to_array = { char2_talking_turns = 13 }
+	add_to_array = { char2_talking_turns = 15 }
+	add_to_array = { char2_talking_turns = 16 }
+	add_to_array = { char2_talking_turns = 17 }
+	add_to_array = { char2_talking_turns = 20 }
+}
+
+dialogue_test_1_progress = {
+	add_to_variable = { dialogue_progress = 1 }
+	if = {
+		limit = { 
+			is_in_array = {
+				array = char1_talking_turns
+				value = dialogue_progress
+			}
+		}
+		set_country_flag = char1_talking
+	}
+	else = {
+		clr_country_flag = char1_talking
+	}
+	if = {
+		limit = { 
+			is_in_array = {
+				array = char2_talking_turns
+				value = dialogue_progress
+			}
+		}
+		set_country_flag = char2_talking
+	}
+	else = {
+		clr_country_flag = char2_talking
+	}
+	if = {
+		limit = { 
+			has_country_flag = d1_s1
+			check_variable = { dialogue_progress = 22 }
+		}
+		clr_country_flag = dialogue_system
+		clr_country_flag = d1_s1
+		clear_variable = dialogue_progress
+		clear_array = char1_talking_turns
+		clear_array = char2_talking_turns
+	}
+}

@@ -1,0 +1,125 @@
+guiTypes = {
+	containerWindowType = {
+		name = "dialogue_system_container"
+		position = { x = -500 y = -300 }
+		size = { width = 1000 height = 600 }
+		orientation = center
+ 
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window2_1b_border"
+		}
+		
+		containerWindowType = {
+			name = "dialogue_bar_container"
+			position = { x = -500 y = 120 }
+			size = { width = 1000 height = 180 }
+			orientation = center
+	 
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_window2_1b_border"
+			}
+			
+			instantTextboxType = {
+				name = "char_talking"
+				position = { x = 26 y = 14 }
+				font = "DejaVu28"
+				text = "char_name"
+				maxWidth = 800
+				maxHeight = 30
+				format = left
+				vertical_alignment = top
+			}
+			
+			instantTextboxType = {
+				name = "dialogue_text_box"
+				position = { x = 26 y = 56 }
+				font = "DejaVu20"
+				text = "dialogue_text"
+				maxWidth = 940
+				maxHeight = 200
+				format = left
+				vertical_alignment = top
+			}
+			
+			buttonType = {
+				name = "dialogue_bar_container_effect" 
+				position = {x=-500 y=-35}
+				size = { width = 1000 height = 110}
+				orientation = center
+				quadTextureSprite ="GFX_tiled_window_transparent"
+			}
+			
+			
+		}
+	}
+	
+	containerWindowType = {
+		name = "dialogue_system_background_container"
+		position = { x = -500 y = -300 }
+		size = { width = 1000 height = 430 }
+		orientation = center
+ 
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+		
+		iconType = {
+			name ="dialogue_bg1"
+			spriteType = "GFX_dialogue_bg1"
+			position = { x=0 y=0 }
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "dialogue_close_button"
+			position = { x = -42 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	
+	containerWindowType = {
+		name = "dialogue_system_char_left_container"
+		position = { x = -400 y = -237 }
+		size = { width = 200 height = 360 }
+		orientation = center
+ 
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+		
+		iconType = {
+			name ="dialogue_char1"
+			spriteType = "GFX_dialogue_char0"
+			position = { x=0 y=0 }
+		}
+		
+	}
+	
+	containerWindowType = {
+		name = "dialogue_system_char_right_container"
+		position = { x = 200 y = -237 }
+		size = { width = 200 height = 360 }
+		orientation = center
+ 
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+		
+		iconType = {
+			name ="dialogue_char2"
+			spriteType = "GFX_dialogue_char0"
+			position = { x=0 y=0 }
+		}
+		
+	}
+}

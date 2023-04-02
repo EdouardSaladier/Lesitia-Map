@@ -1,0 +1,62 @@
+bitmapfonts = {
+	bitmapfont = {
+		name = "DejaVu20"
+		path = "gfx/fonts/DejaVu20"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "DejaVu20b"
+		path = "gfx/fonts/DejaVu20b"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "DejaVu24"
+		path = "gfx/fonts/DejaVu24"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "DejaVu24b"
+		path = "gfx/fonts/DejaVu24b"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "DejaVu28"
+		path = "gfx/fonts/DejaVu28"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "DejaVu28b"
+		path = "gfx/fonts/DejaVu28b"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "DejaVu32"
+		path = "gfx/fonts/DejaVu32"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "DejaVu32b"
+		path = "gfx/fonts/DejaVu32b"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "DejaVu36"
+		path = "gfx/fonts/DejaVu36"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "DejaVu36b"
+		path = "gfx/fonts/DejaVu36b"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "DejaVu40"
+		path = "gfx/fonts/DejaVu40"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "DejaVu40b"
+		path = "gfx/fonts/DejaVu40b"
+		color = 0xffffffff
+	}
+}
