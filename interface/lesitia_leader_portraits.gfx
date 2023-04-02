@@ -6,19 +6,52 @@ spriteTypes = {
 		name = "GFX_portrait_labhrann_iomharach"
 		texturefile = "gfx/leaders/FHI/portrait_labhrann_iomharach.dds"
 	}
-
 	spriteType = {
 		name = "GFX_portrait_laomann_illebhain"
 		texturefile = "gfx/leaders/FHI/portrait_laomann_illebhain.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_portrait_cormag_lutair"
 		texturefile = "gfx/leaders/FHI/portrait_cormag_lutair.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_portrait_silis_lutair"
 		texturefile = "gfx/leaders/FHI/portrait_silis_lutair.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_baltair_siosalach"
+		texturefile = "gfx/leaders/FHI/portrait_baltair_siosalach.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_harailt_amhlaigh"
+		texturefile = "gfx/leaders/FHI/portrait_harailt_amhlaigh.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_fearghas_sheathnaich"
+		texturefile = "gfx/leaders/FHI/portrait_fearghas_sheathnaich.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_tearlach_bhrìghdeinn"
+		texturefile = "gfx/leaders/FHI/portrait_tearlach_bhrìghdeinn.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_muireach_cormaig"
+		texturefile = "gfx/leaders/FHI/portrait_muireach_cormaig.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ruairidh_blarach"
+		texturefile = "gfx/leaders/FHI/portrait_ruairidh_blarach.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aimil_sudrach"
+		texturefile = "gfx/leaders/FHI/portrait_aimil_sudrach.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ciorstan_ealair"
+		texturefile = "gfx/leaders/FHI/portrait_ciorstan_ealair.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_milread_urchadainn"
+		texturefile = "gfx/leaders/FHI/portrait_milread_urchadainn.dds"
 	}
 }
