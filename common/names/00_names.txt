@@ -46,18 +46,18 @@ default = {
 
 FHI = {
 	male = {
-		names = { "Ailpean" "Amhlaigh" "Arailt" "Asgall" "Baltair" "Beathan" "Bhatair" "Cailean" "Cathal" "Ciaran" "Cliamain" "Conn" "Cormag" "Diarmad" "Dòmhnall" "Ealar" "Eachann" "Eanruig" "Eòghan" "Eòsaph" "Faolan" "Fearchar" "Fearghas" "Fionnghan" "Frangean" "Gill-Eòin" "Goiridh" "Griogair" "Guaidre" "Harailt" "Iain" "Labhrann" "Labhruinn" "Laomann" "Maoldònaich" "Mhoirbheinn" "Muireach" "Neacal" "Niallghus" "Oilbhreis" "Pàl" "Ràild" "Ruairidh" "Ruiseart" "Seocan" "Seòras" "Seumas" "Sgàire" "Solamh" "Tàmhas" "Teàrlach" "Torcadall" "Ualraig" "Ùisdean" }
+		names = { "Ailpean" "Aleyn" "Amhlaigh" "Arailt" "Aslac" "Asgall" "Baltair" "Baran" "Beathan" "Bhatair" "Biorn" "Cailean" "Cathal" "Ciaran" "Cian" "Cliamain" "Conn" "Coobragh" "Cormag" "Diarmad" "Donal" "Dòmhnall" "Ealar" "Eachann" "Eanruig" "Eòghan" "Eòsaph" "Faolan" "Fearchar" "Fearghas" "Felys" "Fionnghan" "Frangean" "Gill-Eòin" "Goiridh" "Griogair" "Guaidre" "Harailt" "Iain" "Labhrann" "Labhruinn" "Laomann" "Lochlin" "Maoldònaich" "Mayl" "Mhoirbheinn" "Muireach" "Neacal" "Niallghus" "Odairr" "Oilbhreis" "Olyn" "Otnel" "Pàl" "Ràild" "Ruairidh" "Ruiseart" "Seocan" "Seòras" "Seumas" "Sgàire" "Solamh" "Tàmhas" "Teàrlach" "Torcadall" "Ualraig" "Ùisdean" }
 		surnames = { }
 		callsigns = { }
 	}
 	
 	female = {
-		names = { "Aingealag" "Aimil" "Beathag" "Cairistìona" "Catrìona" "Ceana" "Ceitidh" "Ciorstan" "Criosaidh" "Curstag" "Deòiridh" "Dìorbhail" "Doileag" "Èibhlin" "Eiric" "Fionnaghal" "Floireans" "Flòraidh" "Giorsail" "Lìosa" "Malmhìn" "Màili" "Mairearad" "Marsail" "Milread" "Mòrag" "Seasaìdh" "Seònaid" "Sìleas" "Sìlis" "Siubhan" }
+		names = { "Aalid" "Aedyt" "Aingealag" "Aimil" "Beathag" "Blae" "Cairistìona" "Catrìona" "Ceana" "Ceitidh" "Ciorstan" "Criosaidh" "Curstag" "Deòiridh" "Dìorbhail" "Doileag" "Ealee" "Èibhlin" "Eiric" "Fionnaghal" "Floireans" "Flòraidh" "Giorsail" "Kathleann" "Lìosa" "Malmhìn" "Màili" "Mairearad" "Marsail" "Milread" "Mòrag" "Seasaìdh" "Seònaid" "Sìleas" "Sìlis" "Siubhan" "Voirrail" }
 		surnames = { }
 		callsigns = { }
 	}
 	
-	surnames = { "Ailpein" "Alasdair" "Amhlaigh" "Bheathain" "Bhrìghde" "Bhrìghdeinn" "Blàrach" "Breac" "Brothaigh" "Cathachaidh" "Cearraich" "Caileanach" "Cianain" "Cionadha" "Ciogach" "Coinnich" "Cormaig" "Corcadail" "Cuimein" "Crithein" "Dòmhnullach" "Dhubhthaich" "Ealair" "Eòghainn" "Fhaolagain" "Fhlaithbheartaich" "Fhraingein" "Fòlais" "Gumaraid" "Iomhair" "Leamhnach" "Leòir" "Lughaidh" "Lùtair" "Moireach" "Mhiadhchain" "Mhurardaich" "Mhurchaidh" "Phàidein" "Raonaill" "Raghnaill" "Riada" "Sheathain" "Sheòrsa" "Sheathnaich" "Siosal" "Siosalach" "Sùdrach" "Suthurlanach" "Thorcaill" "Ualraig" "Uchtraigh" "Urchadainn" }
+	surnames = { "Ailpein" "Alasdair" "Amhlaigh" "Bheathain" "Bhrìghde" "Bhrìghdeinn" "Blàrach" "Bradshagh" "Breac" "Brothaigh" "Cathachaidh" "Cearraich" "Cleataig" "Caileanach" "Cianain" "Cionadha" "Ciogach" "Coinnich" "Cormaig" "Corcadail" "Cuimein" "Crithein" "Dòmhnullach" "Dhubhthaich" "Ealair" "Eòghainn" "Fargher" "Fhaolagain" "Fhlaithbheartaich" "Fhraingein" "Fòlais" "Gumaraid" "Halsall" "Iomhair" "Kinlaig" "Kinrach" "Leamhnach" "Leòir" "Lughaidh" "Lùtair" "Madraich" "Moireach" "Mhiadhchain" "Mhurardaich" "Mhurchaidh" "Phàidein" "Raonaill" "Raghnaill" "Riada" "Sheathain" "Sheòrsa" "Sheathnaich" "Siosal" "Siosalach" "Sùdrach" "Suthurlanach" "Taggarh" "Thorcaill" "Ualraig" "Uchtraigh" "Urchadainn" }
 	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
 	
 	

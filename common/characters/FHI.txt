@@ -1,6 +1,7 @@
 characters = {
+	
 	FHI_labhrann_iomharach = {
-		name = FHI_labhrann_iomharach
+		name = "Labhrann Ìomharach"
 		portraits = {
 			civilian = {
 				large = GFX_portrait_labhrann_iomharach
@@ -8,12 +9,12 @@ characters = {
 		}
 		country_leader = {
 			ideology = despotism_type
-			expire = "1950.1.1.1"
+			expire = "4000.1.1.1"
 			id = -1
 		}
 	}
 	FHI_laomann_illebhain = {
-		name = FHI_laomann_illebhain
+		name = "Laomann IlleBhàin"
 		portraits = {
 			civilian = {
 				large = GFX_portrait_laomann_illebhain
@@ -21,12 +22,104 @@ characters = {
 		}
 		country_leader = {
 			ideology = theocracy_type
-			expire = "1950.1.1.1"
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	FHI_fearghas_sheathnaich = {
+		name = "Fearghas Sheathnaich"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_fearghas_sheathnaich
+			}
+		}
+		country_leader = {
+			ideology = theocracy_type
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	FHI_ruairidh_blarach = {
+		name = "Ruairidh Blàrach"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ruairidh_blarach
+			}
+		}
+		country_leader = {
+			ideology = supremacism_type
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	FHI_faolan_ailpein = {
+		name = "Faolan Ailpein"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_faolan_ailpein
+			}
+		}
+		country_leader = {
+			ideology = democracy_type
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	
+	FHI_eoghan_kinlaig = {
+		name = "Eòghan Kinlaig"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_eoghan_kinlaig
+			}
+		}
+		country_leader = {
+			ideology = corporatism_type
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	FHI_aslac_corcadail = {
+		name = "Aslac Corcadail"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_aslac_corcadail
+			}
+		}
+		country_leader = {
+			ideology = corporatism_type
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	FHI_aedyt_taggarh = {
+		name = "Aedyt Taggarh"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_aedyt_taggarh
+			}
+		}
+		country_leader = {
+			ideology = corporatism_type
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	FHI_harailt_amhlaigh = {
+		name = "Harailt Amhlaigh"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_harailt_amhlaigh
+			}
+		}
+		country_leader = {
+			ideology = revolutionarism_type
+			expire = "4000.1.1.1"
 			id = -1
 		}
 	}
 	FHI_cormag_lutair={
-		name=FHI_cormag_lutair
+		name="Cormag Lùtair"
 		portraits={
 			army={
 				large=GFX_portrait_cormag_lutair
@@ -43,7 +136,7 @@ characters = {
 		}
 	}
 	FHI_silis_lutair={
-		name=FHI_silis_lutair
+		name="Sìlis Lùtair"
 		gender = female
 		portraits={
 			army={
@@ -58,6 +151,111 @@ characters = {
 			defense_skill=2
 			planning_skill=2
 			logistics_skill=4
+		}
+	}
+	FHI_baltair_siosalach={
+		name="Baltair Siosalach"
+		portraits={
+			army={
+				large=GFX_portrait_baltair_siosalach
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	FHI_tearlach_bhrighdeinn={
+		name="Teàrlach Bhrìghdeinn"
+		portraits={
+			army={
+				large=GFX_portrait_tearlach_bhrighdeinn
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ trickster urban_assault_specialist }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	FHI_muireach_cormaig={
+		name="Muireach Cormaig"
+		portraits={
+			army={
+				large=GFX_portrait_muireach_cormaig
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ media_personality naval_invader }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+		}
+	}
+	FHI_aimil_sudrach={
+		name="Aimil Sùdrach"
+		gender = female
+		portraits={
+			army={
+				large=GFX_portrait_aimil_sudrach
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist skilled_staffer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	FHI_ciorstan_ealair={
+		name="Ciorstan Ealair"
+		gender = female
+		portraits={
+			army={
+				large=GFX_portrait_ciorstan_ealair
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ organizer engineer_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	FHI_milread_urchadainn={
+		name="Milread Urchadainn"
+		gender = female
+		portraits={
+			army={
+				large=GFX_portrait_milread_urchadainn
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader trait_reckless }
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
 		}
 	}
 }

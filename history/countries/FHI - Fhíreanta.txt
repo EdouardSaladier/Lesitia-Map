@@ -59,6 +59,10 @@ set_technology = {
 
 set_convoys = 20
 
+add_ideas = {
+    
+}
+
 # Starting trucks & trains
 add_equipment_to_stockpile = {
     type = high_speed_train_equipment
@@ -81,15 +85,29 @@ set_politics = {
 set_popularities = {
 	revolutionarism = 5
 	technocracy = 3
-	democracy = 23
-	despotism = 12
-	theocracy = 36
-	corporatism = 2
+	democracy = 2
+	despotism = 16
+	theocracy = 44
+	corporatism = 11
 	supremacism = 18
 	unclassified = 1
 }
 
 recruit_character = FHI_labhrann_iomharach
 recruit_character = FHI_laomann_illebhain
+recruit_character = FHI_fearghas_sheathnaich
+recruit_character = FHI_ruairidh_blarach
+recruit_character = FHI_faolan_ailpein
+recruit_character = FHI_eoghan_kinlaig
+recruit_character = FHI_aslac_corcadail
+recruit_character = FHI_aedyt_taggarh
+recruit_character = FHI_harailt_amhlaigh
 recruit_character = FHI_cormag_lutair
 recruit_character = FHI_silis_lutair
+recruit_character = FHI_baltair_siosalach
+recruit_character = FHI_tearlach_bhrighdeinn
+recruit_character = FHI_muireach_cormaig
+recruit_character = FHI_aimil_sudrach
+recruit_character = FHI_ciorstan_ealair
+recruit_character = FHI_milread_urchadainn
+

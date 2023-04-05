@@ -5,21 +5,6 @@ FHI_despotism:0 "Fhíreantan Directorate"
 FHI_despotism_DEF:0 "the Fhíreantan Directorate"
 FHI_despotism_ADJ:0 "Fhíreantan"
 
-###Leaders
-FHI_labhrann_iomharach:0 "Labhrann Ìomharach"
-FHI_laomann_illebhain:0 "Laomann IlleBhàin"
-FHI_cormag_lutair:0 "Cormag Lùtair"
-FHI_silis_lutair:0 "Sìlis Lùtair"
-FHI_baltair_siosalach:0 "Baltair Siosalach"
-FHI_harailt_amhlaigh:0 "Harailt Amhlaigh"
-FHI_fearghas_sheathnaich:0 "Fearghas Sheathnaich"
-FHI_tearlach_bhrighdeinn:0 "Teàrlach Bhrìghdeinn"
-FHI_muireach_cormaig:0 "Muireach Cormaig"
-FHI_ruairidh_blarach:0 "Ruairidh Blàrach"
-FHI_aimil_sudrach:0 "Aimil Sùdrach"
-FHI_ciorstan_ealair:0 "Ciorstan Ealair"
-FHI_milread_urchadainn:0 "Milread Urchadainn"
-
 #####partys names###
 FHI_despotism_party:0 "BSTP"
 FHI_despotism_party_long:0 "Buidheann-Stiùiridh Tèarainteachd Poblach (Public Security Directorate)"
