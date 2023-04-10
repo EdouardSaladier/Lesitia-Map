@@ -1,0 +1,53 @@
+defined_text = {
+	name = GetChar1Icon
+	text = { # Char 1 talking
+		trigger = {
+			has_country_flag = char1_talking
+		}
+		localization_key = "GFX_dialogue_char1"
+	}
+	text = { # Char 1 NOT talking
+		trigger = {
+			NOT = { has_country_flag = char1_talking }
+		}
+		localization_key = "GFX_dialogue_char1d"
+	}
+}
+defined_text = {
+	name = GetChar2Icon
+	text = { # Char 2 talking
+		trigger = {
+			has_country_flag = char2_talking
+		}
+		localization_key = "GFX_dialogue_char2"
+	}
+	text = { # Char 2 NOT talking
+		trigger = {
+			NOT = { has_country_flag = char2_talking }
+		}
+		localization_key = "GFX_dialogue_char2d"
+	}
+}
+defined_text = {
+	name = GetCharName
+	text = { # Char 1 talking
+		trigger = {
+			has_country_flag = char1_talking
+		}
+		localization_key = "char_name1"
+	}
+	text = { # Char 2 talking
+		trigger = {
+			NOT = { has_country_flag = char1_talking }
+			has_country_flag = char2_talking
+		}
+		localization_key = "char_name2"
+	}
+	text = { # Nobody talking
+		trigger = {
+			NOT = { has_country_flag = char1_talking }
+			NOT = { has_country_flag = char2_talking }
+		}
+		localization_key = ""
+	}
+}

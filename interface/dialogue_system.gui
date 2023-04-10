@@ -121,4 +121,98 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_window_transparent"
 		}
 	}
+	
+	containerWindowType = {
+		name = "dialogue_choice_container"
+		position = { x = -640 y = -360 }
+		size = { width = 1280 height = 720 }
+		orientation = center
+ 
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+		
+		instantTextboxType = {
+			name = "dialogue_choice_prompt_text"
+			position = { x = 50 y = 20 }
+			font = "DejaVu28"
+			text = "dialogue_choice_prompt_text"
+			maxWidth = 1180
+			maxHeight = 40
+			format = center
+			vertical_alignment = top
+		}
+		
+		instantTextboxType = {
+			name = "dialogue_choice_prompt_explanations"
+			position = { x = 50 y = 80 }
+			font = "DejaVu20"
+			text = "dialogue_choice_prompt_explanations_text"
+			maxWidth = 1180
+			maxHeight = 100
+			format = center
+			vertical_alignment = top
+		}
+		
+		buttonType = {
+			name = "dialogue_choice_1" 
+			position = {x=-590 y=-120}
+			size = { width = 1180 height = 80 }
+			orientation = center
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+		
+		instantTextboxType = {
+			name = "dialogue_choice_1_text"
+			position = { x = 50 y = 250 }
+			font = "DejaVu20"
+			text = "dialogue_choice_1_text"
+			maxWidth = 1180
+			maxHeight = 60
+			format = center
+			vertical_alignment = center
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "dialogue_choice_2" 
+			position = {x=-590 y=40}
+			size = { width = 1180 height = 80 }
+			orientation = center
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+		
+		instantTextboxType = {
+			name = "dialogue_choice_2_text"
+			position = { x = 50 y = 410 }
+			font = "DejaVu20"
+			text = "dialogue_choice_2_text"
+			maxWidth = 1180
+			maxHeight = 60
+			format = center
+			vertical_alignment = center
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "dialogue_choice_3" 
+			position = {x=-590 y=200}
+			size = { width = 1180 height = 80 }
+			orientation = center
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+		
+		instantTextboxType = {
+			name = "dialogue_choice_3_text"
+			position = { x = 50 y = 570 }
+			font = "DejaVu20"
+			text = "dialogue_choice_3_text"
+			maxWidth = 1180
+			maxHeight = 60
+			format = center
+			vertical_alignment = center
+			alwaystransparent = yes
+		}
+	}
 }

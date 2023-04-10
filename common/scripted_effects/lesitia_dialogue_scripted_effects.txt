@@ -1,6 +1,7 @@
 dialogue_test_1_init = {
 	set_country_flag = dialogue_system
 	set_country_flag = d1_s1
+	set_country_flag = two_chars
 	set_variable = { dialogue_progress = 0 }
 	
 	add_to_array = { char1_talking_turns = 1 }
@@ -26,8 +27,33 @@ dialogue_test_1_init = {
 	add_to_array = { char2_talking_turns = 20 }
 }
 
-dialogue_test_1_progress = {
-	add_to_variable = { dialogue_progress = 1 }
+dialogue_test_1_reset = {
+	close_dialogue = yes
+	dialogue_test_1_init = yes
+}
+
+dialogue_progress = {
+	if = {
+		limit = { 
+			NOT = { has_country_flag = dialogue_choice }
+		}
+		add_to_variable = { dialogue_progress = 1 }
+	}
+	if = {
+		limit = { 
+			has_country_flag = two_chars
+		}
+		dialogue_two_chars_progress = yes
+	}
+	if = {
+		limit = { 
+			has_country_flag = d1_s1
+		}
+		dialogue_test_1_progress = yes
+	}
+}
+
+dialogue_two_chars_progress = {
 	if = {
 		limit = { 
 			is_in_array = {
@@ -52,15 +78,24 @@ dialogue_test_1_progress = {
 	else = {
 		clr_country_flag = char2_talking
 	}
+}
+
+dialogue_test_1_progress = {
 	if = {
 		limit = { 
 			has_country_flag = d1_s1
 			check_variable = { dialogue_progress = 22 }
 		}
-		clr_country_flag = dialogue_system
-		clr_country_flag = d1_s1
-		clear_variable = dialogue_progress
-		clear_array = char1_talking_turns
-		clear_array = char2_talking_turns
+		set_country_flag = dialogue_choice
 	}
+}
+
+close_dialogue = {
+	clr_country_flag = dialogue_system
+	clr_country_flag = d1_s1
+	clr_country_flag = dialogue_choice
+	clr_country_flag = two_chars
+	clear_variable = dialogue_progress
+	clear_array = char1_talking_turns
+	clear_array = char2_talking_turns
 }
