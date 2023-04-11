@@ -1,6 +1,131 @@
 guiTypes = {
 
 	containerWindowType = {
+		name = "lesitia_coalition_container"
+		position = { x = 320 y = 304 }
+		size = { width = 220 height = 200 }
+		orientation = UPPER_LEFT
+ 
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window_transparent"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_despotism"
+			position = { x = 18 y = 5 }
+			spriteType = "GFX_coalition_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_icon_despotism"
+			position = { x = 19 y = 3 }
+			spriteType = "GFX_coalition_icon_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_revolutionarism"
+			position = { x = 18 y = 25 }
+			spriteType = "GFX_coalition_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_icon_revolutionarism"
+			position = { x = 19 y = 23 }
+			spriteType = "GFX_coalition_icon_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_corporatism"
+			position = { x = 18 y = 45 }
+			spriteType = "GFX_coalition_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_icon_corporatism"
+			position = { x = 19 y = 43 }
+			spriteType = "GFX_coalition_icon_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_supremacism"
+			position = { x = 18 y = 65 }
+			spriteType = "GFX_coalition_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_icon_supremacism"
+			position = { x = 19 y = 63 }
+			spriteType = "GFX_coalition_icon_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_democracy"
+			position = { x = 18 y = 85 }
+			spriteType = "GFX_coalition_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_icon_democracy"
+			position = { x = 19 y = 83 }
+			spriteType = "GFX_coalition_icon_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_technocracy"
+			position = { x = 18 y = 105 }
+			spriteType = "GFX_coalition_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_icon_technocracy"
+			position = { x = 19 y = 103 }
+			spriteType = "GFX_coalition_icon_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_theocracy"
+			position = { x = 18 y = 125 }
+			spriteType = "GFX_coalition_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_icon_theocracy"
+			position = { x = 19 y = 123 }
+			spriteType = "GFX_coalition_icon_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_unclassified"
+			position = { x = 18 y = 145 }
+			spriteType = "GFX_coalition_no_bg"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "coalition_member_party_icon_unclassified"
+			position = { x = 19 y = 143 }
+			spriteType = "GFX_coalition_icon_no_bg"
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
 		name = "countrypoliticsview"
 		position = { x=-606 y=78}	
 		show_position = { x=-6 y =78 }

@@ -1,0 +1,18 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_coalition_no_bg"
+		texturefile = "gfx/interface/coalition_no_bg.dds"
+	}
+	SpriteType = {
+		name = "GFX_coalition_member"
+		texturefile = "gfx/interface/coalition_member.dds"
+	}
+	SpriteType = {
+		name = "GFX_coalition_no_icon"
+		texturefile = "gfx/interface/coalition_no_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_coalition_icon"
+		texturefile = "gfx/interface/coalition_icon.dds"
+	}
+}

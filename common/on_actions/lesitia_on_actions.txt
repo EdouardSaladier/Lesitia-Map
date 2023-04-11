@@ -28,6 +28,12 @@ on_actions = {
 			}
 			every_country = {
 				limit = {
+					has_coalition = yes
+				}
+				initiate_coalition_start = yes
+			}
+			every_country = {
+				limit = {
 					is_ai = yes
 				}
 				add_ideas = AI_buff_idea
@@ -35,7 +41,7 @@ on_actions = {
 		}
 	}
 	
-	on_weekly_NUK = {
+	on_monthly_NUK = {
 		effect = {
 			every_country = {
 				set_temp_variable = { civ_core_food_modifier_t = 100 }
@@ -122,6 +128,15 @@ on_actions = {
 				set_variable = { food_civ_core_consumption_i = mtth:food_civ_core_consumption } #food Civilian Core Consumption - Saved at beginning of each month
 				set_variable = { food_civ_non_core_consumption_i = mtth:food_civ_non_core_consumption } #food Civilian Non Core Consumption - Saved at beginning of each month
 				set_variable = { food_total_consumption_i = mtth:food_total_consumption }
+			}
+		}
+	}
+	
+	on_weekly_NUK = {
+		effect = {
+			every_country = {
+				set_variable = { coalition_popularity_v = mtth:coalition_popularity } #
+				set_variable = { coalition_popularity_stab_v = mtth:coalition_popularity_stab } #
 			}
 			every_country = {
 				limit = {

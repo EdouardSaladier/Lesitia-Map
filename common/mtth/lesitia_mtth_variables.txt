@@ -66,6 +66,101 @@ food_total_consumption = {
 	}
 }
 
+coalition_popularity = {
+	base = 0
+	modifier = {
+		set_temp_variable = { coal_popularity = 0 }
+		if = {
+			limit = {
+				NOT = {
+					has_government = despotism
+				}
+				has_country_flag = coalition_despotism
+			}
+			add_to_temp_variable = { coal_popularity = party_popularity_100@despotism }
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_government = revolutionarism
+				}
+				has_country_flag = coalition_revolutionarism
+			}
+			add_to_temp_variable = { coal_popularity = party_popularity_100@revolutionarism }
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_government = corporatism
+				}
+				has_country_flag = coalition_corporatism
+			}
+			add_to_temp_variable = { coal_popularity = party_popularity_100@corporatism }
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_government = supremacism
+				}
+				has_country_flag = coalition_supremacism
+			}
+			add_to_temp_variable = { coal_popularity = party_popularity_100@supremacism }
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_government = democracy
+				}
+				has_country_flag = coalition_democracy
+			}
+			add_to_temp_variable = { coal_popularity = party_popularity_100@democracy }
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_government = technocracy
+				}
+				has_country_flag = coalition_technocracy
+			}
+			add_to_temp_variable = { coal_popularity = party_popularity_100@technocracy }
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_government = theocracy
+				}
+				has_country_flag = coalition_theocracy
+			}
+			add_to_temp_variable = { coal_popularity = party_popularity_100@theocracy }
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_government = unclassified
+				}
+				has_country_flag = coalition_unclassified
+			}
+			add_to_temp_variable = { coal_popularity = party_popularity_100@unclassified }
+		}
+		clamp_temp_variable = {
+			var = coal_popularity
+			min = 0
+			max = 100
+		}
+		add = coal_popularity
+	}
+}
+
+coalition_popularity_stab = {
+	base = 0
+	modifier = {
+		set_temp_variable = { coal_popularity_stab = coalition_popularity_v }
+		multiply_temp_variable = { coal_popularity_stab = 20 }
+		divide_temp_variable = { coal_popularity_stab = 10000 }
+		add = coal_popularity_stab
+	}
+}
+
 army_xp_cost_professionnalism = {
 	base = 0
 	modifier = {

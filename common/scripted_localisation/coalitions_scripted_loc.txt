@@ -1,0 +1,359 @@
+defined_text = {
+	name = GetCoalitionMemberBG_despotism
+	text = {
+		trigger = {
+			NOT = {
+				has_government = despotism
+			}
+			has_country_flag = coalition_despotism
+		}
+		localization_key = "GFX_coalition_member"
+	}
+	text = {
+		trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = coalition_despotism
+				}
+				has_government = despotism
+			}
+		}
+		localization_key = "GFX_coalition_no_bg"
+	}
+}
+defined_text = {
+	name = GetCoalitionMemberIcon_despotism
+	text = {
+		trigger = {
+			OR = {
+				has_government = despotism
+				has_country_flag = coalition_despotism
+			}
+		}
+		localization_key = "GFX_coalition_icon"
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_government = despotism
+				has_country_flag = coalition_despotism
+			}
+		}
+		localization_key = "GFX_coalition_no_icon"
+	}
+}
+
+defined_text = {
+	name = GetCoalitionMemberBG_revolutionarism
+	text = {
+		trigger = {
+			NOT = {
+				has_government = revolutionarism
+			}
+			has_country_flag = coalition_revolutionarism
+		}
+		localization_key = "GFX_coalition_member"
+	}
+	text = {
+		trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = coalition_revolutionarism
+				}
+				has_government = revolutionarism
+			}
+		}
+		localization_key = "GFX_coalition_no_bg"
+	}
+}
+defined_text = {
+	name = GetCoalitionMemberIcon_revolutionarism
+	text = {
+		trigger = {
+			OR = {
+				has_government = revolutionarism
+				has_country_flag = coalition_revolutionarism
+			}
+		}
+		localization_key = "GFX_coalition_icon"
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_government = revolutionarism
+				has_country_flag = coalition_revolutionarism
+			}
+		}
+		localization_key = "GFX_coalition_no_icon"
+	}
+}
+
+defined_text = {
+	name = GetCoalitionMemberBG_corporatism
+	text = {
+		trigger = {
+			NOT = {
+				has_government = corporatism
+			}
+			has_country_flag = coalition_corporatism
+		}
+		localization_key = "GFX_coalition_member"
+	}
+	text = {
+		trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = coalition_corporatism
+				}
+				has_government = corporatism
+			}
+		}
+		localization_key = "GFX_coalition_no_bg"
+	}
+}
+defined_text = {
+	name = GetCoalitionMemberIcon_corporatism
+	text = {
+		trigger = {
+			OR = {
+				has_government = corporatism
+				has_country_flag = coalition_corporatism
+			}
+		}
+		localization_key = "GFX_coalition_icon"
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_government = corporatism
+				has_country_flag = coalition_corporatism
+			}
+		}
+		localization_key = "GFX_coalition_no_icon"
+	}
+}
+
+defined_text = {
+	name = GetCoalitionMemberBG_supremacism
+	text = {
+		trigger = {
+			NOT = {
+				has_government = supremacism
+			}
+			has_country_flag = coalition_supremacism
+		}
+		localization_key = "GFX_coalition_member"
+	}
+	text = {
+		trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = coalition_supremacism
+				}
+				has_government = supremacism
+			}
+		}
+		localization_key = "GFX_coalition_no_bg"
+	}
+}
+defined_text = {
+	name = GetCoalitionMemberIcon_supremacism
+	text = {
+		trigger = {
+			OR = {
+				has_government = supremacism
+				has_country_flag = coalition_supremacism
+			}
+		}
+		localization_key = "GFX_coalition_icon"
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_government = supremacism
+				has_country_flag = coalition_supremacism
+			}
+		}
+		localization_key = "GFX_coalition_no_icon"
+	}
+}
+
+defined_text = {
+	name = GetCoalitionMemberBG_democracy
+	text = {
+		trigger = {
+			NOT = {
+				has_government = democracy
+			}
+			has_country_flag = coalition_democracy
+		}
+		localization_key = "GFX_coalition_member"
+	}
+	text = {
+		trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = coalition_democracy
+				}
+				has_government = democracy
+			}
+		}
+		localization_key = "GFX_coalition_no_bg"
+	}
+}
+defined_text = {
+	name = GetCoalitionMemberIcon_democracy
+	text = {
+		trigger = {
+			OR = {
+				has_government = democracy
+				has_country_flag = coalition_democracy
+			}
+		}
+		localization_key = "GFX_coalition_icon"
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_government = democracy
+				has_country_flag = coalition_democracy
+			}
+		}
+		localization_key = "GFX_coalition_no_icon"
+	}
+}
+
+defined_text = {
+	name = GetCoalitionMemberBG_technocracy
+	text = {
+		trigger = {
+			NOT = {
+				has_government = technocracy
+			}
+			has_country_flag = coalition_technocracy
+		}
+		localization_key = "GFX_coalition_member"
+	}
+	text = {
+		trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = coalition_technocracy
+				}
+				has_government = technocracy
+			}
+		}
+		localization_key = "GFX_coalition_no_bg"
+	}
+}
+defined_text = {
+	name = GetCoalitionMemberIcon_technocracy
+	text = {
+		trigger = {
+			OR = {
+				has_government = technocracy
+				has_country_flag = coalition_technocracy
+			}
+		}
+		localization_key = "GFX_coalition_icon"
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_government = technocracy
+				has_country_flag = coalition_technocracy
+			}
+		}
+		localization_key = "GFX_coalition_no_icon"
+	}
+}
+
+defined_text = {
+	name = GetCoalitionMemberBG_theocracy
+	text = {
+		trigger = {
+			NOT = {
+				has_government = theocracy
+			}
+			has_country_flag = coalition_theocracy
+		}
+		localization_key = "GFX_coalition_member"
+	}
+	text = {
+		trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = coalition_theocracy
+				}
+				has_government = theocracy
+			}
+		}
+		localization_key = "GFX_coalition_no_bg"
+	}
+}
+defined_text = {
+	name = GetCoalitionMemberIcon_theocracy
+	text = {
+		trigger = {
+			OR = {
+				has_government = theocracy
+				has_country_flag = coalition_theocracy
+			}
+		}
+		localization_key = "GFX_coalition_icon"
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_government = theocracy
+				has_country_flag = coalition_theocracy
+			}
+		}
+		localization_key = "GFX_coalition_no_icon"
+	}
+}
+
+defined_text = {
+	name = GetCoalitionMemberBG_unclassified
+	text = {
+		trigger = {
+			NOT = {
+				has_government = unclassified
+			}
+			has_country_flag = coalition_unclassified
+		}
+		localization_key = "GFX_coalition_member"
+	}
+	text = {
+		trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = coalition_unclassified
+				}
+				has_government = unclassified
+			}
+		}
+		localization_key = "GFX_coalition_no_bg"
+	}
+}
+defined_text = {
+	name = GetCoalitionMemberIcon_unclassified
+	text = {
+		trigger = {
+			OR = {
+				has_government = unclassified
+				has_country_flag = coalition_unclassified
+			}
+		}
+		localization_key = "GFX_coalition_icon"
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_government = unclassified
+				has_country_flag = coalition_unclassified
+			}
+		}
+		localization_key = "GFX_coalition_no_icon"
+	}
+}

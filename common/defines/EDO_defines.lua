@@ -16,4 +16,4 @@ NDefines.NSupply.NODE_FLOW_BONUS_PER_RAIL_LEVEL = 0.5
 NDefines.NSupply.INFRA_TO_SUPPLY = 0.1
 NDefines.NSupply.AVAILABLE_MANPOWER_STATE_SUPPLY = 0.05
 NDefines.NSupply.NON_CORE_MANPOWER_STATE_SUPPLY = 0.05
-
+NDefines.NCountry.BASE_STABILITY_PARTY_POPULARITY_FACTOR = 0.20	-- Default stability rulling party popularity factor

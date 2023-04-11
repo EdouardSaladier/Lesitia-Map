@@ -1,0 +1,67 @@
+scripted_gui = {
+	coalition_system = {
+		window_name = "lesitia_coalition_container"
+ 
+		context_type = player_context
+		parent_window_name = "countrypoliticsview"
+		
+		properties = {
+			coalition_member_party_despotism = {
+				image = "[GetCoalitionMemberBG_despotism]"
+			}
+			coalition_member_party_icon_despotism = {
+				image = "[GetCoalitionMemberIcon_despotism]"
+			}
+			
+			coalition_member_party_revolutionarism = {
+				image = "[GetCoalitionMemberBG_revolutionarism]"
+			}
+			coalition_member_party_icon_revolutionarism = {
+				image = "[GetCoalitionMemberIcon_revolutionarism]"
+			}
+			
+			coalition_member_party_corporatism = {
+				image = "[GetCoalitionMemberBG_corporatism]"
+			}
+			coalition_member_party_icon_corporatism = {
+				image = "[GetCoalitionMemberIcon_corporatism]"
+			}
+			
+			coalition_member_party_supremacism = {
+				image = "[GetCoalitionMemberBG_supremacism]"
+			}
+			coalition_member_party_icon_supremacism = {
+				image = "[GetCoalitionMemberIcon_supremacism]"
+			}
+			
+			coalition_member_party_democracy = {
+				image = "[GetCoalitionMemberBG_democracy]"
+			}
+			coalition_member_party_icon_democracy = {
+				image = "[GetCoalitionMemberIcon_democracy]"
+			}
+			
+			coalition_member_party_technocracy = {
+				image = "[GetCoalitionMemberBG_technocracy]"
+			}
+			coalition_member_party_icon_technocracy = {
+				image = "[GetCoalitionMemberIcon_technocracy]"
+			}
+			
+			coalition_member_party_theocracy = {
+				image = "[GetCoalitionMemberBG_theocracy]"
+			}
+			coalition_member_party_icon_theocracy = {
+				image = "[GetCoalitionMemberIcon_theocracy]"
+			}
+			
+			coalition_member_party_unclassified = {
+				image = "[GetCoalitionMemberBG_unclassified]"
+			}
+			coalition_member_party_icon_unclassified = {
+				image = "[GetCoalitionMemberIcon_unclassified]"
+			}
+		}
+
+	}
+}

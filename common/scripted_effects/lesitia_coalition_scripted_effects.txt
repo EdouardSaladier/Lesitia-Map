@@ -1,0 +1,24 @@
+initiate_coalition_start = {
+	set_variable = { coalition_popularity_v = mtth:coalition_popularity } #
+	set_variable = { coalition_popularity_stab_v = mtth:coalition_popularity_stab } #
+	add_dynamic_modifier = {
+		modifier = coalition_popularity_dyn_mod
+	}
+}
+
+update_coalition = {
+	set_variable = { coalition_popularity_v = mtth:coalition_popularity } #
+	set_variable = { coalition_popularity_stab_v = mtth:coalition_popularity_stab } #
+	if = {
+		limit = {
+			NOT = {
+				has_dynamic_modifier = {
+					modifier = coalition_popularity_dyn_mod
+				}
+			}
+		}
+		add_dynamic_modifier = {
+			modifier = coalition_popularity_dyn_mod
+		}
+	}
+}

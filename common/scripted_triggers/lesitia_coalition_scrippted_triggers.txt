@@ -1,0 +1,12 @@
+has_coalition = {
+	OR = {
+		has_country_flag = coalition_despotism
+		has_country_flag = coalition_revolutionarism
+		has_country_flag = coalition_corporatism
+		has_country_flag = coalition_supremacism
+		has_country_flag = coalition_democracy
+		has_country_flag = coalition_technocracy
+		has_country_flag = coalition_theocracy
+		has_country_flag = coalition_unclassified
+	}
+}
