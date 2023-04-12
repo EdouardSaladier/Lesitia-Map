@@ -6,6 +6,11 @@ oob = "standard_templates"
 
 set_research_slots = 3
 
+set_country_flag = coalition_despotism
+set_country_flag = coalition_theocracy
+set_country_flag = coalition_corporatism
+update_coalition = yes
+
 set_technology = {
 	primitive_firearms = 1
 	conventional_firearms = 1
@@ -88,6 +93,55 @@ create_country_leader = {
 	desc = "SYM_Amber_desc"
 	picture = "portrait_amber_azkrini.dds"
 	ideology = democracy_type
+}
+
+create_country_leader = {
+	name = "Luã Vescitu"
+	desc = "KAK_lua_desc"
+	picture = "portrait_lua_vescitu.dds"
+	ideology = despotism_type 
+}
+
+create_country_leader = {
+	name = "Russet Vero"
+	desc = "ETH_russet_desc"
+	picture = "portrait_russet_vero.dds"
+	ideology = supremacism_type 
+}
+
+create_country_leader = {
+	name = "Artem Valentin"
+	desc = "SCM_valentin_desc"
+	picture = "portrait_artem_valentim.dds"
+	ideology = revolutionarism_type 
+}
+
+create_country_leader = {
+	name = "Paragram Kalil"
+	desc = "RIS_paragram_desc"
+	picture = "portrait_paragram_briz.dds"
+	ideology = corporatism_type 
+}
+
+create_country_leader = {
+	name = "Slez Zeas"
+	desc = "TER_slez_desc"
+	picture = "portrait_slez_zeas.dds"
+	ideology = technocracy_type 
+}
+
+create_country_leader = {
+	name = "Polistik Sorak"
+	desc = "OAV_polistik_desc"
+	picture = "portrait_polistik_sorak.dds"
+	ideology = theocracy_type 
+}
+
+create_country_leader = {
+	name = "Maximillian Rez"
+	desc = "ZHA_maxi_desc"
+	picture = "portrait_maximillian_rez.dds"
+	ideology = unclassified_type 
 }
 
 create_corps_commander = {
