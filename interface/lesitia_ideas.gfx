@@ -1,168 +1,205 @@
 spriteTypes = {	
+	
 	SpriteType = {
 		name = "GFX_idea_southern_command"
 		texturefile = "gfx/interface/ideas/southern_army_command.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_voskra_colony"
 		texturefile = "gfx/interface/ideas/voskra_colony.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_sister_republics"
 		texturefile = "gfx/interface/ideas/sister_republics.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_symbiotic_army"
 		texturefile = "gfx/interface/ideas/symbiotic_army.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_chaotic_existence"
 		texturefile = "gfx/interface/ideas/chaotic_existence.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_regionalism_problem"
 		texturefile = "gfx/interface/ideas/regionalism_problem.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_emergency_assistance"
 		texturefile = "gfx/interface/ideas/emergency_assistance.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_refugee_state"
 		texturefile = "gfx/interface/ideas/refugee_state.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_ressian_machine"
 		texturefile = "gfx/interface/ideas/ressian_machine.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_lavido_democracy"
 		texturefile = "gfx/interface/ideas/lavido_democracy.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_revolutionary_revolt"
 		texturefile = "gfx/interface/ideas/revolutionary_revolt.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_termite_future"
 		texturefile = "gfx/interface/ideas/termite_future.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_outsider_issue"
 		texturefile = "gfx/interface/ideas/outsider_issue.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_tiveask_fog"
 		texturefile = "gfx/interface/ideas/tiveask_fog.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_tiveask_bandits"
 		texturefile = "gfx/interface/ideas/tiveask_bandits.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_glistening_hope"
 		texturefile = "gfx/interface/ideas/glistening_hope.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_ruthless_rule"
 		texturefile = "gfx/interface/ideas/ruthless_rule.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_ephemeral_militia"
 		texturefile = "gfx/interface/ideas/ephemeral_militia.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_last_stand"
 		texturefile = "gfx/interface/ideas/last_stand.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_fanatic_idealism"
 		texturefile = "gfx/interface/ideas/fanatic_idealism.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_republican_army"
 		texturefile = "gfx/interface/ideas/republican_army.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_zaroa_faith"
 		texturefile = "gfx/interface/ideas/zaroa_faith.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_millenium_traditions"
 		texturefile = "gfx/interface/ideas/millenium_traditions.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_shared_identity"
 		texturefile = "gfx/interface/ideas/shared_identity.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_kakrikea_army"
 		texturefile = "gfx/interface/ideas/kakrikea_army.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_kakrikea_army"
 		texturefile = "gfx/interface/ideas/kakrikea_army.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_hive_democracy"
 		texturefile = "gfx/interface/ideas/hive_democracy.dds"
-	}		
-}
-spriteTypes = {	
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_sin_islands"
 		texturefile = "gfx/interface/ideas/sin_islands.dds"
-	}		
+	}
+	
+	###Fhireanta ideas
+	
+	SpriteType = {
+		name = "GFX_idea_FHI_aiseirigh_rising"
+		texturefile = "gfx/interface/ideas/FHI_aiseirigh_rising.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FHI_aiseirigh_threat"
+		texturefile = "gfx/interface/ideas/FHI_aiseirigh_threat.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FHI_imminent_aiseirigh_threat"
+		texturefile = "gfx/interface/ideas/FHI_imminent_aiseirigh_threat.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FHI_working_with_aiseirigh"
+		texturefile = "gfx/interface/ideas/FHI_working_with_aiseirigh.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FHI_aiseirigh_security_forces"
+		texturefile = "gfx/interface/ideas/FHI_aiseirigh_security_forces.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FHI_aiseirigh_out_of_control"
+		texturefile = "gfx/interface/ideas/FHI_aiseirigh_out_of_control.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FHI_secularist_newspapers"
+		texturefile = "gfx/interface/ideas/FHI_secularist_newspapers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FHI_protesting_newspapers"
+		texturefile = "gfx/interface/ideas/FHI_protesting_newspapers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FHI_dissident_newspapers"
+		texturefile = "gfx/interface/ideas/FHI_dissident_newspapers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FHI_working_with_the_secularists"
+		texturefile = "gfx/interface/ideas/FHI_working_with_the_secularists.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FHI_secularist_propaganda"
+		texturefile = "gfx/interface/ideas/FHI_secularist_propaganda.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FHI_unchecked_secularist_influence"
+		texturefile = "gfx/interface/ideas/FHI_unchecked_secularist_influence.dds"
+	}
+	
 }
