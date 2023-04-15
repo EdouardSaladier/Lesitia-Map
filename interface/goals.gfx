@@ -53,8 +53,37 @@ spriteTypes = {
     SpriteType = {
 	name = "GFX_goal_SYM_not_ready"
 	texturefile = "gfx/interface/goals/focus_SYM_not_ready.dds"			
-	}		
+	}
+
+    SpriteType = {
+	name = "GFX_goal_AVN_industry_generic"
+	texturefile = "gfx/interface/goals/focus_AVN_generic_industry.dds"			
+	}
+
+    SpriteType = {
+	name = "GFX_goal_AVN_outside_diplomacy"
+	texturefile = "gfx/interface/goals/focus_AVN_outside_diplomacy.dds"			
+	}
+
+    SpriteType = {
+	name = "GFX_goal_AVN_democracy"
+	texturefile = "gfx/interface/goals/focus_AVN_democracy.dds"			
+	}	
 	
+    SpriteType = {
+	name = "GFX_goal_AVN_despotism"
+	texturefile = "gfx/interface/goals/focus_AVN_despotism.dds"			
+	}
+
+    SpriteType = {
+	name = "GFX_goal_AVN_diplomacy"
+	texturefile = "gfx/interface/goals/focus_AVN_diplomacy.dds"			
+	}
+
+    SpriteType = {
+	name = "GFX_goal_AVN_pryderi"
+	texturefile = "gfx/interface/goals/focus_AVN_pryderi.dds"			
+	}		
 	
 	#### Generic continuous goal icons
 

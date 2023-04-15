@@ -1,0 +1,1128 @@
+focus_tree = {
+	id = AVN
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AVN
+		}
+	}
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+	
+    ####Tree Start
+	
+	focus = {
+		id = AVN_kickstart_the_economy
+		icon = GFX_goal_AVN_industry_generic
+		cost = 8
+		x = 2
+		y = 0
+	}
+	
+	focus = {
+		id = AVN_wheat_farming
+		icon = GFX_goal_AVN_industry_generic
+		cost = 8
+		prerequisite = {
+			focus = AVN_kickstart_the_economy
+		}
+		x = 0
+		y = 1
+
+	}
+	
+	focus = {
+		id = AVN_east_west_railway
+		icon = GFX_goal_AVN_industry_generic
+		cost = 8
+		prerequisite = {
+			focus = AVN_kickstart_the_economy
+		}
+		x = 2
+		y = 1
+
+	}
+	
+	focus = {
+		id = AVN_airport_development
+		icon = GFX_goal_AVN_industry_generic
+		cost = 8
+		prerequisite = {
+			focus = AVN_kickstart_the_economy
+		}
+		x = 4
+		y = 1
+
+	}
+	
+	focus = {
+		id = AVN_invest_industry
+		icon = GFX_goal_AVN_industry_generic
+		cost = 8
+		prerequisite = {
+			focus = AVN_wheat_farming
+		}
+		x = 0
+		y = 2
+
+	}
+	
+	focus = {
+		id = AVN_gun_manufacturing
+		icon = GFX_goal_AVN_industry_generic
+		cost = 8
+		prerequisite = {
+			focus = AVN_east_west_railway
+		}
+		x = 2
+		y = 2
+
+	}
+	
+	focus = {
+		id = AVN_improve_civilian
+		icon = GFX_goal_AVN_industry_generic
+		cost = 8
+		prerequisite = {
+			focus = AVN_airport_development
+		}
+		x = 4
+		y = 2
+
+	}
+	
+	focus = {
+		id = AVN_pryderi_market
+		icon = GFX_goal_AVN_industry_generic
+		cost = 8
+		prerequisite = {
+			focus = AVN_gun_manufacturing
+		}
+		prerequisite = {
+			focus = AVN_invest_industry
+		}
+		x = 1
+		y = 3
+
+	}
+	
+	focus = {
+		id = AVN_trading_convoys
+		icon = GFX_goal_AVN_industry_generic
+		cost = 8
+		prerequisite = {
+			focus = AVN_gun_manufacturing
+		}
+		prerequisite = {
+			focus = AVN_improve_civilian
+		}
+		x = 3
+		y = 3
+
+	}
+	
+    focus = {
+		id = AVN_energy_sector
+		icon = GFX_goal_AVN_industry_generic
+		cost = 8
+		prerequisite = {
+			focus = AVN_trading_convoys
+		}
+		prerequisite = {
+			focus = AVN_pryderi_market
+		}
+		x = 2
+		y = 4
+
+	}
+	
+	focus = {
+		id = AVN_offensive
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		mutually_exclusive = {
+			focus = AVN_digging_in
+		}
+		x = 30
+		y = 0
+	}
+	
+	focus = {
+		id = AVN_raise_volunteers
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		prerequisite = {
+			focus = AVN_offensive
+		}
+		x = 30
+		y = 1
+	}
+	
+	focus = {
+		id = AVN_railgun_production
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		prerequisite = {
+			focus = AVN_raise_volunteers
+		}
+		prerequisite = {
+			focus = AVN_piercing_efforts
+		}
+		x = 29
+		y = 2
+	}
+	
+	focus = {
+		id = AVN_tank_corp
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		prerequisite = {
+			focus = AVN_raise_volunteers
+		}
+		prerequisite = {
+			focus = AVN_anti_tank
+		}
+		x = 31
+		y = 2
+	}
+	
+	focus = {
+		id = AVN_national_airforce
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		prerequisite = {
+			focus = AVN_tank_corp
+		}
+		prerequisite = {
+			focus = AVN_railgun_production
+		}
+		x = 30
+		y = 3
+	}
+	
+	focus = {
+		id = AVN_focus_quantity
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		prerequisite = {
+			focus = AVN_national_airforce
+		}
+		x = 30
+		y = 4
+	}
+	
+	focus = {
+		id = AVN_piercing_efforts
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		prerequisite = {
+			focus = AVN_offensive
+		}
+		x = 28
+		y = 1
+	}
+	
+	focus = {
+		id = AVN_anti_tank
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		prerequisite = {
+			focus = AVN_offensive
+		}
+		x = 32
+		y = 1
+	}
+	
+	focus = {
+		id = AVN_digging_in
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		mutually_exclusive = {
+			focus = AVN_offensive
+		}
+		x = 24
+		y = 0
+	}
+	
+	focus = {
+		id = AVN_anti_air
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		prerequisite = {
+			focus = AVN_digging_in
+		}
+		x = 24
+		y = 1
+	}
+	
+	focus = {
+		id = AVN_defensive_training
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		prerequisite = {
+			focus = AVN_digging_in
+		}
+		x = 22
+		y = 1
+	}
+	
+	focus = {
+		id = AVN_avenskan_forts
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		prerequisite = {
+			focus = AVN_digging_in
+		}
+		x = 26
+		y = 1
+	}
+	
+	focus = {
+		id = AVN_coastal_ships
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		prerequisite = {
+			focus = AVN_anti_air
+		}
+		prerequisite = {
+			focus = AVN_defensive_training
+		}
+		x = 23
+		y = 2
+	}
+	
+	focus = {
+		id = AVN_quicker_reinforcement
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		prerequisite = {
+			focus = AVN_avenskan_forts
+		}
+		prerequisite = {
+			focus = AVN_anti_air
+		}
+		x = 25
+		y = 2
+	}
+	
+	focus = {
+		id = AVN_protect_ports
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		prerequisite = {
+			focus = AVN_quicker_reinforcement
+		}
+		prerequisite = {
+			focus = AVN_coastal_ships
+		}
+		x = 24
+		y = 3
+	}
+	
+	focus = {
+		id = AVN_the_best
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 8
+		prerequisite = {
+			focus = AVN_protect_ports
+		}
+		x = 24
+		y = 4
+	}
+	
+	focus = {
+		id = AVN_seizing_canal
+		icon = GFX_goal_AVN_outside_diplomacy
+		cost = 8
+		x = 13
+		y = 0
+	}
+	
+	focus = {
+		id = AVN_loot_armories
+		icon = GFX_goal_AVN_outside_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_seizing_canal
+		}
+		x = 12
+		y = 1
+
+	}
+	
+	focus = {
+		id = AVN_secure_control
+		icon = GFX_goal_AVN_outside_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_seizing_canal
+		}
+		x = 14
+		y = 1
+
+	}
+	
+    focus = {
+		id = AVN_avenska_congress
+		icon = GFX_goal_AVN_outside_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_secure_control
+		}
+		prerequisite = {
+			focus = AVN_loot_armories
+		}
+		x = 13
+		y = 2
+
+	}
+	
+	focus = {
+		id = AVN_liberal_approach
+		icon = GFX_goal_AVN_democracy
+		cost = 8
+		prerequisite = {
+			focus = AVN_avenska_congress
+		}
+		mutually_exclusive = {
+			focus = AVN_despotist_populism
+		}
+		x = 8
+		y = 3
+
+	}
+	
+	focus = {
+		id = AVN_despotist_populism
+		icon = GFX_goal_AVN_despotism
+		cost = 8
+		prerequisite = {
+			focus = AVN_avenska_congress
+		}
+		mutually_exclusive = {
+			focus = AVN_liberal_approach
+		}
+		x = 18
+		y = 3
+
+	}
+	
+	focus = {
+		id = AVN_civilian_gun_rights
+		icon = GFX_goal_AVN_democracy
+		cost = 8
+		prerequisite = {
+			focus = AVN_liberal_approach
+		}
+		x = 8
+		y = 4
+
+	}
+	
+	focus = {
+		id = AVN_freedom_of_speech
+		icon = GFX_goal_AVN_democracy
+		cost = 8
+		prerequisite = {
+			focus = AVN_liberal_approach
+		}
+		x = 6
+		y = 4
+
+	}
+	
+	focus = {
+		id = AVN_citizenship
+		icon = GFX_goal_AVN_democracy
+		cost = 8
+		prerequisite = {
+			focus = AVN_liberal_approach
+		}
+		x = 10
+		y = 4
+
+	}
+	
+	focus = {
+		id = AVN_industrial_programs
+		icon = GFX_goal_AVN_democracy
+		cost = 8
+		prerequisite = {
+			focus = AVN_freedom_of_speech
+		}
+		prerequisite = {
+			focus = AVN_civilian_gun_rights
+		}
+		x = 6
+		y = 5
+
+	}
+	
+	focus = {
+		id = AVN_create_education
+		icon = GFX_goal_AVN_democracy
+		cost = 8
+		prerequisite = {
+			focus = AVN_freedom_of_speech
+		}
+		x = 4
+		y = 5
+
+	}
+	
+	focus = {
+		id = AVN_three_powers
+		icon = GFX_goal_AVN_democracy
+		cost = 8
+		prerequisite = {
+			focus = AVN_civilian_gun_rights
+		}
+		x = 8
+		y = 5
+
+	}
+	
+	focus = {
+		id = AVN_progressive_taxation
+		icon = GFX_goal_AVN_democracy
+		cost = 8
+		prerequisite = {
+			focus = AVN_citizenship
+		}
+		prerequisite = {
+			focus = AVN_civilian_gun_rights
+		}
+		x = 10
+		y = 5
+
+	}
+	
+	focus = {
+		id = AVN_democratic_militias
+		icon = GFX_goal_AVN_democracy
+		cost = 8
+		prerequisite = {
+			focus = AVN_citizenship
+		}
+		x = 12
+		y = 5
+
+	}
+	
+	focus = {
+		id = AVN_the_first_con
+		icon = GFX_goal_AVN_democracy
+		cost = 8
+		prerequisite = {
+			focus = AVN_democratic_militias
+		}
+		prerequisite = {
+			focus = AVN_progressive_taxation
+		}
+		prerequisite = {
+			focus = AVN_three_powers
+		}
+		prerequisite = {
+			focus = AVN_create_education
+		}
+		prerequisite = {
+			focus = AVN_industrial_programs
+		}
+		x = 8
+		y = 6
+
+	}
+	
+	focus = {
+		id = AVN_reaching_out
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_the_first_con
+		}
+		x = 8
+		y = 7
+
+	}
+	
+	focus = {
+		id = AVN_approach_fed
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_reaching_out
+		}
+		mutually_exclusive = {
+			focus = AVN_approach_borca
+		}
+		x = 4
+		y = 8
+
+	}
+	
+	focus = {
+		id = AVN_approach_borca
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_reaching_out
+		}
+		mutually_exclusive = {
+			focus = AVN_approach_fed
+		}
+		x = 6
+		y = 8
+
+	}
+	
+	focus = {
+		id = AVN_outer_avenska
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_approach_borca
+			focus = AVN_approach_fed
+		}
+		x = 5
+		y = 9
+
+	}
+	
+	focus = {
+		id = AVN_approach_rodents
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_reaching_out
+		}
+		x = 11
+		y = 8
+
+	}
+	
+	focus = {
+		id = AVN_land_buy
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_approach_rodents
+		}
+		x = 11
+		y = 9
+
+	}
+	
+	focus = {
+		id = AVN_expected_failure
+		icon = GFX_goal_AVN_outside_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_land_buy
+		}
+		mutually_exclusive = {
+			focus = AVN_negotiations_success
+		}
+		x = 10
+		y = 10
+
+	}
+	
+	focus = {
+		id = AVN_insurrection
+		icon = GFX_goal_AVN_outside_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_expected_failure
+		}
+		x = 10
+		y = 11
+
+	}
+	
+	focus = {
+		id = AVN_negotiations_success
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_land_buy
+		}
+		mutually_exclusive = {
+			focus = AVN_expected_failure
+		}
+		x = 12
+		y = 10
+
+	}
+	
+	focus = {
+		id = AVN_integration
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_negotiations_success
+		}
+		x = 12
+		y = 11
+
+	}
+	
+	focus = {
+		id = AVN_integrate_land
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_outer_avenska
+		}
+		mutually_exclusive = {
+			focus = AVN_negotiations_fail
+		}
+		mutually_exclusive = {
+			focus = AVN_population_transfer
+		}
+		x = 5
+		y = 10
+
+	}
+	
+	focus = {
+		id = AVN_population_transfer
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_outer_avenska
+		}
+		mutually_exclusive = {
+			focus = AVN_negotiations_fail
+		}
+		mutually_exclusive = {
+			focus = AVN_integrate_land
+		}
+		x = 3
+		y = 10
+
+	}
+	
+	focus = {
+		id = AVN_negotiations_fail
+		icon = GFX_goal_AVN_outside_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_outer_avenska
+		}
+		mutually_exclusive = {
+			focus = AVN_integrate_land
+		}
+		mutually_exclusive = {
+			focus = AVN_population_transfer
+		}
+		x = 7
+		y = 10
+
+	}
+	
+	focus = {
+		id = AVN_reclamation
+		icon = GFX_goal_AVN_outside_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_negotiations_fail
+		}
+		x = 7
+		y = 11
+
+	}
+	
+	focus = {
+		id = AVN_symbiotic_investiments
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_population_transfer
+		}
+		x = 3
+		y = 11
+
+	}
+	
+	focus = {
+		id = AVN_join_war
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_integrate_land
+		}
+		x = 5
+		y = 11
+
+	}
+	
+	focus = {
+		id = AVN_avenrod_school
+		icon = GFX_goal_AVN_despotism
+		cost = 8
+		prerequisite = {
+			focus = AVN_despotist_populism
+		}
+		x = 18
+		y = 4
+
+	}
+	
+	focus = {
+		id = AVN_milkshake
+		icon = GFX_goal_AVN_despotism
+		cost = 8
+		prerequisite = {
+			focus = AVN_despotist_populism
+		}
+		x = 16
+		y = 4
+
+	}
+	
+	focus = {
+		id = AVN_mandatory_conscription
+		icon = GFX_goal_AVN_despotism
+		cost = 8
+		prerequisite = {
+			focus = AVN_despotist_populism
+		}
+		x = 20
+		y = 4
+
+	}
+	
+	focus = {
+		id = AVN_expand_industrial
+		icon = GFX_goal_AVN_despotism
+		cost = 8
+		prerequisite = {
+			focus = AVN_milkshake
+		}
+		x = 14
+		y = 5
+
+	}
+	
+	focus = {
+		id = AVN_idealistic_indetity
+		icon = GFX_goal_AVN_despotism
+		cost = 8
+		prerequisite = {
+			focus = AVN_milkshake
+		}
+		prerequisite = {
+			focus = AVN_avenrod_school
+		}
+		x = 16
+		y = 5
+
+	}
+	
+	focus = {
+		id = AVN_manufacturing
+		icon = GFX_goal_AVN_despotism
+		cost = 8
+		prerequisite = {
+			focus = AVN_avenrod_school
+		}
+		x = 18
+		y = 5
+
+	}
+	
+	focus = {
+		id = AVN_reinvigorate
+		icon = GFX_goal_AVN_despotism
+		cost = 8
+		prerequisite = {
+			focus = AVN_avenrod_school
+		}
+	    prerequisite = {
+			focus = AVN_mandatory_conscription
+		}
+		x = 20
+		y = 5
+
+	}
+	
+	focus = {
+		id = AVN_cutting_the_red_tape
+		icon = GFX_goal_AVN_despotism
+		cost = 8
+	    prerequisite = {
+			focus = AVN_mandatory_conscription
+		}
+		x = 22
+		y = 5
+
+	}
+	
+	focus = {
+		id = AVN_deciding_outlook
+		icon = GFX_goal_AVN_despotism
+		cost = 8
+		prerequisite = {
+			focus = AVN_manufacturing
+		}
+		prerequisite = {
+			focus = AVN_cutting_the_red_tape
+		}
+		prerequisite = {
+			focus = AVN_reinvigorate
+		}
+		prerequisite = {
+			focus = AVN_idealistic_indetity
+		}
+		prerequisite = {
+			focus = AVN_expand_industrial
+		}
+		x = 18
+		y = 6
+
+	}
+	
+	focus = {
+		id = AVN_securing_position
+		icon = GFX_goal_AVN_despotism
+		cost = 8
+		prerequisite = {
+			focus = AVN_deciding_outlook
+		}
+		mutually_exclusive = {
+			focus = AVN_looking_past
+		}
+		x = 15
+		y = 7
+
+	}
+	
+	focus = {
+		id = AVN_looking_past
+		icon = GFX_goal_AVN_pryderi
+		cost = 8
+		prerequisite = {
+			focus = AVN_deciding_outlook
+		}
+		mutually_exclusive = {
+			focus = AVN_securing_position
+		}
+		x = 21
+		y = 7
+
+	}
+	
+	focus = {
+		id = AVN_rheol_pact
+		icon = GFX_goal_AVN_pryderi
+		cost = 8
+		prerequisite = {
+			focus = AVN_looking_past
+		}
+		x = 23
+		y = 8
+
+	}
+	
+	focus = {
+		id = AVN_bolster_industry
+		icon = GFX_goal_AVN_pryderi
+		cost = 8
+		prerequisite = {
+			focus = AVN_rheol_pact
+		}
+		x = 23
+		y = 9
+
+	}
+	
+	focus = {
+		id = AVN_elite_training
+		icon = GFX_goal_AVN_pryderi
+		cost = 8
+		prerequisite = {
+			focus = AVN_bolster_industry
+		}
+		x = 23
+		y = 10
+
+	}
+	
+	focus = {
+		id = AVN_secret_pact
+		icon = GFX_goal_AVN_pryderi
+		cost = 8
+		prerequisite = {
+			focus = AVN_looking_past
+		}
+		x = 21
+		y = 8
+
+	}
+	
+	focus = {
+		id = AVN_purchase_planes
+		icon = GFX_goal_AVN_pryderi
+		cost = 8
+		prerequisite = {
+			focus = AVN_secret_pact
+		}
+		x = 21
+		y = 9
+
+	}
+	
+	focus = {
+		id = AVN_nationalist_volunteers
+		icon = GFX_goal_AVN_pryderi
+		cost = 8
+		prerequisite = {
+			focus = AVN_purchase_planes
+		}
+		x = 21
+		y = 10
+
+	}
+	
+	focus = {
+		id = AVN_raise_reserves
+		icon = GFX_goal_AVN_pryderi
+		cost = 8
+		prerequisite = {
+			focus = AVN_looking_past
+		}
+		x = 19
+		y = 8
+
+	}
+	
+	focus = {
+		id = AVN_claim_coasts
+		icon = GFX_goal_AVN_pryderi
+		cost = 8
+		prerequisite = {
+			focus = AVN_raise_reserves
+		}
+		x = 19
+		y = 9
+
+	}
+	
+	focus = {
+		id = AVN_demand_outer
+		icon = GFX_goal_AVN_pryderi
+		cost = 8
+		prerequisite = {
+			focus = AVN_claim_coasts
+		}
+		x = 19
+		y = 10
+
+	}
+	
+	focus = {
+		id = AVN_begin_reclamation
+		icon = GFX_goal_AVN_pryderi
+		cost = 8
+		prerequisite = {
+			focus = AVN_demand_outer
+		}
+		prerequisite = {
+			focus = AVN_nationalist_volunteers
+		}
+		x = 20
+		y = 11
+
+	}
+	
+    focus = {
+		id = AVN_betrayal
+		icon = GFX_goal_AVN_pryderi
+		cost = 8
+		prerequisite = {
+			focus = AVN_begin_reclamation
+		}
+		x = 20
+		y = 12
+
+	}
+	
+	focus = {
+		id = AVN_proclaim
+		icon = GFX_goal_AVN_pryderi
+		cost = 8
+		prerequisite = {
+			focus = AVN_betrayal
+		}
+		x = 20
+		y = 13
+
+	}
+	
+	focus = {
+		id = AVN_reach_out_west
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_securing_position
+		}
+		x = 15
+		y = 8
+
+	}
+	
+	focus = {
+		id = AVN_on_our_own
+		icon = GFX_goal_AVN_outside_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_reach_out_west
+		}
+		mutually_exclusive = {
+			focus = AVN_contributing
+		}
+		x = 14
+		y = 9
+
+	}
+	
+	focus = {
+		id = AVN_avenska_pact
+		icon = GFX_goal_AVN_outside_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_on_our_own
+		}
+		x = 14
+		y = 10
+
+	}
+	
+	focus = {
+		id = AVN_contributing
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_reach_out_west
+		}
+		mutually_exclusive = {
+			focus = AVN_on_our_own
+		}
+		x = 16
+		y = 9
+
+	}
+	
+	focus = {
+		id = AVN_demand_supervision
+		icon = GFX_goal_AVN_diplomacy
+		cost = 8
+		prerequisite = {
+			focus = AVN_contributing
+		}
+		x = 16
+		y = 10
+
+	}

@@ -64,10 +64,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 85
-	supremacism = 0
-	democracy = 10
-	corporatism = 5
+	despotism = 70
+	supremacism = 15
+	democracy = 15
+	corporatism = 0
 }
 
 create_country_leader = {
@@ -75,6 +75,20 @@ create_country_leader = {
 	desc = "AVN_pyotr_desc"
 	picture = "portrait_pyotr_kavinse.dds"
 	ideology = despotism_type 
+}
+
+create_country_leader = {
+	name = "Borys Witkowski"
+	desc = "AVN_Borys_desc"
+	picture = "portrait_borys_wit.dds"
+	ideology = supremacism_type 
+}
+
+create_country_leader = {
+	name = "Pyotr Kavinse"
+	desc = "AVN_pyotr_desc"
+	picture = "portrait_pyotr_kavinse.dds"
+	ideology = democracy_type 
 }
 
 create_field_marshal = {
