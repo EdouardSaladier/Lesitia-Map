@@ -1,0 +1,298 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "law_system_bg_container"
+		position = { x = -640 y = -360 }
+		size = { width = 1280 height = 720 }
+		orientation = center
+		verticalScrollbar = "right_vertical_slider"
+		
+		iconType = {
+			name ="law_system_bg_paper"
+			spriteType = "GFX_paper_FHI"
+			position = { x=0 y=0 }
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "law_system_container"
+		position = { x = -640 y = -360 }
+		size = { width = 1280 height = 720 }
+		orientation = center
+		verticalScrollbar = "right_vertical_slider"
+ 
+		background = {
+			name = "law_system_bg"		
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+		
+		containerWindowType = {
+			name = "law_system_sub_container"
+			position = { x = 0 y = 0 }
+			size = { width = 1280 height = 1420 }
+			orientation = UPPER_LEFT
+		
+			instantTextboxType = {
+				name = "law_system_title"
+				position = { x = 20 y = 20 }
+				font = "LawTitleBig"
+				text = "law_title"
+				maxWidth = 1220
+				maxHeight = 100
+				format = center
+				vertical_alignment = top
+			}
+			
+			instantTextboxType = {
+				name = "law_subtitle"
+				position = { x = 20 y = 110 }
+				font = "LawText"
+				text = "law_subtitle"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			instantTextboxType = {
+				name = "section_1_title"
+				position = { x = 20 y = 180 }
+				font = "LawSmallTitle"
+				text = "section_1_title"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			instantTextboxType = {
+				name = "section_1_text"
+				position = { x = 20 y = 210 }
+				font = "LawText"
+				text = "get_section_1_text"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			buttonType = {
+				name = "section_1_effect" 
+				position = { x = 20 y = 210 }
+				size = { width = 1220 height = 120 }
+				quadTextureSprite ="GFX_tiled_window_transparent"
+				pdx_tooltip = section_1_effect_tt
+			}
+			
+			instantTextboxType = {
+				name = "section_2_title"
+				position = { x = 20 y = 350 }
+				font = "LawSmallTitle"
+				text = "section_2_title"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			instantTextboxType = {
+				name = "section_2_text"
+				position = { x = 20 y = 380 }
+				font = "LawText"
+				text = "get_section_2_text"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			buttonType = {
+				name = "section_2_effect" 
+				position = { x = 20 y = 380 }
+				size = { width = 1220 height = 160 }
+				quadTextureSprite ="GFX_tiled_window_transparent"
+				pdx_tooltip = section_2_effect_tt
+			}
+			
+			instantTextboxType = {
+				name = "section_3_title"
+				position = { x = 20 y = 570 }
+				font = "LawSmallTitle"
+				text = "section_3_title"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			instantTextboxType = {
+				name = "section_3_text"
+				position = { x = 20 y = 600 }
+				font = "LawText"
+				text = "get_section_3_text"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			buttonType = {
+				name = "section_3_effect" 
+				position = { x = 20 y = 600 }
+				size = { width = 1220 height = 160 }
+				quadTextureSprite ="GFX_tiled_window_transparent"
+				pdx_tooltip = section_2_effect_tt
+			}
+			
+			instantTextboxType = {
+				name = "section_4_title"
+				position = { x = 20 y = 790 }
+				font = "LawSmallTitle"
+				text = "section_4_title"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			instantTextboxType = {
+				name = "section_4_text"
+				position = { x = 20 y = 820 }
+				font = "LawText"
+				text = "get_section_4_text"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			buttonType = {
+				name = "section_4_effect" 
+				position = { x = 20 y = 820 }
+				size = { width = 1220 height = 40 }
+				quadTextureSprite ="GFX_tiled_window_transparent"
+				pdx_tooltip = section_4_effect_tt
+			}
+			
+			instantTextboxType = {
+				name = "section_5_title"
+				position = { x = 20 y = 890 }
+				font = "LawSmallTitle"
+				text = "section_5_title"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			instantTextboxType = {
+				name = "section_5_text"
+				position = { x = 20 y = 920 }
+				font = "LawText"
+				text = "get_section_5_text"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			buttonType = {
+				name = "section_5_effect" 
+				position = { x = 20 y = 920 }
+				size = { width = 1220 height = 60 }
+				quadTextureSprite ="GFX_tiled_window_transparent"
+				pdx_tooltip = section_4_effect_tt
+			}
+			
+			instantTextboxType = {
+				name = "section_6_title"
+				position = { x = 20 y = 990 }
+				font = "LawSmallTitle"
+				text = "section_6_title"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			instantTextboxType = {
+				name = "section_6_text"
+				position = { x = 20 y = 1020 }
+				font = "LawText"
+				text = "section_6_text"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			instantTextboxType = {
+				name = "section_7_title"
+				position = { x = 20 y = 1090 }
+				font = "LawSmallTitle"
+				text = "section_7_title"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			instantTextboxType = {
+				name = "section_7_text"
+				position = { x = 20 y = 1120 }
+				font = "LawText"
+				text = "section_7_text"
+				maxWidth = 1220
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			instantTextboxType = {
+				name = "leader_title_arbiter"
+				position = { x = 520 y = 1220 }
+				font = "LawSmallTitle"
+				text = "leader_title_arbiter"
+				maxWidth = 720
+				maxHeight = 780
+				format = left
+				vertical_alignment = top
+			}
+			
+			iconType = {
+				name ="signature"
+				spriteType = "GFX_signature_awaiting"
+				position = { x=520 y=1270 }
+				alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "signature_effect" 
+				position = {x=520 y=1270}
+				size = { width = 500 height = 100 }
+				quadTextureSprite ="GFX_tiled_window_transparent"
+				pdx_tooltip = signature_effect_tt
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "law_system_close_container"
+		position = { x = -640 y = -360 }
+		size = { width = 1280 height = 720 }
+		orientation = center
+		verticalScrollbar = "right_vertical_slider"
+		
+		buttonType = {
+			name = "law_system_close_button"
+			position = { x = -62 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+}

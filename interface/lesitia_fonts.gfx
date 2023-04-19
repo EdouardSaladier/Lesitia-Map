@@ -59,4 +59,24 @@ bitmapfonts = {
 		path = "gfx/fonts/DejaVu40b"
 		color = 0xffffffff
 	}
+	bitmapfont = {
+		name = "LawTitleBig"
+		path = "gfx/fonts/Law_Title_Big"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "LawTitle"
+		path = "gfx/fonts/Law_Title"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "LawSmallTitle"
+		path = "gfx/fonts/Law_Small_Title"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "LawText"
+		path = "gfx/fonts/Law_Text"
+		color = 0xff000000
+	}
 }

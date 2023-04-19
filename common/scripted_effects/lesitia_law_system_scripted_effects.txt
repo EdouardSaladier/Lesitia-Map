@@ -1,0 +1,98 @@
+law_init = {
+	set_country_flag = law
+	set_country_flag = heresy_not_prosecuted
+	set_country_flag = mandate_required
+	set_country_flag = anti_terrorism
+}
+
+law_sign = {
+	if = {
+		limit = {
+			NOT = { has_country_flag = law_signed }
+		}
+		set_country_flag = law_signed
+	}
+	else = {
+		clr_country_flag = law_signed
+	}
+}
+
+section_1_effect = {
+	if = {
+		limit = {
+			has_country_flag = anti_terrorism
+		}
+		clr_country_flag = anti_terrorism
+		clr_country_flag = anti_dissent
+		set_country_flag = anti_extremism
+	}
+	else_if = {
+		limit = {
+			has_country_flag = anti_extremism
+		}
+		clr_country_flag = anti_extremism
+		clr_country_flag = anti_terrorism
+		set_country_flag = anti_dissent
+	}
+	else = {
+		clr_country_flag = anti_dissent
+		clr_country_flag = anti_extremism
+		set_country_flag = anti_terrorism
+	}
+}
+
+section_2_effect = {
+	if = {
+		limit = {
+			has_country_flag = heresy_not_prosecuted
+		}
+		clr_country_flag = heresy_not_prosecuted
+		set_country_flag = heresy_prosecuted
+	}
+	else = {
+		clr_country_flag = heresy_prosecuted
+		set_country_flag = heresy_not_prosecuted
+	}
+}
+
+section_2_fake_effect = {
+	if = {
+		limit = {
+			has_country_flag = heresy_not_prosecuted
+		}
+		unlock_decision_tooltip = give_prosecution_mandates_against_aiseirigh
+	}
+	else = {
+		unlock_decision_tooltip = order_mass_arrestations_against_aiseirigh
+	}
+}
+
+section_4_effect = {
+	if = {
+		limit = {
+			has_country_flag = mandate_not_required
+		}
+		clr_country_flag = mandate_not_required
+		set_country_flag = mandate_required
+	}
+	else = {
+		clr_country_flag = mandate_required
+		set_country_flag = mandate_not_required
+	}
+}
+
+law_close = {
+	clr_country_flag = law
+	clr_country_flag = law_signed
+}
+law_close_and_clear = {
+	clr_country_flag = law
+	clr_country_flag = law_signed
+	clr_country_flag = heresy_prosecuted
+	clr_country_flag = heresy_not_prosecuted
+	clr_country_flag = mandate_not_required
+	clr_country_flag = mandate_required
+	clr_country_flag = anti_dissent
+	clr_country_flag = anti_extremism
+	clr_country_flag = anti_terrorism
+}

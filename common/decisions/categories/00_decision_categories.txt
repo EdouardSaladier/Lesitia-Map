@@ -13,3 +13,27 @@ lesitia_debug_decisions = {
 		is_debug = yes
 	}
 }
+
+FHI_arbitration_commission_contested = {
+	icon = generic_propaganda
+	
+	allowed = {
+        tag = FHI
+    }
+
+	visible = {
+		NOT = { has_country_flag = fhireanta_initial_over }
+	}
+}
+
+FHI_police_decisions = {
+	icon = military_operation
+	
+	allowed = {
+        tag = FHI
+    }
+
+	visible = {
+		NOT = { has_country_flag = fhireanta_initial_over }
+	}
+}

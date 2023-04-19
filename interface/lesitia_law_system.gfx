@@ -1,0 +1,31 @@
+#background sprite is in frontendmainviewbg.gfx
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_paper_blank"
+		texturefile = "gfx/interface/laws_system/paper_blank.dds"
+	}
+	spriteType = {
+		name = "GFX_paper_FHI"
+		texturefile = "gfx/interface/laws_system/paper_fhi.dds"
+	}
+	
+	### Signatures
+	
+	spriteType = {
+		name = "GFX_signature_awaiting"
+		texturefile = "gfx/interface/laws_system/signatures/awaiting_signature.dds"
+	}
+	spriteType = {
+		name = "GFX_signature_FHI_laomann_illebhain"
+		texturefile = "gfx/interface/laws_system/signatures/FHI_laomann_illebhain.dds"
+	}
+	spriteType = {
+		name = "GFX_signature_FHI_labhrann_iomharach"
+		texturefile = "gfx/interface/laws_system/signatures/FHI_labhrann_iomharach.dds"
+	}
+	spriteType = {
+		name = "GFX_signature_FHI_ruairidh_blarach"
+		texturefile = "gfx/interface/laws_system/signatures/FHI_ruairidh_blarach.dds"
+	}
+}

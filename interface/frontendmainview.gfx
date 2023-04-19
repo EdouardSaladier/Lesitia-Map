@@ -27,4 +27,13 @@ spriteTypes = {
 		name = "GFX_socialview_icon"
 		texturefile = "gfx/interface/icons/pi_icon.dds"
 	}
+	
+	corneredTileSpriteType = {
+		name = "GFX_tiled_white"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiles//tiled_bg_white.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"	
+	}
 }

@@ -30,40 +30,132 @@ FHI_theocracy_party_long:0 "Coimisean Rèiteachaidh (Arbitration Commission)"
 FHI_unclassified_party:0 "Caraidean"
 FHI_unclassified_party_long:0 "Caraidean Rheol (Friends of Rheol)"
 
+###Ideas
+FHI_the_oath:0 "The Oath"
+FHI_contested_commission:0 "Contested Arbitration Commission"
+FHI_contested_commission_2:0 "Contested Arbitration Commission"
+
+FHI_aiseirigh_rising:0 "Aiseirigh Rising"
+FHI_aiseirigh_threat:0 "Aiseirigh Threat"
+FHI_imminent_aiseirigh_threat:0 "Imminent Aiseirigh Threat"
+FHI_working_with_aiseirigh:0 "Working With Aiseirigh"
+FHI_aiseirigh_security_forces:0 "Aiseirigh Security Forces"
+FHI_aiseirigh_out_of_control:0 "Aiseirigh Out Of Control"
+
+FHI_secularist_newspapers:0 "Secularist Newspapers"
+FHI_protesting_newspapers:0 "Protesting Newspapers"
+FHI_dissident_newspapers:0 "Dissident Newspapers"
+FHI_working_with_the_secularists:0 "Working With The Secularists"
+FHI_secularist_propaganda:0 "Secularist Propaganda"
+FHI_unchecked_secularist_influence:0 "Unchecked Secularist Influence"
+
+FHI_security_directorate:0 "Security Directorate"
+FHI_security_directorate_controlled:0 "Security Directorate under Control"
+FHI_powerful_security_directorate:0 "All-powerful Security Directorate"
+
 ###Focuses
 
-FHI_reinforce_the_solenrenc_border:0 "Reinforce the Solenrenc Border"
-FHI_close_down_the_security_commission:0 "Close down the Security Commission"
-FHI_the_great_consultation:0 "The Great Consultation"
-FHI_keep_the_faith_united:0 "Keep the Faith United"
 FHI_martial_laws_in_border_regions:0 "Martial Laws in Border Regions"
 FHI_crush_the_asc:0 "Crush the ASC"
 FHI_operation_forliggare:0 "Operation Forliggare"
 FHI_autonomy_for_loyalty:0 "Autonomy for Loyalty"
 FHI_appoint_a_new_governor:0 "Appoint a new Governor"
+FHI_reinforce_the_solenrenc_border:0 "Reinforce the Solenrenc Border"
+
+FHI_the_great_consultation:0 "The Great Consultation"
+
+FHI_keep_the_faith_united:0 "Keep the Faith United"
+FHI_keep_the_faith_united_tt:0 "We will focus on fighting both the Aiseirigh and the Secularist movements without allying with any side."
+FHI_concession_to_the_private_sector:0 "Concession to the Private Sector"
+FHI_award_infrastructure_projects:0 "Award Infrastructure Projects"
+FHI_establish_the_religious_council:0 "Establish the Religious Council"
+FHI_extent_councilors_power:0 "Extent Councilor's Power"
+FHI_close_down_the_security_commission:0 "Close down the Security Commission"
+
 FHI_work_with_the_industrialists:0 "Work with the Industrialists"
 FHI_remove_religious_obligations:0 "Remove Religious Hiring Obligations"
 FHI_media_connections:0 "Media Connections"
 FHI_promote_secular_education:0 "Promote Secular Education"
 FHI_smearing_campaign_against_aiseirigh:0 "Smearing Campaign against Aiseirigh"
+
 FHI_use_aiseirigh:0 "Use the Aiseirigh movement"
-FHI_concession_to_the_private_sector:0 "Concession to the Private Sector"
-FHI_award_infrastructure_projects:0 "Award Infrastructure Projects"
-FHI_establish_the_religious_council:0 "Establish the Religious Council"
-FHI_extent_councilors_power:0 "Extent Councilor's Power"
 FHI_anti_parasite_protests:0 "Anti-Parasite Protests"
 FHI_seize_secular_assets:0 "Seize Secular Assets"
 FHI_underground_education:0 "Underground Education"
 FHI_divine_inspiration:0 "Divine Inspiration"
 FHI_self_defense_militias:0 "Establish the Tèarmannairean Militias"
-FHI_contact_the_security_commission:0 "Contact the Security Commission"
+
+FHI_contact_the_security_commission:0 "Contact the Public Security Directorate"
+FHI_contact_the_security_commission_tt:0 "The §gPublic Security Directorate§! will join our government in a coalition.\n§RCoalition mechanic:§! §YIn a coalition, the party popularities of all parties count towards the party popularity stability bonus§!"
 FHI_establish_an_oversight_committee:0 "Establish an Oversight Committee"
-FHI_arrest_our_enemies:0 "Arrest our Enemies"
+FHI_establish_an_oversight_committee_tt:0 "We will establish an Oversight Committee to make sure the Security Directorate act according to the constitution. §RHowever, this will severely limit its ability to act against extremist movements.§!"
+FHI_peace_preservation_laws:0 "The Peace Preservation Law"
+FHI_peace_preservation_laws_tt:0 "We will draft a new legistlation aimed at fighting the enemies of our state.\n§YDepending on the content of the law, we will be able to choose whether Aiseirigh, the Secularists or both §! §Rare considered terrorists organizations§! §Yor not, to§! §Rprosecute heresy§! §Yor not, and whether the Security Directorate§! §Rrequires arrest warrants§! §Yor not.§!"
+FHI_prosecute_extremism:0 "Prosecute Political Extremism"
 FHI_bring_back_iomarach:0 "Bring back Iomarach"
 FHI_political_immunity_act:0 "Political Immunity Act"
 FHI_purge_aiseirigh:0 "Purge Aiseirigh"
 FHI_neutralise_the_oligarchs:0 "Neutralise the Oligarchs"
-FHI_security_commission:0 "The Peace Preservation Law"
+
+FHI_security_commission:0 "Provisional Public Safety Ordinance"
 FHI_more_than_a_commission:0 "More than a Commission"
 FHI_a_new_secular_state:0 "A New Secular State"
 FHI_the_special_assembly:0 "The Special Assembly"
+
+###Decisions
+FHI_arbitration_commission_contested:0 "Arbitration Commission Contested"
+rise_of_aiseirigh:0 "The Rise of Aiseirigh"
+
+#Country flags
+aiserigh_over:0 "Aiseirigh is no longer a threat"
+fhireanta_initial_over:0 "The political crisis is over"
+
+#Law
+
+law_title:0 "Peace Preservation Act of [GetYear]"
+law_subtitle:0 "The Peace Preservation Act of [GetYear] is hereby enacted to uphold the safety and security of the state and its citizens. This Act shall be implemented through a judicial system that shall ensure the preservation of peace, order, and security of the state and its people."
+section_1_title:0 "Section 1: Definitions"
+section_2_title:0 "Section 2: Prohibited Acts"
+section_3_title:0 "Section 3: Punishments"
+section_4_title:0 "Section 4: Jurisdiction"
+section_5_title:0 "Section 5: Enforcement"
+section_6_title:0 "Section 6: Appeal"
+section_7_title:0 "Section 7: Effectivity"
+
+get_section_1_text:0 "[GetSection1Text]"
+section_1_text:0 "a. \"Terrorist Act\" shall mean any act committed with the intention of causing harm to individuals or property, for the purpose of promoting an ideology, religious belief, or political agenda. §3This definition shall not be used to suppress the political activities of political parties or individuals who engage in peaceful and democratic processes.§!\nb. \"Terrorist Organization\" shall mean any group of persons or entities, whether domestic or foreign, that advocates, plans, or commits terrorist acts.\nc. \"Heresy\" shall mean any act or belief that deviates from the official teachings of the Díleas, the Commonwealth's religion. The Abitration Commission has the sole authority to define whether an act qualifies or not as \"Heresy\""
+section_1_text_alt:0 "a. \"Terrorist Act\" shall mean any act committed with the intention of causing harm to individuals or property, or causing social unrest, for the purpose of promoting an ideology, religious belief, or political agenda.\nb. \"Terrorist Organization\" shall mean any group of persons or entities, whether domestic or foreign, that advocates, plans, or commits terrorist acts, §1or any organization that promotes or supports extremist political ideology§!.\nc. \"Heresy\" shall mean any act or belief that deviates from the official teachings of the Díleas, the Commonwealth's religion. The Abitration Commission has the sole authority to define whether an act qualifies or not as \"Heresy\""
+section_1_text_alt_2:0 "a. \"Terrorist Act\" shall mean any act committed with the intention of causing harm to individuals or property, or causing social unrest, for the purpose of promoting an ideology, religious belief, or political agenda.\nb. \"Terrorist Organization\" shall mean any group of persons or entities, whether domestic or foreign, that advocates, plans, or commits terrorist acts, §gor any organization that promotes or supports social unrest and dissidence against the state.§!\nc. \"Heresy\" shall mean any act or belief that deviates from the official teachings of the Díleas, the Commonwealth's religion. The Abitration Commission has the sole authority to define whether an act qualifies or not as \"Heresy\""
+
+get_section_2_text:0 "[GetSection2Text]"
+section_2_text:0 "a. Any person who commits or attempts to commit a terrorist act shall be liable for the offense of terrorism and shall be punished in accordance with the provisions of this Act.\nb. Any person who knowingly provides support, assistance, or resources to a terrorist organization shall be liable for the offense of supporting terrorism and shall be punished in accordance with the provisions of this Act.\nc. Any person who engages in activities that promote or incite terrorism shall be liable for the offense of inciting terrorism and shall be punished in accordance with the provisions of this Act.\nd. Any person who promotes or practices heresy §1shall be liable for the offense of heresy and shall be punished in accordance with the provisions of this Act.§!"
+section_2_text_alt:0 "a. Any person who commits or attempts to commit a terrorist act shall be liable for the offense of terrorism and shall be punished in accordance with the provisions of this Act.\nb. Any person who knowingly provides support, assistance, or resources to a terrorist organization shall be liable for the offense of supporting terrorism and shall be punished in accordance with the provisions of this Act.\nc. Any person who engages in activities that promote or incite terrorism shall be liable for the offense of inciting terrorism and shall be punished in accordance with the provisions of this Act.\nd. Any person who promotes or practices heresy §3shall not be liable for prosecution, unless it involves harm to individuals or property or incitation of rebellion aganst the Commonwealth.§!"
+
+section_2_effect_tt:0 "[GetSection2Tooltip]\n[!section_2_effect_right_click]"
+section_2_tooltip:0 "Click to make Heresy liable for prosecution"
+section_2_tooltip_alt:0 "Click to make Heresy not liable for prosecution"
+
+get_section_3_text:0 "[GetSection3Text]"
+section_3_text:0 "a. Any person convicted of terrorism shall be punished with imprisonment for a term not less than ten (10) years but not more than thirty (30) years, without the possibility of parole or suspension of sentence.\nb. Any person convicted of supporting terrorism shall be punished with imprisonment for a term not less than five (5) years but not more than ten (10) years, without the possibility of parole or suspension of sentence.\nc. Any person convicted of inciting terrorism shall be punished with imprisonment for a term not less than three (3) years but not more than five (5) years, without the possibility of parole or suspension of sentence."
+section_3_text_alt:0 "a. Any person convicted of terrorism shall be punished with imprisonment for a term not less than ten (10) years but not more than thirty (30) years, without the possibility of parole or suspension of sentence.\nb. Any person convicted of supporting terrorism shall be punished with imprisonment for a term not less than five (5) years but not more than ten (10) years, without the possibility of parole or suspension of sentence.\nc. Any person convicted of inciting terrorism shall be punished with imprisonment for a term not less than three (3) years but not more than five (5) years, without the possibility of parole or suspension of sentence.\nd. §1Any person convicted of heresy shall be punished with imprisonment for a term not less than five (5) years but not more than ten (10) years, without the possibility of parole or suspension of sentence.§!"
+
+get_section_4_text:0 "[GetSection4Text]"
+section_4_text:0 "a. The Security Directorate §gshall have the power to arrest anyone without a mandate and have jurisdiction over all terrorism offenses under this Act.§!\nb. The Arbitration Commission §1shall have jurisdiction over all other offenses under this Act.§!"
+section_4_text_alt:0 "a. The Security Directorate §3shall not have the power to arrest anyone without a mandate from the Commonwealth's highest court.§!\nb. The Arbitration Commission §1shall have exclusive jurisdiction over all offenses under this Act.§!"
+
+section_4_effect_tt:0 "[GetSection4Tooltip]"
+section_4_tooltip:0 "Click to make arrestation possible without an arrest warrant"
+section_4_tooltip_alt:0 "Click to make an arrest warrant required for arrestation"
+
+get_section_5_text:0 "[GetSection5Text]"
+section_5_text:0 "a. The Security Directorate shall have the power §gto arrest and detain any person suspected of committing an offense under this Act.§!\nb. The Security Directorate shall §ghave the power to conduct searches and seizures of any property or material believed to be related to an offense under this Act.§!"
+section_5_text_alt:0 "a. The Security Directorate shall have the power §1to conduct investigations and gather evidence related to an offense under this Act.§!\nb. The Security Directorate shall §1submit their findings and recommendations to the Commonwealth's Arbitration Commission for approval before an arrest warrant can be issued.§!"
+
+section_6_text:0 "a. Any person convicted under this Act shall have the right to appeal to the Commonwealth's Arbitration Commission.\nb. The decision of the Arbitration Commission shall be final and binding."
+section_7_text:0 "a. This Act shall take effect immediately upon approval by the Arbitration Commission.\nb. All previous laws, decrees, or regulations inconsistent with this Act are hereby repealed or modified accordingly."
+
+leader_title_arbiter:0 "The High Arbiter of the Commonwealth,"
+signature_effect_tt:0 "[GetSignatureTooltip]"
+signature_tooltip:0 "Click to sign the Law. Further modifications will not be possible unless you click again. You will be able to close the law screen with 'ESC'"
+signature_tooltip_alt:0 "Click to un-sign the Law. Further modifications will be possible again. You will be not be able to close the law screen with 'ESC' unless you sign the law again"
+law_signed_tt:0 "The Law has been signed. Un-sign it if you want to modify it again"

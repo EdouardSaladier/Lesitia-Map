@@ -1,0 +1,80 @@
+scripted_gui = {
+	law_system_bg = {
+		window_name = "law_system_bg_container"
+		context_type = player_context
+		
+		visible = {
+            has_country_flag = law
+		}
+	}
+	law_system = {
+		window_name = "law_system_container"
+		context_type = player_context
+		
+		visible = {
+            has_country_flag = law
+		}
+		
+		properties = {
+			signature = {
+				image = "[GetSignature]"
+			}
+		}
+		
+		effects = {
+			section_1_effect_click = {
+				section_1_effect = yes
+			}
+			section_2_effect_click = {
+				section_2_effect = yes
+			}
+			section_2_effect_right_click = {
+				section_2_fake_effect = yes
+			}
+			section_3_effect_click = {
+				section_2_effect = yes
+			}
+			section_4_effect_click = {
+				section_4_effect = yes
+			}
+			section_5_effect_click = {
+				section_4_effect = yes
+			}
+			signature_effect_click = {
+				law_sign = yes
+			}
+		}
+		
+		triggers = {
+			section_2_effect_click_enabled = {
+				NOT = {	has_country_flag = law_signed }
+			}
+			section_2_effect_right_click_enabled = {
+				always = no
+			}
+			section_3_effect_click_enabled = {
+				NOT = {	has_country_flag = law_signed }
+			}
+			section_4_effect_click_enabled = {
+				NOT = {	has_country_flag = law_signed }
+			}
+			section_5_effect_click_enabled = {
+				NOT = {	has_country_flag = law_signed }
+			}
+		}
+	}
+	law_system_close = {
+		window_name = "law_system_close_container"
+		context_type = player_context
+		
+		visible = {
+            has_country_flag = law_signed
+		}
+		
+		effects = {
+			law_system_close_button_click = {
+				law_close = yes
+			}
+		}
+	}
+}

@@ -30,7 +30,25 @@
  supremacism_subtype_desc:0 "Supremacism"
 
  unclassified:0 "None"
- unclassified:0 "None"
+ unclassified_noun:0 "None"
  unclassified_subtype_desc:0 "None"
  
  coalition_popularity_dyn_mod:0 "Coalition partners popularity"
+ 
+ coalition_revolutionarism:0 "Is in a coalition with a revolutionary party"
+ coalition_technocracy:0 "Is in a coalition with a technocratic party"
+ coalition_democracy:0 "Is in a coalition with a democratic party"
+ coalition_despotism:0 "Is in a coalition with a despotic party"
+ coalition_theocracy:0 "Is in a coalition with a theocratic party"
+ coalition_corporatism:0 "Is in a coalition with a corporatocraticparty"
+ coalition_supremacism:0 "Is in a coalition with a supremacist party"
+ coalition_unclassified:0 "Is in a coalition with an unclassified party"
+ 
+ revolutionarism_drift:0 "Daily Revolutionarism Support"
+ technocracy_drift:0 "Daily Technocracy Support"
+ democracy_drift:0 "Daily Democracy Support"
+ despotism_drift:0 "Daily Despotism Support"
+ theocracy_drift:0 "Daily Theocracy Support"
+ corporatism_drift:0 "Daily Corporatocratism Support"
+ supremacism_drift:0 "Daily Supremacism Support"
+ unclassified_drift:0 "Daily None Support"

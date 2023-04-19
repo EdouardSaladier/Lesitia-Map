@@ -1,0 +1,157 @@
+purge_aiseirigh = {
+	if = {
+		limit = {
+			has_idea = FHI_aiseirigh_threat
+		}
+		add_stability = -0.2
+	}
+	if = {
+		limit = {
+			has_idea = FHI_imminent_aiseirigh_threat
+		}
+		add_stability = -0.4
+	}
+	if = {
+		limit = {
+			has_idea = FHI_working_with_aiseirigh
+		}
+		add_stability = -0.2
+	}
+	if = {
+		limit = {
+			has_idea = FHI_aiseirigh_security_forces
+		}
+		add_stability = -0.4
+	}
+	if = {
+		limit = {
+			has_idea = FHI_aiseirigh_out_of_control
+		}
+		add_stability = -0.4
+	}
+	set_political_party = {
+		ideology = supremacism
+		popularity = 0
+	}
+	remove_aiseirigh_ideas = yes
+}
+
+remove_aiseirigh_ideas = {
+	if = {
+		limit = {
+			has_idea = FHI_aiseirigh_rising
+		}
+		remove_ideas = FHI_aiseirigh_rising
+	}
+	if = {
+		limit = {
+			has_idea = FHI_aiseirigh_threat
+		}
+		remove_ideas = FHI_aiseirigh_threat
+	}
+	if = {
+		limit = {
+			has_idea = FHI_imminent_aiseirigh_threat
+		}
+		remove_ideas = FHI_imminent_aiseirigh_threat
+	}
+	if = {
+		limit = {
+			has_idea = FHI_working_with_aiseirigh
+		}
+		remove_ideas = FHI_working_with_aiseirigh
+	}
+	if = {
+		limit = {
+			has_idea = FHI_aiseirigh_security_forces
+		}
+		remove_ideas = FHI_aiseirigh_security_forces
+	}
+	if = {
+		limit = {
+			has_idea = FHI_aiseirigh_out_of_control
+		}
+		remove_ideas = FHI_aiseirigh_out_of_control
+	}
+}
+
+purge_secularists = {
+	if = {
+		limit = {
+			has_idea = FHI_protesting_newspapers
+		}
+		add_stability = -0.2
+	}
+	if = {
+		limit = {
+			has_idea = FHI_dissident_newspapers
+		}
+		add_stability = -0.4
+	}
+	if = {
+		limit = {
+			has_idea = FHI_working_with_the_secularists
+		}
+		add_stability = -0.2
+	}
+	if = {
+		limit = {
+			has_idea = FHI_secularist_propaganda
+		}
+		add_stability = -0.4
+	}
+	if = {
+		limit = {
+			has_idea = FHI_unchecked_secularist_influence
+		}
+		add_stability = -0.4
+	}
+	set_political_party = {
+		ideology = democracy
+		popularity = 0
+	}
+	set_political_party = {
+		ideology = corporatism
+		popularity = 0
+	}
+	remove_secular_ideas = yes
+}
+
+remove_secular_ideas = {
+	if = {
+		limit = {
+			has_idea = FHI_secularist_newspapers
+		}
+		remove_ideas = FHI_secularist_newspapers
+	}
+	if = {
+		limit = {
+			has_idea = FHI_protesting_newspapers
+		}
+		remove_ideas = FHI_protesting_newspapers
+	}
+	if = {
+		limit = {
+			has_idea = FHI_dissident_newspapers
+		}
+		remove_ideas = FHI_dissident_newspapers
+	}
+	if = {
+		limit = {
+			has_idea = FHI_working_with_the_secularists
+		}
+		remove_ideas = FHI_working_with_the_secularists
+	}
+	if = {
+		limit = {
+			has_idea = FHI_secularist_propaganda
+		}
+		remove_ideas = FHI_secularist_propaganda
+	}
+	if = {
+		limit = {
+			has_idea = FHI_unchecked_secularist_influence
+		}
+		remove_ideas = FHI_unchecked_secularist_influence
+	}
+}

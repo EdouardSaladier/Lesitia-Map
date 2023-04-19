@@ -60,8 +60,12 @@ set_technology = {
 set_convoys = 20
 
 add_ideas = {
-    
+    FHI_the_oath
+	FHI_contested_commission
+	FHI_aiseirigh_rising
 }
+
+activate_mission = rise_of_aiseirigh
 
 # Starting trucks & trains
 add_equipment_to_stockpile = {
@@ -85,11 +89,11 @@ set_politics = {
 set_popularities = {
 	revolutionarism = 5
 	technocracy = 3
-	democracy = 2
-	despotism = 16
-	theocracy = 44
-	corporatism = 11
-	supremacism = 18
+	democracy = 5
+	despotism = 18
+	theocracy = 58
+	corporatism = 2
+	supremacism = 8
 	unclassified = 1
 }
 

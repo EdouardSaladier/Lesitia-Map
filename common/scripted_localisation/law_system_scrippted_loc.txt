@@ -1,0 +1,195 @@
+defined_text = {
+	name = GetSignature
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = law_signed
+			}
+		}
+		localization_key = "GFX_signature_awaiting"
+	}
+	text = {
+		trigger = {
+			has_country_flag = law_signed
+		}
+		localization_key = "GFX_signature_FHI_labhrann_iomharach"
+	}
+}
+
+defined_text = {
+	name = GetSignatureTooltip
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = law_signed
+			}
+		}
+		localization_key = "signature_tooltip"
+	}
+	text = {
+		trigger = {
+			has_country_flag = law_signed
+		}
+		localization_key = "signature_tooltip_alt"
+	}
+}
+
+defined_text = {
+	name = GetSection1Text
+	text = {
+		trigger = {
+			has_country_flag = anti_terrorism
+			NOT = {
+				has_country_flag = anti_extremism
+			}
+			NOT = {
+				has_country_flag = anti_dissent
+			}
+		}
+		localization_key = "section_1_text"
+	}
+	text = {
+		trigger = {
+			has_country_flag = anti_extremism
+			NOT = {
+				has_country_flag = anti_terrorism
+			}
+			NOT = {
+				has_country_flag = anti_dissent
+			}
+		}
+		localization_key = "section_1_text_alt"
+	}
+	text = {
+		trigger = {
+			has_country_flag = anti_dissent
+			NOT = {
+				has_country_flag = anti_terrorism
+			}
+			NOT = {
+				has_country_flag = anti_extremism
+			}
+		}
+		localization_key = "section_1_text_alt_2"
+	}
+}
+
+defined_text = {
+	name = GetSection2Tooltip
+	text = {
+		trigger = {
+			has_country_flag = heresy_not_prosecuted
+			NOT = {
+				has_country_flag = law_signed
+			}
+		}
+		localization_key = "section_2_tooltip"
+	}
+	text = {
+		trigger = {
+			has_country_flag = heresy_prosecuted
+			NOT = {
+				has_country_flag = law_signed
+			}
+		}
+		localization_key = "section_2_tooltip_alt"
+	}
+	text = {
+		trigger = {
+			has_country_flag = law_signed
+		}
+		localization_key = "law_signed_tt"
+	}
+}
+
+defined_text = {
+	name = GetSection2Text
+	text = {
+		trigger = {
+			has_country_flag = heresy_not_prosecuted
+		}
+		localization_key = "section_2_text_alt"
+	}
+	text = {
+		trigger = {
+			has_country_flag = heresy_prosecuted
+		}
+		localization_key = "section_2_text"
+	}
+}
+
+defined_text = {
+	name = GetSection3Text
+	text = {
+		trigger = {
+			has_country_flag = heresy_not_prosecuted
+		}
+		localization_key = "section_3_text"
+	}
+	text = {
+		trigger = {
+			has_country_flag = heresy_prosecuted
+		}
+		localization_key = "section_3_text_alt"
+	}
+}
+
+defined_text = {
+	name = GetSection4Text
+	text = {
+		trigger = {
+			has_country_flag = mandate_not_required
+		}
+		localization_key = "section_4_text"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mandate_required
+		}
+		localization_key = "section_4_text_alt"
+	}
+}
+
+defined_text = {
+	name = GetSection4Tooltip
+	text = {
+		trigger = {
+			has_country_flag = mandate_required
+			NOT = {
+				has_country_flag = law_signed
+			}
+		}
+		localization_key = "section_4_tooltip"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mandate_not_required
+			NOT = {
+				has_country_flag = law_signed
+			}
+		}
+		localization_key = "section_4_tooltip_alt"
+	}
+	text = {
+		trigger = {
+			has_country_flag = law_signed
+		}
+		localization_key = "law_signed_tt"
+	}
+}
+
+defined_text = {
+	name = GetSection5Text
+	text = {
+		trigger = {
+			has_country_flag = mandate_not_required
+		}
+		localization_key = "section_5_text"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mandate_required
+		}
+		localization_key = "section_5_text_alt"
+	}
+}

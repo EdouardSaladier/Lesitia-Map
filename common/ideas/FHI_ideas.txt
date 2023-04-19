@@ -1,0 +1,306 @@
+ideas = {
+
+	country = {
+		FHI_the_oath = {
+			picture = generic_production_bonus
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.2
+				theocracy_drift = 0.02
+				production_speed_buildings_factor = 0.2
+				industrial_capacity_factory = 0.2
+			}
+		}
+		
+		FHI_contested_commission = {
+			picture = generic_disjointed_gov
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.4
+				political_power_gain = -0.5
+				drift_defence_factor = -1.0
+			}
+		}
+		
+		FHI_contested_commission_2 = {
+			picture = generic_disjointed_gov
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				political_power_gain = -0.25
+				drift_defence_factor = -0.5
+			}
+		}
+		
+		FHI_aiseirigh_rising = {
+			picture = FHI_aiseirigh_rising
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+				supremacism > 0.2
+            }
+
+			on_remove = {
+                if = {
+                    limit = {
+                        NOT = { has_country_flag = aiserigh_over }
+						supremacism > 0.2
+                    }
+					add_ideas = FHI_aiseirigh_threat
+                }
+            }
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				supremacism_drift = 0.08
+			}
+		}
+		
+		FHI_aiseirigh_threat = {
+			picture = FHI_aiseirigh_threat
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+				OR = {
+					supremacism < 0.2
+					supremacism > 0.4
+				}
+            }
+
+			on_remove = {
+                if = {
+                    limit = {
+                        NOT = { has_country_flag = aiserigh_over }
+						supremacism > 0.4
+                    }
+					add_ideas = FHI_imminent_aiseirigh_threat
+                }
+				else_if = {
+                    limit = {
+                        NOT = { has_country_flag = aiserigh_over }
+						supremacism < 0.2
+                    }
+					add_ideas = FHI_aiseirigh_rising
+                }
+            }
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				supremacism_drift = 0.08
+				stability_factor = -0.2
+			}
+		}
+		
+		FHI_imminent_aiseirigh_threat = {
+			picture = FHI_imminent_aiseirigh_threat
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+				supremacism < 0.5
+            }
+
+			on_remove = {
+                if = {
+                    limit = {
+                        NOT = { has_country_flag = aiserigh_over }
+						supremacism < 0.5
+                    }
+					add_ideas = FHI_aiseirigh_threat
+                }
+            }
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				supremacism_drift = 0.08
+				stability_factor = -0.4
+			}
+		}
+		
+		FHI_capital_flight = {
+			picture = usa_great_depression
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.4
+				political_power_gain = -0.5
+				consumer_goods_factor = 0.2
+				production_speed_buildings_factor = -0.5
+				industrial_capacity_factory = -0.5
+			}
+		}
+		
+		FHI_security_directorate = {
+			picture = FHI_security_commission
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				despotism_drift = 0.04
+				drift_defence_factor = 0.5
+			}
+		}
+		
+		FHI_security_directorate_controlled = {
+			picture = FHI_security_commission_controlled
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				drift_defence_factor = 0.5
+			}
+		}
+		
+		FHI_powerful_security_directorate = {
+			picture = FHI_powerful_security_commission
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				despotism_drift = 0.08
+				drift_defence_factor = 1.0
+			}
+		}
+	}
+}
