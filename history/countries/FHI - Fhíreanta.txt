@@ -65,7 +65,7 @@ add_ideas = {
 	FHI_aiseirigh_rising
 }
 
-activate_mission = rise_of_aiseirigh
+activate_mission = FHI_rise_of_aiseirigh
 
 # Starting trucks & trains
 add_equipment_to_stockpile = {

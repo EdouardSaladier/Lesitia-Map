@@ -29,11 +29,27 @@ purge_aiseirigh = {
 		}
 		add_stability = -0.4
 	}
+	set_country_flag = aiseirigh_over
 	set_political_party = {
 		ideology = supremacism
 		popularity = 0
 	}
-	remove_aiseirigh_ideas = yes
+	hidden_effect = {
+		remove_aiseirigh_ideas = yes
+		remove_aiseirigh_ideas = yes
+	}
+}
+
+close_down_aiseirigh = {
+	set_country_flag = aiseirigh_over
+	set_political_party = {
+		ideology = supremacism
+		popularity = 0
+	}
+	hidden_effect = {
+		remove_aiseirigh_ideas = yes
+		remove_aiseirigh_ideas = yes
+	}
 }
 
 remove_aiseirigh_ideas = {
@@ -106,6 +122,7 @@ purge_secularists = {
 		}
 		add_stability = -0.4
 	}
+	set_country_flag = secularists_over
 	set_political_party = {
 		ideology = democracy
 		popularity = 0
@@ -114,7 +131,26 @@ purge_secularists = {
 		ideology = corporatism
 		popularity = 0
 	}
-	remove_secular_ideas = yes
+	hidden_effect = {
+		remove_secular_ideas = yes
+		remove_secular_ideas = yes
+	}
+}
+
+close_down_secularists = {
+	set_country_flag = secularists_over
+	set_political_party = {
+		ideology = democracy
+		popularity = 0
+	}
+	set_political_party = {
+		ideology = corporatism
+		popularity = 0
+	}
+	hidden_effect = {
+		remove_secular_ideas = yes
+		remove_secular_ideas = yes
+	}
 }
 
 remove_secular_ideas = {

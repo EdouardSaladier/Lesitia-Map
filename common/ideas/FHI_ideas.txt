@@ -23,7 +23,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.05
 				stability_factor = 0.2
-				theocracy_drift = 0.02
+				theocracy_drift = 0.04
 				production_speed_buildings_factor = 0.2
 				industrial_capacity_factory = 0.2
 			}
@@ -198,6 +198,114 @@ ideas = {
 			}
 		}
 		
+		FHI_working_with_aiseirigh = {
+			picture = FHI_working_with_aiseirigh
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+				supremacism > 0.5
+            }
+
+			on_remove = {
+                if = {
+                    limit = {
+                        NOT = { has_country_flag = aiserigh_over }
+						supremacism > 0.5
+                    }
+					add_ideas = FHI_aiseirigh_out_of_control
+                }
+            }
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				supremacism_drift = 0.08
+			}
+		}
+		
+		FHI_aiseirigh_security_forces = {
+			picture = FHI_aiseirigh_security_forces
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+				supremacism > 0.5
+            }
+
+			on_remove = {
+                if = {
+                    limit = {
+                        NOT = { has_country_flag = aiserigh_over }
+						supremacism > 0.5
+                    }
+					add_ideas = FHI_aiseirigh_out_of_control
+                }
+            }
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				supremacism_drift = 0.08
+				democracy_drift = -0.02
+				corporatism_drift = -0.02
+			}
+		}
+		
+		FHI_aiseirigh_out_of_control = {
+			picture = FHI_aiseirigh_out_of_control
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+				supremacism < 0.5
+            }
+
+			on_remove = {
+                if = {
+                    limit = {
+                        NOT = { has_country_flag = aiserigh_over }
+						supremacism < 0.5
+                    }
+					add_ideas = FHI_working_with_aiseirigh
+                }
+            }
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				supremacism_drift = 0.08
+				stability_factor = -0.4
+			}
+		}
+		
 		FHI_capital_flight = {
 			picture = usa_great_depression
 			
@@ -300,6 +408,31 @@ ideas = {
 				stability_factor = 0.05
 				despotism_drift = 0.08
 				drift_defence_factor = 1.0
+			}
+		}
+		
+		FHI_righteous_militias = {
+			picture = FHI_righteous_militias
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				theocracy_drift = 0.16
 			}
 		}
 	}

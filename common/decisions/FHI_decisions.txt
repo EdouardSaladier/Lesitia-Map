@@ -1,6 +1,6 @@
 FHI_arbitration_commission_contested = {
 
-	rise_of_aiseirigh = {
+	FHI_rise_of_aiseirigh = {
 	
 		allowed = { always = no }
 		
@@ -10,7 +10,7 @@ FHI_arbitration_commission_contested = {
 		
 		cancel_trigger = {
 			OR = {
-				has_country_flag = aiserigh_over
+				has_country_flag = aiseirigh_over
 				has_country_flag = fhireanta_initial_over
 			}
 		}
@@ -26,13 +26,13 @@ FHI_arbitration_commission_contested = {
 				popularity = 0.04
 			}
 			hidden_effect = {
-				activate_mission = rise_of_aiseirigh
+				activate_mission = FHI_rise_of_aiseirigh
 				if = {
                     limit = {
                         has_country_flag = coalition_supremacism
                     }
 					add_days_remove = {
-						decision = rise_of_aiseirigh
+						decision = FHI_rise_of_aiseirigh
 						days = -40
 					}
                 }
@@ -41,7 +41,7 @@ FHI_arbitration_commission_contested = {
                         has_completed_focus = FHI_keep_the_faith_united
                     }
 					add_days_remove = {
-						decision = rise_of_aiseirigh
+						decision = FHI_rise_of_aiseirigh
 						days = 40
 					}
                 }
@@ -50,7 +50,7 @@ FHI_arbitration_commission_contested = {
                         has_completed_focus = FHI_bring_back_iomarach
                     }
 					add_days_remove = {
-						decision = rise_of_aiseirigh
+						decision = FHI_rise_of_aiseirigh
 						days = 40
 					}
                 }
@@ -58,7 +58,7 @@ FHI_arbitration_commission_contested = {
 		}
 	}
 	
-	dileas_criticism = {
+	FHI_dileas_criticism = {
 	
 		allowed = { always = no }
 		
@@ -85,7 +85,7 @@ FHI_arbitration_commission_contested = {
 		}
 	}
 	
-	industrialists_criticism = {
+	FHI_industrialists_criticism = {
 	
 		allowed = { always = no }
 		
@@ -117,19 +117,49 @@ FHI_arbitration_commission_contested = {
 
 FHI_police_decisions = {
 
-	give_prosecution_mandates_against_aiseirigh = {
-	
-		allowed = { always = yes }
-	
+	FHI_prosecute_heresy = {
+		
+		available = {
+			has_country_flag = heresy_prosecuted
+		}
+		
+		days_remove = 70
+		days_re_enable = 30
+		
+		cost = 25
+		
+		modifier = {
+			democracy_drift = -0.09
+			corporatism_drift = -0.09
+		}
+		
+		complete_effect = {
+			add_stability = -0.05
+		}
+	}
+
+	FHI_give_prosecution_mandates_against_aiseirigh = {
+		
 		visible = {
-			always = yes
+			NOT = {
+				has_country_flag = aiseirigh_over
+			}
 		}
 		
 		available = {
 			has_country_flag = mandate_required
+			OR = {
+				AND = {
+					has_country_flag = anti_terrorism
+					has_country_flag = aiseirigh_terrorist
+				}
+				has_country_flag = anti_extremism
+				has_country_flag = anti_dissent
+			}
 		}
 		
 		days_remove = 70
+		days_re_enable = 30
 		
 		cost = 25
 		
@@ -142,12 +172,12 @@ FHI_police_decisions = {
 		}
 	}
 	
-	order_mass_arrestations_against_aiseirigh = {
-	
-		allowed = { always = yes }
-	
+	FHI_order_mass_arrestations_against_aiseirigh = {
+		
 		visible = {
-			always = yes
+			NOT = {
+				has_country_flag = aiseirigh_over
+			}
 		}
 		
 		available = {
@@ -155,16 +185,241 @@ FHI_police_decisions = {
 		}
 		
 		days_remove = 70
+		days_re_enable = 30
 		
 		cost = 50
 		
 		modifier = {
 			supremacism_drift = -0.28
-			stability_weekly = 0.02
+			stability_weekly = 0.01
 		}
 		
 		complete_effect = {
-			add_stability = -0.2
+			custom_effect_tooltip = FHI_order_mass_arrestations_against_aiseirigh_tt
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							AND = {
+								has_country_flag = anti_terrorism
+								has_country_flag = aiseirigh_terrorist
+							}
+							has_country_flag = anti_extremism
+							has_country_flag = anti_dissent
+						}
+					}
+				}
+				add_stability = -0.1
+			}
+		}
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.06
+			}
+		}
+	}
+	
+	FHI_secret_operations_against_aiseirigh = {
+		
+		visible = {
+			NOT = {
+				has_country_flag = aiseirigh_over
+			}
+		}
+		
+		available = {
+			has_completed_focus = FHI_political_immunity_act
+		}
+		
+		days_remove = 70
+		days_re_enable = 30
+		
+		cost = 25
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = supremacism
+				popularity = -0.08
+			}
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.04
+			}
+		}
+	}
+	
+	FHI_close_down_aiseirigh = {
+		
+		visible = {
+			has_completed_focus = FHI_establish_an_oversight_committee
+			NOT = {
+				has_country_flag = aiseirigh_over
+			}
+		}
+		
+		available = {
+			has_completed_focus = FHI_prosecute_extremism
+			OR = {
+				has_country_flag = mandate_not_required
+				AND = {
+					has_country_flag = mandate_required
+					OR = {
+						AND = {
+							has_country_flag = anti_terrorism
+							has_country_flag = aiseirigh_terrorist
+						}
+						has_country_flag = anti_extremism
+						has_country_flag = anti_dissent
+					}
+				}
+			}
+			supremacism < 0.2
+		}
+		
+		fire_only_once = yes
+		
+		cost = 100
+		
+		complete_effect = {
+			close_down_aiseirigh = yes
+		}
+	}
+	
+	FHI_give_prosecution_mandates_against_secularists = {
+		
+		visible = {
+			NOT = {
+				has_country_flag = secularists_over
+			}
+		}
+		
+		available = {
+			has_country_flag = mandate_required
+			has_country_flag = anti_dissent
+		}
+		
+		days_remove = 70
+		days_re_enable = 30
+		
+		cost = 25
+		
+		modifier = {
+			democracy_drift = -0.09
+			corporatism_drift = -0.09
+			stability_weekly = 0.005
+		}
+		
+		complete_effect = {
+			add_stability = -0.05
+		}
+	}
+	
+	FHI_order_mass_arrestations_against_secularists = {
+		
+		visible = {
+			NOT = {
+				has_country_flag = secularists_over
+			}
+		}
+		
+		available = {
+			has_country_flag = mandate_not_required
+		}
+		
+		days_remove = 70
+		days_re_enable = 30
+		
+		cost = 50
+		
+		modifier = {
+			democracy_drift = -0.14
+			corporatism_drift = -0.14
+			stability_weekly = 0.01
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = FHI_order_mass_arrestations_against_secularists_tt
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = anti_dissent
+					}
+				}
+				add_stability = -0.1
+			}
+		}
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.06
+			}
+		}
+	}
+	
+	FHI_secret_operations_against_secularists = {
+		
+		visible = {
+			NOT = {
+				has_country_flag = secularists_over
+			}
+		}
+		
+		available = {
+			has_completed_focus = FHI_political_immunity_act
+		}
+		
+		days_remove = 70
+		days_re_enable = 30
+		
+		cost = 25
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = democracy
+				popularity = -0.04
+			}
+			add_popularity = {
+				ideology = corporatism
+				popularity = -0.04
+			}
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.04
+			}
+		}
+	}
+	
+	FHI_close_down_secularists = {
+		
+		visible = {
+			has_completed_focus = FHI_establish_an_oversight_committee
+			NOT = {
+				has_country_flag = secularists_over
+			}
+		}
+		
+		available = {
+			has_completed_focus = FHI_prosecute_extremism
+			OR = {
+				has_country_flag = mandate_not_required
+				AND = {
+					has_country_flag = mandate_required
+					has_country_flag = anti_dissent
+				}
+			}
+			democracy < 0.2
+			corporatism < 0.2
+		}
+		
+		fire_only_once = yes
+		
+		cost = 100
+		
+		complete_effect = {
+			close_down_secularists = yes
 		}
 	}
 	

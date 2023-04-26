@@ -171,6 +171,9 @@ focus_tree = {
 		id = FHI_keep_the_faith_united
 		icon = GFX_goal_generic_defence
 		cost = 10
+		prerequisite = {
+			focus = FHI_the_great_consultation
+		}
 		mutually_exclusive = {
 			focus = FHI_work_with_the_industrialists
 			focus = FHI_use_aiseirigh
@@ -363,6 +366,10 @@ focus_tree = {
 				remove_idea = FHI_security_directorate
 				add_idea = FHI_security_directorate_controlled
 			}
+			add_popularity = {
+				ideology = despotism
+				popularity = -0.06
+			}
 		}
 	}
 	
@@ -380,7 +387,24 @@ focus_tree = {
 		
 		completion_reward = {
 			custom_effect_tooltip = FHI_peace_preservation_laws_tt
+			add_political_power = 100
 			law_init = yes
+		}
+	}
+	
+	focus = {
+		id = FHI_establish_the_righteous_militia
+		icon = GFX_focus_generic_self_management
+		cost = 10
+		prerequisite = {
+			focus = FHI_peace_preservation_laws
+		}
+		x = 0
+		y = 1
+		relative_position_id = FHI_peace_preservation_laws
+		
+		completion_reward = {
+			add_ideas = FHI_righteous_militias
 		}
 	}
 	
@@ -394,6 +418,9 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = FHI_establish_an_oversight_committee
+		completion_reward = {
+			close_down_aiseirigh = yes
+		}
 	}
 	
 	focus = {
@@ -409,6 +436,17 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = FHI_contact_the_security_commission
+		completion_reward = {
+			custom_effect_tooltip = FHI_bring_back_iomarach_tt
+			swap_ideas = {
+				remove_idea = FHI_security_directorate
+				add_idea = FHI_security_directorate_controlled
+			}
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.06
+			}
+		}
 	}
 	
 	focus = {
@@ -421,6 +459,13 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = FHI_bring_back_iomarach
+		completion_reward = {
+			custom_effect_tooltip = FHI_bring_back_iomarach_tt
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.1
+			}
+		}
 	}
 	
 	focus = {

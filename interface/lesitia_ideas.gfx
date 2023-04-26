@@ -216,4 +216,8 @@ spriteTypes = {
 		name = "GFX_idea_FHI_powerful_security_commission"
 		texturefile = "gfx/interface/ideas/FHI_powerful_security_commission.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_FHI_righteous_militias"
+		texturefile = "gfx/interface/ideas/FHI_righteous_militias.dds"
+	}
 }
