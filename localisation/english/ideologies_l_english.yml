@@ -35,14 +35,14 @@
  
  coalition_popularity_dyn_mod:0 "Coalition partners popularity"
  
- coalition_revolutionarism:0 "Is in a coalition with a revolutionary party"
- coalition_technocracy:0 "Is in a coalition with a technocratic party"
- coalition_democracy:0 "Is in a coalition with a democratic party"
- coalition_despotism:0 "Is in a coalition with a despotic party"
- coalition_theocracy:0 "Is in a coalition with a theocratic party"
- coalition_corporatism:0 "Is in a coalition with a corporatocraticparty"
- coalition_supremacism:0 "Is in a coalition with a supremacist party"
- coalition_unclassified:0 "Is in a coalition with an unclassified party"
+ coalition_revolutionarism:0 "Is in a §Gcoalition§! with a revolutionary party"
+ coalition_technocracy:0 "Is in a §Gcoalition§! with a technocratic party"
+ coalition_democracy:0 "Is in a §Gcoalition§! with a democratic party"
+ coalition_despotism:0 "Is in a §Gcoalition§! with a despotic party"
+ coalition_theocracy:0 "Is in a §Gcoalition§! with a theocratic party"
+ coalition_corporatism:0 "Is in a §Gcoalition§! with a corporatocratic party"
+ coalition_supremacism:0 "Is in a §Gcoalition§! with a supremacist party"
+ coalition_unclassified:0 "Is in a §Gcoalition§! with an unclassified party"
  
  revolutionarism_drift:0 "Daily Revolutionarism Support"
  technocracy_drift:0 "Daily Technocracy Support"

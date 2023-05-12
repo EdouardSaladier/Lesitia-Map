@@ -10,6 +10,16 @@ country_event = {
 	desc = lesitia_units.1.d
 	
 	is_triggered_only = yes
+	
+	option = {
+		name = lesitia_units.1.a
+		set_country_flag = high_velocity_doctrine
+		set_technology = {
+			swift_strike = 1
+			popup = no
+		}
+		load_initial_units_effect = yes
+	}
 
 	option = {
 		name = lesitia_units.1.b

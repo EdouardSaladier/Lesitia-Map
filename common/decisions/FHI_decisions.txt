@@ -121,6 +121,10 @@ FHI_police_decisions = {
 		
 		available = {
 			has_country_flag = heresy_prosecuted
+			NOT = {
+				has_country_flag = coalition_democracy
+				has_country_flag = coalition_corporatism
+			}
 		}
 		
 		days_remove = 70
@@ -135,6 +139,10 @@ FHI_police_decisions = {
 		
 		complete_effect = {
 			add_stability = -0.05
+		}
+		
+		remove_effect = {
+			add_stability = 0.05
 		}
 	}
 
@@ -155,6 +163,9 @@ FHI_police_decisions = {
 				}
 				has_country_flag = anti_extremism
 				has_country_flag = anti_dissent
+			}
+			NOT = {
+				has_country_flag = coalition_supremacism
 			}
 		}
 		
@@ -177,11 +188,15 @@ FHI_police_decisions = {
 		visible = {
 			NOT = {
 				has_country_flag = aiseirigh_over
+				has_country_flag = coalition_supremacism
 			}
 		}
 		
 		available = {
 			has_country_flag = mandate_not_required
+			NOT = {
+				has_country_flag = coalition_supremacism
+			}
 		}
 		
 		days_remove = 70
@@ -261,6 +276,9 @@ FHI_police_decisions = {
 		
 		available = {
 			has_completed_focus = FHI_prosecute_extremism
+			NOT = {
+				has_country_flag = coalition_supremacism
+			}
 			OR = {
 				has_country_flag = mandate_not_required
 				AND = {
@@ -284,6 +302,7 @@ FHI_police_decisions = {
 		
 		complete_effect = {
 			close_down_aiseirigh = yes
+			FHI_improve_govt_unity = yes
 		}
 	}
 	
@@ -298,6 +317,10 @@ FHI_police_decisions = {
 		available = {
 			has_country_flag = mandate_required
 			has_country_flag = anti_dissent
+			NOT = {
+				has_country_flag = coalition_democracy
+				has_country_flag = coalition_corporatism
+			}
 		}
 		
 		days_remove = 70
@@ -326,6 +349,10 @@ FHI_police_decisions = {
 		
 		available = {
 			has_country_flag = mandate_not_required
+			NOT = {
+				has_country_flag = coalition_democracy
+				has_country_flag = coalition_corporatism
+			}
 		}
 		
 		days_remove = 70
@@ -403,6 +430,10 @@ FHI_police_decisions = {
 		
 		available = {
 			has_completed_focus = FHI_prosecute_extremism
+			NOT = {
+				has_country_flag = coalition_democracy
+				has_country_flag = coalition_corporatism
+			}
 			OR = {
 				has_country_flag = mandate_not_required
 				AND = {
@@ -420,6 +451,7 @@ FHI_police_decisions = {
 		
 		complete_effect = {
 			close_down_secularists = yes
+			FHI_improve_govt_unity = yes
 		}
 	}
 	

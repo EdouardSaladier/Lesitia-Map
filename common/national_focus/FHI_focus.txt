@@ -14,7 +14,7 @@ focus_tree = {
 	focus = {
 		id = FHI_reinforce_the_solenrenc_border
 		icon = GFX_focus_generic_provoke_border_clashes
-		cost = 10
+		cost = 5
 		x = 3
 		y = 0
 	}
@@ -22,7 +22,7 @@ focus_tree = {
 	focus = {
 		id = FHI_martial_laws_in_border_regions
 		icon = GFX_focus_generic_military_dictatorship
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_reinforce_the_solenrenc_border
 		}
@@ -37,7 +37,7 @@ focus_tree = {
 	focus = {
 		id = FHI_crush_the_asc
 		icon = GFX_goal_generic_more_territorial_claims
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_martial_laws_in_border_regions
 		}
@@ -49,7 +49,7 @@ focus_tree = {
 	focus = {
 		id = FHI_operation_forliggare
 		icon = GFX_goal_generic_dangerous_deal
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_martial_laws_in_border_regions
 		}
@@ -61,7 +61,7 @@ focus_tree = {
 	focus = {
 		id = FHI_autonomy_for_loyalty
 		icon = GFX_goal_molotov_ribbentrop_pact
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_reinforce_the_solenrenc_border
 		}
@@ -76,7 +76,7 @@ focus_tree = {
 	focus = {
 		id = FHI_appoint_a_new_governor
 		icon = GFX_focus_generic_military_mission
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_autonomy_for_loyalty
 		}
@@ -90,7 +90,7 @@ focus_tree = {
 	focus = {
 		id = FHI_the_great_consultation
 		icon = GFX_goal_generic_national_unity
-		cost = 10
+		cost = 5
 		x = 15
 		y = 0
 
@@ -101,7 +101,7 @@ focus_tree = {
 	focus = {
 		id = FHI_work_with_the_industrialists
 		icon = GFX_goal_generic_intelligence_exchange
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_the_great_consultation
 		}
@@ -117,7 +117,7 @@ focus_tree = {
 	focus = {
 		id = FHI_remove_religious_obligations
 		icon = GFX_focus_renounce_the_treaty_of_trianon
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_work_with_the_industrialists
 		}
@@ -129,7 +129,7 @@ focus_tree = {
 	focus = {
 		id = FHI_media_connections
 		icon = GFX_goal_generic_propaganda
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_work_with_the_industrialists
 		}
@@ -141,7 +141,7 @@ focus_tree = {
 	focus = {
 		id = FHI_promote_secular_education
 		icon = GFX_focus_mex_triumph_over_the_cristeros
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_remove_religious_obligations
 		}
@@ -156,7 +156,7 @@ focus_tree = {
 	focus = {
 		id = FHI_smearing_campaign_against_aiseirigh
 		icon = GFX_focus_generic_anti_fascist_diplomacy
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_media_connections
 		}
@@ -170,7 +170,7 @@ focus_tree = {
 	focus = {
 		id = FHI_keep_the_faith_united
 		icon = GFX_goal_generic_defence
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_the_great_consultation
 		}
@@ -190,7 +190,7 @@ focus_tree = {
 	focus = {
 		id = FHI_concession_to_the_private_sector
 		icon = GFX_focus_generic_concessions
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_work_with_the_industrialists
 			focus = FHI_keep_the_faith_united
@@ -204,7 +204,7 @@ focus_tree = {
 	focus = {
 		id = FHI_award_infrastructure_projects
 		icon = GFX_focus_POL_warsaw_main_station
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_concession_to_the_private_sector
 		}
@@ -216,7 +216,7 @@ focus_tree = {
 	focus = {
 		id = FHI_establish_the_religious_council
 		icon = GFX_focus_generic_treaty
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_keep_the_faith_united
 			focus = FHI_use_aiseirigh
@@ -230,7 +230,7 @@ focus_tree = {
 	focus = {
 		id = FHI_extent_councilors_power
 		icon = GFX_focus_generic_self_management
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_establish_the_religious_council
 		}
@@ -242,7 +242,18 @@ focus_tree = {
 	focus = {
 		id = FHI_close_down_the_security_commission
 		icon = GFX_focus_LAT_suspend_constitution_of_latvia
-		cost = 10
+		cost = 5
+		available = {
+			OR = {
+				has_country_flag = coalition_supremacism
+				has_country_flag = aiseirigh_over
+			}
+			OR = {
+				has_country_flag = coalition_democracy
+				has_country_flag = coalition_corporatism
+				has_country_flag = secularists_over
+			}
+		}
 		x = 0
 		y = 2
 		relative_position_id = FHI_keep_the_faith_united
@@ -253,7 +264,7 @@ focus_tree = {
 	focus = {
 		id = FHI_use_aiseirigh
 		icon = GFX_focus_generic_little_entente
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_the_great_consultation
 		}
@@ -264,12 +275,17 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = FHI_the_great_consultation
+		completion_reward = {
+			custom_effect_tooltip = FHI_use_aiseirigh_tt
+			set_country_flag = coalition_supremacism
+			work_with_aiseirigh = yes
+		}
 	}
 	
 	focus = {
 		id = FHI_anti_parasite_protests
 		icon = GFX_focus_spr_class_war
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_use_aiseirigh
 		}
@@ -281,7 +297,7 @@ focus_tree = {
 	focus = {
 		id = FHI_seize_secular_assets
 		icon = GFX_focus_generic_annex_country
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_anti_parasite_protests
 		}
@@ -293,7 +309,7 @@ focus_tree = {
 	focus = {
 		id = FHI_underground_education
 		icon = GFX_focus_generic_military_academy
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_use_aiseirigh
 		}
@@ -305,7 +321,7 @@ focus_tree = {
 	focus = {
 		id = FHI_self_defense_militias
 		icon = GFX_focus_secret_rearmament
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_underground_education
 		}
@@ -317,7 +333,7 @@ focus_tree = {
 	focus = {
 		id = FHI_divine_inspiration
 		icon = GFX_goal_generic_major_war
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_underground_education
 		}
@@ -331,7 +347,7 @@ focus_tree = {
 	focus = {
 		id = FHI_contact_the_security_commission
 		icon = GFX_focus_usa_build_the_pentagon
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_the_great_consultation
 		}
@@ -340,16 +356,16 @@ focus_tree = {
 		relative_position_id = FHI_the_great_consultation
 		
 		completion_reward = {
-			custom_effect_tooltip = FHI_contact_the_security_commission_tt
 			set_country_flag = coalition_despotism
 			add_ideas = FHI_security_directorate
+			custom_effect_tooltip = FHI_contact_the_security_commission_tt
 		}
 	}
 	
 	focus = {
 		id = FHI_establish_an_oversight_committee
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_contact_the_security_commission
 		}
@@ -361,7 +377,6 @@ focus_tree = {
 		relative_position_id = FHI_contact_the_security_commission
 		
 		completion_reward = {
-			custom_effect_tooltip = FHI_establish_an_oversight_committee_tt
 			swap_ideas = {
 				remove_idea = FHI_security_directorate
 				add_idea = FHI_security_directorate_controlled
@@ -370,13 +385,14 @@ focus_tree = {
 				ideology = despotism
 				popularity = -0.06
 			}
+			custom_effect_tooltip = FHI_establish_an_oversight_committee_tt
 		}
 	}
 	
 	focus = {
 		id = FHI_peace_preservation_laws
 		icon = GFX_focus_generic_self_management
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_establish_an_oversight_committee
 			focus = FHI_bring_back_iomarach
@@ -386,18 +402,21 @@ focus_tree = {
 		relative_position_id = FHI_establish_an_oversight_committee
 		
 		completion_reward = {
-			custom_effect_tooltip = FHI_peace_preservation_laws_tt
 			add_political_power = 100
 			law_init = yes
+			custom_effect_tooltip = FHI_peace_preservation_laws_tt
 		}
 	}
 	
 	focus = {
 		id = FHI_establish_the_righteous_militia
 		icon = GFX_focus_generic_self_management
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_peace_preservation_laws
+		}
+		available = {
+			has_country_flag = heresy_prosecuted
 		}
 		x = 0
 		y = 1
@@ -405,28 +424,34 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = FHI_righteous_militias
+			custom_effect_tooltip = FHI_establish_the_righteous_militia_tt
 		}
 	}
 	
 	focus = {
 		id = FHI_prosecute_extremism
 		icon = GFX_focus_generic_court
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_establish_an_oversight_committee
+		}
+		available = {
+			has_completed_focus = FHI_peace_preservation_laws
 		}
 		x = 0
 		y = 2
 		relative_position_id = FHI_establish_an_oversight_committee
 		completion_reward = {
-			close_down_aiseirigh = yes
+			custom_effect_tooltip = FHI_prosecute_extremism_tt
+			unlock_decision_tooltip = FHI_close_down_aiseirigh
+			unlock_decision_tooltip = FHI_close_down_secularists
 		}
 	}
 	
 	focus = {
 		id = FHI_bring_back_iomarach
 		icon = GFX_focus_generic_military_mission
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_contact_the_security_commission
 		}
@@ -437,65 +462,91 @@ focus_tree = {
 		y = 1
 		relative_position_id = FHI_contact_the_security_commission
 		completion_reward = {
-			custom_effect_tooltip = FHI_bring_back_iomarach_tt
 			swap_ideas = {
 				remove_idea = FHI_security_directorate
-				add_idea = FHI_security_directorate_controlled
+				add_idea = FHI_powerful_security_directorate
 			}
 			add_popularity = {
 				ideology = despotism
 				popularity = 0.06
 			}
+			custom_effect_tooltip = FHI_bring_back_iomarach_tt
 		}
 	}
 	
 	focus = {
 		id = FHI_political_immunity_act
 		icon = GFX_goal_generic_forceful_treaty
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_bring_back_iomarach
+		}
+		available = {
+			despotism > 0.15
 		}
 		x = 0
 		y = 1
 		relative_position_id = FHI_bring_back_iomarach
 		completion_reward = {
-			custom_effect_tooltip = FHI_bring_back_iomarach_tt
 			add_popularity = {
 				ideology = despotism
 				popularity = 0.1
 			}
+			custom_effect_tooltip = FHI_political_immunity_act_tt
 		}
 	}
 	
 	focus = {
 		id = FHI_purge_aiseirigh
 		icon = GFX_focus_focus_fra_fascist_threat
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_political_immunity_act
+		}
+		available = {
+			despotism > 0.3
+			NOT = {
+				has_country_flag = coalition_supremacism
+			}
 		}
 		x = -1
 		y = 1
 		relative_position_id = FHI_political_immunity_act
+		completion_reward = {
+			purge_aiseirigh = yes
+			FHI_improve_govt_unity = yes
+			custom_effect_tooltip = FHI_purge_aiseirigh_tt
+		}
 	}
 	
 	focus = {
 		id = FHI_neutralise_the_oligarchs
 		icon = GFX_focus_rom_parties_end
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_political_immunity_act
+		}
+		available = {
+			despotism > 0.3
+			NOT = {
+				has_country_flag = coalition_democracy
+				has_country_flag = coalition_corporatism
+			}
 		}
 		x = 1
 		y = 1
 		relative_position_id = FHI_political_immunity_act
+		completion_reward = {
+			purge_secularists = yes
+			FHI_improve_govt_unity = yes
+			custom_effect_tooltip = FHI_neutralise_the_oligarchs_tt
+		}
 	}
 	
 	focus = {
 		id = FHI_security_commission
 		icon = GFX_focus_eng_move_to_secure_the_dominions
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_purge_aiseirigh
 			focus = FHI_neutralise_the_oligarchs
@@ -510,7 +561,7 @@ focus_tree = {
 	focus = {
 		id = FHI_more_than_a_commission
 		icon = GFX_goal_generic_demand_territory
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_promote_secular_education
 			focus = FHI_smearing_campaign_against_aiseirigh
@@ -527,7 +578,7 @@ focus_tree = {
 	focus = {
 		id = FHI_a_new_secular_state
 		icon = GFX_focus_generic_the_giant_wakes
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_promote_secular_education
 		}
@@ -538,7 +589,7 @@ focus_tree = {
 	focus = {
 		id = FHI_the_special_assembly
 		icon = GFX_focus_generic_fascist_troops
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = FHI_divine_inspiration
 		}

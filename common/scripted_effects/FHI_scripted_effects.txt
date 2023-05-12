@@ -34,10 +34,7 @@ purge_aiseirigh = {
 		ideology = supremacism
 		popularity = 0
 	}
-	hidden_effect = {
-		remove_aiseirigh_ideas = yes
-		remove_aiseirigh_ideas = yes
-	}
+	remove_aiseirigh_ideas = yes
 }
 
 close_down_aiseirigh = {
@@ -46,9 +43,36 @@ close_down_aiseirigh = {
 		ideology = supremacism
 		popularity = 0
 	}
-	hidden_effect = {
-		remove_aiseirigh_ideas = yes
-		remove_aiseirigh_ideas = yes
+	remove_aiseirigh_ideas = yes
+}
+
+work_with_aiseirigh = {
+	if = {
+		limit = {
+			has_idea = FHI_aiseirigh_rising
+		}
+		swap_ideas = {
+			remove_idea = FHI_aiseirigh_rising
+			add_idea = FHI_working_with_aiseirigh
+		}
+	}
+	if = {
+		limit = {
+			has_idea = FHI_aiseirigh_threat
+		}
+		swap_ideas = {
+			remove_idea = FHI_aiseirigh_threat
+			add_idea = FHI_working_with_aiseirigh
+		}
+	}
+	if = {
+		limit = {
+			has_idea = FHI_imminent_aiseirigh_threat
+		}
+		swap_ideas = {
+			remove_idea = FHI_imminent_aiseirigh_threat
+			add_idea = FHI_working_with_aiseirigh
+		}
 	}
 }
 
@@ -131,10 +155,7 @@ purge_secularists = {
 		ideology = corporatism
 		popularity = 0
 	}
-	hidden_effect = {
-		remove_secular_ideas = yes
-		remove_secular_ideas = yes
-	}
+	remove_secular_ideas = yes
 }
 
 close_down_secularists = {
@@ -147,10 +168,7 @@ close_down_secularists = {
 		ideology = corporatism
 		popularity = 0
 	}
-	hidden_effect = {
-		remove_secular_ideas = yes
-		remove_secular_ideas = yes
-	}
+	remove_secular_ideas = yes
 }
 
 remove_secular_ideas = {
@@ -189,5 +207,38 @@ remove_secular_ideas = {
 			has_idea = FHI_unchecked_secularist_influence
 		}
 		remove_ideas = FHI_unchecked_secularist_influence
+	}
+}
+
+FHI_improve_govt_unity = {
+	if = {
+		limit = {
+			has_idea = FHI_contested_commission
+		}
+		swap_ideas = {
+			remove_idea = FHI_contested_commission
+			add_idea = FHI_contested_commission_2
+		}
+	}
+	if = {
+		limit = {
+			has_idea = FHI_contested_commission_2
+		}
+		remove_ideas = FHI_contested_commission_2
+	}
+}
+
+FHI_decrease_govt_unity = {
+	if = {
+		limit = {
+			has_idea = FHI_contested_commission_2
+		}
+		swap_ideas = {
+			remove_idea = FHI_contested_commission_2
+			add_idea = FHI_contested_commission
+		}
+	}
+	else = {
+		add_idea = FHI_contested_commission_2
 	}
 }

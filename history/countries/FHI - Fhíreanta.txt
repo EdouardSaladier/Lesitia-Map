@@ -63,6 +63,7 @@ add_ideas = {
     FHI_the_oath
 	FHI_contested_commission
 	FHI_aiseirigh_rising
+	FHI_secularist_newspapers
 }
 
 activate_mission = FHI_rise_of_aiseirigh

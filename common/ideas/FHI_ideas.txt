@@ -112,7 +112,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				supremacism_drift = 0.08
+				supremacism_drift = 0.12
 			}
 		}
 		
@@ -157,7 +157,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				supremacism_drift = 0.08
+				supremacism_drift = 0.12
 				stability_factor = -0.2
 			}
 		}
@@ -173,14 +173,14 @@ ideas = {
             }
 
             cancel = {
-				supremacism < 0.5
+				supremacism < 0.4
             }
 
 			on_remove = {
                 if = {
                     limit = {
                         NOT = { has_country_flag = aiserigh_over }
-						supremacism < 0.5
+						supremacism < 0.4
                     }
 					add_ideas = FHI_aiseirigh_threat
                 }
@@ -193,7 +193,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				supremacism_drift = 0.08
+				supremacism_drift = 0.12
 				stability_factor = -0.4
 			}
 		}
@@ -229,7 +229,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				supremacism_drift = 0.08
+				supremacism_drift = 0.12
+				stability_factor = 0.1
 			}
 		}
 		
@@ -264,7 +265,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				supremacism_drift = 0.08
+				supremacism_drift = 0.12
 				democracy_drift = -0.02
 				corporatism_drift = -0.02
 			}
@@ -301,7 +302,252 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				supremacism_drift = 0.08
+				supremacism_drift = 0.12
+				stability_factor = -0.4
+			}
+		}
+		
+		FHI_secularist_newspapers = {
+			picture = FHI_secularist_newspapers
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+				democracy > 0.1
+				corporatism > 0.1
+            }
+
+			on_remove = {
+                if = {
+                    limit = {
+                        NOT = { has_country_flag = secularists_over }
+						democracy > 0.1
+						corporatism > 0.1
+                    }
+					add_ideas = FHI_protesting_newspapers
+                }
+            }
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				democracy_drift = 0.04
+				corporatism_drift = 0.04
+			}
+		}
+		
+		FHI_protesting_newspapers = {
+			picture = FHI_protesting_newspapers
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+				OR = {
+					AND = {
+						democracy < 0.1
+						corporatism < 0.1
+					}
+					AND = {
+						democracy > 0.2
+						corporatism > 0.2
+					}
+				}
+            }
+
+			on_remove = {
+                if = {
+                    limit = {
+                        NOT = { has_country_flag = secularists_over }
+						democracy > 0.2
+						corporatism > 0.2
+                    }
+					add_ideas = FHI_dissident_newspapers
+                }
+				else_if = {
+                    limit = {
+                        NOT = { has_country_flag = secularists_over }
+						democracy < 0.1
+						corporatism < 0.1
+                    }
+					add_ideas = FHI_secularist_newspapers
+                }
+            }
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				democracy_drift = 0.04
+				corporatism_drift = 0.04
+				stability_factor = -0.2
+			}
+		}
+		
+		FHI_dissident_newspapers = {
+			picture = FHI_dissident_newspapers
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+				democracy < 0.2
+				corporatism < 0.2
+            }
+
+			on_remove = {
+                if = {
+                    limit = {
+                        NOT = { has_country_flag = secularists_over }
+						democracy < 0.2
+						corporatism < 0.2
+                    }
+					add_ideas = FHI_protesting_newspapers
+                }
+            }
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				democracy_drift = 0.04
+				corporatism_drift = 0.04
+				stability_factor = -0.4
+			}
+		}
+		
+		FHI_working_with_the_secularists = {
+			picture = FHI_working_with_the_secularists
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+				democracy > 0.25
+				corporatism > 0.25
+            }
+
+			on_remove = {
+                if = {
+                    limit = {
+                        NOT = { has_country_flag = secularists_over }
+						democracy > 0.25
+						corporatism > 0.25
+                    }
+					add_ideas = FHI_unchecked_secularist_influence
+                }
+            }
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				democracy_drift = 0.04
+				corporatism_drift = 0.04
+				stability_factor = 0.1
+			}
+		}
+		
+		FHI_secularist_propaganda = {
+			picture = FHI_secularist_propaganda
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+				supremacism > 0.5
+            }
+
+			on_remove = {
+                if = {
+                    limit = {
+                        NOT = { has_country_flag = aiserigh_over }
+						supremacism > 0.5
+                    }
+					add_ideas = FHI_unchecked_secularist_influence
+                }
+            }
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				supremacism_drift = -0.04
+				democracy_drift = 0.04
+				corporatism_drift = 0.04
+			}
+		}
+		
+		FHI_unchecked_secularist_influence = {
+			picture = FHI_unchecked_secularist_influence
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+				supremacism < 0.5
+            }
+
+			on_remove = {
+                if = {
+                    limit = {
+                        NOT = { has_country_flag = aiserigh_over }
+						supremacism < 0.5
+                    }
+					add_ideas = FHI_working_with_the_secularists
+                }
+            }
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				democracy_drift = 0.04
+				corporatism_drift = 0.04
 				stability_factor = -0.4
 			}
 		}
@@ -422,7 +668,7 @@ ideas = {
             }
 
             cancel = {
-            }			
+            }
 			
 			allowed_civil_war = {
 				always = yes
