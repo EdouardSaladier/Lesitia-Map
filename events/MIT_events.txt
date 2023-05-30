@@ -1,0 +1,78 @@
+﻿add_namespace = MIT
+
+country_event = {
+	id = MIT.1
+	title = MIT.1.t
+	desc = MIT.1.d
+	#picture = 
+
+	is_triggered_only = yes
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MIT.1"}
+	option = { 
+		name = MIT.1.a
+		country_event = {id = MIT.2}
+	}
+	option = { 
+		name = MIT.1.b
+		add_political_power = 1
+	}
+}
+
+country_event = {
+	id = MIT.2
+	title = MIT.2.t
+	desc = MIT.2.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.2.a
+	}
+}
+
+country_event = {
+	id = MIT.3
+	title = MIT.3.t
+	desc = MIT.3.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.3.a
+
+	}
+}
+
+country_event = {
+	id = MIT.4
+	title = MIT.4.t
+	desc = MIT.4.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.4.a
+
+	}
+}
+
+country_event = {
+	id = MIT.5
+	title = MIT.5.t
+	desc = MIT.5.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.5.a
+		set_country_flag = MIT_deal_strike
+	}
+	option = { 
+		name = MIT.5.b
+		set_country_flag = MIT_crushed_strike
+	}
+}

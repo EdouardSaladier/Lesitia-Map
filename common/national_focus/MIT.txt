@@ -1,0 +1,1467 @@
+focus_tree = {
+	id = v
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MIT
+		}
+	}
+	#Focus for The 20 Point Manifesto
+	focus = {
+		id = MIT_the_20_point_manifesto
+		icon = GFX_goal_unknown
+		x = 58
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_a_nod_to_the_revolutionaries }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Modernise The Party
+	focus = {
+		id = MIT_modernise_the_party
+		icon = GFX_goal_unknown
+		x = 50
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_rural_devellopement_program }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Invite Technate Experts
+	focus = {
+		id = MIT_invite_technate_experts
+		icon = GFX_goal_unknown
+		x = 53
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_life_and_liberty }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Enshrine Liberty In The Constitution
+	focus = {
+		id = MIT_enshrine_liberty_in_the_constitution
+		icon = GFX_goal_unknown
+		x = 55
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_life_and_liberty }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Solidify The Constitution
+	focus = {
+		id = MIT_solidify_the_constitution
+		icon = GFX_goal_unknown
+		x = 50
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_old_block_stand }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Nod To The Revolutionaries
+	focus = {
+		id = MIT_a_nod_to_the_revolutionaries
+		icon = GFX_goal_unknown
+		x = 58
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_promote_panavianism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Law On Cultural Unity
+	focus = {
+		id = MIT_law_on_cultural_unity
+		icon = GFX_goal_unknown
+		x = 56
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_compromise_with_the_landowners 
+			focus = MIT_no_more_parasite 
+		}
+		mutually_exclusive = { focus = MIT_a_mithairmar_for_all }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Life And Liberty
+	focus = {
+		id = MIT_life_and_liberty
+		icon = GFX_goal_unknown
+		x = 54
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_first_election }
+		mutually_exclusive = { 
+			focus = MIT_the_old_block_stand 
+		}
+		mutually_exclusive = { 
+			focus = MIT_a_new_breath_for_the_left 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A New Breath For The Left
+	focus = {
+		id = MIT_a_new_breath_for_the_left
+		icon = GFX_goal_unknown
+		x = 58
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_first_election }
+		mutually_exclusive = { 
+			focus = MIT_life_and_liberty 
+		}
+		mutually_exclusive = { 
+			focus = MIT_the_old_block_stand 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Compromise With The Landowners
+	focus = {
+		id = MIT_compromise_with_the_landowners
+		icon = GFX_goal_unknown
+		x = 52
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_the_old_block_stand 
+			focus = MIT_life_and_liberty 
+		}
+		mutually_exclusive = { focus = MIT_no_more_parasite }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for No More Parasite
+	focus = {
+		id = MIT_no_more_parasite
+		icon = GFX_goal_unknown
+		x = 56
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_life_and_liberty 
+			focus = MIT_a_new_breath_for_the_left 
+		}
+		mutually_exclusive = { focus = MIT_compromise_with_the_landowners }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Old Block Stand
+	focus = {
+		id = MIT_the_old_block_stand
+		icon = GFX_goal_unknown
+		x = 50
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_first_election }
+		mutually_exclusive = { 
+			focus = MIT_life_and_liberty 
+		}
+		mutually_exclusive = { 
+			focus = MIT_a_new_breath_for_the_left 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Promote Pan-Avianism
+	focus = {
+		id = MIT_promote_panavianism
+		icon = GFX_goal_unknown
+		x = 58
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_a_new_breath_for_the_left }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The War On Tyranny
+	focus = {
+		id = MIT_the_war_on_tyranny
+		icon = GFX_goal_unknown
+		x = 39
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_the_undying_cause_of_freedom
+			focus = MIT_finish_society_militarisation
+			focus = MIT_the_penals_legions
+		}
+		prerequisite = { 
+			focus = MIT_a_convenient_workforce
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Fate Of The Throne
+	focus = {
+		id = MIT_the_fate_of_the_throne
+		icon = GFX_goal_unknown
+		x = 45
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_first_election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Penals Legions
+	focus = {
+		id = MIT_the_penals_legions
+		icon = GFX_goal_unknown
+		x = 35
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_fuel_for_the_army }
+		mutually_exclusive = { focus = MIT_a_convenient_workforce }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Convenient Workforce
+	focus = {
+		id = MIT_a_convenient_workforce
+		icon = GFX_goal_unknown
+		x = 37
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_fuel_for_the_army }
+		mutually_exclusive = { focus = MIT_the_penals_legions }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Undying Cause Of Freedom
+	focus = {
+		id = MIT_the_undying_cause_of_freedom
+		icon = GFX_goal_unknown
+		x = 40
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_reeducate_the_bureaucracy 
+			focus = MIT_the_new_state_apparatus 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Perpetual War Economy
+	focus = {
+		id = MIT_a_perpetual_war_economy
+		icon = GFX_goal_unknown
+		x = 35
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_warstate }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Finish Society Militarisation
+	focus = {
+		id = MIT_finish_society_militarisation
+		icon = GFX_goal_unknown
+		x = 43
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_rise_your_scythe_high }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Empower The Secrets Service
+	focus = {
+		id = MIT_empower_the_secrets_service
+		icon = GFX_goal_unknown
+		x = 40
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_warstate }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The New State Apparatus
+	focus = {
+		id = MIT_the_new_state_apparatus
+		icon = GFX_goal_unknown
+		x = 41
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_empower_the_secrets_service }
+		mutually_exclusive = { focus = MIT_reeducate_the_bureaucracy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reeducate The Bureaucracy
+	focus = {
+		id = MIT_reeducate_the_bureaucracy
+		icon = GFX_goal_unknown
+		x = 39
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_empower_the_secrets_service }
+		mutually_exclusive = { focus = MIT_the_new_state_apparatus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Avian Young
+	focus = {
+		id = MIT_the_avian_young
+		icon = GFX_goal_unknown
+		x = 43
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_warstate }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rise Your Scythe High
+	focus = {
+		id = MIT_rise_your_scythe_high
+		icon = GFX_goal_unknown
+		x = 43
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_avian_young }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Establish A Temporary Governement
+	focus = {
+		id = MIT_establish_a_temporary_governement
+		icon = GFX_goal_unknown
+		x = 41
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_uncompromising_republicanism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Place For The Military
+	focus = {
+		id = MIT_a_place_for_the_military
+		icon = GFX_goal_unknown
+		x = 39
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_uncompromising_republicanism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The War-State
+	focus = {
+		id = MIT_the_warstate
+		icon = GFX_goal_unknown
+		x = 40
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_establish_a_temporary_governement 
+		}
+		prerequisite = { 
+			focus = MIT_a_place_for_the_military 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Cut The Fat
+	focus = {
+		id = MIT_cut_the_fat
+		icon = GFX_goal_unknown
+		x = 46
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_hoist_the_black_and_blue }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The First Election
+	focus = {
+		id = MIT_the_first_election
+		icon = GFX_goal_unknown
+		x = 45
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_cut_the_fat 
+		}
+		prerequisite = { 
+			focus = MIT_a_deal_with_rep_gen_name_to_put_later 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Uncompromising Republicanism
+	focus = {
+		id = MIT_uncompromising_republicanism
+		icon = GFX_goal_unknown
+		x = 40
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_first_election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Hoist The Black And Blue
+	focus = {
+		id = MIT_hoist_the_black_and_blue
+		icon = GFX_goal_unknown
+		x = 45
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Deal With [rep_gen_name to put later]
+	focus = {
+		id = MIT_a_deal_with_rep_gen_name_to_put_later
+		icon = GFX_goal_unknown
+		x = 44
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_hoist_the_black_and_blue }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A People Kingdom
+	focus = {
+		id = MIT_a_people_kingdom
+		icon = GFX_goal_unknown
+		x = 29
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_red_and_blue_blood
+			focus = MIT_tie_the_loose_end
+		}
+		prerequisite = { 
+			focus = MIT_rule_by_prestige_and_respect
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for By My Will Alone
+	focus = {
+		id = MIT_by_my_will_alone
+		icon = GFX_goal_unknown
+		x = 30
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_great_proclamation }
+		mutually_exclusive = { focus = MIT_a_true_parliement }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A True Parliement
+	focus = {
+		id = MIT_a_true_parliement
+		icon = GFX_goal_unknown
+		x = 32
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_great_proclamation }
+		mutually_exclusive = { focus = MIT_by_my_will_alone }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for As Above, So Below
+	focus = {
+		id = MIT_as_above_so_below
+		icon = GFX_goal_unknown
+		x = 31
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_by_my_will_alone 
+			focus = MIT_a_true_parliement 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Red And Blue Blood
+	focus = {
+		id = MIT_red_and_blue_blood
+		icon = GFX_goal_unknown
+		x = 31
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_as_above_so_below }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Dinner With The Knight
+	focus = {
+		id = MIT_a_dinner_with_the_knight
+		icon = GFX_goal_unknown
+		x = 30
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_iudans_raudata }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Great Proclamation
+	focus = {
+		id = MIT_the_great_proclamation
+		icon = GFX_goal_unknown
+		x = 29
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_contact_the_revolutionaries_cell 
+		}
+		prerequisite = { 
+			focus = MIT_a_dinner_with_the_knight 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Land Of Lords And Workers
+	focus = {
+		id = MIT_a_land_of_lords_and_workers
+		icon = GFX_goal_unknown
+		x = 26
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_great_proclamation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Virtues Of Generosity And Compassion
+	focus = {
+		id = MIT_the_virtues_of_generosity_and_compassion
+		icon = GFX_goal_unknown
+		x = 28
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_great_proclamation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rule By Prestige And Respect
+	focus = {
+		id = MIT_rule_by_prestige_and_respect
+		icon = GFX_goal_unknown
+		x = 26
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_revolutionary_spirit_without_a_revolution }
+		mutually_exclusive = { focus = MIT_tie_the_loose_end }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Tie The Loose End
+	focus = {
+		id = MIT_tie_the_loose_end
+		icon = GFX_goal_unknown
+		x = 28
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_revolutionary_spirit_without_a_revolution }
+		mutually_exclusive = { focus = MIT_rule_by_prestige_and_respect }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Great Kingdom
+	focus = {
+		id = MIT_the_great_kingdom
+		icon = GFX_goal_unknown
+		x = 19
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_catching_the_train_of_modernity 
+		}
+		prerequisite = { 
+			focus = MIT_denounce_the_left 
+		}
+		prerequisite = { 
+			focus = MIT_a_show_of_force 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Þiudans Raudata
+	focus = {
+		id = MIT_iudans_raudata
+		icon = GFX_goal_unknown
+		x = 29
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_a_last_game_of_chess }
+		mutually_exclusive = { focus = MIT_heavy_lie_the_crown }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Contact The Revolutionaries Cell
+	focus = {
+		id = MIT_contact_the_revolutionaries_cell
+		icon = GFX_goal_unknown
+		x = 28
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_iudans_raudata }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Denounce The Left
+	focus = {
+		id = MIT_denounce_the_left
+		icon = GFX_goal_unknown
+		x = 19
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_introduce_the_royal_veto }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Voice For The Army
+	focus = {
+		id = MIT_a_voice_for_the_army
+		icon = GFX_goal_unknown
+		x = 21
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_for_king_and_country }
+		mutually_exclusive = { focus = MIT_encourage_delation_in_the_armed_forces }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Encourage Delation In The Armed Forces
+	focus = {
+		id = MIT_encourage_delation_in_the_armed_forces
+		icon = GFX_goal_unknown
+		x = 23
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_for_king_and_country }
+		mutually_exclusive = { focus = MIT_a_voice_for_the_army }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Show Of Force
+	focus = {
+		id = MIT_a_show_of_force
+		icon = GFX_goal_unknown
+		x = 22
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_a_voice_for_the_army 
+			focus = MIT_encourage_delation_in_the_armed_forces 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Pragmatic Welfare
+	focus = {
+		id = MIT_pragmatic_welfare
+		icon = GFX_goal_unknown
+		x = 15
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_a_loyal_bureaucracy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Proclaim The Hegemony
+	focus = {
+		id = MIT_proclaim_the_hegemony
+		icon = GFX_goal_unknown
+		x = 15
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_arrest_republican_sympathisers 
+		}
+		prerequisite = { 
+			focus = MIT_pragmatic_welfare 
+		}
+		prerequisite = { 
+			focus = MIT_catching_the_train_of_modernity 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Administrative Revival Plan
+	focus = {
+		id = MIT_the_administrative_revival_plan
+		icon = GFX_goal_unknown
+		x = 19
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_a_true_constitutional_kingdom }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Arrest Republican Sympathisers
+	focus = {
+		id = MIT_arrest_republican_sympathisers
+		icon = GFX_goal_unknown
+		x = 12
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_empower_the_militaries 
+			focus = MIT_sideline_extremist_elements 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Loyal Bureaucracy
+	focus = {
+		id = MIT_a_loyal_bureaucracy
+		icon = GFX_goal_unknown
+		x = 15
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_royal_decree_23 }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Promote Ultra-patriotism
+	focus = {
+		id = MIT_promote_ultrapatriotism
+		icon = GFX_goal_unknown
+		x = 13
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_return_of_the_king }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Sideline Extremist Elements
+	focus = {
+		id = MIT_sideline_extremist_elements
+		icon = GFX_goal_unknown
+		x = 13
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_promote_ultrapatriotism }
+		mutually_exclusive = { focus = MIT_empower_the_militaries }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Empower The Militaries
+	focus = {
+		id = MIT_empower_the_militaries
+		icon = GFX_goal_unknown
+		x = 11
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_promote_ultrapatriotism }
+		mutually_exclusive = { focus = MIT_sideline_extremist_elements }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reinforce The Executive
+	focus = {
+		id = MIT_reinforce_the_executive
+		icon = GFX_goal_unknown
+		x = 17
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_from_nobles_to_governor }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Catching The Train Of Modernity
+	focus = {
+		id = MIT_catching_the_train_of_modernity
+		icon = GFX_goal_unknown
+		x = 17
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_reinforce_the_executive }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A True Constitutional Kingdom
+	focus = {
+		id = MIT_a_true_constitutional_kingdom
+		icon = GFX_goal_unknown
+		x = 19
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_parliement_demand }
+		mutually_exclusive = { focus = MIT_the_return_of_the_king }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Return Of The King
+	focus = {
+		id = MIT_the_return_of_the_king
+		icon = GFX_goal_unknown
+		x = 15
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_parliement_demand }
+		mutually_exclusive = { focus = MIT_a_true_constitutional_kingdom }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for From Nobles To Governor
+	focus = {
+		id = MIT_from_nobles_to_governor
+		icon = GFX_goal_unknown
+		x = 17
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_the_return_of_the_king 
+			focus = MIT_a_true_constitutional_kingdom 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Technocatharsis
+	focus = {
+		id = MIT_a_technocatharsis
+		icon = GFX_goal_unknown
+		x = 24
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_modernise_the_institutions }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Introduce The Royal Veto
+	focus = {
+		id = MIT_introduce_the_royal_veto
+		icon = GFX_goal_unknown
+		x = 19
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_administrative_revival_plan }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Parliement Demand
+	focus = {
+		id = MIT_the_parliement_demand
+		icon = GFX_goal_unknown
+		x = 17
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_invite_international_specialist 
+		}
+		prerequisite = { 
+			focus = MIT_a_glorious_ceremony 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reinvigorate The Church
+	focus = {
+		id = MIT_reinvigorate_the_church
+		icon = GFX_goal_unknown
+		x = 22
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_a_last_game_of_chess }
+		mutually_exclusive = { focus = MIT_modernise_the_institutions }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Embers Of Fanaticism
+	focus = {
+		id = MIT_the_embers_of_fanaticism
+		icon = GFX_goal_unknown
+		x = 22
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_reinvigorate_the_church }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Deal To The Fallout
+	focus = {
+		id = MIT_deal_to_the_fallout
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_send_in_the_army 
+			focus = MIT_listen_to_the_protesters 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Last Evening
+	focus = {
+		id = MIT_the_last_evening
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_buy_food_from_neighboring_country 
+		}
+		prerequisite = { 
+			focus = MIT_meeting_locals_landowners 
+		}
+		prerequisite = { 
+			focus = MIT_deal_to_the_fallout 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Passing The Torch
+	focus = {
+		id = MIT_passing_the_torch
+		icon = GFX_goal_unknown
+		x = 23
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Last Game Of Chess
+	focus = {
+		id = MIT_a_last_game_of_chess
+		icon = GFX_goal_unknown
+		x = 23
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_passing_the_torch }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Heavy Lie The Crown
+	focus = {
+		id = MIT_heavy_lie_the_crown
+		icon = GFX_goal_unknown
+		x = 17
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_a_last_game_of_chess }
+		mutually_exclusive = { focus = MIT_iudans_raudata }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Glorious Ceremony
+	focus = {
+		id = MIT_a_glorious_ceremony
+		icon = GFX_goal_unknown
+		x = 16
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_heavy_lie_the_crown }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Invite International Specialist
+	focus = {
+		id = MIT_invite_international_specialist
+		icon = GFX_goal_unknown
+		x = 18
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_heavy_lie_the_crown }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Listen To The Protesters
+	focus = {
+		id = MIT_listen_to_the_protesters
+		icon = GFX_goal_unknown
+		x = 11
+		y = 3
+		cost = 1
+		available_if_capitulated = yes
+		available = {
+			has_country_flag = MIT_deal_strike
+		}
+		prerequisite = { focus = MIT_the_great_strike }
+		mutually_exclusive = { focus = MIT_send_in_the_army }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Deal With The Food Crisis
+	focus = {
+		id = MIT_deal_with_the_food_crisis
+		icon = GFX_goal_unknown
+		x = 7
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_a_cold_morning }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = { id = MIT.4 }
+		}
+	}
+
+	#Focus for Buy Food From Neighboring Country
+	focus = {
+		id = MIT_buy_food_from_neighboring_country
+		icon = GFX_goal_unknown
+		x = 5
+		y = 3
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_deal_with_the_food_crisis }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Meeting Locals Landowners
+	focus = {
+		id = MIT_meeting_locals_landowners
+		icon = GFX_goal_unknown
+		x = 7
+		y = 3
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_deal_with_the_food_crisis }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Great Strike
+	focus = {
+		id = MIT_the_great_strike
+		icon = GFX_goal_unknown
+		x = 10
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_a_cold_morning }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = { id = MIT.5 }
+		}
+	}
+
+	#Focus for Send In The Army
+	focus = {
+		id = MIT_send_in_the_army
+		icon = GFX_goal_unknown
+		x = 9
+		y = 3
+		cost = 1
+		available_if_capitulated = yes
+		available = {
+			has_country_flag = MIT_crushed_strike
+		}
+		prerequisite = { focus = MIT_the_great_strike }
+		mutually_exclusive = { focus = MIT_listen_to_the_protesters }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Cold Morning..
+	focus = {
+		id = MIT_a_cold_morning
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = { id = MIT.3 }
+		}
+	}
+
+	#Focus for Modernise The Institutions
+	focus = {
+		id = MIT_modernise_the_institutions
+		icon = GFX_goal_unknown
+		x = 24
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_a_last_game_of_chess }
+		mutually_exclusive = { focus = MIT_reinvigorate_the_church }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Royal Decree 23
+	focus = {
+		id = MIT_royal_decree_23
+		icon = GFX_goal_unknown
+		x = 15
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_return_of_the_king }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for For King And Country!
+	focus = {
+		id = MIT_for_king_and_country
+		icon = GFX_goal_unknown
+		x = 21
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_a_true_constitutional_kingdom }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Revolutionary Spirit Without A Revolution
+	focus = {
+		id = MIT_revolutionary_spirit_without_a_revolution
+		icon = GFX_goal_unknown
+		x = 27
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_a_land_of_lords_and_workers 
+		}
+		prerequisite = { 
+			focus = MIT_the_virtues_of_generosity_and_compassion 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Multiply The Propaganda Campaigns
+	focus = {
+		id = MIT_multiply_the_propaganda_campaigns
+		icon = GFX_goal_unknown
+		x = 37
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_the_warstate }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fuel For The Army
+	focus = {
+		id = MIT_fuel_for_the_army
+		icon = GFX_goal_unknown
+		x = 36
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_multiply_the_propaganda_campaigns 
+		}
+		prerequisite = { 
+			focus = MIT_a_perpetual_war_economy 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Mithairmar For All
+	focus = {
+		id = MIT_a_mithairmar_for_all
+		icon = GFX_goal_unknown
+		x = 52
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_compromise_with_the_landowners 
+			focus = MIT_no_more_parasite 
+		}
+		mutually_exclusive = { focus = MIT_law_on_cultural_unity }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rural Devellopement Program
+	focus = {
+		id = MIT_rural_devellopement_program
+		icon = GFX_goal_unknown
+		x = 50
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MIT_solidify_the_constitution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Opening The Gates
+	focus = {
+		id = MIT_opening_the_gates
+		icon = GFX_goal_unknown
+		x = 54
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MIT_modernise_the_party 
+		}
+		prerequisite = { 
+			focus = MIT_the_20_point_manifesto 
+		}
+		prerequisite = { 
+			focus = MIT_invite_technate_experts 
+		}
+		prerequisite = { 
+			focus = MIT_enshrine_liberty_in_the_constitution 
+		}
+		prerequisite = { 
+			focus = MIT_a_mithairmar_for_all 
+		}
+		prerequisite = { 
+			focus = MIT_law_on_cultural_unity 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }
