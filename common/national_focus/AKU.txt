@@ -1,0 +1,483 @@
+focus_tree = {
+	id = akuriel_focus
+	
+		country = {
+			factor = 0
+			
+			modifier = {
+				add = 10
+				tag =aku
+			}
+			}
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 2000}
+#STARTING_TREE
+	focus = {
+		id = AKU_start
+		icon = GFX
+		x = 10
+		y = -10
+		
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+			add_stability = .05
+		}
+	}
+#STARTING_TREE_BRANCH_01
+	focus = {
+		id = AKU_currency
+		icon = GFX
+		x = -4
+		y = 1
+		relative_position_id = AKU_start
+		prerequisite = { focus = AKU_start }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AKU_foreigntrade
+		icon = GFX
+		y = 1
+		relative_position_id = AKU_currency
+		prerequisite = { focus = AKU_currency }
+				cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+#STARTING_TREE_BRANCH_02
+focus = {
+		id = AKU_buyout_lesser_companies
+		icon = GFX
+		x = -2
+		y = 1
+		relative_position_id = AKU_start
+		prerequisite = { focus = AKU_start }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+focus = {
+		id = AKU_move_into_warehouses
+		icon = GFX
+		y = 1
+		relative_position_id = AKU_buyout_lesser_companies
+		prerequisite = { focus = AKU_buyout_lesser_companies }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+#STARTING_TREE_BRANCH_03 (Refugee workers and automation)
+focus = {
+		id = AKU_refugees
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = AKU_start
+		prerequisite = { focus = AKU_start }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+focus = {
+		id = AKU_automation_investments
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = AKU_refugees
+		prerequisite = { focus = AKU_refugees }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+#STARTING_TREE_BRANCH_04 (Security)
+focus = {
+		id = AKU_brown_bronze_expansion
+		icon = GFX
+		x = 2
+		y = 1
+		relative_position_id = AKU_start
+		prerequisite = { focus = AKU_start }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+focus = {
+		id = AKU_fortify_borders
+		icon = GFX
+		y = 1
+		relative_position_id = AKU_brown_bronze_expansion
+		prerequisite = { focus = AKU_brown_bronze_expansion }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+#STARTING_TREE_BRANCH_05 (Corporate Living)
+focus = {
+		id = AKU_corporate_living
+		icon = GFX
+		x = 4
+		y = 1
+		relative_position_id = AKU_start
+		prerequisite = { focus = AKU_start }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+focus = {
+		id = AKU_state_distribution
+		icon = GFX
+		y = 1
+		relative_position_id = AKU_corporate_living
+		prerequisite = { focus = AKU_corporate_living }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+#MILITARY_TREE	
+	focus = {
+		id = AKU_mil_tree_start
+		icon = GFX
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		x = -10
+		relative_position_id = AKU_start
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AKU_real_military
+		icon = GFX
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		y = 1
+		relative_position_id = AKU_mil_tree_start
+		prerequisite = { focus = AKU_mil_tree_start }
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+#MILITARY_TREE_ARMY
+focus = {
+		id = AKU_akuriel_army
+		icon = GFX
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		x = -3
+		y = 1
+		relative_position_id = AKU_real_military
+		prerequisite = { focus = AKU_real_military }
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+#MILITARY_TREE_ARMY_IMPERIAL
+	focus = {
+		id = AKU_army_imperial_doctrine
+		icon = GFX
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		x = -1
+		y = 1
+		relative_position_id = AKU_akuriel_army
+		prerequisite = { focus = AKU_akuriel_army }
+		mutually_exclusive = { focus = AKU_army_mobility }
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+focus = {
+		id = AKU_army_trench
+		icon = GFX
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		y = 1
+		relative_position_id = AKU_army_imperial_doctrine
+		prerequisite = { focus = AKU_army_imperial_doctrine }
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+#MILITARY_TREE_ARMY_MOBILITY
+	focus = {
+		id = AKU_army_mobility
+		icon = GFX
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		x = 1
+		y = 1
+		relative_position_id = AKU_akuriel_army
+		prerequisite = { focus = AKU_akuriel_army }
+		mutually_exclusive = { focus = AKU_army_imperial_doctrine}
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AKU_army_armor_inovations
+		icon = GFX
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		y = 1
+		relative_position_id = AKU_army_mobility
+		prerequisite = { focus = AKU_army_mobility }
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AKU_army_academy
+		icon = GFX
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		y = 1
+		relative_position_id = AKU_army_armor_inovations
+		prerequisite = { focus = AKU_army_armor_inovations }
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+#MILITARY_TREE_NAVY
+focus = {
+		id = AKU_navy_start
+		icon = GFX
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		y = 1
+		relative_position_id = AKU_real_military
+		prerequisite = { focus = AKU_real_military }
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AKU_dockyards
+		icon = GFX
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		y = 1
+		relative_position_id = AKU_navy_start
+		prerequisite = { focus = AKU_navy_start }
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AKU_naval_trade_protection
+		icon = GFX
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		y = 1
+		relative_position_id = AKU_dockyards
+		prerequisite = { focus = AKU_dockyards }
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+#MILITARY_TREE_AIR
+focus = {
+		id = AKU_airforce
+		icon = GFX
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		x = 3
+		y = 1
+		relative_position_id = AKU_real_military
+		prerequisite = { focus = AKU_real_military }
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = AKU_salvage_afb
+		icon = GFX
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		y = 1
+		relative_position_id = AKU_airforce
+		prerequisite = { focus = AKU_airforce }
+		available = {
+		}
+		
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+}
