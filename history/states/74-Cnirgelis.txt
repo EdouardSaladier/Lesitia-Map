@@ -9,7 +9,7 @@ state={
 		}
 		owner = MIT
 		add_core_of = MIT
-		set_variable = { majority = 51 }
+		set_variable = { majority = 60 }
 	}
 	
 	provinces={

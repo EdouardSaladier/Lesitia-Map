@@ -9,7 +9,7 @@ state={
 		}
 		owner = MIT
 		add_core_of = MIT
-		set_variable = { majority = 29 }
+		set_variable = { majority = 60}
 		set_variable = { minority = 51 }
 	}
 	
