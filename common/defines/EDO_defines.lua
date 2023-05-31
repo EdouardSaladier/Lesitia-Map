@@ -4,6 +4,7 @@ NDefines.NGame.FUEL_RESOURCE = "energy" 			-- resource that will give country fu
 
 NDefines.NGame.HANDS_OFF_START_TAG = "NUK"									-- Vanilla is URG
 
+NDefines.NCountry.REINFORCEMENT_DIVISION_PRIORITY_COUNT = 4
 NDefines.NCountry.BASE_FUEL_GAIN_PER_OIL = 1.0
 NDefines.NCountry.DEFAULT_STABILITY = 0.5					-- Default stability if not scripted otherwise.
 NDefines.NCountry.DEFAULT_WAR_SUPPORT = 0.2						-- Default war support if not scripted otherwise.

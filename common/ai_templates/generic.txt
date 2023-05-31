@@ -420,6 +420,18 @@ motorised_infantry = {
 	
 	motorized_default = {
 	
+		production_prio = {
+            base = 10
+
+            modifier = {
+                factor = 0
+				OR = {
+					has_country_flag = remote_strike_doctrine
+					has_country_flag = high_velocity_doctrine
+				}
+            }
+        }
+	
 		upgrade_prio = {
 			factor = 2
 
@@ -510,6 +522,18 @@ motorised_infantry = {
 	
 	motorized_advanced = {
 	
+		production_prio = {
+            base = 10
+
+            modifier = {
+                factor = 0
+				OR = {
+					has_country_flag = remote_strike_doctrine
+					has_country_flag = high_velocity_doctrine
+				}
+            }
+        }
+	
 		upgrade_prio = {
 			factor = 2
 
@@ -597,6 +621,402 @@ motorised_infantry = {
 			precision_artillery_brigade
 		}
 	}
+	
+	motorized_remote_strike = {
+	
+		production_prio = {
+            base = 0
+
+            modifier = {
+                add = 15
+				has_country_flag = remote_strike_doctrine
+            }
+        }
+	
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		target_width = 19.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		target_min_match = 0.8
+		replace_at_match = 0.8
+		replace_with = motorized_advanced_remote_strike
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			1.10 #-- defensee
+			1.10 #-- breakthrough
+			0.60 #-- hardness
+			2.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.10 #-- recon
+			0.01 #-- entrenchment
+			0.10 #-- initiative
+			0.01 #-- casualty_trickleback
+			-0.05 #-- supply_consumption_factor
+			-0.01 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.01 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
+			#-- Air Values
+			0.02 #-- air_attack
+			#-- Common Values
+			30.00 #-- max_organisation
+			0.80 #-- max_strength
+			2.0 #-- maximum_speed
+			0.20 #-- armor_value
+			0.05 #-- ap_attack
+			0.10 #-- reliability
+			0.10 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 1
+			match_value = 3000.0
+			
+			support = {
+				engineer_s_company = 1
+			}
+			
+			regiments = {
+				motorized = 6
+				at_motorized = 1
+				precision_artillery_brigade = 2
+			}
+		}
+		
+		allowed_types = {
+			motorized
+			at_motorized			
+			engineer_s_company
+			drone_recon_s_company
+			mot_recon_s_company
+			armored_car_recon_s_company
+			medical_s_company
+			logistics_s_company
+			anti_air_arty_support
+			rocket_anti_air_support
+			motorised_field_artillery_brigade
+			field_artillery_support
+			rocket_arty_support
+			precision_artillery_support
+			rocket_arty_brigade
+			precision_artillery_brigade
+		}
+	}
+	
+	motorized_advanced_remote_strike = {
+	
+		production_prio = {
+            base = 0
+
+            modifier = {
+                add = 15
+				has_country_flag = remote_strike_doctrine
+            }
+        }
+	
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		target_width = 19.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		target_min_match = 0.8
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			1.10 #-- defensee
+			1.10 #-- breakthrough
+			0.60 #-- hardness
+			2.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.10 #-- recon
+			0.01 #-- entrenchment
+			0.10 #-- initiative
+			0.01 #-- casualty_trickleback
+			-0.05 #-- supply_consumption_factor
+			-0.01 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.01 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
+			#-- Air Values
+			0.02 #-- air_attack
+			#-- Common Values
+			30.00 #-- max_organisation
+			0.80 #-- max_strength
+			2.0 #-- maximum_speed
+			0.20 #-- armor_value
+			0.05 #-- ap_attack
+			0.10 #-- reliability
+			0.10 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 1
+			match_value = 3000.0
+			
+			support = {
+				engineer_s_company = 1
+				mot_recon_s_company = 1
+				precision_artillery_support = 1
+			}
+			
+			regiments = {
+				motorized = 6
+				at_motorized = 1
+				precision_artillery_brigade = 2
+			}
+		}
+		
+		allowed_types = {
+			motorized
+			at_motorized			
+			engineer_s_company
+			drone_recon_s_company
+			mot_recon_s_company
+			armored_car_recon_s_company
+			medical_s_company
+			logistics_s_company
+			anti_air_arty_support
+			rocket_anti_air_support
+			motorised_field_artillery_brigade
+			field_artillery_support
+			rocket_arty_support
+			precision_artillery_support
+			rocket_arty_brigade
+			precision_artillery_brigade
+		}
+	}
+	
+	motorized_high_velocity = {
+	
+		production_prio = {
+            base = 0
+
+            modifier = {
+                add = 15
+				has_country_flag = high_velocity_doctrine
+            }
+        }
+	
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		target_width = 19.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		target_min_match = 0.8
+		replace_at_match = 0.8
+		replace_with = motorized_advanced_high_velocity
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			1.10 #-- defensee
+			1.10 #-- breakthrough
+			0.60 #-- hardness
+			2.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.10 #-- recon
+			0.01 #-- entrenchment
+			0.10 #-- initiative
+			0.01 #-- casualty_trickleback
+			-0.05 #-- supply_consumption_factor
+			-0.01 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.01 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
+			#-- Air Values
+			0.02 #-- air_attack
+			#-- Common Values
+			30.00 #-- max_organisation
+			0.80 #-- max_strength
+			2.0 #-- maximum_speed
+			0.20 #-- armor_value
+			0.05 #-- ap_attack
+			0.10 #-- reliability
+			0.10 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 1
+			match_value = 3000.0
+			
+			support = {
+				engineer_s_company = 1
+			}
+			
+			regiments = {
+				motorized = 6
+				at_motorized = 1
+				rocket_arty_brigade = 2
+			}
+		}
+		
+		allowed_types = {
+			motorized
+			at_motorized			
+			engineer_s_company
+			drone_recon_s_company
+			mot_recon_s_company
+			armored_car_recon_s_company
+			medical_s_company
+			logistics_s_company
+			anti_air_arty_support
+			rocket_anti_air_support
+			motorised_field_artillery_brigade
+			field_artillery_support
+			rocket_arty_support
+			precision_artillery_support
+			rocket_arty_brigade
+			precision_artillery_brigade
+		}
+	}
+	
+	motorized_advanced_high_velocity = {
+	
+		production_prio = {
+            base = 0
+
+            modifier = {
+                add = 15
+				has_country_flag = high_velocity_doctrine
+            }
+        }
+	
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		target_width = 19.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		target_min_match = 0.8
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			1.10 #-- defensee
+			1.10 #-- breakthrough
+			0.60 #-- hardness
+			2.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.10 #-- recon
+			0.01 #-- entrenchment
+			0.10 #-- initiative
+			0.01 #-- casualty_trickleback
+			-0.05 #-- supply_consumption_factor
+			-0.01 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.01 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
+			#-- Air Values
+			0.02 #-- air_attack
+			#-- Common Values
+			30.00 #-- max_organisation
+			0.80 #-- max_strength
+			2.0 #-- maximum_speed
+			0.20 #-- armor_value
+			0.05 #-- ap_attack
+			0.10 #-- reliability
+			0.10 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 1
+			match_value = 3000.0
+			
+			support = {
+				engineer_s_company = 1
+				mot_recon_s_company = 1
+				rocket_arty_support = 1
+			}
+			
+			regiments = {
+				motorized = 6
+				at_motorized = 1
+				rocket_arty_brigade = 2
+			}
+		}
+		
+		allowed_types = {
+			motorized
+			at_motorized			
+			engineer_s_company
+			drone_recon_s_company
+			mot_recon_s_company
+			armored_car_recon_s_company
+			medical_s_company
+			logistics_s_company
+			anti_air_arty_support
+			rocket_anti_air_support
+			motorised_field_artillery_brigade
+			field_artillery_support
+			rocket_arty_support
+			precision_artillery_support
+			rocket_arty_brigade
+			precision_artillery_brigade
+		}
+	}
 }
 
 basic_artillery = {
@@ -617,6 +1037,18 @@ basic_artillery = {
 	
 	basic_artillery_default = {
 	
+		production_prio = {
+            base = 10
+
+            modifier = {
+                factor = 0
+				OR = {
+					has_country_flag = remote_strike_doctrine
+					has_country_flag = high_velocity_doctrine
+				}
+            }
+        }
+	
 		upgrade_prio = {
 			factor = 2
 
@@ -625,12 +1057,119 @@ basic_artillery = {
 			}
 		}
 		
+		reinforce_prio = 2
+		
 		target_width = 20.0
 		width_weight = 1.0
 		column_swap_factor = 0.5
 		target_min_match = 0.8
 		replace_at_match = 0.8
 		replace_with = basic_artillery_advanced
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			1.00 #-- breakthrough
+			0.00 #-- hardness
+			6.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.00 #-- recon
+			1.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.60 #-- max_organisation
+			0.40 #-- max_strength
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.20 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 1
+			match_value = 3000.0
+			
+			support = {
+				engineer_s_company = 1
+				field_artillery_support = 1
+			}
+			
+			regiments = {
+				infantry = 6
+				at_infantry = 1
+				field_artillery_brigade = 2
+			}
+		}
+		
+		allowed_types = {
+			infantry
+			at_infantry			
+			engineer_s_company
+			drone_recon_s_company
+			mot_recon_s_company
+			armored_car_recon_s_company
+			medical_s_company
+			logistics_s_company
+			anti_air_arty_brigade
+			anti_air_arty_support
+			rocket_anti_air_support
+			rocket_arty_brigade
+			field_artillery_support
+			rocket_arty_support
+			precision_artillery_support
+			field_artillery_brigade
+			rocket_arty_brigade
+			precision_artillery_brigade
+		}
+	}
+	
+	basic_artillery_advanced = {
+	
+		production_prio = {
+            base = 10
+
+            modifier = {
+                factor = 0
+				OR = {
+					has_country_flag = remote_strike_doctrine
+					has_country_flag = high_velocity_doctrine
+				}
+            }
+        }
+	
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		reinforce_prio = 2
+		
+		target_width = 20.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		target_min_match = 0.8
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -711,7 +1250,16 @@ basic_artillery = {
 		}
 	}
 	
-	basic_artillery_advanced = {
+	basic_artillery_remote_strike = {
+	
+		production_prio = {
+            base = 0
+
+            modifier = {
+                add = 15
+				has_country_flag = remote_strike_doctrine
+            }
+        }
 	
 		upgrade_prio = {
 			factor = 2
@@ -720,6 +1268,112 @@ basic_artillery = {
 				factor = 1
 			}
 		}
+		
+		reinforce_prio = 2
+		
+		target_width = 20.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		target_min_match = 0.8
+		replace_at_match = 0.8
+		replace_with = basic_artillery_advanced_remote_strike
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			1.00 #-- breakthrough
+			0.00 #-- hardness
+			6.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.00 #-- recon
+			1.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.60 #-- max_organisation
+			0.40 #-- max_strength
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.20 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 1
+			match_value = 3000.0
+			
+			support = {
+				engineer_s_company = 1
+				precision_artillery_support = 1
+			}
+			
+			regiments = {
+				infantry = 6
+				at_infantry = 1
+				precision_artillery_brigade = 2
+			}
+		}
+		
+		allowed_types = {
+			infantry
+			at_infantry			
+			engineer_s_company
+			drone_recon_s_company
+			mot_recon_s_company
+			armored_car_recon_s_company
+			medical_s_company
+			logistics_s_company
+			anti_air_arty_brigade
+			anti_air_arty_support
+			rocket_anti_air_support
+			rocket_arty_brigade
+			field_artillery_support
+			rocket_arty_support
+			precision_artillery_support
+			field_artillery_brigade
+			rocket_arty_brigade
+			precision_artillery_brigade
+		}
+	}
+	
+	basic_artillery_advanced_remote_strike = {
+	
+		production_prio = {
+            base = 0
+
+            modifier = {
+                add = 15
+				has_country_flag = remote_strike_doctrine
+            }
+        }
+	
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		reinforce_prio = 2
 		
 		target_width = 20.0
 		width_weight = 1.0
@@ -770,12 +1424,225 @@ basic_artillery = {
 			
 			support = {
 				engineer_s_company = 1
+				drone_recon_s_company = 1
+				medical_s_company = 1
+				anti_air_arty_support = 1
+				precision_artillery_support = 1
 			}
 			
 			regiments = {
 				infantry = 6
 				at_infantry = 1
-				field_artillery_brigade = 2
+				precision_artillery_brigade = 2
+			}
+		}
+		
+		allowed_types = {
+			infantry
+			at_infantry			
+			engineer_s_company
+			drone_recon_s_company
+			mot_recon_s_company
+			armored_car_recon_s_company
+			medical_s_company
+			logistics_s_company
+			anti_air_arty_brigade
+			anti_air_arty_support
+			rocket_anti_air_support
+			rocket_arty_brigade
+			field_artillery_support
+			rocket_arty_support
+			precision_artillery_support
+			field_artillery_brigade
+			rocket_arty_brigade
+			precision_artillery_brigade
+		}
+	}
+	
+	basic_artillery_high_velocity = {
+	
+		production_prio = {
+            base = 0
+
+            modifier = {
+                add = 15
+				has_country_flag = high_velocity_doctrine
+            }
+        }
+	
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		reinforce_prio = 2
+		
+		target_width = 20.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		target_min_match = 0.8
+		replace_at_match = 0.8
+		replace_with = basic_artillery_advanced_high_velocity
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			1.00 #-- breakthrough
+			0.00 #-- hardness
+			6.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.00 #-- recon
+			1.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.60 #-- max_organisation
+			0.40 #-- max_strength
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.20 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 1
+			match_value = 3000.0
+			
+			support = {
+				engineer_s_company = 1
+				rocket_arty_support = 1
+			}
+			
+			regiments = {
+				infantry = 6
+				at_infantry = 1
+				rocket_arty_brigade = 2
+			}
+		}
+		
+		allowed_types = {
+			infantry
+			at_infantry			
+			engineer_s_company
+			drone_recon_s_company
+			mot_recon_s_company
+			armored_car_recon_s_company
+			medical_s_company
+			logistics_s_company
+			anti_air_arty_brigade
+			anti_air_arty_support
+			rocket_anti_air_support
+			rocket_arty_brigade
+			field_artillery_support
+			rocket_arty_support
+			precision_artillery_support
+			field_artillery_brigade
+			rocket_arty_brigade
+			precision_artillery_brigade
+		}
+	}
+	
+	basic_artillery_advanced_high_velocity = {
+	
+		production_prio = {
+            base = 0
+
+            modifier = {
+                add = 15
+				has_country_flag = high_velocity_doctrine
+            }
+        }
+	
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		reinforce_prio = 2
+		
+		target_width = 20.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		target_min_match = 0.8
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			1.00 #-- breakthrough
+			0.00 #-- hardness
+			6.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.00 #-- recon
+			1.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.60 #-- max_organisation
+			0.40 #-- max_strength
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.20 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 1
+			match_value = 3000.0
+			
+			support = {
+				engineer_s_company = 1
+				drone_recon_s_company = 1
+				medical_s_company = 1
+				anti_air_arty_support = 1
+				rocket_arty_support = 1
+			}
+			
+			regiments = {
+				infantry = 6
+				at_infantry = 1
+				rocket_arty_brigade = 2
 			}
 		}
 		
@@ -820,6 +1687,18 @@ artillery = {
 	
 	artillery_default = {
 	
+		production_prio = {
+            base = 10
+
+            modifier = {
+                factor = 0
+				OR = {
+					has_country_flag = remote_strike_doctrine
+					has_country_flag = high_velocity_doctrine
+				}
+            }
+        }
+	
 		upgrade_prio = {
 			factor = 2
 
@@ -828,7 +1707,7 @@ artillery = {
 			}
 		}
 		
-		reinforce_prio = 2
+		reinforce_prio = 3
 		
 		target_width = 20.0
 		width_weight = 1.0
@@ -915,6 +1794,18 @@ artillery = {
 	
 	artillery_advanced = {
 	
+		production_prio = {
+            base = 10
+
+            modifier = {
+                factor = 0
+				OR = {
+					has_country_flag = remote_strike_doctrine
+					has_country_flag = high_velocity_doctrine
+				}
+            }
+        }
+	
 		upgrade_prio = {
 			factor = 2
 
@@ -923,7 +1814,7 @@ artillery = {
 			}
 		}
 		
-		reinforce_prio = 2
+		reinforce_prio = 3
 		
 		target_width = 20.0
 		width_weight = 1.0
@@ -984,6 +1875,424 @@ artillery = {
 				infantry = 5
 				at_infantry = 1
 				field_artillery_brigade = 4
+			}
+		}
+		
+		allowed_types = {
+			infantry
+			at_infantry			
+			engineer_s_company
+			drone_recon_s_company
+			mot_recon_s_company
+			armored_car_recon_s_company
+			medical_s_company
+			logistics_s_company
+			anti_air_arty_brigade
+			anti_air_arty_support
+			rocket_anti_air_support
+			rocket_arty_brigade
+			field_artillery_support
+			rocket_arty_support
+			precision_artillery_support
+			field_artillery_brigade
+			rocket_arty_brigade
+			precision_artillery_brigade
+		}
+	}
+	
+	artillery_remote_strike = {
+	
+		production_prio = {
+            base = 0
+
+            modifier = {
+                add = 15
+				has_country_flag = remote_strike_doctrine
+            }
+        }
+	
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		reinforce_prio = 3
+		
+		target_width = 20.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		target_min_match = 0.8
+		replace_at_match = 0.8
+		replace_with = artillery_advanced_remote_strike
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			1.00 #-- breakthrough
+			0.00 #-- hardness
+			6.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.00 #-- recon
+			1.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.60 #-- max_organisation
+			0.40 #-- max_strength
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.20 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 1
+			match_value = 3000.0
+			
+			support = {
+				engineer_s_company = 1
+				precision_artillery_support = 1
+			}
+			
+			regiments = {
+				infantry = 5
+				at_infantry = 1
+				precision_artillery_brigade = 4
+			}
+		}
+		
+		allowed_types = {
+			infantry
+			at_infantry			
+			engineer_s_company
+			drone_recon_s_company
+			mot_recon_s_company
+			armored_car_recon_s_company
+			medical_s_company
+			logistics_s_company
+			anti_air_arty_brigade
+			anti_air_arty_support
+			rocket_anti_air_support
+			rocket_arty_brigade
+			field_artillery_support
+			rocket_arty_support
+			precision_artillery_support
+			field_artillery_brigade
+			rocket_arty_brigade
+			precision_artillery_brigade
+		}
+	}
+	
+	artillery_advanced_remote_strike = {
+	
+		production_prio = {
+            base = 0
+
+            modifier = {
+                add = 15
+				has_country_flag = remote_strike_doctrine
+            }
+        }
+	
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		reinforce_prio = 3
+		
+		target_width = 20.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		target_min_match = 0.8
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			1.00 #-- breakthrough
+			0.00 #-- hardness
+			6.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.00 #-- recon
+			1.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.60 #-- max_organisation
+			0.40 #-- max_strength
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.20 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 1
+			match_value = 3000.0
+			
+			support = {
+				engineer_s_company = 1
+				drone_recon_s_company = 1
+				medical_s_company = 1
+				anti_air_arty_support = 1
+				precision_artillery_support = 1
+			}
+			
+			regiments = {
+				infantry = 5
+				at_infantry = 1
+				precision_artillery_brigade = 4
+			}
+		}
+		
+		allowed_types = {
+			infantry
+			at_infantry			
+			engineer_s_company
+			drone_recon_s_company
+			mot_recon_s_company
+			armored_car_recon_s_company
+			medical_s_company
+			logistics_s_company
+			anti_air_arty_brigade
+			anti_air_arty_support
+			rocket_anti_air_support
+			rocket_arty_brigade
+			field_artillery_support
+			rocket_arty_support
+			precision_artillery_support
+			field_artillery_brigade
+			rocket_arty_brigade
+			precision_artillery_brigade
+		}
+	}
+	
+	artillery_high_velocity = {
+	
+		production_prio = {
+            base = 0
+
+            modifier = {
+                add = 15
+				has_country_flag = high_velocity_doctrine
+            }
+        }
+	
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		reinforce_prio = 3
+		
+		target_width = 20.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		target_min_match = 0.8
+		replace_at_match = 0.8
+		replace_with = artillery_advanced_high_velocity
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			1.00 #-- breakthrough
+			0.00 #-- hardness
+			6.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.00 #-- recon
+			1.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.60 #-- max_organisation
+			0.40 #-- max_strength
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.20 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 1
+			match_value = 3000.0
+			
+			support = {
+				engineer_s_company = 1
+				rocket_arty_support = 1
+			}
+			
+			regiments = {
+				infantry = 5
+				at_infantry = 1
+				rocket_arty_brigade = 4
+			}
+		}
+		
+		allowed_types = {
+			infantry
+			at_infantry			
+			engineer_s_company
+			drone_recon_s_company
+			mot_recon_s_company
+			armored_car_recon_s_company
+			medical_s_company
+			logistics_s_company
+			anti_air_arty_brigade
+			anti_air_arty_support
+			rocket_anti_air_support
+			rocket_arty_brigade
+			field_artillery_support
+			rocket_arty_support
+			precision_artillery_support
+			field_artillery_brigade
+			rocket_arty_brigade
+			precision_artillery_brigade
+		}
+	}
+	
+	artillery_advanced_high_velocity = {
+	
+		production_prio = {
+            base = 0
+
+            modifier = {
+                add = 15
+				has_country_flag = high_velocity_doctrine
+            }
+        }
+	
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		reinforce_prio = 3
+		
+		target_width = 20.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		target_min_match = 0.8
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			1.00 #-- breakthrough
+			0.00 #-- hardness
+			6.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.00 #-- recon
+			1.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.60 #-- max_organisation
+			0.40 #-- max_strength
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.20 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 1
+			match_value = 3000.0
+			
+			support = {
+				engineer_s_company = 1
+				drone_recon_s_company = 1
+				medical_s_company = 1
+				anti_air_arty_support = 1
+				rocket_arty_support = 1
+			}
+			
+			regiments = {
+				infantry = 5
+				at_infantry = 1
+				rocket_arty_brigade = 4
 			}
 		}
 		
@@ -1179,7 +2488,6 @@ aerial_troops = {
 				drone_recon_s_company = 1
 				medical_s_company = 1
 				anti_air_arty_support = 1
-				field_artillery_support = 1
 			}
 			
 			regiments = {

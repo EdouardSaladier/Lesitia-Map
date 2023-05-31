@@ -9,31 +9,7 @@ default_unit_production = { #If adding country-unique ones, bear in mind that th
 	ai_strategy = {
 		type = role_ratio
 		id = basic_infantry
-		value = 20
-	}
-	
-	ai_strategy = {
-		type = role_ratio
-		id = at_infantry
-		value = 20
-	}
-	
-	ai_strategy = {
-		type = role_ratio
-		id = motorised_infantry
-		value = 20
-	}
-	
-	ai_strategy = {
-		type = role_ratio
-		id = artillery
-		value = 20
-	}
-	
-	ai_strategy = {
-		type = role_ratio
-		id = aerial_troops
-		value = 5
+		value = 100
 	}
 
 	#Air unit factors
@@ -78,66 +54,184 @@ default_unit_production = { #If adding country-unique ones, bear in mind that th
 		id = infantry
 		value = 40
 	}
+}
+
+default_unit_production_5_fac = { #If adding country-unique ones, bear in mind that they STACK
+	enable = {
+		num_of_military_factories > 4
+		num_of_military_factories < 10
+	}
 
 	ai_strategy = {
-		type = equipment_production_factor
-		id = artillery
+		type = role_ratio
+		id = basic_infantry
+		value = -20
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = at_infantry
+		value = 20
+	}
+}
+
+default_unit_production_10_fac = { #If adding country-unique ones, bear in mind that they STACK
+	enable = {
+		num_of_military_factories > 9
+		num_of_military_factories < 15
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = basic_infantry
+		value = -30
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = at_infantry
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = basic_artillery
+		value = 10
+	}
+}
+
+default_unit_production_15_fac = { #If adding country-unique ones, bear in mind that they STACK
+	enable = {
+		num_of_military_factories > 14
+		num_of_military_factories < 20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = basic_infantry
+		value = -45
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = at_infantry
 		value = 25
 	}
 	
 	ai_strategy = {
-		type = equipment_production_factor
-		id = armor
+		type = role_ratio
+		id = basic_artillery
 		value = 15
 	}
-}
-
-default_mobile_production = {
-	enable = {
-		ai_wants_divisions > 11
-		has_tech = logistic_vehicle_system
-	}
-	abort = {
-		ai_wants_divisions < 12
-	}
-
+	
 	ai_strategy = {
 		type = role_ratio
-		id = motorized
+		id = artillery
 		value = 5
 	}
 }
 
-default_armored_production = {
-
+default_unit_production_20_fac = { #If adding country-unique ones, bear in mind that they STACK
 	enable = {
-		ai_wants_divisions > 29
+		num_of_military_factories > 19
+		num_of_military_factories < 25
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = basic_infantry
+		value = -55
 	}
 	
-	abort = {
-		ai_wants_divisions < 30
-	}
-
 	ai_strategy = {
 		type = role_ratio
-		id = armor
-		value = 2
+		id = at_infantry
+		value = 25
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = basic_artillery
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = artillery
+		value = 10
 	}
 }
 
-highered_armored_production = {
+default_unit_production_25_fac = { #If adding country-unique ones, bear in mind that they STACK
 	enable = {
-		NOT = { original_tag = GER }
-		num_of_military_factories > 69
-	}
-	abort = {
-		num_of_military_factories < 70
+		num_of_military_factories > 24
+		num_of_military_factories < 30
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = armor
+		id = basic_infantry
+		value = -65
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = at_infantry
+		value = 30
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = basic_artillery
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = artillery
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = motorised_infantry
 		value = 5
+	}
+}
+
+default_unit_production_30_fac = { #If adding country-unique ones, bear in mind that they STACK
+	enable = {
+		num_of_military_factories > 29
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = basic_infantry
+		value = -75
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = at_infantry
+		value = 35
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = basic_artillery
+		value = 15
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = artillery
+		value = 15
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = motorised_infantry
+		value = 10
 	}
 }
 
