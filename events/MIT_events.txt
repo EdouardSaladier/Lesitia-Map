@@ -76,3 +76,90 @@ country_event = {
 		set_country_flag = MIT_crushed_strike
 	}
 }
+
+country_event = {
+	id = MIT.6
+	title = MIT.6.t
+	desc = MIT.6.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.6.a
+
+	}
+}
+
+country_event = {
+	id = MIT.7
+	title = MIT.7.t
+	desc = MIT.7.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.7.a
+
+	}
+}
+
+country_event = {
+	id = MIT.8
+	title = MIT.8.t
+	desc = MIT.8.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.8.a
+		add_timed_idea = {
+   			idea = MIT_deal_strikers
+    		days = 120
+		}
+	}
+}
+
+country_event = {
+	id = MIT.9
+	title = MIT.9.t
+	desc = MIT.9.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.9.a
+		swap_ideas = {
+    		remove_idea = MIT_divided_army
+    		add_idea = MIT_divided_army_2
+		}
+	}
+}
+country_event = {
+	id = MIT.10
+	title = MIT.10.t
+	desc = MIT.10.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.10.a
+		
+	}
+}
+country_event = {
+	id = MIT.11
+	title = MIT.11.t
+	desc = MIT.11.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.11.a
+	}
+}	

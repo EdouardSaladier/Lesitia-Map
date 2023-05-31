@@ -1,0 +1,133 @@
+ideas = {
+
+	country = {
+		MIT_looming_famine = {
+			picture = idea_raj_risk_of_famine
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_factor = -0.2
+			}
+		}
+		
+		MIT_divided_army = {
+			picture = idea_generic_army_problems
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				supremacism_drift = 0.1
+				democracy_drift = 0.1
+				political_power_gain = -0.2
+				drift_defence_factor = -0.5
+			}
+		}
+		MIT_slow_modernisation = {
+			picture = idea_POL_disjointed_industry
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = -0.3
+				production_speed_arms_factory_factor = -0.3
+				conversion_cost_civ_to_mil_factor= 0.3
+				conversion_cost_mil_to_civ_factor = 0.3
+				production_speed_infrastructure_factor = -0.1
+			}
+		}
+		MIT_divided_army_2 = {
+			picture = idea_generic_army_problems
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				democracy_drift = 0.3
+				political_power_gain = -0.4
+				drift_defence_factor = -0.5
+			}
+		}
+		MIT_deal_strikers = {
+			picture = idea_raj_risk_of_famine
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.2
+				production_speed_infrastructure_factor = -0.1
+				stability_factor = 0.2
+			}
+		}
+	}
+}

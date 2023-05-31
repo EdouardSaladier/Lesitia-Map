@@ -1097,6 +1097,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			country_event = { id = MIT.10 }
+		}
 	}
 
 	#Focus for The Last Evening
@@ -1118,6 +1121,9 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			country_event = { id = MIT.11 }
 		}
 	}
 
@@ -1207,6 +1213,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			country_event = { id = MIT.8 }
+		}
 	}
 
 	#Focus for Deal With The Food Crisis
@@ -1238,6 +1247,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			country_event = { id = MIT.6 }
+		}
+
 	}
 
 	#Focus for Meeting Locals Landowners
@@ -1251,6 +1264,9 @@ focus_tree = {
 		prerequisite = { focus = MIT_deal_with_the_food_crisis }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			country_event = { id = MIT.7 }
 		}
 	}
 
@@ -1286,6 +1302,9 @@ focus_tree = {
 		mutually_exclusive = { focus = MIT_listen_to_the_protesters }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			country_event = { id = MIT.9 }
 		}
 	}
 

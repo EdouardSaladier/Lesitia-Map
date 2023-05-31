@@ -28,9 +28,11 @@ set_popularities = {
 	unclassified = 0
 }
 
-#add_ideas = {
-#	MIT_dummy
-#}
+add_ideas = {
+	MIT_looming_famine
+	MIT_divided_army
+	MIT_slow_modernisation
+}
 
 create_country_leader = {
 	name = "Regency Council"
