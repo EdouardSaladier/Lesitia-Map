@@ -25,6 +25,30 @@ ideas = {
 				stability_factor = -0.2
 			}
 		}
+		MIT_looming_famine_2 = {
+			picture = idea_raj_risk_of_famine
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = -0.1
+			}
+		}
 		
 		MIT_divided_army = {
 			picture = idea_generic_army_problems

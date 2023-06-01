@@ -34,6 +34,10 @@ add_ideas = {
 	MIT_slow_modernisation
 }
 
+ 
+recruit_character = MIT_alarica
+recruit_character = MIT_king
+
 create_country_leader = {
 	name = "Regency Council"
 	desc = "MIT_regency_desc"

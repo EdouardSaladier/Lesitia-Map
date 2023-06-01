@@ -77,6 +77,7 @@ country_event = {
 	}
 }
 
+#MEET REZNEVEHZ
 country_event = {
 	id = MIT.6
 	title = MIT.6.t
@@ -87,7 +88,8 @@ country_event = {
 
 	option = { 
 		name = MIT.6.a
-
+    		remove_idea = MIT_looming_famine
+    		add_idea = MIT_looming_famine_2
 	}
 }
 
@@ -161,5 +163,50 @@ country_event = {
 
 	option = { 
 		name = MIT.11.a
+	}
+}	
+
+# chess 
+country_event = {
+	id = MIT.12
+	title = MIT.12.t
+	desc = MIT.12.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.12.a
+		set_country_flag = MIT_alarica_refuse
+	}
+	option = { 
+		name = MIT.12.b
+		set_country_flag = MIT_alarica_accept
+	}
+}	
+
+country_event = {
+	id = MIT.13
+	title = MIT.13.t
+	desc = MIT.13.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.13.a
+	}
+}	
+
+country_event = {
+	id = MIT.14
+	title = MIT.14.t
+	desc = MIT.14.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.14.a
 	}
 }	

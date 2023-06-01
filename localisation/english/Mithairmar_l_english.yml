@@ -9,6 +9,11 @@ MIT_revolutionarism:0 "People's Kingdom of Mithairmar"
 MIT_revolutionarism_DEF:0 "The People's of Mithairmar"
 MIT_revolutionarism_ADJ:0 "Mithairmarian"
 
+####### FLAG
+MIT_deal_strike:0 "We have dealt with the strikers"
+MIT_crushed_strike:0 "We have dealt with the strike"
+MIT_alarica_refuse:0 "Alarica accepted to give up the throne"
+MIT_alarica_accept:0 "Waldron convinced Alarica to give up the throne"
 
 ### IDEAS
 MIT_dummy:0 "Dummy idea"
@@ -30,9 +35,20 @@ MIT_slow_modernisation_desc:0 "slow but steady"
 MIT_regency_desc:0 "test (fuck)"
 
 #####partys names###
-MIT_despotism_party:0 "Regency Rule"
-MIT_despotism_party_long:0 "Regency Rule"
-
+MIT_despotism_party:0 "House Of Eljias"
+MIT_despotism_party_long:0 "House Of Eljias"
+MIT_corporatism_party:0 "Nofaco"
+MIT_corporatism_party_long:0 "Northern Farming Conglomerate"
+MIT_revolutionarism_party:0 "§ROutlawed"
+MIT_revolutionarism_party_long:0 "§ROutlawed"
+MIT_democracy_party:0 "Mithairmar Parliement"
+MIT_democracy_party_long:0 "Mithairmar Parliement"
+MIT_supremacism_party:0 "Royal Army"
+MIT_supremacism_party_long:0 "Royal Army Extremist Elements"
+MIT_technocracy_party:0 "Illdyast Group"
+MIT_technocracy_party_long:0 "Illdyast Group"
+MIT_theocracy_party:0 "Church Of The 7"
+MIT_theocracy_party_long:0 "Church Of The 7"
 
 ############################ FOCUS TREE #################################
 MIT_the_20_point_manifesto:0 "The 20 Point Manifesto"
@@ -268,3 +284,8 @@ MIT.10.a: "f..."
 MIT.11.t: "At The End Of Our Time"
 MIT.11.d: ""
 MIT.11.a: "We'll meet again tomorrow..."
+
+MIT.12.t: "A Family Talk"
+MIT.12.d: "Alarica (legitimate heiress) and Waldron (her brother who's more popular) talk about the throne around a game of chess.  Waldron try to convince his sister that she will be in dangers in her reign"
+MIT.12.a: "Our father corpse is not even burried and you worry about the throne?"
+MIT.12.b: "You are right...I should step down"

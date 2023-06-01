@@ -1,0 +1,29 @@
+characters = {
+	
+	MIT_king = {
+		name = "placeholder king name"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MIT/portrait_king.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_type
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	MIT_alarica = {
+		name = "Alarica II"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MIT/portrait_alarica.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionarism_type 
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+}

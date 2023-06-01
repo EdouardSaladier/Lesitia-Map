@@ -724,6 +724,9 @@ focus_tree = {
 		y = 3
 		cost = 5
 		available_if_capitulated = yes
+		available = { 
+		has_country_flag = MIT_alarica_refuse
+		}
 		prerequisite = { focus = MIT_a_last_game_of_chess }
 		mutually_exclusive = { focus = MIT_heavy_lie_the_crown }
 		ai_will_do = {
@@ -1152,6 +1155,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			country_event = { id = MIT.12 }
+		}
 	}
 
 	#Focus for Heavy Lie The Crown
@@ -1162,6 +1168,9 @@ focus_tree = {
 		y = 3
 		cost = 5
 		available_if_capitulated = yes
+		available = { 
+		has_country_flag = MIT_alarica_accept
+	    }
 		prerequisite = { focus = MIT_a_last_game_of_chess }
 		mutually_exclusive = { focus = MIT_iudans_raudata }
 		ai_will_do = {
