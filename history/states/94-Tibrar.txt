@@ -18,7 +18,7 @@ state={
 		}
 		owner = AKU
 		victory_points = {
-			1448 30
+			1448 50
 		}
 		victory_points = {
 			11784 10
