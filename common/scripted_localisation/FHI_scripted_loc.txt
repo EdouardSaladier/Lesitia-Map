@@ -1,0 +1,13 @@
+defined_text = {
+	name = GetFHI1_options
+	text = {
+		trigger = {
+		}
+		localization_key = "GFX_coalition_member"
+	}
+	text = {
+		trigger = {
+		}
+		localization_key = "GFX_coalition_no_bg"
+	}
+}

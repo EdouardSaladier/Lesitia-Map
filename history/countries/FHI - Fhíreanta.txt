@@ -66,8 +66,6 @@ add_ideas = {
 	FHI_secularist_newspapers
 }
 
-activate_mission = FHI_rise_of_aiseirigh
-
 # Starting trucks & trains
 add_equipment_to_stockpile = {
     type = high_speed_train_equipment

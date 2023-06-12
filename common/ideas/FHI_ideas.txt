@@ -90,20 +90,6 @@ ideas = {
 
             available = {
             }
-
-            cancel = {
-				supremacism > 0.2
-            }
-
-			on_remove = {
-                if = {
-                    limit = {
-                        NOT = { has_country_flag = aiserigh_over }
-						supremacism > 0.2
-                    }
-					add_ideas = FHI_aiseirigh_threat
-                }
-            }
 			
 			allowed_civil_war = {
 				always = yes
@@ -112,7 +98,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				supremacism_drift = 0.12
+				supremacism_drift = 0.06
 			}
 		}
 		
@@ -125,30 +111,6 @@ ideas = {
 
             available = {
             }
-
-            cancel = {
-				OR = {
-					supremacism < 0.2
-					supremacism > 0.4
-				}
-            }
-
-			on_remove = {
-                if = {
-                    limit = {
-                        NOT = { has_country_flag = aiserigh_over }
-						supremacism > 0.4
-                    }
-					add_ideas = FHI_imminent_aiseirigh_threat
-                }
-				else_if = {
-                    limit = {
-                        NOT = { has_country_flag = aiserigh_over }
-						supremacism < 0.2
-                    }
-					add_ideas = FHI_aiseirigh_rising
-                }
-            }
 			
 			allowed_civil_war = {
 				always = yes
@@ -157,7 +119,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				supremacism_drift = 0.12
+				supremacism_drift = 0.06
 				stability_factor = -0.2
 			}
 		}
@@ -171,20 +133,6 @@ ideas = {
 
             available = {
             }
-
-            cancel = {
-				supremacism < 0.4
-            }
-
-			on_remove = {
-                if = {
-                    limit = {
-                        NOT = { has_country_flag = aiserigh_over }
-						supremacism < 0.4
-                    }
-					add_ideas = FHI_aiseirigh_threat
-                }
-            }
 			
 			allowed_civil_war = {
 				always = yes
@@ -193,7 +141,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				supremacism_drift = 0.12
+				supremacism_drift = 0.06
 				stability_factor = -0.4
 			}
 		}
@@ -207,20 +155,6 @@ ideas = {
 
             available = {
             }
-
-            cancel = {
-				supremacism > 0.5
-            }
-
-			on_remove = {
-                if = {
-                    limit = {
-                        NOT = { has_country_flag = aiserigh_over }
-						supremacism > 0.5
-                    }
-					add_ideas = FHI_aiseirigh_out_of_control
-                }
-            }
 			
 			allowed_civil_war = {
 				always = yes
@@ -229,7 +163,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				supremacism_drift = 0.12
+				supremacism_drift = 0.06
 				stability_factor = 0.1
 			}
 		}
@@ -243,20 +177,6 @@ ideas = {
 
             available = {
             }
-
-            cancel = {
-				supremacism > 0.5
-            }
-
-			on_remove = {
-                if = {
-                    limit = {
-                        NOT = { has_country_flag = aiserigh_over }
-						supremacism > 0.5
-                    }
-					add_ideas = FHI_aiseirigh_out_of_control
-                }
-            }
 			
 			allowed_civil_war = {
 				always = yes
@@ -265,7 +185,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				supremacism_drift = 0.12
+				supremacism_drift = 0.06
 				democracy_drift = -0.02
 				corporatism_drift = -0.02
 			}
@@ -280,20 +200,6 @@ ideas = {
 
             available = {
             }
-
-            cancel = {
-				supremacism < 0.5
-            }
-
-			on_remove = {
-                if = {
-                    limit = {
-                        NOT = { has_country_flag = aiserigh_over }
-						supremacism < 0.5
-                    }
-					add_ideas = FHI_working_with_aiseirigh
-                }
-            }
 			
 			allowed_civil_war = {
 				always = yes
@@ -302,7 +208,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				supremacism_drift = 0.12
+				supremacism_drift = 0.06
 				stability_factor = -0.4
 			}
 		}
@@ -315,22 +221,6 @@ ideas = {
             }
 
             available = {
-            }
-
-            cancel = {
-				democracy > 0.1
-				corporatism > 0.1
-            }
-
-			on_remove = {
-                if = {
-                    limit = {
-                        NOT = { has_country_flag = secularists_over }
-						democracy > 0.1
-						corporatism > 0.1
-                    }
-					add_ideas = FHI_protesting_newspapers
-                }
             }
 			
 			allowed_civil_war = {
@@ -353,38 +243,6 @@ ideas = {
             }
 
             available = {
-            }
-
-            cancel = {
-				OR = {
-					AND = {
-						democracy < 0.1
-						corporatism < 0.1
-					}
-					AND = {
-						democracy > 0.2
-						corporatism > 0.2
-					}
-				}
-            }
-
-			on_remove = {
-                if = {
-                    limit = {
-                        NOT = { has_country_flag = secularists_over }
-						democracy > 0.2
-						corporatism > 0.2
-                    }
-					add_ideas = FHI_dissident_newspapers
-                }
-				else_if = {
-                    limit = {
-                        NOT = { has_country_flag = secularists_over }
-						democracy < 0.1
-						corporatism < 0.1
-                    }
-					add_ideas = FHI_secularist_newspapers
-                }
             }
 			
 			allowed_civil_war = {
@@ -409,22 +267,6 @@ ideas = {
 
             available = {
             }
-
-            cancel = {
-				democracy < 0.2
-				corporatism < 0.2
-            }
-
-			on_remove = {
-                if = {
-                    limit = {
-                        NOT = { has_country_flag = secularists_over }
-						democracy < 0.2
-						corporatism < 0.2
-                    }
-					add_ideas = FHI_protesting_newspapers
-                }
-            }
 			
 			allowed_civil_war = {
 				always = yes
@@ -447,22 +289,6 @@ ideas = {
             }
 
             available = {
-            }
-
-            cancel = {
-				democracy > 0.25
-				corporatism > 0.25
-            }
-
-			on_remove = {
-                if = {
-                    limit = {
-                        NOT = { has_country_flag = secularists_over }
-						democracy > 0.25
-						corporatism > 0.25
-                    }
-					add_ideas = FHI_unchecked_secularist_influence
-                }
             }
 			
 			allowed_civil_war = {
@@ -487,20 +313,6 @@ ideas = {
 
             available = {
             }
-
-            cancel = {
-				supremacism > 0.5
-            }
-
-			on_remove = {
-                if = {
-                    limit = {
-                        NOT = { has_country_flag = aiserigh_over }
-						supremacism > 0.5
-                    }
-					add_ideas = FHI_unchecked_secularist_influence
-                }
-            }
 			
 			allowed_civil_war = {
 				always = yes
@@ -523,20 +335,6 @@ ideas = {
             }
 
             available = {
-            }
-
-            cancel = {
-				supremacism < 0.5
-            }
-
-			on_remove = {
-                if = {
-                    limit = {
-                        NOT = { has_country_flag = aiserigh_over }
-						supremacism < 0.5
-                    }
-					add_ideas = FHI_working_with_the_secularists
-                }
             }
 			
 			allowed_civil_war = {

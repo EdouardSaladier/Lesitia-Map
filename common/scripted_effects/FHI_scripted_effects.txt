@@ -115,6 +115,36 @@ remove_aiseirigh_ideas = {
 	}
 }
 
+work_with_secularists = {
+	if = {
+		limit = {
+			has_idea = FHI_secularist_newspapers
+		}
+		swap_ideas = {
+			remove_idea = FHI_secularist_newspapers
+			add_idea = FHI_working_with_the_secularists
+		}
+	}
+	if = {
+		limit = {
+			has_idea = FHI_protesting_newspapers
+		}
+		swap_ideas = {
+			remove_idea = FHI_protesting_newspapers
+			add_idea = FHI_working_with_the_secularists
+		}
+	}
+	if = {
+		limit = {
+			has_idea = FHI_dissident_newspapers
+		}
+		swap_ideas = {
+			remove_idea = FHI_dissident_newspapers
+			add_idea = FHI_working_with_the_secularists
+		}
+	}
+}
+
 purge_secularists = {
 	if = {
 		limit = {
@@ -239,6 +269,6 @@ FHI_decrease_govt_unity = {
 		}
 	}
 	else = {
-		add_idea = FHI_contested_commission_2
+		add_ideas = FHI_contested_commission_2
 	}
 }

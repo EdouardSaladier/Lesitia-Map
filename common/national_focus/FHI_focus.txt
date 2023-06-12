@@ -112,6 +112,12 @@ focus_tree = {
 		x = -7
 		y = 1
 		relative_position_id = FHI_the_great_consultation
+		completion_reward = {
+			custom_effect_tooltip = FHI_use_aiseirigh_tt
+			set_country_flag = coalition_democracy
+			set_country_flag = coalition_corporatism
+			work_with_secularists = yes
+		}
 	}
 	
 	focus = {
@@ -551,9 +557,25 @@ focus_tree = {
 			focus = FHI_purge_aiseirigh
 			focus = FHI_neutralise_the_oligarchs
 		}
+		available = {
+			NOT = {
+				has_completed_focus = FHI_more_than_a_commission
+				has_completed_focus = FHI_a_new_secular_state
+				has_completed_focus = FHI_the_special_assembly
+			}
+		}
 		x = 0
 		y = 2
 		relative_position_id = FHI_political_immunity_act
+		completion_reward = {
+			set_politics = {
+				ruling_party = despotism
+				elections_allowed = no
+			}
+			clr_country_flag = coalition_despotism
+			set_country_flag = coalition_theocracy
+			set_country_flag = fhireanta_initial_over
+		}
 	}
 	
 	#Political Initial tree - end

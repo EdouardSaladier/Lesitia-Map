@@ -49,22 +49,6 @@ build_polymers_factories = {
 	}
 }
 
-build_rocket_site_base = {
-	enable = {
-		num_of_civilian_factories > 24
-		has_tech = nuclear_fission_reactors
-		rocket_site < 2
-	}
-	
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = building_target
-		id = rocket_site
-		value = 2
-	}
-}
-
 build_rocket_site_tactical = {
 	enable = {
 		num_of_civilian_factories > 24

@@ -31,7 +31,7 @@ FHI_unclassified_party:0 "Caraidean"
 FHI_unclassified_party_long:0 "Caraidean Rheol (Friends of Rheol)"
 
 ###Ideas
-FHI_the_oath:0 "The Oath"
+FHI_the_oath:0 "Còd Lagha"
 FHI_contested_commission:0 "Contested Arbitration Commission"
 FHI_contested_commission_2:0 "Contested Arbitration Commission"
 
@@ -138,6 +138,27 @@ aiseirigh_terrorist:0 "§RAiseirigh has committed acts of terrorism§!"
 anti_dissent:0 "We have implemented anti-dissenter legistlation"
 anti_extremism:0 "We have implemented anti-extremist legistlation"
 anti_terrorism:0 "We have implemented anti-terrorist legistlation"
+
+###Events
+
+FHI.10.t.0 "Aiseirigh Denounces our Government"
+FHI.10.d:0 "."
+
+FHI.11.t:0 "Aiseirigh Establish Their Own Courts of Justice"
+FHI.11.d:0 "In a direct challenge to our commission, members of the Aiseirigh movement decided to create their own courts of justice. Hardly following a proper interpretation of the Còd Lagha, their so-called courts of justice are nothing but tools for Aiseirigh to legitimise illegal lynchings. Nevertheless, despite the total illegitimacy of these courts, they are gaining widespread support among the rural population. Many are starting to question the legitimacy of our authority, and it is imperative to restore order as soon as possible before the situation deteriorates any further."
+FHI.11.a:0 "Launch a mediatic campaign against these lynchings."
+FHI.11.b:0 "Send the Security Directorate dismantle these fake courts."
+FHI.11.c:0 "Make the judges \"dissapear\". The rest will understand."
+FHI.11.d:0 "The righteous militias shall deal with these heretical courts."
+FHI.11.e:0 "Excommuniate anyone taking part in these illegitimate courts."
+FHI.11.f:0 "Unfortunately, there is nothing we can do."
+
+
+
+FHI.13.t:0 "Aiseirigh attacks our meetings"
+FHI.13.d:0 "As our local representatives were discussing the latest developments in the country, a group of supremacists stormed into the room, brandishing weapons and shouting obscenities. They demanded that the Arbitration Commission take action against the secularists and their supporters, claiming that they are spreading heresy and corrupting the faith. The representatives tried in vain to reason with them, but they continued to shout and throw objects at us, causing chaos and disrupting the meeting. The Security Directorate forces finally came and restored order, but the damage has been done and videos of the whole incidents are already circulating in the whole country."
+FHI.13.a:0 ""
+
 
 #Law
 
