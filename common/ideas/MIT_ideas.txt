@@ -153,5 +153,109 @@ ideas = {
 				stability_factor = 0.2
 			}
 		}
+		MIT_red_parliement = {
+			picture = idea_raj_risk_of_famine
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+ 			    political_power_gain = 0.1
+				stability_factor = 0.1
+				revolutionarism_drift = 0.1
+				democracy_acceptance = 20
+			}
+		}
+		MIT_by_my_will = {
+			picture = idea_raj_risk_of_famine
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+ 			    political_power_gain = 0.2
+				stability_factor = -0.05
+				revolutionarism_drift = 0.05
+				despotism_acceptance = 20
+			}
+		}
+		MIT_as_above_so_below = {
+			picture = idea_raj_risk_of_famine
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.1
+				industry_repair_factor = 0.3
+				production_speed_buildings_factor = 0.5
+			}
+		}
+		MIT_encourage_charity = {
+			picture = idea_raj_risk_of_famine
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.2
+				local_resources_factor = 0.2
+				offensive_war_stability_factor = 0.1
+				political_power_gain = 0.1
+			}
+		}
 	}
 }

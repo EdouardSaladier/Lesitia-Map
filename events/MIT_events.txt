@@ -178,10 +178,18 @@ country_event = {
 	option = { 
 		name = MIT.12.a
 		set_country_flag = MIT_alarica_refuse
+		hidden_effect = {
+		complete_national_focus = MIT_iudans_raudata
+		}
+		custom_effect_tooltip = MIT_tooltip.1
 	}
 	option = { 
 		name = MIT.12.b
 		set_country_flag = MIT_alarica_accept
+		hidden_effect = {
+		complete_national_focus = MIT_heavy_lie_the_crown
+		}
+		custom_effect_tooltip = MIT_tooltip.2
 	}
 }	
 
@@ -195,6 +203,11 @@ country_event = {
 
 	option = { 
 		name = MIT.13.a
+			set_party_name = { 
+   			ideology = revolutionarism 
+  	 		long_name = MIT_legal_rev_part_long
+   			name = MIT_legal_rev_part
+			}
 	}
 }	
 
@@ -208,5 +221,9 @@ country_event = {
 
 	option = { 
 		name = MIT.14.a
+	set_politics = {
+	ruling_party = revolutionarism
+	elections_allowed = no
+		}
 	}
 }	

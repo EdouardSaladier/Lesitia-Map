@@ -37,3 +37,11 @@ FHI_police_decisions = {
 		NOT = { has_country_flag = fhireanta_initial_over }
 	}
 }
+
+MIT_decisions= {
+	icon = military_operation
+	
+	allowed = {
+        tag = MIT
+    }
+}

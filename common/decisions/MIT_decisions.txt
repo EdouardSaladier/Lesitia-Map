@@ -1,0 +1,36 @@
+MIT_politic_queen = {
+	
+	MIT_marry_local_noble = {
+	cost = 75
+	add_ideas =
+	}
+	
+	MIT_marry_southern_noble = {
+	cost = 75
+	add_ideas = 
+	}
+	
+	MIT_ = {
+	cost = 75
+	add_ideas =
+		}
+
+	MIT = {
+	cost = 75
+	add_ideas =
+		}
+
+
+	MIT = {
+	cost = 75
+	add_ideas =
+		visible = {
+			has_completed_focus = MIT_a_technocatharsis
+			}
+		custom_effect_tooltip = MIT_tooltip.3
+#		hidden_effect = {
+#				yghh
+#			}
+		}
+	}
+}

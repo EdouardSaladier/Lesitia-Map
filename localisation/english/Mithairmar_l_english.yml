@@ -1,5 +1,4 @@
-﻿
-l_english:
+﻿l_english:
 ######### countryname
 MIT_despotism:0 "Kingdom of Mithairmar"
 MIT_despotism_DEF:0 "The Kingdom of Mithairmar"
@@ -31,6 +30,14 @@ MIT_divided_army_2_desc:0 "woops"
 MIT_slow_modernisation:0 "Slow Modernisation"
 MIT_slow_modernisation_desc:0 "slow but steady"
 
+MIT_red_parliement:0 "A Popular Parliement"
+MIT_red_parliement_desc:0 "only socialist party from socdem to commie are allowed"
+
+MIT_by_my_will:0 "By Her Majesty Will"
+MIT_by_my_will_desc:0 "gaslight girlboss gatekeep the parliement!"
+
+MIT_encourage_charity:0 "Encouraged Charity"
+MIT_encourage_charity_desc:0 "Encouraged Charity"
 ### LEADER DESC
 MIT_regency_desc:0 "test (fuck)"
 
@@ -50,6 +57,9 @@ MIT_technocracy_party_long:0 "Illdyast Group"
 MIT_theocracy_party:0 "Church Of The 7"
 MIT_theocracy_party_long:0 "Church Of The 7"
 
+
+MIT_legal_rev_part:0 "HMPP"
+MIT_legal_rev_part_long:0 "Her Majesty People Party"
 ############################ FOCUS TREE #################################
 MIT_the_20_point_manifesto:0 "The 20 Point Manifesto"
 MIT_the_20_point_manifesto_desc:0 ""
@@ -289,3 +299,16 @@ MIT.12.t: "A Family Talk"
 MIT.12.d: "Alarica (legitimate heiress) and Waldron (her brother who's more popular) talk about the throne around a game of chess.  Waldron try to convince his sister that she will be in dangers in her reign"
 MIT.12.a: "Our father corpse is not even burried and you worry about the throne?"
 MIT.12.b: "You are right...I should step down"
+
+MIT.13.t: "Deal With The Red Devil"
+MIT.13.d: "queen meet with some socialist parties leader who basicallyare "ok we good now""
+MIT.13.a: "A sheep in wolf clothing..."
+
+MIT.14.t: "On The Palace Balcony"
+MIT.14.d: ""
+MIT.14.a: "...Long Live The Kingdom"
+#######Custom Tooltip
+MIT_tooltip.1:0 "§RAlarica will ascend to the throne"
+MIT_tooltip.2:0 "§bWaldron wiill ascend to the throne"
+MIT_tooltip.3:0 "Our recent sprint towards technological singularity allowed us to discover the path towards immortality"
+MIT_tooltip.4:0 "We will unlock decisions regarding our queen heir issue"
