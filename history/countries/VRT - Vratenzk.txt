@@ -4,7 +4,7 @@ oob = "standard_templates"
 
 # Starting tech
 
-set_research_slots = 2
+set_research_slots = 3
 
 set_technology = {
 	primitive_firearms = 1
@@ -54,6 +54,16 @@ add_equipment_to_stockpile = {
 add_equipment_to_stockpile = {
     type = logistic_vehicle_system_equipment
     amount = 170
+    producer = VRT
+}
+add_equipment_to_stockpile = {
+    type = multirole_fighter
+    amount = 100
+    producer = VRT
+}
+add_equipment_to_stockpile = {
+    type = aerial_coverage_unit
+    amount = 100
     producer = VRT
 }
 
@@ -115,4 +125,10 @@ create_corps_commander = {
 	defense_skill = 4
 	planning_skill = 6
 	logistics_skill = 4
+}
+
+add_ideas = {
+	new_age
+	kaiserlike_lugmag
+	VRT_nation_building
 }

@@ -220,4 +220,16 @@ spriteTypes = {
 		name = "GFX_idea_FHI_righteous_militias"
 		texturefile = "gfx/interface/ideas/FHI_righteous_militias.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_kaiserlike"
+		texturefile = "gfx/interface/ideas/kaiserlike.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_new_age"
+		texturefile = "gfx/interface/ideas/new_age.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_VRT_nation_building"
+		texturefile = "gfx/interface/ideas/nation_building.dds"
+	}
 }

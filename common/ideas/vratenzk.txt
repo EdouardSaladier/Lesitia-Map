@@ -1,0 +1,106 @@
+ideas = {
+
+	country = {
+		
+		new_age = {
+			picture = new_age
+			
+			allowed = { 
+			    tag = VRT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    stability_factor = 0.1
+				war_stability_factor = 0.1
+				surrender_limit = 0.3
+				local_resources_factor = 0.2
+				monthly_population = 0.2
+				army_morale_factor = 0.2
+				army_org_regain = 0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.2
+				resistance_activity = 0.4
+			}
+		}
+		
+		VRT_nation_building = {
+			picture = VRT_nation_building
+			
+			allowed = { 
+			    tag = VRT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    war_support_factor = -0.2
+				political_power_factor = -0.1
+				conscription_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.1
+				offensive_war_stability_factor = -0.3
+				stability_factor = -0.1
+				army_attack_factor = -0.1
+				army_attack_speed_factor = -0.1
+				production_speed_industrial_complex_factor = -0.1
+				supremacism_drift = 0.03
+				supremacism_acceptance = 50
+			}
+		}
+		
+		kaiserlike_lugmag = {
+			picture = kaiserlike
+			
+			allowed = { 
+			    tag = VRT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				air_volunteer_cap = 500
+				air_fuel_consumption_factor = -0.2
+				no_supply_grace = 60
+				supply_consumption_factor = -0.3
+				supply_factor = 0.2
+				extra_paratrooper_supply_grace = 96
+				production_speed_air_base_factor = 0.5 
+				industry_air_damage_factor = -0.3
+				tech_air_damage_factor = -0.1
+				experience_gain_air = 0.05
+				air_superiority_bonus_in_combat = 0.5
+			}
+		}
+	}
+}
