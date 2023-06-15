@@ -128,6 +128,83 @@ ideas = {
 				drift_defence_factor = -0.5
 			}
 		}
+		MIT_divided_army_3 = {
+			picture = idea_generic_army_problems
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.1
+				drift_defence_factor = 0.2
+			}
+		}
+		MIT_divided_army_4 = {
+			picture = idea_generic_army_problems
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.3
+				military_leader_cost_factor = -0.5
+				production_speed_arms_factory_factor = 0.2
+			}
+		}
+
+		MIT_divided_army_5 = {
+			picture = idea_generic_army_problems
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.1
+				supremacism_drift = 0.2
+				stability_factor = -0.1
+				war_support_weekly = 0.01
+			}
+		}
+
 		MIT_deal_strikers = {
 			picture = idea_raj_risk_of_famine
 			
@@ -255,6 +332,30 @@ ideas = {
 				local_resources_factor = 0.2
 				offensive_war_stability_factor = 0.1
 				political_power_gain = 0.1
+			}
+		}
+		MIT_crowning_ceremony = {
+			picture = idea_raj_risk_of_famine
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				political_power_gain = -0.1
 			}
 		}
 	}

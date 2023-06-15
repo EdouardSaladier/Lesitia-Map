@@ -10,27 +10,41 @@ MIT_politic_queen = {
 	add_ideas = 
 	}
 	
-	MIT_ = {
+	MIT_marry_fhyreanta_noble = {
 	cost = 75
 	add_ideas =
 		}
 
-	MIT = {
+	MIT_scary_ass_experiment = {
 	cost = 75
-	add_ideas =
-		}
-
-
-	MIT = {
-	cost = 75
-	add_ideas =
+#	add_ideas =
 		visible = {
 			has_completed_focus = MIT_a_technocatharsis
 			}
 		custom_effect_tooltip = MIT_tooltip.3
 #		hidden_effect = {
 #				yghh
-#			}
-		}
+#		}
+	}
+}
+MIT_technoesoterecism = {
+	
+	MIT_psychosphere = {
+	cost = 75
+	}
+	
+	MIT_occult_research = {
+	cost = 75
+	}
+	
+	MIT_genetic_progress = {
+	cost = 75
+	}
+
+	MIT_non_euclidian_theory = {
+	cost = 75
+	}
+	MIT_project_synth_perfection = {
+	cost = 75
 	}
 }

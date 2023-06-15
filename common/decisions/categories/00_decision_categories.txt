@@ -38,10 +38,20 @@ FHI_police_decisions = {
 	}
 }
 
-MIT_decisions= {
+MIT_politic_queen = {
 	icon = military_operation
 	
 	allowed = {
         tag = MIT
+        has_completed_focus = MIT_red_and_blue_blood
+    }
+}
+
+MIT_technoesoterecism = {
+	icon = military_operation
+	
+	allowed = {
+        tag = MIT
+        has_completed_focus = MIT_a_technocatharsis
     }
 }

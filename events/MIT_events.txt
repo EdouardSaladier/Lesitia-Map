@@ -227,3 +227,57 @@ country_event = {
 		}
 	}
 }	
+
+country_event = {
+	id = MIT.15
+	title = MIT.15.t
+	desc = MIT.15.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.15.a
+			hidden_effect = {
+		complete_national_focus = MIT_the_return_of_the_king
+		}
+	}
+	option = { 
+		name = MIT.15.b
+		set_politics = {
+		ruling_party = democracy
+		elections_allowed = no
+		}
+		hidden_effect = {
+		complete_national_focus = MIT_the_parliement_demand
+		}
+	}
+}
+
+country_event = {
+	id = MIT.16
+	title = MIT.16.t
+	desc = MIT.16.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.16.a
+			swap_ideas = {
+    		remove_idea = MIT_divided_army
+    		add_idea = MIT_divided_army_4
+			}
+	}
+	option = { 
+		name = MIT.16.b
+		set_politics = {
+		ruling_party = supremacism
+		elections_allowed = no
+		}
+		swap_ideas = {
+    	remove_idea = MIT_divided_army
+    	add_idea = MIT_divided_army_5
+		}
+	}
+}

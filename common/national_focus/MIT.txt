@@ -611,7 +611,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		custom_effect_tooltip = MIT_tooltip.4
+		custom_effect_tooltip = MIT_tooltip.5
 		}
 	}
 
@@ -662,6 +662,9 @@ focus_tree = {
 		prerequisite = { focus = MIT_the_great_proclamation }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		remove_ideas = MIT_slow_modernisation
 		}
 	}
 
@@ -897,6 +900,17 @@ focus_tree = {
 			focus = MIT_empower_the_militaries 
 			focus = MIT_sideline_extremist_elements 
 		}
+		completion_reward = {
+		add_popularity = {
+		ideology = revolutionarism
+		popularity = -0.15
+		}
+		add_popularity = {
+		ideology = democracy
+		popularity = -0.15
+		}
+
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -940,6 +954,12 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = MIT_promote_ultrapatriotism }
 		mutually_exclusive = { focus = MIT_empower_the_militaries }
+		completion_reward = {
+			swap_ideas = {
+    		remove_idea = MIT_divided_army
+    		add_idea = MIT_divided_army_3
+			}
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -955,6 +975,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = MIT_promote_ultrapatriotism }
 		mutually_exclusive = { focus = MIT_sideline_extremist_elements }
+		completion_reward = {
+		country_event = { id = MIT.16 }
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -985,6 +1008,9 @@ focus_tree = {
 		prerequisite = { focus = MIT_reinforce_the_executive }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		remove_ideas = MIT_slow_modernisation
 		}
 	}
 
@@ -1077,6 +1103,9 @@ focus_tree = {
 		prerequisite = { 
 			focus = MIT_a_glorious_ceremony 
 		}
+		completion_reward = {
+			country_event = { id = MIT.15 }
+			}
 		ai_will_do = {
 			factor = 1
 		}
@@ -1213,6 +1242,10 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MIT_heavy_lie_the_crown }
+		completion_reward = {
+		add_timed_idea = { idea = MIT_crowning_ceremony  days = 180 }
+		add_stability = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -1229,6 +1262,10 @@ focus_tree = {
 		prerequisite = { focus = MIT_heavy_lie_the_crown }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		#add 2 economic advisors
+		add_stability = 0.01
 		}
 	}
 

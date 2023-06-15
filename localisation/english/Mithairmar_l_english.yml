@@ -4,6 +4,18 @@ MIT_despotism:0 "Kingdom of Mithairmar"
 MIT_despotism_DEF:0 "The Kingdom of Mithairmar"
 MIT_despotism_ADJ:0 "Mithairmarian"
  
+MIT_democracy:0 "Kingdom of Mithairmar"
+MIT_democracy_DEF:0 "The Kingdom of Mithairmar"
+MIT_democracy_ADJ:0 "Mithairmarian"
+
+MIT_supremacism:0 "Kingdom of Mithairmar"
+MIT_supremacism_DEF:0 "The Kingdom of Mithairmar"
+MIT_supremacism_ADJ:0 "Mithairmarian"
+
+MIT_hegemony_supremacism:0 "Hegemony of Mithairmar"
+MIT_hegemony_supremacism_DEF:0 "The Hegemony of Mithairmar"
+MIT_hegemony_supremacism_ADJ:0 "Mithairmarian"
+
 MIT_revolutionarism:0 "People's Kingdom of Mithairmar"
 MIT_revolutionarism_DEF:0 "The People's of Mithairmar"
 MIT_revolutionarism_ADJ:0 "Mithairmarian"
@@ -38,6 +50,18 @@ MIT_by_my_will_desc:0 "gaslight girlboss gatekeep the parliement!"
 
 MIT_encourage_charity:0 "Encouraged Charity"
 MIT_encourage_charity_desc:0 "Encouraged Charity"
+
+MIT_crowning_ceremony:0 "Crowning Ceremony Spending"
+MIT_crowning_ceremony_desc:0 ""
+
+MIT_divided_army_3:0 "Law Of Antipolic in the mil idk how to call it"
+MIT_divided_army_3_desc:0 ""
+
+MIT_divided_army_4:0 "Token Army Conscesion"
+MIT_divided_army_4_desc:0 ""
+
+MIT_divided_army_5:0 "Empowered Patriotic High Command"
+MIT_divided_army_5_desc:0 ""
 ### LEADER DESC
 MIT_regency_desc:0 "test (fuck)"
 
@@ -307,8 +331,35 @@ MIT.13.a: "A sheep in wolf clothing..."
 MIT.14.t: "On The Palace Balcony"
 MIT.14.d: ""
 MIT.14.a: "...Long Live The Kingdom"
+
+MIT.15.t: "The Parliement Demand"
+MIT.15.d: ""
+MIT.15.a: "Perhaps the first 5 times weren't enough..."
+MIT.15.b: "Fine! Have it your way!"
+
+MIT.16.t: "Militaries IN The Parliement?"
+MIT.16.d: ""
+MIT.16.a: "Create a facade-party for the army and let ir run"
+MIT.16.b: "A strong army for a strong nation!"
 #######Custom Tooltip
 MIT_tooltip.1:0 "§RAlarica will ascend to the throne"
 MIT_tooltip.2:0 "§bWaldron wiill ascend to the throne"
 MIT_tooltip.3:0 "Our recent sprint towards technological singularity allowed us to discover the path towards immortality"
 MIT_tooltip.4:0 "We will unlock decisions regarding our queen heir issue"
+MIT_tooltip.5:0 "MARRIAGE MECHANIC BABEEEEYYY"
+
+###Decision
+MIT_politic_queen:0 "Choose A Consort"
+
+MIT_scary_ass_experiment:0 "Project Aeternum"
+MIT_marry_local_noble:0 "Marry A Local Noble"
+MIT_marry_southern_noble:0 "Marry A Southern Noble"
+MIT_marry_fhyreanta_noble:0 "Marry A Fhyreanta Noble"
+
+
+MIT_technoesoterecism:0 "Unusual Project Division"
+MIT_psychosphere:0 "Psychosphere Research"
+MIT_occult_research:0 "Dig the old archieve"
+MIT_genetic_progress:0 "Genetic Reconstruction Project"
+MIT_non_euclidian_theory:0 "Non Euclidian Theory"
+MIT_project_synth_perfection:0 "Project Heart Of Iron"
