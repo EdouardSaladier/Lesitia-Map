@@ -77,8 +77,8 @@ HAI = {
 	color_ui = rgb { 100 71 150 }
 }
 VRT = {
-	color = rgb { 161 101 153 }
-	color_ui = rgb { 161 101 153 }
+	color = rgb { 68 38 65 }
+	color_ui = rgb { 68 38 65 }
 }
 FHI = {
 	color = rgb { 198 167 83 }

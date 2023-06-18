@@ -9,6 +9,7 @@ state={
 		}
 		owner = FHI
 		add_core_of = FHI
+		add_claim_by = VRT
 		set_variable = { majority = 49 }
 		victory_points = {
 			14412 5

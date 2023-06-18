@@ -69,22 +69,23 @@ add_equipment_to_stockpile = {
 
 
 set_politics = {
-	ruling_party = supremacism
+	ruling_party = despotism
 	last_election = "3374.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	supremacism = 90
-	democracy = 5
-	corporatism = 5
+	supremacism = 20
+	democracy = 10
+	corporatism = 0
+	despotism = 70
 }
 
 create_country_leader = {
 	name = "Vera Triansbuer"
 	desc = "VRT_vera_desc"
 	picture = "portrait_vera_trian.dds"
-	ideology = supremacism_type 
+	ideology = despotism_type 
 }
 
 create_field_marshal = {
@@ -132,3 +133,5 @@ add_ideas = {
 	kaiserlike_lugmag
 	VRT_nation_building
 }
+
+give_guarantee = AVN
