@@ -21,33 +21,19 @@ FHI_supremacism_party_long:0 "Gluasad an Aiseirigh (Resurrection Movement)"
 FHI_democracy_party:0 "DnSG"
 FHI_democracy_party_long:0 "Dòigh na Smuain Ghlan (Way of the Pure Thought)"
 
-FHI_technocracy_party:0 "CLE"
+FHI_technocracy_party:0 "Cm. LE"
 FHI_technocracy_party_long:0 "Coimisean Leasachaidh Eaconamach (Economic Development Commission)"
 
-FHI_theocracy_party:0 "Coimisean Rèiteachaidh"
+FHI_theocracy_party:0 "Cm. Rèiteachaidh"
 FHI_theocracy_party_long:0 "Coimisean Rèiteachaidh (Arbitration Commission)"
 
-FHI_unclassified_party:0 "Caraidean"
-FHI_unclassified_party_long:0 "Caraidean Rheol (Friends of Rheol)"
+FHI_unclassified_party:0 "PD Arnfreyr"
+FHI_unclassified_party_long:0 "Pàrtaidh Dìleab Arnfreyr (Legacy of Arnfreyr Party)"
 
 ###Ideas
 FHI_the_oath:0 "Còd Lagha"
 FHI_contested_commission:0 "Contested Arbitration Commission"
 FHI_contested_commission_2:0 "Contested Arbitration Commission"
-
-FHI_aiseirigh_rising:0 "Aiseirigh Rising"
-FHI_aiseirigh_threat:0 "Aiseirigh Threat"
-FHI_imminent_aiseirigh_threat:0 "Imminent Aiseirigh Threat"
-FHI_working_with_aiseirigh:0 "Working With Aiseirigh"
-FHI_aiseirigh_security_forces:0 "Aiseirigh Security Forces"
-FHI_aiseirigh_out_of_control:0 "Aiseirigh Out Of Control"
-
-FHI_secularist_newspapers:0 "Secularist Newspapers"
-FHI_protesting_newspapers:0 "Protesting Newspapers"
-FHI_dissident_newspapers:0 "Dissident Newspapers"
-FHI_working_with_the_secularists:0 "Working With The Secularists"
-FHI_secularist_propaganda:0 "Secularist Propaganda"
-FHI_unchecked_secularist_influence:0 "Unchecked Secularist Influence"
 
 FHI_security_directorate:0 "Security Directorate"
 FHI_security_directorate_controlled:0 "Security Directorate under Control"
@@ -65,99 +51,7 @@ FHI_reinforce_the_solenrenc_border:0 "Reinforce the Solenrenc Border"
 
 FHI_the_great_consultation:0 "The Great Consultation"
 
-FHI_keep_the_faith_united:0 "Keep the Faith United"
-FHI_keep_the_faith_united_tt:0 "We will focus on fighting both the Aiseirigh and the Secularist movements without allying with any side."
-FHI_concession_to_the_private_sector:0 "Concession to the Private Sector"
-FHI_award_infrastructure_projects:0 "Award Infrastructure Projects"
-FHI_establish_the_religious_council:0 "Establish the Religious Council"
-FHI_extent_councilors_power:0 "Extent Councilor's Power"
-FHI_close_down_the_security_commission:0 "Close down the Security Commission"
-
-FHI_work_with_the_industrialists:0 "Work with the Industrialists"
-FHI_remove_religious_obligations:0 "Remove Religious Hiring Obligations"
-FHI_media_connections:0 "Media Connections"
-FHI_promote_secular_education:0 "Promote Secular Education"
-FHI_smearing_campaign_against_aiseirigh:0 "Smearing Campaign against Aiseirigh"
-
-FHI_use_aiseirigh:0 "Use the Aiseirigh movement"
-FHI_use_aiseirigh_tt:0 "The §GAiseirigh movement§! will join our government in a coalition.\n§GCoalition mechanic:§! §YIn a coalition, the party popularities of all parties count towards the party popularity stability bonus§!\n§RHowever, as long as they are in a coalition with us, they will use their influence in the government to gain more popularity!§!"
-FHI_anti_parasite_protests:0 "Anti-Parasite Protests"
-FHI_seize_secular_assets:0 "Seize Secular Assets"
-FHI_underground_education:0 "Underground Education"
-FHI_divine_inspiration:0 "Divine Inspiration"
-FHI_self_defense_militias:0 "Establish the Tèarmannairean Militias"
-
-FHI_contact_the_security_commission:0 "Contact the Public Security Directorate"
-FHI_contact_the_security_commission_tt:0 "The §gPublic Security Directorate§! will join our government in a coalition.\n§GCoalition mechanic:§! §YIn a coalition, the party popularities of all parties count towards the party popularity stability bonus§!"
-FHI_establish_an_oversight_committee:0 "Establish an Oversight Committee"
-FHI_establish_an_oversight_committee_tt:0 "We will establish an Oversight Committee to make sure the Security Directorate act according to the constitution.\n§YNo matter what happens, the Security Directorate will be unable to coup the government.§!\n§RHowever, this will severely limit its ability to act against extremist movements.§!"
-FHI_peace_preservation_laws:0 "The Peace Preservation Law"
-FHI_peace_preservation_laws_tt:0 "We will draft a new legistlation aimed at fighting the enemies of our state.\n§YDepending on the content of the law, we will be able to choose whether Aiseirigh, the Secularists or both §! §Rare considered terrorists organizations§! §Yor not, to§! §Rprosecute heresy§! §Yor not, and whether the Security Directorate§! §Rrequires arrest warrants§! §Yor not.§!\n§RBetraying out coalition allies will break the coalition immediately§!"
-FHI_establish_the_righteous_militia:0 "Establish the Righteous Militias of Peace and Justice"
-FHI_establish_the_righteous_militia_tt:0 "We will establish a militia directly under the control of the Abitration Commission, a perfectly loyal force which will never threaten our stability.\n§YOnce there is no longer any threat to our rule, it will be disbanded and integrated within the regular police forces.§!"
-FHI_prosecute_extremism:0 "Prosecute Political Extremism"
-FHI_prosecute_extremism_tt:0 "Using the new §YPeace Preservation Law§!, we will be able to prosecute our political enemies and remove their ability to threaten us once and for all!"
-FHI_bring_back_iomarach:0 "Bring back Iomarach"
-FHI_bring_back_iomarach_tt:0 "We will give the Security Commission all the power it needs to fight extremism effectively.\n§YNo matter what happens, the Security Directorate will be able to prevent extremist movements from overthrowing the governement.§!\n§RHowever, without any supervision the Security Directorate cannot be controlled.§!"
-FHI_political_immunity_act:0 "Political Immunity Act"
-FHI_purge_aiseirigh:0 "Purge Aiseirigh"
-FHI_purge_aiseirigh_tt:0 "§YWe will purge the Aiseirigh leaders, to destroy the movement once and for all!§!\n§RIf Aiseirigh has not been properly weakened before, you will suffer a stability hit!§!"
-FHI_neutralise_the_oligarchs:0 "Neutralise the Oligarchs"
-FHI_neutralise_the_oligarchs_tt:0 "§YWe will pre-emptively arrest the oligarchs and seize their assets, to destroy the Secularist movement definitely!§!\n§RIf the Secularists have not been properly weakened before, you will suffer a stability hit!§!"
-
-FHI_security_commission:0 "Provisional Public Safety Ordinance"
-FHI_more_than_a_commission:0 "More than a Commission"
-FHI_a_new_secular_state:0 "A New Secular State"
-FHI_the_special_assembly:0 "The Special Assembly"
-
-###Decisions
-FHI_arbitration_commission_contested:0 "Arbitration Commission Contested"
-FHI_rise_of_aiseirigh:0 "The Rise of Aiseirigh"
-FHI_police_decisions:0 "Use the Security Directorate"
-FHI_prosecute_heresy:0 "Prosecute acts of Heresy"
-FHI_give_prosecution_mandates_against_aiseirigh:0 "Give prosecution mandates against Aiseirigh"
-FHI_order_mass_arrestations_against_aiseirigh:0 "Order mass arrestations against Aiseirigh"
-FHI_order_mass_arrestations_against_aiseirigh_tt:0 "§RAlthough we can arrest them without a mandate, we will get a stability penality if we arrest them without legistlation backing up the arrestations!§!"
-FHI_secret_operations_against_aiseirigh:0 "Secret Operations against Aiseirigh"
-FHI_close_down_aiseirigh:0 "Close down Aiseirigh"
-FHI_give_prosecution_mandates_against_secularists:0 "Give prosecution mandates against Secularists"
-FHI_order_mass_arrestations_against_secularists:0 "Order mass arrestations against Secularists"
-FHI_order_mass_arrestations_against_secularists_tt:0 "§RAlthough we can arrest them without a mandate, we will get a stability penality if we arrest them without legistlation backing up the arrestations!§!"
-FHI_secret_operations_against_secularists:0 "Secret Operations against Secularists"
-FHI_close_down_secularists:0 "Close down the Secularists movement"
-
-#Country flags
-aiseirigh_over:0 "§YAiseirigh is no longer a threat§!"
-secularists_over:0 "§YSecularists are no longer a threat§!"
-fhireanta_initial_over:0 "§YThe political crisis is over§!"
-heresy_prosecuted:0 "Heresy is liable for prosecution"
-heresy_not_prosecuted:0 "Heresy is not liable for prosecution"
-mandate_not_required:0 "Arrestations are possible without an arrest warrant"
-mandate_required:0 "Arrest warrants are required for arrestation"
-aiseirigh_terrorist:0 "§RAiseirigh has committed acts of terrorism§!"
-anti_dissent:0 "We have implemented anti-dissenter legistlation"
-anti_extremism:0 "We have implemented anti-extremist legistlation"
-anti_terrorism:0 "We have implemented anti-terrorist legistlation"
-
 ###Events
-
-FHI.10.t.0 "Aiseirigh Denounces our Government"
-FHI.10.d:0 "."
-
-FHI.11.t:0 "Aiseirigh Establish Their Own Courts of Justice"
-FHI.11.d:0 "In a direct challenge to our commission, members of the Aiseirigh movement decided to create their own courts of justice. Hardly following a proper interpretation of the Còd Lagha, their so-called courts of justice are nothing but tools for Aiseirigh to legitimise illegal lynchings. Nevertheless, despite the total illegitimacy of these courts, they are gaining widespread support among the rural population. Many are starting to question the legitimacy of our authority, and it is imperative to restore order as soon as possible before the situation deteriorates any further."
-FHI.11.a:0 "Launch a mediatic campaign against these lynchings."
-FHI.11.b:0 "Send the Security Directorate dismantle these fake courts."
-FHI.11.c:0 "Make the judges \"dissapear\". The rest will understand."
-FHI.11.d:0 "The righteous militias shall deal with these heretical courts."
-FHI.11.e:0 "Excommuniate anyone taking part in these illegitimate courts."
-FHI.11.f:0 "Unfortunately, there is nothing we can do."
-
-
-
-FHI.13.t:0 "Aiseirigh attacks our meetings"
-FHI.13.d:0 "As our local representatives were discussing the latest developments in the country, a group of supremacists stormed into the room, brandishing weapons and shouting obscenities. They demanded that the Arbitration Commission take action against the secularists and their supporters, claiming that they are spreading heresy and corrupting the faith. The representatives tried in vain to reason with them, but they continued to shout and throw objects at us, causing chaos and disrupting the meeting. The Security Directorate forces finally came and restored order, but the damage has been done and videos of the whole incidents are already circulating in the whole country."
-FHI.13.a:0 ""
 
 
 #Law

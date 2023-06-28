@@ -5,6 +5,11 @@ spriteTypes = {
 		name = "GFX_dialogue_bg1"
 		texturefile = "gfx/interface/dialogue_system/backgrounds/bg1.dds"
 	}
+
+	spriteType = {
+		name = "GFX_dialogue_bg2"
+		texturefile = "gfx/interface/dialogue_system/backgrounds/bg2.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_dialogue_char0"

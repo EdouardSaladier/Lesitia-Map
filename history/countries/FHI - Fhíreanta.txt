@@ -60,10 +60,6 @@ set_technology = {
 set_convoys = 20
 
 add_ideas = {
-    FHI_the_oath
-	FHI_contested_commission
-	FHI_aiseirigh_rising
-	FHI_secularist_newspapers
 }
 
 # Starting trucks & trains

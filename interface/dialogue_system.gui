@@ -25,7 +25,7 @@ guiTypes = {
 		
 		iconType = {
 			name ="dialogue_bg1"
-			spriteType = "GFX_dialogue_bg1"
+			spriteType = "GFX_dialogue_bg2"
 			position = { x=0 y=0 }
 			alwaystransparent = yes
 		}
@@ -44,8 +44,8 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "dialogue_system_char_left_container"
-		position = { x = -540 y = -254 }
-		size = { width = 340 height = 612 }
+		position = { x = -620 y = -254 }
+		size = { width = 480 height = 612 }
 		orientation = center
  
 		background = {
@@ -63,8 +63,8 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "dialogue_system_char_right_container"
-		position = { x = 200 y = -254 }
-		size = { width = 340 height = 612 }
+		position = { x = 160 y = -254 }
+		size = { width = 480 height = 612 }
 		orientation = center
  
 		background = {
