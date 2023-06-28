@@ -20,10 +20,10 @@ set_politics = {
 set_popularities = {
 	revolutionarism = 10
 	technocracy = 0
-	democracy = 24
+	democracy = 34
 	despotism = 40
 	theocracy = 7
-	corporatism = 17
+	corporatism = 7
 	supremacism = 2
 	unclassified = 0
 }

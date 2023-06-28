@@ -531,11 +531,14 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = MIT_red_and_blue_blood
 			focus = MIT_tie_the_loose_end
+			focus = MIT_rule_by_prestige_and_respect
 		}
 		prerequisite = { 
-			focus = MIT_rule_by_prestige_and_respect
+			focus = MIT_red_and_blue_blood
+		}
+		completion_reward = {
+		custom_effect_tooltip = MIT_tooltip.7
 		}
 		ai_will_do = {
 			factor = 1
@@ -698,6 +701,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			swap_ideas = { 
+  			remove_idea = MIT_divided_army
+  			add_idea = MIT_divided_army_6
+			}
+		}
 	}
 
 	#Focus for Tie The Loose End
@@ -712,6 +721,10 @@ focus_tree = {
 		mutually_exclusive = { focus = MIT_rule_by_prestige_and_respect }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		remove_ideas = MIT_divided_army
+		country_event = { id = MIT.18 }
 		}
 	}
 
@@ -992,6 +1005,9 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MIT_from_nobles_to_governor }
+		completion_reward = {
+		add_ideas = MIT_strong_executive
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -1072,6 +1088,9 @@ focus_tree = {
 		prerequisite = { focus = MIT_modernise_the_institutions }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		custom_effect_tooltip = MIT_tooltip.6
 		}
 	}
 
@@ -1420,6 +1439,13 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MIT_the_return_of_the_king }
+		completion_reward = {
+		add_stability = 0.1
+		add_popularity = {
+		ideology = democracy
+		popularity = -0.15
+		}
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -1452,6 +1478,13 @@ focus_tree = {
 		}
 		prerequisite = { 
 			focus = MIT_the_virtues_of_generosity_and_compassion 
+		}
+		completion_reward = {
+		add_popularity = {
+		ideology = revolutionarism
+		popularity = 0.15
+		}
+		country_event = { id = MIT.17 }
 		}
 		ai_will_do = {
 			factor = 1

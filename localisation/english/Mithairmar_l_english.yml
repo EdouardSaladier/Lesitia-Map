@@ -33,6 +33,9 @@ MIT_dummy_desc:0 "Dummy ideas description"
 MIT_looming_famine:0 "Looming Famine"
 MIT_looming_famine_desc:0 "no quite a famine but let's try to avoid it"
 
+MIT_looming_famine_2:0 "Wanning Famine"
+MIT_looming_famine_2_desc:0 "situation solved!!!"
+
 MIT_divided_army:0 "Divided And Politicised Army"
 MIT_divided_army_desc:0 "IJA larp or republican great trial"
 
@@ -62,6 +65,12 @@ MIT_divided_army_4_desc:0 ""
 
 MIT_divided_army_5:0 "Empowered Patriotic High Command"
 MIT_divided_army_5_desc:0 ""
+
+MIT_divided_army_6:0 "Manipulated High Command"
+MIT_divided_army_6_desc:0 ""
+
+MIT_strong_executive:0 "Strong Executive"
+MIT_strong_executive_desc:0 ""
 ### LEADER DESC
 MIT_regency_desc:0 "test (fuck)"
 
@@ -341,12 +350,22 @@ MIT.16.t: "Militaries IN The Parliement?"
 MIT.16.d: ""
 MIT.16.a: "Create a facade-party for the army and let ir run"
 MIT.16.b: "A strong army for a strong nation!"
+
+MIT.17.t: "Embracing Modernity And Tradition"
+MIT.17.d: ""
+MIT.17.a: "Long Live The Revolutionary Kingdom"
+
+MIT.18.t: "The 20 Minute Trials"
+MIT.18.d: ""
+MIT.18.a: "A Swift End"
 #######Custom Tooltip
-MIT_tooltip.1:0 "§RAlarica will ascend to the throne"
-MIT_tooltip.2:0 "§bWaldron wiill ascend to the throne"
+MIT_tooltip.1:0 "Alarica will ascend to the throne"
+MIT_tooltip.2:0 "Waldron wiill ascend to the throne"
 MIT_tooltip.3:0 "Our recent sprint towards technological singularity allowed us to discover the path towards immortality"
 MIT_tooltip.4:0 "We will unlock decisions regarding our queen heir issue"
 MIT_tooltip.5:0 "MARRIAGE MECHANIC BABEEEEYYY"
+MIT_tooltip.6:0 "We will unlock decisions regarding technological project"
+MIT_tooltip.7:0 "We Will Gain Access To Diplomcy And Conquest Decisions"
 
 ###Decision
 MIT_politic_queen:0 "Choose A Consort"

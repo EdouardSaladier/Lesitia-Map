@@ -1,4 +1,4 @@
-﻿add_namespace = MIT
+add_namespace = MIT
 
 country_event = {
 	id = MIT.1
@@ -88,8 +88,11 @@ country_event = {
 
 	option = { 
 		name = MIT.6.a
-    		remove_idea = MIT_looming_famine
-    		add_idea = MIT_looming_famine_2
+    		remove_ideas = MIT_looming_famine
+  			add_timed_idea = {
+   			idea = MIT_looming_famine_2
+    		days = 120
+		}
 	}
 }
 
@@ -279,5 +282,34 @@ country_event = {
     	remove_idea = MIT_divided_army
     	add_idea = MIT_divided_army_5
 		}
+	}
+}
+
+country_event = {
+	id = MIT.17
+	title = MIT.17.t
+	desc = MIT.17.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.17.a
+#			hidden_effect = {
+# prob worldwild rev drift for 10-20 day	
+#		}
+	}
+}
+
+country_event = {
+	id = MIT.18
+	title = MIT.18.t
+	desc = MIT.18.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.18.a
 	}
 }

@@ -204,7 +204,31 @@ ideas = {
 				war_support_weekly = 0.01
 			}
 		}
+		MIT_divided_army_6 = {
+			picture = idea_generic_army_problems
+			
+			allowed = { 
+			    tag = MIT
+            }
 
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				revolutionarism_drift = 0.1
+				political_power_gain = 0.1
+				drift_defence_factor = -0.2
+			}
+		}
 		MIT_deal_strikers = {
 			picture = idea_raj_risk_of_famine
 			
@@ -356,6 +380,31 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.1
 				political_power_gain = -0.1
+			}
+		}
+		MIT_strong_executive = {
+			picture = idea_raj_risk_of_famine
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.1
+				stability_factor = 0.1
+				drift_defence_factor = 0.1
 			}
 		}
 	}
