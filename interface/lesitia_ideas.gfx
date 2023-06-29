@@ -232,4 +232,16 @@ spriteTypes = {
 		name = "GFX_idea_VRT_nation_building"
 		texturefile = "gfx/interface/ideas/nation_building.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_MIT_slow_modernisation"
+		texturefile = "gfx/interface/ideas/slow_modernisation.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_MIT_looming_famine"
+		texturefile = "gfx/interface/ideas/looming_famine.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_MIT_divided_army"
+		texturefile = "gfx/interface/ideas/divided_army.dds"
+	}
 }

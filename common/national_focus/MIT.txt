@@ -72,6 +72,9 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MIT_the_old_block_stand }
+		completion_reward = {
+		set_cosmetic_tag = MIT_warstate
+		}
 		ai_will_do = {
 			factor = 1
 		}

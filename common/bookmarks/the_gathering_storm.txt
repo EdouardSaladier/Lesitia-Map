@@ -82,8 +82,14 @@ bookmarks = {
 			history = "MIT_GATHERING_STORM_DESC"
 			ideology = democracy
 			ideas = {
+			MIT_looming_famine
+			MIT_divided_army
+			MIT_slow_modernisation
 			}
 			focuses = {
+			MIT_iudans_raudata
+			MIT_the_first_election
+			MIT_uncompromising_republicanism
 			}
 		}
 
