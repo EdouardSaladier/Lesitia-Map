@@ -1,0 +1,34 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+leader_traits = {
+
+	FHI_unwilling_head_of_state = {
+		random = no
+		political_power_factor = -0.1
+		stability_factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	FHI_experienced_lawyer = {
+		random = no
+		
+		economy_cost_factor = -0.25
+		civilian_consumption_cost_factor = -0.25
+		trade_laws_cost_factor = -0.25
+		export_subsidies_cost_factor = -0.25
+		laws_civ_core_food_cons_cost_factor = -0.25
+		laws_civ_non_core_food_cons = -0.25
+		mobilization_laws_cost_factor = -0.25
+		power_consumption_laws = -0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

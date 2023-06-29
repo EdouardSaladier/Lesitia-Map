@@ -22,6 +22,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = theocracy_type
+			traits={ FHI_unwilling_head_of_state FHI_experienced_lawyer }
 			expire = "4000.1.1.1"
 			id = -1
 		}
