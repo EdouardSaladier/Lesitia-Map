@@ -93,7 +93,7 @@ create_field_marshal = {
 	desc = "VRT_Vera2_desc"
 	id = 545
 	picture = "portrait_VRT_vera.dds"
-	traits = { infantry_officer urban_assault_specialist politically_connected harsh_leader }
+	traits = { infantry_officer urban_assault_specialist war_hero brilliant_strategist charismatic trickster guerilla_fighter}
 	skill = 5
 	
 	attack_skill = 6
@@ -106,13 +106,26 @@ create_corps_commander = {
 	name = "Makno Yurivez"
 	desc = "VRT_Makno_desc"
 	picture = "portrait_VRT_makno.dds"
-	traits = { organizer harsh_leader }
+	traits = { organizer trait_engineer fortress_buster organization_first }
 	skill = 3
 
 	attack_skill = 4 
 	defense_skill = 3
 	planning_skill = 5
 	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Aletta Sybella"
+	desc = "VRT_Aletta_desc"
+	picture = "portrait_VRT_aletta.dds"
+	traits = { harsh_leader infantry_leader ambusher inflexible_strategist }
+	skill = 2
+
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {

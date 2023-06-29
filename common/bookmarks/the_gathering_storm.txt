@@ -26,6 +26,9 @@ bookmarks = {
 			history = "VRT_GATHERING_STORM_DESC"
 			ideology = democracy
 			ideas = {
+			   new_age
+			   VRT_nation_building
+			   kaiserlike_lugmag
 			}
 			focuses = {
 			}
