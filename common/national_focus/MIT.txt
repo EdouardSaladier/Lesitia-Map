@@ -476,6 +476,9 @@ focus_tree = {
 		prerequisite = { 
 			focus = MIT_a_deal_with_rep_gen_name_to_put_later 
 		}
+		completion_reward = {
+		country_event = { id = MIT.20}
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -489,6 +492,9 @@ focus_tree = {
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
+		available = {
+			has_country_flag = MIT_republican_war_state
+		}
 		prerequisite = { focus = MIT_the_first_election }
 		ai_will_do = {
 			factor = 1
@@ -503,6 +509,9 @@ focus_tree = {
 		y = 1
 		cost = 5
 		available_if_capitulated = yes
+		available = {
+			has_country_flag = MIT_republican_coup
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -1212,6 +1221,9 @@ focus_tree = {
 		y = 1
 		cost = 5
 		available_if_capitulated = yes
+		available = { 
+			has_country_flag = MIT_dead_king
+		}
 		ai_will_do = {
 			factor = 1
 		}

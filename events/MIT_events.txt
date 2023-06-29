@@ -141,6 +141,9 @@ country_event = {
     		remove_idea = MIT_divided_army
     		add_idea = MIT_divided_army_2
 		}
+		hidden_effect = {
+		MIT = { country_event = { id = MIT.19 days = 21 } }
+		}	
 	}
 }
 country_event = {
@@ -166,6 +169,9 @@ country_event = {
 
 	option = { 
 		name = MIT.11.a
+		set_country_flag = MIT_dead_king
+	
+
 	}
 }	
 
@@ -311,5 +317,44 @@ country_event = {
 
 	option = { 
 		name = MIT.18.a
+	}
+}
+
+###republican coup
+country_event = {
+	id = MIT.19
+	title = MIT.19.t
+	desc = MIT.19.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.19.a
+		set_country_flag = MIT_republican_coup
+	}
+}
+
+###ELKCTIONS 
+country_event = {
+	id = MIT.20
+	title = MIT.20.t
+	desc = MIT.20.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.20.a
+	}
+	option = { 
+		name = MIT.20.b
+	}
+	option = { 
+		name = MIT.20.c
+	}
+	option = { 
+		name = MIT.20.e
+		set_country_flag = MIT_republican_war_state
 	}
 }
