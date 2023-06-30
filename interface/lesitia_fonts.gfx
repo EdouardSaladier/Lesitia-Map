@@ -1,5 +1,20 @@
 bitmapfonts = {
 	bitmapfont = {
+		name = "DejaVu14"
+		path = "gfx/fonts/DejaVu14"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "DejaVu16"
+		path = "gfx/fonts/DejaVu16"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "DejaVu18"
+		path = "gfx/fonts/DejaVu18"
+		color = 0xffffffff
+	}
+	bitmapfont = {
 		name = "DejaVu20"
 		path = "gfx/fonts/DejaVu20"
 		color = 0xffffffff
@@ -77,6 +92,51 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "LawText"
 		path = "gfx/fonts/Law_Text"
+		color = 0xff000000
+	}
+	bitmapfont = {
+		name = "Euro16"
+		path = "gfx/fonts/Euro16"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "Euro18"
+		path = "gfx/fonts/Euro18"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "Euro20"
+		path = "gfx/fonts/Euro20"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "Euro20_bs"
+		path = "gfx/fonts/Euro20_bs"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "Euro22"
+		path = "gfx/fonts/Euro22"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "Euro16b"
+		path = "gfx/fonts/Euro16"
+		color = 0xff000000
+	}
+	bitmapfont = {
+		name = "Euro18b"
+		path = "gfx/fonts/Euro18"
+		color = 0xff000000
+	}
+	bitmapfont = {
+		name = "Euro20b"
+		path = "gfx/fonts/Euro20"
+		color = 0xff000000
+	}
+	bitmapfont = {
+		name = "Euro22b"
+		path = "gfx/fonts/Euro22"
 		color = 0xff000000
 	}
 }
