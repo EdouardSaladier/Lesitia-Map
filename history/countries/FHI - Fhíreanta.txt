@@ -86,10 +86,10 @@ set_popularities = {
 	technocracy = 3
 	democracy = 5
 	despotism = 18
-	theocracy = 58
+	theocracy = 34
 	corporatism = 2
-	supremacism = 8
-	unclassified = 1
+	supremacism = 12
+	unclassified = 21
 }
 
 recruit_character = FHI_labhrann_iomharach

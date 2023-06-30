@@ -1,7 +1,56 @@
 ideas = {
 
 	country = {
-	
+		
+		FHI_security_directorate = {
+			picture = FHI_security_commission
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				drift_defence_factor = 0.5
+			}
+		}
+		
+		FHI_deglaurungirisation = {
+			picture = FHI_security_commission
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				unclassified_drift = -0.05
+			}
+		}
 		
 	}
 }

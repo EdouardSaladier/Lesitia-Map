@@ -1,1 +1,83 @@
 ﻿add_namespace = FHI
+
+country_event = { #FHI_The_Great_Consultation
+	id = FHI.1
+	title = FHI.1.t
+	desc = FHI.1.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.1.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_De_Glaurungirisation
+	id = FHI.2
+	title = FHI.2.t
+	desc = FHI.2.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.2.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_Write_a_New_History
+	id = FHI.3
+	title = FHI.3.t
+	desc = FHI.3.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.3.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+	
+	option = { #
+		name = FHI.3.b
+		ai_chance = {
+			factor = 25
+		}
+	}
+	
+	option = { #
+		name = FHI.3.c
+		ai_chance = {
+			factor = 25
+		}
+	}
+	
+	option = { #
+		name = FHI.3.e
+		ai_chance = {
+			factor = 25
+		}
+	}
+	
+	option = { #
+		name = FHI.3.f
+		ai_chance = {
+			factor = 25
+		}
+	}
+}

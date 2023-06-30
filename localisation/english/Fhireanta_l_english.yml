@@ -30,6 +30,12 @@ FHI_theocracy_party_long:0 "Coimisean Rèiteachaidh (Arbitration Commission)"
 FHI_unclassified_party:0 "PD Arnfreyr"
 FHI_unclassified_party_long:0 "Pàrtaidh Dìleab Arnfreyr (Legacy of Arnfreyr Party)"
 
+###Traits
+FHI_unwilling_head_of_state:0 "Unwilling Head of State"
+FHI_unwilling_head_of_state_desc:0 "§LThe head of the Arbitration Commission, Laomann IlleBhàin never asked to lead his country, but nevertheless had to assume the responsibility after the collapse of the Arnfreyr government. Although the Arbitration Commission's bureaucracy is mostly able to keep the state running by itself, its leader remains an inexperienced politician, and both his rule and his administration are under criticism.§!"
+FHI_experienced_lawyer:0 "Experienced Lawyer"
+FHI_unwilling_head_of_state_desc:0 "§LWhile he is far from a great politician, Laomann IlleBhàin is on the other hand a great judge and lawyer, and has a near perfect knowledge of the laws and constitution of Fhíreanta, allowing him to easily draft laws following the constitution to the letter.§!"
+
 ###Ideas
 FHI_the_oath:0 "Còd Lagha"
 FHI_contested_commission:0 "Contested Arbitration Commission"
@@ -49,10 +55,36 @@ FHI_autonomy_for_loyalty:0 "Autonomy for Loyalty"
 FHI_appoint_a_new_governor:0 "Appoint a new Governor"
 FHI_reinforce_the_solenrenc_border:0 "Reinforce the Solenrenc Border"
 
-FHI_the_great_consultation:0 "The Great Consultation"
+FHI_The_Great_Consultation:0 "The Great Consultation"
+FHI_De_Glaurungirisation:0 "De-Glaurungirisation"
+FHI_Write_a_New_History:0 "Write a New History"
+FHI_Seize_Arnfreyr_Assets:0 "Seize the Arnfreyr Assets"
+FHI_Pay_the_Protestors:0 "Pay the Protestors"
+FHI_Establish_High_Religious_Council:0 "Establish the High Religious Council"
+FHI_Offer_Them_Redemption:0 "Offer them Redemption for Loyalty"
+FHI_Secure_the_Arbitration_Rule:0 "Secure the Commission's Rule"
+FHI_Bring_Back_Iomarach:0 "Bring Back Iomarach"
+FHI_Rule_by_Decrees:0 "Rule by Decrees"
+FHI_Peace_Preservation_Law:0 "Peace Preservation Law"
+FHI_Negotiate_with_the_Industrialists:0 "Negotiate with the Industrialists"
+FHI_Raptor_Defence_Forces:0 "Raptor Public Defence Forces"
+FHI_Righteous_Militias_of_Peace_and_Justice:0 "Righteous Militias of Peace and Justice"
+FHI_Contest_the_Commission:0 "Contest the Commission's Rule"
+FHI_Anti_Parasite_Protest:0 "Anti-Parasites Protests"
+FHI_Rebar_Riots:0 "Rebar Riots"
+FHI_Establish_Militias:0 "Establish the Tèarmannairean Militias"
+FHI_Our_Own_Justice:0 "Make our Own Justice"
+FHI_Close_Down_the_Commission:0 "Close Down the Commission"
 
 ###Events
 
+FHI.3.t:0 "Writing a new History"
+FHI.3.d:0 "While we are getting rid of Glaurungir's lingering influence on our nation, it is crucial for Fhireanta to reclaim and reconstruct our true history. The centuries-long occupation by Glaurungir has resulted in the rewriting and distortion of our historical narrative, as well as in the loss of most reliable source of information. Therefore, it is imperative that we interpret the fragments of our past that remain to reconstruct our nation's history.\nWhile rewriting our history is certainly a challenge, it is also an opportunity for us to use our history to keep our population united and re-affirm our core values. We have several options available: We could either try to put the emphasis on unity and our common history, promote the glory of our faith or praise the heroism of our past heroes. Another controversial option would be to emphasize how we destroyed our enemies to safeguard our nation. Finally, we could also try to establish a special committee of historians who would prioritize historical accuracy and objectivity, but they would need at least a year before being able to pronounce themselves."
+FHI.3.a:0 "Put the emphasis on our common identity and on reconciliation"
+FHI.3.b:0 "Focus on promoting our religious heritage"
+FHI.3.c:0 "Teach our children our ancestor's eternal heroism!"
+FHI.3.e:0 "Write how we built our nation by blood and strength!"
+FHI.3.f:0 "We shall establish a special committee of historians"
 
 #Law
 
