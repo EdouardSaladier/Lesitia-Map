@@ -1,6 +1,82 @@
 ideas = {
 
 	country = {
+	
+		FHI_anti_commission_protests = {
+			picture = GFX_idea_EST_democratic_opposition
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				theocracy_drift = -0.05
+			}
+		}
+		
+		FHI_anti_parasites_protests = {
+			picture = GFX_idea_SPR_class_war
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.25
+				theocracy_drift = -0.05
+				supremacism_drift = 0.05
+			}
+		}
+	
+		FHI_arnfreyr_remnants = {
+			picture = FHI_arnfreyr_remnants
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.25
+				unclassified_drift = 0.05
+			}
+		}
 		
 		FHI_security_directorate = {
 			picture = FHI_security_commission
@@ -38,6 +114,8 @@ ideas = {
             }
 
             cancel = {
+				supremacism < 0.01
+				NOT = { has_idea = FHI_arnfreyr_remnants }
             }			
 			
 			allowed_civil_war = {

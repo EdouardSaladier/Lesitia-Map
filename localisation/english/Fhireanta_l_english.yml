@@ -46,6 +46,8 @@ FHI_security_directorate_controlled:0 "Security Directorate under Control"
 FHI_powerful_security_directorate:0 "All-powerful Security Directorate"
 FHI_righteous_militias:0 "Righteous Militias of Peace and Justice"
 
+FHI_deglaurungirisation:0 "De-Glaurungirisation"
+
 ###Focuses
 
 FHI_martial_laws_in_border_regions:0 "Martial Laws in Border Regions"
@@ -57,8 +59,11 @@ FHI_reinforce_the_solenrenc_border:0 "Reinforce the Solenrenc Border"
 
 FHI_The_Great_Consultation:0 "The Great Consultation"
 FHI_De_Glaurungirisation:0 "De-Glaurungirisation"
+FHI_De_Glaurungirisation_tt:0 "We will start getting rid of the Arnfreyr influence over our nation. §YOnce it has been dealt with, the idea will cancel.§!"
 FHI_Write_a_New_History:0 "Write a New History"
 FHI_Seize_Arnfreyr_Assets:0 "Seize the Arnfreyr Assets"
+FHI_Seize_Arnfreyr_Assets_tt:0 "After seizing the Arnfreyr's assets, §Ywe will be able to use them to fund one focus costing 100£pol_power for free.§!"
+FHI_Use_Arnfreyr_Assets_tt:0 "§YWe will use the Arnfreyr's assets to fund this.§!"
 FHI_Pay_the_Protestors:0 "Pay the Protestors"
 FHI_Establish_High_Religious_Council:0 "Establish the High Religious Council"
 FHI_Offer_Them_Redemption:0 "Offer them Redemption for Loyalty"
@@ -75,6 +80,13 @@ FHI_Rebar_Riots:0 "Rebar Riots"
 FHI_Establish_Militias:0 "Establish the Tèarmannairean Militias"
 FHI_Our_Own_Justice:0 "Make our Own Justice"
 FHI_Close_Down_the_Commission:0 "Close Down the Commission"
+
+###Other
+FHI_aiseirigh_crisis:0 "Aiseirigh is contesting our rule"
+FHI_sided_with_arbitration:0 "We have sided with the Arbitration Commission"
+FHI_sided_with_aiseirigh:0 "We have sided with Aiseirigh"
+ 
+
 
 ###Events
 

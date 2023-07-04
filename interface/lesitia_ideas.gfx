@@ -143,6 +143,11 @@ spriteTypes = {
 	###Fhireanta ideas
 	
 	SpriteType = {
+		name = "GFX_idea_FHI_arnfreyr_remnants"
+		texturefile = "gfx/interface/ideas/FHI_arnfreyr_remnants.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_idea_FHI_aiseirigh_rising"
 		texturefile = "gfx/interface/ideas/FHI_aiseirigh_rising.dds"
 	}

@@ -4,7 +4,7 @@ country_event = { #FHI_The_Great_Consultation
 	id = FHI.1
 	title = FHI.1.t
 	desc = FHI.1.d
-	picture = GFX_report_event_japan_army_mountainside
+	#picture = GFX_report_event_japan_army_mountainside
 	
 	is_triggered_only = yes
 	
@@ -22,7 +22,7 @@ country_event = { #FHI_De_Glaurungirisation
 	id = FHI.2
 	title = FHI.2.t
 	desc = FHI.2.d
-	picture = GFX_report_event_japan_army_mountainside
+	#picture = GFX_report_event_japan_army_mountainside
 	
 	is_triggered_only = yes
 	
@@ -52,30 +52,38 @@ country_event = { #FHI_Write_a_New_History
 			factor = 25
 		}
 	}
+}
+
+country_event = { #FHI_Establish_High_Religious_Council
+	id = FHI.4
+	title = FHI.4.t
+	desc = FHI.4.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
 	
 	option = { #
-		name = FHI.3.b
+		name = FHI.4.a
 		ai_chance = {
 			factor = 25
 		}
 	}
+}
+
+country_event = { #FHI_Aiseirigh_Rising
+	id = FHI.5
+	title = FHI.5.t
+	desc = FHI.5.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
 	
 	option = { #
-		name = FHI.3.c
-		ai_chance = {
-			factor = 25
-		}
-	}
-	
-	option = { #
-		name = FHI.3.e
-		ai_chance = {
-			factor = 25
-		}
-	}
-	
-	option = { #
-		name = FHI.3.f
+		name = FHI.5.a
 		ai_chance = {
 			factor = 25
 		}
