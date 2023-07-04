@@ -10,7 +10,6 @@ state={
 			explosive_factory = 1
 			polymers_factory = 1
 			industrial_complex = 1
-			air_base = 5
 			7144 = {
 				naval_base = 4
 			}
@@ -26,7 +25,7 @@ state={
 	provinces={
 		1967 3308 6448 6748 7144 7383 7412 9890 12874 12920 13069 13086 
 	}
-	manpower=30000000
+	manpower=100000
 	state_category=city
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
