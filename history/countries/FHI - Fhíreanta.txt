@@ -60,7 +60,7 @@ set_technology = {
 set_convoys = 20
 
 add_ideas = {
-	FHI_arnfreyr_remnants
+	FHI_arnfreyr_remnants_idea
 }
 
 # Starting trucks & trains

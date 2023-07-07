@@ -9,6 +9,8 @@ NDefines.NCountry.BASE_FUEL_GAIN_PER_OIL = 1.0
 NDefines.NCountry.DEFAULT_STABILITY = 0.5					-- Default stability if not scripted otherwise.
 NDefines.NCountry.DEFAULT_WAR_SUPPORT = 0.2						-- Default war support if not scripted otherwise.
 
+NDefines.NFocus.FOCUS_POINT_DAYS = 5
+
 NDefines.NAI.DIVISION_MATCH_ROLE_BOOST_FACTOR = 1.5
 
 NDefines.NSupply.NUM_RAILWAYS_TRAIN_FACTOR = 0.1

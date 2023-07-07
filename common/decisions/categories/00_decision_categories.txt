@@ -23,6 +23,18 @@ MIT_politic_queen = {
     }
 }
 
+FHI_aiseirigh_crisis = {
+	icon = generic_propaganda
+	
+	allowed = {
+        tag = FHI
+    }
+
+	visible = {
+		has_country_flag = FHI_aiseirigh_crisis
+	}
+}
+
 MIT_technoesoterecism = {
 	icon = military_operation
 	

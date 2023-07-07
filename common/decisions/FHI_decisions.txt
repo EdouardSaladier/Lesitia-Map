@@ -1,0 +1,39 @@
+FHI_aiseirigh_crisis = {
+
+	FHI_Stop_Rebar_Riots = {
+		available = {
+			OR = {
+				has_completed_focus = FHI_Righteous_Militias_of_Peace_and_Justice
+				has_completed_focus = FHI_Raptor_Defence_Forces
+			}
+		}
+		visible = {
+			has_country_flag = FHI_sided_with_arbitration
+			has_idea = FHI_rebar_riots
+			is_ai = no
+		}
+		cost = 50
+		remove_effect = {
+			remove_idea = FHI_rebar_riots
+		}
+	}
+	
+	FHI_Stop_Rebar_Riots_AI = {
+		available = {
+			OR = {
+				has_completed_focus = FHI_Righteous_Militias_of_Peace_and_Justice
+				has_completed_focus = FHI_Raptor_Defence_Forces
+			}
+		}
+		visible = {
+			has_country_flag = FHI_sided_with_arbitration
+			has_idea = FHI_rebar_riots
+			is_ai = yes
+		}
+		cost = 0
+		remove_effect = {
+			remove_idea = FHI_rebar_riots
+		}
+	}
+
+}

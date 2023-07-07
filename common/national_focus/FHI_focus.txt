@@ -107,6 +107,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = FHI_The_Great_Consultation
 		completion_reward = {
+			add_political_power = 100
 			country_event = FHI.4
 		}
 	}
@@ -122,7 +123,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = FHI_The_Great_Consultation
 		completion_reward = {
-			add_ideas = FHI_deglaurungirisation
+			add_ideas = FHI_deglaurungirisation_idea
 			custom_effect_tooltip = FHI_De_Glaurungirisation_tt
 			country_event = FHI.2
 		}
@@ -161,7 +162,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = FHI_De_Glaurungirisation
 		completion_reward = {
-			remove_ideas = FHI_arnfreyr_remnants
+			remove_ideas = FHI_arnfreyr_remnants_idea
 			set_country_flag = FHI_arnfreyr_assets
 			custom_effect_tooltip = FHI_Seize_Arnfreyr_Assets_tt
 		}
@@ -173,19 +174,17 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_flag = FHI_aiseirigh_crisis
+			has_idea = FHI_anti_commission_protests_idea
+			NOT = { has_idea = FHI_anti_parasites_protests_idea }
 		}
 		prerequisite = {
 			focus = FHI_Seize_Arnfreyr_Assets
-		}
-		mutually_exclusive = {
-			focus = FHI_Raptor_Defence_Forces
-			focus = FHI_Righteous_Militias_of_Peace_and_Justice
-			focus = FHI_Close_Down_the_Commission
 		}
 		x = 0
 		y = 1
 		relative_position_id = FHI_Seize_Arnfreyr_Assets
 		completion_reward = {
+			custom_effect_tooltip = FHI_Pay_the_Protestors_tt
 			if = {
 				limit = { has_country_flag = FHI_arnfreyr_assets }
 				clr_country_flag = FHI_arnfreyr_assets
@@ -214,7 +213,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = FHI_De_Glaurungirisation
 		completion_reward = {
-			remove_ideas = FHI_arnfreyr_remnants
+			remove_ideas = FHI_arnfreyr_remnants_idea
 			add_popularity = {
 				ideology = unclassified
 				popularity = -0.05
@@ -237,6 +236,7 @@ focus_tree = {
 		}
 		bypass = {
 			has_country_flag = FHI_aiseirigh_crisis
+			has_country_flag = FHI_sided_with_arbitration
 		}
 		mutually_exclusive = {
 			focus = FHI_Contest_the_Commission
@@ -262,7 +262,11 @@ focus_tree = {
 		relative_position_id = FHI_Secure_the_Arbitration_Rule
 		completion_reward = {
 			set_country_flag = coalition_despotism
-			add_ideas = FHI_security_directorate
+			add_ideas = FHI_security_directorate_idea
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.05
+			}
 			custom_effect_tooltip = FHI_contact_the_security_commission_tt
 		}
 	}
@@ -281,6 +285,12 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = FHI_Secure_the_Arbitration_Rule
+		completion_reward = {
+			add_timed_idea = {
+				idea = FHI_rule_by_decrees_idea
+				days = 360
+			}
+		}
 	}
 	
 	focus = {
@@ -300,6 +310,10 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = FHI_Bring_Back_Iomarach
+		completion_reward = {
+			add_political_power = 100
+			
+		}
 	}
 	
 	focus = {
@@ -334,20 +348,20 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = FHI_Righteous_Militias_of_Peace_and_Justice
-			focus = FHI_Pay_the_Protestors
-			focus = FHI_Close_Down_the_Commission
 		}
 		x = 1
 		y = 1
 		relative_position_id = FHI_Offer_Them_Redemption
 		completion_reward = {
-			if = {
-				limit = { has_country_flag = FHI_arnfreyr_assets }
-				clr_country_flag = FHI_arnfreyr_assets
-				custom_effect_tooltip = FHI_Use_Arnfreyr_Assets_tt
+			add_political_power = -100
+			add_ideas = FHI_raptor_defence_forces_idea
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.05
 			}
-			else = {
-				add_political_power = -100
+			if = {
+				limit = { has_idea = FHI_rebar_riots_idea }
+				custom_effect_tooltip = FHI_can_stop_rebar_riots_tt
 			}
 		}
 	}
@@ -368,12 +382,63 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = FHI_Raptor_Defence_Forces
-			focus = FHI_Close_Down_the_Commission
-			focus = FHI_Pay_the_Protestors
 		}
 		x = 0
 		y = 3
 		relative_position_id = FHI_Negotiate_with_the_Industrialists
+		completion_reward = {
+			if = {
+				limit = { has_country_flag = FHI_arnfreyr_assets }
+				clr_country_flag = FHI_arnfreyr_assets
+				custom_effect_tooltip = FHI_Use_Arnfreyr_Assets_tt
+			}
+			else_if = {
+				limit = {
+					NOT = { has_completed_focus = FHI_Seize_Arnfreyr_Assets }
+				}
+				add_political_power = -100
+				custom_effect_tooltip = FHI_Can_Use_Arnfreyr_Assets_tt
+			}
+			else = {
+				add_political_power = -100
+			}
+			add_ideas = FHI_righteous_militias_of_peace_and_justice_idea
+			if = {
+				limit = { has_idea = FHI_rebar_riots_idea }
+				custom_effect_tooltip = FHI_can_stop_rebar_riots_tt
+			}
+		}
+	}
+	
+	focus = {
+		id = FHI_Crush_Aiseirigh
+		icon = GFX_focus_jap_manchurian_project
+		cost = 5
+		available = {
+			has_country_flag = FHI_aiseirigh_crisis
+			has_country_flag = FHI_sided_with_arbitration
+			NOT = { has_idea = FHI_anti_commission_protests_idea }
+			NOT = { has_idea = FHI_anti_parasites_protests_idea }
+			NOT = { has_idea = FHI_rebar_riots_idea }
+		}
+		prerequisite = {
+			focus = FHI_Raptor_Defence_Forces
+			focus = FHI_Righteous_Militias_of_Peace_and_Justice
+		}
+		mutually_exclusive = {
+			focus = FHI_Close_Down_the_Commission
+		}
+		x = 1
+		y = 1
+		relative_position_id = FHI_Raptor_Defence_Forces
+		completion_reward = {
+			custom_effect_tooltip = FHI_Crush_Aiseirigh_tt
+			clr_country_flag = FHI_aiseirigh_crisis
+			set_political_party = {
+				ideology = supremacism
+				popularity = 0
+			}
+		}
 	}
 	
 	focus = {
@@ -386,6 +451,7 @@ focus_tree = {
 		}
 		bypass = {
 			has_country_flag = FHI_aiseirigh_crisis
+			has_country_flag = FHI_sided_with_aiseirigh
 		}
 		mutually_exclusive = {
 			focus = FHI_Secure_the_Arbitration_Rule
@@ -410,19 +476,30 @@ focus_tree = {
 		y = 1
 		relative_position_id = FHI_Contest_the_Commission
 		completion_reward = {
-			if = {
-				limit = {
-					NOT = { has_completed_focus = FHI_Pay_the_Protestors }
-					NOT = { has_completed_focus = FHI_Raptor_Defence_Forces }
-					NOT = { has_completed_focus = FHI_Righteous_Militias_of_Peace_and_Justice }
-				}
+			effect_tooltip = {
 				swap_ideas = {
-					remove_idea = FHI_anti_commission_protests
-					add_idea = FHI_anti_parasites_protests
+					remove_idea = FHI_anti_commission_protests_idea
+					add_idea = FHI_anti_parasites_protests_idea
 				}
-				
+				country_event = FHI.6
 			}
-			
+			custom_effect_tooltip = FHI_Anti_Parasite_Protest
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = { has_completed_focus = FHI_Pay_the_Protestors }
+					}
+					swap_ideas = {
+						remove_idea = FHI_anti_commission_protests_idea
+						add_idea = FHI_anti_parasites_protests_idea
+					}
+					country_event = FHI.6
+				}
+				else = {
+					remove_ideas = FHI_anti_commission_protests_idea
+					country_event = FHI.7
+				}
+			}
 		}
 	}
 	
@@ -433,6 +510,8 @@ focus_tree = {
 		available = {
 			has_country_flag = FHI_aiseirigh_crisis
 			has_country_flag = FHI_sided_with_aiseirigh
+			has_idea = FHI_anti_parasites_protests_idea
+			supremacism > 0.4
 		}
 		prerequisite = {
 			focus = FHI_Anti_Parasite_Protest
@@ -440,6 +519,16 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = FHI_Anti_Parasite_Protest
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FHI_anti_parasites_protests_idea
+				add_idea = FHI_anti_parasites_protests_idea
+			}
+			add_popularity = {
+				ideology = theocracy
+				popularity = -0.1
+			}
+		}
 	}
 	
 	focus = {
@@ -456,6 +545,13 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = FHI_Contest_the_Commission
+		completion_reward = {
+			add_ideas = FHI_establish_militias_idea
+			add_popularity = {
+				ideology = supremacism
+				popularity = 0.05
+			}
+		}
 	}
 	
 	focus = {
@@ -465,6 +561,7 @@ focus_tree = {
 		available = {
 			has_country_flag = FHI_aiseirigh_crisis
 			has_country_flag = FHI_sided_with_aiseirigh
+			has_idea = FHI_establish_militias_idea
 		}
 		prerequisite = {
 			focus = FHI_Establish_Militias
@@ -472,6 +569,42 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = FHI_Establish_Militias
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FHI_establish_militias_idea
+				add_idea = FHI_our_own_justice_idea
+			}
+			add_popularity = {
+				ideology = theocracy
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = supremacism
+				popularity = 0.1
+			}
+		}
+	}
+	
+	focus = {
+		id = FHI_Summon_a_Special_Assembly
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 5
+		available = {
+			has_country_flag = FHI_aiseirigh_crisis
+			has_country_flag = FHI_sided_with_aiseirigh
+			supremacism > 0.5
+		}
+		prerequisite = {
+			focus = FHI_Rebar_Riots
+		}
+		prerequisite = {
+			focus = FHI_Our_Own_Justice
+		}
+		x = 1
+		y = 1
+		relative_position_id = FHI_Rebar_Riots
+		completion_reward = {
+		}
 	}
 	
 	focus = {
@@ -483,18 +616,26 @@ focus_tree = {
 			has_country_flag = FHI_sided_with_aiseirigh
 		}
 		prerequisite = {
-			focus = FHI_Rebar_Riots
-		}
-		prerequisite = {
-			focus = FHI_Our_Own_Justice
+			focus = FHI_Summon_a_Special_Assembly
 		}
 		mutually_exclusive = {
-			focus = FHI_Righteous_Militias_of_Peace_and_Justice
-			focus = FHI_Pay_the_Protestors
-			focus = FHI_Raptor_Defence_Forces
+			focus = FHI_Crush_Aiseirigh
 		}
-		x = 1
+		x = 0
 		y = 1
-		relative_position_id = FHI_Rebar_Riots
+		relative_position_id = FHI_Summon_a_Special_Assembly
+		completion_reward = {
+			custom_effect_tooltip = FHI_Close_Down_the_Commission_tt
+			clr_country_flag = FHI_aiseirigh_crisis
+			clr_country_flag = coalition_despotism
+			set_political_party = {
+				ideology = theocracy
+				popularity = 0
+			}
+			set_politics = {
+				ruling_party = supremacism
+				elections_allowed = no
+			}
+		}
 	}
 }

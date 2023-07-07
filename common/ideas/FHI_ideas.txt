@@ -2,8 +2,8 @@ ideas = {
 
 	country = {
 	
-		FHI_anti_commission_protests = {
-			picture = GFX_idea_EST_democratic_opposition
+		FHI_anti_commission_protests_idea = {
+			picture = EST_democratic_opposition
 			
 			allowed = { 
 			    tag = FHI
@@ -27,8 +27,8 @@ ideas = {
 			}
 		}
 		
-		FHI_anti_parasites_protests = {
-			picture = GFX_idea_SPR_class_war
+		FHI_anti_parasites_protests_idea = {
+			picture = SPR_class_war
 			
 			allowed = { 
 			    tag = FHI
@@ -52,8 +52,85 @@ ideas = {
 				supremacism_drift = 0.05
 			}
 		}
+		
+		FHI_rebar_riots_idea = {
+			picture = POL_the_peasants_strike
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.4
+				theocracy_drift = -0.1
+				supremacism_drift = 0.2
+			}
+		}
+		
+		FHI_establish_militias_idea = {
+			picture = chi_army_corruption3
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = -0.5
+				supremacism_drift = 0.1
+			}
+		}
+		
+		FHI_our_own_justice_idea = {
+			picture = generic_neutrality_drift_bonus
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				drift_defence_factor = -1
+				supremacism_drift = 0.1
+			}
+		}
 	
-		FHI_arnfreyr_remnants = {
+		FHI_arnfreyr_remnants_idea = {
 			picture = FHI_arnfreyr_remnants
 			
 			allowed = { 
@@ -78,7 +155,7 @@ ideas = {
 			}
 		}
 		
-		FHI_security_directorate = {
+		FHI_security_directorate_idea = {
 			picture = FHI_security_commission
 			
 			allowed = { 
@@ -103,7 +180,57 @@ ideas = {
 			}
 		}
 		
-		FHI_deglaurungirisation = {
+		FHI_righteous_militias_of_peace_and_justice_idea = {
+			picture = jap_militarism_showa
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				theocracy_drift = 0.1
+				drift_defence_factor = 0.5
+			}
+		}
+		
+		FHI_raptor_defence_forces_idea = {
+			picture = MEX_politicised_army
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				drift_defence_factor = 0.5
+			}
+		}
+		
+		FHI_deglaurungirisation_idea = {
 			picture = FHI_security_commission
 			
 			allowed = { 

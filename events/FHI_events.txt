@@ -87,5 +87,45 @@ country_event = { #FHI_Aiseirigh_Rising
 		ai_chance = {
 			factor = 25
 		}
+		name = FHI.5.b
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_Anti_Parasite_Protest Success
+	id = FHI.6
+	title = FHI.6.t
+	desc = FHI.6.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.6.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_Anti_Parasite_Protest Failure
+	id = FHI.7
+	title = FHI.7.t
+	desc = FHI.7.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.7.a
+		ai_chance = {
+			factor = 25
+		}
 	}
 }
