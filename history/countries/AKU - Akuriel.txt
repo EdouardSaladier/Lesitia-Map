@@ -46,17 +46,6 @@ set_technology = {
 
 set_convoys = 20
 
-add_equipment_to_stockpile = {
-    type = high_speed_train_equipment
-    amount = 7
-    producer = AKU
-}
-add_equipment_to_stockpile = {
-    type = logistic_vehicle_system_equipment
-    amount = 70
-    producer = AKU
-}
-
 
 set_politics = {
 	ruling_party = corporatism
@@ -65,12 +54,68 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	corporatism = 100
+	corporatism = 60
+	democracy = 20
+	supremacism = 10
+	despotism = 10
 }
+country_lock_all_division_template = yes
+add_ideas = AKU_bandaid_gov
+add_ideas = AKU_merc_apparatus
 
 create_country_leader = {
 	name = "Trade Prince Council"
 	desc = "AKU_trade_prince_council_desc"
 	picture = "aku_trade_prince_council.dds"
 	ideology = corporatism_type
+}
+create_country_leader = {
+	name = "Ifru Jabbor"
+	desc = "AKU_Ifru_Jabbor_desc"
+	picture = "ifru_jabbor.dds"
+	ideology = supremacism_type
+}
+create_country_leader = {
+	name = "Amrus Ben"
+	desc = "AKU_amrus_ben_desc"
+	picture = "amrus_ben.dds"
+	ideology = despotism_type
+}
+create_corps_commander = {
+	name = "Hayya Qureshi"
+	desc = "AKU__desc"
+	picture = "portrait_aku_merc_gen_01.dds"
+	traits = {harsh_leader}
+	skill = 2
+	
+	attack_skill = 2 
+	defense_skill = 2
+	planning_skill = 5
+	logistics_skill = 2	
+}
+
+create_corps_commander = {
+	name = "Ruya 'One Eye' Saqqaf"
+	desc = "AKU__desc"
+	picture = "portrait_AKU_merc_gen_02.dds"
+	traits = {desert_fox}
+	skill = 2
+	
+	attack_skill = 5 
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 4	
+}
+
+create_navy_leader = {
+	name = "Amanda 'Mad Boat' Issawi"
+	desk = "AKU__desc"
+	picture = "portrait_aku_admiral_01.dds"
+	traits = {}
+	skill = 1
+	
+	attack_skill = 1 
+	defense_skill = 1
+	positioning_skill = 5
+	logistics_skill = 2
 }
