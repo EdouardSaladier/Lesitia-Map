@@ -1,0 +1,87 @@
+ideas = {
+	country = {
+#Bandaid Government
+		AKU_bandaid_gov = {
+			#picture
+			modifier = {
+				stability_factor = -0.30
+			}
+			allowed = {}
+			available = {}
+			cancel = {}
+		}
+#Mercenary Military Complex
+		AKU_merc_apparatus = {
+			#picture
+			modifier = {
+				country_lock_all_division_template = yes
+			}
+			allowed = {
+				tag = AKU
+			}
+			available = {}
+			cancel = {}
+		}
+		AKU_corpo_5year = {
+			#picture =
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+			allowed = {
+			tag = AKU
+		}
+			available = {}
+			cancel = {
+			
+		}
+			allowed_civil_war = {
+			always = yes
+		}
+	}
+#Refugee Workers
+	AKU_refugee_workers = {
+	allowed = {
+	tag = AKU
+	}
+	available = {}
+	cancel = {}
+	modifier = {
+				monthly_population = 0.025
+			}
+	}
+#Crisis Idea
+		AKU_crisis = {
+			allowed = {
+			tag = AKU
+			}
+			available = {}
+			cancel = {}
+			modifier = {
+				stability_weekly = -.005
+				offensive_war_stability_factor = -.5
+			}
+			}
+#Crisis_pro_gov_propaganda
+		AKU_crisis_corpo = {
+		allowed = {
+			tag = AKU
+			}
+			available = {}
+			cancel = {}
+			modifier = {
+			corporatism_drift = 0.05
+			}
+			}
+#Crisis_Jabbor
+		AKU_jabbor_rise = {
+			allowed = {
+			tag = AKU
+			}
+			available = {}
+			cancel = {}
+			modifier = {
+			supremacism_drift = 0.05
+			}
+		}
+	}
+}
