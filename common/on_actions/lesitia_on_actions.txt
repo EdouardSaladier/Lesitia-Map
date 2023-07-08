@@ -11,6 +11,13 @@ on_actions = {
 					days = 180
 				}
 			}
+			FHI = {
+				country_event = {
+					id = FHI.5
+					days = 90
+					random_days = 4
+				}
+			}
 			every_country = {
 				set_variable = { food_surplus = 0 } #food Surplus
 				set_variable = { food_mil_consumption_i = mtth:food_mil_consumption } #food Military Consumption - Saved at beginning of each month

@@ -23,7 +23,7 @@ MIT_politic_queen = {
     }
 }
 
-FHI_aiseirigh_crisis = {
+FHI_aiseirigh_crisis_commission_side = {
 	icon = generic_propaganda
 	
 	allowed = {
@@ -32,6 +32,7 @@ FHI_aiseirigh_crisis = {
 
 	visible = {
 		has_country_flag = FHI_aiseirigh_crisis
+		has_country_flag = FHI_sided_with_arbitration
 	}
 }
 

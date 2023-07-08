@@ -18,8 +18,8 @@
  despotism_subtype_desc:0 "Despotism"
 
  theocracy:0 "Theocracy"
- technocracy_noun:0 "Theocracy"
- technocracy_subtype_desc:0 "Theocracy"
+ theocracy_noun:0 "Theocracy"
+ theocracy_subtype_desc:0 "Theocracy"
  
  corporatism:0 "Corporatocratism"
  corporatism_noun:0 "Corporatocratism"

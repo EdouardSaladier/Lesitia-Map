@@ -48,7 +48,7 @@ lesitia_debug_decisions = {
 		}
 
 		complete_effect = {
-			law_init = yes
+			FHI_PSL_init = yes
 		}
 	}
 	
@@ -74,7 +74,7 @@ lesitia_debug_decisions = {
 		}
 
 		complete_effect = {
-			law_close_and_clear = yes
+			FHI_PSL_close_and_clear = yes
 		}
 	}
 }

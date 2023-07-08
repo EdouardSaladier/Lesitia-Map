@@ -87,9 +87,12 @@ country_event = { #FHI_Aiseirigh_Rising
 		ai_chance = {
 			factor = 25
 		}
-		name = FHI.5.b
-		ai_chance = {
-			factor = 25
+		add_ideas = FHI_aiseirigh_rising
+		set_country_flag = FHI_aiseirigh_crisis
+		country_event = {
+			id = FHI.30
+			days = 8
+			random_days = 4
 		}
 	}
 }
@@ -127,5 +130,390 @@ country_event = { #FHI_Anti_Parasite_Protest Failure
 		ai_chance = {
 			factor = 25
 		}
+	}
+}
+
+country_event = { #FHI Aiseirigh Action Hidden Event
+	id = FHI.8
+	title = FHI.8.t
+	desc = FHI.8.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	immediate = {
+		FHI_aiseirigh_action = yes
+	}
+}
+
+country_event = { #FHI_Rebar_Riots Success
+	id = FHI.9
+	title = FHI.9.t
+	desc = FHI.9.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.9.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_Rebar_Riots Failure
+	id = FHI.10
+	title = FHI.10.t
+	desc = FHI.10.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.10.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_Rebar_Riots Stopped
+	id = FHI.11
+	title = FHI.11.t
+	desc = FHI.11.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.11.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_Establish_Militias
+	id = FHI.12
+	title = FHI.12.t
+	desc = FHI.12.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.12.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_Establish_Militias Dismantled
+	id = FHI.13
+	title = FHI.13.t
+	desc = FHI.13.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.13.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_Our_Own_Justice Success
+	id = FHI.14
+	title = FHI.14.t
+	desc = FHI.14.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.14.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_Our_Own_Justice Failure
+	id = FHI.15
+	title = FHI.15.t
+	desc = FHI.15.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.15.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_Our_Own_Justice Dismantled
+	id = FHI.16
+	title = FHI.16.t
+	desc = FHI.16.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.16.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_Protests Stopped
+	id = FHI.17
+	title = FHI.17.t
+	desc = FHI.17.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.17.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_Anti_Parasite_Protest Stopped
+	id = FHI.18
+	title = FHI.18.t
+	desc = FHI.18.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.18.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Special Assembly Success
+	id = FHI.19
+	title = FHI.19.t
+	desc = FHI.19.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.19.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Special Assembly Failure
+	id = FHI.20
+	title = FHI.20.t
+	desc = FHI.20.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.20.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Close down Commission Success
+	id = FHI.21
+	title = FHI.21.t
+	desc = FHI.21.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.21.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Close down Commission Failure
+	id = FHI.22
+	title = FHI.22.t
+	desc = FHI.22.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.22.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI Aiseirigh Growth Stopped
+	id = FHI.23
+	title = FHI.23.t
+	desc = FHI.23.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.23.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Aiseirigh Crushed
+	id = FHI.24
+	title = FHI.24.t
+	desc = FHI.24.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.24.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Aiseirigh Restart Anti-government protests
+	id = FHI.25
+	title = FHI.25.t
+	desc = FHI.25.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.25.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Aiseirigh Fails to re-start anti-government protests
+	id = FHI.26
+	title = FHI.26.t
+	desc = FHI.26.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.26.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Aiseirigh Anti-government Propaganda
+	id = FHI.27
+	title = FHI.27.t
+	desc = FHI.27.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.27.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Aiseirigh meet with local councillors
+	id = FHI.28
+	title = FHI.28.t
+	desc = FHI.28.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.28.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Aiseirigh fails to launch any activity
+	id = FHI.29
+	title = FHI.29.t
+	desc = FHI.29.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = FHI.29.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI Choice between arbitration & aiseirigh
+	id = FHI.30
+	title = FHI.30.t
+	desc = FHI.30.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.30.a
+		ai_chance = {
+			factor = 80
+		}
+		set_country_flag = FHI_sided_with_arbitration
+		complete_national_focus = FHI_Secure_the_Arbitration_Rule
+		hidden_effect = {
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+		}
+	}
+	option = { #
+		name = FHI.30.b
+		ai_chance = {
+			factor = 20
+		}
+		set_country_flag = FHI_sided_with_aiseirigh
+		complete_national_focus = FHI_Contest_the_Commission
 	}
 }

@@ -290,6 +290,9 @@ focus_tree = {
 				idea = FHI_rule_by_decrees_idea
 				days = 360
 			}
+			add_political_power = 50
+			unlock_decision_tooltip = FHI_Stop_Aiseirigh_Activities
+			unlock_decision_tooltip = FHI_Outlaw_Militias
 		}
 	}
 	
@@ -311,8 +314,10 @@ focus_tree = {
 		y = 2
 		relative_position_id = FHI_Bring_Back_Iomarach
 		completion_reward = {
-			add_political_power = 100
-			
+			custom_effect_tooltip = FHI_Peace_Preservation_Law_tt
+			FHI_PSL_init = yes
+			unlock_decision_tooltip = FHI_Stop_Protests
+			unlock_decision_tooltip = FHI_Crush_Their_Justice
 		}
 	}
 	
@@ -330,6 +335,18 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = FHI_Secure_the_Arbitration_Rule
+		completion_reward = {
+			set_country_flag = coalition_corporatism
+			add_timed_idea = {
+				idea = FHI_negotiate_with_the_industrialists_idea
+				days = 360
+			}
+			add_popularity = {
+				ideology = corporatism
+				popularity = 0.05
+			}
+			custom_effect_tooltip = FHI_Negotiate_with_the_Industrialists_tt
+		}
 	}
 	
 	focus = {
@@ -359,10 +376,7 @@ focus_tree = {
 				ideology = despotism
 				popularity = 0.05
 			}
-			if = {
-				limit = { has_idea = FHI_rebar_riots_idea }
-				custom_effect_tooltip = FHI_can_stop_rebar_riots_tt
-			}
+			unlock_decision_tooltip = FHI_Stop_Rebar_Riots
 		}
 	}
 	
@@ -403,10 +417,7 @@ focus_tree = {
 				add_political_power = -100
 			}
 			add_ideas = FHI_righteous_militias_of_peace_and_justice_idea
-			if = {
-				limit = { has_idea = FHI_rebar_riots_idea }
-				custom_effect_tooltip = FHI_can_stop_rebar_riots_tt
-			}
+			unlock_decision_tooltip = FHI_Stop_Rebar_Riots
 		}
 	}
 	
@@ -420,7 +431,10 @@ focus_tree = {
 			NOT = { has_idea = FHI_anti_commission_protests_idea }
 			NOT = { has_idea = FHI_anti_parasites_protests_idea }
 			NOT = { has_idea = FHI_rebar_riots_idea }
+			NOT = { has_idea = FHI_establish_militias_idea }
+			NOT = { has_idea = FHI_our_own_justice_enemy_idea }
 		}
+		cancel_if_invalid = no
 		prerequisite = {
 			focus = FHI_Raptor_Defence_Forces
 			focus = FHI_Righteous_Militias_of_Peace_and_Justice
@@ -468,6 +482,7 @@ focus_tree = {
 		available = {
 			has_country_flag = FHI_aiseirigh_crisis
 			has_country_flag = FHI_sided_with_aiseirigh
+			has_idea = FHI_anti_commission_protests_idea
 		}
 		prerequisite = {
 			focus = FHI_Contest_the_Commission
@@ -476,30 +491,11 @@ focus_tree = {
 		y = 1
 		relative_position_id = FHI_Contest_the_Commission
 		completion_reward = {
-			effect_tooltip = {
-				swap_ideas = {
-					remove_idea = FHI_anti_commission_protests_idea
-					add_idea = FHI_anti_parasites_protests_idea
-				}
-				country_event = FHI.6
+			swap_ideas = {
+				remove_idea = FHI_anti_commission_protests_idea
+				add_idea = FHI_anti_parasites_protests_idea
 			}
-			custom_effect_tooltip = FHI_Anti_Parasite_Protest
-			hidden_effect = {
-				if = {
-					limit = {
-						NOT = { has_completed_focus = FHI_Pay_the_Protestors }
-					}
-					swap_ideas = {
-						remove_idea = FHI_anti_commission_protests_idea
-						add_idea = FHI_anti_parasites_protests_idea
-					}
-					country_event = FHI.6
-				}
-				else = {
-					remove_ideas = FHI_anti_commission_protests_idea
-					country_event = FHI.7
-				}
-			}
+			country_event = FHI.6
 		}
 	}
 	
@@ -522,7 +518,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = FHI_anti_parasites_protests_idea
-				add_idea = FHI_anti_parasites_protests_idea
+				add_idea = FHI_rebar_riots_idea
 			}
 			add_popularity = {
 				ideology = theocracy
@@ -594,6 +590,7 @@ focus_tree = {
 			has_country_flag = FHI_sided_with_aiseirigh
 			supremacism > 0.5
 		}
+		cancel_if_invalid = no
 		prerequisite = {
 			focus = FHI_Rebar_Riots
 		}
@@ -604,6 +601,16 @@ focus_tree = {
 		y = 1
 		relative_position_id = FHI_Rebar_Riots
 		completion_reward = {
+			clr_country_flag = coalition_despotism
+			clr_country_flag = coalition_corporatism
+			add_popularity = {
+				ideology = theocracy
+				popularity = -0.2
+			}
+			add_popularity = {
+				ideology = supremacism
+				popularity = 0.2
+			}
 		}
 	}
 	
@@ -614,7 +621,15 @@ focus_tree = {
 		available = {
 			has_country_flag = FHI_aiseirigh_crisis
 			has_country_flag = FHI_sided_with_aiseirigh
+			NOT = { has_idea = FHI_negotiate_with_the_industrialists_enemy_idea }
+			NOT = { has_idea = FHI_rule_by_decrees_enemy_idea }
+			NOT = { has_idea = FHI_security_directorate_idea }
+			NOT = { has_idea = FHI_peace_preservation_law_enemy_idea }
+			NOT = { has_idea = FHI_righteous_militias_of_peace_and_justice_idea }
+			NOT = { has_idea = FHI_raptor_defence_forces_idea }
+			supremacism > 0.7
 		}
+		cancel_if_invalid = no
 		prerequisite = {
 			focus = FHI_Summon_a_Special_Assembly
 		}
@@ -626,10 +641,17 @@ focus_tree = {
 		relative_position_id = FHI_Summon_a_Special_Assembly
 		completion_reward = {
 			custom_effect_tooltip = FHI_Close_Down_the_Commission_tt
-			clr_country_flag = FHI_aiseirigh_crisis
-			clr_country_flag = coalition_despotism
+			FHI_clr_commission_ideas = yes
 			set_political_party = {
 				ideology = theocracy
+				popularity = 0
+			}
+			set_political_party = {
+				ideology = democracy
+				popularity = 0
+			}
+			set_political_party = {
+				ideology = corporatism
 				popularity = 0
 			}
 			set_politics = {

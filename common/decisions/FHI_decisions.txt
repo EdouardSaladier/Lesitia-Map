@@ -1,4 +1,254 @@
-FHI_aiseirigh_crisis = {
+FHI_aiseirigh_crisis_commission_side = {
+
+	###Commission side
+	
+	FHI_Stop_Aiseirigh_Activities = {
+		available = {
+			OR = {
+				has_completed_focus = FHI_Righteous_Militias_of_Peace_and_Justice
+				has_completed_focus = FHI_Raptor_Defence_Forces
+			}
+			has_idea = FHI_aiseirigh_rising
+		}
+		visible = {
+			
+			is_ai = no
+		}
+		days_remove = 10
+		days_re_enable = 50
+		cost = 25
+		remove_effect = {
+			remove_idea = FHI_aiseirigh_rising
+			country_event = FHI.23
+		}
+	}
+	
+	FHI_Stop_Aiseirigh_Activities_AI = {
+		available = {
+			OR = {
+				has_completed_focus = FHI_Righteous_Militias_of_Peace_and_Justice
+				has_completed_focus = FHI_Raptor_Defence_Forces
+			}
+			has_idea = FHI_aiseirigh_rising
+		}
+		visible = {
+			
+			is_ai = yes
+		}
+		days_remove = 10
+		days_re_enable = 50
+		cost = 0
+		ai_will_do = {
+			base = 1
+		}
+		remove_effect = {
+			remove_idea = FHI_aiseirigh_rising
+			country_event = FHI.23
+		}
+	}
+	
+	FHI_Arrest_Opponents_without_Mandate = {
+		available = {
+			has_completed_focus = FHI_Peace_Preservation_Law
+			has_country_flag = mandate_not_required
+		}
+		visible = {
+			
+			is_ai = no
+		}
+		days_remove = 10
+		days_re_enable = 50
+		cost = 50
+		remove_effect = {
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.05
+			}
+			add_stability = 0.025
+		}
+	}
+	
+	FHI_Arrest_Opponents_without_Mandate_AI = {
+		available = {
+			has_completed_focus = FHI_Peace_Preservation_Law
+			has_country_flag = mandate_not_required
+		}
+		visible = {
+			
+			is_ai = yes
+		}
+		days_remove = 10
+		days_re_enable = 50
+		cost = 0
+		ai_will_do = {
+			base = 1
+		}
+		remove_effect = {
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.05
+			}
+			add_stability = 0.025
+		}
+	}
+	
+	FHI_Prosecute_Heresy = {
+		available = {
+			has_completed_focus = FHI_Peace_Preservation_Law
+			has_country_flag = heresy_prosecuted
+		}
+		visible = {
+			
+			is_ai = no
+		}
+		days_remove = 10
+		days_re_enable = 50
+		cost = 25
+		remove_effect = {
+			add_popularity = {
+				ideology = theocracy
+				popularity = 0.05
+			}
+			add_stability = -0.025
+		}
+	}
+	
+	FHI_Outlaw_Militias = {
+		available = {
+			has_completed_focus = FHI_Rule_by_Decrees
+			has_idea = FHI_establish_militias_idea
+		}
+		visible = {
+			
+			is_ai = no
+		}
+		days_remove = 10
+		days_re_enable = 50
+		cost = 25
+		remove_effect = {
+			remove_idea = FHI_establish_militias_idea
+			country_event = FHI.13
+		}
+	}
+	
+	FHI_Outlaw_Militias_AI = {
+		available = {
+			has_completed_focus = FHI_Rule_by_Decrees
+			has_idea = FHI_establish_militias_idea
+		}
+		visible = {
+			
+			is_ai = yes
+		}
+		days_remove = 10
+		days_re_enable = 50
+		cost = 0
+		ai_will_do = {
+			base = 1
+		}
+		remove_effect = {
+			remove_idea = FHI_establish_militias_idea
+			country_event = FHI.13
+		}
+	}
+	
+	FHI_Crush_Their_Justice = {
+		available = {
+			has_completed_focus = FHI_Peace_Preservation_Law
+			has_idea = FHI_our_own_justice_enemy_idea
+		}
+		visible = {
+			
+			is_ai = no
+		}
+		days_remove = 10
+		days_re_enable = 50
+		cost = 50
+		remove_effect = {
+			remove_idea = FHI_our_own_justice_enemy_idea
+			country_event = FHI.16
+		}
+	}
+	
+	FHI_Crush_Their_Justice_AI = {
+		available = {
+			has_completed_focus = FHI_Peace_Preservation_Law
+			has_idea = FHI_our_own_justice_enemy_idea
+		}
+		visible = {
+			
+			is_ai = yes
+		}
+		days_remove = 10
+		days_re_enable = 50
+		cost = 0
+		ai_will_do = {
+			base = 1
+		}
+		remove_effect = {
+			remove_idea = FHI_our_own_justice_enemy_idea
+			country_event = FHI.16
+		}
+	}
+
+	FHI_Stop_Protests = {
+		available = {
+			has_completed_focus = FHI_Peace_Preservation_Law
+			OR = {
+				has_idea = FHI_anti_parasites_protests_idea
+				has_idea = FHI_anti_commission_protests_idea
+			}
+		}
+		visible = {
+			
+			is_ai = no
+		}
+		days_remove = 10
+		days_re_enable = 50
+		cost = 50
+		remove_effect = {
+			if = {
+				limit = { has_idea = FHI_anti_parasites_protests_idea }
+				remove_idea = FHI_anti_parasites_protests_idea
+				country_event = FHI.18
+			}
+			else = {
+				remove_idea = FHI_anti_commission_protests_idea
+				country_event = FHI.17
+			}
+		}
+	}
+	
+	FHI_Stop_Protests_AI = {
+		available = {
+			has_completed_focus = FHI_Peace_Preservation_Law
+			OR = {
+				has_idea = FHI_anti_parasites_protests_idea
+				has_idea = FHI_anti_commission_protests_idea
+			}
+		}
+		visible = {
+			
+			is_ai = yes
+		}
+		days_remove = 10
+		days_re_enable = 50
+		cost = 0
+		ai_will_do = {
+			base = 1
+		}
+		remove_effect = {
+			if = {
+				limit = { has_idea = FHI_anti_parasites_protests_idea }
+				remove_idea = FHI_anti_parasites_protests_idea
+				country_event = FHI.18
+			}
+			else = {
+				remove_idea = FHI_anti_commission_protests_idea
+				country_event = FHI.17
+			}
+		}
+	}
 
 	FHI_Stop_Rebar_Riots = {
 		available = {
@@ -6,15 +256,18 @@ FHI_aiseirigh_crisis = {
 				has_completed_focus = FHI_Righteous_Militias_of_Peace_and_Justice
 				has_completed_focus = FHI_Raptor_Defence_Forces
 			}
+			has_idea = FHI_rebar_riots
 		}
 		visible = {
-			has_country_flag = FHI_sided_with_arbitration
-			has_idea = FHI_rebar_riots
+			
 			is_ai = no
 		}
-		cost = 50
+		days_remove = 10
+		days_re_enable = 50
+		cost = 100
 		remove_effect = {
 			remove_idea = FHI_rebar_riots
+			country_event = FHI.11
 		}
 	}
 	
@@ -26,13 +279,438 @@ FHI_aiseirigh_crisis = {
 			}
 		}
 		visible = {
-			has_country_flag = FHI_sided_with_arbitration
+			
 			has_idea = FHI_rebar_riots
 			is_ai = yes
 		}
+		ai_will_do = {
+			base = 1
+		}
+		days_remove = 10
+		days_re_enable = 50
 		cost = 0
 		remove_effect = {
 			remove_idea = FHI_rebar_riots
+			country_event = FHI.11
+		}
+	}
+	
+	### Aiseirigh Actions - sided with the Commission
+	
+	FHI_Restart_Protest_mission = {
+	
+		allowed = { always = no }
+		
+		available = {
+			has_completed_focus = FHI_Peace_Preservation_Law
+			has_political_power > 29
+		}
+		
+		complete_effect = {
+			add_political_power = -30
+			country_event = FHI.26
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Restart_Protest_cooldown
+				days = 120
+			}
+		}
+		
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = yes
+		
+		timeout_effect = {
+			add_ideas = FHI_anti_commission_protests_idea
+			country_event = FHI.25
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Restart_Protest_cooldown
+				days = 120
+			}
+		}
+	}
+	
+	FHI_Anti_Parasite_Protest_mission = {
+	
+		allowed = { always = no }
+		
+		available = {
+			has_completed_focus = FHI_Pay_the_Protestors
+			NOT = { has_idea = FHI_anti_commission_protests_idea }
+		}
+		
+		complete_effect = {
+			country_event = FHI.7
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Anti_Parasite_Protest_cooldown
+				days = 120
+			}
+		}
+		
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = no
+		
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = FHI_anti_commission_protests_idea
+				add_idea = FHI_anti_parasites_protests_idea
+			}
+			country_event = FHI.6
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Anti_Parasite_Protest_cooldown
+				days = 120
+			}
+		}
+	}
+	
+	FHI_Rebar_Riots_mission = {
+	
+		allowed = { always = no }
+		
+		available = {
+			NOT = { has_idea = FHI_anti_parasites_protests_idea }
+		}
+		
+		complete_effect = {
+			country_event = FHI.10
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Rebar_Riots_cooldown
+				days = 120
+			}
+		}
+		
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = no
+		
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = FHI_anti_parasites_protests_idea
+				add_idea = FHI_rebar_riots_idea
+			}
+			add_popularity = {
+				ideology = theocracy
+				popularity = -0.1
+			}
+			country_event = FHI.9
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Rebar_Riots_cooldown
+				days = 120
+			}
+		}
+	}
+	
+	FHI_Establish_Militias_mission = {
+	
+		allowed = { always = no }
+		
+		available = {
+			NOT = { has_idea = FHI_anti_parasites_protests_idea }
+		}
+		
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = no
+		
+		timeout_effect = {
+			add_ideas = FHI_establish_militias_idea
+			add_popularity = {
+				ideology = supremacism
+				popularity = 0.05
+			}
+			country_event = FHI.12
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Establish_Militias_cooldown
+				days = 120
+			}
+		}
+	}
+	
+	FHI_Our_Own_Justice_mission = {
+	
+		allowed = { always = no }
+		
+		available = {
+			NOT = { has_idea = FHI_establish_militias_idea }
+		}
+		
+		complete_effect = {
+			country_event = FHI.15
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Our_Own_Justice_cooldown
+				days = 120
+			}
+		}
+		
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = no
+		
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = FHI_establish_militias_idea
+				add_idea = FHI_our_own_justice_idea
+			}
+			add_popularity = {
+				ideology = theocracy
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = supremacism
+				popularity = 0.1
+			}
+			country_event = FHI.14
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Our_Own_Justice_cooldown
+				days = 120
+			}
+		}
+	}
+	
+	FHI_Special_Assembly_mission = {
+	
+		allowed = { always = no }
+		
+		available = {
+			supremacism < 0.5
+		}
+		
+		complete_effect = {
+			country_event = FHI.20
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Special_Assembly_cooldown
+				days = 120
+			}
+		}
+		
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = no
+		
+		timeout_effect = {
+			clr_country_flag = coalition_despotism
+			add_popularity = {
+				ideology = theocracy
+				popularity = -0.2
+			}
+			add_popularity = {
+				ideology = supremacism
+				popularity = 0.2
+			}
+			set_country_flag = {
+				flag = FHI_Special_Assembly_cooldown
+				days = 120
+			}
+			country_event = FHI.19
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+		}
+	}
+	
+	FHI_Close_Down_the_Commission_mission = {
+	
+		allowed = { always = no }
+		
+		available = {
+			supremacism < 0.7
+		}
+		
+		complete_effect = {
+			country_event = FHI.22
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Close_Down_the_Commission_cooldown
+				days = 120
+			}
+		}
+		
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = no
+		
+		timeout_effect = {
+			clr_country_flag = coalition_despotism
+			FHI_clr_commission_ideas = yes
+			set_political_party = {
+				ideology = theocracy
+				popularity = 0
+			}
+			set_political_party = {
+				ideology = democracy
+				popularity = 0
+			}
+			set_political_party = {
+				ideology = corporatism
+				popularity = 0
+			}
+			set_politics = {
+				ruling_party = supremacism
+				elections_allowed = no
+			}
+			set_country_flag = {
+				flag = FHI_Close_Down_the_Commission_cooldown
+				days = 120
+			}
+			country_event = FHI.21
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+		}
+	}
+	
+	FHI_Aiseirigh_propaganda_mission = {
+	
+		allowed = { always = no }
+		
+		available = {
+			has_completed_focus = FHI_Peace_Preservation_Law
+			has_political_power > 29
+		}
+		
+		complete_effect = {
+			add_political_power = -30
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Aiseirigh_propaganda_cooldown
+				days = 120
+			}
+		}
+		
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = yes
+		
+		timeout_effect = {
+			add_popularity = {
+				ideology = supremacism
+				popularity = 0.05
+			}
+			country_event = FHI.27
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Aiseirigh_propaganda_cooldown
+				days = 120
+			}
+		}
+	}
+	
+	FHI_Aiseirigh_meet_local_councilors_mission = {
+	
+		allowed = { always = no }
+		
+		available = {
+			has_completed_focus = FHI_Peace_Preservation_Law
+			has_political_power > 29
+		}
+		
+		complete_effect = {
+			add_political_power = -30
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Aiseirigh_meet_local_councilors_cooldown
+				days = 120
+			}
+		}
+		
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = yes
+		
+		timeout_effect = {
+			add_popularity = {
+				ideology = theocracy
+				popularity = -0.05
+			}
+			country_event = FHI.28
+			country_event = {
+				id = FHI.8
+				days = 8
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_Aiseirigh_meet_local_councilors_cooldown
+				days = 120
+			}
 		}
 	}
 

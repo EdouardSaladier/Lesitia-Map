@@ -1,36 +1,36 @@
 defined_text = {
-	name = GetSignature
+	name = Get_FHI_PSL_Signature
 	text = {
 		trigger = {
 			NOT = {
-				has_country_flag = law_signed
+				has_country_flag = FHI_PSL_law_signed
 			}
 		}
 		localization_key = "GFX_signature_awaiting"
 	}
 	text = {
 		trigger = {
-			has_country_flag = law_signed
+			has_country_flag = FHI_PSL_law_signed
 		}
-		localization_key = "GFX_signature_FHI_labhrann_iomharach"
+		localization_key = "GFX_signature_FHI_laomann_illebhain"
 	}
 }
 
 defined_text = {
-	name = GetSignatureTooltip
+	name = Get_FHI_PSL_SignatureTooltip
 	text = {
 		trigger = {
 			NOT = {
-				has_country_flag = law_signed
+				has_country_flag = FHI_PSL_law_signed
 			}
 		}
-		localization_key = "signature_tooltip"
+		localization_key = "FHI_PSL_signature_tooltip"
 	}
 	text = {
 		trigger = {
-			has_country_flag = law_signed
+			has_country_flag = FHI_PSL_law_signed
 		}
-		localization_key = "signature_tooltip_alt"
+		localization_key = "FHI_PSL_signature_tooltip_alt"
 	}
 }
 
@@ -46,7 +46,7 @@ defined_text = {
 				has_country_flag = anti_dissent
 			}
 		}
-		localization_key = "section_1_text"
+		localization_key = "FHI_PSL_1_text"
 	}
 	text = {
 		trigger = {
@@ -58,7 +58,7 @@ defined_text = {
 				has_country_flag = anti_dissent
 			}
 		}
-		localization_key = "section_1_text_alt"
+		localization_key = "FHI_PSL_1_text_alt"
 	}
 	text = {
 		trigger = {
@@ -70,7 +70,62 @@ defined_text = {
 				has_country_flag = anti_extremism
 			}
 		}
-		localization_key = "section_1_text_alt_2"
+		localization_key = "FHI_PSL_1_text_alt_2"
+	}
+}
+
+defined_text = {
+	name = GetSection1Tooltip
+	text = {
+		trigger = {
+			has_country_flag = anti_terrorism
+			NOT = {
+				has_country_flag = anti_extremism
+			}
+			NOT = {
+				has_country_flag = anti_dissent
+			}
+			NOT = {
+				has_country_flag = law_signed
+			}
+		}
+		localization_key = "FHI_PSL_1_tooltip"
+	}
+	text = {
+		trigger = {
+			has_country_flag = anti_extremism
+			NOT = {
+				has_country_flag = anti_terrorism
+			}
+			NOT = {
+				has_country_flag = anti_dissent
+			}
+			NOT = {
+				has_country_flag = law_signed
+			}
+		}
+		localization_key = "FHI_PSL_1_tooltip_alt"
+	}
+	text = {
+		trigger = {
+			has_country_flag = anti_dissent
+			NOT = {
+				has_country_flag = anti_terrorism
+			}
+			NOT = {
+				has_country_flag = anti_extremism
+			}
+			NOT = {
+				has_country_flag = law_signed
+			}
+		}
+		localization_key = "FHI_PSL_1_tooltip_alt_2"
+	}
+	text = {
+		trigger = {
+			has_country_flag = law_signed
+		}
+		localization_key = "law_signed_tt"
 	}
 }
 
@@ -83,7 +138,7 @@ defined_text = {
 				has_country_flag = law_signed
 			}
 		}
-		localization_key = "section_2_tooltip"
+		localization_key = "FHI_PSL_2_tooltip"
 	}
 	text = {
 		trigger = {
@@ -92,7 +147,7 @@ defined_text = {
 				has_country_flag = law_signed
 			}
 		}
-		localization_key = "section_2_tooltip_alt"
+		localization_key = "FHI_PSL_2_tooltip_alt"
 	}
 	text = {
 		trigger = {
@@ -108,13 +163,13 @@ defined_text = {
 		trigger = {
 			has_country_flag = heresy_not_prosecuted
 		}
-		localization_key = "section_2_text_alt"
+		localization_key = "FHI_PSL_2_text_alt"
 	}
 	text = {
 		trigger = {
 			has_country_flag = heresy_prosecuted
 		}
-		localization_key = "section_2_text"
+		localization_key = "FHI_PSL_2_text"
 	}
 }
 
@@ -124,13 +179,13 @@ defined_text = {
 		trigger = {
 			has_country_flag = heresy_not_prosecuted
 		}
-		localization_key = "section_3_text"
+		localization_key = "FHI_PSL_3_text"
 	}
 	text = {
 		trigger = {
 			has_country_flag = heresy_prosecuted
 		}
-		localization_key = "section_3_text_alt"
+		localization_key = "FHI_PSL_3_text_alt"
 	}
 }
 
@@ -140,13 +195,13 @@ defined_text = {
 		trigger = {
 			has_country_flag = mandate_not_required
 		}
-		localization_key = "section_4_text"
+		localization_key = "FHI_PSL_4_text"
 	}
 	text = {
 		trigger = {
 			has_country_flag = mandate_required
 		}
-		localization_key = "section_4_text_alt"
+		localization_key = "FHI_PSL_4_text_alt"
 	}
 }
 
@@ -159,7 +214,7 @@ defined_text = {
 				has_country_flag = law_signed
 			}
 		}
-		localization_key = "section_4_tooltip"
+		localization_key = "FHI_PSL_4_tooltip"
 	}
 	text = {
 		trigger = {
@@ -168,7 +223,7 @@ defined_text = {
 				has_country_flag = law_signed
 			}
 		}
-		localization_key = "section_4_tooltip_alt"
+		localization_key = "FHI_PSL_4_tooltip_alt"
 	}
 	text = {
 		trigger = {
@@ -184,12 +239,12 @@ defined_text = {
 		trigger = {
 			has_country_flag = mandate_not_required
 		}
-		localization_key = "section_5_text"
+		localization_key = "FHI_PSL_5_text"
 	}
 	text = {
 		trigger = {
 			has_country_flag = mandate_required
 		}
-		localization_key = "section_5_text_alt"
+		localization_key = "FHI_PSL_5_text_alt"
 	}
 }

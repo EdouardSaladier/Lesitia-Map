@@ -1,0 +1,235 @@
+FHI_aiseirigh_action = {
+	random_list = {
+		100 = { #Restart Protests
+			modifier = {
+				factor = 0
+				OR = { 
+					has_idea = FHI_anti_commission_protests_idea
+					has_idea = FHI_anti_parasites_protests_idea
+					has_idea = FHI_rebar_riots_idea
+				}
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Restart_Protest_cooldown
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_aiseirigh_rising }
+			}
+			activate_mission = FHI_Restart_Protest_mission
+		}
+		100 = { #FHI_Anti_Parasite_Protest
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_anti_commission_protests_idea }
+			}
+			modifier = {
+				factor = 0
+				OR = { 
+					has_idea = FHI_anti_parasites_protests_idea
+					has_idea = FHI_rebar_riots_idea
+				}
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Anti_Parasite_Protest_cooldown
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_aiseirigh_rising }
+			}
+			activate_mission = FHI_Anti_Parasite_Protest_mission
+		}
+		100 = { #FHI_Rebar_Riots
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_anti_parasites_protests_idea }
+			}
+			modifier = {
+				factor = 0
+				has_idea = FHI_rebar_riots_idea
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Rebar_Riots_cooldown
+			}
+			modifier = {
+				factor = 0
+				supremacism < 0.4
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_aiseirigh_rising }
+			}
+			activate_mission = FHI_Rebar_Riots_mission
+		}
+		100 = { #FHI_Establish_Militias
+			modifier = {
+				factor = 0
+				OR = { 
+					has_idea = FHI_establish_militias_idea
+					has_idea = FHI_our_own_justice_enemy_idea
+				}
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Establish_Militias_cooldown
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_aiseirigh_rising }
+			}
+			activate_mission = FHI_Establish_Militias_mission
+		}
+		100 = { #FHI_Our_Own_Justice
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_establish_militias_idea }
+			}
+			modifier = {
+				factor = 0
+				has_idea = FHI_our_own_justice_enemy_idea
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Our_Own_Justice_cooldown
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_aiseirigh_rising }
+			}
+			activate_mission = FHI_Our_Own_Justice_mission
+		}
+		1 = { #FHI_Aiseirigh_propaganda
+			modifier = {
+				factor = 100
+				NOT = { has_idea = FHI_establish_militias_idea }
+				NOT = { has_idea = FHI_our_own_justice_enemy_idea }
+				NOT = { has_idea = FHI_anti_commission_protests_idea }
+				NOT = { has_idea = FHI_anti_parasites_protests_idea }
+				NOT = { has_idea = FHI_rebar_riots_idea }
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Aiseirigh_propaganda_cooldown
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_aiseirigh_rising }
+			}
+			activate_mission = FHI_Aiseirigh_propaganda_mission
+		}
+		1 = { #FHI_Aiseirigh_meet_local_councilors
+			modifier = {
+				factor = 100
+				NOT = { has_idea = FHI_establish_militias_idea }
+				NOT = { has_idea = FHI_our_own_justice_enemy_idea }
+				NOT = { has_idea = FHI_anti_commission_protests_idea }
+				NOT = { has_idea = FHI_anti_parasites_protests_idea }
+				NOT = { has_idea = FHI_rebar_riots_idea }
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Aiseirigh_meet_local_councilors_cooldown
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_aiseirigh_rising }
+			}
+			activate_mission = FHI_Aiseirigh_meet_local_councilors_mission
+		}
+		10 = { #Aiseirigh Fails to do anything
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = FHI_Aiseirigh_propaganda_cooldown }
+				NOT = { has_country_flag = FHI_Restart_Protest_cooldown }
+				NOT = { has_country_flag = FHI_Aiseirigh_meet_local_councilors_cooldown }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_aiseirigh_rising }
+			}
+			country_event = FHI.29
+			country_event = {
+				id = FHI.8
+				days = 60
+				random_days = 4
+			}
+		}
+		1000 = { #No more activity
+			modifier = {
+				factor = 0
+				has_idea = FHI_aiseirigh_rising
+			}
+		}
+		1000 = { #FHI_Special_Assembly
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_rebar_riots_idea }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_our_own_justice_enemy_idea }
+			}
+			modifier = {
+				factor = 0
+				supremacism < 0.5
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_aiseirigh_rising }
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Special_Assembly_cooldown
+			}
+			activate_mission = FHI_Special_Assembly_mission
+		}
+		1000 = { #FHI_Close_Down_the_Commission
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_rebar_riots_idea }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_our_own_justice_enemy_idea }
+			}
+			modifier = {
+				factor = 0
+				supremacism < 0.7
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_aiseirigh_rising }
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Close_Down_the_Commission_cooldown
+			}
+			activate_mission = FHI_Close_Down_the_Commission_mission
+		}
+	}
+}
+
+FHI_clr_commission_ideas = {
+	clr_country_flag = coalition_despotism
+	clr_country_flag = coalition_corporatism
+	remove_ideas = FHI_negotiate_with_the_industrialists_idea
+	remove_ideas = FHI_negotiate_with_the_industrialists_enemy_idea
+	remove_ideas = FHI_rule_by_decrees_idea
+	remove_ideas = FHI_rule_by_decrees_enemy_idea
+	remove_ideas = FHI_security_directorate_idea
+	remove_ideas = FHI_peace_preservation_law_enemy_idea
+	remove_ideas = FHI_righteous_militias_of_peace_and_justice_idea
+	remove_ideas = FHI_raptor_defence_forces_idea
+}
+
+FHI_clr_aiseirigh_ideas = {
+	remove_ideas = FHI_aiseirigh_rising
+	remove_ideas = FHI_anti_commission_protests_idea
+	remove_ideas = FHI_anti_parasites_protests_idea
+	remove_ideas = FHI_rebar_riots_idea
+	remove_ideas = FHI_establish_militias_idea
+	remove_ideas = FHI_our_own_justice_enemy_idea
+}
