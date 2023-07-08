@@ -2,6 +2,25 @@ FHI_aiseirigh_crisis_commission_side = {
 
 	###Commission side
 	
+	FHI_Anti_Aiseirigh_Propaganda = {
+		available = {
+			has_completed_focus = FHI_Negotiate_with_the_Industrialists
+			has_idea = FHI_aiseirigh_rising
+		}
+		visible = {
+			is_ai = no
+		}
+		days_remove = 10
+		days_re_enable = 50
+		cost = 25
+		remove_effect = {
+			add_popularity = {
+				ideology = supremacism
+				popularity = -0.05
+			}
+		}
+	}
+	
 	FHI_Stop_Aiseirigh_Activities = {
 		available = {
 			OR = {
@@ -9,16 +28,16 @@ FHI_aiseirigh_crisis_commission_side = {
 				has_completed_focus = FHI_Raptor_Defence_Forces
 			}
 			has_idea = FHI_aiseirigh_rising
+			supremacism < 0.1
 		}
 		visible = {
-			
 			is_ai = no
 		}
 		days_remove = 10
 		days_re_enable = 50
 		cost = 25
 		remove_effect = {
-			remove_idea = FHI_aiseirigh_rising
+			remove_ideas = FHI_aiseirigh_rising
 			country_event = FHI.23
 		}
 	}
@@ -30,9 +49,9 @@ FHI_aiseirigh_crisis_commission_side = {
 				has_completed_focus = FHI_Raptor_Defence_Forces
 			}
 			has_idea = FHI_aiseirigh_rising
+			supremacism < 0.1
 		}
 		visible = {
-			
 			is_ai = yes
 		}
 		days_remove = 10
@@ -42,7 +61,7 @@ FHI_aiseirigh_crisis_commission_side = {
 			base = 1
 		}
 		remove_effect = {
-			remove_idea = FHI_aiseirigh_rising
+			remove_ideas = FHI_aiseirigh_rising
 			country_event = FHI.23
 		}
 	}
@@ -64,7 +83,11 @@ FHI_aiseirigh_crisis_commission_side = {
 				ideology = despotism
 				popularity = 0.05
 			}
-			add_stability = 0.025
+			add_popularity = {
+				ideology = supremacism
+				popularity = -0.05
+			}
+			add_stability = -0.05
 		}
 	}
 	
@@ -88,7 +111,11 @@ FHI_aiseirigh_crisis_commission_side = {
 				ideology = despotism
 				popularity = 0.05
 			}
-			add_stability = 0.025
+			add_popularity = {
+				ideology = supremacism
+				popularity = -0.05
+			}
+			add_stability = -0.05
 		}
 	}
 	
@@ -109,6 +136,10 @@ FHI_aiseirigh_crisis_commission_side = {
 				ideology = theocracy
 				popularity = 0.05
 			}
+			add_popularity = {
+				ideology = supremacism
+				popularity = -0.025
+			}
 			add_stability = -0.025
 		}
 	}
@@ -126,7 +157,8 @@ FHI_aiseirigh_crisis_commission_side = {
 		days_re_enable = 50
 		cost = 25
 		remove_effect = {
-			remove_idea = FHI_establish_militias_idea
+			remove_ideas = FHI_establish_militias_idea
+			uncomplete_national_focus = FHI_Establish_Militias
 			country_event = FHI.13
 		}
 	}
@@ -147,7 +179,8 @@ FHI_aiseirigh_crisis_commission_side = {
 			base = 1
 		}
 		remove_effect = {
-			remove_idea = FHI_establish_militias_idea
+			remove_ideas = FHI_establish_militias_idea
+			uncomplete_national_focus = FHI_Establish_Militias
 			country_event = FHI.13
 		}
 	}
@@ -165,7 +198,8 @@ FHI_aiseirigh_crisis_commission_side = {
 		days_re_enable = 50
 		cost = 50
 		remove_effect = {
-			remove_idea = FHI_our_own_justice_enemy_idea
+			remove_ideas = FHI_our_own_justice_enemy_idea
+			uncomplete_national_focus = FHI_Our_Own_Justice
 			country_event = FHI.16
 		}
 	}
@@ -186,7 +220,8 @@ FHI_aiseirigh_crisis_commission_side = {
 			base = 1
 		}
 		remove_effect = {
-			remove_idea = FHI_our_own_justice_enemy_idea
+			remove_ideas = FHI_our_own_justice_enemy_idea
+			uncomplete_national_focus = FHI_Our_Own_Justice
 			country_event = FHI.16
 		}
 	}
@@ -209,11 +244,12 @@ FHI_aiseirigh_crisis_commission_side = {
 		remove_effect = {
 			if = {
 				limit = { has_idea = FHI_anti_parasites_protests_idea }
-				remove_idea = FHI_anti_parasites_protests_idea
+				remove_ideas = FHI_anti_parasites_protests_idea
+				uncomplete_national_focus = FHI_Anti_Parasite_Protest
 				country_event = FHI.18
 			}
 			else = {
-				remove_idea = FHI_anti_commission_protests_idea
+				remove_ideas = FHI_anti_commission_protests_idea
 				country_event = FHI.17
 			}
 		}
@@ -240,11 +276,12 @@ FHI_aiseirigh_crisis_commission_side = {
 		remove_effect = {
 			if = {
 				limit = { has_idea = FHI_anti_parasites_protests_idea }
-				remove_idea = FHI_anti_parasites_protests_idea
+				remove_ideas = FHI_anti_parasites_protests_idea
+				uncomplete_national_focus = FHI_Anti_Parasite_Protest
 				country_event = FHI.18
 			}
 			else = {
-				remove_idea = FHI_anti_commission_protests_idea
+				remove_ideas = FHI_anti_commission_protests_idea
 				country_event = FHI.17
 			}
 		}
@@ -256,7 +293,7 @@ FHI_aiseirigh_crisis_commission_side = {
 				has_completed_focus = FHI_Righteous_Militias_of_Peace_and_Justice
 				has_completed_focus = FHI_Raptor_Defence_Forces
 			}
-			has_idea = FHI_rebar_riots
+			has_idea = FHI_rebar_riots_idea
 		}
 		visible = {
 			
@@ -266,7 +303,8 @@ FHI_aiseirigh_crisis_commission_side = {
 		days_re_enable = 50
 		cost = 100
 		remove_effect = {
-			remove_idea = FHI_rebar_riots
+			remove_ideas = FHI_rebar_riots_idea
+			uncomplete_national_focus = FHI_Rebar_Riots
 			country_event = FHI.11
 		}
 	}
@@ -280,7 +318,7 @@ FHI_aiseirigh_crisis_commission_side = {
 		}
 		visible = {
 			
-			has_idea = FHI_rebar_riots
+			has_idea = FHI_rebar_riots_idea
 			is_ai = yes
 		}
 		ai_will_do = {
@@ -290,7 +328,8 @@ FHI_aiseirigh_crisis_commission_side = {
 		days_re_enable = 50
 		cost = 0
 		remove_effect = {
-			remove_idea = FHI_rebar_riots
+			remove_ideas = FHI_rebar_riots_idea
+			uncomplete_national_focus = FHI_Rebar_Riots
 			country_event = FHI.11
 		}
 	}
@@ -306,13 +345,19 @@ FHI_aiseirigh_crisis_commission_side = {
 			has_political_power > 29
 		}
 		
+		cancel_trigger = {
+			NOT = { has_idea = FHI_aiseirigh_rising }
+		}
+		
 		complete_effect = {
 			add_political_power = -30
 			country_event = FHI.26
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Restart_Protest_cooldown
@@ -322,16 +367,18 @@ FHI_aiseirigh_crisis_commission_side = {
 		
 		icon = mission_icon     # For GFX_decision_mission_icon
 		is_good = no
-		days_mission_timeout = 30
+		days_mission_timeout = 40
 		selectable_mission = yes
 		
 		timeout_effect = {
 			add_ideas = FHI_anti_commission_protests_idea
 			country_event = FHI.25
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Restart_Protest_cooldown
@@ -349,12 +396,18 @@ FHI_aiseirigh_crisis_commission_side = {
 			NOT = { has_idea = FHI_anti_commission_protests_idea }
 		}
 		
+		cancel_trigger = {
+			NOT = { has_idea = FHI_aiseirigh_rising }
+		}
+		
 		complete_effect = {
 			country_event = FHI.7
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Anti_Parasite_Protest_cooldown
@@ -364,7 +417,7 @@ FHI_aiseirigh_crisis_commission_side = {
 		
 		icon = mission_icon     # For GFX_decision_mission_icon
 		is_good = no
-		days_mission_timeout = 30
+		days_mission_timeout = 40
 		selectable_mission = no
 		
 		timeout_effect = {
@@ -373,10 +426,13 @@ FHI_aiseirigh_crisis_commission_side = {
 				add_idea = FHI_anti_parasites_protests_idea
 			}
 			country_event = FHI.6
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				unlock_national_focus = FHI_Anti_Parasite_Protest
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Anti_Parasite_Protest_cooldown
@@ -393,12 +449,18 @@ FHI_aiseirigh_crisis_commission_side = {
 			NOT = { has_idea = FHI_anti_parasites_protests_idea }
 		}
 		
+		cancel_trigger = {
+			NOT = { has_idea = FHI_aiseirigh_rising }
+		}
+		
 		complete_effect = {
 			country_event = FHI.10
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Rebar_Riots_cooldown
@@ -408,7 +470,7 @@ FHI_aiseirigh_crisis_commission_side = {
 		
 		icon = mission_icon     # For GFX_decision_mission_icon
 		is_good = no
-		days_mission_timeout = 30
+		days_mission_timeout = 40
 		selectable_mission = no
 		
 		timeout_effect = {
@@ -421,10 +483,13 @@ FHI_aiseirigh_crisis_commission_side = {
 				popularity = -0.1
 			}
 			country_event = FHI.9
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				unlock_national_focus = FHI_Rebar_Riots
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Rebar_Riots_cooldown
@@ -437,14 +502,30 @@ FHI_aiseirigh_crisis_commission_side = {
 	
 		allowed = { always = no }
 		
-		available = {
-			NOT = { has_idea = FHI_anti_parasites_protests_idea }
+		available = { always = no }
+		
+		cancel_trigger = {
+			NOT = { has_idea = FHI_aiseirigh_rising }
 		}
 		
 		icon = mission_icon     # For GFX_decision_mission_icon
 		is_good = no
-		days_mission_timeout = 30
+		days_mission_timeout = 40
 		selectable_mission = no
+		
+		complete_effect = {
+			hidden_effect = {
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
+			}
+			set_country_flag = {
+				flag = FHI_Establish_Militias_cooldown
+				days = 120
+			}
+		}
 		
 		timeout_effect = {
 			add_ideas = FHI_establish_militias_idea
@@ -453,14 +534,63 @@ FHI_aiseirigh_crisis_commission_side = {
 				popularity = 0.05
 			}
 			country_event = FHI.12
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				unlock_national_focus = FHI_Establish_Militias
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Establish_Militias_cooldown
 				days = 120
+			}
+		}
+	}
+	
+	FHI_Murder_Arnfreyr_Loyalists_mission = {
+	
+		allowed = { always = no }
+		
+		available = { 
+			NOT = { has_idea = FHI_arnfreyr_remnants_idea }
+		}
+		
+		cancel_trigger = {
+			NOT = { has_idea = FHI_aiseirigh_rising }
+		}
+		
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 40
+		selectable_mission = no
+		
+		complete_effect = {
+			hidden_effect = {
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
+			}
+		}
+		
+		timeout_effect = {
+			remove_ideas = FHI_arnfreyr_remnants_idea
+			add_stability = -0.1
+			add_popularity = {
+				ideology = unclassified
+				popularity = -0.3
+			}
+			country_event = FHI.32
+			hidden_effect = {
+				unlock_national_focus = FHI_Murder_Arnfreyr_Loyalists
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 		}
 	}
@@ -473,12 +603,18 @@ FHI_aiseirigh_crisis_commission_side = {
 			NOT = { has_idea = FHI_establish_militias_idea }
 		}
 		
+		cancel_trigger = {
+			NOT = { has_idea = FHI_aiseirigh_rising }
+		}
+		
 		complete_effect = {
 			country_event = FHI.15
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Our_Own_Justice_cooldown
@@ -488,13 +624,13 @@ FHI_aiseirigh_crisis_commission_side = {
 		
 		icon = mission_icon     # For GFX_decision_mission_icon
 		is_good = no
-		days_mission_timeout = 30
+		days_mission_timeout = 40
 		selectable_mission = no
 		
 		timeout_effect = {
 			swap_ideas = {
 				remove_idea = FHI_establish_militias_idea
-				add_idea = FHI_our_own_justice_idea
+				add_idea = FHI_our_own_justice_enemy_idea
 			}
 			add_popularity = {
 				ideology = theocracy
@@ -505,10 +641,13 @@ FHI_aiseirigh_crisis_commission_side = {
 				popularity = 0.1
 			}
 			country_event = FHI.14
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				unlock_national_focus = FHI_Our_Own_Justice
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Our_Own_Justice_cooldown
@@ -525,12 +664,18 @@ FHI_aiseirigh_crisis_commission_side = {
 			supremacism < 0.5
 		}
 		
+		cancel_trigger = {
+			NOT = { has_idea = FHI_aiseirigh_rising }
+		}
+		
 		complete_effect = {
 			country_event = FHI.20
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Special_Assembly_cooldown
@@ -540,11 +685,13 @@ FHI_aiseirigh_crisis_commission_side = {
 		
 		icon = mission_icon     # For GFX_decision_mission_icon
 		is_good = no
-		days_mission_timeout = 30
+		days_mission_timeout = 40
 		selectable_mission = no
 		
 		timeout_effect = {
 			clr_country_flag = coalition_despotism
+			clr_country_flag = coalition_corporatism
+			update_coalition = yes
 			add_popularity = {
 				ideology = theocracy
 				popularity = -0.2
@@ -558,10 +705,9 @@ FHI_aiseirigh_crisis_commission_side = {
 				days = 120
 			}
 			country_event = FHI.19
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				unlock_national_focus = FHI_Summon_a_Special_Assembly
+				activate_mission = FHI_Close_Down_the_Commission_mission
 			}
 		}
 	}
@@ -574,12 +720,19 @@ FHI_aiseirigh_crisis_commission_side = {
 			supremacism < 0.7
 		}
 		
+		cancel_trigger = {
+			NOT = { has_idea = FHI_aiseirigh_rising }
+		}
+
+		
 		complete_effect = {
 			country_event = FHI.22
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Close_Down_the_Commission_cooldown
@@ -589,12 +742,19 @@ FHI_aiseirigh_crisis_commission_side = {
 		
 		icon = mission_icon     # For GFX_decision_mission_icon
 		is_good = no
-		days_mission_timeout = 30
+		days_mission_timeout = 40
 		selectable_mission = no
 		
 		timeout_effect = {
+			country_event = FHI.21
 			clr_country_flag = coalition_despotism
+			clr_country_flag = coalition_corporatism
+			update_coalition = yes
+			clr_country_flag = FHI_aiseirigh_crisis
+			clr_country_flag = FHI_sided_with_arbitration
+			set_country_flag = FHI_sided_with_aiseirigh
 			FHI_clr_commission_ideas = yes
+			FHI_clr_aiseirigh_ideas = yes
 			set_political_party = {
 				ideology = theocracy
 				popularity = 0
@@ -616,10 +776,19 @@ FHI_aiseirigh_crisis_commission_side = {
 				days = 120
 			}
 			country_event = FHI.21
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				unlock_national_focus = FHI_Contest_the_Commission
+				unlock_national_focus = FHI_Close_Down_the_Commission
+				uncomplete_national_focus = {
+					focus = FHI_Secure_the_Arbitration_Rule
+					uncomplete_children = yes
+					refund_political_power = no
+				}
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 		}
 	}
@@ -633,12 +802,18 @@ FHI_aiseirigh_crisis_commission_side = {
 			has_political_power > 29
 		}
 		
+		cancel_trigger = {
+			NOT = { has_idea = FHI_aiseirigh_rising }
+		}
+		
 		complete_effect = {
 			add_political_power = -30
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Aiseirigh_propaganda_cooldown
@@ -648,7 +823,7 @@ FHI_aiseirigh_crisis_commission_side = {
 		
 		icon = mission_icon     # For GFX_decision_mission_icon
 		is_good = no
-		days_mission_timeout = 30
+		days_mission_timeout = 40
 		selectable_mission = yes
 		
 		timeout_effect = {
@@ -657,10 +832,12 @@ FHI_aiseirigh_crisis_commission_side = {
 				popularity = 0.05
 			}
 			country_event = FHI.27
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Aiseirigh_propaganda_cooldown
@@ -678,12 +855,18 @@ FHI_aiseirigh_crisis_commission_side = {
 			has_political_power > 29
 		}
 		
+		cancel_trigger = {
+			NOT = { has_idea = FHI_aiseirigh_rising }
+		}
+		
 		complete_effect = {
 			add_political_power = -30
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Aiseirigh_meet_local_councilors_cooldown
@@ -693,7 +876,7 @@ FHI_aiseirigh_crisis_commission_side = {
 		
 		icon = mission_icon     # For GFX_decision_mission_icon
 		is_good = no
-		days_mission_timeout = 30
+		days_mission_timeout = 40
 		selectable_mission = yes
 		
 		timeout_effect = {
@@ -702,10 +885,12 @@ FHI_aiseirigh_crisis_commission_side = {
 				popularity = -0.05
 			}
 			country_event = FHI.28
-			country_event = {
-				id = FHI.8
-				days = 8
-				random_days = 4
+			hidden_effect = {
+				country_event = {
+					id = FHI.8
+					days = 8
+					random_days = 4
+				}
 			}
 			set_country_flag = {
 				flag = FHI_Aiseirigh_meet_local_councilors_cooldown

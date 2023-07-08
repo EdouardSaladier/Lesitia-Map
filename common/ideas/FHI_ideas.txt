@@ -408,7 +408,7 @@ ideas = {
 		}
 		
 		FHI_deglaurungirisation_idea = {
-			picture = FHI_security_commission
+			picture = SPR_political_violence
 			
 			allowed = { 
 			    tag = FHI
@@ -418,7 +418,7 @@ ideas = {
             }
 
             cancel = {
-				supremacism < 0.01
+				unclassified < 0.01
 				NOT = { has_idea = FHI_arnfreyr_remnants }
             }			
 			

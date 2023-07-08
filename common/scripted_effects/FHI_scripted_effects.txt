@@ -69,6 +69,7 @@ FHI_aiseirigh_action = {
 				factor = 0
 				OR = { 
 					has_idea = FHI_establish_militias_idea
+					has_idea = FHI_our_own_justice_idea
 					has_idea = FHI_our_own_justice_enemy_idea
 				}
 			}
@@ -81,6 +82,17 @@ FHI_aiseirigh_action = {
 				NOT = { has_idea = FHI_aiseirigh_rising }
 			}
 			activate_mission = FHI_Establish_Militias_mission
+		}
+		100 = { #FHI_Murder_Arnfreyr_Loyalists_mission
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_arnfreyr_remnants_idea }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_aiseirigh_rising }
+			}
+			activate_mission = FHI_Murder_Arnfreyr_Loyalists_mission
 		}
 		100 = { #FHI_Our_Own_Justice
 			modifier = {
@@ -213,23 +225,63 @@ FHI_aiseirigh_action = {
 }
 
 FHI_clr_commission_ideas = {
-	clr_country_flag = coalition_despotism
-	clr_country_flag = coalition_corporatism
-	remove_ideas = FHI_negotiate_with_the_industrialists_idea
-	remove_ideas = FHI_negotiate_with_the_industrialists_enemy_idea
-	remove_ideas = FHI_rule_by_decrees_idea
-	remove_ideas = FHI_rule_by_decrees_enemy_idea
-	remove_ideas = FHI_security_directorate_idea
-	remove_ideas = FHI_peace_preservation_law_enemy_idea
-	remove_ideas = FHI_righteous_militias_of_peace_and_justice_idea
-	remove_ideas = FHI_raptor_defence_forces_idea
+	if = {
+		limit = { has_idea = FHI_negotiate_with_the_industrialists_idea }
+		remove_ideas = FHI_negotiate_with_the_industrialists_idea
+	}
+	if = {
+		limit = { has_idea = FHI_negotiate_with_the_industrialists_enemy_idea }
+		remove_ideas = FHI_negotiate_with_the_industrialists_enemy_idea
+	}
+	if = {
+		limit = { has_idea = FHI_rule_by_decrees_idea }
+		remove_ideas = FHI_rule_by_decrees_idea
+	}
+	if = {
+		limit = { has_idea = FHI_rule_by_decrees_enemy_idea }
+		remove_ideas = FHI_rule_by_decrees_enemy_idea
+	}
+	if = {
+		limit = { has_idea = FHI_security_directorate_idea }
+		remove_ideas = FHI_security_directorate_idea
+	}
+	if = {
+		limit = { has_idea = FHI_peace_preservation_law_enemy_idea }
+		remove_ideas = FHI_peace_preservation_law_enemy_idea
+	}
+	if = {
+		limit = { has_idea = FHI_righteous_militias_of_peace_and_justice_idea }
+		remove_ideas = FHI_righteous_militias_of_peace_and_justice_idea
+	}
+	if = {
+		limit = { has_idea = FHI_raptor_defence_forces_idea }
+		remove_ideas = FHI_raptor_defence_forces_idea
+	}
 }
 
 FHI_clr_aiseirigh_ideas = {
-	remove_ideas = FHI_aiseirigh_rising
-	remove_ideas = FHI_anti_commission_protests_idea
-	remove_ideas = FHI_anti_parasites_protests_idea
-	remove_ideas = FHI_rebar_riots_idea
-	remove_ideas = FHI_establish_militias_idea
-	remove_ideas = FHI_our_own_justice_enemy_idea
+	if = {
+		limit = { has_idea = FHI_aiseirigh_rising }
+		remove_ideas = FHI_aiseirigh_rising
+	}
+	if = {
+		limit = { has_idea = FHI_anti_commission_protests_idea }
+		remove_ideas = FHI_anti_commission_protests_idea
+	}
+	if = {
+		limit = { has_idea = FHI_anti_parasites_protests_idea }
+		remove_ideas = FHI_anti_parasites_protests_idea
+	}
+	if = {
+		limit = { has_idea = FHI_rebar_riots_idea }
+		remove_ideas = FHI_rebar_riots_idea
+	}
+	if = {
+		limit = { has_idea = FHI_establish_militias_idea }
+		remove_ideas = FHI_establish_militias_idea
+	}
+	if = {
+		limit = { has_idea = FHI_our_own_justice_enemy_idea }
+		remove_ideas = FHI_our_own_justice_enemy_idea
+	}
 }
