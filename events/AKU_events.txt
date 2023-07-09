@@ -1,0 +1,25 @@
+add_namespace = AKU
+
+#Crisis Trigger
+country_event = {
+	id = AKU.1
+	title = AKU.1.t
+	desc = AKU.1.d
+	#picture = 
+	
+	trigger = {
+		tag = AKU
+		date = 3376.06.01
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = aku.1.a
+		add_ideas = AKU_crisis
+		add_popularity = {
+    ideology = corporatism
+    popularity = -0.1
+}
+	}
+}
