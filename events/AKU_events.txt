@@ -9,7 +9,7 @@ country_event = {
 	
 	trigger = {
 		tag = AKU
-		date = 3376.06.01
+		date > 3376.06.01
 	}
 
 	fire_only_once = yes
