@@ -57,8 +57,8 @@ ideas = {
 			available = {}
 			cancel = {}
 			modifier = {
-				stability_weekly = -.005
-				offensive_war_stability_factor = -.5
+				stability_weekly = -0.05
+				offensive_war_stability_factor = -0.50
 			}
 			}
 #Crisis_pro_gov_propaganda
