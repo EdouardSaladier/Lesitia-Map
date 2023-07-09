@@ -109,7 +109,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Amanda 'Mad Boat' Issawi"
-	desk = "AKU__desc"
+	desc = "AKU__desc"
 	picture = "portrait_aku_admiral_01.dds"
 	traits = {}
 	skill = 1
