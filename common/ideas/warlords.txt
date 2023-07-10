@@ -374,15 +374,48 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-			    stability_factor = 0.2
-				war_support_factor = 0.2
-				army_morale_factor = 0.1
-				conscription_factor = 0.6
-				surrender_limit = 0.5
-				theocracy_drift = 0.03
-				theocracy_acceptance = 50
-				army_attack_factor = 0.05
+			    stability_factor = 0.05
+				army_morale_factor = 0.05
+				conscription_factor = 0.1
 				army_defence_factor = 0.05
+			}
+		
+		}
+		
+		international_zone = {
+			picture = international_zone
+			
+			allowed = { 
+				tag = OAV
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    consumer_goods_factor = 0.5
+				stability_factor = -0.05
+			    political_power_gain = -0.05
+				war_support_factor = -0.2
+			    ai_call_ally_desire_factor = -1000
+				ai_join_ally_desire_factor = -1000
+				opinion_gain_monthly = -1000
+                opinion_gain_monthly_factor = -1000
+				despotism_drift = 0.01
+				despotism_acceptance = 50
+				democracy_drift = 0.01
+				democracy_acceptance = 50
+				theocracy_drift = 0.01
+				theocracy_acceptance = 50
 			}
 		
 		}

@@ -10,6 +10,13 @@ set_country_flag = coalition_despotism
 set_country_flag = coalition_theocracy
 set_country_flag = coalition_corporatism
 update_coalition = yes
+set_truce = { target = VRT days = 360 }
+set_truce = { target = AVN days = 360 }
+
+set_autonomy = {
+    target = OAV
+    autonomous_state = autonomy_supervised_state
+}
 
 set_technology = {
 	primitive_firearms = 1

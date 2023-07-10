@@ -1,0 +1,17 @@
+﻿
+l_english:
+######### countryname
+OAV_theocracy:0 "Laksa Commission"
+OAV_theocracy_DEF:0 "West Avenska"
+OAV_theocracy_ADJ:0 "Avenskan"
+
+### LEADER DESC
+OAV_polistik_desc:0 "Artist: ArtChoiAila\n\nAge: 21\n\nPolistik Sorak was born into a family of devout Zaroa practitioners in the region of Outer Avenska and played a significant role in shaping the establishment of the Laksa Commission. Located in what was once part of the Symbiotic Federation, Outer Avenska transformed into an international zone, known as the Laksa Commission, under the supervision of the Symbiotic Federation and overseen by representatives from Avenska and Vratenzk. This transformation was the result of Avenska joining forces with Vratenzk after the latter's revolt from the Federation. In the interest of peace and autonomy, the Laksa Commission was created, effectively becoming an international territory inhabited majorly by mantids and wasps. By establishing this autonomous state, the Laksa Commission aimed to prevent territorial conflicts and restrict the Federation's access to the Pryder Sea, this measure being done so the minor insect states didn't feel threatened by Symbiotic ships on their coasts.\n\nPolistik, recognized as a highly popular figure in the region, was selected as the provisional governor of the Laksa Commission. While previously holding the title of High Priest, Polistik's role shifted to that of a governor overseeing the international zone. Although he maintained his theocratic beliefs, Polistik was willing to collaborate with democratic and despotist forces, despite personal reservations, as he understood the necessity of working with various ideologies within the international zone. His appointment as governor was a testament to his broad appeal and ability to bridge divides.\n\nPolistik's leadership qualities and commitment to improving the lives of his constituents remained steadfast throughout his political career. His knowledge of the Zaroa faith and his deep understanding of the region's history allows him to make calculated and informed decisions."
+
+#####partys names###
+OAV_theocracy_party:0 "SLPWA"
+OAV_theocracy_party_long:0 "the Spiritual Liberation Party of West Avenska"
+OAV_democracy_party:0 "DSPL"
+OAV_democracy_party_long:0 "the Democratic Symbiotic Party of Laksa"
+OAV_despotism_party:0 "WFL"
+OAV_despotism_party_long:0 "the Wasp Front of Liberation"

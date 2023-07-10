@@ -1,10 +1,22 @@
-capital = 196
+capital = 193
 
 oob = "standard_templates"
 
 # Starting tech
 
 set_research_slots = 2
+
+give_military_access = AVN
+give_military_access = VRT
+
+diplomatic_relation = {
+    country = AVN
+    relation = non_aggression_pact
+}
+diplomatic_relation = {
+    country = VRT
+    relation = non_aggression_pact
+}
 
 set_technology = {
 	primitive_firearms = 1
@@ -54,10 +66,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	theocracy = 86
+	theocracy = 40
 	supremacism = 0
-	democracy = 3
-	corporatism = 11
+	democracy = 30
+	despotism = 30
 }
 
 create_country_leader = {
@@ -67,6 +79,21 @@ create_country_leader = {
 	ideology = theocracy_type 
 }
 
+create_country_leader = {
+	name = "Polistik Sorak"
+	desc = "OAV_polistik_desc"
+	picture = "portrait_polistik_sorak.dds"
+	ideology = democracy_type 
+}
+
+create_country_leader = {
+	name = "Polistik Sorak"
+	desc = "OAV_polistik_desc"
+	picture = "portrait_polistik_sorak.dds"
+	ideology = despotism_type 
+}
+
 add_ideas = {
 	zaroa_faith
+	international_zone
 }

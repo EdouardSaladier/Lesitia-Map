@@ -132,3 +132,4 @@ create_corps_commander = {
 }
 
 give_guarantee = VRT
+give_guarantee = OAV

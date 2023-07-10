@@ -148,3 +148,4 @@ add_ideas = {
 }
 
 give_guarantee = AVN
+give_guarantee = OAV

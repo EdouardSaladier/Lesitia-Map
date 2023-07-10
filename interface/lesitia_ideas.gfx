@@ -249,4 +249,8 @@ spriteTypes = {
 		name = "GFX_idea_MIT_divided_army"
 		texturefile = "gfx/interface/ideas/divided_army.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_international_zone"
+		texturefile = "gfx/interface/ideas/international_zone.dds"
+	}
 }

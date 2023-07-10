@@ -13,11 +13,12 @@ state={
 			infrastructure = 2
 			farms = 1
 		}
-		owner = SYM
+		owner = OAV
 		victory_points = {
 			15221 10
 		}
 		add_core_of = SYM
+		set_demilitarized_zone = yes
 		add_core_of = OAV
 		add_core_of = AVN
 		set_variable = { majority = 77 }
