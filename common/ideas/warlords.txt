@@ -410,6 +410,7 @@ ideas = {
 				ai_join_ally_desire_factor = -1000
 				opinion_gain_monthly = -1000
                 opinion_gain_monthly_factor = -1000
+				autonomy_gain = -2
 				despotism_drift = 0.01
 				despotism_acceptance = 50
 				democracy_drift = 0.01
