@@ -69,8 +69,8 @@ BOR = {
 	color_ui = rgb { 137 161 107 }
 }
 AVN = {
-	color = rgb { 230 160 191 }
-	color_ui = rgb { 230 160 191 }
+	color = rgb { 100 222 132 }
+	color_ui = rgb { 100 222 132 }
 }
 HAI = {
 	color = rgb { 100 71 150 }
