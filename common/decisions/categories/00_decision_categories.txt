@@ -36,6 +36,19 @@ FHI_aiseirigh_crisis_commission_side = {
 	}
 }
 
+FHI_aiseirigh_crisis_aiseirigh_side = {
+	icon = generic_propaganda
+	
+	allowed = {
+        tag = FHI
+    }
+
+	visible = {
+		has_country_flag = FHI_aiseirigh_crisis
+		has_country_flag = FHI_sided_with_aiseirigh
+	}
+}
+
 MIT_technoesoterecism = {
 	icon = military_operation
 	

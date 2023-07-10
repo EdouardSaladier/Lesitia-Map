@@ -560,3 +560,291 @@ country_event = { #FHI arnfreyr lynched
 		}
 	}
 }
+
+country_event = { #FHI tear down glaurungir monuments
+	id = FHI.33
+	title = FHI.33.t
+	desc = FHI.33.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.33.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI negotiate with the industrialists
+	id = FHI.34
+	title = FHI.34.t
+	desc = FHI.34.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.34.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI denounce the industrialists collusion
+	id = FHI.35
+	title = FHI.35.t
+	desc = FHI.35.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.35.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI commission establish rule by decree
+	id = FHI.36
+	title = FHI.36.t
+	desc = FHI.36.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.36.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI aiseirigh courts tear down decrees
+	id = FHI.37
+	title = FHI.37.t
+	desc = FHI.37.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.37.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_security_directorate established
+	id = FHI.38
+	title = FHI.38.t
+	desc = FHI.38.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.38.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_security_directorate_overwhelmed
+	id = FHI.39
+	title = FHI.39.t
+	desc = FHI.39.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.39.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI peace preservation law
+	id = FHI.40
+	title = FHI.40.t
+	desc = FHI.40.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.40.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI peace preservation law trampled over
+	id = FHI.41
+	title = FHI.41.t
+	desc = FHI.41.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.41.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI righteous militia
+	id = FHI.42
+	title = FHI.42.t
+	desc = FHI.42.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.42.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI_Force_Disband_Righteous_Militia
+	id = FHI.43
+	title = FHI.43.t
+	desc = FHI.43.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.43.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI raptor defense forces
+	id = FHI.44
+	title = FHI.44.t
+	desc = FHI.44.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.44.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI force disband raptor forces
+	id = FHI.45
+	title = FHI.45.t
+	desc = FHI.45.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.45.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI tear down glaurungir monuments
+	id = FHI.46
+	title = FHI.46.t
+	desc = FHI.46.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.46.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI arnfreyr assets seized
+	id = FHI.47
+	title = FHI.47.t
+	desc = FHI.47.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.47.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI arnfreyr offered cooperation
+	id = FHI.48
+	title = FHI.48.t
+	desc = FHI.48.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.48.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}

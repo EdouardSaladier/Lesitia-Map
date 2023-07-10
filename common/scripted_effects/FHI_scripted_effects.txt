@@ -132,7 +132,7 @@ FHI_aiseirigh_action = {
 			}
 			activate_mission = FHI_Aiseirigh_propaganda_mission
 		}
-		1 = { #FHI_Aiseirigh_meet_local_councilors
+		100 = { #FHI_Aiseirigh_meet_local_councilors
 			modifier = {
 				factor = 100
 				NOT = { has_idea = FHI_establish_militias_idea }
@@ -157,6 +157,10 @@ FHI_aiseirigh_action = {
 				NOT = { has_country_flag = FHI_Aiseirigh_propaganda_cooldown }
 				NOT = { has_country_flag = FHI_Restart_Protest_cooldown }
 				NOT = { has_country_flag = FHI_Aiseirigh_meet_local_councilors_cooldown }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_completed_focus = FHI_Meet_with_Local_Councilors }
 			}
 			modifier = {
 				factor = 0
@@ -186,6 +190,10 @@ FHI_aiseirigh_action = {
 			}
 			modifier = {
 				factor = 0
+				NOT = { has_completed_focus = FHI_Meet_with_Local_Councilors }
+			}
+			modifier = {
+				factor = 0
 				supremacism < 0.5
 			}
 			modifier = {
@@ -206,6 +214,10 @@ FHI_aiseirigh_action = {
 			modifier = {
 				factor = 0
 				NOT = { has_idea = FHI_our_own_justice_enemy_idea }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_completed_focus = FHI_Meet_with_Local_Councilors }
 			}
 			modifier = {
 				factor = 0

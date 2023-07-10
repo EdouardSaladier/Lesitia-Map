@@ -9,87 +9,13 @@ focus_tree = {
 	}
 	default = no
 	
-	###Solenrenc & Bunny Diplomacy
-	
-	focus = {
-		id = FHI_reinforce_the_solenrenc_border
-		icon = GFX_focus_generic_provoke_border_clashes
-		cost = 6
-		x = 3
-		y = 0
-	}
-	
-	focus = {
-		id = FHI_martial_laws_in_border_regions
-		icon = GFX_focus_generic_military_dictatorship
-		cost = 6
-		prerequisite = {
-			focus = FHI_reinforce_the_solenrenc_border
-		}
-		mutually_exclusive = {
-			focus = FHI_autonomy_for_loyalty
-		}
-		x = -2
-		y = 1
-		relative_position_id = FHI_reinforce_the_solenrenc_border
-	}
-	
-	focus = {
-		id = FHI_crush_the_asc
-		icon = GFX_goal_generic_more_territorial_claims
-		cost = 6
-		prerequisite = {
-			focus = FHI_martial_laws_in_border_regions
-		}
-		x = 0
-		y = 2
-		relative_position_id = FHI_martial_laws_in_border_regions
-	}
-	
-	focus = {
-		id = FHI_operation_forliggare
-		icon = GFX_goal_generic_dangerous_deal
-		cost = 6
-		prerequisite = {
-			focus = FHI_martial_laws_in_border_regions
-		}
-		x = 1
-		y = 1
-		relative_position_id = FHI_martial_laws_in_border_regions
-	}
-	
-	focus = {
-		id = FHI_autonomy_for_loyalty
-		icon = GFX_goal_molotov_ribbentrop_pact
-		cost = 6
-		prerequisite = {
-			focus = FHI_reinforce_the_solenrenc_border
-		}
-		mutually_exclusive = {
-			focus = FHI_martial_laws_in_border_regions
-		}
-		x = 1
-		y = 1
-		relative_position_id = FHI_reinforce_the_solenrenc_border
-	}
-	
-	focus = {
-		id = FHI_appoint_a_new_governor
-		icon = GFX_focus_generic_military_mission
-		cost = 6
-		prerequisite = {
-			focus = FHI_autonomy_for_loyalty
-		}
-		x = 0
-		y = 2
-		relative_position_id = FHI_autonomy_for_loyalty
-	}
+	###
 	
 	focus = {
 		id = FHI_The_Great_Consultation
 		icon = GFX_goal_generic_national_unity
 		cost = 4
-		x = 8
+		x = 2
 		y = 0
 		completion_reward = {
 			country_event = FHI.1
@@ -99,7 +25,7 @@ focus_tree = {
 	focus = {
 		id = FHI_Establish_High_Religious_Council
 		icon = GFX_focus_man_claim_the_mandate_of_heaven
-		cost = 6
+		cost = 10
 		prerequisite = {
 			focus = FHI_The_Great_Consultation
 		}
@@ -145,6 +71,27 @@ focus_tree = {
 				popularity = 0.1
 			}
 			country_event = FHI.3
+		}
+	}
+	
+		focus = {
+		id = FHI_Tear_Down_their_Monuments
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		cost = 6
+		prerequisite = {
+			focus = FHI_De_Glaurungirisation
+		}
+		x = 1
+		y = 1
+		relative_position_id = FHI_De_Glaurungirisation
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+			add_popularity = {
+				ideology = unclassified
+				popularity = -0.1
+			}
+			country_event = FHI.33
 		}
 	}
 	
@@ -270,7 +217,9 @@ focus_tree = {
 		relative_position_id = FHI_Secure_the_Arbitration_Rule
 		completion_reward = {
 			set_country_flag = coalition_despotism
-			update_coalition = yes
+			hidden_effect = {
+				update_coalition = yes
+			}
 			add_ideas = FHI_security_directorate_idea
 			add_popularity = {
 				ideology = despotism
@@ -345,8 +294,11 @@ focus_tree = {
 		y = 1
 		relative_position_id = FHI_Secure_the_Arbitration_Rule
 		completion_reward = {
+			country_event = FHI.34
 			set_country_flag = coalition_corporatism
-			update_coalition = yes
+			hidden_effect = {
+				update_coalition = yes
+			}
 			add_timed_idea = {
 				idea = FHI_negotiate_with_the_industrialists_idea
 				days = 360
@@ -538,10 +490,15 @@ focus_tree = {
 		completion_reward = {
 			country_event = FHI.32
 			remove_ideas = FHI_arnfreyr_remnants_idea
+			add_political_power = 50
 			add_stability = -0.1
 			add_popularity = {
 				ideology = unclassified
 				popularity = -0.3
+			}
+			add_popularity = {
+				ideology = supremacism
+				popularity = 0.1
 			}
 		}
 	}
@@ -568,6 +525,30 @@ focus_tree = {
 				remove_idea = FHI_anti_parasites_protests_idea
 				add_idea = FHI_rebar_riots_idea
 			}
+			add_popularity = {
+				ideology = theocracy
+				popularity = -0.1
+			}
+		}
+	}
+	
+	focus = {
+		id = FHI_Meet_with_Local_Councilors
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 6
+		available = {
+			has_country_flag = FHI_aiseirigh_crisis
+			has_country_flag = FHI_sided_with_aiseirigh
+		}
+		prerequisite = {
+			focus = FHI_Contest_the_Commission
+		}
+		x = 0
+		y = 2
+		relative_position_id = FHI_Contest_the_Commission
+		completion_reward = {
+			country_event = FHI.28
+			add_political_power = 50
 			add_popularity = {
 				ideology = theocracy
 				popularity = -0.1
@@ -612,10 +593,11 @@ focus_tree = {
 			focus = FHI_Establish_Militias
 		}
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = FHI_Establish_Militias
 		completion_reward = {
 			country_event = FHI.14
+			add_political_power = 100
 			swap_ideas = {
 				remove_idea = FHI_establish_militias_idea
 				add_idea = FHI_our_own_justice_idea
@@ -645,6 +627,9 @@ focus_tree = {
 			focus = FHI_Rebar_Riots
 		}
 		prerequisite = {
+			focus = FHI_Meet_with_Local_Councilors
+		}
+		prerequisite = {
 			focus = FHI_Our_Own_Justice
 		}
 		x = 1
@@ -654,7 +639,9 @@ focus_tree = {
 			country_event = FHI.19
 			clr_country_flag = coalition_despotism
 			clr_country_flag = coalition_corporatism
-			update_coalition = yes
+			hidden_effect = {
+				update_coalition = yes
+			}
 			add_popularity = {
 				ideology = theocracy
 				popularity = -0.2
@@ -696,12 +683,19 @@ focus_tree = {
 			custom_effect_tooltip = FHI_Close_Down_the_Commission_tt
 			clr_country_flag = coalition_despotism
 			clr_country_flag = coalition_corporatism
-			update_coalition = yes
 			clr_country_flag = FHI_aiseirigh_crisis
 			clr_country_flag = FHI_sided_with_arbitration
 			set_country_flag = FHI_sided_with_aiseirigh
-			FHI_clr_commission_ideas = yes
-			FHI_clr_aiseirigh_ideas = yes
+			hidden_effect = {
+				update_coalition = yes
+				uncomplete_national_focus = {
+					focus = FHI_Secure_the_Arbitration_Rule
+					uncomplete_children = yes
+					refund_political_power = no
+				}
+				FHI_clr_aiseirigh_ideas = yes
+				FHI_clr_commission_ideas = yes
+			}
 			add_popularity = {
 				ideology = theocracy
 				popularity = -1
