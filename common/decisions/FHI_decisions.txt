@@ -970,6 +970,7 @@ FHI_aiseirigh_crisis_aiseirigh_side = {
 		cost = 25
 		remove_effect = {
 			add_ideas = FHI_anti_parasites_protests_idea
+			hidden_effect = { unlock_national_focus = FHI_Anti_Parasite_Protest }
 		}
 	}
 
