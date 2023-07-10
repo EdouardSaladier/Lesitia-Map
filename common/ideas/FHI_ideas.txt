@@ -2,6 +2,30 @@ ideas = {
 
 	country = {
 	
+		FHI_illegitimate_commission_rule = {
+			picture = generic_disjointed_gov
+			
+			allowed = { 
+			    tag = FHI
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+			}
+		}
+	
 		FHI_aiseirigh_rising = {
 			picture = FHI_aiseirigh_rising
 			
@@ -301,7 +325,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.25
+				stability_factor = -0.1
 				unclassified_drift = 0.05
 			}
 		}

@@ -501,16 +501,15 @@ country_event = { #FHI Choice between arbitration & aiseirigh
 		set_country_flag = FHI_sided_with_arbitration
 		complete_national_focus = FHI_Secure_the_Arbitration_Rule
 		hidden_effect = {
-			hidden_effect = {
-				country_event = {
-					id = FHI.8
-					days = 16
-					random_days = 4
-				}
+			country_event = {
+				id = FHI.8
+				days = 12
+				random_days = 4
 			}
 			set_country_flag = {
 				flag = FHI_Anti_Parasite_Protest_cooldown
-				days = 20
+				days = 40
+				value = 1
 			}
 		}
 	}
@@ -521,6 +520,18 @@ country_event = { #FHI Choice between arbitration & aiseirigh
 		}
 		set_country_flag = FHI_sided_with_aiseirigh
 		complete_national_focus = FHI_Contest_the_Commission
+		hidden_effect = {
+			country_event = {
+				id = FHI.46
+				days = 12
+				random_days = 4
+			}
+			set_country_flag = {
+				flag = FHI_arnfreyr_cooldown
+				days = 40
+				value = 1
+			}
+		}
 	}
 }
 
@@ -795,21 +806,17 @@ country_event = { #FHI force disband raptor forces
 	}
 }
 
-country_event = { #FHI tear down glaurungir monuments
+country_event = { #FHI Commission Actions
 	id = FHI.46
 	title = FHI.46.t
 	desc = FHI.46.d
 	#picture = GFX_report_event_japan_army_mountainside
 	
 	is_triggered_only = yes
+	hidden = yes
 	
-	fire_only_once = yes
-	
-	option = { #
-		name = FHI.46.a
-		ai_chance = {
-			factor = 25
-		}
+	immediate = {
+		FHI_commission_action = yes
 	}
 }
 
@@ -843,6 +850,150 @@ country_event = { #FHI arnfreyr offered cooperation
 	
 	option = { #
 		name = FHI.48.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI commission ordered to stop activities
+	id = FHI.49
+	title = FHI.49.t
+	desc = FHI.49.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.49.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI commission fails to do anything
+	id = FHI.50
+	title = FHI.50.t
+	desc = FHI.50.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.50.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI commission pay protesters to fuck off
+	id = FHI.51
+	title = FHI.51.t
+	desc = FHI.51.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.51.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI commission fails to pay protesters
+	id = FHI.52
+	title = FHI.52.t
+	desc = FHI.52.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.52.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI commission fails to establish rule by decrees
+	id = FHI.53
+	title = FHI.53.t
+	desc = FHI.53.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.53.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI commission cooperation with industrialists exposed
+	id = FHI.54
+	title = FHI.54.t
+	desc = FHI.54.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.54.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI commission fails to enact peace preservation law
+	id = FHI.55
+	title = FHI.55.t
+	desc = FHI.55.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.55.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #FHI commission spreads anti aiseirigh propaganda
+	id = FHI.56
+	title = FHI.56.t
+	desc = FHI.56.d
+	#picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = FHI.56.a
 		ai_chance = {
 			factor = 25
 		}

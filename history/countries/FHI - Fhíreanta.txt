@@ -61,6 +61,7 @@ set_convoys = 20
 
 add_ideas = {
 	FHI_arnfreyr_remnants_idea
+	FHI_illegitimate_commission_rule
 }
 
 # Starting trucks & trains

@@ -121,35 +121,6 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = FHI_Pay_the_Protestors
-		icon = GFX_focus_mex_privatisation
-		cost = 6
-		available = {
-			has_idea = FHI_anti_commission_protests_idea
-			has_country_flag = FHI_sided_with_arbitration
-			NOT = { has_idea = FHI_anti_parasites_protests_idea }
-		}
-		prerequisite = {
-			focus = FHI_Seize_Arnfreyr_Assets
-		}
-		x = 0
-		y = 1
-		relative_position_id = FHI_Seize_Arnfreyr_Assets
-		completion_reward = {
-			custom_effect_tooltip = FHI_Pay_the_Protestors_tt
-			if = {
-				limit = { has_country_flag = FHI_arnfreyr_assets }
-				clr_country_flag = FHI_arnfreyr_assets
-				custom_effect_tooltip = FHI_Use_Arnfreyr_Assets_tt
-			}
-			else = {
-				add_political_power = -100
-			}
-			remove_ideas = FHI_anti_commission_protests_idea
-		}
-	}	
-	
-	focus = {
 		id = FHI_Offer_Them_Redemption
 		icon = GFX_focus_generic_concessions
 		cost = 6
@@ -180,6 +151,35 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = FHI_Pay_the_Protestors
+		icon = GFX_focus_mex_privatisation
+		cost = 6
+		available = {
+			has_idea = FHI_anti_commission_protests_idea
+			has_country_flag = FHI_sided_with_arbitration
+			NOT = { has_idea = FHI_anti_parasites_protests_idea }
+		}
+		prerequisite = {
+			focus = FHI_Seize_Arnfreyr_Assets
+			focus = FHI_Offer_Them_Redemption
+		}
+		x = 1
+		y = 1
+		relative_position_id = FHI_Seize_Arnfreyr_Assets
+		completion_reward = {
+			custom_effect_tooltip = FHI_Pay_the_Protestors_tt
+			if = {
+				limit = { has_country_flag = FHI_arnfreyr_assets }
+				clr_country_flag = FHI_arnfreyr_assets
+				custom_effect_tooltip = FHI_Use_Arnfreyr_Assets_tt
+			}
+			else = {
+				add_political_power = -100
+			}
+			remove_ideas = FHI_anti_commission_protests_idea
+		}
+	}
 	
 	focus = {
 		id = FHI_Secure_the_Arbitration_Rule
@@ -410,6 +410,7 @@ focus_tree = {
 		relative_position_id = FHI_Raptor_Defence_Forces
 		completion_reward = {
 			custom_effect_tooltip = FHI_Crush_Aiseirigh_tt
+			remove_ideas = FHI_illegitimate_commission_rule
 			hidden_effect = {
 				uncomplete_national_focus = {
 					focus = FHI_Contest_the_Commission
@@ -686,6 +687,7 @@ focus_tree = {
 			clr_country_flag = FHI_aiseirigh_crisis
 			clr_country_flag = FHI_sided_with_arbitration
 			set_country_flag = FHI_sided_with_aiseirigh
+			remove_ideas = FHI_illegitimate_commission_rule
 			hidden_effect = {
 				update_coalition = yes
 				uncomplete_national_focus = {

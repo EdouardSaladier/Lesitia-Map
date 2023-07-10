@@ -83,7 +83,7 @@ FHI_aiseirigh_action = {
 			}
 			activate_mission = FHI_Establish_Militias_mission
 		}
-		100 = { #FHI_Murder_Arnfreyr_Loyalists_mission
+		1000 = { #FHI_Murder_Arnfreyr_Loyalists_mission
 			modifier = {
 				factor = 0
 				NOT = { has_idea = FHI_arnfreyr_remnants_idea }
@@ -151,7 +151,7 @@ FHI_aiseirigh_action = {
 			}
 			activate_mission = FHI_Aiseirigh_meet_local_councilors_mission
 		}
-		10 = { #Aiseirigh Fails to do anything
+		1 = { #Aiseirigh Fails to do anything
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = FHI_Aiseirigh_propaganda_cooldown }
@@ -227,11 +227,250 @@ FHI_aiseirigh_action = {
 				factor = 0
 				NOT = { has_idea = FHI_aiseirigh_rising }
 			}
+			activate_mission = FHI_Close_Down_the_Commission_mission
+		}
+	}
+}
+
+FHI_commission_action = {
+	random_list = {
+		100 = { #FHI_Bring_Back_Iomarach
 			modifier = {
 				factor = 0
-				has_country_flag = FHI_Close_Down_the_Commission_cooldown
+				has_idea = FHI_security_directorate_idea
 			}
-			activate_mission = FHI_Close_Down_the_Commission_mission
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Bring_Back_Iomarach_cooldown
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_commission_stop
+			}
+			activate_mission = FHI_Bring_Back_Iomarach_mission
+		}
+		100 = { #FHI_Negotiate_with_the_Industrialists
+			modifier = {
+				factor = 0
+				has_idea = FHI_negotiate_with_the_industrialists_enemy_idea
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Negotiate_with_the_Industrialists_cooldown
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_commission_stop
+			}
+			activate_mission = FHI_Negotiate_with_the_Industrialists_mission
+		}
+		100 = { #FHI_Rule_by_Decrees
+			modifier = {
+				factor = 0
+				has_idea = FHI_rule_by_decrees_enemy_idea
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Rule_by_Decrees_cooldown
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_commission_stop
+			}
+			activate_mission = FHI_Rule_by_Decrees_mission
+		}
+		1000 = { #FHI_Seize_Arnfreyr_Assets
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_arnfreyr_remnants_idea }
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_arnfreyr_cooldown
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_commission_stop
+			}
+			activate_mission = FHI_Seize_Arnfreyr_Assets_mission
+		}
+		1000 = { #FHI_Offer_Them_Redemption
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_arnfreyr_remnants_idea }
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_arnfreyr_cooldown
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_commission_stop
+			}
+			activate_mission = FHI_Offer_Them_Redemption_mission
+		}
+		1000 = { #FHI_Pay_the_Protestors
+			modifier = {
+				factor = 0
+				AND = {
+					NOT = { has_completed_focus = FHI_Offer_Them_Redemption }
+					NOT = { has_completed_focus = FHI_Seize_Arnfreyr_Assets }
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_anti_commission_protests_idea }
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_commission_stop
+			}
+			activate_mission = FHI_Pay_the_Protestors_mission
+		}
+		1 = { #FHI_Anti_Aiseirigh_propaganda
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = FHI_Bring_Back_Iomarach_cooldown }
+				NOT = { has_country_flag = FHI_Negotiate_with_the_Industrialists_cooldown }
+				NOT = { has_country_flag = FHI_Rule_by_Decrees_cooldown }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_completed_focus = FHI_Negotiate_with_the_Industrialists }
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Anti_Aiseirigh_propaganda_cooldown
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_commission_stop
+			}
+			activate_mission = FHI_Anti_Aiseirigh_propaganda_mission
+		}
+		1 = { #Commission Fails to do anything
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = FHI_Bring_Back_Iomarach_cooldown }
+				NOT = { has_country_flag = FHI_Negotiate_with_the_Industrialists_cooldown }
+				NOT = { has_country_flag = FHI_Rule_by_Decrees_cooldown }
+				NOT = { has_country_flag = FHI_Anti_Aiseirigh_propaganda_cooldown }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_aiseirigh_rising }
+			}
+			country_event = FHI.50
+			country_event = {
+				id = FHI.46
+				days = 60
+				random_days = 4
+			}
+		}
+		1000 = { #FHI_Peace_Preservation_Law
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_security_directorate_idea }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_rule_by_decrees_enemy_idea }
+			}
+			modifier = {
+				factor = 0
+				has_idea = FHI_peace_preservation_law_enemy_idea
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Peace_Preservation_Law_cooldown
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_commission_stop
+			}
+			activate_mission = FHI_Peace_Preservation_Law_mission
+		}
+		1000 = { #FHI_Raptor_Defence_Forces
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_peace_preservation_law_enemy_idea }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_completed_focus = FHI_Offer_Them_Redemption }
+			}
+			modifier = {
+				factor = 0
+				has_idea = FHI_raptor_defence_forces_idea
+			}
+			modifier = {
+				factor = 0
+				has_idea = FHI_righteous_militias_of_peace_and_justice_idea
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Raptor_Defence_Forces_cooldown
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_commission_stop
+			}
+			activate_mission = FHI_Raptor_Defence_Forces_mission
+		}
+		1000 = { #FHI_Righteous_Militias_of_Peace_and_Justice
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_peace_preservation_law_enemy_idea }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_idea = FHI_negotiate_with_the_industrialists_enemy_idea }
+			}
+			modifier = {
+				factor = 0
+				has_idea = FHI_raptor_defence_forces_idea
+			}
+			modifier = {
+				factor = 0
+				has_idea = FHI_righteous_militias_of_peace_and_justice_idea
+			}
+			modifier = {
+				factor = 0
+				has_completed_focus = FHI_Offer_Them_Redemption
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_Righteous_Militias_of_Peace_and_Justice_cooldown
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_commission_stop
+			}
+			activate_mission = FHI_Righteous_Militias_of_Peace_and_Justice_mission
+		}
+		1000 = { #No more activity
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = FHI_commission_stop }
+			}
+		}
+		1000 = { #FHI_Crush_Aiseirigh
+			modifier = {
+				factor = 0
+				AND = {
+					NOT = { has_idea = FHI_raptor_defence_forces_idea }
+					NOT = { has_idea = FHI_righteous_militias_of_peace_and_justice_idea }
+				}
+			}
+			modifier = {
+				factor = 0
+				supremacism > 0.1
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FHI_commission_stop
+			}
+			activate_mission = FHI_Crush_Aiseirigh_mission
 		}
 	}
 }
