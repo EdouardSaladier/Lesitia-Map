@@ -9,7 +9,8 @@ state={
 		}
 		owner = FHI
 		add_core_of = FHI
-		set_variable = { majority = 49 }
+		set_variable = { majority = 62 }
+		set_variable = { minority = 49 }
 	}
 	
 	provinces={

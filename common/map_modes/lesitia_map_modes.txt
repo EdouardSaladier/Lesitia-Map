@@ -104,6 +104,14 @@ scripted_map_modes = {
 					}
 					else_if = {
 						limit = {
+							check_variable = { minority = 48 }
+						}
+						set_temp_variable = { red = 0.68 }
+						set_temp_variable = { green = 0.63 }
+						set_temp_variable = { blue = 0.30 }
+					}
+					else_if = {
+						limit = {
 							check_variable = { minority = 49 }
 						}
 						set_temp_variable = { red = 0.77 }
@@ -117,6 +125,14 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.82 }
 						set_temp_variable = { green = 0.77 }
 						set_temp_variable = { blue = 0.40 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { minority = 57 }
+						}
+						set_temp_variable = { red = 0.71 }
+						set_temp_variable = { green = 0.64 }
+						set_temp_variable = { blue = 0.42 }
 					}
 					else_if = {
 						limit = {
@@ -383,6 +399,14 @@ scripted_map_modes = {
 					}
 					else_if = {
 						limit = {
+							check_variable = { majority = 48 }
+						}
+						set_temp_variable = { red = 0.68 }
+						set_temp_variable = { green = 0.63 }
+						set_temp_variable = { blue = 0.30 }
+					}
+					else_if = {
+						limit = {
 							check_variable = { majority = 49 }
 						}
 						set_temp_variable = { red = 0.77 }
@@ -396,6 +420,14 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.82 }
 						set_temp_variable = { green = 0.77 }
 						set_temp_variable = { blue = 0.40 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { majority = 57 }
+						}
+						set_temp_variable = { red = 0.71 }
+						set_temp_variable = { green = 0.64 }
+						set_temp_variable = { blue = 0.42 }
 					}
 					else_if = {
 						limit = {

@@ -16,6 +16,7 @@ state={
 		add_core_of = FHI
 		add_claim_by = VRT
 		set_variable = { majority = 49 }
+		set_variable = { minority = 57 }
 		victory_points = {
 			14314 20
 		}

@@ -14,6 +14,7 @@ state={
 		owner = FHI
 		add_core_of = FHI
 		set_variable = { majority = 25 }
+		set_variable = { minority = 49 }
 		
 		victory_points = {
 			13683 30
