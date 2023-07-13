@@ -713,6 +713,15 @@ country_event = { #FHI peace preservation law
 		ai_chance = {
 			factor = 25
 		}
+		trigger = { has_country_flag = FHI_sided_with_arbitration }
+	}
+	
+	option = { #
+		name = FHI.40.b
+		ai_chance = {
+			factor = 25
+		}
+		trigger = { has_country_flag = FHI_sided_with_aiseirigh }
 	}
 }
 
@@ -749,6 +758,15 @@ country_event = { #FHI righteous militia
 		ai_chance = {
 			factor = 25
 		}
+		trigger = { has_country_flag = FHI_sided_with_arbitration }
+	}
+	
+	option = { #
+		name = FHI.42.b
+		ai_chance = {
+			factor = 25
+		}
+		trigger = { has_country_flag = FHI_sided_with_aiseirigh }
 	}
 }
 
@@ -785,6 +803,15 @@ country_event = { #FHI raptor defense forces
 		ai_chance = {
 			factor = 25
 		}
+		trigger = { has_country_flag = FHI_sided_with_arbitration }
+	}
+	
+	option = { #
+		name = FHI.44.b
+		ai_chance = {
+			factor = 25
+		}
+		trigger = { has_country_flag = FHI_sided_with_aiseirigh }
 	}
 }
 
@@ -835,6 +862,15 @@ country_event = { #FHI arnfreyr assets seized
 		ai_chance = {
 			factor = 25
 		}
+		trigger = { has_country_flag = FHI_sided_with_arbitration }
+	}
+	
+	option = { #
+		name = FHI.47.b
+		ai_chance = {
+			factor = 25
+		}
+		trigger = { has_country_flag = FHI_sided_with_aiseirigh }
 	}
 }
 

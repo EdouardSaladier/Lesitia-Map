@@ -273,7 +273,21 @@ focus_tree = {
 		relative_position_id = FHI_Bring_Back_Iomarach
 		completion_reward = {
 			custom_effect_tooltip = FHI_Peace_Preservation_Law_tt
-			FHI_PSL_init = yes
+			if = {
+				limit = { is_ai = no }
+				FHI_PSL_init = yes
+			}
+			else = {
+				set_country_flag = heresy_not_prosecuted
+				set_country_flag = mandate_required
+				set_country_flag = anti_terrorism
+				FHI_PSL_fake_effect = yes
+			}
+			country_event = {
+				id = FHI.40
+				days = 8
+				random_days = 4
+			}
 			unlock_decision_tooltip = FHI_Stop_Protests
 			unlock_decision_tooltip = FHI_Crush_Their_Justice
 		}
@@ -333,6 +347,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = FHI_Offer_Them_Redemption
 		completion_reward = {
+			country_event = FHI.44
 			add_political_power = -100
 			add_ideas = FHI_raptor_defence_forces_idea
 			add_popularity = {
@@ -364,6 +379,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = FHI_Negotiate_with_the_Industrialists
 		completion_reward = {
+			country_event = FHI.42
 			if = {
 				limit = { has_country_flag = FHI_arnfreyr_assets }
 				clr_country_flag = FHI_arnfreyr_assets
