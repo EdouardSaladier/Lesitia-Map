@@ -88,6 +88,13 @@ create_country_leader = {
 	ideology = despotism_type 
 }
 
+create_country_leader = {
+	name = "President Vera"
+	desc = "VRT_vera_democracy_desc"
+	picture = "portrait_vera_democracy.dds"
+	ideology = democracy_type 
+}
+
 create_field_marshal = {
     name = "Vera Triansbuer"
 	desc = "VRT_Vera2_desc"
