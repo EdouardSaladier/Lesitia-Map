@@ -88,26 +88,11 @@ create_country_leader = {
 	ideology = despotism_type 
 }
 
-create_country_leader = {
-	name = "President Vera"
-	desc = "VRT_vera_democracy_desc"
-	picture = "portrait_vera_democracy.dds"
-	ideology = democracy_type 
-}
-
-create_field_marshal = {
-    name = "Vera Triansbuer"
-	desc = "VRT_Vera2_desc"
-	id = 545
-	picture = "portrait_VRT_vera.dds"
-	traits = { infantry_officer urban_assault_specialist war_hero brilliant_strategist charismatic trickster guerilla_fighter}
-	skill = 5
-	
-	attack_skill = 6
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 5
-}
+recruit_character = VRT_vera_democratic
+recruit_character = VRT_vera_technocratic
+recruit_character = VRT_vera_vanguardism
+recruit_character = VRT_vera_marshall
+recruit_character = VRT_vera_supremacism
 
 create_corps_commander = {
 	name = "Makno Yurivez"

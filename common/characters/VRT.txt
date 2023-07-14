@@ -1,0 +1,78 @@
+characters = {
+
+    VRT_vera_democratic = {
+		name = "Vera Triansbuer"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRT/portrait_vera_democracy.dds"
+			}
+		}
+		country_leader = {
+			ideology = democracy_type
+			desc = vera_democracy_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	VRT_vera_vanguardism = {
+		name = "Vera Triansbuer"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRT/portrait_vera_vanguardism.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionarism_type
+			desc = vera_vanguardism_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	VRT_vera_supremacism = {
+		name = "Vera Triansbuer"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRT/portrait_vera_supremacism.dds"
+			}
+		}
+		country_leader = {
+			ideology = supremacism_type
+			desc = vera_supremacism_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	 VRT_vera_technocratic = {
+		name = "Vera Triansbuer"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRT/portrait_vera_democracy.dds"
+			}
+		}
+		country_leader = {
+			ideology = technocracy_type
+			desc = vera_democracy_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	
+	VRT_vera_marshall={
+		name= "Vera Triansbuer"
+		portraits={
+			army={
+				large= "gfx/leaders/VRT/portrait_vera_trian.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer urban_assault_specialist war_hero brilliant_strategist charismatic trickster guerilla_fighter }
+			desc = VRT_Vera2_desc
+			skill= 5
+			attack_skill = 6
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 5
+		}
+	}
+}
