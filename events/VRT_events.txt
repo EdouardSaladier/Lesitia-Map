@@ -1,0 +1,144 @@
+add_namespace = VRT
+
+country_event = {    ###monarchist
+	id = VRT.1
+	title = VRT.1.t
+	desc = VRT.1.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = VRT.1.a
+		set_party_name = { 
+			ideology = despotism
+			long_name = VRT_monarchist_party_long
+			name = VRT_monarchist_party 
+		}
+		set_cosmetic_tag = VRT_monarchist
+	    promote_character = VRT_vera_monarchist
+		
+		fire_only_once = yes
+		
+	}
+	option = { 
+		name = VRT.1.b
+		set_party_name = { 
+			ideology = revolutionarism
+			long_name = VRT_monbol_party_long
+			name = VRT_monbol_party 
+		}
+		set_politics = {
+	        ruling_party = revolutionarism
+	        elections_allowed = no
+		}
+		set_cosmetic_tag = VRT_monbol
+	    promote_character = VRT_vera_monbol
+		
+		fire_only_once = yes
+		
+	}
+}
+
+country_event = {    ###supremacist
+	id = VRT.2
+	title = VRT.2.t
+	desc = VRT.2.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = VRT.2.a
+		set_politics = {
+	        ruling_party = supremacism
+	        elections_allowed = no
+		}
+		set_cosmetic_tag = VRT_supremacist
+	
+	}
+	option = { 
+		name = VRT.2.b  ####nazi
+		set_party_name = { 
+			ideology = supremacism
+			long_name = VRT_natsoc_party_long
+			name = VRT_natsoc_party 
+		}
+		set_politics = {
+	        ruling_party = supremacism
+	        elections_allowed = no
+		}
+		set_cosmetic_tag = VRT_natsoc
+	
+	}
+}
+
+country_event = {    ###revolutionarism
+	id = VRT.3
+	title = VRT.3.t
+	desc = VRT.3.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = VRT.3.a
+		set_politics = {
+	        ruling_party = revolutionarism
+	        elections_allowed = no
+		}
+		set_cosmetic_tag = VRT_vanguardist
+	
+	}
+	option = { 
+		name = VRT.3.b  ####sablin chungus
+		set_party_name = { 
+			ideology = revolutionarism
+			long_name = VRT_collectivism_party_long
+			name = VRT_collectivism_party 
+		}
+		set_politics = {
+	        ruling_party = revolutionarism
+	        elections_allowed = no
+		}
+		set_cosmetic_tag = VRT_collectivism
+		promote_character = VRT_vera_collectivism
+	
+	}
+}
+
+country_event = {    ###militarist
+	id = VRT.4
+	title = VRT.4.t
+	desc = VRT.4.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = VRT.4.a
+		set_party_name = { 
+			ideology = despotism
+			long_name = VRT_militarist_party_long
+			name = VRT_militarist_party 
+		}
+		set_cosmetic_tag = VRT_militarist
+		promote_character = VRT_vera_militarist
+	
+	}
+	option = { 
+		name = VRT.4.b  ####military communism
+		set_party_name = { 
+			ideology = revolutionarism
+			long_name = VRT_strato_party_long
+			name = VRT_strato_party 
+		}
+		set_politics = {
+	        ruling_party = revolutionarism
+	        elections_allowed = no
+		}
+		set_cosmetic_tag = VRT_strato
+		promote_character = VRT_vera_strato
+	
+	}
+}

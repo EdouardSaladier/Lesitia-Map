@@ -1,0 +1,58 @@
+VRT_leaders = {
+
+    monarchist_leader = {
+	
+	    allowed = {
+			tag = VRT
+		}
+		ai_will_do = {
+			factor = -1
+		}
+		complete_effect = {
+			country_event = { id = VRT.1 }
+		}
+	
+    }
+	
+	supremacist_leader = {
+	
+	    allowed = {
+			tag = VRT
+		}
+		ai_will_do = {
+			factor = -1
+		}
+		complete_effect = {
+			country_event = { id = VRT.2 }
+		}
+	
+    }
+	
+	revolutionary_leader = {
+	
+	    allowed = {
+			tag = VRT
+		}
+		ai_will_do = {
+			factor = -1
+		}
+		complete_effect = {
+			country_event = { id = VRT.3 }
+		}
+	
+    }
+	
+	militarist_leader = {
+	
+	    allowed = {
+			tag = VRT
+		}
+		ai_will_do = {
+			factor = -1
+		}
+		complete_effect = {
+			country_event = { id = VRT.4 }
+		}
+	
+    }
+}

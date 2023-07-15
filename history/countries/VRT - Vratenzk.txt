@@ -93,6 +93,11 @@ recruit_character = VRT_vera_technocratic
 recruit_character = VRT_vera_vanguardism
 recruit_character = VRT_vera_marshall
 recruit_character = VRT_vera_supremacism
+recruit_character = VRT_vera_monarchist
+recruit_character = VRT_vera_monbol
+recruit_character = VRT_vera_collectivism
+recruit_character = VRT_vera_militarist
+recruit_character = VRT_vera_strato
 
 create_corps_commander = {
 	name = "Makno Yurivez"

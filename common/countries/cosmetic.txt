@@ -1,0 +1,34 @@
+VRT_monarchist = {
+    color = rgb { 65 35 218 }
+    color_ui = rgb { 65 35 218 }
+}
+VRT_monbol = {
+    color = rgb { 236 133 16 }
+    color_ui = rgb { 236 133 16 }
+}
+VRT_supremacist = {
+    color = rgb { 61 35 8 }
+    color_ui = rgb { 61 35 8 }
+}
+VRT_natsoc = {
+    color = rgb { 54 53 51 }
+    color_ui = rgb { 54 53 51 }
+}
+VRT_vanguardist = {
+    color = rgb { 156 13 13 }
+    color_ui = rgb { 156 13 13 }
+}
+VRT_collectivism = {
+    color = rgb { 222 25 25 }
+    color_ui = rgb { 222 25 25 }
+}
+VRT_militarist = {
+    color = rgb { 166 163 163 }
+    color_ui = rgb { 166 163 163  }
+}
+VRT_strato = {
+    color = rgb { 100 11 11 }
+    color_ui = rgb { 100 11 11 }
+}
+
+

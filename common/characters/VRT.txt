@@ -42,7 +42,7 @@ characters = {
 			id = -1
 		}
 	}
-	 VRT_vera_technocratic = {
+	VRT_vera_technocratic = {
 		name = "Vera Triansbuer"
 		portraits = {
 			civilian = {
@@ -52,6 +52,76 @@ characters = {
 		country_leader = {
 			ideology = technocracy_type
 			desc = vera_democracy_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	VRT_vera_monarchist = {
+		name = "Vera Triansbuer"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRT/portrait_vera_monarchist.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_type
+			desc = vera_monarchist_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	VRT_vera_monbol = {
+		name = "Vera Triansbuer"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRT/portrait_vera_monbol.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionarism_type
+			desc = vera_monbol_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	VRT_vera_collectivism = {
+		name = "Vera Triansbuer"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRT/portrait_vera_collectivism.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionarism_type
+			desc = vera_collectivism_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	VRT_vera_militarist = {
+		name = "Vera Triansbuer"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRT/portrait_vera_militarist.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_type
+			desc = vera_militarist_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	VRT_vera_strato = {
+		name = "Vera Triansbuer"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRT/portrait_vera_strato.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionarism_type
+			desc = vera_strato_desc
 			expire = "4000.1.1.1"
 			id = -1
 		}

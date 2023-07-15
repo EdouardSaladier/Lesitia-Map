@@ -57,3 +57,11 @@ MIT_technoesoterecism = {
         has_completed_focus = MIT_a_technocatharsis
     }
 }
+
+VRT_leaders = {
+	icon = generic_propaganda
+	
+	allowed = {
+        tag = VRT
+    }
+}
