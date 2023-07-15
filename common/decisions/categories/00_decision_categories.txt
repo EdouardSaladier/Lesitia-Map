@@ -17,7 +17,7 @@ lesitia_debug_decisions = {
 MIT_politic_queen = {
 	icon = military_operation
 	
-	allowed = {
+	visible = {
         tag = MIT
         has_completed_focus = MIT_red_and_blue_blood
     }
@@ -52,7 +52,7 @@ FHI_aiseirigh_crisis_aiseirigh_side = {
 MIT_technoesoterecism = {
 	icon = military_operation
 	
-	allowed = {
+	visible = {
         tag = MIT
         has_completed_focus = MIT_a_technocatharsis
     }

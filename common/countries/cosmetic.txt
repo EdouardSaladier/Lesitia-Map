@@ -32,3 +32,7 @@ VRT_strato = {
 }
 
 
+MIT_monbol = {
+    color = rgb { 200 0 0 }
+    color_ui = rgb { 200 0 0 }
+}

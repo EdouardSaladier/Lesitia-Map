@@ -34,17 +34,7 @@ add_ideas = {
 	MIT_slow_modernisation
 }
 
- 
-recruit_character = MIT_alarica
 recruit_character = MIT_king
-
-create_country_leader = {
-	name = "Regency Council"
-	desc = "MIT_regency_desc"
-	picture = "portrait_regency.dds"
-#	expire = "1947.1.1"
-	ideology = despotism_type
-#	traits = {
-#		dislikes_germany
-#	}
-}
+recruit_character = MIT_regency
+recruit_character = MIT_worker_council
+recruit_character = MIT_alarica
