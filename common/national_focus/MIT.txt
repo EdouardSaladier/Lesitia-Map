@@ -791,11 +791,6 @@ focus_tree = {
 		prerequisite = { focus = MIT_iudans_raudata }
 		completion_reward = {
 			country_event = { id = MIT.13 }
-			set_party_name = { 
-   			ideology = revolutionarism 
-  	 		long_name = MIT_legal_rev_part_long
-   			name = MIT_legal_rev_part
-			}
 		}
 		ai_will_do = {
 			factor = 1

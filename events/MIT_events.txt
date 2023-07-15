@@ -230,11 +230,11 @@ country_event = {
 
 	option = { 
 		name = MIT.14.a
-	set_politics = {
+		set_politics = {
 			ruling_party = revolutionarism
 			elections_allowed = no
 		}
-	promote_character = MIT_alarica
+			promote_character = MIT_alarica
 			set_cosmetic_tag = MIT_monbol
 	}
 }	

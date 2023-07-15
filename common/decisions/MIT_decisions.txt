@@ -15,6 +15,15 @@ MIT_politic_queen = {
 	add_ideas =
 		}
 
+	MIT_moth_girlboss_pact = {
+	cost = 75
+		visible = {
+			VRT = { has_cosmetic_tag = VRT_monbol }
+			}
+#		hidden_effect = {
+#				yghh
+#		}
+	}
 	MIT_scary_ass_experiment = {
 	cost = 75
 #	add_ideas =
