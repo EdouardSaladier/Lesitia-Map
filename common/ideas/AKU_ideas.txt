@@ -14,7 +14,6 @@ ideas = {
 		AKU_merc_apparatus = {
 			#picture
 			modifier = {
-				country_lock_all_division_template = yes
 			}
 			allowed = {
 				tag = AKU
@@ -83,5 +82,16 @@ ideas = {
 			supremacism_drift = 0.05
 			}
 		}
+#Crisis_Ben
+	AKU_amrus_rise = {
+		allowed = {
+		tag = AKU
+		}
+		available = {}
+		cancel = {}
+		modifier = {
+			despotism_drift = 0.05
+		}
+	}
 	}
 }
