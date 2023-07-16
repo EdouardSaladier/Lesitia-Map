@@ -52,4 +52,17 @@ characters = {
 			id = -1
 		}
 	}
+	MIT_aligern = {
+		name = "General Aligern"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MIT/portrait_aligern.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_type
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
 }

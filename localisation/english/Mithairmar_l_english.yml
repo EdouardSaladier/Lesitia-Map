@@ -24,6 +24,10 @@ MIT_monbol:0 "People's Kingdom of Mithairmar"
 MIT_monbol_DEF:0 "The People's of Mithairmar"
 MIT_monbol_ADJ:0 "Mithairmarian"
 
+MIT_republic:0 "Republic of Mithairmar"
+MIT_republic_DEF:0 "The Republic of Mithairmar"
+MIT_republic_ADJ:0 "Mithairmarian"
+
 MIT_warstate:0 "Republican State of Mithairmar"
 MIT_warstate_DEF:0 "the Republican State of Mithairmar"
 MIT_warstate_ADJ:0 "Mithairmarian"
@@ -102,6 +106,13 @@ MIT_theocracy_party_long:0 "Church Of The 7"
 
 MIT_legal_rev_part:0 "HMPP"
 MIT_legal_rev_part_long:0 "Her Majesty People Party"
+
+MIT_army_junta_party:0 "M.R.A"
+MIT_army_junta_party_long:0 "Mithairmar Republican Army"
+
+MIT_warstate_despotism_party:0 "M.N.R.R.A"
+MIT_warstate_despotism_party_long:0 "Mithairmar National Revolutionary Republican Army"
+
 ############################ FOCUS TREE #################################
 MIT_the_20_point_manifesto:0 "The 20 Point Manifesto"
 MIT_the_20_point_manifesto_desc:0 ""
@@ -373,7 +384,7 @@ MIT.20.d: ""
 MIT.20.a: "cons"
 MIT.20.b: "socdem"
 MIT.20.c: "lib"
-MIT.20.e: "rep extr"
+MIT.20.d: "rep extr"
 #######Custom Tooltip
 MIT_tooltip.1:0 "Alarica will ascend to the throne"
 MIT_tooltip.2:0 "Waldron wiill ascend to the throne"

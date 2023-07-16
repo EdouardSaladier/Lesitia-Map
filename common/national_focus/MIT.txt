@@ -449,6 +449,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		country_event = { id = MIT.21}
+		}
 	}
 
 	#Focus for Cut The Fat
@@ -496,12 +499,12 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		available = {
-			has_country_flag = MIT_republican_war_state
+			has_country_flag = MIT_republican_war_state_victory
 		}
 		prerequisite = { focus = MIT_the_first_election }
 		ai_will_do = {
 			factor = 1
-		}
+		}	
 	}
 
 	#Focus for Hoist The Black And Blue

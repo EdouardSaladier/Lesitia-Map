@@ -1,0 +1,18 @@
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_MIT_not_stasi
+	names = { "Ministery For State And Republic Security" }
+
+	default = {
+			AND = {
+			tag = MIT
+			MIT = { has_country_flag = MIT_republican_war_state_victory }
+			}
+	}
+	available = {
+			AND = {
+			original_tag = MIT
+			MIT = { has_country_flag = MIT_republican_war_state_victory }
+			}
+	}
+}

@@ -334,6 +334,13 @@ country_event = {
 	option = { 
 		name = MIT.19.a
 		set_country_flag = MIT_republican_coup
+		set_cosmetic_tag = MIT_republic
+		promote_character = MIT_aligern
+		set_party_name = { 
+   			ideology = despotism 
+  	 		long_name = MIT_army_junta_party
+   			name = MIT_army_junta_party_long
+		}
 	}
 }
 
@@ -356,7 +363,26 @@ country_event = {
 		name = MIT.20.c
 	}
 	option = { 
-		name = MIT.20.e
-		set_country_flag = MIT_republican_war_state
+		name = MIT.20.d
+		set_country_flag = MIT_republican_war_state_victory
+	}
+}
+
+country_event = {
+	id = MIT.21
+	title = MIT.21.t
+	desc = MIT.21.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.21.a
+		set_cosmetic_tag = MIT_warstate
+		set_party_name = { 
+   			ideology = despotism 
+  	 		long_name = MIT_warstate_despotism_party
+   			name = MIT_warstate_despotism_party_long
+		}
 	}
 }

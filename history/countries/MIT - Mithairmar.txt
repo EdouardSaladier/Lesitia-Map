@@ -38,3 +38,4 @@ recruit_character = MIT_king
 recruit_character = MIT_regency
 recruit_character = MIT_worker_council
 recruit_character = MIT_alarica
+recruit_character = MIT_aligern
