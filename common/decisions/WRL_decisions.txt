@@ -114,6 +114,11 @@ WRL_unification = {
 			192 = { add_core_of = ACS }
 			193 = { add_core_of = ACS }
 			196 = { add_core_of = ACS }
+			160 = { add_core_of = ACS }
+			161 = { add_core_of = ACS }
+			162 = { add_core_of = ACS }
+			155 = { add_core_of = ACS }
+			203 = { add_core_of = ACS }
 		}
 	
     }
