@@ -1,0 +1,118 @@
+WRL_unification = {
+
+    commandsouth_unification = {
+	
+	    icon = GFX_decision_generic_form_nation
+	
+	    allowed = {
+			tag = ACS
+		}
+		available = {
+		    is_subject = no
+			controls_state = 187
+			controls_state = 188
+			controls_state = 186
+			controls_state = 185
+			controls_state = 184
+			controls_state = 183 #
+			controls_state = 182 #
+			controls_state = 180
+			controls_state = 191
+			controls_state = 190
+			controls_state = 189 #
+			controls_state = 198
+			controls_state = 201
+			controls_state = 204
+			controls_state = 202
+			controls_state = 203
+			controls_state = 7
+			controls_state = 177
+			controls_state = 179
+			controls_state = 176
+			controls_state = 178
+			controls_state = 200
+			controls_state = 175
+			controls_state = 170
+			controls_state = 169
+			controls_state = 168
+			controls_state = 171
+			controls_state = 172
+			controls_state = 173
+			controls_state = 174
+			controls_state = 205
+			controls_state = 163
+			controls_state = 164
+			controls_state = 167
+			controls_state = 166
+			controls_state = 165
+			controls_state = 157
+			controls_state = 156
+			controls_state = 158
+			controls_state = 159
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+		    set_party_name = { 
+			    ideology = democracy
+			    long_name = ACS_democracy_party_long
+			    name = ACS_democracy_party 
+		    }
+			set_politics = {
+	            ruling_party = democracy
+	            elections_allowed = no
+		    }
+		    set_cosmetic_tag = ACS_federation
+			set_capital = {state = 7}
+			187 = { add_core_of = ACS }
+			188 = { add_core_of = ACS }
+			186 = { add_core_of = ACS }
+			185 = { add_core_of = ACS }
+			184 = { add_core_of = ACS }
+			182 = { add_core_of = ACS }
+			180 = { add_core_of = ACS }
+			191 = { add_core_of = ACS }
+			190 = { add_core_of = ACS }
+			189 = { add_core_of = ACS }
+			198 = { add_core_of = ACS }
+			201 = { add_core_of = ACS }
+			204 = { add_core_of = ACS }
+			202 = { add_core_of = ACS }
+			7 = { add_core_of = ACS }
+			177 = { add_core_of = ACS }
+			179 = { add_core_of = ACS }
+			176 = { add_core_of = ACS }
+			178 = { add_core_of = ACS }
+			200 = { add_core_of = ACS }
+			175 = { add_core_of = ACS }
+			170 = { add_core_of = ACS }
+			169 = { add_core_of = ACS }
+			168 = { add_core_of = ACS }
+			171 = { add_core_of = ACS }
+			172 = { add_core_of = ACS }
+			173 = { add_core_of = ACS }
+			174 = { add_core_of = ACS }
+			205 = { add_core_of = ACS }
+			163 = { add_core_of = ACS }
+			164 = { add_core_of = ACS }
+			167 = { add_core_of = ACS }
+			166 = { add_core_of = ACS }
+			165 = { add_core_of = ACS }
+			157 = { add_core_of = ACS }
+			156 = { add_core_of = ACS }
+			158 = { add_core_of = ACS }
+			159 = { add_core_of = ACS }
+			181 = { add_core_of = ACS }
+			197 = { add_core_of = ACS }
+			199 = { add_core_of = ACS }
+			194 = { add_core_of = ACS }
+			195 = { add_core_of = ACS }
+			192 = { add_core_of = ACS }
+			193 = { add_core_of = ACS }
+			196 = { add_core_of = ACS }
+		}
+	
+    }
+
+}

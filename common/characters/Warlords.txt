@@ -1,0 +1,17 @@
+characters = {
+    
+	ACS_oscar_democratic = {
+		name = "Oscar Azkrini"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ACS/portrait_oscar_azkrini.dds"
+			}
+		}
+		country_leader = {
+			ideology = democracy_type
+			desc = oscar_democracy_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+}

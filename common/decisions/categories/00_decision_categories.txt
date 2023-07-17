@@ -65,3 +65,56 @@ VRT_leaders = {
         tag = VRT
     }
 }
+
+WRL_unification = {
+	icon = generic_propaganda
+	
+	picture = GFX_decision_federation_map
+	
+	allowed = {
+	    OR = {
+          tag = RFT
+		  tag = TER
+		  tag = ACS
+		  tag = ETH
+		  tag = TVA
+		  tag = ZHA
+		  tag = RIS
+		  tag = LAV
+		  tag = UHL
+		  tag = TBZ
+		  tag = VOS
+		  tag = SCM
+		  tag = SED
+		  tag = CSR
+		  tag = MAV
+		  tag = KAK
+		  tag = TPG
+		  tag = OAV
+	    }
+    }
+	
+	visible = {
+	   OR = {
+          tag = RFT
+		  tag = TER
+		  tag = ACS
+		  tag = ETH
+		  tag = TVA
+		  tag = ZHA
+		  tag = RIS
+		  tag = LAV
+		  tag = UHL
+		  tag = TBZ
+		  tag = VOS
+		  tag = SCM
+		  tag = SED
+		  tag = CSR
+		  tag = MAV
+		  tag = KAK
+		  tag = TPG
+		  tag = OAV
+	    }
+
+	}
+}

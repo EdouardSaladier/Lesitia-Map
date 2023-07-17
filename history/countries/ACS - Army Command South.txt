@@ -47,6 +47,16 @@ set_technology = {
 
 set_convoys = 20
 
+create_country_leader = {
+	name = "Oscar Azkrini"
+	desc = "ACS_oscar_desc"
+	picture = "portrait_oscar_azkrini.dds"
+	traits = { war_industrialist }	
+	ideology = despotism_type
+}
+
+recruit_character = ACS_oscar_democratic
+
 set_politics = {
 	ruling_party = despotism
 	last_election = "3374.1.1"
@@ -64,10 +74,3 @@ add_ideas = {
     southern_army_command
 }
 
-create_country_leader = {
-	name = "Oscar Azkrini"
-	desc = "ACS_oscar_desc"
-	picture = "portrait_oscar_azkrini.dds"
-	traits = { war_industrialist }	
-	ideology = despotism_type
-}
