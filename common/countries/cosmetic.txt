@@ -39,4 +39,7 @@ MIT_monbol = {
 
 
 ####federation war lord stuff####
-
+TVA_federation = {
+    color = rgb { 74 116 255 }
+    color_ui = rgb { 74 116 255 }
+}

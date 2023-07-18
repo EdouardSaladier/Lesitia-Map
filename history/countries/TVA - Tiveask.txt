@@ -67,15 +67,17 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Tiveask Guard"
-	desc = "TVA_tiveask_desc"
-	picture = "portrait_tiveask_guard.dds"
-	ideology = corporatism_type 
-}
-
-create_country_leader = {
 	name = "Leonid Marat"
 	desc = "TVA_leonid_desc"
 	picture = "portrait_leonid_marat.dds"
 	ideology = despotism_type 
+}
+
+recruit_character = TVA_leonid_democratic
+
+create_country_leader = {
+	name = "Tiveask Guard"
+	desc = "TVA_tiveask_desc"
+	picture = "portrait_tiveask_guard.dds"
+	ideology = corporatism_type 
 }

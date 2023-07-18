@@ -4,14 +4,20 @@ l_english:
 ACS_federation:0 "Second Symbiotic Federation"
 ACS_federation_DEF:0 "the Second Symbiotic Federation"
 ACS_federation_ADJ:0 "Symbiotic"
+TVA_federation:0 "Unity Government of Symbiotica"
+TVA_federation_DEF:0 "the Unity Government of Symbiotica"
+TVA_federation_ADJ:0 "Symbiotic"
 
 ### LEADER DESC
 
 #####partys names###
 ACS_democracy_party:0 "Federal Reconstruction Committee"
 ACS_democracy_party_long:0 "the Federal Reconstruction Committee"
+TVA_democracy_party:0 "United"
+TVA_democracy_party_long:0 "United"
 
 ###other
 WRL_unification:0 "Unification of the Federation"
 commandsouth_unification:0 "Unify the Federation"
+tiveask_unification:0 "Unify the Federation"
 WRL_unification_desc:0 "The Federation was once the biggest and most powerful Insect state, even with it's flaws it was still seen as the representative of the arthropod races and to bring it back would bring us much needed stability and unity, together with giving us a favorable position in the diplomatic world."

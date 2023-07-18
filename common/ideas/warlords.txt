@@ -82,6 +82,7 @@ ideas = {
             }
 
             cancel = {
+			   has_cosmetic_tag = TVA_federation
             }			
 			
 			allowed_civil_war = {
