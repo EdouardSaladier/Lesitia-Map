@@ -123,6 +123,126 @@ WRL_unification = {
 	
     }
 	
+	central_unification = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+	
+	    allowed = {
+			tag = CSR
+		}
+		available = {
+		    is_subject = no
+			controls_state = 187
+			controls_state = 188
+			controls_state = 186
+			controls_state = 185
+			controls_state = 184
+			controls_state = 183 #
+			controls_state = 182 #
+			controls_state = 180
+			controls_state = 191
+			controls_state = 190
+			controls_state = 189 #
+			controls_state = 198
+			controls_state = 201
+			controls_state = 204
+			controls_state = 202
+			controls_state = 203
+			controls_state = 7
+			controls_state = 177
+			controls_state = 179
+			controls_state = 176
+			controls_state = 178
+			controls_state = 200
+			controls_state = 175
+			controls_state = 170
+			controls_state = 169
+			controls_state = 168
+			controls_state = 171
+			controls_state = 172
+			controls_state = 173
+			controls_state = 174
+			controls_state = 205
+			controls_state = 163
+			controls_state = 164
+			controls_state = 167
+			controls_state = 166
+			controls_state = 165
+			controls_state = 157
+			controls_state = 156
+			controls_state = 158
+			controls_state = 159
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			NOT = { has_cosmetic_tag = CSR_federation }
+		}
+		complete_effect = {
+		     set_party_name = { 
+			    ideology = supremacism
+			    long_name = CSR_supremacism_party_long
+			    name = CSR_supremacism_party 
+		    }
+		    set_cosmetic_tag = CSR_federation
+			set_capital = {state = 7}
+			187 = { add_core_of = ROOT }
+			188 = { add_core_of = ROOT }
+			186 = { add_core_of = ROOT }
+			185 = { add_core_of = ROOT }
+			184 = { add_core_of = ROOT }
+			182 = { add_core_of = ROOT }
+			180 = { add_core_of = ROOT }
+			191 = { add_core_of = ROOT }
+			190 = { add_core_of = ROOT }
+			189 = { add_core_of = ROOT }
+			198 = { add_core_of = ROOT }
+			201 = { add_core_of = ROOT }
+			204 = { add_core_of = ROOT }
+			202 = { add_core_of = ROOT }
+			7 = { add_core_of = ROOT }
+			177 = { add_core_of = ROOT }
+			179 = { add_core_of = ROOT }
+			176 = { add_core_of = ROOT }
+			178 = { add_core_of = ROOT }
+			200 = { add_core_of = ROOT }
+			175 = { add_core_of = ROOT }
+			170 = { add_core_of = ROOT }
+			169 = { add_core_of = ROOT }
+			168 = { add_core_of = ROOT }
+			171 = { add_core_of = ROOT }
+			172 = { add_core_of = ROOT }
+			173 = { add_core_of = ROOT }
+			174 = { add_core_of = ROOT }
+			205 = { add_core_of = ROOT }
+			163 = { add_core_of = ROOT }
+			164 = { add_core_of = ROOT }
+			167 = { add_core_of = ROOT }
+			166 = { add_core_of = ROOT }
+			165 = { add_core_of = ROOT }
+			157 = { add_core_of = ROOT }
+			156 = { add_core_of = ROOT }
+			158 = { add_core_of = ROOT }
+			159 = { add_core_of = ROOT }
+			181 = { add_core_of = ROOT }
+			197 = { add_core_of = ROOT }
+			199 = { add_core_of = ROOT }
+			194 = { add_core_of = ROOT }
+			195 = { add_core_of = ROOT }
+			192 = { add_core_of = ROOT }
+			193 = { add_core_of = ROOT }
+			196 = { add_core_of = ROOT }
+			160 = { add_core_of = ROOT }
+			161 = { add_core_of = ROOT }
+			162 = { add_core_of = ROOT }
+			155 = { add_core_of = ROOT }
+			203 = { add_core_of = ROOT }
+			183 = { add_core_of = ROOT }
+		}
+	
+    }
+	
 	tiveask_unification = {
 	 
 	    icon = GFX_decision_generic_form_nation    
@@ -243,6 +363,546 @@ WRL_unification = {
 			155 = { add_core_of = TVA }
 			203 = { add_core_of = TVA }
 			183 = { add_core_of = ROOT }
+		}
+	
+    }
+	
+	mavildea_unification = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+	
+	    allowed = {
+			tag = MAV
+		}
+		available = {
+		    is_subject = no
+			controls_state = 187
+			controls_state = 188
+			controls_state = 186
+			controls_state = 185
+			controls_state = 184
+			controls_state = 183 #
+			controls_state = 182 #
+			controls_state = 180
+			controls_state = 191
+			controls_state = 190
+			controls_state = 189 #
+			controls_state = 198
+			controls_state = 201
+			controls_state = 204
+			controls_state = 202
+			controls_state = 203
+			controls_state = 7
+			controls_state = 177
+			controls_state = 179
+			controls_state = 176
+			controls_state = 178
+			controls_state = 200
+			controls_state = 175
+			controls_state = 170
+			controls_state = 169
+			controls_state = 168
+			controls_state = 171
+			controls_state = 172
+			controls_state = 173
+			controls_state = 174
+			controls_state = 205
+			controls_state = 163
+			controls_state = 164
+			controls_state = 167
+			controls_state = 166
+			controls_state = 165
+			controls_state = 157
+			controls_state = 156
+			controls_state = 158
+			controls_state = 159
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			NOT = { has_cosmetic_tag = MAV_federation }
+		}
+		complete_effect = {
+		    set_cosmetic_tag = MAV_federation
+			set_capital = {state = 7}
+			187 = { add_core_of = ROOT }
+			188 = { add_core_of = ROOT }
+			186 = { add_core_of = ROOT }
+			185 = { add_core_of = ROOT }
+			184 = { add_core_of = ROOT }
+			182 = { add_core_of = ROOT }
+			180 = { add_core_of = ROOT }
+			191 = { add_core_of = ROOT }
+			190 = { add_core_of = ROOT }
+			189 = { add_core_of = ROOT }
+			198 = { add_core_of = ROOT }
+			201 = { add_core_of = ROOT }
+			204 = { add_core_of = ROOT }
+			202 = { add_core_of = ROOT }
+			7 = { add_core_of = ROOT }
+			177 = { add_core_of = ROOT }
+			179 = { add_core_of = ROOT }
+			176 = { add_core_of = ROOT }
+			178 = { add_core_of = ROOT }
+			200 = { add_core_of = ROOT }
+			175 = { add_core_of = ROOT }
+			170 = { add_core_of = ROOT }
+			169 = { add_core_of = ROOT }
+			168 = { add_core_of = ROOT }
+			171 = { add_core_of = ROOT }
+			172 = { add_core_of = ROOT }
+			173 = { add_core_of = ROOT }
+			174 = { add_core_of = ROOT }
+			205 = { add_core_of = ROOT }
+			163 = { add_core_of = ROOT }
+			164 = { add_core_of = ROOT }
+			167 = { add_core_of = ROOT }
+			166 = { add_core_of = ROOT }
+			165 = { add_core_of = ROOT }
+			157 = { add_core_of = ROOT }
+			156 = { add_core_of = ROOT }
+			158 = { add_core_of = ROOT }
+			159 = { add_core_of = ROOT }
+			181 = { add_core_of = ROOT }
+			197 = { add_core_of = ROOT }
+			199 = { add_core_of = ROOT }
+			194 = { add_core_of = ROOT }
+			195 = { add_core_of = ROOT }
+			192 = { add_core_of = ROOT }
+			193 = { add_core_of = ROOT }
+			196 = { add_core_of = ROOT }
+			160 = { add_core_of = ROOT }
+			161 = { add_core_of = ROOT }
+			162 = { add_core_of = ROOT }
+			155 = { add_core_of = ROOT }
+			203 = { add_core_of = ROOT }
+			183 = { add_core_of = ROOT }
+		}
+	
+    }
+	
+	provisional_unification = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+	
+	    allowed = {
+			tag = TPG
+		}
+		available = {
+		    is_subject = no
+			controls_state = 187
+			controls_state = 188
+			controls_state = 186
+			controls_state = 185
+			controls_state = 184
+			controls_state = 183 #
+			controls_state = 182 #
+			controls_state = 180
+			controls_state = 191
+			controls_state = 190
+			controls_state = 189 #
+			controls_state = 198
+			controls_state = 201
+			controls_state = 204
+			controls_state = 202
+			controls_state = 203
+			controls_state = 7
+			controls_state = 177
+			controls_state = 179
+			controls_state = 176
+			controls_state = 178
+			controls_state = 200
+			controls_state = 175
+			controls_state = 170
+			controls_state = 169
+			controls_state = 168
+			controls_state = 171
+			controls_state = 172
+			controls_state = 173
+			controls_state = 174
+			controls_state = 205
+			controls_state = 163
+			controls_state = 164
+			controls_state = 167
+			controls_state = 166
+			controls_state = 165
+			controls_state = 157
+			controls_state = 156
+			controls_state = 158
+			controls_state = 159
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			NOT = { has_cosmetic_tag = TPG_federation }
+		}
+		complete_effect = {
+		    set_party_name = { 
+			    ideology = despotism
+			    long_name = TPG_despotism_party_long
+			    name = TPG_despotism_party 
+		    }
+			set_politics = {
+	            ruling_party = despotism
+	            elections_allowed = no
+		    }
+		    set_cosmetic_tag = TPG_federation
+			set_capital = {state = 7}
+			187 = { add_core_of = ROOT }
+			188 = { add_core_of = ROOT }
+			186 = { add_core_of = ROOT }
+			185 = { add_core_of = ROOT }
+			184 = { add_core_of = ROOT }
+			182 = { add_core_of = ROOT }
+			180 = { add_core_of = ROOT }
+			191 = { add_core_of = ROOT }
+			190 = { add_core_of = ROOT }
+			189 = { add_core_of = ROOT }
+			198 = { add_core_of = ROOT }
+			201 = { add_core_of = ROOT }
+			204 = { add_core_of = ROOT }
+			202 = { add_core_of = ROOT }
+			7 = { add_core_of = ROOT }
+			177 = { add_core_of = ROOT }
+			179 = { add_core_of = ROOT }
+			176 = { add_core_of = ROOT }
+			178 = { add_core_of = ROOT }
+			200 = { add_core_of = ROOT }
+			175 = { add_core_of = ROOT }
+			170 = { add_core_of = ROOT }
+			169 = { add_core_of = ROOT }
+			168 = { add_core_of = ROOT }
+			171 = { add_core_of = ROOT }
+			172 = { add_core_of = ROOT }
+			173 = { add_core_of = ROOT }
+			174 = { add_core_of = ROOT }
+			205 = { add_core_of = ROOT }
+			163 = { add_core_of = ROOT }
+			164 = { add_core_of = ROOT }
+			167 = { add_core_of = ROOT }
+			166 = { add_core_of = ROOT }
+			165 = { add_core_of = ROOT }
+			157 = { add_core_of = ROOT }
+			156 = { add_core_of = ROOT }
+			158 = { add_core_of = ROOT }
+			159 = { add_core_of = ROOT }
+			181 = { add_core_of = ROOT }
+			197 = { add_core_of = ROOT }
+			199 = { add_core_of = ROOT }
+			194 = { add_core_of = ROOT }
+			195 = { add_core_of = ROOT }
+			192 = { add_core_of = ROOT }
+			193 = { add_core_of = ROOT }
+			196 = { add_core_of = ROOT }
+			160 = { add_core_of = ROOT }
+			161 = { add_core_of = ROOT }
+			162 = { add_core_of = ROOT }
+			155 = { add_core_of = ROOT }
+			203 = { add_core_of = ROOT }
+			183 = { add_core_of = ROOT }
+		}
+	
+    }
+	
+	eth_unification = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+	
+	    allowed = {
+			tag = ETH
+		}
+		available = {
+		    is_subject = no
+			controls_state = 187
+			controls_state = 188
+			controls_state = 186
+			controls_state = 185
+			controls_state = 184
+			controls_state = 183 #
+			controls_state = 182 #
+			controls_state = 180
+			controls_state = 191
+			controls_state = 190
+			controls_state = 189 #
+			controls_state = 198
+			controls_state = 201
+			controls_state = 204
+			controls_state = 202
+			controls_state = 203
+			controls_state = 7
+			controls_state = 177
+			controls_state = 179
+			controls_state = 176
+			controls_state = 178
+			controls_state = 200
+			controls_state = 175
+			controls_state = 170
+			controls_state = 169
+			controls_state = 168
+			controls_state = 171
+			controls_state = 172
+			controls_state = 173
+			controls_state = 174
+			controls_state = 205
+			controls_state = 163
+			controls_state = 164
+			controls_state = 167
+			controls_state = 166
+			controls_state = 165
+			controls_state = 157
+			controls_state = 156
+			controls_state = 158
+			controls_state = 159
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			NOT = { has_cosmetic_tag = ETH_federation }
+		}
+		complete_effect = {
+		    set_party_name = { 
+			    ideology = supremacism
+			    long_name = ETH_supremacism_party_long
+			    name = ETH_supremacism_party 
+		    }
+		    set_cosmetic_tag = ETH_federation
+			set_capital = {state = 7}
+			187 = { add_core_of = ROOT }
+			188 = { add_core_of = ROOT }
+			186 = { add_core_of = ROOT }
+			185 = { add_core_of = ROOT }
+			184 = { add_core_of = ROOT }
+			182 = { add_core_of = ROOT }
+			180 = { add_core_of = ROOT }
+			191 = { add_core_of = ROOT }
+			190 = { add_core_of = ROOT }
+			189 = { add_core_of = ROOT }
+			198 = { add_core_of = ROOT }
+			201 = { add_core_of = ROOT }
+			204 = { add_core_of = ROOT }
+			202 = { add_core_of = ROOT }
+			7 = { add_core_of = ROOT }
+			177 = { add_core_of = ROOT }
+			179 = { add_core_of = ROOT }
+			176 = { add_core_of = ROOT }
+			178 = { add_core_of = ROOT }
+			200 = { add_core_of = ROOT }
+			175 = { add_core_of = ROOT }
+			170 = { add_core_of = ROOT }
+			169 = { add_core_of = ROOT }
+			168 = { add_core_of = ROOT }
+			171 = { add_core_of = ROOT }
+			172 = { add_core_of = ROOT }
+			173 = { add_core_of = ROOT }
+			174 = { add_core_of = ROOT }
+			205 = { add_core_of = ROOT }
+			163 = { add_core_of = ROOT }
+			164 = { add_core_of = ROOT }
+			167 = { add_core_of = ROOT }
+			166 = { add_core_of = ROOT }
+			165 = { add_core_of = ROOT }
+			157 = { add_core_of = ROOT }
+			156 = { add_core_of = ROOT }
+			158 = { add_core_of = ROOT }
+			159 = { add_core_of = ROOT }
+			181 = { add_core_of = ROOT }
+			197 = { add_core_of = ROOT }
+			199 = { add_core_of = ROOT }
+			194 = { add_core_of = ROOT }
+			195 = { add_core_of = ROOT }
+			192 = { add_core_of = ROOT }
+			193 = { add_core_of = ROOT }
+			196 = { add_core_of = ROOT }
+			160 = { add_core_of = ROOT }
+			161 = { add_core_of = ROOT }
+			162 = { add_core_of = ROOT }
+			155 = { add_core_of = ROOT }
+			203 = { add_core_of = ROOT }
+			183 = { add_core_of = ROOT }
+		}
+	
+    }
+	
+	ris_government_change = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+	
+	    cost = 200
+	    allowed = {
+			tag = RIS
+			has_government = corporatism
+		}
+		available = {
+		    is_subject = no
+			tag = RIS
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			NOT = { has_government = democracy }
+			tag = RIS
+		}
+		complete_effect = {
+		    set_politics = {
+	            ruling_party = democracy
+	            elections_allowed = no
+		    }
+			187 = { add_core_of = ROOT }
+			188 = { add_core_of = ROOT }
+			186 = { add_core_of = ROOT }
+			185 = { add_core_of = ROOT }
+			184 = { add_core_of = ROOT }
+			182 = { add_core_of = ROOT }
+			180 = { add_core_of = ROOT }
+			191 = { add_core_of = ROOT }
+			190 = { add_core_of = ROOT }
+			189 = { add_core_of = ROOT }
+			198 = { add_core_of = ROOT }
+			201 = { add_core_of = ROOT }
+			204 = { add_core_of = ROOT }
+			202 = { add_core_of = ROOT }
+			7 = { add_core_of = ROOT }
+			177 = { add_core_of = ROOT }
+			179 = { add_core_of = ROOT }
+			176 = { add_core_of = ROOT }
+			178 = { add_core_of = ROOT }
+			200 = { add_core_of = ROOT }
+			175 = { add_core_of = ROOT }
+			170 = { add_core_of = ROOT }
+			169 = { add_core_of = ROOT }
+			168 = { add_core_of = ROOT }
+			171 = { add_core_of = ROOT }
+			172 = { add_core_of = ROOT }
+			173 = { add_core_of = ROOT }
+			174 = { add_core_of = ROOT }
+			205 = { add_core_of = ROOT }
+			163 = { add_core_of = ROOT }
+			164 = { add_core_of = ROOT }
+			167 = { add_core_of = ROOT }
+			166 = { add_core_of = ROOT }
+			165 = { add_core_of = ROOT }
+			157 = { add_core_of = ROOT }
+			156 = { add_core_of = ROOT }
+			158 = { add_core_of = ROOT }
+			159 = { add_core_of = ROOT }
+			181 = { add_core_of = ROOT }
+			197 = { add_core_of = ROOT }
+			199 = { add_core_of = ROOT }
+			194 = { add_core_of = ROOT }
+			195 = { add_core_of = ROOT }
+			192 = { add_core_of = ROOT }
+			193 = { add_core_of = ROOT }
+			196 = { add_core_of = ROOT }
+			160 = { add_core_of = ROOT }
+			161 = { add_core_of = ROOT }
+			162 = { add_core_of = ROOT }
+			155 = { add_core_of = ROOT }
+			203 = { add_core_of = ROOT }
+			183 = { add_core_of = ROOT }
+		}
+	
+    }
+	
+	reclamation_unification = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+	
+	    allowed = {
+			tag = RIS
+			has_government = democracy
+		}
+		available = {
+		    tag = RIS
+		    is_subject = no
+			controls_state = 187
+			controls_state = 188
+			controls_state = 186
+			controls_state = 185
+			controls_state = 184
+			controls_state = 183 #
+			controls_state = 182 #
+			controls_state = 180
+			controls_state = 191
+			controls_state = 190
+			controls_state = 189 #
+			controls_state = 198
+			controls_state = 201
+			controls_state = 204
+			controls_state = 202
+			controls_state = 203
+			controls_state = 7
+			controls_state = 177
+			controls_state = 179
+			controls_state = 176
+			controls_state = 178
+			controls_state = 200
+			controls_state = 175
+			controls_state = 170
+			controls_state = 169
+			controls_state = 168
+			controls_state = 171
+			controls_state = 172
+			controls_state = 173
+			controls_state = 174
+			controls_state = 205
+			controls_state = 163
+			controls_state = 164
+			controls_state = 167
+			controls_state = 166
+			controls_state = 165
+			controls_state = 157
+			controls_state = 156
+			controls_state = 158
+			controls_state = 159
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			NOT = { has_cosmetic_tag = RIS_federation }
+			tag = RIS
+		}
+		complete_effect = {
+		    set_party_name = { 
+			    ideology = democracy
+			    long_name = RIS_democracy_party_long
+			    name = RIS_democracy_party 
+		    }
+		    set_cosmetic_tag = RIS_federation
+			set_capital = {state = 7}
+		}
+	
+    }
+	
+	demand_ACS = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+		
+	    cost = 100
+	    allowed = {
+			tag = RIS
+		}
+		available = {
+		    tag = RIS
+		    is_subject = no
+			has_government = democracy
+			country_exists = ACS
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			NOT = { has_cosmetic_tag = RIS_federation }
+			tag = RIS
+		}
+		complete_effect = {
+		    ACS = {
+		      country_event = { id = ACS.1 days = 2 }
+			}
 		}
 	
     }

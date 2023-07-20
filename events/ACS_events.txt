@@ -1,0 +1,34 @@
+add_namespace = ACS
+
+country_event = {    ###demand ACS
+	id = ACS.1
+	title = ACS.1.t
+	desc = ACS.1.d
+	picture = GFX_report_ultimatum_event_RIS
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_war_with = RIS }
+	}
+
+	option = { 
+		name = ACS.1.a
+		 ai_chance = {
+			factor = 40
+			}
+	     RIS = {
+			annex_country = { target = ACS transfer_troops = yes }
+			recruit_character = RIS_oscar_islands
+		   }
+	}
+	option = { 
+		name = ACS.2.b
+		RIS = {
+		    create_wargoal = {
+              target = ACS
+              type = annex_everything
+			}
+		}
+	}
+}

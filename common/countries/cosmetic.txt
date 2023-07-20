@@ -43,3 +43,14 @@ TVA_federation = {
     color = rgb { 74 116 255 }
     color_ui = rgb { 74 116 255 }
 }
+
+CSR_federation = {
+    color = rgb { 21 90 7 }
+    color_ui = rgb { 21 90 7 }
+}
+
+RIS_federation = {
+    color = rgb { 75 160 160 }
+	color_ui = rgb { 75 160 160 }
+}
+

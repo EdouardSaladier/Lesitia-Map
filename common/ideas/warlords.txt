@@ -82,7 +82,11 @@ ideas = {
             }
 
             cancel = {
+			  OR = {
 			   has_cosmetic_tag = TVA_federation
+			   has_cosmetic_tag = CSR_federation
+			   has_cosmetic_tag = TPG_federation
+			  }
             }			
 			
 			allowed_civil_war = {
@@ -162,6 +166,7 @@ ideas = {
             }
 
             cancel = {
+			   has_cosmetic_tag = TVA_federation
             }			
 			
 			allowed_civil_war = {
@@ -266,6 +271,7 @@ ideas = {
             }
 
             cancel = {
+			   has_cosmetic_tag = CSR_federation
             }			
 			
 			allowed_civil_war = {

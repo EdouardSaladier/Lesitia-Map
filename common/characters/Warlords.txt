@@ -29,4 +29,38 @@ characters = {
 			id = -1
 		}
 	}
+	
+	TPG_meloe_despotism = {
+		name = "Meloe Aonte"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TPG/portrait_meloe_despotism.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_type
+			desc = leonid_despotism_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	
+	RIS_oscar_islands = {
+		name = "Oscar Azkrini"
+		portraits={
+			army={
+				large= "gfx/leaders/RIS/portrait_RIS_oscar.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer urban_assault_specialist war_hero politically_connected harsh_leader }
+			desc = RIS_oscar_desc
+			skill= 5
+			attack_skill = 6
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 5
+		}
+	}
 }

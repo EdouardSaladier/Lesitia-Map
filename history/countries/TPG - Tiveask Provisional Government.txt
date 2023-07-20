@@ -60,15 +60,17 @@ set_popularities = {
 	corporatism = 0
 }
 
-add_ideas = {
-    refugee_state
-	tiveask_fog
-	tiveask_bandits
-}
-
 create_country_leader = {
 	name = "Meloe Aonte"
 	desc = "TPG_mel_desc"
 	picture = "portrait_meloe_aonte.dds"
 	ideology = democracy_type 
+}
+
+recruit_character = TPG_meloe_despotism
+
+add_ideas = {
+    refugee_state
+	tiveask_fog
+	tiveask_bandits
 }

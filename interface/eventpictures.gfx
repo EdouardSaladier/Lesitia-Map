@@ -1,0 +1,8 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_ultimatum_event_RIS"
+		texturefile = "gfx/event_pictures/report_ultimatum_event_RIS.dds"
+	}
+
+}
