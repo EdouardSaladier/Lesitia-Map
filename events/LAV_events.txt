@@ -1,0 +1,33 @@
+add_namespace = LAV
+
+country_event = {    ###demand LAV
+	id = LAV.1
+	title = ACS.1.t
+	desc = ACS.1.d
+	picture = GFX_report_ultimatum_event_RIS
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_war_with = RIS }
+	}
+
+	option = { 
+		name = LAV.1.a
+		 ai_chance = {
+			factor = 30
+			}
+	     RIS = {
+			annex_country = { target = LAV transfer_troops = yes }
+		   }
+	}
+	option = { 
+		name = LAV.2.b
+		RIS = {
+		    create_wargoal = {
+              target = LAV
+              type = annex_everything
+			}
+		}
+	}
+}

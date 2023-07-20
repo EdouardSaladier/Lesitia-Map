@@ -339,6 +339,7 @@ ideas = {
             }
 
             cancel = {
+			    has_cosmetic_tag = RFT_federation
             }			
 			
 			allowed_civil_war = {

@@ -4,5 +4,9 @@ spriteTypes = {
 		name = "GFX_report_ultimatum_event_RIS"
 		texturefile = "gfx/event_pictures/report_ultimatum_event_RIS.dds"
 	}
+	spriteType = {
+		name = "GFX_report_RFT_leaders"
+		texturefile = "gfx/event_pictures/report_RFT_leaders.dds"
+	}
 
 }

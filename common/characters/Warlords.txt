@@ -63,4 +63,32 @@ characters = {
 	        logistics_skill = 5
 		}
 	}
+	RFT_moth_badguy = {
+		name = "Alexandre Renaud"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RFT/portrait_alexander_bad.dds"
+			}
+		}
+		country_leader = {
+			ideology = democracy_type
+			desc = alexandre_democracy_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	RFT_moth_goodguy = {
+		name = "Mathieu Dufresne"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RFT/portrait_matthew_good.dds"
+			}
+		}
+		country_leader = {
+			ideology = democracy_type
+			desc = mathieu_democracy_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
 }
