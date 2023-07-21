@@ -1086,8 +1086,6 @@ focus = {
 		bypass = {
 		}
 		completion_reward = {
-			country_event = {
-					}
 		}
 	}
 	focus = {
@@ -1101,13 +1099,13 @@ focus = {
 		x = -1
 		relative_position_id = AKU_army_armor_inovations
 		prerequisite = { focus = AKU_army_armor_inovations
-						focus = AKU_army_trench
+		focus = AKU_army_trench
 		}
 		available = {
+		NOT = {has_idea = aku_crisis}
 		}
 		
 		bypass = {
-		NOT = {has_idea = aku_crisis}
 		}
 		completion_reward = {
 		add_research_slot = 1
