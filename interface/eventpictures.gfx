@@ -8,5 +8,9 @@ spriteTypes = {
 		name = "GFX_report_RFT_leaders"
 		texturefile = "gfx/event_pictures/report_RFT_leaders.dds"
 	}
+	spriteType = {
+		name = "GFX_report_KAK_flag"
+		texturefile = "gfx/event_pictures/report_KAK_flag.dds"
+	}
 
 }

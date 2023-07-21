@@ -733,9 +733,9 @@ WRL_unification = {
 	    cost = 200
 	    allowed = {
 			tag = RIS
-			has_government = corporatism
 		}
 		available = {
+		    has_government = corporatism
 		    is_subject = no
 			tag = RIS
 		}
@@ -813,9 +813,9 @@ WRL_unification = {
 	
 	    allowed = {
 			tag = RIS
-			has_government = democracy
 		}
 		available = {
+		    has_government = democracy
 		    tag = RIS
 		    is_subject = no
 			controls_state = 187
@@ -1025,6 +1025,179 @@ WRL_unification = {
 		}
 		complete_effect = {
 		    country_event = { id = RFT.2 }
+		}
+	
+    }
+	
+	KAK_unification = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+	
+	    allowed = {
+			tag = KAK
+		}
+		available = {
+		    is_subject = no
+			controls_state = 187
+			controls_state = 188
+			controls_state = 186
+			controls_state = 185
+			controls_state = 184
+			controls_state = 183 #
+			controls_state = 182 #
+			controls_state = 180
+			controls_state = 191
+			controls_state = 190
+			controls_state = 189 #
+			controls_state = 198
+			controls_state = 201
+			controls_state = 204
+			controls_state = 202
+			controls_state = 203
+			controls_state = 7
+			controls_state = 177
+			controls_state = 179
+			controls_state = 176
+			controls_state = 178
+			controls_state = 200
+			controls_state = 175
+			controls_state = 170
+			controls_state = 169
+			controls_state = 168
+			controls_state = 171
+			controls_state = 172
+			controls_state = 173
+			controls_state = 174
+			controls_state = 205
+			controls_state = 163
+			controls_state = 164
+			controls_state = 167
+			controls_state = 166
+			controls_state = 165
+			controls_state = 157
+			controls_state = 156
+			controls_state = 158
+			controls_state = 159
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			NOT = { has_cosmetic_tag = KAK_federation }
+			NOT = { has_cosmetic_tag = NEW_federation }
+		}
+		complete_effect = {
+		    country_event = { id = KAK.1 }
+		}
+	
+    }
+	
+	faction_BOR = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+		fire_only_once = yes
+		
+	    cost = 100
+	    allowed = {
+			tag = KAK
+		}
+		available = {
+		    tag = KAK
+		    is_subject = no
+			has_government = democracy
+			country_exists = BOR
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			has_cosmetic_tag = NEW_federation
+			NOT = { is_ally_with = BOR }
+			NOT = { has_wargoal_against = BOR }
+			NOT = { has_war_with = BOR }
+			BOR = { is_subject = no }
+			BOR = { NOT = { is_in_faction = yes }  }
+			country_exists = BOR
+		}
+		complete_effect = {
+		    BOR = {
+		      country_event = { id = BOR.1 days = 2 }
+			}
+		}
+	
+    }
+	
+	faction_VRT = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+		fire_only_once = yes
+		
+	    cost = 100
+	    allowed = {
+			tag = KAK
+		}
+		available = {
+		    tag = KAK
+		    is_subject = no
+			has_government = democracy
+			country_exists = VRT
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+		    has_cosmetic_tag = NEW_federation
+			NOT = { is_ally_with = VRT }
+			NOT = { has_wargoal_against = VRT }
+			NOT = { has_war_with = VRT }
+			VRT = { is_subject = no }
+			country_exists = VRT
+			VRT = { NOT = { has_government = supremacism }  }
+			VRT = { NOT = { has_government = unclassified }  }
+			VRT = { NOT = { has_government = revolutionarism }  }
+			VRT = { NOT = { has_government = theocracy }  }
+			VRT = { NOT = { is_in_faction = yes }  }
+		}
+		complete_effect = {
+		    VRT = {
+		      country_event = { id = VRT.16 days = 2 }
+			}
+		}
+	
+    }
+	
+	faction_AVN = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+		fire_only_once = yes
+		
+	    cost = 100
+	    allowed = {
+			tag = KAK
+		}
+		available = {
+		    tag = KAK
+		    is_subject = no
+			has_government = democracy
+			country_exists = AVN
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+		    has_cosmetic_tag = NEW_federation
+			NOT = { is_ally_with = AVN }
+			NOT = { has_wargoal_against = AVN }
+			NOT = { has_war_with = AVN }
+			AVN = { is_subject = no }
+			country_exists = AVN
+			AVN = { NOT = { has_government = supremacism }  }
+			AVN = { NOT = { is_in_faction = yes }  }
+		}
+		complete_effect = {
+		    AVN = {
+		      country_event = { id = AVN.1 days = 2 }
+			}
 		}
 	
     }

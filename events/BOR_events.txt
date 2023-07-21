@@ -1,0 +1,33 @@
+add_namespace = BOR
+
+country_event = {    ###invite BOR to faction
+	id = BOR.1
+	title = BOR.1.t
+	desc = BOR.1.d
+	picture = GFX_report_KAK_flag
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_war_with = KAK }
+	}
+
+	option = { 
+		name = BOR.1.a
+		 ai_chance = {
+			factor = 80
+			}
+	     KAK = {
+			add_to_faction = BOR
+		   }
+	}
+	option = { 
+		name = BOR.2.b
+		KAK = {
+		    create_wargoal = {
+              target = BOR
+              type = puppet_wargoal_focus
+			}
+		}
+	}
+}

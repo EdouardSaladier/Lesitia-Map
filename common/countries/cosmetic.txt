@@ -54,3 +54,7 @@ RIS_federation = {
 	color_ui = rgb { 75 160 160 }
 }
 
+NEW_federation = {
+    color = rgb { 75 160 160 }
+	color_ui = rgb { 75 160 160 }
+}

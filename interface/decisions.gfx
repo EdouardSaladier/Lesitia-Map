@@ -24,3 +24,18 @@ spriteTypes = {
 		name = "GFX_decision_generic_army_support"
 		texturefile = "gfx/interface/decisions/decision_generic_army_support.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_decision_generic_operation"
+		texturefile = "gfx/interface/decisions/decision_generic_operation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_generic_prepare_civil_war"
+		texturefile = "gfx/interface/decisions/decision_generic_prepare_civil_war.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_infiltrate_state"
+		texturefile = "gfx/interface/decisions/decision_infiltrate_state.dds"
+	}

@@ -11,3 +11,5 @@ KAK_lua_desc:0 "Artist: ArtChoiAila\n\nAge: 36\n\nLuã was born in the city of Z
 #####partys names###
 KAK_despotism_party:0 "Kakrikea Council"
 KAK_despotism_party_long:0 "the Kakrikea Council"
+KAK_democracy_party:0 "R.F.P"
+KAK_democracy_party_long:0 "the Reborn Federal Party"

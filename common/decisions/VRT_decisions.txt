@@ -2,6 +2,8 @@ VRT_leaders = {
 
     monarchist_leader = {
 	
+	    icon = GFX_decision_generic_prepare_civil_war
+	
 	    allowed = {
 			tag = VRT
 		}
@@ -15,6 +17,8 @@ VRT_leaders = {
     }
 	
 	supremacist_leader = {
+	
+	    icon = GFX_decision_generic_prepare_civil_war
 	
 	    allowed = {
 			tag = VRT
@@ -30,6 +34,8 @@ VRT_leaders = {
 	
 	revolutionary_leader = {
 	
+	    icon = GFX_decision_generic_prepare_civil_war
+	
 	    allowed = {
 			tag = VRT
 		}
@@ -43,6 +49,8 @@ VRT_leaders = {
     }
 	
 	militarist_leader = {
+	  
+	    icon = GFX_decision_generic_prepare_civil_war
 	
 	    allowed = {
 			tag = VRT

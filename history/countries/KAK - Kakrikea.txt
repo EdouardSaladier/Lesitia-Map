@@ -67,6 +67,13 @@ create_country_leader = {
 	ideology = despotism_type 
 }
 
+create_country_leader = {
+	name = "Equis Tritio"
+	desc = "KAK_equis_desc"
+	picture = "portrait_equis_tritio.dds"
+	ideology = democracy_type 
+}
+
 add_ideas = {
 	kakrikea_army
 }
