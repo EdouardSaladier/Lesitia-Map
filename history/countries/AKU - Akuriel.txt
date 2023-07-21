@@ -87,6 +87,15 @@ create_country_leader = {
 	picture = "diana_mouratt.dds"
 	ideology = democracy_type
 }
+
+create_country_leader = {
+	name = "Iken Qamari"
+	desc = "AKU_iken_qamari_desc"
+	picture = "iken_qamari.dds"
+	ideology = revolutionarism_type
+}
+
+
 create_corps_commander = {
 	name = "Hayya Qureshi"
 	desc = "AKU__desc"

@@ -1,0 +1,35 @@
+focus_tree = {
+id = akurii_revolutionary_front_focus
+	
+		country = {
+			factor = 0
+			
+			modifier = {
+				add = 10
+				tag =ARF
+			}
+			}
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 2000}
+	
+#Revolution Start
+	focus = {
+		id = Revolution_start
+		icon = GFX
+		x = 10
+		y = -10
+		
+		cost = 0
+		ai_will_do = {
+			factor = 40000
+		}
+		
+		bypass = {
+		at_war_with = AKU
+		}
+		
+		completion_reward = {
+			}
+		}
+}

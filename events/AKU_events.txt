@@ -15,7 +15,7 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		name = aku.1.a
+		name = AKU.1.a
 		add_ideas = AKU_crisis
 		add_popularity = {
     ideology = corporatism
@@ -23,3 +23,72 @@ country_event = {
 }
 	}
 }
+#AKU Civil War
+	country_event = {
+		id = AKU.2
+		title = AKU.2.t
+		desc = AKU.2.d
+		#picture =
+		
+		trigger = {
+		has_completed_focus = AKU_rev_civil_war
+		}
+		
+		mean_time_to_happen = {
+		days = 10
+			modifier = {
+			factor 1
+			tag = AKU
+			}
+		}
+		
+		fire_only_once = yes
+  
+		
+		option = {
+			name = AKU.2.a
+			declare_war_on = {
+				target = ARF
+				type = annex_everything
+			}
+			set_politics = {
+				ruling_party = despotism
+			}
+			add_popularity = {
+			ideology = despotism
+			popularity = 0.5
+			}
+			add_popularity = {
+			ideology = revolutionarism
+			popularity = -0.5
+			}
+		}
+	}
+#Joke
+	country_event = {
+		id = AKU.3
+		title = AKU.3.t
+		desc = AKU.3.d
+		#picture =
+		
+		trigger = {
+		has_completed_focus = AKU_army_mobility
+		}
+		
+		fire_only_once = yes
+		
+		option = {
+			name = AKU.3.a
+			create_corps_commander = {
+				name = "Arwin Rumil"
+				desc = "AKU__desc"
+				picture = "aku_rommel_joke.dds"
+				traits = {desert_fox armor_officer trait_reckless media_personality war_hero trickster}
+				skill = 4
+				attack_skill = 4 
+				defense_skill = 4
+				planning_skill = 2
+				logistics_skill = 3	
+}
+		}
+	}
