@@ -58,3 +58,13 @@ NEW_federation = {
     color = rgb { 75 160 160 }
 	color_ui = rgb { 75 160 160 }
 }
+
+subject_federation  = {
+    color = rgb { 100 100 150 }
+	color_ui = rgb { 100 100 150 }
+}
+
+empire_federation = {
+    color = rgb { 19 1 28 }
+	color_ui = rgb { 19 1 28 }
+}

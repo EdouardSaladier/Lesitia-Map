@@ -86,6 +86,9 @@ ideas = {
 			   has_cosmetic_tag = TVA_federation
 			   has_cosmetic_tag = CSR_federation
 			   has_cosmetic_tag = TPG_federation
+			   has_cosmetic_tag = empire_federation
+			   has_cosmetic_tag = subject_federation
+			   has_cosmetic_tag = TBZ_federation
 			  }
             }			
 			
@@ -240,6 +243,10 @@ ideas = {
             }
 
             cancel = {
+			  OR = {
+			    has_cosmetic_tag = empire_federation
+				has_cosmetic_tag = subject_federation
+			  }
             }			
 			
 			allowed_civil_war = {

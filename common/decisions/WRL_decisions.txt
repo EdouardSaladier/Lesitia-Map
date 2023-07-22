@@ -1201,5 +1201,271 @@ WRL_unification = {
 		}
 	
     }
+	
+	attack_VRT = {
+	 
+	    icon = GFX_decision_generic_operation 
+		fire_only_once = yes
+		
+	    cost = 100
+	    allowed = {
+			tag = KAK
+		}
+		available = {
+		    tag = KAK
+		    is_subject = no
+			has_government = democracy
+			country_exists = VRT
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+		    has_cosmetic_tag = NEW_federation
+			NOT = { is_ally_with = VRT }
+			NOT = { has_wargoal_against = VRT }
+			NOT = { has_war_with = VRT }
+			country_exists = VRT
+			NOT = { VRT = { has_government = democracy } }
+			NOT = { VRT = { has_government = despotism } }
+			NOT = { VRT = { has_government = technocracy } }
+		}
+		complete_effect = {
+		    create_wargoal = {
+              target = VRT
+              type = puppet_wargoal_focus
+			}
+		}
+		
+	}
+	
+	attack_AVN = {
+	 
+	    icon = GFX_decision_generic_operation 
+		fire_only_once = yes
+		
+	    cost = 100
+	    allowed = {
+			tag = KAK
+		}
+		available = {
+		    tag = KAK
+		    is_subject = no
+			has_government = democracy
+			country_exists = AVN
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+		    has_cosmetic_tag = NEW_federation
+			NOT = { is_ally_with = AVN }
+			NOT = { has_wargoal_against = AVN }
+			NOT = { has_war_with = AVN }
+			country_exists = AVN
+            NOT = { AVN = { has_government = democracy } }
+			NOT = { AVN = { has_government = despotism } }
+			NOT = { AVN = { has_government = technocracy } }
+		}
+		complete_effect = {
+		    create_wargoal = {
+              target = AVN
+              type = puppet_wargoal_focus
+			}
+		}
+		
+	}
+	
+	bandit_unification = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+	
+	    allowed = {
+			tag = TBZ
+		}
+		available = {
+		    is_subject = no
+			controls_state = 187
+			controls_state = 188
+			controls_state = 186
+			controls_state = 185
+			controls_state = 184
+			controls_state = 183 #
+			controls_state = 182 #
+			controls_state = 180
+			controls_state = 191
+			controls_state = 190
+			controls_state = 189 #
+			controls_state = 198
+			controls_state = 201
+			controls_state = 204
+			controls_state = 202
+			controls_state = 203
+			controls_state = 7
+			controls_state = 177
+			controls_state = 179
+			controls_state = 176
+			controls_state = 178
+			controls_state = 200
+			controls_state = 175
+			controls_state = 170
+			controls_state = 169
+			controls_state = 168
+			controls_state = 171
+			controls_state = 172
+			controls_state = 173
+			controls_state = 174
+			controls_state = 205
+			controls_state = 163
+			controls_state = 164
+			controls_state = 167
+			controls_state = 166
+			controls_state = 165
+			controls_state = 157
+			controls_state = 156
+			controls_state = 158
+			controls_state = 159
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			NOT = { has_cosmetic_tag = TBZ_federation }
+			NOT = { has_cosmetic_tag = empire_federation }
+			NOT = { has_cosmetic_tag = subject_federation }
+		}
+		complete_effect = {
+			set_capital = {state = 7}
+			country_event = { id = TBZ.1 }
+			187 = { add_core_of = ROOT }
+			188 = { add_core_of = ROOT }
+			186 = { add_core_of = ROOT }
+			185 = { add_core_of = ROOT }
+			184 = { add_core_of = ROOT }
+			182 = { add_core_of = ROOT }
+			180 = { add_core_of = ROOT }
+			191 = { add_core_of = ROOT }
+			190 = { add_core_of = ROOT }
+			189 = { add_core_of = ROOT }
+			198 = { add_core_of = ROOT }
+			201 = { add_core_of = ROOT }
+			204 = { add_core_of = ROOT }
+			202 = { add_core_of = ROOT }
+			7 = { add_core_of = ROOT }
+			177 = { add_core_of = ROOT }
+			179 = { add_core_of = ROOT }
+			176 = { add_core_of = ROOT }
+			178 = { add_core_of = ROOT }
+			200 = { add_core_of = ROOT }
+			175 = { add_core_of = ROOT }
+			170 = { add_core_of = ROOT }
+			169 = { add_core_of = ROOT }
+			168 = { add_core_of = ROOT }
+			171 = { add_core_of = ROOT }
+			172 = { add_core_of = ROOT }
+			173 = { add_core_of = ROOT }
+			174 = { add_core_of = ROOT }
+			205 = { add_core_of = ROOT }
+			163 = { add_core_of = ROOT }
+			164 = { add_core_of = ROOT }
+			167 = { add_core_of = ROOT }
+			166 = { add_core_of = ROOT }
+			165 = { add_core_of = ROOT }
+			157 = { add_core_of = ROOT }
+			156 = { add_core_of = ROOT }
+			158 = { add_core_of = ROOT }
+			159 = { add_core_of = ROOT }
+			181 = { add_core_of = ROOT }
+			197 = { add_core_of = ROOT }
+			199 = { add_core_of = ROOT }
+			194 = { add_core_of = ROOT }
+			195 = { add_core_of = ROOT }
+			192 = { add_core_of = ROOT }
+			193 = { add_core_of = ROOT }
+			196 = { add_core_of = ROOT }
+			160 = { add_core_of = ROOT }
+			161 = { add_core_of = ROOT }
+			162 = { add_core_of = ROOT }
+			155 = { add_core_of = ROOT }
+			203 = { add_core_of = ROOT }
+			183 = { add_core_of = ROOT }
+		}
+	
+    }
+	
+	attack_all = {
+	 
+	    icon = GFX_decision_generic_operation 
+		fire_only_once = yes
+		
+	    cost = 500
+	    allowed = {
+			tag = TBZ
+		}
+		available = {
+		    tag = TBZ
+		    is_subject = no
+			has_government = supremacism
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+		    has_cosmetic_tag = empire_federation
+			is_subject = no
+			has_government = supremacism
+		}
+		complete_effect = {
+		    create_wargoal = {
+              target = AVN
+              type = annex_everything
+			}
+			create_wargoal = {
+              target = VRT
+              type = annex_everything
+			}
+			create_wargoal = {
+              target = BOR
+              type = annex_everything
+			}
+			create_wargoal = {
+              target = AKU
+              type = annex_everything
+			}
+			create_wargoal = {
+              target = ARF
+              type = annex_everything
+			}
+			create_wargoal = {
+              target = FHI
+              type = annex_everything
+			}
+			create_wargoal = {
+              target = LUR
+              type = annex_everything
+			}
+			create_wargoal = {
+              target = MIT
+              type = annex_everything
+			}
+			create_wargoal = {
+              target = REO
+              type = annex_everything
+			}
+			create_wargoal = {
+              target = REZ
+              type = annex_everything
+			}
+			create_wargoal = {
+              target = SLR
+              type = annex_everything
+			}
+			create_wargoal = {
+              target = SUR
+              type = annex_everything
+			}
+		}
+		
+	}
 
 }

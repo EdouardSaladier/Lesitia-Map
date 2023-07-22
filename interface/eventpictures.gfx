@@ -12,5 +12,9 @@ spriteTypes = {
 		name = "GFX_report_KAK_flag"
 		texturefile = "gfx/event_pictures/report_KAK_flag.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_bandits"
+		texturefile = "gfx/event_pictures/report_event_bandits.dds"
+	}
 
 }

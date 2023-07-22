@@ -72,3 +72,17 @@ create_country_leader = {
 	picture = "portrait_andrei_rodion.dds"
 	ideology = corporatism_type 
 }
+
+create_country_leader = {
+	name = "Maul Incarnatto"
+	desc = "TBZ_maul_desc"
+	picture = "portrait_maul_incar.dds"
+	ideology = despotism_type 
+}
+
+create_country_leader = {
+	name = "Maul Incarnatto"
+	desc = "TBZ_maul_desc"
+	picture = "portrait_maul_incar.dds"
+	ideology = supremacism_type 
+}

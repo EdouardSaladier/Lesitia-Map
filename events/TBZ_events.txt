@@ -1,0 +1,61 @@
+add_namespace = TBZ
+
+country_event = {    ###TBZ leader question
+	id = TBZ.1
+	title = TBZ.1.t
+	desc = TBZ.1.d
+	picture = GFX_report_event_bandits
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TBZ.1.a
+	    set_party_name = { 
+			ideology = corporatism
+			long_name = TBZ_corporatism_party_long
+			name = TBZ_corporatism_party 
+		}
+		set_cosmetic_tag = TBZ_federation
+	}
+	option = { 
+		name = TBZ.2.b
+        set_politics = {
+	        ruling_party = despotism
+	        elections_allowed = no
+		}
+		set_party_name = { 
+			ideology = despotism
+			long_name = TBZ_despotism_party_long
+			name = TBZ_despotism_party 
+		}
+		country_event = { id = TBZ.2 }
+	}
+}
+
+country_event = {    ###TBZ leader question pt.2
+	id = TBZ.2
+	title = TBZ.2.t
+	desc = TBZ.2.d
+	picture = GFX_report_event_bandits
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TBZ.3.a
+		set_cosmetic_tag = subject_federation 
+		REO = { puppet = TBZ }
+	}
+	option = { 
+		name = TBZ.4.b
+		set_cosmetic_tag = empire_federation
+        set_politics = {
+	        ruling_party = supremacism
+	        elections_allowed = no
+		}
+		set_party_name = { 
+			ideology = supremacism
+			long_name = TBZ_supremacism_party_long
+			name = TBZ_supremacism_party 
+		}
+	}
+}
