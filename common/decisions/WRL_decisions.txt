@@ -1278,7 +1278,8 @@ WRL_unification = {
 	
 	bandit_unification = {
 	 
-	    icon = GFX_decision_generic_form_nation    
+	    icon = GFX_decision_generic_form_nation   
+        is_triggered_only = yes		
 	
 	    allowed = {
 			tag = TBZ
@@ -1333,6 +1334,9 @@ WRL_unification = {
 			NOT = { has_cosmetic_tag = TBZ_federation }
 			NOT = { has_cosmetic_tag = empire_federation }
 			NOT = { has_cosmetic_tag = subject_federation }
+			NOT = { has_cosmetic_tag = nice_federation }
+			NOT = { has_cosmetic_tag = evil_federation }
+			NOT = { has_cosmetic_tag = SF_federation }
 		}
 		complete_effect = {
 			set_capital = {state = 7}

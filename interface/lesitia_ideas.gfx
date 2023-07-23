@@ -253,4 +253,12 @@ spriteTypes = {
 		name = "GFX_idea_international_zone"
 		texturefile = "gfx/interface/ideas/international_zone.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_vermelio_helper"
+		texturefile = "gfx/interface/ideas/vermelio_helper.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_federal_rebuild"
+		texturefile = "gfx/interface/ideas/federal_rebuild.dds"
+	}
 }

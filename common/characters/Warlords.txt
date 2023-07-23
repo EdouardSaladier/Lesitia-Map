@@ -91,4 +91,62 @@ characters = {
 			id = -1
 		}
 	}
+	TBZ_despotism_vermelio = {
+		name = "Vermelio Truz"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TBZ/portrait_andrei_vermelio.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_type
+			desc = vermelio_despotism_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	TBZ_supremacism_vermelio = {
+		name = "Vermelio Truz"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TBZ/portrait_andrei_vermelio.dds"
+			}
+		}
+		country_leader = {
+			ideology = supremacism_type
+			desc = vermelio_supremacism_desc
+			traits = { TBZ_eternal_protector }
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	TBZ_maul_bad = {
+		name = "Emperor Incarnatto"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TBZ/portrait_maul_incar.dds"
+			}
+		}
+		country_leader = {
+			ideology = supremacism_type
+			desc = maul_supremacism_desc
+			traits = { TBZ_aspiring_imperialist }
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	TBZ_maul_meh = {
+		name = "Maul Incarnatto"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TBZ/portrait_maul_incar.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_type
+			desc = maul_despotism_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
 }

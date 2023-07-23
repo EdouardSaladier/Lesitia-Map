@@ -10,15 +10,18 @@ country_event = {    ###TBZ leader question
 	
 	option = { 
 		name = TBZ.1.a
+		add_manpower = -1
 	    set_party_name = { 
 			ideology = corporatism
 			long_name = TBZ_corporatism_party_long
 			name = TBZ_corporatism_party 
 		}
 		set_cosmetic_tag = TBZ_federation
+		country_event = { id = TBZ.3 }
 	}
 	option = { 
 		name = TBZ.2.b
+		promote_character = TBZ_maul_meh
         set_politics = {
 	        ruling_party = despotism
 	        elections_allowed = no
@@ -30,9 +33,10 @@ country_event = {    ###TBZ leader question
 		}
 		country_event = { id = TBZ.2 }
 	}
+	
 }
 
-country_event = {    ###TBZ leader question pt.2
+country_event = {    ###TBZ leader question pt.2 (decides if the country will be the second empire or Rheol puppet)
 	id = TBZ.2
 	title = TBZ.2.t
 	desc = TBZ.2.d
@@ -47,6 +51,7 @@ country_event = {    ###TBZ leader question pt.2
 	}
 	option = { 
 		name = TBZ.4.b
+		promote_character = TBZ_maul_bad
 		set_cosmetic_tag = empire_federation
         set_politics = {
 	        ruling_party = supremacism
@@ -58,4 +63,306 @@ country_event = {    ###TBZ leader question pt.2
 			name = TBZ_supremacism_party 
 		}
 	}
+}
+
+country_event = {    ###TBZ leader question pt.3 (Here is to decide, Andrei decides if Vermelion gets to be the internal manager after Maul or not)
+	id = TBZ.3
+	title = TBZ.3.t
+	desc = TBZ.3.d
+	picture = GFX_report_event_bandits
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TBZ.5.a  #don't give him power option (nothing happens)
+	}
+	option = { 
+		name = TBZ.5.b  #give him power (gains spirit and timer starts ticking)
+		country_event = { id = TBZ.4 days = 40 }
+		add_ideas = {
+	      vermelio_helper
+        }
+	}
+	
+}
+		
+country_event = {    ###TBZ leader question pt.4 (Vermelion comes to power and kills Andrei, revealing himself, still being sane)
+	id = TBZ.4
+	title = TBZ.4.t
+	desc = TBZ.4.d
+	picture = GFX_report_RFT_leaders
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TBZ.6.a  #he comes to power
+		promote_character = TBZ_despotism_vermelio
+		set_cosmetic_tag = nice_federation
+		add_manpower = -1
+		set_party_name = { 
+			ideology = despotism
+			long_name = TBZ_despotism_ver_party_long
+			name = TBZ_despotism_ver_party 
+		}
+		set_politics = {
+	        ruling_party = despotism
+	        elections_allowed = no
+		}
+		country_event = { id = TBZ.5 days = 7 }
+	}
+	
+}
+
+country_event = {    ###TBZ criminal executions (Vermelion starts executing some of the bandits, thinking it isn't enough)
+	id = TBZ.5
+	title = TBZ.5.t
+	desc = TBZ.5.d
+	picture = GFX_report_RFT_leaders
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TBZ.7.a  #first round of killings
+		add_manpower = -1000
+		country_event = { id = TBZ.6 days = 7 }
+	}
+	
+}
+
+country_event = {    ###TBZ criminal executions pt.2 (Vermelion starts executing more bandits and suspected criminals, going crazy)
+	id = TBZ.6
+	title = TBZ.6.t
+	desc = TBZ.6.d
+	picture = GFX_report_event_bandits_dead
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TBZ.8.a  #second round of killings
+		add_manpower = -260000
+		promote_character = TBZ_supremacism_vermelio
+		set_cosmetic_tag = evil_federation
+		set_party_name = { 
+			ideology = supremacism
+			long_name = TBZ_supremacism_ver_party_long
+			name = TBZ_supremacism_ver_party 
+		}
+		set_politics = {
+	        ruling_party = supremacism
+	        elections_allowed = no
+		}
+		country_event = { id = TBZ.71 days = 3 }
+	}
+	
+}
+
+country_event = {    ###TBZ criminal executions pt.3 (Devastation of the north)
+	id = TBZ.71
+	title = TBZ.71.t
+	desc = TBZ.71.d
+	picture = GFX_report_event_bandits_dead
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TBZ.9.a  #third round of killings
+		164 = {
+            add_manpower = -100000
+			damage_building = {
+			  type = infrastructure
+			  damage = 3
+			}
+        }
+		166 = {
+            add_manpower = -100000
+			damage_building = {
+			  type = infrastructure
+			  damage = 2
+			}
+        }
+		157 = {
+            add_manpower = -100000
+			damage_building = {
+			  type = infrastructure
+			  damage = 2
+			}
+        }
+		158 = {
+            add_manpower = -10000
+			damage_building = {
+			  type = infrastructure
+			  damage = 1
+			}
+        }
+		160 = {
+            add_manpower = -100000
+			damage_building = {
+			  type = infrastructure
+			  damage = 2
+			}
+        }
+		163 = {
+            add_manpower = -80000
+			damage_building = {
+			  type = infrastructure
+			  damage = 1
+			}
+        }
+		country_event = { id = TBZ.8 days = 3 }
+	}
+	
+}
+
+country_event = {    ###TBZ criminal executions pt.4 (Devastation of the south)
+	id = TBZ.8
+	title = TBZ.8.t
+	desc = TBZ.8.d
+	picture = GFX_report_event_bandits_dead
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TBZ.10.a  #fourth round of killings
+		173 = {
+            add_manpower = -100000
+			damage_building = {
+			  type = infrastructure
+			  damage = 3
+			}
+        }
+		172 = {
+            add_manpower = -100000
+			damage_building = {
+			  type = infrastructure
+			  damage = 2
+			}
+        }
+		169 = {
+            add_manpower = -250000
+			damage_building = {
+			  type = infrastructure
+			  damage = 3
+			}
+        }
+		168 = {
+            add_manpower = -100000
+			damage_building = {
+			  type = infrastructure
+			  damage = 3
+			}
+        }
+		177 = {
+            add_manpower = -200000
+			damage_building = {
+			  type = infrastructure
+			  damage = 4
+			}
+        }
+		188 = {
+            add_manpower = -280000
+			damage_building = {
+			  type = infrastructure
+			  damage = 4
+			}
+        }
+		country_event = { id = TBZ.9 days = 3 }
+	}
+	
+}
+
+country_event = {    ###TBZ criminal executions pt.5 (Devastation of the center)
+	id = TBZ.9
+	title = TBZ.9.t
+	desc = TBZ.9.d
+	picture = GFX_report_event_bandits_dead
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TBZ.11.a  #fifth round of killings
+		add_victory_points = {
+	        province = 1691
+	        value = -10
+        }
+		200 = {
+            add_manpower = -500000
+        }
+		174 = {
+            add_manpower = -100000
+			damage_building = {
+			  type = infrastructure
+			  damage = 2
+			}
+        }
+		205 = {
+            add_manpower = -250000
+        }
+		175 = {
+            add_manpower = -50000
+			damage_building = {
+			  type = infrastructure
+			  damage = 1
+			}
+        }
+		201 = {
+            add_manpower = -100000
+        }
+		7 = {
+            add_manpower = -880000
+			damage_building = {
+			  type = infrastructure
+			  damage = 4
+			}
+        }
+		country_event = { id = TBZ.10 days = 3 }
+	}
+	
+}
+
+country_event = {    ###TBZ marco asks vermelio to stop
+	id = TBZ.10
+	title = TBZ.10.t
+	desc = TBZ.10.d
+	picture = GFX_report_event_bandits_dead
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TBZ.12.a  #vermelio shoots marcos
+		add_manpower = -1
+	}
+	option = { 
+		name = TBZ.13.b  #vermelio shoots himself
+		add_manpower = -1
+		set_party_name = { 
+			ideology = democracy
+			long_name = TBZ_democracy_party_long
+			name = TBZ_democracy_party 
+		}
+		set_politics = {
+	        ruling_party = democracy
+	        elections_allowed = no
+		}
+		country_event = { id = TBZ.11 days = 3 }
+	}
+	
+}
+
+country_event = {    ###TBZ vermelio dead aftermath
+	id = TBZ.11
+	title = TBZ.11.t
+	desc = TBZ.11.d
+	picture = GFX_report_RFT_leaders
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TBZ.14.a  #the aftermath of the death
+		add_timed_idea = { 
+		    idea = federal_rebuild
+			days = 200
+		}
+		set_cosmetic_tag = SF_federation
+	}
+	
 }

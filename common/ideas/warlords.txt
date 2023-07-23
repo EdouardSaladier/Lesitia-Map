@@ -89,6 +89,9 @@ ideas = {
 			   has_cosmetic_tag = empire_federation
 			   has_cosmetic_tag = subject_federation
 			   has_cosmetic_tag = TBZ_federation
+			   has_cosmetic_tag = nice_federation 
+			   has_cosmetic_tag = evil_federation 
+			   has_cosmetic_tag = SF_federation 
 			  }
             }			
 			
@@ -214,6 +217,10 @@ ideas = {
             }
 
             cancel = {
+			  OR = {
+			    has_cosmetic_tag = nice_federation 
+			    has_cosmetic_tag = evil_federation 
+			  }
             }			
 			
 			allowed_civil_war = {
@@ -246,6 +253,8 @@ ideas = {
 			  OR = {
 			    has_cosmetic_tag = empire_federation
 				has_cosmetic_tag = subject_federation
+				has_cosmetic_tag = nice_federation 
+			    has_cosmetic_tag = evil_federation 
 			  }
             }			
 			
@@ -600,6 +609,71 @@ ideas = {
 				consumer_goods_factor = -0.1
 				industrial_factory_donations = 6
 				military_factory_donations = 2
+			}
+		
+		}
+		
+		vermelio_helper = {
+			picture = vermelio_helper
+			
+			allowed = { 
+				tag = TBZ
+            }
+
+            available = {
+            }
+
+            cancel = {
+			    has_government = democracy
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    political_power_gain = 0.1
+				stability_factor = 0.1
+				industrial_capacity_factory = 0.1
+				production_factory_efficiency_gain_factor = 0.2
+				production_factory_max_efficiency_factor = 0.2
+				industrial_capacity_factory = 0.1
+			}
+		
+		}
+		
+		federal_rebuild = {
+			picture = federal_rebuild
+			
+			allowed = { 
+				tag = TBZ
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    consumer_goods_factor = 0.4
+			    political_power_gain = -0.1
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.3
+				production_factory_efficiency_gain_factor = -0.3
+				production_factory_max_efficiency_factor = -0.3
+				industrial_capacity_factory = -0.3
+				industry_free_repair_factor = 0.3
+				industry_repair_factor = 0.1
+				war_support_factor = -0.3
 			}
 		
 		}

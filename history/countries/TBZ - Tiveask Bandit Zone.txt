@@ -66,6 +66,11 @@ add_ideas = {
 	ephemeral_militia
 }
 
+recruit_character = TBZ_despotism_vermelio
+recruit_character = TBZ_supremacism_vermelio
+recruit_character = TBZ_maul_bad
+recruit_character = TBZ_maul_meh
+
 create_country_leader = {
 	name = "Andrei Rodion"
 	desc = "TBZ_tiveask_desc"
@@ -74,15 +79,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Maul Incarnatto"
-	desc = "TBZ_maul_desc"
-	picture = "portrait_maul_incar.dds"
-	ideology = despotism_type 
+	name = "Marco Russo"
+	desc = "TBZ_marco_desc"
+	picture = "portrait_marco_russo_TBZ.dds"
+	ideology = democracy_type 
 }
 
-create_country_leader = {
-	name = "Maul Incarnatto"
-	desc = "TBZ_maul_desc"
-	picture = "portrait_maul_incar.dds"
-	ideology = supremacism_type 
-}

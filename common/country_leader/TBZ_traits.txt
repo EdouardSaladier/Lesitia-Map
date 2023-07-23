@@ -1,0 +1,35 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+leader_traits = {
+
+	TBZ_eternal_protector = {
+		random = no
+		political_power_factor = 0.5
+		stability_factor = 0.1
+		army_core_defence_factor = 0.1
+		corporatism_acceptance = -100
+		monthly_population = -0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}
+
+leader_traits = {
+
+	TBZ_aspiring_imperialist = {
+		random = no
+		army_speed_factor = 0.1
+		out_of_supply_factor = 0.2
+		resistance_target = -0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

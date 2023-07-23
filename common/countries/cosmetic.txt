@@ -68,3 +68,18 @@ empire_federation = {
     color = rgb { 19 1 28 }
 	color_ui = rgb { 19 1 28 }
 }
+
+nice_federation = {
+    color = rgb { 113 144 146 }
+	color_ui = rgb { 113 144 146 }
+}
+
+evil_federation = {
+    color = rgb { 12 1 24 }
+	color_ui = rgb { 12 1 24 }
+}
+
+SF_federation = {
+    color = rgb { 75 160 160 }
+	color_ui = rgb { 75 160 160 }
+}
