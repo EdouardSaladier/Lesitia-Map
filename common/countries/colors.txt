@@ -88,6 +88,10 @@ AKU = {
 	color = rgb { 204 102 112 }
 	color_ui = rgb { 204 102 112 }
 }
+ARF = {
+	color = rgb {139 0 0}
+	color_ui = rgb {139 0 0}
+}
 SLR = {
 	color = rgb { 119 126 161 }
 	color_ui = rgb { 119 126 161 }
