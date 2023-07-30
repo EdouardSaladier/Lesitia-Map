@@ -47,6 +47,7 @@ ideas = {
             }
 
             cancel = {
+			   has_cosmetic_tag = TER_federation
             }			
 			
 			allowed_civil_war = {
@@ -92,6 +93,7 @@ ideas = {
 			   has_cosmetic_tag = nice_federation 
 			   has_cosmetic_tag = evil_federation 
 			   has_cosmetic_tag = SF_federation 
+			   has_cosmetic_tag = TER_federation
 			  }
             }			
 			
@@ -315,12 +317,14 @@ ideas = {
 			
 			allowed = { 
 				tag = ZHA
+				has_government = unclassified
             }
 
             available = {
             }
 
             cancel = {
+			    has_cosmetic_tag = ZHA_federation
             }			
 			
 			allowed_civil_war = {
@@ -417,6 +421,7 @@ ideas = {
             }
 
             cancel = {
+			   is_subject = no
             }			
 			
 			allowed_civil_war = {
@@ -490,6 +495,7 @@ ideas = {
             }
 
             cancel = {
+			   has_cosmetic_tag = SCM_federation
             }			
 			
 			allowed_civil_war = {

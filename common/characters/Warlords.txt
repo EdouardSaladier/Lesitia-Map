@@ -149,4 +149,18 @@ characters = {
 			id = -1
 		}
 	}
+	UHL_ancom = {
+		name = "United Hives Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UHL/portrait_united_hives.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionarism_type
+			desc = hives_revolutionarism_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
 }

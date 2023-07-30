@@ -4,6 +4,8 @@ oob = "standard_templates"
 
 # Starting tech
 
+set_cosmetic_tag = OAV_SYM
+
 set_research_slots = 2
 
 give_military_access = AVN

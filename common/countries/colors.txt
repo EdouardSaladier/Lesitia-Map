@@ -117,8 +117,8 @@ ETH = {
 	color_ui = rgb { 153 76 0 }
 }
 OAV = {
-	color = rgb { 9 152 181 }
-	color_ui = rgb { 9 152 181 }
+	color = rgb { 181 99 112 }
+	color_ui = rgb { 181 99 112 }
 }
 TER = {
 	color = rgb { 112 127 255 }

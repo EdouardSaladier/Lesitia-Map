@@ -83,3 +83,23 @@ SF_federation = {
     color = rgb { 75 160 160 }
 	color_ui = rgb { 75 160 160 }
 }
+
+ZHA_federation = {
+    color = rgb { 154 31 199 }
+	color_ui = rgb { 154 31 199 }
+}
+
+TER_federation = {
+    color = rgb { 12 19 232 }
+	color_ui = rgb { 12 19 232 }
+}
+
+OAV_SYM = {
+	color = rgb { 9 152 181 }
+	color_ui = rgb { 9 152 181 }
+}
+
+OAV_federation = {
+    color = rgb { 89 3 146 }
+	color_ui = rgb { 89 3 146 }
+}

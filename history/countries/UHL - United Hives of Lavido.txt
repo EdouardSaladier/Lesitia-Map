@@ -60,13 +60,16 @@ set_popularities = {
 	revolutionarism = 80
 }
 
-add_ideas = {
-    revolutionary_revolt
-}
-
 create_country_leader = {
 	name = "Matvey Velazik"
 	desc = "UHL_matvey_desc"
 	picture = "portrait_matvey_velazik.dds"
 	ideology = revolutionarism_type 
 }
+
+recruit_character = UHL_ancom
+
+add_ideas = {
+    revolutionary_revolt
+}
+
