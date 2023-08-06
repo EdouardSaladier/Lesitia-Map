@@ -2408,5 +2408,189 @@ WRL_unification = {
 		}
 	
     }
+	
+	demand_land_VRT = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+		fire_only_once = yes
+		cost = 50
+	
+	    allowed = {
+			OR = {
+              has_cosmetic_tag = OAV_federation
+		      has_cosmetic_tag = UHL_federation
+		      has_cosmetic_tag = SCM_federation
+		      has_cosmetic_tag = SED_federation
+		      has_cosmetic_tag = LAV_federation
+		      has_cosmetic_tag = ACS_federation
+		      has_cosmetic_tag = CSR_federation
+		      has_cosmetic_tag = TVA_federation
+		      has_cosmetic_tag = MAV_federation
+		      has_cosmetic_tag = TPG_federation
+		      has_cosmetic_tag = ETH_federation
+		      has_cosmetic_tag = RIS_federation
+		      has_cosmetic_tag = KAK_federation
+		      has_cosmetic_tag = NEW_federation
+		      has_cosmetic_tag = TBZ_federation
+		      has_cosmetic_tag = empire_federation
+		      has_cosmetic_tag = subject_federation
+		      has_cosmetic_tag = nice_federation
+			  has_cosmetic_tag = evil_federation
+			  has_cosmetic_tag = SF_federation
+			  has_cosmetic_tag = ZHA_federation
+			  has_cosmetic_tag = TER_federation
+			  has_cosmetic_tag = VOS_federation
+	        }
+		}
+		available = {
+		    is_subject = no
+			VRT = {
+			   OR = {
+			       controls_state = 197
+				   controls_state = 199
+				   controls_state = 192
+				}
+			}
+			NOT = { has_war_with = VRT }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			OR = {
+              has_cosmetic_tag = OAV_federation
+		      has_cosmetic_tag = UHL_federation
+		      has_cosmetic_tag = SCM_federation
+		      has_cosmetic_tag = SED_federation
+		      has_cosmetic_tag = LAV_federation
+		      has_cosmetic_tag = ACS_federation
+		      has_cosmetic_tag = CSR_federation
+		      has_cosmetic_tag = TVA_federation
+		      has_cosmetic_tag = MAV_federation
+		      has_cosmetic_tag = TPG_federation
+		      has_cosmetic_tag = ETH_federation
+		      has_cosmetic_tag = RIS_federation
+		      has_cosmetic_tag = KAK_federation
+		      has_cosmetic_tag = NEW_federation
+		      has_cosmetic_tag = TBZ_federation
+		      has_cosmetic_tag = empire_federation
+		      has_cosmetic_tag = subject_federation
+		      has_cosmetic_tag = nice_federation
+			  has_cosmetic_tag = evil_federation
+			  has_cosmetic_tag = SF_federation
+			  has_cosmetic_tag = ZHA_federation
+			  has_cosmetic_tag = TER_federation
+			  has_cosmetic_tag = VOS_federation
+	        }
+			VRT = {
+			   OR = {
+			       controls_state = 197
+				   controls_state = 199
+				   controls_state = 192
+				}
+			}
+		}
+		complete_effect = {
+		    VRT = {
+		      country_event = { id = VRT.17 days = 2 }
+			}
+			set_country_flag = demand_state
+			
+		}
+	
+    }
+	
+	demand_land_AVN = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+		fire_only_once = yes
+		cost = 50
+	
+	    allowed = {
+			OR = {
+              has_cosmetic_tag = OAV_federation
+		      has_cosmetic_tag = UHL_federation
+		      has_cosmetic_tag = SCM_federation
+		      has_cosmetic_tag = SED_federation
+		      has_cosmetic_tag = LAV_federation
+		      has_cosmetic_tag = ACS_federation
+		      has_cosmetic_tag = CSR_federation
+		      has_cosmetic_tag = TVA_federation
+		      has_cosmetic_tag = MAV_federation
+		      has_cosmetic_tag = TPG_federation
+		      has_cosmetic_tag = ETH_federation
+		      has_cosmetic_tag = RIS_federation
+		      has_cosmetic_tag = KAK_federation
+		      has_cosmetic_tag = NEW_federation
+		      has_cosmetic_tag = TBZ_federation
+		      has_cosmetic_tag = empire_federation
+		      has_cosmetic_tag = subject_federation
+		      has_cosmetic_tag = nice_federation
+			  has_cosmetic_tag = evil_federation
+			  has_cosmetic_tag = SF_federation
+			  has_cosmetic_tag = ZHA_federation
+			  has_cosmetic_tag = TER_federation
+			  has_cosmetic_tag = VOS_federation
+	        }
+		}
+		available = {
+		    is_subject = no
+			AVN = {
+			   OR = {
+			       controls_state = 196
+				   controls_state = 194
+				   controls_state = 195
+				   controls_state = 193
+				}
+			}
+			NOT = { has_war_with = AVN }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			OR = {
+              has_cosmetic_tag = OAV_federation
+		      has_cosmetic_tag = UHL_federation
+		      has_cosmetic_tag = SCM_federation
+		      has_cosmetic_tag = SED_federation
+		      has_cosmetic_tag = LAV_federation
+		      has_cosmetic_tag = ACS_federation
+		      has_cosmetic_tag = CSR_federation
+		      has_cosmetic_tag = TVA_federation
+		      has_cosmetic_tag = MAV_federation
+		      has_cosmetic_tag = TPG_federation
+		      has_cosmetic_tag = ETH_federation
+		      has_cosmetic_tag = RIS_federation
+		      has_cosmetic_tag = KAK_federation
+		      has_cosmetic_tag = NEW_federation
+		      has_cosmetic_tag = TBZ_federation
+		      has_cosmetic_tag = empire_federation
+		      has_cosmetic_tag = subject_federation
+		      has_cosmetic_tag = nice_federation
+			  has_cosmetic_tag = evil_federation
+			  has_cosmetic_tag = SF_federation
+			  has_cosmetic_tag = ZHA_federation
+			  has_cosmetic_tag = TER_federation
+			  has_cosmetic_tag = VOS_federation
+	        }
+			AVN = {
+			   OR = {
+			      controls_state = 196
+				  controls_state = 194
+				  controls_state = 195
+				  controls_state = 193
+				}
+			}
+		}
+		complete_effect = {
+		    AVN = {
+		      country_event = { id = AVN.2 days = 2 }
+			}
+			set_country_flag = demand_state
+			
+		}
+	
+    }
 
 }

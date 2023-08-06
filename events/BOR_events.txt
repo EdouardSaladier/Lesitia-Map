@@ -23,6 +23,9 @@ country_event = {    ###invite BOR to faction
 	}
 	option = { 
 		name = BOR.2.b
+		ai_chance = {
+			factor = 20
+		}
 		KAK = {
 		    create_wargoal = {
               target = BOR

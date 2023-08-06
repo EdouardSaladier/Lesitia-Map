@@ -23,11 +23,79 @@ country_event = {    ###invite BOR to faction
 	}
 	option = { 
 		name = BOR.2.b
+		ai_chance = {
+			factor = 50
+		}
 		KAK = {
 		    create_wargoal = {
               target = AVN
               type = puppet_wargoal_focus
 			}
 		}
+	}
+}
+
+country_event = {    ###warlord demands land
+	id = AVN.2
+	title = VRT.17.t
+	desc = VRT.17.d
+	picture = GFX_report_ultimatum_event_RIS
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	    OR = {
+		  NOT = { has_war_with = RFT }
+		  NOT = { has_war_with = TER }
+		  NOT = { has_war_with = ACS }
+		  NOT = { has_war_with = ETH }
+		  NOT = { has_war_with = TVA }
+		  NOT = { has_war_with = ZHA }
+		  NOT = { has_war_with = RIS }
+		  NOT = { has_war_with = LAV }
+		  NOT = { has_war_with = UHL }
+		  NOT = { has_war_with = TBZ }
+		  NOT = { has_war_with = VOS }
+		  NOT = { has_war_with = SCM }
+		  NOT = { has_war_with = SED }
+		  NOT = { has_war_with = CSR }
+		  NOT = { has_war_with = MAV }
+		  NOT = { has_war_with = KAK }
+		  NOT = { has_war_with = TPG }
+		  NOT = { has_war_with = OAV }
+	    }
+	}   
+	
+	option = { 
+		name = VRT.17.a
+		ai_chance = {
+			factor = 50
+		}
+		random_country = {
+		    limit = {
+                has_country_flag = demand_state
+            }
+            transfer_state = 196
+			transfer_state = 194
+			transfer_state = 195
+			transfer_state = 193
+        }
+		
+	}
+	option = { 
+		name = VRT.17.b
+		ai_chance = {
+			factor = 50
+		}
+		random_country = {
+            limit = {
+                has_country_flag = demand_state
+            }
+            create_wargoal = {
+                target = AVN
+                type = take_state_focus
+                generator = { 196 194 195 193 }
+            }
+        }
 	}
 }

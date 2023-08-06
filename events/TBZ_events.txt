@@ -46,11 +46,17 @@ country_event = {    ###TBZ leader question pt.2 (decides if the country will be
 	
 	option = { 
 		name = TBZ.3.a
+		ai_chance = {
+			factor = 50
+		}
 		set_cosmetic_tag = subject_federation 
 		REO = { puppet = TBZ }
 	}
 	option = { 
 		name = TBZ.4.b
+		ai_chance = {
+			factor = 50
+		}
 		promote_character = TBZ_maul_bad
 		set_cosmetic_tag = empire_federation
         set_politics = {
@@ -75,9 +81,15 @@ country_event = {    ###TBZ leader question pt.3 (Here is to decide, Andrei deci
 	
 	option = { 
 		name = TBZ.5.a  #don't give him power option (nothing happens)
+		ai_chance = {
+			factor = 50
+		}
 	}
 	option = { 
 		name = TBZ.5.b  #give him power (gains spirit and timer starts ticking)
+		ai_chance = {
+			factor = 50
+		}
 		country_event = { id = TBZ.4 days = 40 }
 		add_ideas = {
 	      vermelio_helper
@@ -329,10 +341,16 @@ country_event = {    ###TBZ marco asks vermelio to stop
 	
 	option = { 
 		name = TBZ.12.a  #vermelio shoots marcos
+		ai_chance = {
+			factor = 10
+		}
 		add_manpower = -1
 	}
 	option = { 
 		name = TBZ.13.b  #vermelio shoots himself
+		ai_chance = {
+			factor = 90
+		}
 		add_manpower = -1
 		set_party_name = { 
 			ideology = democracy

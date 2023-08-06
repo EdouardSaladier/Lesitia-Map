@@ -24,6 +24,9 @@ country_event = {    ###demand ACS
 	}
 	option = { 
 		name = ACS.2.b
+		ai_chance = {
+			factor = 60
+			}
 		RIS = {
 		    create_wargoal = {
               target = ACS

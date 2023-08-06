@@ -23,6 +23,9 @@ country_event = {    ###demand RFT
 	}
 	option = { 
 		name = RFT.2.b
+		ai_chance = {
+			factor = 50
+			}
 		RIS = {
 		    create_wargoal = {
               target = RFT
@@ -42,6 +45,9 @@ country_event = {    ###form Federation
 
 	option = { 
 		name = RFT.2.a
+		ai_chance = {
+			factor = 40
+		}
 		set_capital = {state = 7}
 		set_cosmetic_tag = RFT_federation
 		187 = { add_core_of = ROOT }
@@ -100,6 +106,9 @@ country_event = {    ###form Federation
 	}
 	option = { 
 		name = RFT.2.b
+		ai_chance = {
+			factor = 30
+		}
 		set_capital = {state = 7}
 		promote_character = RFT_moth_badguy
 		set_cosmetic_tag = RFT_federation
@@ -159,6 +168,9 @@ country_event = {    ###form Federation
 	}
 	option = { 
 		name = RFT.3.c
+		ai_chance = {
+			factor = 30
+		}
 		set_capital = {state = 7}
 		promote_character = RFT_moth_goodguy
 		set_cosmetic_tag = RFT_federation
