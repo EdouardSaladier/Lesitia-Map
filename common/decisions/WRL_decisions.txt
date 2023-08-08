@@ -2440,6 +2440,7 @@ WRL_unification = {
 			  has_cosmetic_tag = ZHA_federation
 			  has_cosmetic_tag = TER_federation
 			  has_cosmetic_tag = VOS_federation
+			  has_cosmetic_tag = RFT_federation
 	        }
 		}
 		available = {
@@ -2460,6 +2461,7 @@ WRL_unification = {
 			OR = {
               has_cosmetic_tag = OAV_federation
 		      has_cosmetic_tag = UHL_federation
+			  has_cosmetic_tag = RFT_federation
 		      has_cosmetic_tag = SCM_federation
 		      has_cosmetic_tag = SED_federation
 		      has_cosmetic_tag = LAV_federation
@@ -2531,6 +2533,7 @@ WRL_unification = {
 			  has_cosmetic_tag = ZHA_federation
 			  has_cosmetic_tag = TER_federation
 			  has_cosmetic_tag = VOS_federation
+			  has_cosmetic_tag = RFT_federation
 	        }
 		}
 		available = {
@@ -2573,6 +2576,7 @@ WRL_unification = {
 			  has_cosmetic_tag = ZHA_federation
 			  has_cosmetic_tag = TER_federation
 			  has_cosmetic_tag = VOS_federation
+			  has_cosmetic_tag = RFT_federation
 	        }
 			AVN = {
 			   OR = {
@@ -2591,6 +2595,667 @@ WRL_unification = {
 			
 		}
 	
+    }
+	
+	demand_islands = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+		fire_only_once = yes
+		cost = 50
+	
+	    allowed = {
+			OR = {
+              has_cosmetic_tag = OAV_federation
+			  has_cosmetic_tag = RFT_federation
+		      has_cosmetic_tag = UHL_federation
+		      has_cosmetic_tag = SCM_federation
+		      has_cosmetic_tag = SED_federation
+		      has_cosmetic_tag = LAV_federation
+		      has_cosmetic_tag = ACS_federation
+		      has_cosmetic_tag = CSR_federation
+		      has_cosmetic_tag = TVA_federation
+		      has_cosmetic_tag = MAV_federation
+		      has_cosmetic_tag = TPG_federation
+		      has_cosmetic_tag = ETH_federation
+		      has_cosmetic_tag = KAK_federation
+		      has_cosmetic_tag = NEW_federation
+		      has_cosmetic_tag = TBZ_federation
+		      has_cosmetic_tag = empire_federation
+		      has_cosmetic_tag = subject_federation
+		      has_cosmetic_tag = nice_federation
+			  has_cosmetic_tag = evil_federation
+			  has_cosmetic_tag = SF_federation
+			  has_cosmetic_tag = ZHA_federation
+			  has_cosmetic_tag = TER_federation
+			  has_cosmetic_tag = VOS_federation
+	        }
+		}
+		available = {
+		    is_subject = no
+			NOT = { has_war_with = RIS }
+			NOT = { controls_state = 181 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			OR = {
+              has_cosmetic_tag = OAV_federation
+		      has_cosmetic_tag = UHL_federation
+			  has_cosmetic_tag = RFT_federation
+		      has_cosmetic_tag = SCM_federation
+		      has_cosmetic_tag = SED_federation
+		      has_cosmetic_tag = LAV_federation
+		      has_cosmetic_tag = ACS_federation
+		      has_cosmetic_tag = CSR_federation
+		      has_cosmetic_tag = TVA_federation
+		      has_cosmetic_tag = MAV_federation
+		      has_cosmetic_tag = TPG_federation
+		      has_cosmetic_tag = ETH_federation
+		      has_cosmetic_tag = KAK_federation
+		      has_cosmetic_tag = NEW_federation
+		      has_cosmetic_tag = TBZ_federation
+		      has_cosmetic_tag = empire_federation
+		      has_cosmetic_tag = subject_federation
+		      has_cosmetic_tag = nice_federation
+			  has_cosmetic_tag = evil_federation
+			  has_cosmetic_tag = SF_federation
+			  has_cosmetic_tag = ZHA_federation
+			  has_cosmetic_tag = TER_federation
+			  has_cosmetic_tag = VOS_federation
+	        }
+			NOT = { controls_state = 181 }
+			NOT = { has_war_with = RIS }
+			
+		}
+		complete_effect = {
+		    RIS = {
+		      country_event = { id = RIS.1 days = 2 }
+			}
+			set_country_flag = demand_state
+			
+		}
+	
+    }
+	
+	core_states  = {
+        state_target = yes
+        target_array = controlled_states
+        icon = GFX_decision_infiltrate_state
+        
+        visible = {
+            FROM= {
+                is_core_of = SYM
+                NOT = { is_core_of = ROOT }
+            }
+        }
+        available = {
+            FROM = {
+                is_core_of = SYM
+                NOT = { is_core_of = ROOT }
+            }
+        }
+        
+        cost = 15
+        fire_only_once = yes
+        days_remove = 40
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                add_core_of = ROOT
+            }
+        }
+    }
+	
+	attack_kakrikea  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = KAK
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = KAK }
+            }
+        }
+    }
+	
+	attack_mavildea  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = MAV
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = MAV }
+            }
+        }
+    }
+	
+	attack_csr  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = CSR
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = CSR }
+            }
+        }
+    }
+	
+	attack_seda  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = SED
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = SED }
+            }
+        }
+    }
+	
+	attack_bandits  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = TBZ
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = TBZ }
+            }
+        }
+    }
+	
+	attack_zhafolis  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = ZHA
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = ZHA }
+            }
+        }
+    }
+	
+	attack_neutralzone  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = TPG
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = TPG }
+            }
+        }
+    }
+	
+	attack_termites  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = TER
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = TER }
+            }
+        }
+    }
+	
+	attack_tiveask  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = TVA
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = TVA }
+            }
+        }
+    }
+	
+	attack_commune  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = SCM
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = SCM }
+            }
+        }
+    }
+	
+	attack_voskra  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = VOS
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = VOS }
+            }
+        }
+    }
+	
+	attack_unitedhives  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = UHL
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = UHL }
+            }
+        }
+    }
+	
+	attack_lavido  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = LAV
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = LAV }
+            }
+        }
+    }
+	
+	attack_commandsouth  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = ACS
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = ACS }
+            }
+        }
+    }
+	
+	attack_eth  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = ETH
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = ETH }
+            }
+        }
+    }
+	
+	attack_republican  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = RFT
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = RFT }
+            }
+        }
+    }
+	
+	attack_westavenska  = {
+        icon = GFX_decision_generic_prepare_civil_war
+        
+        visible = {
+            is_neighbor_of = OAV
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                create_wargoal = { type = annex_everything target = OAV }
+            }
+        }
     }
 
 }

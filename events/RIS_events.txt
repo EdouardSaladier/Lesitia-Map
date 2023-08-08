@@ -1,0 +1,58 @@
+add_namespace = RIS
+
+country_event = {    ###warlord demands land
+	id = RIS.1
+	title = RIS.1.t
+	desc = RIS.1.d
+	picture = GFX_report_ultimatum_event_RIS
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	    OR = {
+		  NOT = { has_war_with = RFT }
+		  NOT = { has_war_with = TER }
+		  NOT = { has_war_with = ACS }
+		  NOT = { has_war_with = ETH }
+		  NOT = { has_war_with = TVA }
+		  NOT = { has_war_with = ZHA }
+		  NOT = { has_war_with = LAV }
+		  NOT = { has_war_with = UHL }
+		  NOT = { has_war_with = TBZ }
+		  NOT = { has_war_with = VOS }
+		  NOT = { has_war_with = SCM }
+		  NOT = { has_war_with = SED }
+		  NOT = { has_war_with = CSR }
+		  NOT = { has_war_with = MAV }
+		  NOT = { has_war_with = KAK }
+		  NOT = { has_war_with = TPG }
+		  NOT = { has_war_with = OAV }
+	    }
+	}   
+	
+	option = { 
+		name = RIS.1.a
+		ai_chance = {
+			factor = 80
+		}
+		random_country = {
+		    limit = {
+                has_country_flag = demand_state
+            }
+            annex_country = { target = RIS transfer_troops = yes }
+        }
+		
+	}
+	option = { 
+		name = RIS.1.b
+		ai_chance = {
+			factor = 20
+		}
+		random_country = {
+            limit = {
+                has_country_flag = demand_state
+            }
+            create_wargoal = { type = annex_everything target = RIS }
+        }
+	}
+}
