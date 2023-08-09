@@ -73,7 +73,7 @@ country_event = {    ###warlord demands land
 		}
 		random_country = {
 		    limit = {
-                has_country_flag = demand_state
+                has_country_flag = united_federation
             }
             transfer_state = 196
 			transfer_state = 194
@@ -89,7 +89,7 @@ country_event = {    ###warlord demands land
 		}
 		random_country = {
             limit = {
-                has_country_flag = demand_state
+                has_country_flag = united_federation
             }
             create_wargoal = {
                 target = AVN

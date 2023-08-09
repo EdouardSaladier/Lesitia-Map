@@ -236,6 +236,11 @@ attack_commandsouth:0 "Attack the Army Command South"
 attack_eth:0 "Attack the Resse Republic"
 attack_republican:0 "Attack the Republican Front"
 attack_westavenska:0 "Attack the West Avenskan Republic"
+attack_ris:0 "Attack the Republic of Symbiotica"
+manpower_decision:0 "Gather Loyalists"
+civilian_decision:0 "Civilian Industry Effort"
+military_decision:0 "Military Industry Effort"
+equipment_decision:0 "Procure Equipment"
 
 ####other other###
 TBZ_eternal_protector:0 "§REternal Protector"

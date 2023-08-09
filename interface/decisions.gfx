@@ -39,3 +39,18 @@ spriteTypes = {
 		name = "GFX_decision_infiltrate_state"
 		texturefile = "gfx/interface/decisions/decision_infiltrate_state.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_decision_generic_factory"
+		texturefile = "gfx/interface/decisions/decision_generic_factory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_generic_electricity"
+		texturefile = "gfx/interface/decisions/decision_generic_electricity.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_generic_trucks"
+		texturefile = "gfx/interface/decisions/decision_generic_trucks.dds"
+	}

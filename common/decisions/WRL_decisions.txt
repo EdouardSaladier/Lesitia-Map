@@ -68,6 +68,7 @@ WRL_unification = {
 		    }
 		    set_cosmetic_tag = ACS_federation
 			set_capital = {state = 7}
+			set_country_flag = united_federation
 			187 = { add_core_of = ACS }
 			188 = { add_core_of = ACS }
 			186 = { add_core_of = ACS }
@@ -187,6 +188,7 @@ WRL_unification = {
 		    }
 		    set_cosmetic_tag = CSR_federation
 			set_capital = {state = 7}
+			set_country_flag = united_federation
 			187 = { add_core_of = ROOT }
 			188 = { add_core_of = ROOT }
 			186 = { add_core_of = ROOT }
@@ -311,6 +313,7 @@ WRL_unification = {
 		    }
 		    set_cosmetic_tag = TVA_federation
 			set_capital = {state = 7}
+			set_country_flag = united_federation
 			187 = { add_core_of = TVA }
 			188 = { add_core_of = TVA }
 			186 = { add_core_of = TVA }
@@ -426,6 +429,7 @@ WRL_unification = {
 		complete_effect = {
 		    set_cosmetic_tag = MAV_federation
 			set_capital = {state = 7}
+			set_country_flag = united_federation
 			187 = { add_core_of = ROOT }
 			188 = { add_core_of = ROOT }
 			186 = { add_core_of = ROOT }
@@ -550,6 +554,7 @@ WRL_unification = {
 		    }
 		    set_cosmetic_tag = TPG_federation
 			set_capital = {state = 7}
+			set_country_flag = united_federation
 			187 = { add_core_of = ROOT }
 			188 = { add_core_of = ROOT }
 			186 = { add_core_of = ROOT }
@@ -670,6 +675,7 @@ WRL_unification = {
 		    }
 		    set_cosmetic_tag = ETH_federation
 			set_capital = {state = 7}
+			set_country_flag = united_federation
 			187 = { add_core_of = ROOT }
 			188 = { add_core_of = ROOT }
 			186 = { add_core_of = ROOT }
@@ -874,6 +880,7 @@ WRL_unification = {
 		    }
 		    set_cosmetic_tag = RIS_federation
 			set_capital = {state = 7}
+			set_country_flag = united_federation
 		}
 	
     }
@@ -1025,6 +1032,7 @@ WRL_unification = {
 		}
 		complete_effect = {
 		    country_event = { id = RFT.2 }
+			set_country_flag = united_federation
 		}
 	
     }
@@ -1088,6 +1096,7 @@ WRL_unification = {
 		}
 		complete_effect = {
 		    country_event = { id = KAK.1 }
+			set_country_flag = united_federation
 		}
 	
     }
@@ -1341,6 +1350,7 @@ WRL_unification = {
 		complete_effect = {
 			set_capital = {state = 7}
 			country_event = { id = TBZ.1 }
+			set_country_flag = united_federation
 			187 = { add_core_of = ROOT }
 			188 = { add_core_of = ROOT }
 			186 = { add_core_of = ROOT }
@@ -1533,6 +1543,7 @@ WRL_unification = {
 		complete_effect = {
 		    set_cosmetic_tag = ZHA_federation
 			set_capital = {state = 7}
+			set_country_flag = united_federation
 			187 = { add_core_of = ROOT }
 			188 = { add_core_of = ROOT }
 			186 = { add_core_of = ROOT }
@@ -1647,6 +1658,7 @@ WRL_unification = {
 		}
 		complete_effect = {
 		    set_cosmetic_tag = TER_federation
+			set_country_flag = united_federation
 			187 = { add_core_of = ROOT }
 			188 = { add_core_of = ROOT }
 			186 = { add_core_of = ROOT }
@@ -1762,6 +1774,7 @@ WRL_unification = {
 		}
 		complete_effect = {
 		    set_cosmetic_tag = VOS_federation
+			set_country_flag = united_federation
 			187 = { add_core_of = ROOT }
 			188 = { add_core_of = ROOT }
 			186 = { add_core_of = ROOT }
@@ -1878,6 +1891,7 @@ WRL_unification = {
 		complete_effect = {
 		    set_cosmetic_tag = LAV_federation
 			set_capital = {state = 7}
+			set_country_flag = united_federation
 			187 = { add_core_of = ROOT }
 			188 = { add_core_of = ROOT }
 			186 = { add_core_of = ROOT }
@@ -1994,6 +2008,7 @@ WRL_unification = {
 		complete_effect = {
 		    set_cosmetic_tag = SED_federation
 			set_capital = {state = 7}
+			set_country_flag = united_federation
 			187 = { add_core_of = ROOT }
 			188 = { add_core_of = ROOT }
 			186 = { add_core_of = ROOT }
@@ -2110,6 +2125,7 @@ WRL_unification = {
 		complete_effect = {
 		    set_cosmetic_tag = SCM_federation
 			set_capital = {state = 7}
+			set_country_flag = united_federation
 			187 = { add_core_of = ROOT }
 			188 = { add_core_of = ROOT }
 			186 = { add_core_of = ROOT }
@@ -2226,6 +2242,7 @@ WRL_unification = {
 		complete_effect = {
 		    set_cosmetic_tag = UHL_federation
 			set_capital = {state = 7}
+			set_country_flag = united_federation
 			set_party_name = { 
 			    ideology = revolutionarism
 			    long_name = UHL_revolutionarism_party_long
@@ -2348,6 +2365,7 @@ WRL_unification = {
 		complete_effect = {
 		    set_cosmetic_tag = OAV_federation
 			set_capital = {state = 7}
+			set_country_flag = united_federation
 			set_party_name = { 
 			    ideology = theocracy
 			    long_name = OAV_theocracy_party_long
@@ -2672,7 +2690,7 @@ WRL_unification = {
 		    RIS = {
 		      country_event = { id = RIS.1 days = 2 }
 			}
-			set_country_flag = demand_state
+			set_country_flag = united_federation
 			
 		}
 	
@@ -2682,6 +2700,10 @@ WRL_unification = {
         state_target = yes
         target_array = controlled_states
         icon = GFX_decision_infiltrate_state
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             FROM= {
@@ -2716,9 +2738,16 @@ WRL_unification = {
 	
 	attack_kakrikea  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = KAK
+			NOT = {
+			   has_war_with = KAK
+			}
         }
         available = {
             has_war = no
@@ -2741,16 +2770,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = KAK }
+                declare_war_on = { type = annex_everything target = KAK }
             }
         }
     }
 	
 	attack_mavildea  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = MAV
+			NOT = {
+			   has_war_with = MAV
+			}
         }
         available = {
             has_war = no
@@ -2773,16 +2809,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = MAV }
+                declare_war_on = { type = annex_everything target = MAV }
             }
         }
     }
 	
 	attack_csr  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = CSR
+			NOT = {
+			   has_war_with = CSR
+			}
         }
         available = {
             has_war = no
@@ -2805,16 +2848,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = CSR }
+                declare_war_on = { type = annex_everything target = CSR }
             }
         }
     }
 	
 	attack_seda  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = SED
+			NOT = {
+			   has_war_with = SED
+			}
         }
         available = {
             has_war = no
@@ -2837,16 +2887,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = SED }
+                declare_war_on = { type = annex_everything target = SED }
             }
         }
     }
 	
 	attack_bandits  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = TBZ
+			NOT = {
+			   has_war_with = TBZ
+			}
         }
         available = {
             has_war = no
@@ -2869,16 +2926,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = TBZ }
+                declare_war_on = { type = annex_everything target = TBZ }
             }
         }
     }
 	
 	attack_zhafolis  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = ZHA
+			NOT = {
+			   has_war_with = ZHA
+			}
         }
         available = {
             has_war = no
@@ -2901,16 +2965,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = ZHA }
+                declare_war_on = { type = annex_everything target = ZHA }
             }
         }
     }
 	
 	attack_neutralzone  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = TPG
+			NOT = {
+			   has_war_with = TPG
+			}
         }
         available = {
             has_war = no
@@ -2933,16 +3004,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = TPG }
+                declare_war_on = { type = annex_everything target = TPG }
             }
         }
     }
 	
 	attack_termites  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = TER
+			NOT = {
+			   has_war_with = TER
+			}
         }
         available = {
             has_war = no
@@ -2965,16 +3043,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = TER }
+                declare_war_on = { type = annex_everything target = TER }
             }
         }
     }
 	
 	attack_tiveask  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = TVA
+			NOT = {
+			   has_war_with = TVA
+			}
         }
         available = {
             has_war = no
@@ -2997,16 +3082,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = TVA }
+                declare_war_on = { type = annex_everything target = TVA }
             }
         }
     }
 	
 	attack_commune  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = SCM
+			NOT = {
+			   has_war_with = SCM
+			}
         }
         available = {
             has_war = no
@@ -3029,16 +3121,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = SCM }
+                declare_war_on = { type = annex_everything target = SCM }
             }
         }
     }
 	
 	attack_voskra  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = VOS
+			NOT = {
+			   has_war_with = VOS
+			}
         }
         available = {
             has_war = no
@@ -3061,16 +3160,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = VOS }
+                declare_war_on = { type = annex_everything target = VOS }
             }
         }
     }
 	
 	attack_unitedhives  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = UHL
+			NOT = {
+			   has_war_with = UHL
+			}
         }
         available = {
             has_war = no
@@ -3093,16 +3199,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = UHL }
+                declare_war_on = { type = annex_everything target = UHL }
             }
         }
     }
 	
 	attack_lavido  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = LAV
+			NOT = {
+			   has_war_with = LAV
+			}
         }
         available = {
             has_war = no
@@ -3125,16 +3238,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = LAV }
+                declare_war_on = { type = annex_everything target = LAV }
             }
         }
     }
 	
 	attack_commandsouth  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = ACS
+			NOT = {
+			   has_war_with = ACS
+			}
         }
         available = {
             has_war = no
@@ -3157,16 +3277,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = ACS }
+                declare_war_on = { type = annex_everything target = ACS }
             }
         }
     }
 	
 	attack_eth  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = ETH
+			NOT = {
+			   has_war_with = ETH
+			}
         }
         available = {
             has_war = no
@@ -3189,16 +3316,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = ETH }
+                declare_war_on = { type = annex_everything target = ETH }
             }
         }
     }
 	
 	attack_republican  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = RFT
+			NOT = {
+			   has_war_with = RFT
+			}
         }
         available = {
             has_war = no
@@ -3221,16 +3355,23 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = RFT }
+                declare_war_on = { type = annex_everything target = RFT }
             }
         }
     }
 	
 	attack_westavenska  = {
         icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
         
         visible = {
             is_neighbor_of = OAV
+			NOT = {
+			   has_war_with = OAV
+			}
         }
         available = {
             has_war = no
@@ -3253,8 +3394,275 @@ WRL_unification = {
         
         remove_effect = {
             FROM = {
-                create_wargoal = { type = annex_everything target = OAV }
+                declare_war_on = { type = annex_everything target = OAV }
             }
+        }
+    }
+	
+	attack_ris  = {
+        icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+        
+        visible = {
+            is_neighbor_of = RIS
+			NOT = {
+			   has_war_with = RIS
+			}
+        }
+        available = {
+            has_war = no
+			is_subject = no
+			has_army_manpower = {
+                 size > 10000
+            }
+        }
+        
+        cost = 30
+        fire_only_once = yes
+        days_remove = 20
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+            FROM = {
+                declare_war_on = { type = annex_everything target = RIS }
+            }
+        }
+    }
+	
+	manpower_decision  = {
+        icon = GFX_decision_generic_army_support
+		
+		ai_will_do = {
+			factor = 1
+		}
+        
+        visible = {
+			NOT = {
+			   has_country_flag = united_federation
+			}
+        }
+        available = {
+            
+        }
+        
+        cost = 100
+        days_remove = 60
+		days_re_enable = 10
+        
+        modifier = {
+            political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+           add_manpower = 10000
+        }
+    }
+	
+	civilian_decision  = {
+        icon = GFX_decision_generic_electricity
+		
+		ai_will_do = {
+			factor = 1
+		}
+        
+        visible = {
+			NOT = {
+			   has_country_flag = united_federation
+			}
+        }
+        available = {
+		  any_state = {
+			free_building_slots = {
+				building = industrial_complex
+				size > 1
+				include_locked = yes
+			}
+		  }
+        }
+        
+        cost = 50
+        days_remove = 100
+		days_re_enable = 10
+        
+        modifier = {
+            consumer_goods_factor = 0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+    }
+	
+	military_decision  = {
+        icon = GFX_decision_generic_factory
+		
+		ai_will_do = {
+			factor = 1
+		}
+        
+        visible = {
+			NOT = {
+			   has_country_flag = united_federation
+			}
+        }
+        available = {
+		  any_state = {
+			free_building_slots = {
+				building = arms_factory 
+				size > 1
+				include_locked = yes
+			}
+		  }
+        }
+        
+        cost = 50
+        days_remove = 100
+		days_re_enable = 10
+        
+        modifier = {
+            consumer_goods_factor = 0.1
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory 
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory 
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory 
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+    }
+	
+	equipment_decision  = {
+        icon = GFX_decision_generic_trucks
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+        
+        visible = {
+			NOT = {
+			   has_country_flag = united_federation
+			}
+        }
+        available = {
+            has_stability > 0.2
+        }
+        
+        cost = 50
+        days_remove = 30
+		days_re_enable = 10
+        
+        modifier = {
+            stability_weekly = -0.01
+        }
+        
+        complete_effect = {
+        }
+        
+        remove_effect = {
+		   random_list = {  
+		      40 = {
+                  add_equipment_to_stockpile = {
+                    type = primitive_firearms_equipment
+                    amount = 1000
+                    producer = ROOT
+                  }
+			    }
+			  10 = {
+				  add_equipment_to_stockpile = {
+                    type = logistic_vehicle_system_equipment
+                    amount = 500
+                    producer = ROOT
+                  }
+			    }
+			  30 = {
+				  add_equipment_to_stockpile = {
+                    type = main_support_equipment
+                    amount = 800
+                    producer = ROOT
+                  }
+			    }
+			  20 = {
+				  add_equipment_to_stockpile = {
+                    type = field_artillery_equipment
+                    amount = 500
+                    producer = ROOT
+                   }
+			    }
+		    }
         }
     }
 
