@@ -241,6 +241,7 @@ manpower_decision:0 "Gather Loyalists"
 civilian_decision:0 "Civilian Industry Effort"
 military_decision:0 "Military Industry Effort"
 equipment_decision:0 "Procure Equipment"
+tooltip_attacking_warlord:0 "Not Already Preparing an Attack"
 
 ####other other###
 TBZ_eternal_protector:0 "§REternal Protector"

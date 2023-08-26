@@ -1,0 +1,58 @@
+peace_ai_desires = {
+    warlords_always_conquer = {
+        peace_action_type = { take_states }
+        enable = {
+            ROOT = {
+                OR = {
+					tag = RFT
+					tag = TER
+					tag = ACS
+					tag = ETH
+					tag = TVA
+					tag = ZHA
+					tag = RIS
+					tag = LAV
+					tag = UHL
+					tag = TBZ
+					tag = VOS
+					tag = SCM
+					tag = SED
+					tag = CSR
+					tag = MAV
+					tag = KAK
+					tag = TPG
+					tag = OAV
+                }
+            }
+        }
+        ai_desire = 1000
+    }
+    warlords_dont_puppet_or_liberate = {
+        peace_action_type = { puppet force_government liberate }
+        enable = {
+            ROOT = {
+                OR = {
+					tag = RFT
+					tag = TER
+					tag = ACS
+					tag = ETH
+					tag = TVA
+					tag = ZHA
+					tag = RIS
+					tag = LAV
+					tag = UHL
+					tag = TBZ
+					tag = VOS
+					tag = SCM
+					tag = SED
+					tag = CSR
+					tag = MAV
+					tag = KAK
+					tag = TPG
+					tag = OAV
+                }
+            }
+        }
+        ai_desire = -200
+    }
+}
