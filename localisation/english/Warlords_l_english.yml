@@ -242,6 +242,8 @@ civilian_decision:0 "Civilian Industry Effort"
 military_decision:0 "Military Industry Effort"
 equipment_decision:0 "Procure Equipment"
 tooltip_attacking_warlord:0 "Not Already Preparing an Attack"
+outer_militarize:0 "Militarize the Nation"
+outer_militarize_desc:0 "Due to the collapse of the Federation it only makes sense that West Avenska frees itself from it's shackles, but, due to the breach of West Avenskan neutrality our old allies won't protect us anymore"
 
 ####other other###
 TBZ_eternal_protector:0 "§REternal Protector"

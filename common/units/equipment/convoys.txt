@@ -1,7 +1,7 @@
 equipments = {
 
 	convoy = {
-		year = 1910
+		year = 3376
 
 		is_archetype = yes
 		type = convoy
@@ -39,18 +39,15 @@ equipments = {
 		
 		build_cost_ic = 70
 		resources = {
-			#oil = 1
 			steel = 1
 		}
 	}
 
 	convoy_1 = {
-		year = 1910
+		year = 3375
 
 		archetype = convoy
-		type = { 
-			convoy
-		}
+		active = yes
 		priority = 10
 	}
 }

@@ -3629,6 +3629,7 @@ WRL_unification = {
 			NOT = {
 			   has_country_flag = united_federation
 			}
+			is_subject = no
         }
         available = {
             
@@ -3646,7 +3647,7 @@ WRL_unification = {
         }
         
         remove_effect = {
-           add_manpower = 10000
+           add_manpower = 15000
         }
     }
 	
@@ -3661,6 +3662,7 @@ WRL_unification = {
 			NOT = {
 			   has_country_flag = united_federation
 			}
+			is_subject = no
         }
         available = {
 		  any_state = {
@@ -3677,7 +3679,7 @@ WRL_unification = {
 		days_re_enable = 100
         
         modifier = {
-            consumer_goods_factor = 0.1
+            consumer_goods_factor = 0.05
         }
         
         complete_effect = {
@@ -3728,6 +3730,7 @@ WRL_unification = {
 			NOT = {
 			   has_country_flag = united_federation
 			}
+			is_subject = no
         }
         available = {
 		  any_state = {
@@ -3744,7 +3747,7 @@ WRL_unification = {
 		days_re_enable = 100
         
         modifier = {
-            consumer_goods_factor = 0.1
+            consumer_goods_factor = 0.05
         }
         
         complete_effect = {
@@ -3796,6 +3799,7 @@ WRL_unification = {
 			NOT = {
 			   has_country_flag = united_federation
 			}
+			is_subject = no
         }
         available = {
         }
@@ -3842,6 +3846,45 @@ WRL_unification = {
 			    }
 		    }
         }
+    }
+	
+	outer_militarize = {
+	 
+	    icon = GFX_decision_generic_prepare_civil_war 
+		fire_only_once = yes
+		cost = 10
+		
+		available = {
+		    is_subject = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+		    is_subject = no
+			tag = OAV
+		}
+		complete_effect = {
+			194 = { set_demilitarized_zone = no }
+			196 = { set_demilitarized_zone = no }
+			195 = { set_demilitarized_zone = no }
+			192 = { set_demilitarized_zone = no }
+			VRT = {
+				diplomatic_relation = {
+   					country = OAV
+   					relation = guarantee
+   					active = no
+  				}
+			}
+			AVN = {
+				diplomatic_relation = {
+   					country = OAV
+   					relation = guarantee
+   					active = no
+  				}
+			}
+		}
+	
     }
 
 }
