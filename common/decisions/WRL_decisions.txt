@@ -2750,7 +2750,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -2765,7 +2764,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -2799,7 +2798,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -2814,7 +2812,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -2848,7 +2846,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -2863,7 +2860,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -2897,7 +2894,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -2912,7 +2908,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -2946,7 +2942,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -2961,7 +2956,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -2995,7 +2990,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -3010,7 +3004,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -3044,7 +3038,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -3059,7 +3052,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -3093,7 +3086,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -3108,7 +3100,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -3142,7 +3134,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -3157,7 +3148,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -3191,7 +3182,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -3206,7 +3196,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -3240,7 +3230,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -3255,7 +3244,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -3289,7 +3278,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -3304,7 +3292,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -3338,7 +3326,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -3353,7 +3340,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -3387,7 +3374,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -3402,7 +3388,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -3436,7 +3422,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -3451,7 +3436,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -3485,7 +3470,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -3500,7 +3484,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -3534,7 +3518,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -3549,7 +3532,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
@@ -3583,7 +3566,6 @@ WRL_unification = {
 			}
         }
         available = {
-            has_war = no
 			is_subject = no
 			has_army_manpower = {
                  size > 10000
@@ -3598,7 +3580,7 @@ WRL_unification = {
         
         cost = 30
         fire_only_once = yes
-        days_remove = 20
+        days_remove = 150
         
         modifier = {
             political_power_gain = -0.1
