@@ -1,737 +1,225 @@
 WRL_unification = {
 
-    commandsouth_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
+	warlord_unification ={
+		icon = GFX_decision_generic_form_nation    
 	
 	    allowed = {
-			tag = ACS
+			is_warlord_not_unified = yes
 		}
 		available = {
 		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
+			custom_trigger_tooltip = {
+				tooltip = warlord_controls_ex_federal_territory_tooltip
+				warlord_controls_ex_federal_territory = yes
+			}
 		}
 		ai_will_do = {
 			factor = 1
 		}
 		visible = {
-			NOT = { has_cosmetic_tag = ACS_federation }
+			NOT = { has_country_flag = united_federation }
 		}
 		complete_effect = {
-		    set_party_name = { 
-			    ideology = democracy
-			    long_name = ACS_democracy_party_long
-			    name = ACS_democracy_party 
-		    }
-			set_politics = {
-	            ruling_party = democracy
-	            elections_allowed = no
-		    }
-		    set_cosmetic_tag = ACS_federation
+			custom_effect_tooltip = warlord_get_cores_on_ex_federal_territory_tooltip
+			hidden_effect = {
+				warlord_get_cores_on_ex_federal_territory = yes
+			}
+
+			IF = {
+				limit = {tag = ACS}
+				set_party_name = { 
+					ideology = democracy
+					long_name = ACS_democracy_party_long
+					name = ACS_democracy_party 
+				}
+				set_politics = {
+					ruling_party = democracy
+					elections_allowed = no
+				}
+				set_cosmetic_tag = ACS_federation
+			}
+			else_if = {
+				limit = {tag = CSR }
+				set_party_name = { 
+					ideology = supremacism
+					long_name = CSR_supremacism_party_long
+					name = CSR_supremacism_party 
+				}
+				set_cosmetic_tag = CSR_federation
+			}
+			else_if = {
+				limit = {tag = TVA}
+				set_party_name = { 
+					ideology = democracy
+					long_name = TVA_democracy_party_long
+					name = TVA_democracy_party 
+				}
+				set_politics = {
+					ruling_party = democracy
+					elections_allowed = no
+				}
+				set_cosmetic_tag = TVA_federation
+			}
+			else_if = {
+				limit = {tag = MAV}
+				set_cosmetic_tag = MAV_federation
+
+			}
+			else_if = {
+				limit = {tag = TPG}
+				set_party_name = { 
+					ideology = despotism
+					long_name = TPG_despotism_party_long
+					name = TPG_despotism_party 
+				}
+				set_politics = {
+					ruling_party = despotism
+					elections_allowed = no
+				}
+				set_cosmetic_tag = TPG_federation
+			}
+			else_if = {
+				limit = {tag = ETH }
+				set_party_name = { 
+					ideology = supremacism
+					long_name = ETH_supremacism_party_long
+					name = ETH_supremacism_party 
+				}
+				set_cosmetic_tag = ETH_federation
+			}
+			else_if = {
+				limit = {tag = RIS}
+				set_party_name = { 
+					ideology = democracy
+					long_name = RIS_democracy_party_long
+					name = RIS_democracy_party 
+				}
+				set_cosmetic_tag = RIS_federation
+			}
+			else_if = {
+				limit = {tag = RFT}
+				country_event = { id = RFT.2 }
+			}
+			else_if = {
+				limit = {tag = KAK}
+				country_event = { id = KAK.1 }
+
+			}
+			else_if = {
+				limit = {tag = TBZ}
+				country_event = { id = TBZ.1 }
+			}
+			else_if = {
+				limit = {tag = ZHA}
+				set_cosmetic_tag = ZHA_federation
+			}
+			else_if = {
+				limit = {tag = TER}
+				set_cosmetic_tag = TER_federation
+			}
+			else_if = {
+				limit = {tag = VOS}
+				set_cosmetic_tag = VOS_federation
+			}
+			else_if = {
+				limit = {tag = LAV}
+				set_cosmetic_tag = LAV_federation
+			}
+			else_if = {
+				limit = {tag = SED}
+				set_cosmetic_tag = SED_federation
+			}
+			else_if = {
+				limit = {tag = SCM }
+				set_cosmetic_tag = SCM_federation
+			}
+			else_if = {
+				limit = {tag = UHL}
+				set_party_name = { 
+					ideology = revolutionarism
+					long_name = UHL_revolutionarism_party_long
+					name = UHL_revolutionarism_party 
+				}
+				promote_character = UHL_ancom
+				set_cosmetic_tag = UHL_federation
+			}
+			else_if = {
+				limit = {tag = OAV}
+				set_party_name = { 
+					ideology = theocracy
+					long_name = OAV_theocracy_party_long
+					name = OAV_theocracy_party 
+				}
+				set_cosmetic_tag = OAV_federation
+			}
+
+
+
+
+
 			set_capital = {state = 7}
 			set_country_flag = united_federation
-			187 = { add_core_of = ACS }
-			188 = { add_core_of = ACS }
-			186 = { add_core_of = ACS }
-			185 = { add_core_of = ACS }
-			184 = { add_core_of = ACS }
-			182 = { add_core_of = ACS }
-			180 = { add_core_of = ACS }
-			191 = { add_core_of = ACS }
-			190 = { add_core_of = ACS }
-			189 = { add_core_of = ACS }
-			198 = { add_core_of = ACS }
-			201 = { add_core_of = ACS }
-			204 = { add_core_of = ACS }
-			202 = { add_core_of = ACS }
-			7 = { add_core_of = ACS }
-			177 = { add_core_of = ACS }
-			179 = { add_core_of = ACS }
-			176 = { add_core_of = ACS }
-			178 = { add_core_of = ACS }
-			200 = { add_core_of = ACS }
-			175 = { add_core_of = ACS }
-			170 = { add_core_of = ACS }
-			169 = { add_core_of = ACS }
-			168 = { add_core_of = ACS }
-			171 = { add_core_of = ACS }
-			172 = { add_core_of = ACS }
-			173 = { add_core_of = ACS }
-			174 = { add_core_of = ACS }
-			205 = { add_core_of = ACS }
-			163 = { add_core_of = ACS }
-			164 = { add_core_of = ACS }
-			167 = { add_core_of = ACS }
-			166 = { add_core_of = ACS }
-			165 = { add_core_of = ACS }
-			157 = { add_core_of = ACS }
-			156 = { add_core_of = ACS }
-			158 = { add_core_of = ACS }
-			159 = { add_core_of = ACS }
-			181 = { add_core_of = ACS }
-			197 = { add_core_of = ACS }
-			199 = { add_core_of = ACS }
-			194 = { add_core_of = ACS }
-			195 = { add_core_of = ACS }
-			192 = { add_core_of = ACS }
-			193 = { add_core_of = ACS }
-			196 = { add_core_of = ACS }
-			160 = { add_core_of = ACS }
-			161 = { add_core_of = ACS }
-			162 = { add_core_of = ACS }
-			155 = { add_core_of = ACS }
-			203 = { add_core_of = ACS }
+
 		}
+	}
 	
-    }
-	
-	central_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = CSR
-		}
-		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
+	attack_warlords  = {  
+		icon = GFX_decision_generic_prepare_civil_war
+		
 		ai_will_do = {
 			factor = 1
 		}
+		target_trigger = { 
+			is_neighbor_of = FROM
+			NOT = {
+				is_in_faction_with = ROOT
+			}
+			NOT = {
+				has_war_with = FROM
+			}
+			FROM = {
+				is_warlord_not_unified = yes
+			}
+
+		}
 		visible = {
-			NOT = { has_cosmetic_tag = CSR_federation }
-		}
-		complete_effect = {
-		     set_party_name = { 
-			    ideology = supremacism
-			    long_name = CSR_supremacism_party_long
-			    name = CSR_supremacism_party 
-		    }
-		    set_cosmetic_tag = CSR_federation
-			set_capital = {state = 7}
-			set_country_flag = united_federation
-			187 = { add_core_of = ROOT }
-			188 = { add_core_of = ROOT }
-			186 = { add_core_of = ROOT }
-			185 = { add_core_of = ROOT }
-			184 = { add_core_of = ROOT }
-			182 = { add_core_of = ROOT }
-			180 = { add_core_of = ROOT }
-			191 = { add_core_of = ROOT }
-			190 = { add_core_of = ROOT }
-			189 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = ROOT }
-			179 = { add_core_of = ROOT }
-			176 = { add_core_of = ROOT }
-			178 = { add_core_of = ROOT }
-			200 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			169 = { add_core_of = ROOT }
-			168 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			205 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			164 = { add_core_of = ROOT }
-			167 = { add_core_of = ROOT }
-			166 = { add_core_of = ROOT }
-			165 = { add_core_of = ROOT }
-			157 = { add_core_of = ROOT }
-			156 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			181 = { add_core_of = ROOT }
-			197 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			195 = { add_core_of = ROOT }
-			192 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			196 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			155 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			183 = { add_core_of = ROOT }
-		}
-	
-    }
-	
-	tiveask_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = TVA
+			always = yes
 		}
 		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+					has_country_flag = warlord_attacking
+				}  
+			}
 		}
-		ai_will_do = {
-			factor = 1
+	         
+        cost = 30
+        fire_only_once = yes
+        days_remove = 150
+        war_with_target_on_remove = yes
+        modifier = {
+           political_power_gain = -0.1
+        }
+        
+        complete_effect = {
+			FROM = {
+				set_country_flag = warlord_attacking
+			}
+        }
+        
+		remove_effect = {
+			ROOT = {
+				declare_war_on = { type = annex_everything target = FROM }
+				clr_country_flag = warlord_attacking
+			}
 		}
-		visible = {
-			NOT = { has_cosmetic_tag = TVA_federation }
-		}
-		complete_effect = {
-		    set_party_name = { 
-			    ideology = democracy
-			    long_name = TVA_democracy_party_long
-			    name = TVA_democracy_party 
-		    }
-			set_politics = {
-	            ruling_party = democracy
-	            elections_allowed = no
-		    }
-		    set_cosmetic_tag = TVA_federation
-			set_capital = {state = 7}
-			set_country_flag = united_federation
-			187 = { add_core_of = TVA }
-			188 = { add_core_of = TVA }
-			186 = { add_core_of = TVA }
-			185 = { add_core_of = TVA }
-			184 = { add_core_of = TVA }
-			182 = { add_core_of = TVA }
-			180 = { add_core_of = TVA }
-			191 = { add_core_of = TVA }
-			190 = { add_core_of = TVA }
-			189 = { add_core_of = TVA }
-			198 = { add_core_of = TVA }
-			201 = { add_core_of = TVA }
-			204 = { add_core_of = TVA }
-			202 = { add_core_of = TVA }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = TVA }
-			179 = { add_core_of = TVA }
-			176 = { add_core_of = TVA }
-			178 = { add_core_of = TVA }
-			200 = { add_core_of = TVA }
-			175 = { add_core_of = TVA }
-			170 = { add_core_of = TVA }
-			169 = { add_core_of = TVA }
-			168 = { add_core_of = TVA }
-			171 = { add_core_of = TVA }
-			172 = { add_core_of = TVA }
-			173 = { add_core_of = TVA }
-			174 = { add_core_of = TVA }
-			205 = { add_core_of = TVA }
-			163 = { add_core_of = TVA }
-			164 = { add_core_of = TVA }
-			167 = { add_core_of = TVA }
-			166 = { add_core_of = TVA }
-			165 = { add_core_of = TVA }
-			157 = { add_core_of = TVA }
-			156 = { add_core_of = TVA }
-			158 = { add_core_of = TVA }
-			159 = { add_core_of = TVA }
-			181 = { add_core_of = TVA }
-			197 = { add_core_of = TVA }
-			199 = { add_core_of = TVA }
-			194 = { add_core_of = TVA }
-			195 = { add_core_of = TVA }
-			192 = { add_core_of = TVA }
-			193 = { add_core_of = TVA }
-			196 = { add_core_of = TVA }
-			160 = { add_core_of = TVA }
-			161 = { add_core_of = TVA }
-			162 = { add_core_of = TVA }
-			155 = { add_core_of = TVA }
-			203 = { add_core_of = TVA }
-			183 = { add_core_of = ROOT }
-		}
-	
     }
-	
-	mavildea_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = MAV
-		}
-		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = MAV_federation }
-		}
-		complete_effect = {
-		    set_cosmetic_tag = MAV_federation
-			set_capital = {state = 7}
-			set_country_flag = united_federation
-			187 = { add_core_of = ROOT }
-			188 = { add_core_of = ROOT }
-			186 = { add_core_of = ROOT }
-			185 = { add_core_of = ROOT }
-			184 = { add_core_of = ROOT }
-			182 = { add_core_of = ROOT }
-			180 = { add_core_of = ROOT }
-			191 = { add_core_of = ROOT }
-			190 = { add_core_of = ROOT }
-			189 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = ROOT }
-			179 = { add_core_of = ROOT }
-			176 = { add_core_of = ROOT }
-			178 = { add_core_of = ROOT }
-			200 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			169 = { add_core_of = ROOT }
-			168 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			205 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			164 = { add_core_of = ROOT }
-			167 = { add_core_of = ROOT }
-			166 = { add_core_of = ROOT }
-			165 = { add_core_of = ROOT }
-			157 = { add_core_of = ROOT }
-			156 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			181 = { add_core_of = ROOT }
-			197 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			195 = { add_core_of = ROOT }
-			192 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			196 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			155 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			183 = { add_core_of = ROOT }
-		}
-	
-    }
-	
-	provisional_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = TPG
-		}
-		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = TPG_federation }
-		}
-		complete_effect = {
-		    set_party_name = { 
-			    ideology = despotism
-			    long_name = TPG_despotism_party_long
-			    name = TPG_despotism_party 
-		    }
-			set_politics = {
-	            ruling_party = despotism
-	            elections_allowed = no
-		    }
-		    set_cosmetic_tag = TPG_federation
-			set_capital = {state = 7}
-			set_country_flag = united_federation
-			187 = { add_core_of = ROOT }
-			188 = { add_core_of = ROOT }
-			186 = { add_core_of = ROOT }
-			185 = { add_core_of = ROOT }
-			184 = { add_core_of = ROOT }
-			182 = { add_core_of = ROOT }
-			180 = { add_core_of = ROOT }
-			191 = { add_core_of = ROOT }
-			190 = { add_core_of = ROOT }
-			189 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = ROOT }
-			179 = { add_core_of = ROOT }
-			176 = { add_core_of = ROOT }
-			178 = { add_core_of = ROOT }
-			200 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			169 = { add_core_of = ROOT }
-			168 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			205 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			164 = { add_core_of = ROOT }
-			167 = { add_core_of = ROOT }
-			166 = { add_core_of = ROOT }
-			165 = { add_core_of = ROOT }
-			157 = { add_core_of = ROOT }
-			156 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			181 = { add_core_of = ROOT }
-			197 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			195 = { add_core_of = ROOT }
-			192 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			196 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			155 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			183 = { add_core_of = ROOT }
-		}
-	
-    }
-	
-	eth_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = ETH
-		}
-		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = ETH_federation }
-		}
-		complete_effect = {
-		    set_party_name = { 
-			    ideology = supremacism
-			    long_name = ETH_supremacism_party_long
-			    name = ETH_supremacism_party 
-		    }
-		    set_cosmetic_tag = ETH_federation
-			set_capital = {state = 7}
-			set_country_flag = united_federation
-			187 = { add_core_of = ROOT }
-			188 = { add_core_of = ROOT }
-			186 = { add_core_of = ROOT }
-			185 = { add_core_of = ROOT }
-			184 = { add_core_of = ROOT }
-			182 = { add_core_of = ROOT }
-			180 = { add_core_of = ROOT }
-			191 = { add_core_of = ROOT }
-			190 = { add_core_of = ROOT }
-			189 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = ROOT }
-			179 = { add_core_of = ROOT }
-			176 = { add_core_of = ROOT }
-			178 = { add_core_of = ROOT }
-			200 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			169 = { add_core_of = ROOT }
-			168 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			205 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			164 = { add_core_of = ROOT }
-			167 = { add_core_of = ROOT }
-			166 = { add_core_of = ROOT }
-			165 = { add_core_of = ROOT }
-			157 = { add_core_of = ROOT }
-			156 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			181 = { add_core_of = ROOT }
-			197 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			195 = { add_core_of = ROOT }
-			192 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			196 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			155 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			183 = { add_core_of = ROOT }
-		}
-	
-    }
-	
+
 	ris_government_change = {
 	 
 	    icon = GFX_decision_generic_form_nation    
@@ -757,58 +245,10 @@ WRL_unification = {
 	            ruling_party = democracy
 	            elections_allowed = no
 		    }
-			187 = { add_core_of = ROOT }
-			188 = { add_core_of = ROOT }
-			186 = { add_core_of = ROOT }
-			185 = { add_core_of = ROOT }
-			184 = { add_core_of = ROOT }
-			182 = { add_core_of = ROOT }
-			180 = { add_core_of = ROOT }
-			191 = { add_core_of = ROOT }
-			190 = { add_core_of = ROOT }
-			189 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = ROOT }
-			179 = { add_core_of = ROOT }
-			176 = { add_core_of = ROOT }
-			178 = { add_core_of = ROOT }
-			200 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			169 = { add_core_of = ROOT }
-			168 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			205 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			164 = { add_core_of = ROOT }
-			167 = { add_core_of = ROOT }
-			166 = { add_core_of = ROOT }
-			165 = { add_core_of = ROOT }
-			157 = { add_core_of = ROOT }
-			156 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			181 = { add_core_of = ROOT }
-			197 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			195 = { add_core_of = ROOT }
-			192 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			196 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			155 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			183 = { add_core_of = ROOT }
+			custom_effect_tooltip = warlord_get_cores_on_ex_federal_territory_tooltip
+			hidden_effect = {
+				warlord_get_cores_on_ex_federal_territory = yes
+			}
 		}
 	
     }
@@ -824,46 +264,10 @@ WRL_unification = {
 		    has_government = democracy
 		    tag = RIS
 		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
+			custom_trigger_tooltip = {
+				tooltip = warlord_controls_ex_federal_territory_tooltip
+				warlord_controls_ex_federal_territory = yes
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -968,135 +372,6 @@ WRL_unification = {
 		    RFT = {
 		      country_event = { id = RFT.1 days = 2 }
 			}
-		}
-	
-    }
-	RFT_leader_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-		
-	    cost = 100
-	    allowed = {
-			tag = RFT
-		}
-		available = {
-		    tag = RFT
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = RFT_federation }
-			tag = RFT
-		}
-		complete_effect = {
-		    country_event = { id = RFT.2 }
-			set_country_flag = united_federation
-		}
-	
-    }
-	
-	KAK_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = KAK
-		}
-		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = KAK_federation }
-			NOT = { has_cosmetic_tag = NEW_federation }
-		}
-		complete_effect = {
-		    country_event = { id = KAK.1 }
-			set_country_flag = united_federation
 		}
 	
     }
@@ -1210,7 +485,7 @@ WRL_unification = {
 		}
 	
     }
-	
+			
 	attack_VRT = {
 	 
 	    icon = GFX_decision_generic_operation 
@@ -1284,128 +559,6 @@ WRL_unification = {
 		}
 		
 	}
-	
-	bandit_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation   
-        is_triggered_only = yes		
-	
-	    allowed = {
-			tag = TBZ
-		}
-		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = TBZ_federation }
-			NOT = { has_cosmetic_tag = empire_federation }
-			NOT = { has_cosmetic_tag = subject_federation }
-			NOT = { has_cosmetic_tag = nice_federation }
-			NOT = { has_cosmetic_tag = evil_federation }
-			NOT = { has_cosmetic_tag = SF_federation }
-		}
-		complete_effect = {
-			set_capital = {state = 7}
-			country_event = { id = TBZ.1 }
-			set_country_flag = united_federation
-			187 = { add_core_of = ROOT }
-			188 = { add_core_of = ROOT }
-			186 = { add_core_of = ROOT }
-			185 = { add_core_of = ROOT }
-			184 = { add_core_of = ROOT }
-			182 = { add_core_of = ROOT }
-			180 = { add_core_of = ROOT }
-			191 = { add_core_of = ROOT }
-			190 = { add_core_of = ROOT }
-			189 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = ROOT }
-			179 = { add_core_of = ROOT }
-			176 = { add_core_of = ROOT }
-			178 = { add_core_of = ROOT }
-			200 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			169 = { add_core_of = ROOT }
-			168 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			205 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			164 = { add_core_of = ROOT }
-			167 = { add_core_of = ROOT }
-			166 = { add_core_of = ROOT }
-			165 = { add_core_of = ROOT }
-			157 = { add_core_of = ROOT }
-			156 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			181 = { add_core_of = ROOT }
-			197 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			195 = { add_core_of = ROOT }
-			192 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			196 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			155 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			183 = { add_core_of = ROOT }
-		}
-	
-    }
 	
 	attack_all = {
 	 
@@ -1481,952 +634,7 @@ WRL_unification = {
 		}
 		
 	}
-	
-	zha_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = ZHA
-			has_government = unclassified
-		}
-		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = ZHA_federation }
-			tag = ZHA
-		}
-		complete_effect = {
-		    set_cosmetic_tag = ZHA_federation
-			set_capital = {state = 7}
-			set_country_flag = united_federation
-			187 = { add_core_of = ROOT }
-			188 = { add_core_of = ROOT }
-			186 = { add_core_of = ROOT }
-			185 = { add_core_of = ROOT }
-			184 = { add_core_of = ROOT }
-			182 = { add_core_of = ROOT }
-			180 = { add_core_of = ROOT }
-			191 = { add_core_of = ROOT }
-			190 = { add_core_of = ROOT }
-			189 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = ROOT }
-			179 = { add_core_of = ROOT }
-			176 = { add_core_of = ROOT }
-			178 = { add_core_of = ROOT }
-			200 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			169 = { add_core_of = ROOT }
-			168 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			205 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			164 = { add_core_of = ROOT }
-			167 = { add_core_of = ROOT }
-			166 = { add_core_of = ROOT }
-			165 = { add_core_of = ROOT }
-			157 = { add_core_of = ROOT }
-			156 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			181 = { add_core_of = ROOT }
-			197 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			195 = { add_core_of = ROOT }
-			192 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			196 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			155 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			183 = { add_core_of = ROOT }
-		}
-	
-    }
-	
-	ter_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = TER
-		}
-		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = TER_federation }
-		}
-		complete_effect = {
-		    set_cosmetic_tag = TER_federation
-			set_country_flag = united_federation
-			187 = { add_core_of = ROOT }
-			188 = { add_core_of = ROOT }
-			186 = { add_core_of = ROOT }
-			185 = { add_core_of = ROOT }
-			184 = { add_core_of = ROOT }
-			182 = { add_core_of = ROOT }
-			180 = { add_core_of = ROOT }
-			191 = { add_core_of = ROOT }
-			190 = { add_core_of = ROOT }
-			189 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = ROOT }
-			179 = { add_core_of = ROOT }
-			176 = { add_core_of = ROOT }
-			178 = { add_core_of = ROOT }
-			200 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			169 = { add_core_of = ROOT }
-			168 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			205 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			164 = { add_core_of = ROOT }
-			167 = { add_core_of = ROOT }
-			166 = { add_core_of = ROOT }
-			165 = { add_core_of = ROOT }
-			157 = { add_core_of = ROOT }
-			156 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			181 = { add_core_of = ROOT }
-			197 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			195 = { add_core_of = ROOT }
-			192 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			196 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			155 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			183 = { add_core_of = ROOT }
-		}
-	
-    }
-	
-	vos_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = VOS
-		}
-		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = VOS_federation }
-			tag = VOS
-		}
-		complete_effect = {
-		    set_cosmetic_tag = VOS_federation
-			set_country_flag = united_federation
-			187 = { add_core_of = ROOT }
-			188 = { add_core_of = ROOT }
-			186 = { add_core_of = ROOT }
-			185 = { add_core_of = ROOT }
-			184 = { add_core_of = ROOT }
-			182 = { add_core_of = ROOT }
-			180 = { add_core_of = ROOT }
-			191 = { add_core_of = ROOT }
-			190 = { add_core_of = ROOT }
-			189 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = ROOT }
-			179 = { add_core_of = ROOT }
-			176 = { add_core_of = ROOT }
-			178 = { add_core_of = ROOT }
-			200 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			169 = { add_core_of = ROOT }
-			168 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			205 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			164 = { add_core_of = ROOT }
-			167 = { add_core_of = ROOT }
-			166 = { add_core_of = ROOT }
-			165 = { add_core_of = ROOT }
-			157 = { add_core_of = ROOT }
-			156 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			181 = { add_core_of = ROOT }
-			197 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			195 = { add_core_of = ROOT }
-			192 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			196 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			155 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			183 = { add_core_of = ROOT }
-		}
-	
-    }
-	
-	lav_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = LAV
-		}
-		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = LAV_federation }
-			tag = LAV
-		}
-		complete_effect = {
-		    set_cosmetic_tag = LAV_federation
-			set_capital = {state = 7}
-			set_country_flag = united_federation
-			187 = { add_core_of = ROOT }
-			188 = { add_core_of = ROOT }
-			186 = { add_core_of = ROOT }
-			185 = { add_core_of = ROOT }
-			184 = { add_core_of = ROOT }
-			182 = { add_core_of = ROOT }
-			180 = { add_core_of = ROOT }
-			191 = { add_core_of = ROOT }
-			190 = { add_core_of = ROOT }
-			189 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = ROOT }
-			179 = { add_core_of = ROOT }
-			176 = { add_core_of = ROOT }
-			178 = { add_core_of = ROOT }
-			200 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			169 = { add_core_of = ROOT }
-			168 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			205 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			164 = { add_core_of = ROOT }
-			167 = { add_core_of = ROOT }
-			166 = { add_core_of = ROOT }
-			165 = { add_core_of = ROOT }
-			157 = { add_core_of = ROOT }
-			156 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			181 = { add_core_of = ROOT }
-			197 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			195 = { add_core_of = ROOT }
-			192 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			196 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			155 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			183 = { add_core_of = ROOT }
-		}
-	
-    }
-	
-	sed_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = SED
-		}
-		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = SED_federation }
-			tag = SED
-		}
-		complete_effect = {
-		    set_cosmetic_tag = SED_federation
-			set_capital = {state = 7}
-			set_country_flag = united_federation
-			187 = { add_core_of = ROOT }
-			188 = { add_core_of = ROOT }
-			186 = { add_core_of = ROOT }
-			185 = { add_core_of = ROOT }
-			184 = { add_core_of = ROOT }
-			182 = { add_core_of = ROOT }
-			180 = { add_core_of = ROOT }
-			191 = { add_core_of = ROOT }
-			190 = { add_core_of = ROOT }
-			189 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = ROOT }
-			179 = { add_core_of = ROOT }
-			176 = { add_core_of = ROOT }
-			178 = { add_core_of = ROOT }
-			200 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			169 = { add_core_of = ROOT }
-			168 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			205 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			164 = { add_core_of = ROOT }
-			167 = { add_core_of = ROOT }
-			166 = { add_core_of = ROOT }
-			165 = { add_core_of = ROOT }
-			157 = { add_core_of = ROOT }
-			156 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			181 = { add_core_of = ROOT }
-			197 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			195 = { add_core_of = ROOT }
-			192 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			196 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			155 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			183 = { add_core_of = ROOT }
-		}
-	
-    }
-	
-	scm_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = SCM
-		}
-		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = SCM_federation }
-			tag = SCM
-		}
-		complete_effect = {
-		    set_cosmetic_tag = SCM_federation
-			set_capital = {state = 7}
-			set_country_flag = united_federation
-			187 = { add_core_of = ROOT }
-			188 = { add_core_of = ROOT }
-			186 = { add_core_of = ROOT }
-			185 = { add_core_of = ROOT }
-			184 = { add_core_of = ROOT }
-			182 = { add_core_of = ROOT }
-			180 = { add_core_of = ROOT }
-			191 = { add_core_of = ROOT }
-			190 = { add_core_of = ROOT }
-			189 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = ROOT }
-			179 = { add_core_of = ROOT }
-			176 = { add_core_of = ROOT }
-			178 = { add_core_of = ROOT }
-			200 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			169 = { add_core_of = ROOT }
-			168 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			205 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			164 = { add_core_of = ROOT }
-			167 = { add_core_of = ROOT }
-			166 = { add_core_of = ROOT }
-			165 = { add_core_of = ROOT }
-			157 = { add_core_of = ROOT }
-			156 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			181 = { add_core_of = ROOT }
-			197 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			195 = { add_core_of = ROOT }
-			192 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			196 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			155 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			183 = { add_core_of = ROOT }
-		}
-	
-    }
-	
-	uhl_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = UHL
-		}
-		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = UHL_federation }
-			tag = UHL
-		}
-		complete_effect = {
-		    set_cosmetic_tag = UHL_federation
-			set_capital = {state = 7}
-			set_country_flag = united_federation
-			set_party_name = { 
-			    ideology = revolutionarism
-			    long_name = UHL_revolutionarism_party_long
-			    name = UHL_revolutionarism_party 
-		    }
-			promote_character = UHL_ancom
-			187 = { add_core_of = ROOT }
-			188 = { add_core_of = ROOT }
-			186 = { add_core_of = ROOT }
-			185 = { add_core_of = ROOT }
-			184 = { add_core_of = ROOT }
-			182 = { add_core_of = ROOT }
-			180 = { add_core_of = ROOT }
-			191 = { add_core_of = ROOT }
-			190 = { add_core_of = ROOT }
-			189 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = ROOT }
-			179 = { add_core_of = ROOT }
-			176 = { add_core_of = ROOT }
-			178 = { add_core_of = ROOT }
-			200 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			169 = { add_core_of = ROOT }
-			168 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			205 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			164 = { add_core_of = ROOT }
-			167 = { add_core_of = ROOT }
-			166 = { add_core_of = ROOT }
-			165 = { add_core_of = ROOT }
-			157 = { add_core_of = ROOT }
-			156 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			181 = { add_core_of = ROOT }
-			197 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			195 = { add_core_of = ROOT }
-			192 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			196 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			155 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			183 = { add_core_of = ROOT }
-		}
-	
-    }
-	
-    oav_unification = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = OAV
-		}
-		available = {
-		    is_subject = no
-			controls_state = 187
-			controls_state = 188
-			controls_state = 186
-			controls_state = 185
-			controls_state = 184
-			controls_state = 183 #
-			controls_state = 182 #
-			controls_state = 180
-			controls_state = 191
-			controls_state = 190
-			controls_state = 189 #
-			controls_state = 198
-			controls_state = 201
-			controls_state = 204
-			controls_state = 202
-			controls_state = 203
-			controls_state = 7
-			controls_state = 177
-			controls_state = 179
-			controls_state = 176
-			controls_state = 178
-			controls_state = 200
-			controls_state = 175
-			controls_state = 170
-			controls_state = 169
-			controls_state = 168
-			controls_state = 171
-			controls_state = 172
-			controls_state = 173
-			controls_state = 174
-			controls_state = 205
-			controls_state = 163
-			controls_state = 164
-			controls_state = 167
-			controls_state = 166
-			controls_state = 165
-			controls_state = 157
-			controls_state = 156
-			controls_state = 158
-			controls_state = 159
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = OAV_federation }
-			tag = OAV
-		}
-		complete_effect = {
-		    set_cosmetic_tag = OAV_federation
-			set_capital = {state = 7}
-			set_country_flag = united_federation
-			set_party_name = { 
-			    ideology = theocracy
-			    long_name = OAV_theocracy_party_long
-			    name = OAV_theocracy_party 
-		    }
-			187 = { add_core_of = ROOT }
-			188 = { add_core_of = ROOT }
-			186 = { add_core_of = ROOT }
-			185 = { add_core_of = ROOT }
-			184 = { add_core_of = ROOT }
-			182 = { add_core_of = ROOT }
-			180 = { add_core_of = ROOT }
-			191 = { add_core_of = ROOT }
-			190 = { add_core_of = ROOT }
-			189 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			7 = { add_core_of = ROOT }
-			177 = { add_core_of = ROOT }
-			179 = { add_core_of = ROOT }
-			176 = { add_core_of = ROOT }
-			178 = { add_core_of = ROOT }
-			200 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			169 = { add_core_of = ROOT }
-			168 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			205 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			164 = { add_core_of = ROOT }
-			167 = { add_core_of = ROOT }
-			166 = { add_core_of = ROOT }
-			165 = { add_core_of = ROOT }
-			157 = { add_core_of = ROOT }
-			156 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			181 = { add_core_of = ROOT }
-			197 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			195 = { add_core_of = ROOT }
-			192 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			196 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			155 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			183 = { add_core_of = ROOT }
-		}
-	
-    }
-	
+
 	demand_land_VRT = {
 	 
 	    icon = GFX_decision_generic_form_nation    
@@ -2434,32 +642,7 @@ WRL_unification = {
 		cost = 50
 	
 	    allowed = {
-			OR = {
-              has_cosmetic_tag = OAV_federation
-		      has_cosmetic_tag = UHL_federation
-		      has_cosmetic_tag = SCM_federation
-		      has_cosmetic_tag = SED_federation
-		      has_cosmetic_tag = LAV_federation
-		      has_cosmetic_tag = ACS_federation
-		      has_cosmetic_tag = CSR_federation
-		      has_cosmetic_tag = TVA_federation
-		      has_cosmetic_tag = MAV_federation
-		      has_cosmetic_tag = TPG_federation
-		      has_cosmetic_tag = ETH_federation
-		      has_cosmetic_tag = RIS_federation
-		      has_cosmetic_tag = KAK_federation
-		      has_cosmetic_tag = NEW_federation
-		      has_cosmetic_tag = TBZ_federation
-		      has_cosmetic_tag = empire_federation
-		      has_cosmetic_tag = subject_federation
-		      has_cosmetic_tag = nice_federation
-			  has_cosmetic_tag = evil_federation
-			  has_cosmetic_tag = SF_federation
-			  has_cosmetic_tag = ZHA_federation
-			  has_cosmetic_tag = TER_federation
-			  has_cosmetic_tag = VOS_federation
-			  has_cosmetic_tag = RFT_federation
-	        }
+			has_country_flag = united_federation 
 		}
 		available = {
 		    is_subject = no
@@ -2477,30 +660,7 @@ WRL_unification = {
 		}
 		visible = {
 			OR = {
-              has_cosmetic_tag = OAV_federation
-		      has_cosmetic_tag = UHL_federation
-			  has_cosmetic_tag = RFT_federation
-		      has_cosmetic_tag = SCM_federation
-		      has_cosmetic_tag = SED_federation
-		      has_cosmetic_tag = LAV_federation
-		      has_cosmetic_tag = ACS_federation
-		      has_cosmetic_tag = CSR_federation
-		      has_cosmetic_tag = TVA_federation
-		      has_cosmetic_tag = MAV_federation
-		      has_cosmetic_tag = TPG_federation
-		      has_cosmetic_tag = ETH_federation
-		      has_cosmetic_tag = RIS_federation
-		      has_cosmetic_tag = KAK_federation
-		      has_cosmetic_tag = NEW_federation
-		      has_cosmetic_tag = TBZ_federation
-		      has_cosmetic_tag = empire_federation
-		      has_cosmetic_tag = subject_federation
-		      has_cosmetic_tag = nice_federation
-			  has_cosmetic_tag = evil_federation
-			  has_cosmetic_tag = SF_federation
-			  has_cosmetic_tag = ZHA_federation
-			  has_cosmetic_tag = TER_federation
-			  has_cosmetic_tag = VOS_federation
+				has_country_flag = united_federation 
 	        }
 			VRT = {
 			   OR = {
@@ -2528,30 +688,7 @@ WRL_unification = {
 	
 	    allowed = {
 			OR = {
-              has_cosmetic_tag = OAV_federation
-		      has_cosmetic_tag = UHL_federation
-		      has_cosmetic_tag = SCM_federation
-		      has_cosmetic_tag = SED_federation
-		      has_cosmetic_tag = LAV_federation
-		      has_cosmetic_tag = ACS_federation
-		      has_cosmetic_tag = CSR_federation
-		      has_cosmetic_tag = TVA_federation
-		      has_cosmetic_tag = MAV_federation
-		      has_cosmetic_tag = TPG_federation
-		      has_cosmetic_tag = ETH_federation
-		      has_cosmetic_tag = RIS_federation
-		      has_cosmetic_tag = KAK_federation
-		      has_cosmetic_tag = NEW_federation
-		      has_cosmetic_tag = TBZ_federation
-		      has_cosmetic_tag = empire_federation
-		      has_cosmetic_tag = subject_federation
-		      has_cosmetic_tag = nice_federation
-			  has_cosmetic_tag = evil_federation
-			  has_cosmetic_tag = SF_federation
-			  has_cosmetic_tag = ZHA_federation
-			  has_cosmetic_tag = TER_federation
-			  has_cosmetic_tag = VOS_federation
-			  has_cosmetic_tag = RFT_federation
+				has_country_flag = united_federation 
 	        }
 		}
 		available = {
@@ -2571,30 +708,7 @@ WRL_unification = {
 		}
 		visible = {
 			OR = {
-              has_cosmetic_tag = OAV_federation
-		      has_cosmetic_tag = UHL_federation
-		      has_cosmetic_tag = SCM_federation
-		      has_cosmetic_tag = SED_federation
-		      has_cosmetic_tag = LAV_federation
-		      has_cosmetic_tag = ACS_federation
-		      has_cosmetic_tag = CSR_federation
-		      has_cosmetic_tag = TVA_federation
-		      has_cosmetic_tag = MAV_federation
-		      has_cosmetic_tag = TPG_federation
-		      has_cosmetic_tag = ETH_federation
-		      has_cosmetic_tag = RIS_federation
-		      has_cosmetic_tag = KAK_federation
-		      has_cosmetic_tag = NEW_federation
-		      has_cosmetic_tag = TBZ_federation
-		      has_cosmetic_tag = empire_federation
-		      has_cosmetic_tag = subject_federation
-		      has_cosmetic_tag = nice_federation
-			  has_cosmetic_tag = evil_federation
-			  has_cosmetic_tag = SF_federation
-			  has_cosmetic_tag = ZHA_federation
-			  has_cosmetic_tag = TER_federation
-			  has_cosmetic_tag = VOS_federation
-			  has_cosmetic_tag = RFT_federation
+				has_country_flag = united_federation 
 	        }
 			AVN = {
 			   OR = {
@@ -2623,29 +737,7 @@ WRL_unification = {
 	
 	    allowed = {
 			OR = {
-              has_cosmetic_tag = OAV_federation
-			  has_cosmetic_tag = RFT_federation
-		      has_cosmetic_tag = UHL_federation
-		      has_cosmetic_tag = SCM_federation
-		      has_cosmetic_tag = SED_federation
-		      has_cosmetic_tag = LAV_federation
-		      has_cosmetic_tag = ACS_federation
-		      has_cosmetic_tag = CSR_federation
-		      has_cosmetic_tag = TVA_federation
-		      has_cosmetic_tag = MAV_federation
-		      has_cosmetic_tag = TPG_federation
-		      has_cosmetic_tag = ETH_federation
-		      has_cosmetic_tag = KAK_federation
-		      has_cosmetic_tag = NEW_federation
-		      has_cosmetic_tag = TBZ_federation
-		      has_cosmetic_tag = empire_federation
-		      has_cosmetic_tag = subject_federation
-		      has_cosmetic_tag = nice_federation
-			  has_cosmetic_tag = evil_federation
-			  has_cosmetic_tag = SF_federation
-			  has_cosmetic_tag = ZHA_federation
-			  has_cosmetic_tag = TER_federation
-			  has_cosmetic_tag = VOS_federation
+				has_country_flag = united_federation 
 	        }
 		}
 		available = {
@@ -2658,29 +750,7 @@ WRL_unification = {
 		}
 		visible = {
 			OR = {
-              has_cosmetic_tag = OAV_federation
-		      has_cosmetic_tag = UHL_federation
-			  has_cosmetic_tag = RFT_federation
-		      has_cosmetic_tag = SCM_federation
-		      has_cosmetic_tag = SED_federation
-		      has_cosmetic_tag = LAV_federation
-		      has_cosmetic_tag = ACS_federation
-		      has_cosmetic_tag = CSR_federation
-		      has_cosmetic_tag = TVA_federation
-		      has_cosmetic_tag = MAV_federation
-		      has_cosmetic_tag = TPG_federation
-		      has_cosmetic_tag = ETH_federation
-		      has_cosmetic_tag = KAK_federation
-		      has_cosmetic_tag = NEW_federation
-		      has_cosmetic_tag = TBZ_federation
-		      has_cosmetic_tag = empire_federation
-		      has_cosmetic_tag = subject_federation
-		      has_cosmetic_tag = nice_federation
-			  has_cosmetic_tag = evil_federation
-			  has_cosmetic_tag = SF_federation
-			  has_cosmetic_tag = ZHA_federation
-			  has_cosmetic_tag = TER_federation
-			  has_cosmetic_tag = VOS_federation
+				has_country_flag = united_federation 
 	        }
 			NOT = { controls_state = 181 }
 			NOT = { has_war_with = RIS }
@@ -2735,871 +805,7 @@ WRL_unification = {
             }
         }
     }
-	
-	attack_kakrikea  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = KAK
-			NOT = {
-			   has_war_with = KAK
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		   FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = KAK }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_mavildea  = {
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = MAV
-			NOT = {
-			   has_war_with = MAV
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		   FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = MAV }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_csr  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = CSR
-			NOT = {
-			   has_war_with = CSR
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		    FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = CSR }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_seda  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = SED
-			NOT = {
-			   has_war_with = SED
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		   FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = SED }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_bandits  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = TBZ
-			NOT = {
-			   has_war_with = TBZ
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		  FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = TBZ }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_zhafolis  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = ZHA
-			NOT = {
-			   has_war_with = ZHA
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		   FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = ZHA }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_neutralzone  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = TPG
-			NOT = {
-			   has_war_with = TPG
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		    FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = TPG }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_termites  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = TER
-			NOT = {
-			   has_war_with = TER
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		  FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = TER }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_tiveask  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = TVA
-			NOT = {
-			   has_war_with = TVA
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		   FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = TVA }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_commune  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = SCM
-			NOT = {
-			   has_war_with = SCM
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		  FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = SCM }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_voskra  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = VOS
-			NOT = {
-			   has_war_with = VOS
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		   FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = VOS }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_unitedhives  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = UHL
-			NOT = {
-			   has_war_with = UHL
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		   FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = UHL }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_lavido  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = LAV
-			NOT = {
-			   has_war_with = LAV
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		    FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = LAV }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_commandsouth  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = ACS
-			NOT = {
-			   has_war_with = ACS
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		    FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = ACS }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_eth  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = ETH
-			NOT = {
-			   has_war_with = ETH
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		   FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = ETH }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_republican  = {   #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = RFT
-			NOT = {
-			   has_war_with = RFT
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		   FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-			    clr_country_flag = warlord_attacking
-                declare_war_on = { type = annex_everything target = RFT }
-            }
-        }
-    }
-	
-	attack_westavenska  = {   #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = OAV
-			NOT = {
-			   has_war_with = OAV
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		   FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = OAV }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
-	attack_ris  = {  #done
-        icon = GFX_decision_generic_prepare_civil_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-        
-        visible = {
-            is_neighbor_of = RIS
-			NOT = {
-			   has_war_with = RIS
-			}
-        }
-        available = {
-			is_subject = no
-			has_army_manpower = {
-                 size > 10000
-            }
-			custom_trigger_tooltip = {
-			    tooltip = tooltip_attacking_warlord
-			    NOT = {
-		          has_country_flag = warlord_attacking
-		        }  
-			}
-        }
-        
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        
-        modifier = {
-            political_power_gain = -0.1
-        }
-        
-        complete_effect = {
-		   FROM = {
-		       set_country_flag = warlord_attacking
-		   }
-        }
-        
-        remove_effect = {
-            FROM = {
-                declare_war_on = { type = annex_everything target = RIS }
-				clr_country_flag = warlord_attacking
-            }
-        }
-    }
-	
+
 	manpower_decision  = {
         icon = GFX_decision_generic_army_support
 		

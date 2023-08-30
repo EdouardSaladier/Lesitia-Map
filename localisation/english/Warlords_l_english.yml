@@ -109,33 +109,41 @@ UHL_revolutionarism_party_long:0 "the Collective of the Freed"
 OAV_theocracy_party:0 "S.L.P.A"
 OAV_theocracy_party_long:0 "Spiritual Liberation Party of Archea"
 
-###other
-WRL_unification:0 "Unification of the Federation"
-commandsouth_unification:0 "Unify the Federation"
-attack_all:0 "Commence the Imperial Retribution"
-attack_all_desc:0 "It's our destiny to re-unify the empire, it's our duty to punish those that escaped and it's our ultimate finality to execute the imperial pretenders."
-central_unification:0 "Unify the Federation"
-tiveask_unification:0 "Unify the Federation"
-provisional_unification:0 "Unify the Federation"
-mavildea_unification:0 "Unify the Federation"
-KAK_unification:0 "Unify the Federation"
-sed_unification:0 "Unify the Federation"
+########################
+##### Optimization #####
+########################
+
+warlord_controls_ex_federal_territory_tooltip:0 "We control all pre-collapse states of the [SYM.GetFlag]§4Symbiotic Federation§!"
+warlord_get_cores_on_ex_federal_territory_tooltip:0 "§YGain §Gcores§! on all pre-collapse states of the§! [SYM.GetFlag]§4Symbiotic Federation§!"
+attack_warlords:0 "Attack [FROM.GetNameDef]"
+warlord_unification:0 "[fed_unification_decision_name]"
+unify_the_federation_name:0 "Unify the Federation"
 oav_unification:0 "Divine Unification"
-eth_unification:0 "Unify the Federation"
-scm_unification:0 "Unify the Federation"
-uhl_unification:0 "Unify the Federation"
-lav_unification:0 "Unify the Federation"
 vos_unification:0 "Integrate the New Conquests"
 ter_unification:0 "Integrate the Holdings"
-reclamation_unification:0 "Re-form the Federation"
 zha_unification:0 "Unify the Realm"
+
+########################
+######### END ##########
+########################
+
+
+###other
+WRL_unification:0 "Unification of the Federation"
+attack_all:0 "Commence the Imperial Retribution"
+attack_all_desc:0 "It's our destiny to re-unify the empire, it's our duty to punish those that escaped and it's our ultimate finality to execute the imperial pretenders."
+
+#RFT_leader_unification:0 "Unify the Federation"
+
+reclamation_unification:0 "Re-form the Federation"
+
 demand_ACS:0 "Demand Submission from the Southern Army"
 demand_LAV:0 "Demand Submission from Lavido"
 demand_RFT:0 "Demand Subsmission from the Republicans"
 demand_land_VRT:0 "Demand Our Lands Back From Vratenzk"
 demand_land_AVN:0 "Demand Our Lands Back From Avenska"
 demand_islands:0 "Demand Subjugation of the Islands"
-RFT_leader_unification:0 "Unify the Federation"
+
 TBZ.1.t:0 "The Confrontation"
 TBZ.1.d:0 "Soon after our conquest of the Federation we are starting to have issues with the imperial remnants, for a time we used to work together, specially when we were still a small warlord in the Tiveask fog, these imperial remains helping us run the more political and administrative side of things as we focused more on the pillaging and conquering, they being one of the very few groups willing to work with us, but now that we have unified the ex-federal lands it seems that the imperials want to break our informal agreement.\n\nTheir leader "Maul Incarnatto" claims that we don't have any true power in the nation, and, that without the help of the remnants we wouldn't have been able to expand further than Tiveask, therefore he has confronted us with a demand, that being that we hand power over to him, and allow him to govern the "nation" from now on, of course, this hasn't sat well with the Ephemeral Militias, who demand we ignore this demand and instead show Maul what he truly deserves."
 TBZ.1.a:0 ""Relieve" Maul of His Duties"

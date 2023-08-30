@@ -1,0 +1,49 @@
+defined_text = {
+	name = fed_unification_decision_name
+	text = {
+		trigger = {
+			OR = {
+				tag = RFT
+				tag = ACS
+				tag = ETH
+				tag = TVA
+				tag = RIS
+				tag = LAV
+				tag = UHL
+				tag = TBZ
+				tag = SCM
+				tag = SED
+				tag = CSR
+				tag = MAV
+				tag = KAK
+				tag = TPG
+				
+			}
+		}
+		localization_key = unify_the_federation_name
+	}
+	text = {
+		trigger = {
+			tag = OAV
+		}
+		localization_key = oav_unification
+	}
+	text = {
+		trigger = {
+			tag = VOS
+		}
+		localization_key = vos_unification
+	}
+	text = {
+		trigger = {
+			tag = TER
+		}
+		localization_key = ter_unification
+	}
+	text = {
+		trigger = {
+			tag = ZHA
+		}
+		localization_key = zha_unification
+	}
+}
