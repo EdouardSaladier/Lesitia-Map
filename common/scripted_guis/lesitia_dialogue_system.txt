@@ -74,6 +74,7 @@ scripted_gui = {
 		effects = {
 			dialogue_bar_container_effect_click = {
 				dialogue_progress = yes
+				bor_dialogue_progress = yes
 			}
 		}
 	}

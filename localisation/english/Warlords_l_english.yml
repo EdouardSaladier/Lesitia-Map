@@ -128,6 +128,86 @@ zha_unification:0 "Unify the Realm"
 ########################
 
 
+########################
+######## Ideas #########
+########################
+wrl_fortification_buildup_idea:0 "Fortification Buildup"
+wrl_anti_scarcity_measures_idea:0 "Anti-Scarcity Measures"
+wrl_tech_idea:0 "Technological Advancments"
+wrl_conserve_hydrogen_idea:0 "Conserve Hydrogen"
+wrl_outmanouver_enemies_idea:0 "Outmanouver Enemies"
+wrl_production_quotas_idea:0 "Production Quotas"
+wrl_extended_work_shifts_idea:0 "Extended Work Shifts"
+wrl_resist_and_bite_idea:0 "Resist And Bite"
+wrl_nation_under_one_banner_idea:0 "Nation under One Banner"
+
+########################
+######### END ##########
+########################
+
+
+########################
+##### Focus Trees ######
+########################
+
+WRL_Consolidate_Power:0 "Consolidate Power"
+WRL_Declare_State_Of_Emergency:0 "Declare State Of Emergency"
+WRL_Alliances_Of_Convinience:0 "Alliances Of Conviniance"
+WRL_Gather_Our_Allies:0 "Gather Our Allies"
+WRL_Begin_Expansion:0 "Begin Expansion"
+WRL_Begin_Rebuilding_Efforts:0 "Begin Rebuilding Efforts"
+WRL_Fund_Research:0 "Fund Research"
+WRL_Nation_Under_One_Banner:0 "Nation Under One Banner"
+
+
+WRL_Mobilize_The_Economy:0 "Mobilize The Economy"
+WRL_Size_Civilian_Production:0 "Sieze Civilian Production"
+WRL_Makeshift_Arms_Workshops:0 "Makeshift Arms Workshops"
+WRL_Emergency_Fortifications_Construction:0 "Fortifications Construction"
+WRL_Expand_Infrastructure:0 "Expand Infrastructure"
+WRL_Anti_Air_Defense:0 "Anti Air Defense"
+WRL_Expand_Civilian_Sector:0 "Expand Civilian Sector"
+WRL_Reopen_Old_Factories:0 "Reopen Old Factories"
+WRL_Anti_Scarcity_Measures:0 "Anti Scarcity Measures"
+WRL_Invest_In_Research:0 "Invest In Research"
+WRL_Energy_Production:0 "Energy Production"
+WRL_Unified_Industrial_Plan:0 "Unified Industrial Plan"
+
+WRL_Mobilize_The_Troops:0 "Mobilize The Troops"
+WRL_Forceful_Conscription:0 "Forcefull Conscription"
+WRL_Raise_Militia:0 "Raise Militia"
+WRL_Loot_Federal_Armories:0 "Loot Federal Armories"
+WRL_Scavange_Mechanized_Support_Vechicles:0 "Scavange Mechanized Support Vechicles"
+WRL_Conserve_Hydrogen:0 "Conserve Hydrogen"
+WRL_Supply_Trucks_Production:0 "Supply Truck Production"
+WRL_Reactivate_Old_Air_Bases:0 "Reactivate Old Air Bases"
+WRL_Repurpose_Civilian_Aircraft:0 "Repuropse Civilian Aircraft"
+WRL_Radar_Coverage:0 "Radar Coverage"
+WRL_Devising_A_New_Strategy:0 "Devising A New Strategy"
+WRL_Mobility_Focus:0 "Mobility Focus"
+WRL_Commandeer_Civilian_Vechicles:0 "Commandeer Civilian Vechicles"
+WRL_Repurpose_Old_Vechicles:0 "Repourpose Old Tanks"
+WRL_Outmaneuver_Our_Enemies:0 "Outmanouver Our Enemies"
+WRL_Production_Focus:0 "Production Focus"
+WRL_Production_Quotas:0 "Production Quotas"
+WRL_Extended_Work_Shifts:0 "Extended Work Shifts"
+WRL_Everything_For_The_War_Machine:0 "Everythign For The War Machine"
+WRL_Artillery_Focus:0 "Artillery Focus"
+WRL_Kings_Of_The_Battlefield:0 "Kings Of The Battlefield"
+WRL_Forward_Observers:0 "Forward Observers"
+WRL_Standardized_Artillery_Production:0 "Standarized Artillery Production"
+WRL_Survival_Focus:0 "Survival Focus"
+WRL_Field_Hospitals:0 "Field Hospital"
+WRL_Resist_And_Bite:0 "Resist And Bite"
+WRL_Raise_Extra_Militia:0 "Raise Extra Militia"
+WRL_Unified_Strategy:0 "Unified Strategy"
+
+
+
+
+########################
+######### END ##########
+########################
 ###other
 WRL_unification:0 "Unification of the Federation"
 attack_all:0 "Commence the Imperial Retribution"

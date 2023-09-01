@@ -50,6 +50,8 @@ set_technology = {
 
 set_convoys = 20
 
+recruit_character = BOR_derri_sanglier
+
 set_politics = {
 	ruling_party = despotism
 	last_election = "3374.1.1"

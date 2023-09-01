@@ -1,0 +1,29 @@
+focus_tree = {
+	id = BOR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BOR
+		}
+	}
+	default = no
+	
+	###
+	
+	focus = {
+		id = BOR_A_Matter_Of_Time
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 4
+		x = 10
+		y = 0
+		select_effect = { 
+			set_country_flag = first_dialogue_bor
+			dialogue_bor_1_init = yes
+		}
+		completion_reward = {
+			clr_country_flag = first_dialogue_bor
+		}
+		
+	}
+}

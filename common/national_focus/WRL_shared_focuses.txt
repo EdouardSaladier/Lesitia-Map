@@ -1,0 +1,1019 @@
+focus_tree = {
+	id = BOR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			is_warlord = yes
+		}
+	}
+	default = no
+	
+	###
+	
+	focus = {
+		id = WRL_Consolidate_Power
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 10
+		y = 0
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = WRL_Declare_State_Of_Emergency
+		icon = GFX_focus_generic_military_mission
+		cost = 7
+		x = 10
+		y = 1
+		prerequisite = {
+			focus = WRL_Consolidate_Power
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}
+	}
+	focus = {
+		id = WRL_Alliances_Of_Convinience
+		icon = GFX_focus_generic_treaty
+		cost = 7
+		x = 9
+		y = 2
+		prerequisite = {
+			focus = WRL_Declare_State_Of_Emergency
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = WRL_Gather_Our_Allies
+		icon = GFX_goal_generic_major_alliance
+		cost = 7
+		x = 11
+		y = 2
+		prerequisite = {
+			focus = WRL_Declare_State_Of_Emergency
+		}
+		completion_reward = {
+			if ={
+				limit = {
+					has_government = despotism
+				}
+				add_popularity = {
+					ideology = despotism
+					popularity = 0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = revolutionarism
+				}
+				add_popularity = {
+					ideology = revolutionarism
+					popularity = 0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = corporatism
+				}
+				add_popularity = {
+					ideology = corporatism
+					popularity = 0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = supremacism
+				}
+				add_popularity = {
+					ideology = supremacism
+					popularity = 0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = democracy
+				}
+				add_popularity = {
+					ideology = democracy
+					popularity = 0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = technocracy
+				}
+				add_popularity = {
+					ideology = technocracy
+					popularity = 0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = theocracy
+				}
+				add_popularity = {
+					ideology = theocracy
+					popularity = 0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = unclassified
+				}
+				add_popularity = {
+					ideology = unclassified
+					popularity = 0.1
+				}
+			}
+		}
+	}
+	focus = {
+		id = WRL_Begin_Expansion
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 7
+		x = 10
+		y = 3
+		prerequisite = {
+			focus = WRL_Alliances_Of_Convinience
+		}
+		prerequisite = {
+			focus = WRL_Gather_Our_Allies
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = WRL_Begin_Rebuilding_Efforts
+		icon = GFX_goal_generic_construction2
+		cost = 7
+		x = 9
+		y = 4
+		available = {
+			has_country_flag = united_federation
+		}
+		prerequisite = {
+			focus = WRL_Begin_Expansion
+		}
+		completion_reward = {
+			every_core_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+				}
+			}
+			random_core_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+				}
+			}
+		}
+	}
+	focus = {
+		id = WRL_Fund_Research
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 7
+		x = 11
+		y = 4
+		available = {
+			has_country_flag = united_federation
+		}
+		prerequisite = {
+			focus = WRL_Begin_Expansion
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = WRL_Nation_Under_One_Banner
+		icon = GFX_goal_anschluss
+		cost = 7
+		x = 10
+		y = 5
+		available = {
+			has_country_flag = united_federation
+		}
+		prerequisite = {
+			focus = WRL_Begin_Rebuilding_Efforts
+		}
+		prerequisite = {
+			focus = WRL_Fund_Research
+		}
+		completion_reward = {
+			add_ideas = wrl_nation_under_one_banner_idea
+		}
+	}
+	########################################
+	#################ECONOMY################
+	########################################
+
+
+	focus = {
+		id = WRL_Mobilize_The_Economy
+		icon = GFX_goal_panzerwaffe
+		cost = 7
+		x = 3
+		y = 0
+		completion_reward = {
+			add_ideas = partial_economic_mobilisation
+		}
+	}
+	focus = {
+		id = WRL_Size_Civilian_Production
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 7
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = WRL_Mobilize_The_Economy
+		}
+		completion_reward = {
+			random_core_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = WRL_Makeshift_Arms_Workshops
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 7
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = WRL_Mobilize_The_Economy
+		}
+		completion_reward = {
+			random_core_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+			}
+		} 
+	}
+	focus = {
+		id = WRL_Emergency_Fortifications_Construction
+		icon = GFX_goal_fortify_the_westwall
+		cost = 7
+		x = 1
+		y = 2
+		prerequisite = {
+			focus = WRL_Size_Civilian_Production
+		}
+		completion_reward = {
+			add_ideas = wrl_fortification_buildup_idea
+		}
+	}
+	focus = {
+		id = WRL_Expand_Infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 7
+		x = 3
+		y = 2
+		prerequisite = {
+			focus = WRL_Size_Civilian_Production
+		}
+		prerequisite = {
+			focus = WRL_Makeshift_Arms_Workshops
+		}
+		completion_reward = {
+			every_core_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = WRL_Anti_Air_Defense
+		icon = GFX_focus_generic_air_defense
+		cost = 7
+		x = 5
+		y = 2
+		prerequisite = {
+			focus = WRL_Makeshift_Arms_Workshops
+		}
+		completion_reward = {
+			every_core_state = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = WRL_Expand_Civilian_Sector
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 7
+		x = 2
+		y = 3
+		prerequisite = {
+			focus = WRL_Expand_Infrastructure
+		}
+		completion_reward = {
+			random_core_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = WRL_Reopen_Old_Factories
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 7
+		x = 4
+		y = 3
+		prerequisite = {
+			focus = WRL_Expand_Infrastructure
+		}
+		completion_reward = {
+			random_core_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = WRL_Anti_Scarcity_Measures
+		icon = GFX_focus_generic_concessions
+		cost = 7
+		x = 3
+		y = 4
+		prerequisite = {
+			focus = WRL_Expand_Civilian_Sector
+		}
+		prerequisite = {
+			focus = WRL_Reopen_Old_Factories
+		}
+		completion_reward = {
+			add_ideas = wrl_anti_scarcity_measures_idea
+		}
+	}
+	focus = {
+		id = WRL_Invest_In_Research
+		icon = GFX_goal_continuous_research
+		cost = 7
+		x = 2
+		y = 5
+		prerequisite = {
+			focus = WRL_Anti_Scarcity_Measures
+		}
+		completion_reward = {
+			add_ideas = wrl_tech_idea
+		}
+	}
+	focus = {
+		id = WRL_Energy_Production
+		icon = GFX_goal_generic_production
+		cost = 7
+		x = 4
+		y = 5
+		prerequisite = {
+			focus = WRL_Anti_Scarcity_Measures
+		}
+		completion_reward = {
+			random_core_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = renewable_power_station
+					level = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = WRL_Unified_Industrial_Plan
+		icon = GFX_goal_generic_production
+		cost = 7
+		x = 3
+		y = 6
+		prerequisite = {
+			focus = WRL_Invest_In_Research
+		}
+		prerequisite = {
+			focus = WRL_Energy_Production
+		}
+		completion_reward = {
+			capital_scope = {				
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}  
+			}
+		}
+	}
+
+	########################################
+	#################MILITARY###############
+	########################################
+
+
+	focus = {
+		id = WRL_Mobilize_The_Troops
+		icon = GFX_focus_generic_little_entente
+		cost = 7
+		x = 17
+		y = 0
+		completion_reward = {
+			hidden_effect = {
+				load_oob = WRL_Shared/Combat_unit
+			}
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Combat Unit 1\" division_template = \"Combat Unit\" start_experience_factor = 0.5 start_equipment_factor = 1.0" 
+					owner = ROOT
+					
+				} 
+				create_unit = {
+					division = "name = \"Combat Unit 2\" division_template = \"Combat Unit\" start_experience_factor = 0.5 start_equipment_factor = 1.0" 
+					owner = ROOT
+					
+				}
+			}
+		}
+	}
+	focus = {
+		id = WRL_Forceful_Conscription
+		icon = GFX_goal_generic_small_arms
+		cost = 7
+		x = 16
+		y = 1
+		prerequisite = {
+			focus = WRL_Mobilize_The_Troops
+		}
+		completion_reward = {
+			add_manpower = 50000
+		}
+	}
+	focus = {
+		id = WRL_Raise_Militia
+		icon = GFX_focus_generic_manpower
+		cost = 7
+		x = 18
+		y = 1
+		prerequisite = {
+			focus = WRL_Mobilize_The_Troops
+		}
+		completion_reward = {
+			hidden_effect = {
+				load_oob = WRL_Shared/Militia_unit
+			}
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Militia Unit 1\" division_template = \"Militia Unit\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+					owner = ROOT
+					
+				} 
+				create_unit = {
+					division = "name = \"Militia Unit 2\" division_template = \"Militia Unit\" start_experience_factor = 0.0 start_equipment_factor = 1.0" 
+					owner = ROOT
+					
+				}
+			}
+		}
+	}
+	focus = {
+		id = WRL_Loot_Federal_Armories
+		icon = GFX_goal_generic_small_arms
+		cost = 7
+		x = 17
+		y = 2
+		prerequisite = {
+			focus = WRL_Forceful_Conscription
+		}
+		prerequisite = {
+			focus = WRL_Raise_Militia
+		}
+		completion_reward = {
+			set_technology = {
+				armored_troop_transport = 1
+			}
+			add_equipment_to_stockpile = {
+				type = conventional_firearms_equipment
+				amount = 2000
+			}
+			add_equipment_to_stockpile = {
+				type = field_artillery_equipment
+				amount = 500
+			}
+		}
+	}
+	focus = {
+		id = WRL_Scavange_Mechanized_Support_Vechicles
+		icon = GFX_focus_generic_combined_arms
+		cost = 7
+		x = 14
+		y = 3
+		prerequisite = {
+			focus = WRL_Loot_Federal_Armories
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = armored_troop_transport_equipment
+				amount = 500
+			}
+		}
+	}
+	focus = {
+		id = WRL_Conserve_Hydrogen
+		icon = GFX_focus_SOV_organize_wreckers
+		cost = 7
+		x = 13
+		y = 4
+		prerequisite = {
+			focus = WRL_Scavange_Mechanized_Support_Vechicles
+		}
+		completion_reward = {
+			add_ideas = wrl_conserve_hydrogen_idea
+		}
+	}
+	focus = {
+		id = WRL_Supply_Trucks_Production
+		icon = GFX_focus_generic_truck
+		cost = 7
+		x = 15
+		y = 4
+		prerequisite = {
+			focus = WRL_Scavange_Mechanized_Support_Vechicles
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = logistic_vehicle_system_equipment
+				amount = 750
+			}
+		}
+	}
+	focus = {
+		id = WRL_Reactivate_Old_Air_Bases
+		icon = GFX_focus_YUG_rogozarski
+		cost = 7
+		x = 20
+		y = 3
+		prerequisite = {
+			focus = WRL_Loot_Federal_Armories
+		}
+		completion_reward = {
+			random_core_state = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+				}
+			}
+		}
+	}
+	focus = {
+		id = WRL_Repurpose_Civilian_Aircraft
+		icon = GFX_goal_generic_air_fighter
+		cost = 7
+		x = 19
+		y = 4
+		prerequisite = {
+			focus = WRL_Reactivate_Old_Air_Bases
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = multirole_fighter_equipment
+				amount = 50
+			}
+		}
+	}
+	focus = {
+		id = WRL_Radar_Coverage
+		icon = GFX_focus_generic_truck
+		cost = 7
+		x = 21
+		y = 4
+		prerequisite = {
+			focus = WRL_Reactivate_Old_Air_Bases
+		}
+		completion_reward = {
+			random_core_state = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WRL_Devising_A_New_Strategy
+		icon = GFX_goal_generic_special_forces
+		cost = 7
+		x = 17
+		y = 5
+		prerequisite = {
+			focus = WRL_Loot_Federal_Armories
+		}
+		completion_reward = {
+			army_experience = 50
+
+		}
+	}
+	focus = {
+		id = WRL_Mobility_Focus
+		icon = GFX_goal_generic_army_motorized
+		cost = 7
+		x = 14
+		y =6
+		prerequisite = {
+			focus = WRL_Devising_A_New_Strategy
+		}
+		mutually_exclusive = {
+			focus = WRL_Production_Focus
+			focus = WRL_Artillery_Focus
+			focus = WRL_Survival_Focus
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = WRL_Mobility_Focus_Doctrine_Reduction
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_rapid_deployment
+			}
+
+		}
+	}
+	
+	focus = {
+		id = WRL_Commandeer_Civilian_Vechicles 
+		icon = GFX_focus_generic_court
+		cost = 7
+		x = 14
+		y =7
+		prerequisite = {
+			focus = WRL_Mobility_Focus
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = logistic_vehicle_system_equipment
+				amount = 750
+			}
+		}
+	}
+	focus = {
+		id = WRL_Repurpose_Old_Vechicles
+		icon = GFX_goal_generic_army_tanks
+		cost = 7
+		x = 14
+		y = 8
+		prerequisite = {
+			focus = WRL_Commandeer_Civilian_Vechicles
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = main_battle_tank_equipment
+				amount = 250
+			}
+		}
+	}
+	focus = {
+		id = WRL_Outmaneuver_Our_Enemies
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		cost = 7
+		x = 14
+		y = 9
+		prerequisite = {
+			focus = WRL_Repurpose_Old_Vechicles
+		}
+		completion_reward = {
+			add_ideas = wrl_outmanouver_enemies_idea
+		}
+	}
+
+
+
+	focus = {
+		id = WRL_Production_Focus
+		icon = GFX_focus_SOV_merge_plants
+		cost = 7
+		x = 16
+		y =6
+		prerequisite = {
+			focus = WRL_Devising_A_New_Strategy
+		}
+		mutually_exclusive = {
+			focus = WRL_Mobility_Focus
+			focus = WRL_Artillery_Focus
+			focus = WRL_Survival_Focus
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name =  WRL_Production_Focus_Doctrine_Reduction
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_classical_armored_warfare
+			}
+
+		}
+	}
+	focus = {
+		id = WRL_Production_Quotas 
+		icon = GFX_goal_generic_production2
+		cost = 7
+		x = 16
+		y =7
+		prerequisite = {
+			focus = WRL_Production_Focus
+		}
+		completion_reward = {
+			add_ideas = wrl_production_quotas_idea
+			add_equipment_to_stockpile = {
+				type = conventional_firearms_equipment
+				amount = 2500
+			}
+		}
+	}
+	focus = {
+		id = WRL_Extended_Work_Shifts
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 7
+		x = 16
+		y = 8
+		prerequisite = {
+			focus = WRL_Production_Quotas
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = conventional_firearms_equipment
+				amount = 1000
+			}
+			add_equipment_to_stockpile = {
+				type = main_support_equipment
+				amount = 200
+			}
+			add_equipment_to_stockpile = {
+				type = field_artillery_equipment
+				amount = 100
+			}
+		}
+	}
+	focus = {
+		id = WRL_Everything_For_The_War_Machine
+		icon = GFX_focus_generic_tank_production
+		cost = 7
+		x = 16
+		y = 9
+		prerequisite = {
+			focus = WRL_Extended_Work_Shifts
+		}
+		completion_reward = {
+			random_core_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			swap_ideas = {
+				remove_idea = wrl_production_quotas_idea
+				add_idea = wrl_extended_work_shifts_idea
+			}
+		}
+	}
+
+
+
+	focus = {
+		id = WRL_Artillery_Focus
+		icon = GFX_goal_generic_army_artillery
+		cost = 7
+		x = 18
+		y =6
+		prerequisite = {
+			focus = WRL_Devising_A_New_Strategy
+		}
+		mutually_exclusive = {
+			focus = WRL_Mobility_Focus
+			focus = WRL_Production_Focus
+			focus = WRL_Survival_Focus
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name =  WRL_Artillery_Focus_Doctrine_Reduction
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_remote_strike
+			}
+		}
+	}
+	focus = {
+		id = WRL_Kings_Of_The_Battlefield
+		icon = GFX_goal_generic_army_artillery2
+		cost = 7
+		x = 18
+		y =7
+		prerequisite = {
+			focus = WRL_Artillery_Focus
+		}
+		completion_reward = {
+
+			if = {
+				limit = { 
+					has_tech = artillery_support_system
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_support_system_equipment
+					amount = 500
+				}
+				set_technology = { base_bleed_ammunitions = 1 }
+			}
+			else = {
+				set_technology = { artillery_support_system =1 }
+				add_equipment_to_stockpile = {
+					type = field_artillery_equipment
+					amount = 500
+				}
+			}
+		}
+	}
+	focus = {
+		id = WRL_Forward_Observers
+		icon = GFX_goal_generic_cavalry
+		cost = 7
+		x = 18
+		y = 8
+		prerequisite = {
+			focus = WRL_Kings_Of_The_Battlefield
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = wrl_recon_bonus
+				bonus = 0.5
+				uses = 2
+				technology = fast_combat_assessment
+				technology = unmanned_reconnaissance_aerial_vehicle
+			}
+		}
+	}
+	focus = {
+		id = WRL_Standardized_Artillery_Production
+		icon = GFX_goal_generic_production
+		cost = 7
+		x = 18
+		y = 9
+		prerequisite = {
+			focus = WRL_Forward_Observers
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 700
+			}
+		}
+	}
+
+	focus = {
+		id = WRL_Survival_Focus
+		icon = GFX_goal_generic_political_pressure
+		cost = 7
+		x = 20
+		y =6
+		prerequisite = {
+			focus = WRL_Devising_A_New_Strategy
+		}
+		mutually_exclusive = {
+			focus = WRL_Mobility_Focus
+			focus = WRL_Production_Focus
+			focus = WRL_Artillery_Focus
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name =  WRL_Survival_Focus_Doctrine_Reduction
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_asymmetric_warfare
+			}
+		}
+	}
+
+	focus = {
+		id = WRL_Field_Hospitals
+		icon = GFX_goal_generic_national_unity
+		cost = 7
+		x = 20
+		y =7
+		prerequisite = {
+			focus = WRL_Survival_Focus
+		}
+		completion_reward = {
+			if ={
+				limit = {
+					NOT = {has_tech = medical_company}
+				}
+				set_technology = {
+					medical_company = 1
+				}
+			}
+
+			add_tech_bonus = {
+				name = wrl_hospital_bonus
+				bonus = 0.5
+				uses = 2
+				technology = hemorrhage_control_equipment
+				technology = airway_management
+				technology = synthetic_blood_transfusion
+			}
+		}
+	}
+	focus = {
+		id = WRL_Resist_And_Bite
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		cost = 7
+		x = 20
+		y = 8
+		prerequisite = {
+			focus = WRL_Field_Hospitals
+		}
+		completion_reward = {
+			add_ideas = wrl_resist_and_bite_idea
+		}
+	}
+	focus = {
+		id = WRL_Raise_Extra_Militia
+		icon = GFX_focus_secret_rearmament
+		cost = 7
+		x = 20
+		y = 9
+		prerequisite = {
+			focus = WRL_Resist_And_Bite
+		}
+		completion_reward = {
+			random_core_state = {
+				create_unit = {
+					division = "name = \"Militia Unit 3\" division_template = \"Militia Unit\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+					owner = ROOT
+					
+				} 
+				create_unit = {
+					division = "name = \"Militia Unit 4\" division_template = \"Militia Unit\" start_experience_factor = 0.0 start_equipment_factor = 1.0" 
+					owner = ROOT
+					
+				}
+			}
+			random_core_state = {
+				create_unit = {
+					division = "name = \"Militia Unit 5\" division_template = \"Militia Unit\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+					owner = ROOT
+					
+				} 
+				create_unit = {
+					division = "name = \"Militia Unit 6\" division_template = \"Militia Unit\" start_experience_factor = 0.0 start_equipment_factor = 1.0" 
+					owner = ROOT
+					
+				}
+			}
+
+		}
+	} 
+	focus = {
+		id = WRL_Unified_Strategy
+		icon = GFX_goal_generic_army_doctrines
+		cost = 7
+		x = 17
+		y = 10
+		prerequisite = {
+			focus = WRL_Outmaneuver_Our_Enemies
+			focus = WRL_Everything_For_The_War_Machine
+			focus = WRL_Standardized_Artillery_Production
+			focus = WRL_Raise_Extra_Militia
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				category = land_doctrine
+				cost_reduction = 0.5
+				uses = 2
+				name = wrl_unified_strategy_buff
+			}
+		}
+	}
+}

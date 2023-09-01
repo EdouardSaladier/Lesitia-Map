@@ -1,5 +1,20 @@
 defined_text = {
 	name = GetChar1Icon
+
+	text = { # BOR Char 1 talking
+		trigger = {
+			has_country_flag = char1_talking
+			has_country_flag = bor_entry_dialogue
+		}
+		localization_key = "GFX_BOR_dialogue_char1"
+	}
+	text = { # BOR Char 1 NOT talking
+		trigger = {
+			NOT = { has_country_flag = char1_talking }
+			has_country_flag = bor_entry_dialogue
+		}
+		localization_key = "GFX_BOR_dialogue_char1d"
+	}
 	text = { # Char 1 talking
 		trigger = {
 			has_country_flag = char1_talking
@@ -15,6 +30,21 @@ defined_text = {
 }
 defined_text = {
 	name = GetChar2Icon
+
+	text = { # BOR Char 2 talking
+		trigger = {
+			has_country_flag = char2_talking
+			has_country_flag = bor_entry_dialogue
+		}
+		localization_key = "GFX_BOR_dialogue_char2"
+	}
+	text = { # BOR Char 2 NOT talking
+		trigger = {
+			NOT = { has_country_flag = char2_talking }
+			has_country_flag = bor_entry_dialogue
+		}
+		localization_key = "GFX_BOR_dialogue_char2d"
+	}
 	text = { # Char 2 talking
 		trigger = {
 			has_country_flag = char2_talking
@@ -30,6 +60,21 @@ defined_text = {
 }
 defined_text = {
 	name = GetCharName
+	text = { # BOR Char 1 talking
+		trigger = {
+			has_country_flag = char1_talking
+			has_country_flag = bor_entry_dialogue
+		}
+		localization_key = "bor_char_name1"
+	}
+	text = { # BOR Char 2 talking
+		trigger = {
+			NOT = { has_country_flag = char1_talking }
+			has_country_flag = char2_talking
+			has_country_flag = bor_entry_dialogue
+		}
+		localization_key = "bor_char_name2"
+	}
 	text = { # Char 1 talking
 		trigger = {
 			has_country_flag = char1_talking

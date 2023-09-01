@@ -1,6 +1,134 @@
 ideas = {
 
 	country = {
+		########
+		#Shared#
+		########
+		wrl_fortification_buildup_idea = {
+			picture = ROM_king_carol_emptied_accounts			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_bunker_factor = 0.15
+			}
+		
+		}
+		wrl_anti_scarcity_measures_idea = {
+			picture = ROM_king_carol_emptied_accounts			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_lack_of_resource_penalty_factor = -0.1
+			}
+		
+		}
+		wrl_tech_idea = {
+			picture = generic_research_bonus			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		
+		}
+		wrl_conserve_hydrogen_idea = {
+			picture = FRA_factory_strikes			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_fuel_consumption_factor = -0.1
+				supply_consumption_factor = -0.05
+			}
+		
+		}
+		wrl_outmanouver_enemies_idea = {
+			picture = generic_armor			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_speed_factor = 0.1
+				breakthrough_factor = 0.1
+			}
+		
+		}
+		wrl_production_quotas_idea = {
+			picture = man_five_year_plan_industry			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.075
+				industrial_capacity_factory = 0.1
+			}
+		
+		}
+		wrl_extended_work_shifts_idea = {
+			picture = man_five_year_plan_industry			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				industrial_capacity_factory = 0.15
+			}
+		
+		}
+		wrl_resist_and_bite_idea= {
+			picture = FRA_army_of_aggression_focus			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_defence_factor = 0.1
+				army_org_factor = 0.1
+			}
+		
+		}
+		wrl_nation_under_one_banner_idea= {
+			picture = FRA_scw_intervention_nationalists_focus			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = 0.15
+				army_core_defence_factor = 0.15
+			}
+		
+		}
+		########
 		termite_future = {
 			picture = termite_future
 			

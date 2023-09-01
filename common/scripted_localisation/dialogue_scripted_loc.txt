@@ -2,6 +2,12 @@ defined_text = {
 	name = GetChoiceTitle
 	text = { # 
 		trigger = {
+			has_country_flag = bor_entry_dialogue
+		}
+		localization_key = "bor_entry_dialogue_choice_title"
+	}
+	text = { # 
+		trigger = {
 			has_country_flag = d1_s1
 		}
 		localization_key = "d1_s1_choice_title"
@@ -15,6 +21,12 @@ defined_text = {
 }
 defined_text = {
 	name = GetChoiceExplanation
+	text = { # 
+		trigger = {
+			has_country_flag = bor_entry_dialogue
+		}
+		localization_key = "bor_entry_choice_explanation"
+	}
 	text = { # 
 		trigger = {
 			has_country_flag = d1_s1
@@ -32,6 +44,12 @@ defined_text = {
 	name = GetChoice1
 	text = { # 
 		trigger = {
+			has_country_flag = bor_entry_dialogue
+		}
+		localization_key = "bor_entry_dialogue_choice_1"
+	}
+	text = { # 
+		trigger = {
 			has_country_flag = d1_s1
 		}
 		localization_key = "d1_s1_choice_1"
@@ -45,6 +63,13 @@ defined_text = {
 }
 defined_text = {
 	name = GetChoice2
+	
+	text = { # 
+		trigger = {
+			has_country_flag = bor_entry_dialogue
+		}
+		localization_key = "bor_entry_dialogue_choice_2"
+	}
 	text = { # 
 		trigger = {
 			has_country_flag = d1_s1
@@ -60,6 +85,12 @@ defined_text = {
 }
 defined_text = {
 	name = GetChoice3
+	text = { # 
+		trigger = {
+			has_country_flag = bor_entry_dialogue
+		}
+		localization_key = "d1_s1_choice_3"
+	}
 	text = { # 
 		trigger = {
 			has_country_flag = d1_s1

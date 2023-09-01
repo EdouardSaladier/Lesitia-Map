@@ -67,3 +67,25 @@ is_warlord_not_unified = {
 		}
 	}
 }
+is_warlord = {
+	OR = {
+		tag = RFT
+		tag = TER
+		tag = ACS
+		tag = ETH
+		tag = TVA
+		tag = ZHA
+		tag = RIS
+		tag = LAV
+		tag = UHL
+		tag = TBZ
+		tag = VOS
+		tag = SCM
+		tag = SED
+		tag = CSR
+		tag = MAV
+		tag = KAK
+		tag = TPG
+		tag = OAV
+	}
+}

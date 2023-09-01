@@ -1,0 +1,16 @@
+characters = {
+	
+	BOR_derri_sanglier = {
+		name = "Derri Sanglier"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BOR/AI_art_ew/ai_art_BOR_Leader.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_type
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+}

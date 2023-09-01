@@ -93,6 +93,17 @@ bookmarks = {
 			}
 		}
 
+		"BOR"={
+			history = "BOR_GATHERING_STORM_DESC"
+			ideology = despotism
+			minor = yes
+			ideas = {
+				sister_republics
+			}
+			focuses = {
+
+			}
+		}
 	}
 
 }
