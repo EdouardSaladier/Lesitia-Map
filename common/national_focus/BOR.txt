@@ -13,7 +13,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_A_Matter_Of_Time
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_BOR_Matter_Of_Time
 		cost = 4
 		x = 10
 		y = 0
@@ -23,6 +23,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			clr_country_flag = first_dialogue_bor
+			add_political_power = 100
 		}
 		
 	}

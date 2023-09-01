@@ -1,0 +1,34 @@
+ideas ={
+	country = {
+		bor_transitional_government = {
+			picture = GFX_idea_bor_transitional_government			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = 0.15
+				conscription_factor = 0.2
+				political_power_factor = 0.1
+				democracy_acceptance = 50
+				despotism_acceptance = 25
+			}
+		}
+		bor_glaurungir_loyalists = {
+			picture = generic_purge			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				supremacism_drift = 0.01
+			}
+		}
+	}
+}

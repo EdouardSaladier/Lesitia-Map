@@ -3,6 +3,11 @@ on_actions = {
 	on_startup = {
 		effect = {
 			every_country = {
+				limit ={ 
+					NOT = {
+						tag = BOR
+					}
+				}
 				country_event = {
 					id = lesitia_units.1
 				}

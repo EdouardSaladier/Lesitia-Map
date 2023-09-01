@@ -99,9 +99,11 @@ bookmarks = {
 			minor = yes
 			ideas = {
 				sister_republics
+				bor_transitional_government
+				bor_glaurungir_loyalists
 			}
 			focuses = {
-
+				BOR_A_Matter_Of_Time
 			}
 		}
 	}

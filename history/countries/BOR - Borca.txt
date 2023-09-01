@@ -59,10 +59,18 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democracy = 50
-	despotism = 50
+	democracy = 30
+	despotism = 20
+	supremacism = 15
+	corporatism = 5
+	revolutionarism = 15
+	technocracy = 3
+	theocracy = 2
+	unclassified = 10
 }
 
 add_ideas = {
     sister_republics
+	bor_transitional_government
+	bor_glaurungir_loyalists
 }

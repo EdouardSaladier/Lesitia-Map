@@ -1,0 +1,24 @@
+﻿l_english:
+BOR_despotism_party:0 "Government Hardliners"
+BOR_despotism_party_long:0 "Transitional Government - Hardliners"
+
+BOR_revolutionarism_party:0 "Revolutionary Oposition"
+BOR_revolutionarism_party_long:0 "Revolutionary Oposition"
+
+BOR_corporatism_party:0 "Merchant Guilds"
+BOR_corporatism_party_long:0 "Merchant Guilds"
+
+BOR_supremacism_party:0 "Glaurungir Loyalists"
+BOR_supremacism_party_long:0 "Glaurungir Imperial Loyalists"
+
+BOR_democracy_party:0 "Government Democrats"
+BOR_democracy_party_long:0 "Transitional Government - Democrats" 
+
+BOR_technocracy_party:0 "Technocratic Union"
+BOR_technocracy_party_long:0 "Union Of Technocrats and Scholars"
+
+BOR_theocracy_party:0 "Theocratic Leadership"
+BOR_theocracy_party_long:0 "Theocratic Leadership"
+
+BOR_unclassified_party:0 "Outcasts"
+BOR_unclassified_party_long:0 "Outcasts"

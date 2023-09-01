@@ -1,0 +1,7 @@
+spriteTypes = {	
+	
+	SpriteType = {
+		name = "GFX_idea_bor_transitional_government"
+		texturefile = "gfx/interface/ideas/test.dds"
+	}
+}

@@ -1,0 +1,6 @@
+spriteTypes = {	
+    SpriteType = {
+	name = "GFX_BOR_Matter_Of_Time"
+	texturefile = "gfx/interface/goals/BOR/BOR_Matter_Of_Time.dds"			
+	}
+}
