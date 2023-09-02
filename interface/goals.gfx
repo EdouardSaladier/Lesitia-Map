@@ -3878,5 +3878,13 @@ spriteTypes = {
 		name = "GFX_focus_SWI_spirit_of_resistance"
 		texturefile = "gfx/interface/goals/focus_SWI_spirit_of_resistance.dds"
 	}
+	SpriteType = { 
+		name = "GFX_goal_plane_focus"
+		texturefile = "gfx/interface/goals/plane_focus.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_guns_focus"
+		texturefile = "gfx/interface/goals/guns_focus.dds"
+	}
 
 }

@@ -512,7 +512,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WRL_Loot_Federal_Armories
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_guns_focus
 		cost = 7
 		x = 17
 		y = 2
@@ -609,7 +609,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WRL_Repurpose_Civilian_Aircraft
-		icon = GFX_goal_generic_air_fighter
+		icon = GFX_goal_plane_focus
 		cost = 7
 		x = 19
 		y = 4
