@@ -15,7 +15,7 @@ focus_tree = {
 		id = WRL_Consolidate_Power
 		icon = GFX_focus_generic_self_management
 		cost = 7
-		x = 10
+		x = 9
 		y = 0
 		available = {
 			is_subject = no
@@ -29,7 +29,7 @@ focus_tree = {
 		id = WRL_Declare_State_Of_Emergency
 		icon = GFX_focus_generic_military_mission
 		cost = 7
-		x = 10
+		x = 9
 		y = 1
 		prerequisite = {
 			focus = WRL_Consolidate_Power
@@ -42,7 +42,7 @@ focus_tree = {
 		id = WRL_Alliances_Of_Convinience
 		icon = GFX_focus_generic_treaty
 		cost = 7
-		x = 9
+		x = 8
 		y = 2
 		prerequisite = {
 			focus = WRL_Declare_State_Of_Emergency
@@ -55,7 +55,7 @@ focus_tree = {
 		id = WRL_Gather_Our_Allies
 		icon = GFX_goal_generic_major_alliance
 		cost = 7
-		x = 11
+		x = 10
 		y = 2
 		prerequisite = {
 			focus = WRL_Declare_State_Of_Emergency
@@ -139,7 +139,7 @@ focus_tree = {
 		id = WRL_Begin_Expansion
 		icon = GFX_focus_generic_provoke_border_clashes
 		cost = 7
-		x = 10
+		x = 9
 		y = 3
 		prerequisite = {
 			focus = WRL_Alliances_Of_Convinience
@@ -153,10 +153,9 @@ focus_tree = {
 			custom_effect_tooltip = WRL_expasion_tooltip
 		}
 	}
-
 	focus = {
-		id = WRL_Begin_Rebuilding_Efforts
-		icon = GFX_goal_generic_construction2
+		id = WRL_Nation_Under_One_Banner
+		icon = GFX_goal_anschluss
 		cost = 7
 		x = 9
 		y = 4
@@ -168,6 +167,25 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = WRL_Begin_Expansion
+		}
+		completion_reward = {
+			add_ideas = wrl_nation_under_one_banner_idea
+		}
+	}
+	focus = {
+		id = WRL_Begin_Rebuilding_Efforts
+		icon = GFX_goal_generic_construction2
+		cost = 7
+		x = 8
+		y = 5
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = united_federation_tooltip
+				has_country_flag = united_federation
+			}
+		}
+		prerequisite = {
+			focus = WRL_Nation_Under_One_Banner
 		}
 		completion_reward = {
 			every_core_state = {
@@ -190,27 +208,27 @@ focus_tree = {
 		id = WRL_Fund_Research
 		icon = GFX_goal_generic_scientific_exchange
 		cost = 7
-		x = 11
-		y = 4
+		x = 10
+		y = 5
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = united_federation_tooltip
+				tooltip = united_federation_tooltip 
 				has_country_flag = united_federation
 			}
 		}
 		prerequisite = {
-			focus = WRL_Begin_Expansion
+			focus =  WRL_Nation_Under_One_Banner
 		}
 		completion_reward = {
 			add_research_slot = 1
 		}
 	}
 	focus = {
-		id = WRL_Nation_Under_One_Banner
-		icon = GFX_goal_anschluss
+		id = WRL_Nuclear_Power
+		icon = GFX_focus_wonderweapons
 		cost = 7
-		x = 10
-		y = 5
+		x = 9
+		y = 6
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = united_federation_tooltip
@@ -218,13 +236,19 @@ focus_tree = {
 			}
 		}
 		prerequisite = {
-			focus = WRL_Begin_Rebuilding_Efforts
+			focus =  WRL_Begin_Rebuilding_Efforts
 		}
 		prerequisite = {
-			focus = WRL_Fund_Research
+			focus =  WRL_Fund_Research
 		}
 		completion_reward = {
-			add_ideas = wrl_nation_under_one_banner_idea
+			random_core_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = nuclear_reactor
+					level = 1
+				}
+			}
 		}
 	}
 	########################################
@@ -414,6 +438,12 @@ focus_tree = {
 			focus = WRL_Anti_Scarcity_Measures
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = wrl_energy_bonus
+				uses = 2
+				bonus = 0.33
+				category = energy_tech
+			}
 			random_core_state = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
