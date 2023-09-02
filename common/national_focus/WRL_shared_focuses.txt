@@ -161,7 +161,10 @@ focus_tree = {
 		x = 9
 		y = 4
 		available = {
-			has_country_flag = united_federation
+			custom_trigger_tooltip = {
+				tooltip = united_federation_tooltip
+				has_country_flag = united_federation
+			}
 		}
 		prerequisite = {
 			focus = WRL_Begin_Expansion
@@ -190,7 +193,10 @@ focus_tree = {
 		x = 11
 		y = 4
 		available = {
-			has_country_flag = united_federation
+			custom_trigger_tooltip = {
+				tooltip = united_federation_tooltip
+				has_country_flag = united_federation
+			}
 		}
 		prerequisite = {
 			focus = WRL_Begin_Expansion
@@ -206,7 +212,10 @@ focus_tree = {
 		x = 10
 		y = 5
 		available = {
-			has_country_flag = united_federation
+			custom_trigger_tooltip = {
+				tooltip = united_federation_tooltip
+				has_country_flag = united_federation
+			}
 		}
 		prerequisite = {
 			focus = WRL_Begin_Rebuilding_Efforts
@@ -246,6 +255,7 @@ focus_tree = {
 			focus = WRL_Mobilize_The_Economy
 		}
 		completion_reward = {
+			custom_effect_tooltip = Size_Civilian_Production_tooltip 
 			random_core_state = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -265,6 +275,7 @@ focus_tree = {
 			focus = WRL_Mobilize_The_Economy
 		}
 		completion_reward = {
+			custom_effect_tooltip = Makeshift_Arms_Workshops_tooltip 
 			random_core_state = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -481,6 +492,7 @@ focus_tree = {
 			focus = WRL_Mobilize_The_Troops
 		}
 		completion_reward = {
+			custom_effect_tooltip = Forceful_Conscription_tooltip 
 			add_manpower = 50000
 		}
 	}
@@ -524,6 +536,7 @@ focus_tree = {
 			focus = WRL_Raise_Militia
 		}
 		completion_reward = {
+			custom_effect_tooltip = Loot_Federal_Armories_tooltip 
 			set_technology = {
 				armored_troop_transport = 1
 			}

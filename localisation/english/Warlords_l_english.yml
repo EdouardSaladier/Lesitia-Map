@@ -117,6 +117,11 @@ warlord_controls_ex_federal_territory_tooltip:0 "We control all pre-collapse sta
 warlord_get_cores_on_ex_federal_territory_tooltip:0 "§YGain §Gcores§! on all pre-collapse states of the§! [SYM.GetFlag]§4Symbiotic Federation§!"
 attack_warlords:0 "Attack [FROM.GetNameDef]"
 WRL_expasion_tooltip:0 "Unlocks expansion decisions, allowing us to §Rattack§! other warlords."
+united_federation_tooltip:0 "We have united the §4Federation§! lands."
+Makeshift_Arms_Workshops_tooltip:0 "Unlocks decision to aquire arms factories"
+Forceful_Conscription_tooltip:0 "Unlocks decision to get more manpower"
+Size_Civilian_Production_tooltip:0 "Unlocks decision to aquire civilian factories"
+Loot_Federal_Armories_tooltip:0 "Unlocks decision to gain more equipment"
 warlord_unification:0 "[fed_unification_decision_name]"
 unify_the_federation_name:0 "Unify the Federation"
 oav_unification:0 "Divine Unification"
@@ -124,6 +129,7 @@ vos_unification:0 "Integrate the New Conquests"
 ter_unification:0 "Integrate the Holdings"
 zha_unification:0 "Unify the Realm"
 WRL_Scavange_Mechanized_Support_Vechicles_tooltip:0 "§Y500§! units of §YArmored Troop Transport§! is added to the national stockpile."
+
 ########################
 ######### END ##########
 ########################
