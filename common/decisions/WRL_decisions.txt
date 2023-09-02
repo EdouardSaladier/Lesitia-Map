@@ -163,63 +163,63 @@ WRL_unification = {
 		}
 	}
 	
-	attack_warlords  = {  
-		icon = GFX_decision_generic_prepare_civil_war
+	# attack_warlords  = {  
+	# 	icon = GFX_decision_generic_prepare_civil_war
 		
-		ai_will_do = {
-			factor = 1
-		}
-		target_trigger = { 
-			is_neighbor_of = FROM
-			NOT = {
-				is_in_faction_with = ROOT
-			}
-			NOT = {
-				has_war_with = FROM
-			}
-			FROM = {
-				is_warlord_not_unified = yes
-			}
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	target_trigger = { 
+	# 		is_neighbor_of = FROM
+	# 		NOT = {
+	# 			is_in_faction_with = ROOT
+	# 		}
+	# 		NOT = {
+	# 			has_war_with = FROM
+	# 		}
+	# 		FROM = {
+	# 			is_warlord_not_unified = yes
+	# 		}
 
-		}
-		visible = {
-			always = yes
-		}
-		available = {
-			is_subject = no
-			has_army_manpower = {
-				size > 10000
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_attacking_warlord
-				NOT = {
-					has_country_flag = warlord_attacking
-				}  
-			}
-			has_completed_focus = WRL_Begin_Expansion
-		}
+	# 	}
+	# 	visible = {
+	# 		always = yes
+	# 	}
+	# 	available = {
+	# 		is_subject = no
+	# 		has_army_manpower = {
+	# 			size > 10000
+	# 		}
+	# 		custom_trigger_tooltip = {
+	# 			tooltip = tooltip_attacking_warlord
+	# 			NOT = {
+	# 				has_country_flag = warlord_attacking
+	# 			}  
+	# 		}
+	# 		has_completed_focus = WRL_Begin_Expansion
+	# 	}
 	         
-        cost = 30
-        fire_only_once = yes
-        days_remove = 150
-        war_with_target_on_remove = yes
-        modifier = {
-           political_power_gain = -0.1
-        }
+    #     cost = 30
+    #     fire_only_once = yes
+    #     days_remove = 150
+    #     war_with_target_on_remove = yes
+    #     modifier = {
+    #        political_power_gain = -0.1
+    #     }
         
-        complete_effect = {
-			FROM = {
-				set_country_flag = warlord_attacking
-			}
-        }
+    #     complete_effect = {
+	# 		FROM = {
+	# 			set_country_flag = warlord_attacking
+	# 		}
+    #     }
         
-		remove_effect = {
-			ROOT = {
-				declare_war_on = { type = annex_everything target = FROM }
-				clr_country_flag = warlord_attacking
-			}
-		}
-    }
+	# 	remove_effect = {
+	# 		ROOT = {
+	# 			declare_war_on = { type = annex_everything target = FROM }
+	# 			clr_country_flag = warlord_attacking
+	# 		}
+	# 	}
+    # }
 
 	ris_government_change = {
 	 
@@ -1076,4 +1076,868 @@ WRL_unification = {
 	
     }
 
+	#### ROLLBACK
+	attack_kakrikea  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = KAK
+			NOT = {
+			has_war_with = KAK
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+		FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = KAK }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_mavildea  = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = MAV
+			NOT = {
+			has_war_with = MAV
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+		FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = MAV }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_csr  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = CSR
+			NOT = {
+			has_war_with = CSR
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+			FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = CSR }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_seda  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = SED
+			NOT = {
+			has_war_with = SED
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+		FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = SED }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_bandits  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = TBZ
+			NOT = {
+			has_war_with = TBZ
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+		FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = TBZ }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_zhafolis  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = ZHA
+			NOT = {
+			has_war_with = ZHA
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+		FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = ZHA }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_neutralzone  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = TPG
+			NOT = {
+			has_war_with = TPG
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+			FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = TPG }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_termites  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = TER
+			NOT = {
+			has_war_with = TER
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+		FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = TER }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_tiveask  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = TVA
+			NOT = {
+			has_war_with = TVA
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+		FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = TVA }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_commune  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = SCM
+			NOT = {
+			has_war_with = SCM
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+		FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = SCM }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_voskra  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = VOS
+			NOT = {
+			has_war_with = VOS
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+		FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = VOS }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_unitedhives  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = UHL
+			NOT = {
+			has_war_with = UHL
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+		FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = UHL }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_lavido  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = LAV
+			NOT = {
+			has_war_with = LAV
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+			FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = LAV }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_commandsouth  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = ACS
+			NOT = {
+			has_war_with = ACS
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+			FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = ACS }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_eth  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = ETH
+			NOT = {
+			has_war_with = ETH
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+		FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = ETH }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_republican  = {   #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = RFT
+			NOT = {
+			has_war_with = RFT
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+		FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				clr_country_flag = warlord_attacking
+				declare_war_on = { type = annex_everything target = RFT }
+			}
+		}
+	}
+
+	attack_westavenska  = {   #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = OAV
+			NOT = {
+			has_war_with = OAV
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+		FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = OAV }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
+
+	attack_ris  = {  #done
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			is_neighbor_of = RIS
+			NOT = {
+			has_war_with = RIS
+			}
+		}
+		available = {
+			is_subject = no
+			has_army_manpower = {
+				size > 10000
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_attacking_warlord
+				NOT = {
+				has_country_flag = warlord_attacking
+				}  
+			}
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		days_remove = 150
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		complete_effect = {
+		FROM = {
+			set_country_flag = warlord_attacking
+		}
+		}
+		
+		remove_effect = {
+			FROM = {
+				declare_war_on = { type = annex_everything target = RIS }
+				clr_country_flag = warlord_attacking
+			}
+		}
+	}
 }
