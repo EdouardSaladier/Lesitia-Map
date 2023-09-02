@@ -386,3 +386,23 @@ country_event = {
 		}
 	}
 }
+
+country_event = { #Choice of what to do with throne
+	id = MIT.22
+	title = MIT.22.t
+	desc = MIT.22.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { #no privielge
+		name = MIT.22.a
+	}
+	option = { #exile
+		name = MIT.22.b
+	}
+	option = { #chop chop
+		name = MIT.22.c
+	}
+
+}

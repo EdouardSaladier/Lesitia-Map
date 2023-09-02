@@ -255,6 +255,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			country_event = { id = MIT.22 }
+		}		
 	}
 
 	#Focus for The Penals Legions
@@ -344,6 +347,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		create_intelligence_agency = yes
+		}
 	}
 
 	#Focus for The New State Apparatus
@@ -387,6 +393,9 @@ focus_tree = {
 		prerequisite = { focus = MIT_the_warstate }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_ideas = 
 		}
 	}
 
