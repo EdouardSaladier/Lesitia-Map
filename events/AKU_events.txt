@@ -92,3 +92,71 @@ country_event = {
 }
 		}
 	}
+#Mil_tree_start
+	country_event = {
+		id = AKU.4
+		title = AKU.4.t
+		desc = AKU.4.d
+		#picture =
+		
+		trigger = {
+		has_completed_focus = AKU_mil_tree_start
+		}
+		
+		fire_only_once = yes
+		
+		option = {
+			name = AKU.4.a
+		}
+	}
+#AKU_Real_Military (Create a Real Military)
+		country_event = {
+		id = AKU.5
+		title = AKU.5.t
+		desc = AKU.5.d
+		#picture =
+		
+		trigger = {
+		has_completed_focus = AKU_real_military
+		}
+		
+		fire_only_once = yes
+		
+		option = {
+			name = AKU.5.a
+		}
+	}
+#AKU_Corporate_living
+	country_event ={
+	id = AKU.6
+	title = AKU.6.t
+	desc = AKU.6.d
+	#picture = 
+	
+	trigger = {
+	has_completed_focus = AKU_Corporate_living
+	}
+	
+	fire_only_once = yes {}
+	
+	option {
+		name = AKU.6.a
+	}
+	}
+#AKU_state_distribution
+country_event ={
+	id = AKU.7
+	title = AKU.7.t
+	desc = AKU.7.d
+	#picture = 
+	
+	trigger = {
+	has_completed_focus = AKU_state_distribution
+	}
+	
+	fire_only_once = yes {}
+	
+	option {
+		name = AKU.7.a
+	}
+	}
