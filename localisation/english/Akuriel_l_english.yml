@@ -12,16 +12,16 @@ AKU_despotism_party:0 "B.T.O"
 AKU_despotism_party_long:0 "Ben Tails Organization"
 
 AKU_revolutionarism_party:0 "A.W.U"
-AKU_revolutionarism_long:0 "Akuriel Workers United"
+AKU_revolutionarism_party_long:0 "Akuriel Workers United"
 
 AKU_corporatism_party:0 "T.P.C"
 AKU_corporatism_party_long:0 "Trade Prince Council"
 
 AKU_supremacism_party:0 "B.B.P"
-AKU_supremacism_long:0 "Brown Bronze Party"
+AKU_supremacism_party_long:0 "Brown Bronze Party"
 
 AKU_democracy_party:0 "D.A.M"
-AKU_democracy_long:0 "Democracy for Akuriel Movement"
+AKU_democracy_party_long:0 "Democracy for Akuriel Movement"
 
 ###Focus Trees###
 #Military Tree#
