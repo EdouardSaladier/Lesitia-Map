@@ -52,3 +52,57 @@ warlord_get_cores_on_ex_federal_territory = {
 	203 = { add_core_of = ROOT }
 	183 = { add_core_of = ROOT }
 }
+sym_get_cores = {
+	187 = { add_core_of = SYM }
+	188 = { add_core_of = SYM }
+	186 = { add_core_of = SYM }
+	185 = { add_core_of = SYM }
+	184 = { add_core_of = SYM }
+	182 = { add_core_of = SYM }
+	180 = { add_core_of = SYM }
+	191 = { add_core_of = SYM }
+	190 = { add_core_of = SYM }
+	189 = { add_core_of = SYM }
+	198 = { add_core_of = SYM }
+	201 = { add_core_of = SYM }
+	204 = { add_core_of = SYM }
+	202 = { add_core_of = SYM }
+	7 = { add_core_of = SYM }
+	177 = { add_core_of = SYM }
+	179 = { add_core_of = SYM }
+	176 = { add_core_of = SYM }
+	178 = { add_core_of = SYM }
+	200 = { add_core_of = SYM }
+	175 = { add_core_of = SYM }
+	170 = { add_core_of = SYM }
+	169 = { add_core_of = SYM }
+	168 = { add_core_of = SYM }
+	171 = { add_core_of = SYM }
+	172 = { add_core_of = SYM }
+	173 = { add_core_of = SYM }
+	174 = { add_core_of = SYM }
+	205 = { add_core_of = SYM }
+	163 = { add_core_of = SYM }
+	164 = { add_core_of = SYM }
+	167 = { add_core_of = SYM }
+	166 = { add_core_of = SYM }
+	165 = { add_core_of = SYM }
+	157 = { add_core_of = SYM }
+	156 = { add_core_of = SYM }
+	158 = { add_core_of = SYM }
+	159 = { add_core_of = SYM }
+	181 = { add_core_of = SYM }
+	197 = { add_core_of = SYM }
+	199 = { add_core_of = SYM }
+	194 = { add_core_of = SYM }
+	195 = { add_core_of = SYM }
+	192 = { add_core_of = SYM }
+	193 = { add_core_of = SYM }
+	196 = { add_core_of = SYM }
+	160 = { add_core_of = SYM }
+	161 = { add_core_of = SYM }
+	162 = { add_core_of = SYM }
+	155 = { add_core_of = SYM }
+	203 = { add_core_of = SYM }
+	183 = { add_core_of = SYM }
+}

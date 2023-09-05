@@ -489,11 +489,21 @@ country_event = {
 
 	option = { 
 		name = SYM.12.a
+		
 		release = RIS
 		release = ETH
+		
 		RIS = {
 			change_tag_from = SYM
+			hidden_effect = {
+				RIS = { annex_country = { target = SYM transfer_troops = no } }
+			}
+			
 		}
+		hidden_effect = {
+			sym_get_cores = yes
+		}
+		
 		ai_chance = {
 			base = 100
 		}
@@ -504,6 +514,14 @@ country_event = {
 		release = ETH
 		ETH = {
 			change_tag_from = SYM
+			hidden_effect = {
+				ETH = { annex_country = { target = SYM transfer_troops = no } }
+			}
+			
 		}
+		hidden_effect = {
+			sym_get_cores = yes
+		}
+		
 	}
 }
