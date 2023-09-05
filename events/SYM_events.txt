@@ -301,6 +301,17 @@ country_event = {
 		ZHA = {
 			change_tag_from = SYM
 		}
+		hidden_effect = {
+			TBZ = {
+				set_politics = {
+					ruling_party = despotism
+				}
+				add_popularity = {
+					ideology = despotism
+					popularity = 0.4
+				}
+			}
+		}
 
 
 	}
@@ -314,9 +325,15 @@ country_event = {
 		TBZ = {
 			change_tag_from = SYM
 		}
-		TBZ = {
-			set_politics = {
-				ruling_party = despotism
+		hidden_effect = {
+			TBZ = {
+				set_politics = {
+					ruling_party = despotism
+				}
+				add_popularity = {
+					ideology = despotism
+					popularity = 0.4
+				}
 			}
 		}
 	}
@@ -326,6 +343,17 @@ country_event = {
 		release = TBZ
 		hidden_effect = {
 			country_event = { id = SYM.10 days = 10 } 
+		}
+		hidden_effect = {
+			TBZ = {
+				set_politics = {
+					ruling_party = despotism
+				}
+				add_popularity = {
+					ideology = despotism
+					popularity = 0.4
+				}
+			}
 		}
 		ai_chance = {
 			base = 100
@@ -393,11 +421,18 @@ country_event = {
 		TVA = {
 			change_tag_from = SYM
 		}
-		TVA = {
-			set_politics = {
-				ruling_party = despotism
+		hidden_effect = {
+			TVA = {
+				set_politics = {
+					ruling_party = despotism
+				}
+				add_popularity = {
+					ideology = despotism
+					popularity = 0.4
+				}
 			}
 		}
+
 	}
 	option = { 
 		name = SYM.11.b
@@ -409,6 +444,17 @@ country_event = {
 		LAV = {
 			change_tag_from = SYM
 		}
+		hidden_effect = {
+			TVA = {
+				set_politics = {
+					ruling_party = despotism
+				}
+				add_popularity = {
+					ideology = despotism
+					popularity = 0.4
+				}
+			}
+		}
 	}
 	option = { 
 		name = SYM.11.c
@@ -416,6 +462,17 @@ country_event = {
 		release = LAV
 		hidden_effect = {
 			country_event = { id = SYM.12 days = 10 } 
+		}
+		hidden_effect = {
+			TVA = {
+				set_politics = {
+					ruling_party = despotism
+				}
+				add_popularity = {
+					ideology = despotism
+					popularity = 0.4
+				}
+			}
 		}
 		ai_chance = {
 			base = 100

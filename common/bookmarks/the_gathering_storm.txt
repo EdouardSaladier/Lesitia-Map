@@ -104,6 +104,8 @@ bookmarks = {
 			}
 			focuses = {
 				BOR_A_Matter_Of_Time
+				BOR_Our_Nation
+				BOR_Our_Allies
 			}
 		}
 	}

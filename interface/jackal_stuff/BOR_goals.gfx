@@ -3,4 +3,8 @@ spriteTypes = {
 	name = "GFX_BOR_Matter_Of_Time"
 	texturefile = "gfx/interface/goals/BOR/BOR_Matter_Of_Time.dds"			
 	}
+	SpriteType = {
+		name = "GFX_BOR_Our_Allies"
+		texturefile = "gfx/interface/goals/BOR/BOR_Our_Allies.dds"			
+	}
 }

@@ -1,5 +1,5 @@
 focus_tree = {
-	id = BOR
+	id = BOR_initial
 	country = {
 		factor = 0
 		modifier = {
@@ -7,6 +7,10 @@ focus_tree = {
 			tag = BOR
 		}
 	}
+	continuous_focus_position = {
+		x = 2500
+		y = 0
+	} 
 	default = no
 	
 	###
@@ -18,13 +22,651 @@ focus_tree = {
 		x = 10
 		y = 0
 		select_effect = { 
+			if = {
+				limit = {
+					is_ai = no
+				}
+				dialogue_bor_1_init = yes
+			}
+
 			set_country_flag = first_dialogue_bor
-			dialogue_bor_1_init = yes
 		}
 		completion_reward = {
 			clr_country_flag = first_dialogue_bor
 			add_political_power = 100
 		}
+		 
+	}
+	focus = {
+		id = BOR_Our_Nation
+		icon = GFX_focus_generic_improve_the_administration
+		cost = 4
+		x = 9
+		y = 1
+		prerequisite = {
+			focus = BOR_A_Matter_Of_Time
+		}
+		mutually_exclusive = {
+			focus = BOR_Our_Allies
+		}
+		allow_branch = {
+			NOT = {
+				has_completed_focus = BOR_Our_Allies
+			}
+		}
+		offset = {
+			x =-1
+			y = 0
+			trigger = {
+				has_completed_focus = BOR_Our_Nation
+			}
+		}
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = -0.1
+			hidden_effect = {
+				load_focus_tree = {
+					tree = BOR_initial   
+					keep_completed = yes   
+				}
+				mark_focus_tree_layout_dirty = yes 
+			}
+		}
 		
 	}
+	focus = {
+		id = BOR_Our_Allies
+		icon = GFX_BOR_Our_Allies
+		cost = 4
+		x = 11
+		y = 1
+		prerequisite = {
+			focus = BOR_A_Matter_Of_Time
+		}
+		mutually_exclusive = {
+			focus = BOR_Our_Nation
+		}
+		allow_branch = {
+			NOT = {
+				has_completed_focus = BOR_Our_Nation
+			}
+		}
+		offset = {
+			x = -1
+			y = 0
+			trigger = {
+				has_completed_focus = BOR_Our_Allies
+			}
+		}
+		completion_reward = {
+			add_stability = -0.1
+			add_war_support = 0.1
+			hidden_effect = {
+				load_focus_tree = {
+					tree = BOR_initial   
+					keep_completed = yes   
+				}
+				mark_focus_tree_layout_dirty = yes 
+			}
+		}
+		
+	}
+	####################################################
+	####################################################
+	##################      OUR     ####################
+	##################				####################
+	##################	   Allies  	####################
+	####################################################
+	####################################################
+
+	###############################
+	########## Federation #########
+	###############################
+	focus = {
+		id = BOR_Symbiotic_Federation
+		icon = GFX_goal_support_democracy
+		cost = 4
+		relative_position_id = BOR_Our_Allies
+		x = -6 
+		y = 1
+		allow_branch = {
+			#has_completed_focus = BOR_Our_Allies
+		}
+		bypass = {
+			SYM = {
+				OR = {
+					has_completed_focus = SYM_not_ready
+					has_completed_focus = SYM_the_candis
+				}
+			}
+		}
+		prerequisite = {
+			focus = BOR_Our_Allies
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Decleration_Of_Support
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 4
+		relative_position_id = BOR_Symbiotic_Federation
+		x = -1 
+		y = 1
+		bypass = {
+			SYM = {
+				OR = {
+					has_completed_focus = SYM_not_ready
+					has_completed_focus = SYM_the_candis
+				}
+			}
+		}
+		prerequisite = {
+			focus = BOR_Symbiotic_Federation
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Support_Aligned_Parties
+		icon = GFX_focus_mex_privatisation
+		cost = 4
+		relative_position_id = BOR_Symbiotic_Federation
+		x = 1 
+		y = 1
+		bypass = {
+			SYM = {
+				OR = {
+					has_completed_focus = SYM_not_ready
+					has_completed_focus = SYM_the_candis
+				}
+			}
+		}
+		prerequisite = {
+			focus = BOR_Symbiotic_Federation
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Worrying_Reports
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 4
+		relative_position_id = BOR_Decleration_Of_Support
+		x = 1 
+		y = 1
+		bypass = {
+			SYM = {
+				OR = {
+					has_completed_focus = SYM_not_ready
+					has_completed_focus = SYM_the_candis
+				}
+			}
+		}
+		prerequisite = {
+			focus = BOR_Decleration_Of_Support
+		}
+		prerequisite = {
+			focus = BOR_Support_Aligned_Parties
+		}
+		completion_reward = {
+
+		} 
+	}
+	focus = {
+		id = BOR_Worst_Case_Scenario_Plans
+		icon = GFX_goal_generic_forceful_treaty 
+		cost = 4
+		relative_position_id = BOR_Worrying_Reports
+		x = -1 
+		y = 1
+		bypass = {
+			SYM = { 
+				OR = {
+					has_completed_focus = SYM_not_ready
+					has_completed_focus = SYM_the_candis 
+				}
+			}
+		}
+		prerequisite = {
+			focus = BOR_Worrying_Reports
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Nudge_The_Events_In_Our_Favor
+		icon = GFX_focus_POL_beck_ribbentrop
+		cost = 4
+		relative_position_id = BOR_Worrying_Reports
+		x = 1 
+		y = 1
+		bypass = {
+			SYM = {
+				OR = {
+					has_completed_focus = SYM_not_ready
+					has_completed_focus = SYM_the_candis
+				}
+			}
+		}
+		prerequisite = {
+			focus = BOR_Worrying_Reports
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Send_In_Observers
+		icon = GFX_focus_eng_special_air_service
+		cost = 4
+		relative_position_id = BOR_Worst_Case_Scenario_Plans
+		x = 1 
+		y = 1
+		bypass = {
+			SYM = {
+				OR = {
+					has_completed_focus = SYM_not_ready
+					has_completed_focus = SYM_the_candis
+				}
+			} 
+		}
+		prerequisite = {
+			focus = BOR_Worst_Case_Scenario_Plans
+		}
+		prerequisite = {
+			focus = BOR_Nudge_The_Events_In_Our_Favor
+		}
+		completion_reward = {
+
+		}
+	}
+	
+	####### Delayed Elections ######
+	focus = {
+		id = BOR_SF_In_Chaos
+		icon = GFX_focus_generic_strike_at_democracy2
+		cost = 4
+		relative_position_id = BOR_Send_In_Observers
+		x = 0 
+		y = 1
+		bypass = {
+
+		}
+		allow_branch = {
+			SYM = {
+				has_completed_focus = SYM_not_ready
+			}
+		}
+		prerequisite = {
+			focus = BOR_Send_In_Observers
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Support_The_Rebels
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 4
+		relative_position_id = BOR_SF_In_Chaos
+		x = -2 
+		y = 1
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = BOR_SF_In_Chaos
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Send_Advisors
+		icon =  GFX_focus_generic_military_mission 
+		cost = 4
+		relative_position_id = BOR_SF_In_Chaos
+		x = 0
+		y = 1
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = BOR_SF_In_Chaos
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Political_Support
+		icon = GFX_goal_generic_major_alliance
+		cost = 4
+		relative_position_id = BOR_SF_In_Chaos
+		x = 2
+		y = 1
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = BOR_SF_In_Chaos
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Lend_Lease_Act
+		icon =  GFX_focus_generic_combined_arms
+		cost = 4
+		relative_position_id = BOR_Send_Advisors
+		x = -1
+		y = 1
+		bypass = {
+
+		}
+		mutually_exclusive = {
+			focus = BOR_Indirect_Support
+		}
+		prerequisite = {
+			focus = BOR_Support_The_Rebels
+		}
+		prerequisite = {
+			focus = BOR_Send_Advisors
+		}
+		prerequisite = {
+			focus = BOR_Political_Support
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Indirect_Support
+		icon = GFX_focus_generic_treaty
+		cost = 4
+		relative_position_id = BOR_Send_Advisors
+		x = 1
+		y = 1
+		bypass = {
+
+		}
+		mutually_exclusive = {
+			focus = BOR_Lend_Lease_Act
+		}
+		prerequisite = {
+			focus = BOR_Support_The_Rebels
+		}
+		prerequisite = {
+			focus = BOR_Send_Advisors
+		}
+		prerequisite = {
+			focus = BOR_Political_Support
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Volunteer_Act
+		icon = GFX_focus_secret_rearmament
+		cost = 4
+		relative_position_id = BOR_Lend_Lease_Act
+		x = 0
+		y = 1
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = BOR_Lend_Lease_Act
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Embargo_The_Enemy
+		icon = GFX_goal_generic_trade
+		cost = 4
+		relative_position_id = BOR_Indirect_Support
+		x = 0
+		y = 1
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = BOR_Indirect_Support
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Military_Co_Operation
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_alternative
+		cost = 4
+		relative_position_id = BOR_Volunteer_Act
+		x = -1
+		y = 1
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = BOR_Volunteer_Act
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Advise_The_Democratic_Army
+		icon = GFX_focus_POL_beck_ribbentrop
+		cost = 4
+		relative_position_id = BOR_Volunteer_Act
+		x = 1
+		y = 1
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = BOR_Volunteer_Act
+			focus = BOR_Embargo_The_Enemy
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Humanitarian_Relief_Efforts
+		icon = GFX_focus_generic_truck
+		cost = 4
+		relative_position_id = BOR_Embargo_The_Enemy
+		x = 1 
+		y = 1 
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = BOR_Embargo_The_Enemy
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Await_The_Word
+		icon = GFX_BOR_Matter_Of_Time
+		cost = 4
+		relative_position_id = BOR_Advise_The_Democratic_Army
+		x =  0
+		y = 1
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = BOR_Military_Co_Operation
+			focus = BOR_Humanitarian_Relief_Efforts
+		}
+		prerequisite = {
+			focus = BOR_Advise_The_Democratic_Army
+		}
+		completion_reward = {
+
+		}
+	}
+
+	####### Elections - Democrats ######
+	focus = {
+		id = BOR_All_Is_Well
+		icon = GFX_goal_generic_improve_relations
+		cost = 4
+		relative_position_id = BOR_Send_In_Observers
+		x = 0 
+		y = 1
+		bypass = {
+
+		}
+		allow_branch = {
+		}
+		prerequisite = {
+			focus = BOR_Send_In_Observers
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_State_Visit_To_The_Federation
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 4
+		relative_position_id = BOR_All_Is_Well
+		x = -1
+		y = 1
+		bypass = {
+
+		}
+		allow_branch = {
+		}
+		prerequisite = {
+			focus = BOR_All_Is_Well
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_A_Democratic_Example
+		icon = GFX_focus_focus_fra_revolution_utmost
+		cost = 4
+		relative_position_id = BOR_All_Is_Well
+		x = 1 
+		y = 1
+		bypass = {
+
+		}
+		allow_branch = {
+		}
+		prerequisite = {
+			focus = BOR_All_Is_Well
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Diplomatic_Exchange
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 4
+		relative_position_id = BOR_State_Visit_To_The_Federation
+		x = 0
+		y = 1
+		bypass = {
+
+		}
+		allow_branch = {
+		}
+		prerequisite = {
+			focus = BOR_State_Visit_To_The_Federation
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_Our_Eyes_On_The_East
+		icon = GFX_goal_generic_defence
+		cost = 4
+		relative_position_id = BOR_A_Democratic_Example
+		x = 0 
+		y = 1
+		bypass = {
+
+		}
+		allow_branch = {
+		}
+		prerequisite = {
+			focus = BOR_A_Democratic_Example
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = BOR_A_Reminder_Of_Good_Things
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 4
+		relative_position_id = BOR_Our_Eyes_On_The_East
+		x = -1
+		y = 1
+		bypass = {
+
+		}
+		allow_branch = {
+		}
+		prerequisite = {
+			focus = BOR_Diplomatic_Exchange
+		}
+		prerequisite = {
+			focus = BOR_Our_Eyes_On_The_East
+		}
+		completion_reward = {
+
+		}
+	}
+	###############################
+	########### Akuriel ###########
+	###############################
+	focus = {
+		id = BOR_Akuriel
+		icon = GFX_focus_rom_parties_end
+		cost = 4
+		relative_position_id = BOR_Our_Allies
+		x = 6 
+		y = 1
+		allow_branch = {
+			#has_completed_focus = BOR_Our_Allies
+		}
+		bypass = {
+			SYM = {
+				OR = {
+					has_completed_focus = SYM_not_ready
+					has_completed_focus = SYM_the_candis
+				}
+
+			}
+		}
+		prerequisite = {
+			focus = BOR_Our_Allies
+		}
+		completion_reward = {
+
+		}
+		 
+	}
+
 }

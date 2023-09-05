@@ -34,3 +34,63 @@ country_event = {    ###invite BOR to faction
 		}
 	}
 }
+country_event = {    ### Federation delayed elections
+
+	id = BOR.2
+	title = BOR.2.t
+	desc = BOR.2.d
+	picture = GFX_report_KAK_flag
+	
+	is_triggered_only = yes
+	option = { 
+		name = BOR.2.a
+		hidden_effect = {
+			load_focus_tree = {
+				tree = BOR_initial   
+				keep_completed = yes   
+			}
+			mark_focus_tree_layout_dirty = yes 
+		}
+	}
+}
+country_event = {    ### Federation democrats elected
+
+	id = BOR.3
+	title = BOR.3.t
+	desc = BOR.3.d
+	picture = GFX_report_KAK_flag
+	
+	is_triggered_only = yes
+	option = { 
+		name = BOR.3.a
+		set_country_flag = bor_fed_democrats_in_power_flag
+		hidden_effect = {
+			load_focus_tree = {
+				tree = BOR_initial   
+				keep_completed = yes   
+			}
+			mark_focus_tree_layout_dirty = yes 
+		}
+	}
+}
+country_event = {    ### Federation hostiles elected
+
+	id = BOR.4
+	title = BOR.4.t
+	desc = BOR.4.d
+	picture = GFX_report_KAK_flag
+	
+	is_triggered_only = yes
+	option = { 
+		name = BOR.4.a
+		set_country_flag = bor_fed_hostiles_in_power_flag
+		hidden_effect = {
+			load_focus_tree = {
+				tree = BOR_initial   
+				keep_completed = yes   
+			}
+			mark_focus_tree_layout_dirty = yes 
+		}
+	}
+}
+
