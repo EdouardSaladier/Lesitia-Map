@@ -394,7 +394,7 @@ peace_ai_desires = {
 
 
     minors_and_subjects_dont_liberate = {
-        peace_action_type = { liberate take_states force_government puppet }
+        peace_action_type = { liberate force_government puppet }
         enable = {
             ROOT = {
                 NOT = { tag = ROOT.FROM }

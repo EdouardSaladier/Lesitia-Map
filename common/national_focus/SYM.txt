@@ -118,24 +118,11 @@ focus_tree = {
 		}
 		x = 10
 		y = 4
-
-	}
-	
-	focus = {
-		id = SYM_the_candis
-		icon = GFX_goal_SYM_the_candis
-		cost = 4
-		mutually_exclusive = {
-			focus = SYM_not_ready
+		completion_reward = {
+			country_event =  SYM.1
 		}
-		prerequisite = {
-			focus = SYM_3376_elections
-		}
-		x = 11
-		y = 5
-
 	}
-	
+		
 	focus = {
 		id = SYM_not_ready
 		icon = GFX_goal_SYM_not_ready
@@ -148,7 +135,41 @@ focus_tree = {
 		}
 		x = 9
 		y = 5
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = sym_delayed_elections_tooltip
+				has_country_flag = sym_delayed_elections_flag
+			}
 
+		}
+		completion_reward = {
+			country_event =  SYM.2
+		}
 	}
+
+	focus = {
+		id = SYM_the_candis
+		icon = GFX_goal_SYM_the_candis
+		cost = 4
+		mutually_exclusive = { 
+			focus = SYM_not_ready
+		}
+		prerequisite = {
+			focus = SYM_3376_elections
+		}
+		x = 11
+		y = 5
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = sym_elections_tooltip
+				has_country_flag = sym_elections_flag
+			}
+
+		}
+		completion_reward = {
+			country_event =  SYM.3
+		}
+	}
+
 
 }

@@ -1,0 +1,452 @@
+add_namespace = SYM
+
+country_event = {    
+	id = SYM.1 #Fed choice
+	title = SYM.1.t
+	desc = SYM.1.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.1.a
+		set_country_flag = sym_elections_flag 
+	}
+	option = { 
+		name = SYM.1.b
+		set_country_flag = sym_delayed_elections_flag
+	}
+}
+
+country_event = {    
+	id = SYM.2  #Fed delayed elections
+	title = SYM.2.t
+	desc = SYM.2.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.2.a
+		BOR = {
+			country_event = BOR.2
+		}
+	}
+}
+
+country_event = {    
+	id = SYM.3 #Fed elections
+	title = SYM.3.t
+	desc = SYM.3.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.3.a
+		set_country_flag = sym_democrats_election_flag
+		ai_chance = {
+			base = 0
+		}
+	}
+	option = { 
+		name = SYM.3.b
+		set_country_flag = sym_revolutionaries_election_flag
+		ai_chance = {
+			base = 0
+		}
+	}
+	option = { 
+		name = SYM.3.c
+		set_country_flag = sym_supremacists_election_flag
+		ai_chance = {
+			base = 0
+		}
+	}
+	option = { 
+		name = SYM.3.e
+		set_country_flag = sym_artists_election_flag
+		hidden_effect = {
+			country_event = { id = SYM.4 days = 10 } 
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = { 
+		name = SYM.3.f
+		set_country_flag = sym_deadlock_election_flag
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+country_event = {    
+	id = SYM.4 #CSR Split
+	title = SYM.4.t
+	desc = SYM.4.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.4.a
+		release = CSR
+		hidden_effect = {
+			country_event = { id = SYM.5 days = 10 } 
+		}
+		CSR = {
+			change_tag_from = SYM
+		}
+	}
+	option = { 
+		name = SYM.4.b
+		release = CSR
+		hidden_effect = {
+			country_event = { id = SYM.5 days = 10 } 
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+country_event = {    
+	id = SYM.5 #KRK and MAV Split
+	title = SYM.5.t
+	desc = SYM.5.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.5.a
+		release = KAK
+		release = MAV
+		hidden_effect = {
+			country_event = { id = SYM.6 days = 10 } 
+		}
+		KAK = {
+			change_tag_from = SYM
+		}
+
+	}
+	option = { 
+		name = SYM.5.b
+		release = KAK
+		release = MAV
+		hidden_effect = {
+			country_event = { id = SYM.6 days = 10 } 
+		}
+		MAV = {
+			change_tag_from = SYM
+		}
+	}
+	option = { 
+		name = SYM.5.c
+		release = KAK
+		release = MAV
+		hidden_effect = {
+			country_event = { id = SYM.6 days = 10 } 
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+country_event = {    
+	id = SYM.6 #VOS and SCM Split
+	title = SYM.6.t
+	desc = SYM.6.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.6.a
+		release = VOS
+		release = SCM
+		hidden_effect = {
+			country_event = { id = SYM.7 days = 10 } 
+		}
+		VOS = {
+			change_tag_from = SYM
+		}
+
+	}
+	option = { 
+		name = SYM.6.a
+		release = VOS
+		release = SCM
+		hidden_effect = {
+			country_event = { id = SYM.7 days = 10 } 
+		}
+		SCM = {
+			change_tag_from = SYM
+		}
+
+	}
+	option = { 
+		name = SYM.6.c
+		release = VOS
+		release = SCM
+		hidden_effect = {
+			country_event = { id = SYM.7 days = 10 } 
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+country_event = {    
+	id = SYM.7 #ACS and RFT Split
+	title = SYM.7.t
+	desc = SYM.7.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.7.a
+		release = ACS
+		release = RFT
+		hidden_effect = {
+			country_event = { id = SYM.8 days = 10 } 
+		}
+		ACS = {
+			change_tag_from = SYM
+		}
+
+	}
+	option = { 
+		name = SYM.7.b
+		release = ACS
+		release = RFT
+		hidden_effect = {
+			country_event = { id = SYM.8 days = 10 } 
+		}
+		RFT = {
+			change_tag_from = SYM
+		}
+	}
+	option = { 
+		name = SYM.7.c
+		release = ACS
+		release = RFT
+		hidden_effect = {
+			country_event = { id = SYM.8 days = 10 } 
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+country_event = {    
+	id = SYM.8 #TPG and TER Split
+	title = SYM.8.t
+	desc = SYM.8.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.8.a
+		release = TPG
+		release = TER
+		hidden_effect = {
+			country_event = { id = SYM.9 days = 10 } 
+		}
+		TPG = {
+			change_tag_from = SYM
+		}
+
+	}
+	option = { 
+		name = SYM.8.b
+		release = TPG
+		release = TER
+		hidden_effect = {
+			country_event = { id = SYM.9 days = 10 } 
+		}
+		TER = {
+			change_tag_from = SYM
+		}
+	}
+	option = { 
+		name = SYM.8.c
+		release = TPG
+		release = TER
+		hidden_effect = {
+			country_event = { id = SYM.9 days = 10 } 
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+country_event = {    
+	id = SYM.9 #ZHA and TBZ Split
+	title = SYM.9.t
+	desc = SYM.9.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.9.a
+		release = ZHA
+		release = TBZ
+		hidden_effect = {
+			country_event = { id = SYM.10 days = 10 } 
+		}
+		ZHA = {
+			change_tag_from = SYM
+		}
+
+
+	}
+	option = { 
+		name = SYM.9.b
+		release = ZHA
+		release = TBZ
+		hidden_effect = {
+			country_event = { id = SYM.10 days = 10 } 
+		}
+		TBZ = {
+			change_tag_from = SYM
+		}
+		TBZ = {
+			set_politics = {
+				ruling_party = despotism
+			}
+		}
+	}
+	option = { 
+		name = SYM.9.c
+		release = ZHA
+		release = TBZ
+		hidden_effect = {
+			country_event = { id = SYM.10 days = 10 } 
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+country_event = {    
+	id = SYM.10 #UHL and SED Split
+	title = SYM.10.t
+	desc = SYM.10.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.10.a
+		release = UHL
+		release = SED
+		hidden_effect = {
+			country_event = { id = SYM.11 days = 10 } 
+		}
+		UHL = {
+			change_tag_from = SYM
+		}
+
+	}
+	option = { 
+		name = SYM.10.b
+		release = UHL
+		release = SED
+		hidden_effect = {
+			country_event = { id = SYM.11 days = 10 } 
+		}
+		SED = {
+			change_tag_from = SYM
+		}
+	}
+	option = { 
+		name = SYM.10.c
+		release = UHL
+		release = SED
+		hidden_effect = {
+			country_event = { id = SYM.11 days = 10 } 
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+country_event = {    
+	id = SYM.11 #TVA and LAV Split
+	title = SYM.11.t
+	desc = SYM.11.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.11.a
+		release = TVA
+		release = LAV
+		hidden_effect = {
+			country_event = { id = SYM.12 days = 10 } 
+		}
+		TVA = {
+			change_tag_from = SYM
+		}
+		TVA = {
+			set_politics = {
+				ruling_party = despotism
+			}
+		}
+	}
+	option = { 
+		name = SYM.11.b
+		release = TVA
+		release = LAV
+		hidden_effect = {
+			country_event = { id = SYM.12 days = 10 } 
+		}
+		LAV = {
+			change_tag_from = SYM
+		}
+	}
+	option = { 
+		name = SYM.11.c
+		release = TVA
+		release = LAV
+		hidden_effect = {
+			country_event = { id = SYM.12 days = 10 } 
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+country_event = {    
+	id = SYM.12 #RIS and ETH Split
+	title = SYM.12.t
+	desc = SYM.12.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.12.a
+		release = RIS
+		release = ETH
+		RIS = {
+			change_tag_from = SYM
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = { 
+		name = SYM.12.b
+		release = RIS
+		release = ETH
+		ETH = {
+			change_tag_from = SYM
+		}
+	}
+}

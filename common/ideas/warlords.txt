@@ -268,7 +268,11 @@ ideas = {
             }
 
             available = {
-			    country_exists = TBZ
+				OR = {
+					country_exists = TBZ
+					country_exists = SYM
+				}
+			    
             }
 
             cancel = {

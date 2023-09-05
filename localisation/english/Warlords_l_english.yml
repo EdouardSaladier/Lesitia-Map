@@ -136,6 +136,19 @@ WRL_Scavange_Mechanized_Support_Vechicles_tooltip:0 "§Y500§! units of §YArmor
 
 
 ########################
+####### Decisions ######
+########################
+
+ris_support_exiles:0 "Support Exiles"
+ris_support_exiles_desc:0 "Lorem Ipsum "
+
+
+########################
+######### END ##########
+########################
+
+
+########################
 ######## Ideas #########
 ########################
 wrl_fortification_buildup_idea:0 "Fortification Buildup"

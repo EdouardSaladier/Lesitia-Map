@@ -233,6 +233,7 @@ WRL_unification = {
 		    has_government = corporatism
 		    is_subject = no
 			tag = RIS
+			democracy > 0.4
 		}
 		ai_will_do = {
 			factor = 1
@@ -253,42 +254,66 @@ WRL_unification = {
 		}
 	
     }
-	
-	reclamation_unification = {
+	ris_support_exiles = {
 	 
-	    icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			tag = RIS
-		}
-		available = {
-		    has_government = democracy
-		    tag = RIS
-		    is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = warlord_controls_ex_federal_territory_tooltip
-				warlord_controls_ex_federal_territory = yes
+			icon = GFX_decision_generic_form_nation    
+		
+			cost = 50
+			allowed = {
+				tag = RIS
 			}
+			available = {
+			}
+			ai_will_do = {
+				factor = 1 
+			}
+			days_remove = 360
+			modifier = {
+				democracy_drift = 0.03
+			}
+			visible = {
+				NOT = { has_government = democracy }
+				tag = RIS
+			}
+			complete_effect = {
+			}
+
 		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_cosmetic_tag = RIS_federation }
-			tag = RIS
-		}
-		complete_effect = {
-		    set_party_name = { 
-			    ideology = democracy
-			    long_name = RIS_democracy_party_long
-			    name = RIS_democracy_party 
-		    }
-		    set_cosmetic_tag = RIS_federation
-			set_capital = {state = 7}
-			set_country_flag = united_federation
-		}
+	# reclamation_unification = {
+	 
+	#     icon = GFX_decision_generic_form_nation    
 	
-    }
+	#     allowed = {
+	# 		tag = RIS
+	# 	}
+	# 	available = {
+	# 	    has_government = democracy
+	# 	    tag = RIS
+	# 	    is_subject = no
+	# 		custom_trigger_tooltip = {
+	# 			tooltip = warlord_controls_ex_federal_territory_tooltip
+	# 			warlord_controls_ex_federal_territory = yes
+	# 		}
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	visible = {
+	# 		NOT = { has_cosmetic_tag = RIS_federation }
+	# 		tag = RIS
+	# 	}
+	# 	complete_effect = {
+	# 	    set_party_name = { 
+	# 		    ideology = democracy
+	# 		    long_name = RIS_democracy_party_long
+	# 		    name = RIS_democracy_party 
+	# 	    }
+	# 	    set_cosmetic_tag = RIS_federation
+	# 		set_capital = {state = 7}
+	# 		set_country_flag = united_federation
+	# 	}
+	
+    # }
 	
 	demand_ACS = {
 	 

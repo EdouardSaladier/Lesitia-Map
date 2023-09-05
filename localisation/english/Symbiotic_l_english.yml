@@ -78,3 +78,25 @@ SYM_the_candis:0 "The Candidates"
 SYM_the_candis_desc:0 "What war criminal do you want?"
 SYM_not_ready:0 "Delay the Elections"
 SYM_not_ready_desc:0 "No need to rush democracy, one day it will come back, surely."
+
+#####events###
+SYM.1.t:0 "An Alternative"
+SYM.1.d:0 "Lorem Ipsum"
+SYM.1.a:0 "Stay The Course"
+SYM.1.b:0 "Delay The Elections"
+
+SYM.2.t:0 "Elections Delayed"
+SYM.2.d:0 "Lorem Ipsum"
+SYM.2.a:0 "It Had To Be Done"
+
+SYM.3.t:0 "3376 Elections"
+SYM.3.d:0 "Lorem Ipsum"
+SYM.3.a:0 "The Democrats Stay In Power"
+SYM.3.b:0 "The Revolutionaries Win The Vote"
+SYM.3.c:0 "The Supremacists Win The Vote"
+SYM.3.e:0 "The Artists Win The Vote?"
+SYM.3.f:0 "Election Deadlock"
+
+#####tooltips###
+sym_delayed_elections_tooltip:0 "§YDecided To Delay Elections§!"
+sym_elections_tooltip:0 "§YDecided To Organize The Elections§!"

@@ -48,7 +48,7 @@ set_technology = {
 set_convoys = 0
 
 set_politics = {
-	ruling_party = democracy
+	ruling_party = unclassified
 	last_election = "3374.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -56,7 +56,7 @@ set_politics = {
 set_popularities = {
 	despotism = 3
 	supremacism = 0
-	democracy = 90
+	unclassified = 90
 	corporatism = 7
 }
 

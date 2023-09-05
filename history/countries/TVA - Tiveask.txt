@@ -54,10 +54,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 20
+	despotism = 10
 	supremacism = 20
 	democracy = 10
-	corporatism = 50
+	corporatism =  60
 }
 
 add_ideas = {
