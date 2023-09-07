@@ -68,6 +68,8 @@ create_country_leader = {
 	ideology = despotism_type 
 }
 
+recruit_character = SED_godofredo_general
+
 add_ideas = {
 	millenium_traditions
 }

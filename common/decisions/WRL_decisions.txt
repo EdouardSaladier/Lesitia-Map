@@ -267,9 +267,9 @@ WRL_unification = {
 			ai_will_do = {
 				factor = 1 
 			}
-			days_remove = 360
+			days_remove = 120
 			modifier = {
-				democracy_drift = 0.03
+				democracy_drift = 0.2
 			}
 			visible = {
 				NOT = { has_government = democracy }

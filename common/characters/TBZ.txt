@@ -1,0 +1,63 @@
+characters = {
+	
+	TBZ_marco_general ={
+		name= "Marco Russo"
+		portraits={
+			army={
+				large= "gfx/leaders/TBZ/Portrait_SYM_marco.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ war_hero media_personality brilliant_strategist thorough_planner }
+			desc = SYM_Marco_desc
+			skill= 2
+			
+			attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 6
+	        logistics_skill = 4
+		}
+	}
+	
+	TBZ_andrei_general ={
+		name= "Andrei Rodion"
+		portraits={
+			army={
+				large= "gfx/leaders/TBZ/portrait_andrei_rodion.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		field_marshal={
+			traits= { logistics_wizard }
+			desc = TBZ_tiveask_desc
+			skill= 4
+			
+			attack_skill= 3
+			defense_skill= 2
+			planning_skill= 4
+			logistics_skill= 4
+		}
+	}
+	
+	TBZ_vermilio_general ={
+		name= "Vermelio Truz"
+		portraits={
+			army={
+				large= "gfx/leaders/TBZ/portrait_andrei_vermelio.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ thorough_planner }
+			desc = vermelio_despotism_desc
+			skill= 3
+			
+			attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 3
+	        logistics_skill = 4
+		}
+	}
+	
+}

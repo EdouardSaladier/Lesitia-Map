@@ -1,0 +1,23 @@
+characters = {
+	
+	ACS_oscar_democratic ={
+		name= "Oscar Azkrini"
+		portraits={
+			army={
+				large= "gfx/leaders/ACS/Portrait_SYM_oscar.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		field_marshal={
+			traits= { infantry_officer urban_assault_specialist war_hero politically_connected harsh_leader }
+			desc = SYM_Oscar_desc
+			skill= 5
+			
+			attack_skill= 7
+			defense_skill= 6
+			planning_skill= 5
+			logistics_skill= 5
+		}
+	}
+	
+}

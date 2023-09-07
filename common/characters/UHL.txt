@@ -1,0 +1,23 @@
+characters = {
+	
+	UHL_matvey_general ={
+		name= "Matvey Velazik"
+		portraits={
+			army={
+				large= "gfx/leaders/UHL/portrait_matvey_velazik.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		field_marshal={
+			traits= { infantry_officer hill_fighter }
+			desc = UHL_matvey_desc
+			skill= 4
+			
+			attack_skill= 3
+			defense_skill= 5
+			planning_skill= 2
+			logistics_skill= 3
+		}
+	}
+	
+}

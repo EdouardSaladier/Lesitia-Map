@@ -76,3 +76,8 @@ VRT_militarist_party:0 "§RViasgorod Clique"
 VRT_militarist_party_long:0 "the Viasgorod Clique"
 VRT_strato_party:0 "§ORevolutionary Army Council"
 VRT_strato_party_long:0 "the Revolutionary Army Council"
+
+#######decisions
+VRT_foreign_relations:0 "Foreign Relations"
+annex_land:0 "Reclaim Our Rightful Territories"
+annex_land_desc:0 "There are two states to our west that used to belong to Vratenzk before the revolt, due to the chaotic situation of the Federation it might be the right time to reclaim them."

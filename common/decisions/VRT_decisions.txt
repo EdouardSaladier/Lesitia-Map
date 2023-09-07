@@ -64,3 +64,30 @@ VRT_leaders = {
 	
     }
 }
+
+VRT_foreign_relations = {
+
+    annex_land = {
+	  
+	    icon = GFX_decision_infiltrate_state
+		cost = 20
+		fire_only_once = yes
+	
+	    allowed = {
+			tag = VRT
+		}
+		visible = {
+		    country_exists = TER
+			country_exists = TPG
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			transfer_state = 197
+			transfer_state = 199
+		}
+	
+    }
+
+}

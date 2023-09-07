@@ -31,6 +31,21 @@ country_event = {
 		BOR = {
 			country_event = BOR.2
 		}
+		promote_character = SYM_amber_azkrini
+		set_party_name = { 
+			ideology = despotism
+			long_name = SYM_amber_bad_long
+			name = SYM_amber_bad
+		}
+		set_politics = {
+	        ruling_party = despotism
+	        elections_allowed = no
+        }
+		add_popularity = {
+	        ideology = despotism
+	        popularity = 0.2
+        }
+	
 	}
 }
 
@@ -45,6 +60,7 @@ country_event = {
 	option = { 
 		name = SYM.3.a
 		set_country_flag = sym_democrats_election_flag
+		promote_character = SYM_leo_laze
 		ai_chance = {
 			base = 0
 		}
@@ -122,6 +138,8 @@ country_event = {
 		name = SYM.5.a
 		release = KAK
 		release = MAV
+		retire_character = SYM_lua_general
+		retire_character = SYM_alessandro_general
 		hidden_effect = {
 			country_event = { id = SYM.6 days = 10 } 
 		}
@@ -134,6 +152,8 @@ country_event = {
 		name = SYM.5.b
 		release = KAK
 		release = MAV
+		retire_character = SYM_lua_general
+		retire_character = SYM_alessandro_general
 		hidden_effect = {
 			country_event = { id = SYM.6 days = 10 } 
 		}
@@ -145,6 +165,8 @@ country_event = {
 		name = SYM.5.c
 		release = KAK
 		release = MAV
+		retire_character = SYM_lua_general
+		retire_character = SYM_alessandro_general
 		hidden_effect = {
 			country_event = { id = SYM.6 days = 10 } 
 		}
@@ -165,6 +187,8 @@ country_event = {
 		name = SYM.6.a
 		release = VOS
 		release = SCM
+		retire_character = SYM_kallista_general
+		retire_character = SYM_fyodor_general
 		hidden_effect = {
 			country_event = { id = SYM.7 days = 10 } 
 		}
@@ -177,6 +201,8 @@ country_event = {
 		name = SYM.6.a
 		release = VOS
 		release = SCM
+		retire_character = SYM_kallista_general
+		retire_character = SYM_fyodor_general
 		hidden_effect = {
 			country_event = { id = SYM.7 days = 10 } 
 		}
@@ -189,6 +215,8 @@ country_event = {
 		name = SYM.6.c
 		release = VOS
 		release = SCM
+		retire_character = SYM_kallista_general
+		retire_character = SYM_fyodor_general
 		hidden_effect = {
 			country_event = { id = SYM.7 days = 10 } 
 		}
@@ -209,6 +237,7 @@ country_event = {
 		name = SYM.7.a
 		release = ACS
 		release = RFT
+		retire_character = SYM_oscar_general
 		hidden_effect = {
 			country_event = { id = SYM.8 days = 10 } 
 		}
@@ -221,6 +250,7 @@ country_event = {
 		name = SYM.7.b
 		release = ACS
 		release = RFT
+		retire_character = SYM_oscar_general
 		hidden_effect = {
 			country_event = { id = SYM.8 days = 10 } 
 		}
@@ -232,6 +262,7 @@ country_event = {
 		name = SYM.7.c
 		release = ACS
 		release = RFT
+		retire_character = SYM_oscar_general
 		hidden_effect = {
 			country_event = { id = SYM.8 days = 10 } 
 		}
@@ -295,6 +326,7 @@ country_event = {
 		name = SYM.9.a
 		release = ZHA
 		release = TBZ
+		retire_character = SYM_marco_general
 		hidden_effect = {
 			country_event = { id = SYM.10 days = 10 } 
 		}
@@ -302,15 +334,6 @@ country_event = {
 			change_tag_from = SYM
 		}
 		hidden_effect = {
-			TBZ = {
-				set_politics = {
-					ruling_party = despotism
-				}
-				add_popularity = {
-					ideology = despotism
-					popularity = 0.4
-				}
-			}
 		}
 
 
@@ -319,6 +342,7 @@ country_event = {
 		name = SYM.9.b
 		release = ZHA
 		release = TBZ
+		retire_character = SYM_marco_general
 		hidden_effect = {
 			country_event = { id = SYM.10 days = 10 } 
 		}
@@ -326,34 +350,17 @@ country_event = {
 			change_tag_from = SYM
 		}
 		hidden_effect = {
-			TBZ = {
-				set_politics = {
-					ruling_party = despotism
-				}
-				add_popularity = {
-					ideology = despotism
-					popularity = 0.4
-				}
-			}
 		}
 	}
 	option = { 
 		name = SYM.9.c
 		release = ZHA
 		release = TBZ
+		retire_character = SYM_marco_general
 		hidden_effect = {
 			country_event = { id = SYM.10 days = 10 } 
 		}
 		hidden_effect = {
-			TBZ = {
-				set_politics = {
-					ruling_party = despotism
-				}
-				add_popularity = {
-					ideology = despotism
-					popularity = 0.4
-				}
-			}
 		}
 		ai_chance = {
 			base = 100
@@ -372,6 +379,7 @@ country_event = {
 		name = SYM.10.a
 		release = UHL
 		release = SED
+		retire_character = SYM_godofredo_general
 		hidden_effect = {
 			country_event = { id = SYM.11 days = 10 } 
 		}
@@ -384,6 +392,7 @@ country_event = {
 		name = SYM.10.b
 		release = UHL
 		release = SED
+		retire_character = SYM_godofredo_general
 		hidden_effect = {
 			country_event = { id = SYM.11 days = 10 } 
 		}
@@ -395,6 +404,7 @@ country_event = {
 		name = SYM.10.c
 		release = UHL
 		release = SED
+		retire_character = SYM_godofredo_general
 		hidden_effect = {
 			country_event = { id = SYM.11 days = 10 } 
 		}

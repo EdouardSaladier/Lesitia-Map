@@ -74,6 +74,8 @@ create_country_leader = {
 	ideology = democracy_type 
 }
 
+recruit_character = RIS_baris_general
+
 add_ideas = {
 	sin_islands
 }

@@ -1,0 +1,23 @@
+characters = {
+	
+	CSR_ultimum_general ={
+		name= "Ultimum Mormorare"
+		portraits={
+			army={
+				large= "gfx/leaders/CSR/portrait_ultimum_mormorare.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless harsh_leader }
+			desc = CSR_ultimum_desc
+			skill= 1
+			
+			attack_skill = 1
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 2
+		}
+	}
+	
+}

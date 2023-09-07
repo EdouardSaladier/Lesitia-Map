@@ -1,0 +1,23 @@
+characters = {
+
+    OAV_polistik_general ={
+		name= "Polistik Sorak"
+		portraits={
+			army={
+				large= "gfx/leaders/OAV/portrait_polistik_sorak.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ war_hero media_personality }
+			desc = TVA_leonid_desc
+			skill=3
+			
+			attack_skill = 3
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 4
+		}
+	}
+	
+}

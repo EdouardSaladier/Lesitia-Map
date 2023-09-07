@@ -1,0 +1,22 @@
+characters = {
+	
+	MAV_alessandro_general ={
+		name= "Alessandro Ricci"
+		portraits={
+			army={
+				large= "gfx/leaders/MAV/Portrait_SYM_alessandro.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		field_marshal={
+			traits= { old_guard infantry_officer hill_fighter urban_assault_specialist }
+			desc = SYM_Alessandro_desc
+			skill= 4
+			
+			attack_skill= 3
+			defense_skill= 7
+			planning_skill= 5
+			logistics_skill= 3
+		}
+	}
+}

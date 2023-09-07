@@ -64,6 +64,7 @@ add_ideas = {
     voskra_colony
 }
 
+recruit_character = VOS_kallista_general
 
 create_country_leader = {
 	name = "Kallista Sokolova"

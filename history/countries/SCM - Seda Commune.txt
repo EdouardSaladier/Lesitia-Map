@@ -60,6 +60,8 @@ set_popularities = {
 	revolutionarism = 80
 }
 
+recruit_character = SCM_fyodor_general
+
 create_country_leader = {
 	name = "Artem Valentin"
 	desc = "SCM_valentin_desc"

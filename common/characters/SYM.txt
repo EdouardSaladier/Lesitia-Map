@@ -1,0 +1,186 @@
+characters = {
+
+    SYM_lua_general ={
+		name= "Luã Vescitu"
+		portraits={
+			army={
+				large= "gfx/leaders/SYM/Portrait_SYM_lua.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ war_hero media_personality politically_connected offensive_doctrine }
+			desc = SYM_Lua_desc
+			skill=3
+			
+			attack_skill = 7 
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 4
+		}
+	}
+	
+	SYM_alessandro_general ={
+		name= "Alessandro Ricci"
+		portraits={
+			army={
+				large= "gfx/leaders/SYM/Portrait_SYM_alessandro.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		field_marshal={
+			traits= { old_guard infantry_officer hill_fighter urban_assault_specialist }
+			desc = SYM_Alessandro_desc
+			skill= 4
+			
+			attack_skill= 3
+			defense_skill= 7
+			planning_skill= 5
+			logistics_skill= 3
+		}
+	}
+	
+	SYM_oscar_general ={
+		name= "Oscar Azkrini"
+		portraits={
+			army={
+				large= "gfx/leaders/SYM/Portrait_SYM_oscar.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		field_marshal={
+			traits= { infantry_officer urban_assault_specialist war_hero politically_connected harsh_leader }
+			desc = SYM_Oscar_desc
+			skill= 5
+			
+			attack_skill= 7
+			defense_skill= 6
+			planning_skill= 5
+			logistics_skill= 5
+		}
+	}
+	
+	SYM_godofredo_general ={
+		name= "Godofredo da Silva"
+		portraits={
+			army={
+				large= "gfx/leaders/SYM/Portrait_SYM_godofredo.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		field_marshal={
+			traits= { logistics_wizard organizer trait_cautious }
+			desc = SYM_Godofredo_desc
+			skill= 4
+			
+			attack_skill= 3
+			defense_skill= 4
+			planning_skill= 5
+			logistics_skill= 5
+		}
+	}
+	
+	SYM_kallista_general ={
+		name= "Kallista Sokolova"
+		portraits={
+			army={
+				large= "gfx/leaders/SYM/Portrait_SYM_kallista.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ media_personality trait_reckless harsh_leader armor_officer }
+			desc = SYM_Kallista_desc
+			skill= 3
+			
+			attack_skill = 5
+	        defense_skill = 6
+	        planning_skill = 2
+	        logistics_skill = 2
+		}
+	}
+	
+	SYM_marco_general ={
+		name= "Marco Russo"
+		portraits={
+			army={
+				large= "gfx/leaders/SYM/Portrait_SYM_marco.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ war_hero media_personality brilliant_strategist thorough_planner }
+			desc = SYM_Marco_desc
+			skill= 2
+			
+			attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 6
+	        logistics_skill = 4
+		}
+	}
+	
+	SYM_fyodor_general ={
+		name= "Fyodor Belyaev"
+		portraits={
+			army={
+				large= "gfx/leaders/SYM/Portrait_SYM_fyodor.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ war_hero ranger trait_mountaineer }
+			desc = SYM_Fyodr_desc
+			skill= 3
+			
+			attack_skill = 6
+	        defense_skill = 4
+	        planning_skill = 2
+	        logistics_skill = 2
+		}
+	}
+	
+	SYM_amber_azkrini = {
+		name = "Amber Azkrini"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYM/portrait_amber_azkrini.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_type
+			desc = amber_despotism_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	
+	SYM_amber_democracy = {
+		name = "Amber Azkrini"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYM/portrait_amber_azkrini.dds"
+			}
+		}
+		country_leader = {
+			ideology = democracy_type
+			desc = SYM_Amber_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	SYM_leo_laze = {
+		name = "Léo Laze"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYM/portrait_leo_laze.dds"
+			}
+		}
+		country_leader = {
+			ideology = democracy_type
+			desc = RFT_leo_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+}

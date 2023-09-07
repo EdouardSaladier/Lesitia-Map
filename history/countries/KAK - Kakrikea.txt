@@ -74,6 +74,8 @@ create_country_leader = {
 	ideology = democracy_type 
 }
 
+recruit_character = KAK_lua_general
+
 add_ideas = {
 	kakrikea_army
 }

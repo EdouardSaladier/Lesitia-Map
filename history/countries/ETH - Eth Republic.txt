@@ -64,6 +64,8 @@ add_ideas = {
     ressian_machine
 }
 
+recruit_character = ETH_russet_general
+
 create_country_leader = {
 	name = "Russet Vero"
 	desc = "ETH_russet_desc"

@@ -1,0 +1,23 @@
+characters = {
+	
+	RIS_baris_general ={
+		name= "Baris Tevis"
+		portraits={
+			army={
+				large= "gfx/leaders/RIS/portrait_baris_tevis.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ media_personality }
+			desc = RIS_baris_desc
+			skill= 2
+			
+			attack_skill = 3
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 2
+		}
+	}
+	
+}

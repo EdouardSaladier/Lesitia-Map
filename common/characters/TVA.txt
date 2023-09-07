@@ -1,0 +1,23 @@
+characters = {
+
+    TVA_leonid_general ={
+		name= "Leonid Marat"
+		portraits={
+			army={
+				large= "gfx/leaders/TVA/portrait_leonid_marat.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ war_hero media_personality }
+			desc = TVA_leonid_desc
+			skill=3
+			
+			attack_skill = 3
+	        defense_skill = 5
+	        planning_skill = 2
+	        logistics_skill = 4
+		}
+	}
+	
+}

@@ -1,0 +1,22 @@
+characters = {
+	
+	TPG_meloe_general ={
+		name= "Meloe Aonte"
+		portraits={
+			army={
+				large= "gfx/leaders/TPG/portrait_meloe_aonte.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ war_hero }
+			desc = TPG_mel_desc
+			skill= 3
+			
+			attack_skill = 3
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 2
+		}
+	}
+}

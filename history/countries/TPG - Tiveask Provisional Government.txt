@@ -68,6 +68,7 @@ create_country_leader = {
 }
 
 recruit_character = TPG_meloe_despotism
+recruit_character = TPG_meloe_general
 
 add_ideas = {
     refugee_state

@@ -95,6 +95,8 @@ create_country_leader = {
 	ideology = despotism_type 
 }
 
+recruit_character = OAV_polistik_general
+
 add_ideas = {
 	zaroa_faith
 	international_zone

@@ -1,0 +1,22 @@
+characters = {
+	
+	SCM_fyodor_general ={
+		name= "Fyodor Belyaev"
+		portraits={
+			army={
+				large= "gfx/leaders/SCM/Portrait_SYM_fyodor.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ war_hero ranger trait_mountaineer }
+			desc = SYM_Fyodr_desc
+			skill= 3
+			
+			attack_skill = 6
+	        defense_skill = 4
+	        planning_skill = 2
+	        logistics_skill = 2
+		}
+	}
+}

@@ -1,0 +1,23 @@
+characters = {
+	
+	VOS_kallista_general ={
+		name= "Kallista Sokolova"
+		portraits={
+			army={
+				large= "gfx/leaders/VOS/Portrait_SYM_kallista.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ media_personality trait_reckless harsh_leader armor_officer }
+			desc = SYM_Kallista_desc
+			skill= 3
+			
+			attack_skill = 5
+	        defense_skill = 6
+	        planning_skill = 2
+	        logistics_skill = 2
+		}
+	}
+	
+}

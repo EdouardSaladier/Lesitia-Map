@@ -90,10 +90,12 @@ country_event = {    ###TBZ leader question pt.3 (Here is to decide, Andrei deci
 		ai_chance = {
 			factor = 50
 		}
-		country_event = { id = TBZ.4 days = 40 }
 		add_ideas = {
 	      vermelio_helper
         }
+		hidden_effect = {
+		  country_event = { id = TBZ.4 days = 40 }
+		}
 	}
 	
 }
@@ -110,6 +112,7 @@ country_event = {    ###TBZ leader question pt.4 (Vermelion comes to power and k
 		name = TBZ.6.a  #he comes to power
 		promote_character = TBZ_despotism_vermelio
 		set_cosmetic_tag = nice_federation
+		retire_character = TBZ_andrei_general
 		add_manpower = -1
 		set_party_name = { 
 			ideology = despotism
@@ -345,6 +348,7 @@ country_event = {    ###TBZ marco asks vermelio to stop
 			factor = 10
 		}
 		add_manpower = -1
+		retire_character = TBZ_marco_general
 	}
 	option = { 
 		name = TBZ.13.b  #vermelio shoots himself
@@ -352,6 +356,7 @@ country_event = {    ###TBZ marco asks vermelio to stop
 			factor = 90
 		}
 		add_manpower = -1
+		retire_character = TBZ_vermilio_general
 		set_party_name = { 
 			ideology = democracy
 			long_name = TBZ_democracy_party_long

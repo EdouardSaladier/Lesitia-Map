@@ -1,0 +1,23 @@
+characters = {
+
+    ETH_russet_general ={
+		name= "Russet Vero"
+		portraits={
+			army={
+				large= "gfx/leaders/ETH/portrait_russet_vero.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ media_personality politically_connected }
+			desc = ETH_russet_desc
+			skill=3
+			
+			attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 4
+		}
+	}
+	
+}

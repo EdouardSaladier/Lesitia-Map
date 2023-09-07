@@ -1,0 +1,23 @@
+characters = {
+	
+	SED_godofredo_general ={
+		name= "Godofredo da Silva"
+		portraits={
+			army={
+				large= "gfx/leaders/SED/Portrait_SYM_godofredo.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		field_marshal={
+			traits= { logistics_wizard organizer trait_cautious }
+			desc = SYM_Godofredo_desc
+			skill= 4
+			
+			attack_skill= 3
+			defense_skill= 4
+			planning_skill= 5
+			logistics_skill= 5
+		}
+	}
+	
+}

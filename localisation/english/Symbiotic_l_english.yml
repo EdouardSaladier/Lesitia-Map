@@ -54,6 +54,8 @@ SYM_theocracy_party:0 "StarGazer Front"
 SYM_theocracy_party_long:0 "StarGazer Front"
 SYM_unclassified_party:0 "S.A.F"
 SYM_unclassified_party_long:0 "Symbiotic Artist Front"
+SYM_amber_bad:0 "Provisional Federal Party"
+SYM_amber_bad_long:0 "the Provisional Federal Party"
 
 #####focuses###
 SYM_the_current_situation:0 "The Current Situation"

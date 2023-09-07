@@ -67,6 +67,8 @@ create_country_leader = {
 	ideology = democracy_type 
 }
 
+recruit_character = MAV_alessandro_general
+
 add_ideas = {
 	hive_democracy
 }

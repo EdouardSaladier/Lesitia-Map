@@ -70,6 +70,9 @@ recruit_character = TBZ_despotism_vermelio
 recruit_character = TBZ_supremacism_vermelio
 recruit_character = TBZ_maul_bad
 recruit_character = TBZ_maul_meh
+recruit_character = TBZ_marco_general
+recruit_character = TBZ_andrei_general
+recruit_character = TBZ_vermilio_general
 
 create_country_leader = {
 	name = "Andrei Rodion"
