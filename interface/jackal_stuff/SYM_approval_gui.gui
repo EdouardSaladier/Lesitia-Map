@@ -8,6 +8,13 @@ guiTypes = {
 		verticalScrollbar = "right_vertical_slider"
 		
 
+
+		iconType = {
+			name = "SYM_approval_header_bg"
+			spriteType = "GFX_sym_approval_header_bg"
+			position = { x= 5 y= -20 }
+			alwaystransparent = yes
+		}
 		instantTextBoxType = {
 			name = "SYM_approval_gui_header"
 			font = "hoi_20bs"
@@ -18,17 +25,18 @@ guiTypes = {
 			vertical_alignment = top
 			position = {
 				x = 0
-				y = -10
+				y = -15
 			}
 		}
 		containerWindowType = {
 			name = "SYM_approval_gui_sub_container"
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = -25}
 			iconType = {
 				name = "SYM_approval_gui_frame"
 				spriteType = "GFX_sym_approval_frame"
-				position = { x= -20 y= -15 }
+				position = { x= 7 y= 25 }
 				alwaystransparent = yes
+				scale = 0.9
 			}
 	
 			buttonType = {
@@ -103,18 +111,23 @@ guiTypes = {
 				
 			}
 		}
-
+		iconType = {
+			name = "SYM_approval_state_name_bg"
+			spriteType = "GFX_sym_approval_state_name_bg"
+			position = { x= 5 y= 330 }
+			alwaystransparent = yes
+		}
 
 		instantTextBoxType = {
 			name = "SYM_approval_gui_state_name"
-			font = "hoi_18b"
-			text = "SYM_approval_gui_state_name_text"
-			maxWidth = 350
+			font = "hoi_20bs"
+			text = "[SYM_approval_gui_state_name]"
+			maxWidth = 500
 			maxHeight = 100
-			format = left
+			format = center
 			position = {
 				x = 10
-				y = 380
+				y = 333
 			}
 		}
 		instantTextBoxType = {
@@ -126,7 +139,7 @@ guiTypes = {
 			format = left
 			position = {
 				x = 10
-				y = 405
+				y = 370
 			}
 		}
 

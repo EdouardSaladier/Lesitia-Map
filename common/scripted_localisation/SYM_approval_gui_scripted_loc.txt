@@ -1,0 +1,63 @@
+defined_text = {
+	name = SYM_approval_gui_state_name
+	text = {
+		trigger = {
+			has_country_flag = SYM_tiveask_selected_gui
+		}
+		localization_key = SYM_tiveask_region_name
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_voskra_selected_gui
+		}
+		localization_key = SYM_voskra_region_name
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_resse_selected_gui
+		}
+		localization_key = SYM_resse_region_name
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_center_selected_gui
+		}
+		localization_key = SYM_center_region_name
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_kakrikea_selected_gui
+		}
+		localization_key = SYM_kakrikea_region_name
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_mavildea_selected_gui
+		}
+		localization_key = SYM_mavildea_region_name
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_termithia_selected_gui
+		}
+		localization_key = SYM_termithia_region_name
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_seda_selected_gui
+		}
+		localization_key = SYM_seda_region_name
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavido_selected_gui
+		}
+		localization_key = SYM_lavido_region_name
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavska_selected_gui
+		}
+		localization_key = SYM_lavska_region_name
+	}
+}

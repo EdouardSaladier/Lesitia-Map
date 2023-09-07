@@ -1,7 +1,15 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_sym_approval_frame"
-		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_frame.dds"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_frame.dds" 
+	}
+	spriteType = {
+		name = "GFX_sym_approval_state_name_bg"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_state_name_bg.dds"  
+	}
+	spriteType = {
+		name = "GFX_sym_approval_header_bg"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_header_bg.dds"  
 	}
 	spriteType = {
 		name = "GFX_sym_approval_center"

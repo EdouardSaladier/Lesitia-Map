@@ -10,3 +10,125 @@ SYM_effect = {
 		set_country_flag = testtest
 	}
 }
+SYM_tiveask_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	set_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+SYM_voskra_effect = {
+	set_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+SYM_resse_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	set_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+SYM_center_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	set_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+	
+}
+SYM_kakrikea_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	set_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+SYM_mavildea_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	set_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+SYM_termithia_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	set_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+SYM_seda_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	set_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+
+SYM_lavido_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	set_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+SYM_lavska_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	set_country_flag = SYM_lavska_selected_gui
+}

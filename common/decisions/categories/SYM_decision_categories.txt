@@ -1,8 +1,8 @@
 SYM_approval_gui = {
 	icon = generic_propaganda
 	scripted_gui = SYM_approval_gui_bg
-	visible = {
+	visible = {                 
 		tag = SYM 
 	}
 }
-	                            	                                                 
+           

@@ -5,7 +5,7 @@ oob = "standard_templates"
 # Starting tech
 
 set_research_slots = 3
-
+set_country_flag = SYM_center_selected_gui
 set_country_flag = coalition_despotism
 set_country_flag = coalition_theocracy
 set_country_flag = coalition_corporatism

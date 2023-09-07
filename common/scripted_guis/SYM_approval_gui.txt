@@ -8,15 +8,69 @@ scripted_gui = {
 		}
 
 		effects = {
-			SYM_effect_click = {
-				SYM_effect = yes
+			SYM_tiveask_effect_click = {
+				SYM_tiveask_effect = yes
 			}
-			# FHI_PSL_1_effect_right_click = {
-			# 	FHI_PSL_1_fake_effect = yes
-			# }
+			SYM_center_effect_click = {
+				SYM_center_effect = yes
+			}
+			SYM_kakrikea_effect_click = {
+				SYM_kakrikea_effect = yes
+			}
+			SYM_mavildea_effect_click = {
+				SYM_mavildea_effect = yes
+			}
+			SYM_termithia_effect_click = {
+				SYM_termithia_effect = yes
+			}
+			SYM_seda_effect_click = {
+				SYM_seda_effect = yes
+			}
+			SYM_voskra_effect_click = {
+				SYM_voskra_effect = yes
+			}
+			SYM_resse_effect_click = {
+				SYM_resse_effect = yes
+			}
+			SYM_lavido_effect_click = {
+				SYM_lavido_effect = yes
+			}
+			SYM_lavska_effect_click = {
+				SYM_lavska_effect = yes
+			}
 		}
 		
 		triggers = {
+			SYM_tiveask_effect_click_enabled = {
+				always = yes
+			}
+			SYM_center_effect_click_enabled = {
+				always = yes
+			}
+			SYM_kakrikea_effect_click_enabled = {
+				always = yes
+			}
+			SYM_mavildea_effect_click_enabled = {
+				always = yes
+			}
+			SYM_termithia_effect_click_enabled = {
+				always = yes
+			}
+			SYM_seda_effect_click_enabled = {
+				always = yes
+			}
+			SYM_voskra_effect_click_enabled = {
+				always = yes
+			}
+			SYM_resse_effect_click_enabled = {
+				always = yes
+			}
+			SYM_lavido_effect_click_enabled = {
+				always = yes
+			}
+			SYM_lavska_effect_click_enabled = {
+				always = yes
+			}
 			SYM_effect_click_enabled = {
 				always = yes
 			}
