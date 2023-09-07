@@ -1,0 +1,46 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sym_approval_frame"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_center"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_center.dds"  
+	}
+	spriteType = {
+		name = "GFX_sym_approval_kakrikea"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_kakrikea.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_lavido"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_lavido.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_lavska"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_lavska.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_mavildea"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_mavildea.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_resse"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_resse.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_seda"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_seda.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_termithia"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_termithia.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_tiveask"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_tiveask.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_voskra"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_voskra.dds"
+	}
+}

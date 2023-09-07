@@ -1,0 +1,26 @@
+SYM_approval_gui = {
+	test = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		
+		allowed = { 
+	 
+		} 
+		visible = { 
+  
+		} 
+		cost = 999
+	} 
+	test_2 = {
+		icon = GFX_decision_generic_prepare_civil_war 
+		
+		
+		allowed = { 
+	 
+		}   
+		visible = {
+			has_country_flag = testtest 
+		} 
+		cost = 999
+	} 
+}

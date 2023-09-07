@@ -1,0 +1,12 @@
+SYM_effect = {
+	if = {
+		limit = {
+			has_country_flag = testtest
+		}
+		clr_country_flag = testtest
+
+	}
+	else = {
+		set_country_flag = testtest
+	}
+}

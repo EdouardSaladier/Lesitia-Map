@@ -1,0 +1,134 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "SYM_approval_gui_bg_container"
+		position = { x = -0 y = -0 }
+		size = { width = 500 height = 600 }
+		orientation = center
+		verticalScrollbar = "right_vertical_slider"
+		
+
+		instantTextBoxType = {
+			name = "SYM_approval_gui_header"
+			font = "hoi_20bs"
+			text = "SYM_approval_gui_header_text"
+			maxWidth = 500 
+			maxHeight = 100 
+			format = center 
+			vertical_alignment = top
+			position = {
+				x = 0
+				y = -10
+			}
+		}
+		containerWindowType = {
+			name = "SYM_approval_gui_sub_container"
+			position = { x = 0 y = 0 }
+			iconType = {
+				name = "SYM_approval_gui_frame"
+				spriteType = "GFX_sym_approval_frame"
+				position = { x= -20 y= -15 }
+				alwaystransparent = yes
+			}
+	
+			buttonType = {
+				name ="SYM_tiveask_effect"
+				spriteType = "GFX_sym_approval_tiveask"
+				position = { x=190 y=160 }
+				alwaystransparent = no 
+				
+			}
+			buttonType = {
+				name ="SYM_center_effect"
+				spriteType = "GFX_sym_approval_center"
+				position = { x=250 y=190 }
+				alwaystransparent = no
+				
+			}
+			buttonType = {
+				name ="SYM_kakrikea_effect"
+				spriteType = "GFX_sym_approval_kakrikea"
+				position = { x=238 y=51 }
+				alwaystransparent = no
+				
+			}
+			buttonType = {
+				name ="SYM_mavildea_effect"
+				spriteType = "GFX_sym_approval_mavildea"
+				position = { x=164 y=55 }
+				alwaystransparent = no
+				
+			}
+			buttonType = {
+				name ="SYM_termithia_effect"
+				spriteType = "GFX_sym_approval_termithia"
+				position = { x=300 y=203 }
+				alwaystransparent = no
+				
+			}
+			buttonType = {
+				name ="SYM_seda_effect"
+				spriteType = "GFX_sym_approval_seda"
+				position = { x=136 y=164 }
+				alwaystransparent = no
+				
+			}
+	
+			buttonType = {
+				name ="SYM_voskra_effect"
+				spriteType = "GFX_sym_approval_voskra"
+				position = { x=60 y=179 }
+				alwaystransparent = no
+				
+			}
+			buttonType = {
+				name ="SYM_resse_effect"
+				spriteType = "GFX_sym_approval_resse"
+				position = { x=194 y=235 }
+				alwaystransparent = no
+				
+			}
+			buttonType = {
+				name ="SYM_lavido_effect"
+				spriteType = "GFX_sym_approval_lavido"
+				position = { x=148 y=219 }
+				alwaystransparent = no
+				
+			}
+			buttonType = {
+				name ="SYM_lavska_effect"
+				spriteType = "GFX_sym_approval_lavska"
+				position = { x=340 y=241 }
+				alwaystransparent = no
+				
+			}
+		}
+
+
+		instantTextBoxType = {
+			name = "SYM_approval_gui_state_name"
+			font = "hoi_18b"
+			text = "SYM_approval_gui_state_name_text"
+			maxWidth = 350
+			maxHeight = 100
+			format = left
+			position = {
+				x = 10
+				y = 380
+			}
+		}
+		instantTextBoxType = {
+			name = "SYM_approval_gui_state_overview"
+			font = "Arial12"
+			text = "SYM_approval_gui_state_overview_text"
+			maxWidth = 350
+			maxHeight = 100
+			format = left
+			position = {
+				x = 10
+				y = 405
+			}
+		}
+
+	}
+}

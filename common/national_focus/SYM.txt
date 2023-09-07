@@ -132,7 +132,7 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = SYM_3376_elections
-		}
+		} 
 		x = 9
 		y = 5
 		available = {
