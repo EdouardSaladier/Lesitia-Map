@@ -45,6 +45,7 @@ country_event = {
 	        ideology = despotism
 	        popularity = 0.2
         }
+		set_cosmetic_tag = SYM_cancelled
 	
 	}
 }
@@ -68,6 +69,12 @@ country_event = {
 	option = { 
 		name = SYM.3.b
 		set_country_flag = sym_revolutionaries_election_flag
+		promote_character = SYM_artem_valentim
+		set_party_name = { 
+			ideology = democracy
+			long_name = SYM_artem_valentim_long
+			name = SYM_artem_valentim
+		}
 		ai_chance = {
 			base = 0
 		}
@@ -75,6 +82,12 @@ country_event = {
 	option = { 
 		name = SYM.3.c
 		set_country_flag = sym_supremacists_election_flag
+		promote_character = SYM_russet_vero
+		set_party_name = { 
+			ideology = democracy
+			long_name = SYM_russet_vero_long
+			name = SYM_russet_vero
+		}
 		ai_chance = {
 			base = 0
 		}
@@ -82,6 +95,12 @@ country_event = {
 	option = { 
 		name = SYM.3.e
 		set_country_flag = sym_artists_election_flag
+		promote_character = SYM_artist_guy
+		set_party_name = { 
+			ideology = democracy
+			long_name = SYM_artist_party_long
+			name = SYM_artist_party
+		}
 		hidden_effect = {
 			country_event = { id = SYM.4 days = 10 } 
 		}
@@ -92,6 +111,11 @@ country_event = {
 	option = { 
 		name = SYM.3.f
 		set_country_flag = sym_deadlock_election_flag
+		custom_effect_tooltip = army_coup_tooltip
+		set_politics = {
+	        ruling_party = despotism
+	        elections_allowed = no
+        }
 		ai_chance = {
 			base = 0
 		}

@@ -169,6 +169,7 @@ characters = {
 			id = -1
 		}
 	}
+	
 	SYM_leo_laze = {
 		name = "Léo Laze"
 		portraits = {
@@ -179,6 +180,96 @@ characters = {
 		country_leader = {
 			ideology = democracy_type
 			desc = RFT_leo_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	
+	SYM_russet_vero = {
+		name = "Russet Vero"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYM/portrait_russet_vero.dds"
+			}
+		}
+		country_leader = {
+			ideology = democracy_type
+			desc = ETH_russet_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	
+	SYM_russet_supremacism = {
+		name = "Russet Vero"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYM/portrait_russet_vero.dds"
+			}
+		}
+		country_leader = {
+			ideology = supremacism_type
+			desc = ETH_russet_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	
+	SYM_artem_valentim = {
+		name = "Artem Valentin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYM/portrait_artem_valentim.dds"
+			}
+		}
+		country_leader = {
+			ideology = democracy_type
+			desc = SCM_valentin_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	
+	SYM_artem_commie = {
+		name = "Artem Valentin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYM/portrait_artem_valentim.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionarism_type
+			desc = SCM_valentin_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	
+	SYM_artist_guy = {
+		name = "Maximillian Rez"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYM/portrait_maximillian_rez.dds"
+			}
+		}
+		country_leader = {
+			ideology = democracy_type
+			desc = ZHA_maxi_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
+	
+	SYM_artist_final = {
+		name = "Maximillian Rez"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYM/portrait_maximillian_rez.dds"
+			}
+		}
+		country_leader = {
+			ideology = unclassified_type
+			desc = ZHA_maxi_desc
 			expire = "4000.1.1.1"
 			id = -1
 		}

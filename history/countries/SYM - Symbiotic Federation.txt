@@ -98,26 +98,18 @@ add_ideas = {
 recruit_character = SYM_amber_democracy
 recruit_character = SYM_amber_azkrini
 recruit_character = SYM_leo_laze
+recruit_character = SYM_russet_vero
+recruit_character = SYM_russet_supremacism
+recruit_character = SYM_artem_valentim
+recruit_character = SYM_artem_ccommie
+recruit_character = SYM_artist_guy
+recruit_character = SYM_artist_final
 
 create_country_leader = {
 	name = "Luã Vescitu"
 	desc = "KAK_lua_desc"
 	picture = "portrait_lua_vescitu.dds"
 	ideology = despotism_type 
-}
-
-create_country_leader = {
-	name = "Russet Vero"
-	desc = "ETH_russet_desc"
-	picture = "portrait_russet_vero.dds"
-	ideology = supremacism_type 
-}
-
-create_country_leader = {
-	name = "Artem Valentin"
-	desc = "SCM_valentin_desc"
-	picture = "portrait_artem_valentim.dds"
-	ideology = revolutionarism_type 
 }
 
 create_country_leader = {
@@ -139,13 +131,6 @@ create_country_leader = {
 	desc = "OAV_polistik_desc"
 	picture = "portrait_polistik_sorak.dds"
 	ideology = theocracy_type 
-}
-
-create_country_leader = {
-	name = "Maximillian Rez"
-	desc = "ZHA_maxi_desc"
-	picture = "portrait_maximillian_rez.dds"
-	ideology = unclassified_type 
 }
 
 recruit_character = SYM_lua_general

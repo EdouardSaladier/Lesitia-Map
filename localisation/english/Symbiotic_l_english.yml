@@ -25,6 +25,9 @@ SYM_theocracy_ADJ:0 "Symbiotic"
 SYM_revolutionarism:0 "Symbiotic Commonwealth"
 SYM_revolutionarism_DEF:0 "The Symbiotic Commonwealth"
 SYM_revolutionarism_ADJ:0 "Symbiotic"
+SYM_cancelled:0 "Symbiotic Federation"
+SYM_cancelled_DEF:0 "the Symbiotic Federation"
+SYM_cancelled_ADJ:0 "Symbiotic"
 
 ### LEADER DESC
 SYM_Amber_desc:0 "Artist: ArtChoiAila\n\nAge: 45\n\nAmber was born in a small rural town once called "Vaselios", later the town would be renamed after him, getting the name "Ambersville", the grasshopper had a very humble and simple early life, his family being on the poor side of things, but still being able to afford a decent life, but there was a problem they faced quite often, that being the reptiles occupying the region, like in many other regions the occupiers were very cruel and destructive, and here was no different, with Amber's dad being killed when he was only 16, forcing him and his mom to make it on their own.\n\nDue to this experience the insect always opposed the Empire, for a few years he kept himself quiet so he wouldn't cause trouble to his mother, but after her passing he had nothing holding him back, he would show his hate towards the Empire by starting to unite many of the partisan and resistance movements in the region into a single more organised one due to his great speaches and promises, calling this united front the "Federal Force", on the years leading up to the nuclear conflict he would continue resisting, making the federal force larger and making sure they made the life of the reptiles of the south a living nightmare before what he calls the "Shining Miracle", which is the nukes, where he and his force were finally able to rise up and free themselves.\n\nBut one thing was clear, the united front wouldn't last very long, in fact it only lasted a few weeks before fracturing itself back into many small groups, the country had no trouble initially being formed, but now people were wondering why the nation needed to continue existing, many wanting their regions to be free like in the past instead of this artifical state, Amber's motives were brought up, a good part of the population accusing him of being power hungry due to his wish to continue the Federation, because of this he would become much more quiet, with his confidence getting lower every day, not being sure if he was still capable for the position of president, now only time will tell what is the end of his story."
@@ -56,6 +59,12 @@ SYM_unclassified_party:0 "S.A.F"
 SYM_unclassified_party_long:0 "Symbiotic Artist Front"
 SYM_amber_bad:0 "Provisional Federal Party"
 SYM_amber_bad_long:0 "the Provisional Federal Party"
+SYM_russet_vero:0 "National Democratic Party"
+SYM_russet_vero_long:0 "the National Democratic Party"
+SYM_artem_valentim:0 "Representative Federative Party"
+SYM_artem_valentim_long:0 "the Representative Federative Party"
+SYM_artist_party:0 "P.L.E"
+SYM_artist_party_long:0 "Party of Love and Expression"
 
 #####focuses###
 SYM_the_current_situation:0 "The Current Situation"
@@ -102,3 +111,4 @@ SYM.3.f:0 "Election Deadlock"
 #####tooltips###
 sym_delayed_elections_tooltip:0 "§YDecided To Delay Elections§!"
 sym_elections_tooltip:0 "§YDecided To Organize The Elections§!"
+army_coup_tooltip:0 "The §RArmy§! Steps In To Contain The Chaos"
