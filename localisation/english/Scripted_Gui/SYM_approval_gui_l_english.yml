@@ -88,6 +88,7 @@ SYM_mavildea_govenor_approval_low:0 "§R[?SYM.sym_mavildea_approval|.0%%]§!"
 SYM_termithia_govenor_approval_high:0 "§G[?SYM.sym_termithia_approval|.0%%]§!"
 SYM_termithia_govenor_approval_medium:0 "§Y[?SYM.sym_termithia_approval|.0%%]§!"
 SYM_termithia_govenor_approval_low:0 "§R[?SYM.sym_termithia_approval|.0%%]§!"
+SYM_termithia_govenor_approval_no_interaction:0 "§g---§!"
 
 SYM_seda_govenor_approval_high:0 "§G[?SYM.sym_seda_approval|.0%%]§!"
 SYM_seda_govenor_approval_medium:0 "§Y[?SYM.sym_seda_approval|.0%%]§!"
@@ -100,6 +101,7 @@ SYM_lavido_govenor_approval_low:0 "§R[?SYM.sym_lavido_approval|.0%%]§!"
 SYM_lavska_govenor_approval_high:0 "§G[?SYM.sym_lavska_approval|.0%%]§!"
 SYM_lavska_govenor_approval_medium:0 "§Y[?SYM.sym_lavska_approval|.0%%]§!"
 SYM_lavska_govenor_approva_lowl:0 "§R[?SYM.sym_lavska_approval|.0%%]§!"
+SYM_lavska_govenor_approval_non_interactable:0 "§g---§!"
 
 SYM_toggle_flag_decisions_text:0 "Toggle"
  
