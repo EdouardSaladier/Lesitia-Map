@@ -132,3 +132,16 @@ SYM_lavska_effect = {
 	clr_country_flag = SYM_lavido_selected_gui
 	set_country_flag = SYM_lavska_selected_gui
 }
+SYM_toggle_flag_decisions_effect = {
+	if = {
+		limit = {
+			has_country_flag = sym_approval_gui_toggle_description
+		}
+		clr_country_flag =sym_approval_gui_toggle_description
+		set_country_flag = sym_approval_gui_toggle_decisions
+	}
+	else = {
+		set_country_flag =sym_approval_gui_toggle_description
+		clr_country_flag = sym_approval_gui_toggle_decisions
+	}
+}

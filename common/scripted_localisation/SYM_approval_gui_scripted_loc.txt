@@ -190,7 +190,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetStateFlagSymbol
+	name = GetStateSymbol
 
 	text = {
 		trigger = {
@@ -251,5 +251,581 @@ defined_text = {
 			has_country_flag = SYM_resse_selected_gui
 		}
 		localization_key = "GFX_resse_symbol"
+	}
+}
+defined_text = {
+	name = GetStateFlag
+
+	text = {
+		trigger = {
+			and = {
+				not = {
+					has_country_flag = sym_approval_gui_toggle_decisions
+				}
+				has_country_flag = sym_approval_gui_toggle_description
+				has_country_flag = SYM_voskra_selected_gui
+			}
+
+		}
+		localization_key = "GFX_voskra_flag"
+	}
+	text = {
+		trigger = {
+			and = {
+				not = {
+					has_country_flag = sym_approval_gui_toggle_decisions
+				}
+				has_country_flag = sym_approval_gui_toggle_description
+				has_country_flag = SYM_tiveask_selected_gui
+			}
+
+		}
+		localization_key = "GFX_tiveask_flag"
+	}
+	text = {
+		trigger = {
+			and = {
+				not = {
+					has_country_flag = sym_approval_gui_toggle_decisions
+				}
+				has_country_flag = sym_approval_gui_toggle_description
+				has_country_flag = SYM_center_selected_gui
+			}
+
+		}
+		localization_key = "GFX_center_flag"
+	}
+	text = {
+		trigger = {
+			and = {
+				not = {
+					has_country_flag = sym_approval_gui_toggle_decisions
+				}
+				has_country_flag = sym_approval_gui_toggle_description
+				has_country_flag = SYM_kakrikea_selected_gui
+			}
+
+		}
+		localization_key = "GFX_kakrikea_flag"
+	}
+	text = {
+		trigger = {
+			and = {
+				not = {
+					has_country_flag = sym_approval_gui_toggle_decisions
+				}
+				has_country_flag = sym_approval_gui_toggle_description
+				has_country_flag = SYM_mavildea_selected_gui
+			}
+
+		}
+		localization_key = "GFX_mavildea_flag"
+	}
+	text = {
+		trigger = {
+			and = {
+				not = {
+					has_country_flag = sym_approval_gui_toggle_decisions
+				}
+				has_country_flag = sym_approval_gui_toggle_description
+				has_country_flag = SYM_termithia_selected_gui
+			}
+
+		}
+		localization_key = "GFX_termithia_flag"
+	}
+	text = {
+		trigger = {
+			and = {
+				not = {
+					has_country_flag = sym_approval_gui_toggle_decisions
+				}
+				has_country_flag = sym_approval_gui_toggle_description
+				has_country_flag = SYM_seda_selected_gui
+			}
+
+		}
+		localization_key = "GFX_seda_flag"
+	}
+	text = {
+		trigger = {
+			and = {
+				not = {
+					has_country_flag = sym_approval_gui_toggle_decisions
+				}
+				has_country_flag = sym_approval_gui_toggle_description
+				has_country_flag = SYM_lavido_selected_gui
+			}
+
+		}
+		localization_key = "GFX_lavido_flag"
+	}
+	text = {
+		trigger = {
+			and = {
+				not = {
+					has_country_flag = sym_approval_gui_toggle_decisions
+				}
+				has_country_flag = sym_approval_gui_toggle_description
+				has_country_flag = SYM_lavska_selected_gui
+			}
+
+		}
+		localization_key = "GFX_lavska_flag"
+	}
+	text = {
+		trigger = {
+			AND = {
+				not = {
+					has_country_flag = sym_approval_gui_toggle_decisions
+				}
+				has_country_flag = sym_approval_gui_toggle_description
+				has_country_flag = SYM_resse_selected_gui
+			}
+
+		}
+		localization_key = "GFX_resse_flag"
+	}
+	text = {
+		localization_key = "GFX_no_flag"
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_state_name_minor
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_tiveask_selected_gui
+		}
+		localization_key = SYM_tiveask_region_name
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_voskra_selected_gui
+		}
+		localization_key = SYM_voskra_region_name
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_resse_selected_gui
+		}
+		localization_key = SYM_resse_region_name
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_center_selected_gui
+		}
+		localization_key = SYM_center_region_name
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_kakrikea_selected_gui
+		}
+		localization_key = SYM_kakrikea_region_name
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_mavildea_selected_gui
+		}
+		localization_key = SYM_mavildea_region_name
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_termithia_selected_gui
+		}
+		localization_key = SYM_termithia_region_name
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_seda_selected_gui
+		}
+		localization_key = SYM_seda_region_name
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_lavido_selected_gui
+		}
+		localization_key = SYM_lavido_region_name
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_lavska_selected_gui
+		}
+		localization_key = SYM_lavska_region_name
+	}
+	text = {
+		localization_key = SYM_none_region_name
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_state_capital
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_tiveask_selected_gui
+		}
+		localization_key = SYM_tiveask_region_capital
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_voskra_selected_gui
+		}
+		localization_key = SYM_voskra_region_capital
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_resse_selected_gui
+		}
+		localization_key = SYM_resse_region_capital
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_center_selected_gui
+		}
+		localization_key = SYM_center_region_capital
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_kakrikea_selected_gui
+		}
+		localization_key = SYM_kakrikea_region_capital
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_mavildea_selected_gui
+		}
+		localization_key = SYM_mavildea_region_capital
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_termithia_selected_gui
+		}
+		localization_key = SYM_termithia_region_capital
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_seda_selected_gui
+		}
+		localization_key = SYM_seda_region_capital
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_lavido_selected_gui
+		}
+		localization_key = SYM_lavido_region_capital
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_lavska_selected_gui
+		}
+		localization_key = SYM_lavska_region_capital
+	}
+	text = {
+		localization_key = SYM_none_region_capital
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_state_government
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_tiveask_selected_gui
+		}
+		localization_key = SYM_tiveask_region_government
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_voskra_selected_gui
+		}
+		localization_key = SYM_voskra_region_government
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_resse_selected_gui
+		}
+		localization_key = SYM_resse_region_government
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_center_selected_gui
+		}
+		localization_key = SYM_center_region_government
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_kakrikea_selected_gui
+		}
+		localization_key = SYM_kakrikea_region_government
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_mavildea_selected_gui
+		}
+		localization_key = SYM_mavildea_region_government
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_termithia_selected_gui
+		}
+		localization_key = SYM_termithia_region_government
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_seda_selected_gui
+		}
+		localization_key = SYM_seda_region_government
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_lavido_selected_gui
+		}
+		localization_key = SYM_lavido_region_government
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_lavska_selected_gui
+		}
+		localization_key = SYM_lavska_region_government
+	}
+	text = {
+		localization_key = SYM_none_region_government
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_state_description
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_tiveask_selected_gui
+		}
+		localization_key = SYM_tiveask_region_description
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_voskra_selected_gui
+		}
+		localization_key = SYM_voskra_region_description
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_resse_selected_gui
+		}
+		localization_key = SYM_resse_region_description
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_center_selected_gui
+		}
+		localization_key = SYM_center_region_description
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_kakrikea_selected_gui
+		}
+		localization_key = SYM_kakrikea_region_description
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_mavildea_selected_gui
+		}
+		localization_key = SYM_mavildea_region_description
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_termithia_selected_gui
+		}
+		localization_key = SYM_termithia_region_description
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_seda_selected_gui
+		}
+		localization_key = SYM_seda_region_description
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_lavido_selected_gui
+		}
+		localization_key = SYM_lavido_region_description
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_decisions
+			}
+			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = SYM_lavska_selected_gui
+		}
+		localization_key = SYM_lavska_region_description
+	}
+	text = {
+		localization_key = SYM_none_region_description
+	}
+}
+defined_text = {
+	name = GetButtonImage
+	text = {
+		trigger = {
+			not = {
+				has_country_flag =  sym_approval_gui_toggle_description
+			}
+			has_country_flag = sym_approval_gui_toggle_decisions
+		}
+		localization_key = GFX_button_actions
+	}
+	text = {
+		localization_key = GFX_no_flag
 	}
 }
