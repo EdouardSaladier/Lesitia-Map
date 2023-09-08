@@ -132,7 +132,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_termithia_symbol"
-		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/termithia_symbol.dds"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/termite_symbol.dds"
 	}
 	spriteType = {
 		name = "GFX_seda_symbol"
