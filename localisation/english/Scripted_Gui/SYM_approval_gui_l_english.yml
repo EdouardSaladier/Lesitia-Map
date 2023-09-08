@@ -61,4 +61,45 @@ SYM_lavido_region_description:0 "Description: "
 SYM_lavska_region_description:0 "Description:  "
 SYM_none_region_description:0 ""
 
+SYM_tiveask_govenor_approval_high:0 "§G[?SYM.sym_tiveask_approval|.0%%]§!"
+SYM_tiveask_govenor_approval_medium:0 "§Y[?SYM.sym_tiveask_approval|.0%%]§!"
+SYM_tiveask_govenor_approval_low:0 "§R[?SYM.sym_tiveask_approval|.0%%]§!§!"
+
+SYM_voskra_govenor_approval_high:0 "§G[?SYM.sym_voskra_approval|.0%%]§!"
+SYM_voskra_govenor_approval_medium:0 "§Y[?SYM.sym_voskra_approval|.0%%]§!"
+SYM_voskra_govenor_approval_low:0 "§R[?SYM.sym_voskra_approval|.0%%]§!"
+
+SYM_resse_govenor_approval_high:0 "§G[?SYM.sym_resse_approval|.0%%]§!"
+SYM_resse_govenor_approval_medium:0 "§Y[?SYM.sym_resse_approval|.0%%]§!"
+SYM_resse_govenor_approval_low:0 "§R[?SYM.sym_resse_approval|.0%%]§!"
+
+SYM_center_govenor_approval_high:0 "§G[?SYM.sym_center_approval|.0%%]§!"
+SYM_center_govenor_approval_medium:0 "§Y[?SYM.sym_center_approval|.0%%]§!"
+SYM_center_govenor_approval_low:0 "§R[?SYM.sym_center_approval|.0%%]§!"
+
+SYM_kakrikea_govenor_approval_high:0 "§G[?SYM.sym_kakrikea_approval|.0%%]§!"
+SYM_kakrikea_govenor_approval_medium:0 "§Y[?SYM.sym_kakrikea_approval|.0%%]§!"
+SYM_kakrikea_govenor_approval_low:0 "§R[?SYM.sym_kakrikea_approval|.0%%]§!"
+
+SYM_mavildea_govenor_approval_high:0 "§G[?SYM.sym_mavildea_approval|.0%%]§!"
+SYM_mavildea_govenor_approval_medium:0 "§Y[?SYM.sym_mavildea_approval|.0%%]§!"
+SYM_mavildea_govenor_approval_low:0 "§R[?SYM.sym_mavildea_approval|.0%%]§!"
+
+SYM_termithia_govenor_approval_high:0 "§G[?SYM.sym_termithia_approval|.0%%]§!"
+SYM_termithia_govenor_approval_medium:0 "§Y[?SYM.sym_termithia_approval|.0%%]§!"
+SYM_termithia_govenor_approval_low:0 "§R[?SYM.sym_termithia_approval|.0%%]§!"
+
+SYM_seda_govenor_approval_high:0 "§G[?SYM.sym_seda_approval|.0%%]§!"
+SYM_seda_govenor_approval_medium:0 "§Y[?SYM.sym_seda_approval|.0%%]§!"
+SYM_seda_govenor_approval_low:0 "§R[?SYM.sym_seda_approval|.0%%]§!"
+
+SYM_lavido_govenor_approval_high:0 "§G[?SYM.sym_lavido_approval|.0%%]§!"
+SYM_lavido_govenor_approval_medium:0 "§Y[?SYM.sym_lavido_approval|.0%%]§!"
+SYM_lavido_govenor_approval_low:0 "§R[?SYM.sym_lavido_approval|.0%%]§!"
+
+SYM_lavska_govenor_approval_high:0 "§G[?SYM.sym_lavska_approval|.0%%]§!"
+SYM_lavska_govenor_approval_medium:0 "§Y[?SYM.sym_lavska_approval|.0%%]§!"
+SYM_lavska_govenor_approva_lowl:0 "§R[?SYM.sym_lavska_approval|.0%%]§!"
+
 SYM_toggle_flag_decisions_text:0 "Toggle"
+ 

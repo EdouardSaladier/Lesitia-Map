@@ -14,13 +14,13 @@ SYM_approval_gui = {
 	test_2 = {
 		icon = GFX_decision_generic_prepare_civil_war 
 		
-		  
+		    
 		allowed = {                                  
 	 
 		}   
 		visible = {
 			has_country_flag = SYM_center_selected_gui                  
 		}        
-		cost = 999             	         
+		cost = 999             	                  
 	} 
 }
