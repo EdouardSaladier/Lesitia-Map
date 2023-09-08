@@ -8,6 +8,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_state_name_bg.dds"  
 	}
 	spriteType = {
+		name = "GFX_sym_approval_state_govenor_bg"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_state_govenor_bg.dds"  
+	}
+	spriteType = {
+		name = "GFX_sym_approval_state_govenor_outline"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_state_govenor_outline.dds"  
+	}
+	spriteType = {
+		name = "GFX_sym_approval_state_overview_bg"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_state_overview_bg.dds"  
+	}
+	spriteType = {
 		name = "GFX_sym_approval_header_bg"
 		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_header_bg.dds"  
 	}
@@ -50,5 +62,46 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_sym_approval_voskra"
 		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_voskra.dds"
+	}
+
+	spriteType = {
+		name = "GFX_voskra_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/voskra_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_tiveask_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/tiveask_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_center_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/center_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_kakrikea_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/kakrikea_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_mavildea_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/mavildea_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_termithia_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/termithia_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_seda_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/seda_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_lavido_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/lavido_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_lavska_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/lavska_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_resse_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/resse_govenor.dds"
 	}
 }

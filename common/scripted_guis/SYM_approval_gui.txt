@@ -6,7 +6,11 @@ scripted_gui = {
 		visible = {
 
 		}
-
+		properties = {
+			SYM_approval_state_govenor = {
+				image = "[GetStateGovenorImage]"
+			}
+		}
 		effects = {
 			SYM_tiveask_effect_click = {
 				SYM_tiveask_effect = yes

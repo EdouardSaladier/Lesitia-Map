@@ -1,5 +1,6 @@
 ﻿l_english:
 SYM_approval_gui_header_text:0 "Federation Territories"
+SYM_approval_gui:0 "Territorial Approval"
 
 SYM_tiveask_region_name:0 "Tiveask Territory"
 SYM_voskra_region_name:0 "Voskra Territory"
@@ -13,3 +14,13 @@ SYM_lavido_region_name:0 "Lavido Territory"
 SYM_lavska_region_name:0 "Lavaska Territory"
 
 
+tiveask_govenor_name:0 "Tiveask Guard"
+voskra_govenor_name:0 "Kallista Sokolova"
+resse_govenor_name:0 "Russet Vero"
+center_govenor_name:0 "Government"
+kakrikea_govenor_name:0 "Equis Tritio"
+mavildea_govenor_name:0 "Maniare Fettua"
+termithia_govenor_name:0 "Slez Zeas"
+seda_govenor_name:0 "Godofreno Olivensa"
+lavido_govenor_name:0 "Intona Rubrum"
+lavska_govenor_name:0 "Polistik Sorak."

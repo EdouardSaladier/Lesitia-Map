@@ -61,3 +61,131 @@ defined_text = {
 		localization_key = SYM_lavska_region_name
 	}
 }
+defined_text = {
+	name = GetStateGovenorImage
+
+	text = {
+		trigger = {
+			has_country_flag = SYM_voskra_selected_gui
+		}
+		localization_key = "GFX_voskra_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_tiveask_selected_gui
+		}
+		localization_key = "GFX_tiveask_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_center_selected_gui
+		}
+		localization_key = "GFX_center_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_kakrikea_selected_gui
+		}
+		localization_key = "GFX_kakrikea_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_mavildea_selected_gui
+		}
+		localization_key = "GFX_mavildea_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_termithia_selected_gui
+		}
+		localization_key = "GFX_termithia_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_seda_selected_gui
+		}
+		localization_key = "GFX_seda_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavido_selected_gui
+		}
+		localization_key = "GFX_lavido_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavska_selected_gui
+		}
+		localization_key = "GFX_lavska_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_resse_selected_gui
+		}
+		localization_key = "GFX_resse_govenor"
+	}
+}
+defined_text = {
+	name = GetStateGovenorName
+
+	text = {
+		trigger = {
+			has_country_flag = SYM_voskra_selected_gui
+		}
+		localization_key = "voskra_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_tiveask_selected_gui
+		}
+		localization_key = "tiveask_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_center_selected_gui
+		}
+		localization_key = "center_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_kakrikea_selected_gui
+		}
+		localization_key = "kakrikea_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_mavildea_selected_gui
+		}
+		localization_key = "mavildea_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_termithia_selected_gui
+		}
+		localization_key = "termithia_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_seda_selected_gui
+		}
+		localization_key = "seda_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavido_selected_gui
+		}
+		localization_key = "lavido_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavska_selected_gui
+		}
+		localization_key = "lavska_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_resse_selected_gui
+		}
+		localization_key = "resse_govenor_name"
+	}
+}
