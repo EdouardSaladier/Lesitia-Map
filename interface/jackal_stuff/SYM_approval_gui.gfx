@@ -104,4 +104,50 @@ spriteTypes = {
 		name = "GFX_resse_govenor"
 		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/resse_govenor.dds"
 	}
+
+	spriteType = {
+		name = "GFX_sym_federation_territories_decision_icon"
+		texturefile = "gfx/interface/GUI/SYM_Approval/symbiotic_territory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_voskra_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/voskra_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_tiveask_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/tiveask_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_center_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/center_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_kakrikea_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/kakrikea_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_mavildea_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/mavildea_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_termithia_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/termithia_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_seda_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/seda_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_lavido_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/lavido_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_lavska_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/lavska_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_resse_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/resse_symbol.dds"
+	}
 }

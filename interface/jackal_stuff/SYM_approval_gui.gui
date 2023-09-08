@@ -24,7 +24,7 @@ guiTypes = {
 			format = center 
 			vertical_alignment = top
 			position = {
-				x = 0
+				x = 7
 				y = -15
 			}
 		}
@@ -115,6 +115,7 @@ guiTypes = {
 			name = "SYM_approval_state_name_bg"
 			spriteType = "GFX_sym_approval_state_name_bg"
 			position = { x= 5 y= 330 }
+			
 			alwaystransparent = yes
 		}
 		
@@ -131,10 +132,18 @@ guiTypes = {
 			}
 		}
 		iconType = {
-			name = "SYM_approval_state_overview_bg"
-			spriteType = "GFX_sym_approval_state_overview_bg"
-			position = { x= 5 y= 360 }
+			name = "SYM_approval_state_symbol"
+			position = { x = 166 y = 335 } 
+			spriteType = "GFX_coalition_no_bg"
 			alwaystransparent = yes
+			
+		}
+		iconType = {
+			name = "SYM_approval_state_symbol2"
+			position = { x = 329 y = 335 } 
+			spriteType = "GFX_coalition_no_bg"
+			alwaystransparent = yes
+			
 		}
 		instantTextBoxType = {
 			name = "SYM_approval_gui_state_overview"
@@ -170,12 +179,24 @@ guiTypes = {
 			name = "SYM_approval_state_govenor_name"
 			font = "hoi_20b"
 			text = "[GetStateGovenorName]"
+			maxWidth = 169 
+			maxHeight = 90
+			format = center
+			position = {
+				x = 331
+				y = 537
+			}
+		}
+		instantTextBoxType = {
+			name = "SYM_approval_state_govenor_approval"
+			font = "hoi_20b"
+			text = "Approval: [GetStateGovenorApproval]"
 			maxWidth = 195 
 			maxHeight = 90
 			format = left
 			position = {
 				x = 331
-				y = 537
+				y = 565
 			}
 		}
 	}

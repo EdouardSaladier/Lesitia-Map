@@ -10,7 +10,7 @@ SYM_approval_gui = {
   
 		} 
 		cost = 999
-	} 
+	}   
 	test_2 = {
 		icon = GFX_decision_generic_prepare_civil_war 
 		
@@ -19,8 +19,8 @@ SYM_approval_gui = {
 	 
 		}   
 		visible = {
-			has_country_flag = SYM_center_selected_gui     
-		} 
-		cost = 999
+			has_country_flag = SYM_center_selected_gui          
+		}        
+		cost = 999             	         
 	} 
 }

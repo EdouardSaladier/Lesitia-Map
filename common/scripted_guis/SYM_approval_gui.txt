@@ -10,6 +10,12 @@ scripted_gui = {
 			SYM_approval_state_govenor = {
 				image = "[GetStateGovenorImage]"
 			}
+			SYM_approval_state_symbol = {
+				image = "[GetStateFlagSymbol]"
+			}
+			SYM_approval_state_symbol2 = {
+				image = "[GetStateFlagSymbol]"
+			}
 		}
 		effects = {
 			SYM_tiveask_effect_click = {

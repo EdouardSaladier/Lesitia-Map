@@ -5,7 +5,21 @@ oob = "standard_templates"
 # Starting tech
 
 set_research_slots = 3
+#Approval Gui
 set_country_flag = SYM_center_selected_gui
+set_country_flag = SYM_center_approval_good
+set_country_flag = SYM_tiveask_approval_neutral
+set_country_flag = SYM_mavildea_approval_good
+set_country_flag = SYM_kakrikea_approval_good
+set_country_flag = SYM_seda_approval_bad
+set_country_flag = SYM_voskra_approval_neutral
+set_country_flag = SYM_lavido_approval_bad
+set_country_flag = SYM_resse_approval_neutral
+set_country_flag = SYM_lavaska_approval_bad
+set_country_flag = SYM_termithia_approval_neutral
+
+
+
 set_country_flag = coalition_despotism
 set_country_flag = coalition_theocracy
 set_country_flag = coalition_corporatism
@@ -101,7 +115,7 @@ recruit_character = SYM_leo_laze
 recruit_character = SYM_russet_vero
 recruit_character = SYM_russet_supremacism
 recruit_character = SYM_artem_valentim
-recruit_character = SYM_artem_ccommie
+recruit_character = SYM_artem_commie
 recruit_character = SYM_artist_guy
 recruit_character = SYM_artist_final
 

@@ -189,3 +189,67 @@ defined_text = {
 		localization_key = "resse_govenor_name"
 	}
 }
+defined_text = {
+	name = GetStateFlagSymbol
+
+	text = {
+		trigger = {
+			has_country_flag = SYM_voskra_selected_gui
+		}
+		localization_key = "GFX_voskra_symbol"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_tiveask_selected_gui
+		}
+		localization_key = "GFX_tiveask_symbol"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_center_selected_gui
+		}
+		localization_key = "GFX_center_symbol"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_kakrikea_selected_gui
+		}
+		localization_key = "GFX_kakrikea_symbol"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_mavildea_selected_gui
+		}
+		localization_key = "GFX_mavildea_symbol"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_termithia_selected_gui
+		}
+		localization_key = "GFX_termithia_symbol"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_seda_selected_gui
+		}
+		localization_key = "GFX_seda_symbol"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavido_selected_gui
+		}
+		localization_key = "GFX_lavido_symbol"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavska_selected_gui
+		}
+		localization_key = "GFX_lavska_symbol"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_resse_selected_gui
+		}
+		localization_key = "GFX_resse_symbol"
+	}
+}
