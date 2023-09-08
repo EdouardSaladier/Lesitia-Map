@@ -190,6 +190,11 @@ focus = {
 		bypass = {
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry_tech
+				}
 		}
 	}
 #STARTING_TREE_BRANCH_04 (Security)
@@ -1039,6 +1044,12 @@ focus = {
 		bypass = {
 		}
 		completion_reward = {
+			add_doctrine_cost_reduction = {
+			name = industrial_warfare
+			cost_reduction = 0.5
+			uses = 2
+			category = cat_classical_armored_warfare
+			}
 		}
 	}
 focus = {
@@ -1058,6 +1069,11 @@ focus = {
 		bypass = {
 		}
 		completion_reward = {
+		add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = engineers_tech
+			}
 		}
 	}
 #MILITARY_TREE_ARMY_MOBILITY
@@ -1080,10 +1096,21 @@ focus = {
 		bypass = {
 		}
 		completion_reward = {
-			AKU = {
-				country_event = AKU.3
-				days = 10
+			hidden_effect = {
+				random = {
+					chance = 1
+					AKU = {
+						country_event = AKU.3
+						days = 10
+						}
 				}
+			}
+			add_doctrine_cost_reduction = {
+			name = "RAPID_DEPLOYMENT_DOCTRINE"
+			cost_reduction = 0.5
+			uses = 2
+			category = cat_rapid_deployment
+			}
 		}
 	}
 	focus = {
@@ -1103,6 +1130,11 @@ focus = {
 		bypass = {
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = tank_tech
+			}
 		}
 	}
 	focus = {
@@ -1194,6 +1226,11 @@ focus = {
 		bypass = {
 		}
 		completion_reward = {
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 1
+					category = naval_equipment
+				}
 		}
 	}
 #MILITARY_TREE_AIR

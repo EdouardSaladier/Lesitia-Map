@@ -10,6 +10,7 @@ country_event = {
 	trigger = {
 		tag = AKU
 		date > 3376.06.01
+		has_completed_focus = AKU_crisis_start
 	}
 
 	fire_only_once = yes
@@ -69,16 +70,20 @@ country_event = {
 		id = AKU.3
 		title = AKU.3.t
 		desc = AKU.3.d
-		#picture =
+		picture = GFX_report_event_rommel_joke
 		
 		trigger = {
 		has_completed_focus = AKU_army_mobility
 		}
 		
+
 		fire_only_once = yes
 		
 		option = {
 			name = AKU.3.a
+						ai_chance = {
+				base = 0
+			}
 			create_corps_commander = {
 				name = "Arwin Rumil"
 				desc = "AKU__desc"
@@ -90,6 +95,12 @@ country_event = {
 				planning_skill = 2
 				logistics_skill = 3	
 }
+		}
+		option = {
+			name = AKU.3.a1
+			ai_chance = {
+				base = 100
+			}
 		}
 	}
 #Mil_tree_start

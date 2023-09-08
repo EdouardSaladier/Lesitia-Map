@@ -89,6 +89,22 @@ AKU_salvage_afb:0 "Restore imperial airforce bases"
  AKU_rheol_trade:0 "Trade with Rheol"
  AKU_alliance_for_canal:0 "alliance for the canal"
  
+ #Events#
+ AKU.1.t:0 "Bombing of the Trade Prince Tower!"
+ AKU.1.d:0 "Reports have just come in of a bombing attack on the Trade Prince Tower! Now there are posts on social media of thousands of Akuriel citizens in the streets calling for change in the government structure."
+ AKU.1.a:0 "Something must be done at once!"
+ AKU.2.t:0 "The Akuriel Civil War!"
+ AKU.3.t:0 "THE desert fox"
+ AKU.3.d:0 "A mysterious fox was found in the Azejjer province earlier. He was found wearing odd attire, not too dissimilar to a Wolfstaat officer's uniform. When he was apprehended by officials, he claimed to be an experienced general and tank commander and said he was something called a "Germ man"(Subject possibly carrying diseases) in a "previous life" before "committing suicide by cyanide" (subject possibly insane). When tested, his tactics were quite competent. At least moreso than most of our officers. \n \n Despite showing clear signs of insanity, he is not carrying any contagious diseases and his tactical knowledge may help us in our future conflicts. Shall we allow this Fox into our officer corps?"
+ AKU.3.a:0 "Hire the mysterious fellow"
+ AKU.3.a1:0 "Lock him in an asylum."
+ AKU.4.t:0 "Military Report 3376"
+ AKU.4.d:0 "Our report has concluded that our military is a complete mess. We rely entirely on private contractors for everything and that gives us very little control of our own military. \n \n The mercenaries under our commmand are highly unreliable. Some are battle hardened war veterans while others are undiciplined street thugs brought on by the PMCs. In the countryside, our own mercenaries raid and pillage towns and farmlands about as much as the bandits they were hired to stop. It seems that PMCs like Venom Co. have had agents working around the clock to intimidate or even outright eliminate journalists and media outlets to prevent word from spreading about their crimes. \n \n Not only do the PMCs tend to harrass our own citizens, they put in the minimal amount of effort in training their new hires, often expecting whatever "previous experience" they wrote down to suffice. \n \n For positives, they seem to be decently well equiped with Brown Bronze equipment. \n \n In the event of an invasion, the likelyhood of survival is slim while an offensive war will be next to impossible to pull off unless we see a massive shift in our structure and stop relying on mercenaries."
+ AKU.4.a:0 "We must revamp our military structure from the ground up."
+ AKU.5.t:0 "Changing of the guard"
+ AKU.6.t:0 "My manager owns my house"
+ AKU.7.t:0 "Slicing the pie"
+ 
 #Nat Spirits#
 AKU_bandaid_gov:0 "Bandaid Government"
 AKU_bandaid_gov_desc:0 "The concept of the Trade Prince Council was originally supposed to be a temporary government designed to help keep short term stability while a proper system could be developed. However, it has been two years since Akuriel gained independence from Glaurungir and it is abundantly clear that the council in it's current state cannot last forever."
