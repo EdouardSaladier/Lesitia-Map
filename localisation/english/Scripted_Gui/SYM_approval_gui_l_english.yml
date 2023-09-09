@@ -27,7 +27,7 @@ lavska_govenor_name:0 "Polistik Sorak"
 
 SYM_tiveask_region_capital:0 "Capital: Port Tiveask"
 SYM_voskra_region_capital:0 "Capital: Cochea"
-SYM_resse_region_capital:0 "Capital: Periviers"
+SYM_resse_region_capital:0 "Capital: Perivers"
 SYM_center_region_capital:0 "Capital: Zhafollis"
 SYM_kakrikea_region_capital:0 "Capital: Zentra"
 SYM_mavildea_region_capital:0 "Capital: Polisopa"
@@ -123,5 +123,5 @@ SYM_increase_support_three_text:0 "Withdraw Political Capital "
 SYM_consumer_goods_investment:0 "Consumer Goods Investment
 
 SYM_increase_support_one_effect_tooltip:0 "-100 §YPolitical Power§!\n§G+10%§! Approval"
-SYM_increase_support_two_effect_tooltip:0 "-10% §YConsumer Goods for 100 days§! \n§G+15%§! Approval"
+SYM_increase_support_two_effect_tooltip:0 "10% §YConsumer Goods for 100 days§! \n§G+15%§! Approval"
 SYM_increase_support_three_effect_tooltip:0 "+80 §YPolitical Power§!\n§R-10%§! Approval"
