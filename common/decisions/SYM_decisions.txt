@@ -4,7 +4,7 @@ SYM_approval_gui = {
 		
 		
 		allowed = { 
-	 
+	    
 		} 
 		visible = { 
   
@@ -21,6 +21,6 @@ SYM_approval_gui = {
 		visible = {
 			has_country_flag = SYM_center_selected_gui                  
 		}        
-		cost = 999             	                      
+		cost = 999             	                             
 	} 
-}
+}                                                                         

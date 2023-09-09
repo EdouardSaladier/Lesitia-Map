@@ -7,9 +7,10 @@ oob = "standard_templates"
 set_research_slots = 3
 #Approval Gui
 set_country_flag = sym_approval_gui_toggle_description
+set_country_flag = SYM_center_selected_gui
 set_variable = {
 	sym_center_approval = 80
-}
+} 
 set_variable = {
 	sym_voskra_approval = 60
 }
@@ -26,10 +27,10 @@ set_variable = {
 	sym_mavildea_approval = 80
 }
 set_variable = {
-	sym_termithia_approval = 20
+	sym_termithia_approval = 50
 }
 set_variable = {
-	sym_seda_approval = 80
+	sym_seda_approval = 20
 }
 set_variable = {
 	sym_lavido_approval = 80

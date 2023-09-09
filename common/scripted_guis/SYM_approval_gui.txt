@@ -28,6 +28,38 @@ scripted_gui = {
 			SYM_increase_support_three_effect= {
 				image = "[GetButtonImage]"
 			}
+
+			SYM_warning_low_approval_tiveask = {
+				image = "[GetWarningTiveask]"
+			}
+			SYM_warning_low_approval_center = {
+				image = "[GetWarningCenter]"
+			}
+			SYM_warning_low_approval_kakrikea = {
+				image = "[GetWarningKakrikea]"
+			}
+			SYM_warning_low_approval_mavildea= {
+				image = "[GetWarningMavildea]"
+			}
+			SYM_warning_low_approval_termithia = {
+				image = "[GetWarningTermithia]"
+			}
+			SYM_warning_low_approval_seda = {
+				image = "[GetWarningSeda]"
+			}
+			SYM_warning_low_approval_voskra = {
+				image = "[GetWarningVoskra]"
+			}
+			SYM_warning_low_approval_resse= {
+				image = "[GetWarningResse]"
+			}
+			SYM_warning_low_approval_lavido = {
+				image = "[GetWarningLavido]"
+			}
+			SYM_warning_low_approval_lavska = {
+				image = "[GetWarningLavska]"
+			}
+
 		}
 		effects = {
 			SYM_tiveask_effect_click = {
@@ -63,10 +95,19 @@ scripted_gui = {
 			SYM_toggle_flag_decisions_effect_click = {
 				SYM_toggle_flag_decisions_effect = yes
 			}
+			SYM_increase_support_one_effect_click = {
+				SYM_increase_support_one_effect = yes
+			}
+			SYM_increase_support_two_effect_click = {
+				SYM_increase_support_two_effect = yes
+			}
+			SYM_increase_support_three_effect_click = {
+				SYM_increase_support_three_effect = yes
+			}
 		}
 		
 		triggers = {
-			SYM_toggle_flag_decisions_effect_enabled = {
+			SYM_toggle_flag_decisions_effect_click_enabled = {
 				always = yes
 			}
 			SYM_tiveask_effect_click_enabled = {
@@ -105,14 +146,98 @@ scripted_gui = {
 			SYM_effect_right_click_enabled = {
 				always = no
 			}
-			SYM_increase_support_one_effect_enabled = {
+			SYM_increase_support_one_effect_click_enabled  = {
 				has_country_flag = sym_approval_gui_toggle_decisions
+				has_political_power > 99
 			}
-			SYM_increase_support_two_effect_enabled = {
+			SYM_increase_support_two_effect_click_enabled  = {
 				has_country_flag = sym_approval_gui_toggle_decisions
+				not = {
+					has_idea = SYM_consumer_goods_investment
+				}
 			}
-			SYM_increase_support_three_effect_enabled = {
+			SYM_increase_support_three_effect_click_enabled  = {
 				has_country_flag = sym_approval_gui_toggle_decisions
+				if = {
+					limit = {
+						has_country_flag = SYM_tiveask_selected_gui
+					}
+					check_variable = {
+						sym_tiveask_approval > 0
+					}
+				}
+				else_if = {
+					limit = { 
+						has_country_flag = SYM_voskra_selected_gui
+					}
+					check_variable = {
+						sym_voskra_approval > 0
+					}
+				}
+				else_if = {
+					limit = { 
+						has_country_flag = SYM_resse_selected_gui
+					}
+					check_variable = {
+						sym_resse_approval > 0
+					}
+				}
+				else_if = {
+					limit = { 
+						has_country_flag =  SYM_center_selected_gui
+					}
+					check_variable = {
+						sym_center_approval > 0
+					}
+				}
+				else_if = {
+					limit = { 
+						has_country_flag = SYM_kakrikea_selected_gui
+					}
+					check_variable = {
+						sym_kakrikea_approval > 0
+					}
+				}
+				else_if = {
+					limit = { 
+						has_country_flag = SYM_mavildea_selected_gui
+					}
+					check_variable = {
+						sym_mavildea_approval > 0
+					}
+				}
+				else_if = {
+					limit = { 
+						has_country_flag = SYM_termithia_selected_gui
+					}
+					check_variable = {
+						sym_termithia_approval > 0
+					}
+				}
+				else_if = {
+					limit = { 
+						has_country_flag = SYM_seda_selected_gui
+					}
+					check_variable = {
+						sym_seda_approval > 0
+					}
+				}
+				else_if = {
+					limit = { 
+						has_country_flag = SYM_lavido_selected_gui
+					}
+					check_variable = {
+						sym_lavido_approval > 0
+					}
+				}
+				else_if = {
+					limit = { 
+						has_country_flag = SYM_lavska_selected_gui
+					}
+					check_variable = {
+						sym_lavska_approval > 0
+					}
+				}
 			}
 		}
 	}

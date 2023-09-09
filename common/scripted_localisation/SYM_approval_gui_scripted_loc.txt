@@ -1108,3 +1108,188 @@ defined_text = {
 		localization_key = SYM_none_govenor_approval
 	}
 }
+defined_text = {
+	name = GetWarningTiveask
+	text = {
+		trigger = {
+			check_variable = {
+				sym_tiveask_approval <33
+			}
+		}
+		localization_key = GFX_icon_warning
+	}
+	text = {
+		localization_key = GFX_no_flag
+	}
+}
+defined_text = {
+	name = GetWarningCenter
+	text = {
+		trigger = {
+			check_variable = {
+				sym_center_approval <33
+			}
+		}
+		localization_key = GFX_icon_warning
+	}
+	text = {
+		localization_key = GFX_no_flag
+	}
+}
+defined_text = {
+	name = GetWarningKakrikea
+	text = {
+		trigger = {
+			check_variable = {
+				sym_kakrikea_approval <33
+			}
+		}
+		localization_key = GFX_icon_warning
+	}
+	text = {
+		localization_key = GFX_no_flag
+	}
+}
+defined_text = {
+	name = GetWarningMavildea
+	text = {
+		trigger = {
+			check_variable = {
+				sym_mavildea_approval <33
+			}
+		}
+		localization_key = GFX_icon_warning
+	}
+	text = {
+		localization_key = GFX_no_flag
+	}
+}
+defined_text = {
+	name = GetWarningTermithia
+	text = {
+		trigger = {
+			check_variable = {
+				sym_termithia_approval <33
+			}
+		}
+		localization_key = GFX_icon_warning
+	}
+	text = {
+		localization_key = GFX_no_flag
+	}
+}
+defined_text = {
+	name = GetWarningSeda
+	text = {
+		trigger = {
+			check_variable = {
+				sym_seda_approval <33
+			}
+		}
+		localization_key = GFX_icon_warning
+	}
+	text = {
+		localization_key = GFX_no_flag
+	}
+}
+defined_text = {
+	name = GetWarningVoskra
+	text = {
+		trigger = {
+			check_variable = {
+				sym_voskra_approval <33
+			}
+		}
+		localization_key = GFX_icon_warning
+	}
+	text = {
+		localization_key = GFX_no_flag
+	}
+}
+defined_text = {
+	name = GetWarningResse
+	text = {
+		trigger = {
+			check_variable = {
+				sym_resse_approval <33
+			}
+		}
+		localization_key = GFX_icon_warning
+	}
+	text = {
+		localization_key = GFX_no_flag
+	}
+}
+defined_text = {
+	name = GetWarningLavido
+	text = {
+		trigger = {
+			check_variable = {
+				sym_lavido_approval <33
+			}
+		}
+		localization_key = GFX_icon_warning
+	}
+	text = {
+		localization_key = GFX_no_flag
+	}
+}
+defined_text = {
+	name = GetWarningLavska
+	text = {
+		trigger = {
+			check_variable = {
+				sym_lavska_approval <33
+			}
+		}
+		localization_key = GFX_icon_warning
+	}
+	text = {
+		localization_key = GFX_no_flag
+	}
+}
+defined_text = {
+	name = CheckButtonOneTextVisibility
+	text = {
+		trigger = {
+			not = {
+				has_country_flag =  sym_approval_gui_toggle_description
+			}
+			has_country_flag = sym_approval_gui_toggle_decisions
+		}
+		localization_key = SYM_increase_support_one_text
+	}
+	text = {
+		localization_key = SYM_none_region_name
+	}
+}
+defined_text = {
+	name = CheckButtonTwoTextVisibility
+	text = {
+		trigger = {
+			not = {
+				has_country_flag =  sym_approval_gui_toggle_description
+			}
+			has_country_flag = sym_approval_gui_toggle_decisions
+		}
+		localization_key = SYM_increase_support_two_text
+	}
+	text = {
+		localization_key = SYM_none_region_name
+	}
+}
+defined_text = {
+	name = CheckButtonThreeTextVisibility
+	text = {
+		trigger = {
+			not = {
+				has_country_flag =  sym_approval_gui_toggle_description
+			}
+			has_country_flag = sym_approval_gui_toggle_decisions
+		}
+		localization_key = SYM_increase_support_three_text
+	}
+	text = {
+		localization_key = SYM_none_region_name
+	}
+}

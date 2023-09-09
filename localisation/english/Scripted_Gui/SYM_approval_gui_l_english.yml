@@ -105,3 +105,23 @@ SYM_lavska_govenor_approval_non_interactable:0 "§g---§!"
 
 SYM_toggle_flag_decisions_text:0 "Toggle"
  
+SYM_tiveask_effect_tooltip:0 "Tiveask Region"
+SYM_center_effect_tooltip:0 "Zhafollis Region"
+SYM_kakrikea_effect_tooltip:0 "Kakrikea Region"
+SYM_mavildea_effect_tooltip:0 "Mavildea Region"
+SYM_termithia_effect_tooltip:0 "Termithia Region"
+SYM_seda_effect_tooltip:0 "Seda Region"
+SYM_voskra_effect_tooltip:0 "Voskra Region"
+SYM_resse_effect_tooltip:0 "Resse Region"
+SYM_lavido_effect_tooltip:0 "Lavido Region"
+SYM_lavska_effect_tooltip:0 "Laksa Region"
+
+SYM_increase_support_one_text:0 "Invest Political Capital"
+SYM_increase_support_two_text:0 "Invest Economic Capital"
+SYM_increase_support_three_text:0 "Withdraw Political Capital "
+
+SYM_consumer_goods_investment:0 "Consumer Goods Investment
+
+SYM_increase_support_one_effect_tooltip:0 "-100 §YPolitical Power§!\n§G+10%§! Approval"
+SYM_increase_support_two_effect_tooltip:0 "-10% §YConsumer Goods for 100 days§! \n§G+15%§! Approval"
+SYM_increase_support_three_effect_tooltip:0 "+80 §YPolitical Power§!\n§R-10%§! Approval"
