@@ -205,7 +205,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/SYM_Approval/button_actions.dds"
 	}
 	spriteType = {
+		name = "GFX_sym_help_button"
+		texturefile = "gfx/interface/GUI/SYM_Approval/help_button.dds"
+	}
+	spriteType = {
 		name = "GFX_icon_warning"
 		texturefile = "gfx/interface/GUI/SYM_Approval/warning.dds"
+	}
+	spriteType = {
+		name = "GFX_off_button"
+		texturefile = "gfx/interface/GUI/SYM_Approval/off_button.dds"
 	}
 }

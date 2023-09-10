@@ -146,14 +146,38 @@ scripted_gui = {
 			SYM_effect_right_click_enabled = {
 				always = no
 			}
-			SYM_increase_support_one_effect_click_enabled  = {
-				has_country_flag = sym_approval_gui_toggle_decisions
+			SYM_increase_support_one_effect_click_enabled  = { 
+				has_country_flag = sym_approval_gui_toggle_decisions 
 				has_political_power > 99
+				if = {
+					limit = { 
+						has_country_flag = SYM_termithia_selected_gui
+					}
+					has_country_flag = SYM_termithia_interactable
+				}
+				else_if = {
+					limit = { 
+						has_country_flag = SYM_lavska_selected_gui
+					}
+					has_country_flag = SYM_lavska_interactable
+				}
 			}
 			SYM_increase_support_two_effect_click_enabled  = {
 				has_country_flag = sym_approval_gui_toggle_decisions
 				not = {
 					has_idea = SYM_consumer_goods_investment
+				}
+				if = {
+					limit = { 
+						has_country_flag = SYM_termithia_selected_gui
+					}
+					has_country_flag = SYM_termithia_interactable
+				}
+				else_if = {
+					limit = { 
+						has_country_flag = SYM_lavska_selected_gui
+					}
+					has_country_flag = SYM_lavska_interactable
 				}
 			}
 			SYM_increase_support_three_effect_click_enabled  = {
@@ -208,8 +232,10 @@ scripted_gui = {
 				}
 				else_if = {
 					limit = { 
+
 						has_country_flag = SYM_termithia_selected_gui
 					}
+					has_country_flag = SYM_termithia_interactable
 					check_variable = {
 						sym_termithia_approval > 0
 					}
@@ -234,6 +260,7 @@ scripted_gui = {
 					limit = { 
 						has_country_flag = SYM_lavska_selected_gui
 					}
+					has_country_flag = SYM_lavska_interactable
 					check_variable = {
 						sym_lavska_approval > 0
 					}

@@ -4,10 +4,10 @@ SYM_approval_gui = {
 		
 		
 		allowed = { 
-	    
+	                    
 		} 
 		visible = { 
-  
+        
 		} 
 		cost = 999
 	}                       
@@ -23,4 +23,4 @@ SYM_approval_gui = {
 		}        
 		cost = 999             	                             
 	} 
-}                                                                         
+}                                                                                    

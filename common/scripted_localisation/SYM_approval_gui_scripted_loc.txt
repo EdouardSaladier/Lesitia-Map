@@ -826,7 +826,7 @@ defined_text = {
 		localization_key = GFX_button_actions
 	}
 	text = {
-		localization_key = GFX_no_flag
+		localization_key = GFX_off_button
 	}
 }
 
@@ -1291,5 +1291,69 @@ defined_text = {
 	}
 	text = {
 		localization_key = SYM_none_region_name
+	}
+}
+defined_text = {
+	name = GetStateGovenorDescription
+
+	text = {
+		trigger = {
+			has_country_flag = SYM_voskra_selected_gui
+		}
+		localization_key = "SYM_Kallista_desc"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_tiveask_selected_gui
+		}
+		localization_key = TVA_tiveask_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_center_selected_gui
+		}
+		localization_key = ZHA_robar_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_kakrikea_selected_gui
+		}
+		localization_key = SYM_Lua_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_mavildea_selected_gui
+		}
+		localization_key = MAV_maniare_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_termithia_selected_gui
+		}
+		localization_key = TER_slez_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_seda_selected_gui
+		}
+		localization_key = SED_Railanderson_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavido_selected_gui
+		}
+		localization_key = LAV_Intona_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavska_selected_gui
+		}
+		localization_key = OAV_polistik_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_resse_selected_gui
+		}
+		localization_key = ETH_russet_desc
 	}
 }

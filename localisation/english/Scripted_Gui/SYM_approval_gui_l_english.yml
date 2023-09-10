@@ -125,3 +125,5 @@ SYM_consumer_goods_investment:0 "Consumer Goods Investment
 SYM_increase_support_one_effect_tooltip:0 "-100 §YPolitical Power§!\n§G+10%§! Approval"
 SYM_increase_support_two_effect_tooltip:0 "10% §YConsumer Goods for 100 days§! \n§G+15%§! Approval"
 SYM_increase_support_three_effect_tooltip:0 "+80 §YPolitical Power§!\n§R-10%§! Approval"
+
+GovenorDescription:0 "[GetStateGovenorDescription]"

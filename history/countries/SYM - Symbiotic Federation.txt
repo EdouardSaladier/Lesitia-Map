@@ -40,9 +40,20 @@ set_variable = {
 }
 
 
+if = {
+	limit = {
+		always = no
+	}
+	set_country_flag = SYM_termithia_interactable
+}
 
 
-
+if = {
+	limit = {
+		always = no
+	}
+	set_country_flag = SYM_lavska_interactable
+}
 
 
 
