@@ -836,7 +836,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_tiveask_selected_gui
-			check_variable = { sym_tiveask_approval > 66 }
+			check_variable = { sym_tiveask_approval > 0.66 }
 		}
 		localization_key = SYM_tiveask_govenor_approval_high
 	}
@@ -844,8 +844,8 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_tiveask_selected_gui
-			check_variable = { sym_tiveask_approval < 66 }
-			check_variable = { sym_tiveask_approval > 33 }
+			check_variable = { sym_tiveask_approval < 0.66 }
+			check_variable = { sym_tiveask_approval > 0.33 }
 		}
 		localization_key = SYM_tiveask_govenor_approval_medium
 	}
@@ -853,7 +853,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_tiveask_selected_gui
-			check_variable = { sym_tiveask_approval < 33 }
+			check_variable = { sym_tiveask_approval < 0.33 }
 		}
 		localization_key = SYM_tiveask_govenor_approval_low
 	}
@@ -861,7 +861,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_voskra_selected_gui
-			check_variable = { sym_voskra_approval > 66 }
+			check_variable = { sym_voskra_approval > 0.66 }
 		}
 		localization_key = SYM_voskra_govenor_approval_high
 	}
@@ -869,8 +869,8 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_voskra_selected_gui
-			check_variable = { sym_voskra_approval < 66 }
-			check_variable = { sym_voskra_approval > 33 }
+			check_variable = { sym_voskra_approval < 0.66 }
+			check_variable = { sym_voskra_approval > 0.33 }
 		}
 		localization_key = SYM_voskra_govenor_approval_medium
 	}
@@ -878,7 +878,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_voskra_selected_gui
-			check_variable = { sym_voskra_approval < 33 }
+			check_variable = { sym_voskra_approval < 0.33 }
 		}
 		localization_key = SYM_voskra_govenor_approval_low
 	}
@@ -886,7 +886,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_resse_selected_gui
-			check_variable = { sym_resse_approval > 66 }
+			check_variable = { sym_resse_approval > 0.66 }
 		}
 		localization_key = SYM_resse_govenor_approval_high
 	}
@@ -894,8 +894,8 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_resse_selected_gui
-			check_variable = { sym_resse_approval < 66 }
-			check_variable = { sym_resse_approval > 33 }
+			check_variable = { sym_resse_approval < 0.66 }
+			check_variable = { sym_resse_approval > 0.33 }
 		}
 		localization_key = SYM_resse_govenor_approval_medium
 	}
@@ -903,7 +903,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_resse_selected_gui
-			check_variable = { sym_resse_approval < 33 }
+			check_variable = { sym_resse_approval < 0.33 }
 		}
 		localization_key = SYM_resse_govenor_approval_low
 	}
@@ -911,7 +911,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_center_selected_gui
-			check_variable = { sym_center_approval > 66 }
+			check_variable = { sym_center_approval > 0.66 }
 		}
 		localization_key = SYM_center_govenor_approval_high
 	}
@@ -919,8 +919,8 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_center_selected_gui
-			check_variable = { sym_center_approval < 66 }
-			check_variable = { sym_center_approval > 33 }
+			check_variable = { sym_center_approval < 0.66 }
+			check_variable = { sym_center_approval > 0.33 }
 		}
 		localization_key = SYM_center_govenor_approval_medium
 	}
@@ -928,7 +928,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_center_selected_gui
-			check_variable = { sym_center_approval < 33 }
+			check_variable = { sym_center_approval < 0.33 }
 		}
 		localization_key = SYM_center_govenor_approval_low
 	}
@@ -936,7 +936,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_kakrikea_selected_gui
-			check_variable = { sym_kakrikea_approval > 66 }
+			check_variable = { sym_kakrikea_approval > 0.66 }
 		}
 		localization_key = SYM_kakrikea_govenor_approval_high
 	}
@@ -944,8 +944,8 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_kakrikea_selected_gui
-			check_variable = { sym_kakrikea_approval < 66 }
-			check_variable = { sym_kakrikea_approval > 33 }
+			check_variable = { sym_kakrikea_approval < 0.66 }
+			check_variable = { sym_kakrikea_approval > 0.33 }
 		}
 		localization_key = SYM_kakrikea_govenor_approval_medium
 	}
@@ -953,7 +953,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_kakrikea_selected_gui
-			check_variable = { sym_kakrikea_approval < 33 }
+			check_variable = { sym_kakrikea_approval < 0.33 }
 		}
 		localization_key = SYM_kakrikea_govenor_approval_low
 	}
@@ -961,7 +961,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_mavildea_selected_gui
-			check_variable = { sym_mavildea_approval > 66 }
+			check_variable = { sym_mavildea_approval > 0.66 }
 		}
 		localization_key = SYM_mavildea_govenor_approval_high
 	}
@@ -969,8 +969,8 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_mavildea_selected_gui
-			check_variable = { sym_mavildea_approval < 66 }
-			check_variable = { sym_mavildea_approval > 33 }
+			check_variable = { sym_mavildea_approval < 0.66 }
+			check_variable = { sym_mavildea_approval > 0.33 }
 		}
 		localization_key = SYM_mavildea_govenor_approval_medium
 	}
@@ -978,7 +978,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_mavildea_selected_gui
-			check_variable = { sym_mavildea_approval < 33 }
+			check_variable = { sym_mavildea_approval < 0.33 }
 		}
 		localization_key = SYM_mavildea_govenor_approval_low
 	}
@@ -996,7 +996,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_termithia_selected_gui
-			check_variable = { sym_termithia_approval > 66 }
+			check_variable = { sym_termithia_approval > 0.66 }
 
 		}
 		localization_key = SYM_termithia_govenor_approval_high
@@ -1005,8 +1005,8 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_termithia_selected_gui
-			check_variable = { sym_termithia_approval < 66 }
-			check_variable = { sym_termithia_approval > 33 }
+			check_variable = { sym_termithia_approval < 0.66 }
+			check_variable = { sym_termithia_approval > 0.33 }
 		}
 		localization_key = SYM_termithia_govenor_approval_medium
 	}
@@ -1014,7 +1014,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_termithia_selected_gui
-			check_variable = { sym_termithia_approval < 33 } 
+			check_variable = { sym_termithia_approval < 0.33 } 
 		}
 		localization_key = SYM_termithia_govenor_approval_low
 	}
@@ -1022,7 +1022,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_seda_selected_gui
-			check_variable = { sym_seda_approval > 66 }
+			check_variable = { sym_seda_approval > 0.66 }
 		}
 		localization_key = SYM_seda_govenor_approval_high
 	}
@@ -1030,8 +1030,8 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_seda_selected_gui
-			check_variable = { sym_seda_approval < 66 }
-			check_variable = { sym_seda_approval > 33 }
+			check_variable = { sym_seda_approval < 0.66 }
+			check_variable = { sym_seda_approval > 0.33 }
 		}
 		localization_key = SYM_seda_govenor_approval_medium
 	}
@@ -1039,7 +1039,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_seda_selected_gui
-			check_variable = { sym_seda_approval < 33 }
+			check_variable = { sym_seda_approval < 0.33 }
 		}
 		localization_key = SYM_seda_govenor_approval_low
 	}
@@ -1047,7 +1047,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_lavido_selected_gui
-			check_variable = { sym_lavido_approval > 66 }
+			check_variable = { sym_lavido_approval > 0.66 }
 		}
 		localization_key = SYM_lavido_govenor_approval_high
 	}
@@ -1055,8 +1055,8 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_lavido_selected_gui
-			check_variable = { sym_lavido_approval < 66 }
-			check_variable = { sym_lavido_approval > 33 }
+			check_variable = { sym_lavido_approval < 0.66 }
+			check_variable = { sym_lavido_approval > 0.33 }
 		}
 		localization_key = SYM_lavido_govenor_approval_medium
 	}
@@ -1064,7 +1064,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_lavido_selected_gui
-			check_variable = { sym_lavido_approval < 33 }
+			check_variable = { sym_lavido_approval < 0.33 }
 		}
 		localization_key = SYM_lavido_govenor_approval_low
 	}
@@ -1081,7 +1081,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_lavska_selected_gui
-			check_variable = { sym_lavska_approval > 66 }
+			check_variable = { sym_lavska_approval > 0.66 }
 
 		}
 		localization_key = SYM_lavska_govenor_approval_high
@@ -1090,8 +1090,8 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_lavska_selected_gui
-			check_variable = { sym_lavska_approval < 66 }
-			check_variable = { sym_lavska_approval > 33 }
+			check_variable = { sym_lavska_approval < 0.66 }
+			check_variable = { sym_lavska_approval > 0.33 }
 		}
 		localization_key = SYM_lavska_govenor_approval_medium
 	}
@@ -1099,7 +1099,7 @@ defined_text = {
 		trigger = {
 
 			has_country_flag = SYM_lavska_selected_gui
-			check_variable = { sym_lavska_approval < 33 }
+			check_variable = { sym_lavska_approval < 0.33 }
 
 		}
 		localization_key = SYM_lavska_govenor_approval_low
@@ -1113,7 +1113,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				sym_tiveask_approval <33
+				sym_tiveask_approval <0.33
 			}
 		}
 		localization_key = GFX_icon_warning
@@ -1127,7 +1127,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				sym_center_approval <33
+				sym_center_approval <0.33
 			}
 		}
 		localization_key = GFX_icon_warning
@@ -1141,7 +1141,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				sym_kakrikea_approval <33
+				sym_kakrikea_approval <0.33
 			}
 		}
 		localization_key = GFX_icon_warning
@@ -1155,7 +1155,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				sym_mavildea_approval <33
+				sym_mavildea_approval <0.33
 			}
 		}
 		localization_key = GFX_icon_warning
@@ -1168,8 +1168,9 @@ defined_text = {
 	name = GetWarningTermithia
 	text = {
 		trigger = {
+			has_country_flag = SYM_termithia_interactable
 			check_variable = {
-				sym_termithia_approval <33
+				sym_termithia_approval <0.33
 			}
 		}
 		localization_key = GFX_icon_warning
@@ -1183,7 +1184,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				sym_seda_approval <33
+				sym_seda_approval <0.33
 			}
 		}
 		localization_key = GFX_icon_warning
@@ -1197,7 +1198,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				sym_voskra_approval <33
+				sym_voskra_approval <0.33
 			}
 		}
 		localization_key = GFX_icon_warning
@@ -1211,7 +1212,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				sym_resse_approval <33
+				sym_resse_approval <0.33
 			}
 		}
 		localization_key = GFX_icon_warning
@@ -1225,7 +1226,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				sym_lavido_approval <33
+				sym_lavido_approval <0.33
 			}
 		}
 		localization_key = GFX_icon_warning
@@ -1238,8 +1239,9 @@ defined_text = {
 	name = GetWarningLavska
 	text = {
 		trigger = {
+			has_country_flag = SYM_lavska_interactable
 			check_variable = {
-				sym_lavska_approval <33
+				sym_lavska_approval <0.33
 			}
 		}
 		localization_key = GFX_icon_warning

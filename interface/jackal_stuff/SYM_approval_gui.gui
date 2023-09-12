@@ -404,12 +404,13 @@ guiTypes = {
 				y = 565
 			}
 		}
-		buttonType = {
+		iconType = {
 			name ="SYM_approval_gui_help_effect"
 			spriteType = "GFX_sym_help_button"
 			position = { x=475 y=-17 }
 			scale = 0.7
 			alwaystransparent = no 
+			pdx_tooltip = "SYM_approval_gui_help_tooltip"
 		}
 	}
 }

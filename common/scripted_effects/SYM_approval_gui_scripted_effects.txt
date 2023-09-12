@@ -154,7 +154,7 @@ SYM_increase_support_one_effect = {
 		}
 		add_to_variable = {
 			var = sym_tiveask_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -163,7 +163,7 @@ SYM_increase_support_one_effect = {
 		}
 		add_to_variable = {
 			var = sym_voskra_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -172,7 +172,7 @@ SYM_increase_support_one_effect = {
 		}
 		add_to_variable = {
 			var = sym_resse_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -181,7 +181,7 @@ SYM_increase_support_one_effect = {
 		}
 		add_to_variable = {
 			var = sym_center_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -190,7 +190,7 @@ SYM_increase_support_one_effect = {
 		}
 		add_to_variable = {
 			var = sym_kakrikea_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -199,7 +199,7 @@ SYM_increase_support_one_effect = {
 		}
 		add_to_variable = {
 			var = sym_mavildea_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -208,7 +208,7 @@ SYM_increase_support_one_effect = {
 		}
 		add_to_variable = {
 			var = sym_termithia_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -217,7 +217,7 @@ SYM_increase_support_one_effect = {
 		}
 		add_to_variable = {
 			var = sym_seda_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -226,7 +226,7 @@ SYM_increase_support_one_effect = {
 		}
 		add_to_variable = {
 			var = sym_lavido_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -235,7 +235,7 @@ SYM_increase_support_one_effect = {
 		}
 		add_to_variable = {
 			var = sym_lavska_approval
-			value = 10
+			value = 0.10
 		}
 	}
 }
@@ -250,7 +250,7 @@ SYM_increase_support_two_effect = {
 		}
 		add_to_variable = {
 			var = sym_tiveask_approval
-			value = 15
+			value = 0.15
 		}
 	}
 	else_if = {
@@ -259,7 +259,7 @@ SYM_increase_support_two_effect = {
 		}
 		add_to_variable = {
 			var = sym_voskra_approval
-			value = 15
+			value = 0.15
 		}
 	}
 	else_if = {
@@ -268,7 +268,7 @@ SYM_increase_support_two_effect = {
 		}
 		add_to_variable = {
 			var = sym_resse_approval
-			value = 15
+			value = 0.15
 		}
 	}
 	else_if = {
@@ -277,7 +277,7 @@ SYM_increase_support_two_effect = {
 		}
 		add_to_variable = {
 			var = sym_center_approval
-			value = 15
+			value = 0.15
 		}
 	}
 	else_if = {
@@ -286,7 +286,7 @@ SYM_increase_support_two_effect = {
 		}
 		add_to_variable = {
 			var = sym_kakrikea_approval
-			value = 15
+			value = 0.15
 		}
 	}
 	else_if = {
@@ -295,7 +295,7 @@ SYM_increase_support_two_effect = {
 		}
 		add_to_variable = {
 			var = sym_mavildea_approval
-			value = 15
+			value = 0.15
 		}
 	}
 	else_if = {
@@ -304,7 +304,7 @@ SYM_increase_support_two_effect = {
 		}
 		add_to_variable = {
 			var = sym_termithia_approval
-			value = 15
+			value = 0.15
 		}
 	}
 	else_if = {
@@ -313,7 +313,7 @@ SYM_increase_support_two_effect = {
 		}
 		add_to_variable = {
 			var = sym_seda_approval
-			value = 15
+			value = 0.15
 		}
 	}
 	else_if = {
@@ -322,7 +322,7 @@ SYM_increase_support_two_effect = {
 		}
 		add_to_variable = {
 			var = sym_lavido_approval
-			value = 15
+			value = 0.15
 		}
 	}
 	else_if = {
@@ -331,7 +331,7 @@ SYM_increase_support_two_effect = {
 		}
 		add_to_variable = {
 			var = sym_lavska_approval
-			value = 15
+			value = 0.15
 		}
 	}
 }
@@ -343,7 +343,7 @@ SYM_increase_support_three_effect = {
 		}
 		subtract_from_variable = {
 			var = sym_tiveask_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -352,7 +352,7 @@ SYM_increase_support_three_effect = {
 		}
 		subtract_from_variable = {
 			var = sym_voskra_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -361,7 +361,7 @@ SYM_increase_support_three_effect = {
 		}
 		subtract_from_variable = {
 			var = sym_resse_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -370,7 +370,7 @@ SYM_increase_support_three_effect = {
 		}
 		subtract_from_variable = {
 			var = sym_center_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -379,7 +379,7 @@ SYM_increase_support_three_effect = {
 		}
 		subtract_from_variable = {
 			var = sym_kakrikea_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -388,7 +388,7 @@ SYM_increase_support_three_effect = {
 		}
 		subtract_from_variable = {
 			var = sym_mavildea_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -397,7 +397,7 @@ SYM_increase_support_three_effect = {
 		}
 		subtract_from_variable = {
 			var = sym_termithia_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -406,7 +406,7 @@ SYM_increase_support_three_effect = {
 		}
 		subtract_from_variable = {
 			var = sym_seda_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -415,7 +415,7 @@ SYM_increase_support_three_effect = {
 		}
 		subtract_from_variable = {
 			var = sym_lavido_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else_if = {
@@ -424,7 +424,7 @@ SYM_increase_support_three_effect = {
 		}
 		subtract_from_variable = {
 			var = sym_lavska_approval
-			value = 10
+			value = 0.10
 		}
 	}
 }

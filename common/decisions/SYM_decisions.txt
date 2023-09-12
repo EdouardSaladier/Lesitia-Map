@@ -4,7 +4,7 @@ SYM_approval_gui = {
 		
 		
 		allowed = { 
-	                    
+	                          
 		} 
 		visible = { 
         
