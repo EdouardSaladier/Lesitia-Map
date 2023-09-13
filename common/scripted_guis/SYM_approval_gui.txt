@@ -19,15 +19,15 @@ scripted_gui = {
 			SYM_approval_state_flag = {
 				image = "[GetStateFlag]"
 			}
-			SYM_increase_support_one_effect= {
-				image = "[GetButtonImage]"
-			}
-			SYM_increase_support_two_effect= {
-				image = "[GetButtonImage]"
-			}
-			SYM_increase_support_three_effect= {
-				image = "[GetButtonImage]"
-			}
+			# SYM_increase_support_one_effect= {
+			# 	image = "[GetButtonImage]"
+			# }
+			# SYM_increase_support_two_effect= {
+			# 	image = "[GetButtonImage]"
+			# }
+			# SYM_increase_support_three_effect= {
+			# 	image = "[GetButtonImage]"
+			# }
 
 			SYM_warning_low_approval_tiveask = {
 				image = "[GetWarningTiveask]"
@@ -95,15 +95,15 @@ scripted_gui = {
 			SYM_toggle_flag_decisions_effect_click = {
 				SYM_toggle_flag_decisions_effect = yes
 			}
-			SYM_increase_support_one_effect_click = {
-				SYM_increase_support_one_effect = yes
-			}
-			SYM_increase_support_two_effect_click = {
-				SYM_increase_support_two_effect = yes
-			}
-			SYM_increase_support_three_effect_click = {
-				SYM_increase_support_three_effect = yes
-			}
+			# SYM_increase_support_one_effect_click = {
+			# 	SYM_increase_support_one_effect = yes
+			# }
+			# SYM_increase_support_two_effect_click = {
+			# 	SYM_increase_support_two_effect = yes
+			# }
+			# SYM_increase_support_three_effect_click = {
+			# 	SYM_increase_support_three_effect = yes
+			# }
 		}
 		
 		triggers = {

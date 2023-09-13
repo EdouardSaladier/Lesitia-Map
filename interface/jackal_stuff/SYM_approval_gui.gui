@@ -291,75 +291,13 @@ guiTypes = {
 				text = "[SYM_approval_gui_state_description]"
 				maxWidth = 305
 				maxHeight = 50
-				format = left
+				format = center
 				position = { 
 					x = 0
-					y = 130
+					y = 10
 				}
 			}
-			buttonType = {
-				name ="SYM_increase_support_one_effect"
-				spriteType = "GFX_button_actions"
-				position = { x=20 y=50 }
-				scale =1.1
-				alwaystransparent = no
-				pdx_tooltip = "SYM_increase_support_one_effect_tooltip"
-			}
-			instantTextBoxType = {
-				name = "SYM_increase_support_one_button_text"
-				font = "hoi_20bs"
-				text = "[CheckButtonOneTextVisibility]"
-				alwaystransparent = yes
-				maxWidth = 305
-				maxHeight = 50
-				format = left
-				position = { 
-					x = 65
-					y = 56
-				}
-			}
-			buttonType = {
-				name ="SYM_increase_support_two_effect"
-				spriteType = "GFX_button_actions"
-				position = { x=20 y=100 }
-				scale = 1.1
-				alwaystransparent = no
-				pdx_tooltip = "SYM_increase_support_two_effect_tooltip"
-			}
-			instantTextBoxType = {
-				name = "SYM_increase_support_two_button_text"
-				font = "hoi_20bs"
-				text = "[CheckButtonTwoTextVisibility]"
-				alwaystransparent = yes
-				maxWidth = 305
-				maxHeight = 50
-				format = left
-				position = { 
-					x = 57
-					y = 106
-				}
-			}
-			buttonType = {
-				name ="SYM_increase_support_three_effect"
-				spriteType = "GFX_button_actions"
-				position = { x=20 y=150 }
-				scale = 1.1
-				alwaystransparent = no
-				pdx_tooltip = "SYM_increase_support_three_effect_tooltip"
-			}
-			instantTextBoxType = {
-				name = "SYM_increase_support_three_button_text"
-				font = "hoi_20bs"
-				text = "[CheckButtonThreeTextVisibility]"
-				maxWidth = 305
-				maxHeight = 50
-				alwaystransparent = yes
-				format = left
-				position = { 
-					x = 52
-					y = 156
-				}
-			}
+
 		}
 
 		iconType = {

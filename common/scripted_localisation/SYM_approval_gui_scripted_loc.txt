@@ -713,9 +713,9 @@ defined_text = {
 	text = {
 		trigger = {
 			not = {
-				has_country_flag = sym_approval_gui_toggle_decisions
+				has_country_flag = sym_approval_gui_toggle_description
 			}
-			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag =  sym_approval_gui_toggle_decisions
 			has_country_flag = SYM_tiveask_selected_gui
 		}
 		localization_key = SYM_tiveask_region_description
@@ -723,9 +723,9 @@ defined_text = {
 	text = {
 		trigger = {
 			not = {
-				has_country_flag = sym_approval_gui_toggle_decisions
+				has_country_flag = sym_approval_gui_toggle_description
 			}
-			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = sym_approval_gui_toggle_decisions 
 			has_country_flag = SYM_voskra_selected_gui
 		}
 		localization_key = SYM_voskra_region_description
@@ -733,9 +733,9 @@ defined_text = {
 	text = {
 		trigger = {
 			not = {
-				has_country_flag = sym_approval_gui_toggle_decisions
+				has_country_flag = sym_approval_gui_toggle_description
 			}
-			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = sym_approval_gui_toggle_decisions
 			has_country_flag = SYM_resse_selected_gui
 		}
 		localization_key = SYM_resse_region_description
@@ -743,9 +743,9 @@ defined_text = {
 	text = {
 		trigger = {
 			not = {
-				has_country_flag = sym_approval_gui_toggle_decisions
+				has_country_flag = sym_approval_gui_toggle_description
 			}
-			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = sym_approval_gui_toggle_decisions
 			has_country_flag = SYM_center_selected_gui
 		}
 		localization_key = SYM_center_region_description
@@ -753,9 +753,9 @@ defined_text = {
 	text = {
 		trigger = {
 			not = {
-				has_country_flag = sym_approval_gui_toggle_decisions
+				has_country_flag = sym_approval_gui_toggle_description
 			}
-			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = sym_approval_gui_toggle_decisions
 			has_country_flag = SYM_kakrikea_selected_gui
 		}
 		localization_key = SYM_kakrikea_region_description
@@ -763,9 +763,9 @@ defined_text = {
 	text = {
 		trigger = {
 			not = {
-				has_country_flag = sym_approval_gui_toggle_decisions
+				has_country_flag = sym_approval_gui_toggle_description
 			}
-			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = sym_approval_gui_toggle_decisions
 			has_country_flag = SYM_mavildea_selected_gui
 		}
 		localization_key = SYM_mavildea_region_description
@@ -773,9 +773,9 @@ defined_text = {
 	text = {
 		trigger = {
 			not = {
-				has_country_flag = sym_approval_gui_toggle_decisions
+				has_country_flag = sym_approval_gui_toggle_description
 			}
-			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = sym_approval_gui_toggle_decisions
 			has_country_flag = SYM_termithia_selected_gui
 		}
 		localization_key = SYM_termithia_region_description
@@ -783,9 +783,9 @@ defined_text = {
 	text = {
 		trigger = {
 			not = {
-				has_country_flag = sym_approval_gui_toggle_decisions
+				has_country_flag = sym_approval_gui_toggle_description
 			}
-			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = sym_approval_gui_toggle_decisions
 			has_country_flag = SYM_seda_selected_gui
 		}
 		localization_key = SYM_seda_region_description
@@ -793,9 +793,9 @@ defined_text = {
 	text = {
 		trigger = {
 			not = {
-				has_country_flag = sym_approval_gui_toggle_decisions
+				has_country_flag = sym_approval_gui_toggle_description
 			}
-			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = sym_approval_gui_toggle_decisions
 			has_country_flag = SYM_lavido_selected_gui
 		}
 		localization_key = SYM_lavido_region_description
@@ -803,30 +803,15 @@ defined_text = {
 	text = {
 		trigger = {
 			not = {
-				has_country_flag = sym_approval_gui_toggle_decisions
+				has_country_flag = sym_approval_gui_toggle_description
 			}
-			has_country_flag = sym_approval_gui_toggle_description
+			has_country_flag = sym_approval_gui_toggle_decisions
 			has_country_flag = SYM_lavska_selected_gui
 		}
 		localization_key = SYM_lavska_region_description
 	}
 	text = {
 		localization_key = SYM_none_region_description
-	}
-}
-defined_text = {
-	name = GetButtonImage
-	text = {
-		trigger = {
-			not = {
-				has_country_flag =  sym_approval_gui_toggle_description
-			}
-			has_country_flag = sym_approval_gui_toggle_decisions
-		}
-		localization_key = GFX_button_actions
-	}
-	text = {
-		localization_key = GFX_off_button
 	}
 }
 

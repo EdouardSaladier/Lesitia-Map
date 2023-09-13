@@ -41,54 +41,6 @@ set_variable = {
 	sym_lavska_approval = 0.2
 }
 
-set_variable = {#political_power_factor
-	sym_center_political_power_bonus = 0.10
-}
-set_variable = {#stability_factor
-	sym_center_stability_bonus = 0.1
-}
-set_variable = {#country_resource_food
-	sym_mavildea_food_bonus = 5
-}
-set_variable = {#breakthrough_factor
-	sym_kakrikea_breakthrough_bonus = 0.075
-}
-set_variable = { #resistance_damage_to_garrison
-	sym_kakrikea_dmg_to_garrisons_bonus = -0.1
-}
-set_variable = {#conscription
-	sym_voskra_manpower_bonus = 0.001
-}
-set_variable = {#training_time_factor
-	sym_voskra_training_time_bonus = -0.1
-}
-set_variable = {#local_resources_factor
-	sym_lavido_local_resources_bonus = 0.1
-}
-set_variable = {#war_stability_factor
-	sym_resse_war_stability_bonus = 0.1
-}
-set_variable = {#army_org_factor
-	sym_resse_organization_bonus = 0.05
-}
-set_variable = {#out_of_supply_factor 
-	sym_tiveask_out_of_supply_bonus = -0.1
-}
-set_variable = {#army_morale_factor
-	sym_tiveask_recovery_bonus = 0.05
-}
-set_variable = {#research_speed_factor
-	sym_termithia_research_speed_bonus = 0.1
-}
-set_variable = {#surrender_limit
-	sym_laksa_surrender_limit_bonus = 0.1
-}
-set_variable = {#war_support_factor min_export
-	sym_seda_war_support_bonus = 0.1
-}
-set_variable = {#min_export
-	sym_seda_min_export_bonus = -0.05
-}
 
 
 if = {
