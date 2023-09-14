@@ -898,4 +898,13 @@
 			# 		y = 156
 			# 	}
 			# }
-#####interface/jackalstuff#####
+#####common/scripted_gui#####
+	# SYM_increase_support_one_effect_click = {
+	# 	SYM_increase_support_one_effect = yes
+	# }
+	# SYM_increase_support_two_effect_click = {
+	# 	SYM_increase_support_two_effect = yes
+	# }
+	# SYM_increase_support_three_effect_click = {
+	# 	SYM_increase_support_three_effect = yes
+	# }

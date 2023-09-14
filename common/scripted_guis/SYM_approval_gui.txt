@@ -95,15 +95,7 @@ scripted_gui = {
 			SYM_toggle_flag_decisions_effect_click = {
 				SYM_toggle_flag_decisions_effect = yes
 			}
-			# SYM_increase_support_one_effect_click = {
-			# 	SYM_increase_support_one_effect = yes
-			# }
-			# SYM_increase_support_two_effect_click = {
-			# 	SYM_increase_support_two_effect = yes
-			# }
-			# SYM_increase_support_three_effect_click = {
-			# 	SYM_increase_support_three_effect = yes
-			# }
+
 		}
 		
 		triggers = {

@@ -145,4 +145,258 @@ SYM_toggle_flag_decisions_effect = {
 		clr_country_flag = sym_approval_gui_toggle_decisions
 	}
 }
+SYM_increase_central_approval_10 = {
+	add_to_variable = {
+		var = sym_center_approval
+		value = 10
+	}
+}
+SYM_increase_central_approval_20 = {
+	add_to_variable = {
+		var = sym_center_approval
+		value = 20
+	}
+}
+SYM_reduce_central_approval_10 = {
+	subtract_from_variable = {
+		var = sym_center_approval
+		value = 10
+	}
+}
+SYM_reduce_central_approval_20 = {
+	subtract_from_variable = {
+		var = sym_center_approval
+		value = 20
+	}
+}
 
+SYM_increase_voskra_approval_10 = {
+	add_to_variable = {
+		var = sym_voskra_approval
+		value = 10
+	}
+}
+SYM_increase_voskra_approval_20 = {
+	add_to_variable = {
+		var = sym_voskra_approval
+		value = 20
+	}
+}
+SYM_reduce_voskra_approval_10 = {
+	subtract_from_variable = {
+		var = sym_voskra_approval
+		value = 10
+	}
+}
+SYM_reduce_voskra_approval_20 = {
+	subtract_from_variable = {
+		var = sym_voskra_approval
+		value = 20
+	}
+}
+SYM_reduce_central_approval_20 = {
+	subtract_from_variable = {
+		var = sym_center_approval
+		value = 20
+	}
+}
+
+SYM_increase_tiveask_approval_10 = {
+	add_to_variable = {
+		var = sym_tiveask_approval
+		value = 10
+	}
+}
+SYM_increase_tiveask_approval_20 = {
+	add_to_variable = {
+		var = sym_tiveask_approval
+		value = 20
+	}
+}
+SYM_reduce_tiveask_approval_10 = {
+	subtract_from_variable = {
+		var = sym_tiveask_approval
+		value = 10
+	}
+}
+SYM_reduce_tiveask_approval_20 = {
+	subtract_from_variable = {
+		var = sym_tiveask_approval
+		value = 20
+	}
+}
+
+SYM_increase_resse_approval_10 = {
+	add_to_variable = {
+		var = sym_resse_approval
+		value = 10
+	}
+}
+SYM_increase_resse_approval_20 = {
+	add_to_variable = {
+		var = sym_resse_approval
+		value = 20
+	}
+}
+SYM_reduce_resse_approval_10 = {
+	subtract_from_variable = {
+		var = sym_resse_approval
+		value = 10
+	}
+}
+SYM_reduce_resse_approval_20 = {
+	subtract_from_variable = {
+		var = sym_resse_approval
+		value = 20
+	}
+}
+
+SYM_increase_kakrikea_approval_10 = {
+	add_to_variable = {
+		var = sym_kakrikea_approval
+		value = 10
+	}
+}
+SYM_increase_kakrikea_approval_20 = {
+	add_to_variable = {
+		var = sym_kakrikea_approval
+		value = 20
+	}
+}
+SYM_reduce_kakrikea_approval_10 = {
+	subtract_from_variable = {
+		var = sym_kakrikea_approval
+		value = 10
+	}
+}
+SYM_reduce_kakrikea_approval_20 = {
+	subtract_from_variable = {
+		var = sym_kakrikea_approval
+		value = 20
+	}
+}
+
+SYM_increase_mavildea_approval_10 = {
+	add_to_variable = {
+		var = sym_mavildea_approval
+		value = 10
+	}
+}
+SYM_increase_mavildea_approval_20 = {
+	add_to_variable = {
+		var = sym_mavildea_approval
+		value = 20
+	}
+}
+SYM_reduce_mavildea_approval_10 = {
+	subtract_from_variable = {
+		var = sym_mavildea_approval
+		value = 10
+	}
+}
+SYM_reduce_mavildea_approval_20 = {
+	subtract_from_variable = {
+		var = sym_mavildea_approval
+		value = 20
+	}
+}
+
+SYM_increase_termithia_approval_10 = {
+	add_to_variable = {
+		var = sym_termithia_approval
+		value = 10
+	}
+}
+SYM_increase_termithia_approval_20 = {
+	add_to_variable = {
+		var = sym_termithia_approval
+		value = 20
+	}
+}
+SYM_reduce_termithia_approval_10 = {
+	subtract_from_variable = {
+		var = sym_termithia_approval
+		value = 10
+	}
+}
+SYM_reduce_termithia_approval_20 = {
+	subtract_from_variable = {
+		var = sym_termithia_approval
+		value = 20
+	}
+}
+
+SYM_increase_seda_approval_10 = {
+	add_to_variable = {
+		var = sym_seda_approval
+		value = 10
+	}
+}
+SYM_increase_seda_approval_20 = {
+	add_to_variable = {
+		var = sym_seda_approval
+		value = 20
+	}
+}
+SYM_reduce_seda_approval_10 = {
+	subtract_from_variable = {
+		var = sym_seda_approval
+		value = 10
+	}
+}
+SYM_reduce_seda_approval_20 = {
+	subtract_from_variable = {
+		var = sym_seda_approval
+		value = 20
+	}
+}
+
+SYM_increase_lavido_approval_10 = {
+	add_to_variable = {
+		var = sym_lavido_approval
+		value = 10
+	}
+}
+SYM_increase_lavido_approval_20 = {
+	add_to_variable = {
+		var = sym_lavido_approval
+		value = 20
+	}
+}
+SYM_reduce_lavido_approval_10 = {
+	subtract_from_variable = {
+		var = sym_lavido_approval
+		value = 10
+	}
+}
+SYM_reduce_lavido_approval_20 = {
+	subtract_from_variable = {
+		var = sym_lavido_approval
+		value = 20
+	}
+}
+
+SYM_increase_lavska_approval_10 = {
+	add_to_variable = {
+		var = sym_lavska_approval
+		value = 10
+	}
+}
+SYM_increase_lavska_approval_20 = {
+	add_to_variable = {
+		var = sym_lavska_approval
+		value = 20
+	}
+}
+SYM_reduce_lavska_approval_10 = {
+	subtract_from_variable = {
+		var = sym_lavska_approval
+		value = 10
+	}
+}
+SYM_reduce_lavska_approval_20 = {
+	subtract_from_variable = {
+		var = sym_lavska_approval
+		value = 20
+	}
+}
