@@ -24,5 +24,10 @@ spriteTypes = {
 		name = "GFX_report_event_rommel_joke"
 		texturefile = "gfx/event_pictures/report_event_rommel_joke.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_report_event_tpc_bombing"
+		texturefile = "gfx/event_pictures/report_event_tpc_bombing.dds"
+	}
 }
 

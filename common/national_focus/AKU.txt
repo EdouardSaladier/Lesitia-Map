@@ -749,13 +749,13 @@ focus = {
 		}
 	}
 focus = {
-		id = AKU_fight_for_people
+		id = AKU_mouratt_ep
 		icon = GFX
 		cost = 1
 		ai_will_do = {
 			factor = 40
 		}
-		x = 0
+		x = 2
 		y = 1
 		relative_position_id = AKU_hear
 		available = {}
@@ -765,17 +765,17 @@ focus = {
 	}
 #Crisis_tree_dem
 		focus = {
-			id = AKU_mouratt_ep
+			id = AKU_dem_path
 			icon = GFX
 			cost = 3
 			ai_will_do = {
 				factor = 40
 			}
-			relative_position_id = AKU_fight_for_people
-			x = 0
+			relative_position_id = AKU_mouratt_ep
+			x = -1
 			y = 1
 			available = {}
-			prerequisite = { focus = AKU_fight_for_people }
+			prerequisite = { focus = AKU_mouratt_ep }
 			mutually_exclusive = {focus = AKU_rev }
 			bypass = {}
 			completion_reward = {
@@ -792,11 +792,11 @@ focus = {
 			ai_will_do = {
 				factor = 40
 			}
-			relative_position_id = AKU_mouratt_ep
+			relative_position_id = AKU_dem_path
 			x = -2
 			y = 1
 			available = {}
-			prerequisite = { focus = AKU_mouratt_ep}
+			prerequisite = { focus = AKU_dem_path}
 			bypass = {}
 			completion_reward = {
 			add_stability = .05
@@ -813,11 +813,11 @@ focus = {
 			ai_will_do = {
 				factor = 10
 			}
-			relative_position_id = AKU_mouratt_ep
+			relative_position_id = AKU_dem_path
 			x = 0
 			y = 1
 			available = {}
-			prerequisite = { focus = AKU_mouratt_ep}
+			prerequisite = { focus = AKU_dem_path}
 			bypass = {}
 			completion_reward = {
 			add_stability = 0.25
@@ -876,12 +876,12 @@ focus = {
 				ai_will_do = {
 					factor = 0
 				}
-				relative_position_id = AKU_fight_for_people
-				x = 3
+				relative_position_id = AKU_mouratt_ep
+				x = 2
 				y = 1
 				available = {}
-				prerequisite = { focus = AKU_fight_for_people }
-				mutually_exclusive = {focus = AKU_mouratt_ep }
+				prerequisite = { focus = AKU_mouratt_ep }
+				mutually_exclusive = {focus = AKU_dem_path }
 				bypass = {}
 				completion_reward = {
 					add_popularity = {
@@ -983,7 +983,7 @@ focus = {
 	focus = {
 		id = AKU_real_military
 		icon = GFX
-		cost = 5
+		cost = 12
 		ai_will_do = {
 			factor = 40
 		}

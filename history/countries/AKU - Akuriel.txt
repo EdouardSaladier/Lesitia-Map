@@ -62,6 +62,8 @@ set_popularities = {
 country_lock_all_division_template = yes
 add_ideas = AKU_bandaid_gov
 add_ideas = AKU_merc_apparatus
+add_ideas = AKU_low_trust
+add_ideas = AKU_fight_against_imperialism
 
 create_country_leader = {
 	name = "Trade Prince Council"

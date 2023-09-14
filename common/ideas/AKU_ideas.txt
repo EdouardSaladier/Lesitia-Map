@@ -5,6 +5,7 @@ ideas = {
 			#picture
 			modifier = {
 				stability_factor = -0.30
+				political_power_gain = -0.1
 			}
 			allowed = {}
 			available = {}
@@ -14,12 +15,39 @@ ideas = {
 		AKU_merc_apparatus = {
 			#picture
 			modifier = {
+			stability_factor = -0.10
+			political_power_gain = -0.1
 			}
 			allowed = {
 				tag = AKU
 			}
 			available = {}
 			cancel = {}
+		}
+#Low Trust Society
+		AKU_low_trust = {
+			#picture =
+			modifier = {
+			stability_factor = -0.05
+			political_power_gain = -0.1	
+			}
+			allowed = {
+				tag = AKU
+			}
+			available = {}
+			cancel = {}
+		}
+#Memories of imperialism
+		AKU_fight_against_imperialism = {
+		#picture =
+		modifier = {
+			war_support_factor = 0.1
+		}
+			allowed = {
+				tag = AKU
+			}
+			available = {}
+			cancel = {}		
 		}
 		AKU_corpo_5year = {
 			#picture =
