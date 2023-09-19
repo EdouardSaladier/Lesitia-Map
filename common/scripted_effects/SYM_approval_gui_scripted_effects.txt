@@ -170,7 +170,7 @@ SYM_reduce_central_approval_10 = {
 		}
 	}
 	else = {
-		country_event = SYM.22
+		country_event = SYM.23
 	}
 }
 SYM_reduce_central_approval_20 = {
@@ -186,7 +186,7 @@ SYM_reduce_central_approval_20 = {
 		}
 	}
 	else = {
-		country_event = SYM.22
+		country_event = SYM.23
 	}
 }
 
@@ -576,7 +576,7 @@ SYM_reduce_lavska_approval_10 = {
 		}
 	}
 	else = {
-		country_event = SYM.21 
+		country_event = SYM.22
 	}
 }
 SYM_reduce_lavska_approval_20 = {
@@ -592,6 +592,6 @@ SYM_reduce_lavska_approval_20 = {
 		}
 	}
 	else = {
-		country_event = SYM.21 
+		country_event = SYM.22
 	}
 }

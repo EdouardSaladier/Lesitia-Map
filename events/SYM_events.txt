@@ -636,7 +636,7 @@ country_event = {
 	}
 }
 country_event = {    
-	id = SYM.17 #Mavildea Rebelion
+	id = SYM.17 #Accidental Entry
 	title = SYM.17.t
 	desc = SYM.17.d
 	#picture = 
@@ -645,13 +645,6 @@ country_event = {
 
 	option = { 
 		name = SYM.17.a
-		release = MAV
-		MAV = {
-			declare_war_on = {
-				target = SYM
-				type = annex_everything
-			}
-		}
 	}
 }
 country_event = {    
@@ -731,15 +724,15 @@ country_event = {
 	}
 }
 country_event = {    
-	id = SYM.21 #Laksa Rebelion
-	title = SYM.21.t
-	desc = SYM.21.d
+	id = SYM.22 #Laksa Rebelion
+	title = SYM.22.t
+	desc = SYM.22.d
 	#picture = 
 
 	is_triggered_only = yes
 
 	option = { 
-		name = SYM.21.a
+		name = SYM.22.a
 		release = OAV
 		OAV = {
 			declare_war_on = {
@@ -750,9 +743,9 @@ country_event = {
 	}
 }
 country_event = {    
-	id = SYM.22 #Central Region Rebelion
-	title = SYM.22.t
-	desc = SYM.22.d
+	id = SYM.23 #Central Region Rebelion
+	title = SYM.23.t
+	desc = SYM.23.d
 	#picture = 
 
 	is_triggered_only = yes

@@ -160,6 +160,45 @@ SYM.12.d:0 "Lorem Ipsum"
 SYM.12.a:0 "The Exiles Flee To Refreshment Islands"
 SYM.12.b:0 "Resse Republic will reign supreme"
 
+SYM.13.t:0 "Resse Rebellion"
+SYM.13.d:0 "Lorem Ipsum"
+SYM.13.a:0 "Our army will bring back order to Resse Region"
+
+SYM.14.t:0 "Lavido Rebellion"
+SYM.14.d:0 "Lorem Ipsum"
+SYM.14.a:0 "Our army will bring back order to Lavido Region"
+
+SYM.15.t:0 "Voskra Rebellion"
+SYM.15.d:0 "Lorem Ipsum"
+SYM.15.a:0 "Our army will bring back order to Voskra Region"
+
+SYM.16.t:0 "Seda Rebellion"
+SYM.16.d:0 "Lorem Ipsum"
+SYM.16.a:0 "Our army will bring back order to Seda Region"
+
+SYM.18.t:0 "Mavildea Rebellion"
+SYM.18.d:0 "Lorem Ipsum"
+SYM.18.a:0 "Our army will bring back order to Mavildea Region"
+
+SYM.19.t:0 "Kakrikea Rebellion"
+SYM.19.d:0 "Lorem Ipsum"
+SYM.19.a:0 "Our army will bring back order to Kakrikea Region"
+
+SYM.20.t:0 "Tiveask Rebellion"
+SYM.20.d:0 "Lorem Ipsum"
+SYM.20.a:0 "Our army will bring back order to Tiveask Region"
+
+SYM.21.t:0 "Termithia Rebellion"
+SYM.21.d:0 "Lorem Ipsum"
+SYM.21.a:0 "Our army will bring back order to Termithia Region"
+
+SYM.22.t:0 "Laksa Rebellion"
+SYM.22.d:0 "Lorem Ipsum"
+SYM.22.a:0 "Our army will bring back order to Laksa Region"
+
+SYM.23.t:0 "Zhaffolis Rebellion"
+SYM.23.d:0 "Lorem Ipsum"
+SYM.23.a:0 "Our army will bring back order to Zhaffolis Region"
 #####tooltips###
 sym_delayed_elections_tooltip:0 "§YDecided To Delay Elections§!"
 sym_elections_tooltip:0 "§YDecided To Organize The Elections§!"
