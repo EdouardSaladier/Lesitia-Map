@@ -286,15 +286,27 @@ guiTypes = {
 				}
 			}
 			instantTextBoxType = {
-				name = "SYM_approval_gui_state_description"
+				name = "SYM_approval_gui_state_description_text"
 				font = "hoi_20bs"
-				text = "[SYM_approval_gui_state_description]"
-				maxWidth = 305
+				text = "[SYM_approval_gui_description_text]"
+				maxWidth = 290 
 				maxHeight = 50
 				format = center
 				position = { 
-					x = 0
+					x = -4
 					y = 10
+				}
+			}
+			instantTextBoxType = {
+				name = "SYM_approval_gui_state_description"
+				font = "hoi_18mbs"
+				text = "[SYM_approval_gui_state_description]"
+				maxWidth = 290 
+				maxHeight = 50
+				format = center
+				position = { 
+					x = -4
+					y = 35
 				}
 			}
 
@@ -345,7 +357,7 @@ guiTypes = {
 		iconType = {
 			name ="SYM_approval_gui_help_effect"
 			spriteType = "GFX_sym_help_button"
-			position = { x=475 y=-17 }
+			position = { x=473 y=-17 }
 			scale = 0.7
 			alwaystransparent = no 
 			pdx_tooltip = "SYM_approval_gui_help_tooltip"

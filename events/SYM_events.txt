@@ -222,7 +222,7 @@ country_event = {
 
 	}
 	option = { 
-		name = SYM.6.a
+		name = SYM.6.b
 		release = VOS
 		release = SCM
 		retire_character = SYM_kallista_general
@@ -557,5 +557,214 @@ country_event = {
 			sym_get_cores = yes
 		}
 		
+	}
+}
+country_event = {    
+	id = SYM.13 #Resse Rebelion
+	title = SYM.13.t
+	desc = SYM.13.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.13.a
+		release = ETH
+		ETH = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.14 #Lavido Rebelion
+	title = SYM.14.t
+	desc = SYM.14.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.14.a
+		release = LAV
+		LAV = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.15 #Voskra Rebelion
+	title = SYM.15.t
+	desc = SYM.15.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.15.a
+		release = VOS
+		VOS = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.16 #Seda Rebelion
+	title = SYM.16.t
+	desc = SYM.16.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.16.a
+		release = SED
+		SED = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.17 #Mavildea Rebelion
+	title = SYM.17.t
+	desc = SYM.17.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.17.a
+		release = MAV
+		MAV = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.18 #Mavildea Rebelion
+	title = SYM.18.t
+	desc = SYM.18.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.18.a
+		release = MAV
+		MAV = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.19 #Kakrikea Rebelion
+	title = SYM.19.t
+	desc = SYM.19.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.19.a
+		release = KAK
+		KAK = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.20 #Tiveask Rebelion
+	title = SYM.20.t
+	desc = SYM.20.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.20.a
+		release = TVA
+		TVA = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.21 #Termithia Rebelion
+	title = SYM.21.t
+	desc = SYM.21.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.21.a
+		release = TER
+		TER = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.21 #Laksa Rebelion
+	title = SYM.21.t
+	desc = SYM.21.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.21.a
+		release = OAV
+		OAV = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.22 #Central Region Rebelion
+	title = SYM.22.t
+	desc = SYM.22.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.22.a
+		release = ZHA
+		ZHA = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
 	}
 }

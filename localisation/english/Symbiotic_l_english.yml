@@ -108,6 +108,58 @@ SYM.3.c:0 "The Supremacists Win The Vote"
 SYM.3.e:0 "The Artists Win The Vote?"
 SYM.3.f:0 "Election Deadlock"
 
+SYM.4.t:0 "Central Symbiotic Republic Splits"
+SYM.4.d:0 "Lorem Ipsum"
+SYM.4.a:0 "For The Federation!"
+SYM.4.b:0 "Stay The Course"
+
+SYM.5.t:0 "Kakrikea And Mavildea Hives Break Away"
+SYM.5.d:0 "Lorem Ipsum"
+SYM.5.a:0 "Mavildea hive will restore democracy"
+SYM.5.b:0 "Kakrikea hive will restore democracy"
+SYM.5.c:0 "Stay The Course"
+
+SYM.6.t:0 "Voskra And Seda Commune Break Away"
+SYM.6.d:0 "Lorem Ipsum"
+SYM.6.a:0 "Kallista will bring greatness to Voskra!"
+SYM.6.b:0 "Seda Commune will triumph!"
+SYM.6.c:0 "Stay The Course"
+
+SYM.7.t:0 "Army Command South And Republican Front Break Away"
+SYM.7.d:0 "Lorem Ipsum"
+SYM.7.a:0 "Army Command South will bring order to the federation!"
+SYM.7.b:0 "Republican Front will restore democracy!"
+SYM.7.c:0 "Stay The Course"
+
+SYM.8.t:0 "Tiveask Provisional Government And Termithia Break Away"
+SYM.8.d:0 "Lorem Ipsum"
+SYM.8.a:0 "Tiveask Provisional Government will become a safe zone"
+SYM.8.b:0 "A hidden society awakens"
+SYM.8.c:0 "Stay The Course"
+
+SYM.9.t:0 "Surrealistica And Tiveask Bandit Zone Break Away"
+SYM.9.d:0 "Lorem Ipsum"
+SYM.9.a:0 "The artists will reunite the federation"
+SYM.9.b:0 "Tiveask bandits are bolder than ever"
+SYM.9.c:0 "Stay The Course"
+
+SYM.10.t:0 "United Hives Of Levido And Seda Confederation Break Away"
+SYM.10.d:0 "Lorem Ipsum"
+SYM.10.a:0 "Revolution of Lavido begins"
+SYM.10.b:0 "Seda Confederation stands at the ready"
+SYM.10.c:0 "Stay The Course"
+
+SYM.11.t:0 "Tiveask Zone And Lavido Republic Break Away"
+SYM.11.d:0 "Lorem Ipsum"
+SYM.11.a:0 "Tiveask guard stands against the bandits"
+SYM.11.b:0 "People Of Lavido stand to defend the republic"
+SYM.11.c:0 "Stay The Course"
+
+SYM.12.t:0 "Refreshment Islands And Resse Republic Break Away"
+SYM.12.d:0 "Lorem Ipsum"
+SYM.12.a:0 "The Exiles Flee To Refreshment Islands"
+SYM.12.b:0 "Resse Republic will reign supreme"
+
 #####tooltips###
 sym_delayed_elections_tooltip:0 "§YDecided To Delay Elections§!"
 sym_elections_tooltip:0 "§YDecided To Organize The Elections§!"

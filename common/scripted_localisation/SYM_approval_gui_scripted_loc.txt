@@ -1344,3 +1344,18 @@ defined_text = {
 		localization_key = ETH_russet_desc
 	}
 }
+defined_text = {
+	name = SYM_approval_gui_description_text
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = sym_approval_gui_toggle_description
+			}
+			has_country_flag =  sym_approval_gui_toggle_decisions
+		}
+		localization_key = SYM_approval_gui_description
+	}
+	text = {
+		localization_key = ""
+	}
+}

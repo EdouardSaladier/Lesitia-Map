@@ -28,7 +28,9 @@ focus_tree = {
 		}
 		x = 10
 		y = 1
+		completion_reward = {
 
+		}
 	}
 	
 	focus = {

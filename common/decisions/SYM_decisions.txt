@@ -8,10 +8,10 @@ SYM_approval_gui = {
 		} 
 		visible = { 
         
-		} 
-		cost = 999
+		}  
+		cost = 999 
 	}                       
-	test_2 = {
+	test_2 = {         
 		icon = GFX_decision_generic_prepare_civil_war 
 		
 		    
@@ -23,4 +23,4 @@ SYM_approval_gui = {
 		}        
 		cost = 999             	                             
 	} 
-}                                                                                    
+}  
