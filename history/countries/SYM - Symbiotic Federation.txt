@@ -41,6 +41,14 @@ set_variable = {
 }
 
 
+set_country_flag = SYM_center_interactable
+set_country_flag = SYM_voskra_interactable
+set_country_flag = SYM_tiveask_interactable
+set_country_flag = SYM_resse_interactable
+set_country_flag = SYM_kakrikea_interactable
+set_country_flag = SYM_mavildea_interactable
+set_country_flag = SYM_seda_interactable
+set_country_flag = SYM_lavido_interactable
 
 if = {
 	limit = {

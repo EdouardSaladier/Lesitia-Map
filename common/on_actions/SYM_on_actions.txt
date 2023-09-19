@@ -1,0 +1,138 @@
+on_actions = { 
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = {
+						tag = ETH
+					}
+					FROM = {
+						tag = SYM
+					}
+				}
+				SYM = {
+					country_event = SYM.24
+				}
+				
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = LAV
+					}
+					FROM = {
+						tag = SYM
+					}
+				}
+				SYM = {
+					country_event = SYM.25
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = VOS
+					}
+					FROM = {
+						tag = SYM
+					}
+				}
+				SYM = {
+					country_event = SYM.26
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = SED
+					}
+					FROM = {
+						tag = SYM
+					}
+				}
+				SYM = {
+					country_event = SYM.27
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = MAV
+					}
+					FROM = {
+						tag = SYM
+					}
+				}
+				SYM = {
+					country_event = SYM.28
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = KAK
+					}
+					FROM = {
+						tag = SYM
+					}
+				}
+				SYM = {
+					country_event = SYM.29
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = TVA
+					}
+					FROM = {
+						tag = SYM
+					}
+				}
+				SYM = {
+					country_event = SYM.30
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = TER
+					}
+					FROM = {
+						tag = SYM
+					}
+				}
+				SYM = {
+					country_event = SYM.31
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = OAV
+					}
+					FROM = {
+						tag = SYM
+					}
+				}
+				SYM = {
+					country_event = SYM.32
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = ZHA
+					}
+					FROM = {
+						tag = SYM
+					}
+				}
+				SYM = {
+					country_event = SYM.33
+				}
+				
+			}
+		}
+	}
+}

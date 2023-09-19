@@ -819,6 +819,15 @@ defined_text = {
 	name = GetGovenorApproval
 	text = {
 		trigger = {
+			not = {
+				has_country_flag = SYM_tiveask_interactable
+			}
+			has_country_flag = SYM_tiveask_selected_gui
+		}
+		localization_key = SYM_termithia_govenor_approval_no_interaction
+	}
+	text = {
+		trigger = {
 
 			has_country_flag = SYM_tiveask_selected_gui
 			check_variable = { sym_tiveask_approval > 0.66 }
@@ -841,6 +850,15 @@ defined_text = {
 			check_variable = { sym_tiveask_approval < 0.33 }
 		}
 		localization_key = SYM_tiveask_govenor_approval_low
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = SYM_voskra_interactable
+			}
+			has_country_flag = SYM_voskra_selected_gui
+		}
+		localization_key = SYM_termithia_govenor_approval_no_interaction
 	}
 	text = {
 		trigger = {
@@ -869,6 +887,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			not = {
+				has_country_flag = SYM_resse_interactable
+			}
+			has_country_flag = SYM_resse_selected_gui
+		}
+		localization_key = SYM_termithia_govenor_approval_no_interaction
+	}
+	text = {
+		trigger = {
 
 			has_country_flag = SYM_resse_selected_gui
 			check_variable = { sym_resse_approval > 0.66 }
@@ -891,6 +918,15 @@ defined_text = {
 			check_variable = { sym_resse_approval < 0.33 }
 		}
 		localization_key = SYM_resse_govenor_approval_low
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = SYM_center_interactable
+			}
+			has_country_flag = SYM_center_selected_gui
+		}
+		localization_key = SYM_termithia_govenor_approval_no_interaction
 	}
 	text = {
 		trigger = {
@@ -919,6 +955,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			not = {
+				has_country_flag = SYM_kakrikea_interactable
+			}
+			has_country_flag = SYM_kakrikea_selected_gui
+		}
+		localization_key = SYM_termithia_govenor_approval_no_interaction
+	}
+	text = {
+		trigger = {
 
 			has_country_flag = SYM_kakrikea_selected_gui
 			check_variable = { sym_kakrikea_approval > 0.66 }
@@ -944,7 +989,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-
+			not = {
+				has_country_flag = SYM_mavildea_interactable
+			}
+			has_country_flag = SYM_mavildea_selected_gui
+		}
+		localization_key = SYM_termithia_govenor_approval_no_interaction
+	}
+	text = {
+		trigger = {
 			has_country_flag = SYM_mavildea_selected_gui
 			check_variable = { sym_mavildea_approval > 0.66 }
 		}
@@ -969,7 +1022,6 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-
 			not = {
 				has_country_flag = SYM_termithia_interactable
 			}
@@ -1005,6 +1057,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			not = {
+				has_country_flag = SYM_seda_interactable
+			}
+			has_country_flag = SYM_seda_selected_gui
+		}
+		localization_key = SYM_termithia_govenor_approval_no_interaction
+	}
+	text = {
+		trigger = {
 
 			has_country_flag = SYM_seda_selected_gui
 			check_variable = { sym_seda_approval > 0.66 }
@@ -1027,6 +1088,15 @@ defined_text = {
 			check_variable = { sym_seda_approval < 0.33 }
 		}
 		localization_key = SYM_seda_govenor_approval_low
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = SYM_lavido_interactable
+			}
+			has_country_flag = SYM_lavido_selected_gui
+		}
+		localization_key = SYM_termithia_govenor_approval_no_interaction
 	}
 	text = {
 		trigger = {
@@ -1093,6 +1163,7 @@ defined_text = {
 		localization_key = SYM_none_govenor_approval
 	}
 }
+
 defined_text = {
 	name = GetWarningTiveask
 	text = {
