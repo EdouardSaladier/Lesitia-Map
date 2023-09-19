@@ -1172,6 +1172,9 @@ defined_text = {
 				sym_tiveask_approval <0.33
 			}
 		}
+		NOT = {
+			has_country_flag = SYM_tiveask_new_govenor
+		}
 		localization_key = GFX_icon_warning
 	}
 	text = {
@@ -1184,6 +1187,9 @@ defined_text = {
 		trigger = {
 			check_variable = {
 				sym_center_approval <0.33
+			}
+			NOT = {
+				has_country_flag = SYM_central_new_govenor
 			}
 		}
 		localization_key = GFX_icon_warning
@@ -1200,6 +1206,9 @@ defined_text = {
 				sym_kakrikea_approval <0.33
 			}
 		}
+		NOT = {
+			has_country_flag = SYM_kakrikea_new_govenor
+		}
 		localization_key = GFX_icon_warning
 	}
 	text = {
@@ -1213,6 +1222,9 @@ defined_text = {
 			check_variable = {
 				sym_mavildea_approval <0.33
 			}
+		}
+		NOT = {
+			has_country_flag = SYM_mavildea_new_govenor
 		}
 		localization_key = GFX_icon_warning
 	}
@@ -1229,6 +1241,9 @@ defined_text = {
 				sym_termithia_approval <0.33
 			}
 		}
+		NOT = {
+			has_country_flag = SYM_termithia_new_govenor
+		}
 		localization_key = GFX_icon_warning
 	}
 	text = {
@@ -1242,6 +1257,9 @@ defined_text = {
 			check_variable = {
 				sym_seda_approval <0.33
 			}
+		}
+		NOT = {
+			has_country_flag = SYM_seda_new_govenor
 		}
 		localization_key = GFX_icon_warning
 	}
@@ -1257,6 +1275,9 @@ defined_text = {
 				sym_voskra_approval <0.33
 			}
 		}
+		NOT = {
+			has_country_flag = SYM_voskra_new_govenor
+		}
 		localization_key = GFX_icon_warning
 	}
 	text = {
@@ -1270,6 +1291,9 @@ defined_text = {
 			check_variable = {
 				sym_resse_approval <0.33
 			}
+		}
+		NOT = {
+			has_country_flag = SYM_resse_new_govenor
 		}
 		localization_key = GFX_icon_warning
 	}
@@ -1285,6 +1309,9 @@ defined_text = {
 				sym_lavido_approval <0.33
 			}
 		}
+		NOT = {
+			has_country_flag = SYM_lavido_new_govenor
+		}
 		localization_key = GFX_icon_warning
 	}
 	text = {
@@ -1299,6 +1326,9 @@ defined_text = {
 			check_variable = {
 				sym_lavska_approval <0.33
 			}
+		}
+		NOT = {
+			has_country_flag = SYM_laksa_new_govenor
 		}
 		localization_key = GFX_icon_warning
 	}
