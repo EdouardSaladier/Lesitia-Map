@@ -824,7 +824,7 @@ defined_text = {
 			}
 			has_country_flag = SYM_tiveask_selected_gui
 		}
-		localization_key = SYM_termithia_govenor_approval_no_interaction
+		localization_key = SYM_govenor_approval_region_secured
 	}
 	text = {
 		trigger = {
@@ -858,7 +858,7 @@ defined_text = {
 			}
 			has_country_flag = SYM_voskra_selected_gui
 		}
-		localization_key = SYM_termithia_govenor_approval_no_interaction
+		localization_key = SYM_govenor_approval_region_secured
 	}
 	text = {
 		trigger = {
@@ -892,7 +892,7 @@ defined_text = {
 			}
 			has_country_flag = SYM_resse_selected_gui
 		}
-		localization_key = SYM_termithia_govenor_approval_no_interaction
+		localization_key = SYM_govenor_approval_region_secured
 	}
 	text = {
 		trigger = {
@@ -926,7 +926,7 @@ defined_text = {
 			}
 			has_country_flag = SYM_center_selected_gui
 		}
-		localization_key = SYM_termithia_govenor_approval_no_interaction
+		localization_key = SYM_govenor_approval_region_secured
 	}
 	text = {
 		trigger = {
@@ -960,7 +960,7 @@ defined_text = {
 			}
 			has_country_flag = SYM_kakrikea_selected_gui
 		}
-		localization_key = SYM_termithia_govenor_approval_no_interaction
+		localization_key = SYM_govenor_approval_region_secured
 	}
 	text = {
 		trigger = {
@@ -994,7 +994,7 @@ defined_text = {
 			}
 			has_country_flag = SYM_mavildea_selected_gui
 		}
-		localization_key = SYM_termithia_govenor_approval_no_interaction
+		localization_key = SYM_govenor_approval_region_secured
 	}
 	text = {
 		trigger = {
@@ -1062,7 +1062,7 @@ defined_text = {
 			}
 			has_country_flag = SYM_seda_selected_gui
 		}
-		localization_key = SYM_termithia_govenor_approval_no_interaction
+		localization_key = SYM_govenor_approval_region_secured
 	}
 	text = {
 		trigger = {
@@ -1096,7 +1096,7 @@ defined_text = {
 			}
 			has_country_flag = SYM_lavido_selected_gui
 		}
-		localization_key = SYM_termithia_govenor_approval_no_interaction
+		localization_key = SYM_govenor_approval_region_secured
 	}
 	text = {
 		trigger = {
