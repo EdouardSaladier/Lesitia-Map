@@ -93,7 +93,7 @@ scripted_gui = {
 				SYM_lavska_effect = yes
 			}
 			SYM_toggle_flag_decisions_effect_click = {
-				SYM_toggle_flag_decisions_effect = yes
+				SYM_toggle_flag_decisions_effect = yes 
 			}
 
 		}

@@ -6,12 +6,11 @@ oob = "standard_templates"
 
 set_research_slots = 3
 #Approval Gui
-add_dynamic_modifier = { modifier = SYM_Region_Bonuses }
 set_country_flag = SYM_region_approval_system_on
 set_country_flag = sym_approval_gui_toggle_description
 set_country_flag = SYM_center_selected_gui
 set_variable = {
-	sym_center_approval = 0.8
+	sym_center_approval = 0.7
 } 
 set_variable = { 
 	sym_voskra_approval = 0.6
@@ -23,7 +22,7 @@ set_variable = {
 	sym_resse_approval = 0.4
 }
 set_variable = {
-	sym_kakrikea_approval = 0.8
+	sym_kakrikea_approval = 0.6
 }
 set_variable = {
 	sym_mavildea_approval = 0.6

@@ -1359,3 +1359,283 @@ defined_text = {
 		localization_key = ""
 	}
 }
+defined_text = {
+	name = SYM_approval_gui_reduce_central_approval_10_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_center_approval > 0.09
+			}
+		}
+		localization_key = SYM_reduce_central_approval_10_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_central_approval_20_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_center_approval > 0.19
+			}
+		}
+		localization_key = SYM_reduce_central_approval_20_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_voskra_approval_10_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_voskra_approval > 0.09
+			}
+		}
+		localization_key = SYM_reduce_central_approval_10_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_voskra_approval_20_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_voskra_approval > 0.19
+			}
+		}
+		localization_key = SYM_reduce_central_approval_20_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_tiveask_approval_10_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_tiveask_approval > 0.09
+			}
+		}
+		localization_key = SYM_reduce_central_approval_10_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_tiveask_approval_20_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_tiveask_approval > 0.19
+			}
+		}
+		localization_key = SYM_reduce_central_approval_20_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_resse_approval_10_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_resse_approval > 0.09
+			}
+		}
+		localization_key = SYM_reduce_central_approval_10_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_resse_approval_20_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_resse_approval > 0.19
+			}
+		}
+		localization_key = SYM_reduce_central_approval_20_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_kakrikea_approval_10_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_kakrikea_approval > 0.09
+			}
+		}
+		localization_key = SYM_reduce_central_approval_10_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_kakrikea_approval_20_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_kakrikea_approval > 0.19
+			}
+		}
+		localization_key = SYM_reduce_central_approval_20_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_mavildea_approval_10_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_mavildea_approval > 0.09
+			}
+		}
+		localization_key = SYM_reduce_central_approval_10_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_mavildea_approval_20_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_mavildea_approval > 0.19
+			}
+		}
+		localization_key = SYM_reduce_central_approval_20_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_termithia_approval_10_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_termithia_approval > 0.09
+			}
+		}
+		localization_key = SYM_reduce_central_approval_10_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_termithia_approval_20_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_termithia_approval > 0.19
+			}
+		}
+		localization_key = SYM_reduce_central_approval_20_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_seda_approval_10_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_seda_approval > 0.09
+			}
+		}
+		localization_key = SYM_reduce_central_approval_10_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_seda_approval_20_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_seda_approval > 0.19
+			}
+		}
+		localization_key = SYM_reduce_central_approval_20_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_lavido_approval_10_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_lavido_approval > 0.09
+			}
+		}
+		localization_key = SYM_reduce_central_approval_10_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_lavido_approval_20_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_lavido_approval > 0.19
+			}
+		}
+		localization_key = SYM_reduce_central_approval_20_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_lavska_approval_10_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_lavska_approval > 0.09
+			}
+		}
+		localization_key = SYM_reduce_central_approval_10_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}
+defined_text = {
+	name = SYM_approval_gui_reduce_lavska_approval_20_text
+	text = {
+		trigger = {
+			check_variable = {
+				sym_lavska_approval > 0.19
+			}
+		}
+		localization_key = SYM_reduce_central_approval_20_reduction
+	}
+	text = {
+		localization_key = SYM_reduce_central_approval_rebellion
+	}
+}

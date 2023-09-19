@@ -148,25 +148,25 @@ SYM_toggle_flag_decisions_effect = {
 SYM_increase_central_approval_10 = {
 	add_to_variable = {
 		var = sym_center_approval
-		value = 10
+		value = 0.10
 	}
 }
 SYM_increase_central_approval_20 = {
 	add_to_variable = {
 		var = sym_center_approval
-		value = 20
+		value = 0.20
 	}
 }
 SYM_reduce_central_approval_10 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_center_approval > 9
+				sym_center_approval > 0.9
 			}
 		}
 		subtract_from_variable = {
 			var = sym_center_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else = {
@@ -177,12 +177,12 @@ SYM_reduce_central_approval_20 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_center_approval > 19
+				sym_center_approval > 0.19
 			}
 		}
 		subtract_from_variable = {
 			var = sym_center_approval
-			value = 20
+			value = 0.20
 		}
 	}
 	else = {
@@ -193,25 +193,25 @@ SYM_reduce_central_approval_20 = {
 SYM_increase_voskra_approval_10 = {
 	add_to_variable = {
 		var = sym_voskra_approval
-		value = 10
+		value = 0.10
 	}
 }
 SYM_increase_voskra_approval_20 = {
 	add_to_variable = {
 		var = sym_voskra_approval
-		value = 20
+		value = 0.20
 	}
 }
 SYM_reduce_voskra_approval_10 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_voskra_approval > 9
+				sym_voskra_approval > 0.9
 			}
 		}
 		subtract_from_variable = {
 			var = sym_voskra_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else = {
@@ -222,12 +222,12 @@ SYM_reduce_voskra_approval_20 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_voskra_approval > 19
+				sym_voskra_approval > 0.19
 			}
 		}
 		subtract_from_variable = {
 			var = sym_voskra_approval
-			value = 20
+			value = 0.20
 		}
 	}
 	else = {
@@ -238,25 +238,25 @@ SYM_reduce_voskra_approval_20 = {
 SYM_increase_tiveask_approval_10 = {
 	add_to_variable = {
 		var = sym_tiveask_approval
-		value = 10
+		value = 0.10
 	}
 }
 SYM_increase_tiveask_approval_20 = {
 	add_to_variable = {
 		var = sym_tiveask_approval
-		value = 20
+		value = 0.20
 	}
 }
 SYM_reduce_tiveask_approval_10 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_tiveask_approval > 9
+				sym_tiveask_approval > 0.9
 			}
 		}
 		subtract_from_variable = {
 			var = sym_tiveask_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else = {
@@ -267,12 +267,12 @@ SYM_reduce_tiveask_approval_20 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_tiveask_approval > 19
+				sym_tiveask_approval > 0.19
 			}
 		}
 		subtract_from_variable = {
 			var = sym_tiveask_approval
-			value = 20
+			value = 0.20
 		}
 	}
 	else = {
@@ -284,25 +284,25 @@ SYM_reduce_tiveask_approval_20 = {
 SYM_increase_resse_approval_10 = {
 	add_to_variable = {
 		var = sym_resse_approval
-		value = 10
+		value = 0.10
 	}
 }
 SYM_increase_resse_approval_20 = {
 	add_to_variable = {
 		var = sym_resse_approval
-		value = 20
+		value = 0.20
 	}
 }
 SYM_reduce_resse_approval_10 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_resse_approval > 9
+				sym_resse_approval > 0.9
 			}
 		}
 		subtract_from_variable = {
 			var = sym_resse_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else = {
@@ -313,12 +313,12 @@ SYM_reduce_resse_approval_20 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_resse_approval > 19
+				sym_resse_approval > 0.19
 			}
 		}
 		subtract_from_variable = {
 			var = sym_resse_approval
-			value = 20
+			value = 0.20
 		}
 	}
 	else = {
@@ -329,25 +329,25 @@ SYM_reduce_resse_approval_20 = {
 SYM_increase_kakrikea_approval_10 = {
 	add_to_variable = {
 		var = sym_kakrikea_approval
-		value = 10
+		value = 0.10
 	}
 }
 SYM_increase_kakrikea_approval_20 = {
 	add_to_variable = {
 		var = sym_kakrikea_approval
-		value = 20
+		value = 0.20
 	}
 }
 SYM_reduce_kakrikea_approval_10 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_kakrikea_approval > 9
+				sym_kakrikea_approval > 0.9
 			}
 		}
 		subtract_from_variable = {
 			var = sym_kakrikea_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else = {
@@ -358,12 +358,12 @@ SYM_reduce_kakrikea_approval_20 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_kakrikea_approval > 19
+				sym_kakrikea_approval > 0.19
 			}
 		}
 		subtract_from_variable = {
 			var = sym_kakrikea_approval
-			value = 20
+			value = 0.20
 		}
 	}
 	else = {
@@ -374,25 +374,25 @@ SYM_reduce_kakrikea_approval_20 = {
 SYM_increase_mavildea_approval_10 = {
 	add_to_variable = {
 		var = sym_mavildea_approval
-		value = 10
+		value = 0.10
 	}
 }
 SYM_increase_mavildea_approval_20 = {
 	add_to_variable = {
 		var = sym_mavildea_approval
-		value = 20
+		value = 0.20
 	}
 }
 SYM_reduce_mavildea_approval_10 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_mavildea_approval > 9
+				sym_mavildea_approval > 0.9
 			}
 		}
 		subtract_from_variable = {
 			var = sym_mavildea_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else = {
@@ -403,12 +403,12 @@ SYM_reduce_mavildea_approval_20 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_mavildea_approval > 19
+				sym_mavildea_approval > 0.19
 			}
 		}
 		subtract_from_variable = {
 			var = sym_mavildea_approval
-			value = 20
+			value = 0.20
 		}
 	}
 	else = {
@@ -419,25 +419,25 @@ SYM_reduce_mavildea_approval_20 = {
 SYM_increase_termithia_approval_10 = {
 	add_to_variable = {
 		var = sym_termithia_approval
-		value = 10
+		value = 0.10
 	}
 }
 SYM_increase_termithia_approval_20 = {
 	add_to_variable = {
 		var = sym_termithia_approval
-		value = 20
+		value = 0.20
 	}
 }
 SYM_reduce_termithia_approval_10 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_termithia_approval > 9
+				sym_termithia_approval > 0.9
 			}
 		}
 		subtract_from_variable = {
 			var = sym_termithia_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else = {
@@ -448,12 +448,12 @@ SYM_reduce_termithia_approval_20 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_termithia_approval > 19
+				sym_termithia_approval > 0.19
 			}
 		}
 		subtract_from_variable = {
 			var = sym_termithia_approval
-			value = 20
+			value = 0.20
 		}
 	}
 	else = {
@@ -464,25 +464,25 @@ SYM_reduce_termithia_approval_20 = {
 SYM_increase_seda_approval_10 = {
 	add_to_variable = {
 		var = sym_seda_approval
-		value = 10
+		value = 0.10
 	}
 }
 SYM_increase_seda_approval_20 = {
 	add_to_variable = {
 		var = sym_seda_approval
-		value = 20
+		value = 0.20
 	}
 }
 SYM_reduce_seda_approval_10 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_seda_approval > 9
+				sym_seda_approval > 0.9
 			}
 		}
 		subtract_from_variable = {
 			var = sym_seda_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else = {
@@ -493,12 +493,12 @@ SYM_reduce_seda_approval_20 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_seda_approval > 19
+				sym_seda_approval > 0.19
 			}
 		}
 		subtract_from_variable = {
 			var = sym_seda_approval
-			value = 20
+			value = 0.20
 		}
 	}
 	else = {
@@ -509,25 +509,25 @@ SYM_reduce_seda_approval_20 = {
 SYM_increase_lavido_approval_10 = {
 	add_to_variable = {
 		var = sym_lavido_approval
-		value = 10
+		value = 0.10
 	}
 }
 SYM_increase_lavido_approval_20 = {
 	add_to_variable = {
 		var = sym_lavido_approval
-		value = 20
+		value = 0.20
 	}
 }
 SYM_reduce_lavido_approval_10 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_lavido_approval > 9
+				sym_lavido_approval > 0.9
 			}
 		}
 		subtract_from_variable = {
 			var = sym_lavido_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else = {
@@ -538,12 +538,12 @@ SYM_reduce_lavido_approval_20 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_lavido_approval > 19
+				sym_lavido_approval > 0.19
 			}
 		}
 		subtract_from_variable = {
 			var = sym_lavido_approval
-			value = 20
+			value = 0.20
 		}
 	}
 	else = {
@@ -554,25 +554,25 @@ SYM_reduce_lavido_approval_20 = {
 SYM_increase_lavska_approval_10 = {
 	add_to_variable = {
 		var = sym_lavska_approval
-		value = 10
+		value = 0.10
 	}
 }
 SYM_increase_lavska_approval_20 = {
 	add_to_variable = {
 		var = sym_lavska_approval
-		value = 20
+		value = 0.20
 	}
 }
 SYM_reduce_lavska_approval_10 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_lavska_approval > 9
+				sym_lavska_approval > 0.9
 			}
 		}
 		subtract_from_variable = {
 			var = sym_lavska_approval
-			value = 10
+			value = 0.10
 		}
 	}
 	else = {
@@ -583,12 +583,12 @@ SYM_reduce_lavska_approval_20 = {
 	if = {
 		limit = {
 			check_variable = {
-				sym_lavska_approval > 19
+				sym_lavska_approval > 0.19
 			}
 		}
 		subtract_from_variable = {
 			var = sym_lavska_approval
-			value = 20
+			value = 0.2
 		}
 	}
 	else = {
