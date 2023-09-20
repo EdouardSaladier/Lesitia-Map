@@ -243,3 +243,6 @@ SYM.33.a:0 "Arrest the govenor and bring back the region into our administration
 sym_delayed_elections_tooltip:0 "§YDecided To Delay Elections§!"
 sym_elections_tooltip:0 "§YDecided To Organize The Elections§!"
 army_coup_tooltip:0 "The §RArmy§! Steps In To Contain The Chaos"
+####ideas####
+SYM_strong_regionalism:0 "Strong Regionalism"
+SYM_strong_regionalism_desc:0 "As part of the treaties signed to form the nation the ex-insect states demanded high autonomy and low central government control, to the point they acted like a separate sovereign state, Amber seeing that his hand were tied ended up agreeing on these terms as long as the Symbiotic Federation existed, another term of the agreements was that the S.F would dissolve itself after the main threat of the occupation had been dealt it, this promise, however, was not followed through."
