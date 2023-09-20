@@ -93,4 +93,49 @@ country_event = {    ### Federation hostiles elected
 		}
 	}
 }
+country_event = {    ### Starting Army
 
+	id = BOR.5
+	title = BOR.5.t
+	desc = BOR.5.d
+	picture = GFX_report_KAK_flag
+	
+	is_triggered_only = yes
+	option = { 
+		name = BOR.5.a
+		set_technology = {
+			general_parts_standardisation = 1
+		}
+		set_technology = {
+			precision_strikes = 1
+		}
+
+		hidden_effect = {
+			load_oob = BOR/BOR_Motorized
+		}
+	}
+	option = { 
+		name = BOR.5.b
+		set_technology = {
+			armored_troop_transport = 1
+		}
+		set_technology = {
+			swift_strike = 1
+		}
+		hidden_effect = {
+			load_oob = BOR/BOR_Mechanized
+		}
+	}
+	option = { 
+		name = BOR.5.c
+		set_technology = {
+			remote_controlled_weapon_station = 1
+		}
+		set_technology = {
+			industrial_warfare =  1
+		}
+		hidden_effect = {
+			load_oob = BOR/BOR_Armored
+		}
+	}
+}

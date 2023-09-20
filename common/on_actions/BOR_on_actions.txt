@@ -4,6 +4,11 @@ on_actions = {
 			BOR = {
 				set_country_flag = coalition_despotism
 				set_country_flag = coalition_democracy
+				country_event = {id = BOR.5}
+				set_power_balance = {
+					id = bor_bop_despotism_democracy
+
+				}
 			}
 		}
 	}
