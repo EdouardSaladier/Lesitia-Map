@@ -239,6 +239,14 @@ SYM.32.a:0 "Arrest the govenor and bring back the region into our administration
 SYM.33.t:0 "Central Rebelion Crushed"
 SYM.33.d:0 "Lorem Ipsum"
 SYM.33.a:0 "Arrest the govenor and bring back the region into our administration"
+
+SYM.34.t:0 "The Current Situation"
+SYM.34.d:0 "A nation isn’t born out of nothing, it’s forged out of a shared culture, history and kinship of its people and ours isn’t much different save for one thing, a history of pain and suffering.\nBefore the occupation by Glaurungir we didn’t have a unified government that ruled over a nation of all Insectkind, just mere tribes and micronations infighting with eachother at every opportunity and as such conflict and war were commonplace. It was a world of its own complexity and an unusual balance. \nHowever, that all changed one day when the Empire came and burned it all down and began to rule our lands with an iron fist and scorching hate which lasted for a hundred years. Our disunited nations and tribes of insects were no match for the unified legions of the Empire and as such one by one they fell and were turned into oceans of dead chitin, with some estimating that for each year of the Imperial rule a million of our kind were killed. It wasn’t until the fires of the Empire’s own hate burnt itself inside out and paved way for the “Freedom Rebellion” that we severed the lands of the Insectkind from its power and we forged the nation that we now call the Symbiotic Federation. A project of hope and final unity for our kind. Should the Federation hold strong together and stay united we may yet cast off the shadow the Empire cast on us.\nYet the weight of these events and pain they brought is a wound on the young Federation’s soul which is yet to heal. This weight lies heavy on every insect in our nation, however it may lie the heaviest on the shoulders of our president Amber. He’s the center of the Federation and as such he is tasked with holding our fragile and violent federation together and united. However he is not the first to take office and his predecessor, Equis Tritio already broke under the pressure of the weight that’s exerted on the office of the president and Amber holds only half his popularity or political skills.\nDespite all the opposition President Amber may be yet the only pillar of the Federation that can hold back the chaos of political violence until our federation can fully embrace the ideals of Democracy.\nHowever should he fail, our nation will no doubt soon follow. And Insectkind will burn once more in the shadow of the Empire... "
+SYM.34.a:0 "Understood"
+
+SYM.35.t:0 "Internal Report"
+SYM.35.d:0 "Lorem Ipsum"
+SYM.35.a:0 "Understood"
 #####tooltips###
 sym_delayed_elections_tooltip:0 "§YDecided To Delay Elections§!"
 sym_elections_tooltip:0 "§YDecided To Organize The Elections§!"

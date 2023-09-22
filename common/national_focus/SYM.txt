@@ -18,7 +18,7 @@ focus_tree = {
 		x = 10
 		y = 0
 		completion_reward = {
-
+			country_event = SYM.34
 		}
 	}
 	
@@ -32,6 +32,7 @@ focus_tree = {
 		x = 10
 		y = 1
 		completion_reward = {
+			country_event = SYM.35
 
 		}
 	}

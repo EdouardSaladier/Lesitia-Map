@@ -20,6 +20,9 @@ spriteTypes = {
 		name = "GFX_report_event_bandits_dead"
 		texturefile = "gfx/event_pictures/report_event_bandits_dead.dds"
 	}
-
+	spriteType = {
+		name = "GFX_symbiotic_entry_event"
+		texturefile = "gfx/event_pictures/symbiotic_entry_event.dds"
+	}
 }
 

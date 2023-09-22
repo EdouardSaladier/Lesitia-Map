@@ -983,3 +983,29 @@ country_event = {
 		}
 	}
 }
+country_event = {    
+	id = SYM.34 #Sym Current Situation
+	title = SYM.34.t
+	desc = SYM.34.d
+	picture = GFX_symbiotic_entry_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.34.a
+
+	}
+}
+country_event = {    
+	id = SYM.35 #Sym Internal Report
+	title = SYM.35.t
+	desc = SYM.35.d
+	picture = GFX_symbiotic_entry_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.35.a
+
+	}
+}
