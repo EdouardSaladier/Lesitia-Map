@@ -131,7 +131,7 @@ SYM_increase_support_three_effect_tooltip:0 "+80 §YPolitical Power§!\n§R-10%�
 
 GovenorDescription:0 "[GetStateGovenorDescription]"
 
-SYM_approval_gui_help_tooltip:0 ""
+SYM_approval_gui_help_tooltip:0 "The region approval gui is split into two parts:\nTop:\nThe top part contains a fragmented map of the regions inside the federation which you can select. Doing so will make the details of the region show up in the bottom part of the gui.\n[GetHelpTT1]\nBottom:\nOn the left you will find a toggle buton which will switch between basic info about the region and a detailed description of the region.\n[GetHelpTT2]\nOn the right you can see the current govenor of the region as well as his approval. The approval of the govenor can change depending on your choices in events or focuses, be warned however should at any point your decisions cause the approval of a govenor to fall below 0 you may find yourself dealing with a rebellion.Should you sucessfully put it down you will 'secure' the region removing the maluses you get from the region but also cause you to be locked out of getting any potential benefits.Some regions start not interactable, however as events unfold that may change.\n[GetHelpTT3]"
 
 SYM_Region_Bonuses:0 "Regional Approval"
 

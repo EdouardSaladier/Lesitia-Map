@@ -1740,3 +1740,22 @@ defined_text = {
 		localization_key = SYM_reduce_central_approval_rebellion
 	}
 }
+defined_text = {
+	name = GetHelpTT1
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = GetHelpTT2
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = GetHelpTT3
+	text = {
+		localization_key = ""
+	}
+
+}
