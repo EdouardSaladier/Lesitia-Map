@@ -15,7 +15,7 @@ SYM_approval_gui = {
 		icon = GFX_decision_generic_prepare_civil_war 
 		
 		     
-		allowed = {                                  
+		allowed = {                                          
 	 
 		}   
 		visible = { 

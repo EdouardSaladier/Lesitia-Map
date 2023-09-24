@@ -216,17 +216,21 @@ spriteTypes = {
 		name = "GFX_off_button"
 		texturefile = "gfx/interface/GUI/SYM_Approval/off_button.dds"
 	}
-
+	
 	spriteType = {
-		name = "GFX_sym_help_tt1"
+		name = "GFX_sym_help_tt1_texticon"
 		texturefile = "gfx/interface/GUI/SYM_Approval/tt1.dds"
+		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_sym_help_tt2"
+		name = "GFX_sym_help_tt2_texticon"
 		texturefile = "gfx/interface/GUI/SYM_Approval/tt2.dds"
+		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_sym_help_tt3"
+		name = "GFX_sym_help_tt3_texticon"
 		texturefile = "gfx/interface/GUI/SYM_Approval/tt3.dds"
+		legacy_lazy_load = no
 	}
+	
 }
