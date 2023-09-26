@@ -65,6 +65,9 @@ country_event = {
 		ai_chance = {
 			base = 0
 		}
+		BOR = {
+			country_event = BOR.3
+		}
 	}
 	option = { 
 		name = SYM.3.b
@@ -74,6 +77,9 @@ country_event = {
 			ideology = democracy
 			long_name = SYM_artem_valentim_long
 			name = SYM_artem_valentim
+		}
+		BOR = {
+			country_event = BOR.4
 		}
 		ai_chance = {
 			base = 0
@@ -88,6 +94,9 @@ country_event = {
 			long_name = SYM_russet_vero_long
 			name = SYM_russet_vero
 		}
+		BOR = {
+			country_event = BOR.4
+		}
 		ai_chance = {
 			base = 0
 		}
@@ -100,6 +109,9 @@ country_event = {
 			ideology = democracy
 			long_name = SYM_artist_party_long
 			name = SYM_artist_party
+		}
+		BOR = {
+			country_event = BOR.10
 		}
 		hidden_effect = {
 			country_event = { id = SYM.4 days = 10 } 
@@ -116,6 +128,9 @@ country_event = {
 	        ruling_party = despotism
 	        elections_allowed = no
         }
+		BOR = {
+			country_event = BOR.11
+		}
 		ai_chance = {
 			base = 0
 		}

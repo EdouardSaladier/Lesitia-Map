@@ -1,5 +1,7 @@
 ﻿l_english:
-bor_increase_despotic_influence_10_tooltip:0 "Increases §gDespotic§! influence by §Y10%§!"
-bor_increase_despotic_influence_20_tooltip:0 "Increases §gDespotic§! influence by §Y20%§!"
-bor_increase_democratic_influence_20_tooltip:0 "Increases §gDemocratic§! influence by §Y20%§!"
-bor_increase_democratic_influence_20_tooltip:0 "Increases §3Democratic§! influence by §Y20%§!"
+bor_increase_despotic_influence_10_tooltip:0 "Increases §gDespotic§! influence by §Y10§!"
+bor_increase_despotic_influence_20_tooltip:0 "Increases §gDespotic§! influence by §Y20§!"
+bor_increase_democratic_influence_10_tooltip:0 "Increases §3Democratic§! influence by §Y10§!"
+bor_increase_democratic_influence_20_tooltip:0 "Increases §3Democratic§! influence by §Y20§!"
+
+bor_increase_sym_democratic_chance_tt:0 "§GIncreases the chance that the democrats win the Symbiotic elections.§!"

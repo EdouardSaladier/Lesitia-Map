@@ -3,10 +3,10 @@ capital = 127
 oob = "BOR/BOR_Start"
 
 set_variable = {
-	bor_influence_despotism = 60
+	bor_influence_despotism = 0
 }
 set_variable = {
-	bor_influence_democratic = 40
+	bor_influence_democratic = 0
 }
 # Starting tech
 set_research_slots = 4

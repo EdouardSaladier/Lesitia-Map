@@ -10,10 +10,10 @@ lesitia_generic_decisions = {
 		}
 
 		available = {
-			NOT = {
+			NOT = {  
 				has_idea = prof_1_law
 			}
-		}
+		} 
 		
 		ai_will_do = {
 			factor = 1
