@@ -1,0 +1,236 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sym_toggle_button"
+		texturefile = "gfx/interface/GUI/SYM_Approval/toggle_button.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_frame"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_frame.dds" 
+	}
+	spriteType = {
+		name = "GFX_sym_approval_state_name_bg"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_state_name_bg.dds"  
+	}
+	spriteType = {
+		name = "GFX_sym_approval_state_govenor_bg"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_state_govenor_bg.dds"  
+	}
+	spriteType = {
+		name = "GFX_sym_approval_state_govenor_outline"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_state_govenor_outline.dds"  
+	}
+	spriteType = {
+		name = "GFX_sym_approval_state_overview_bg"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_state_overview_bg.dds"  
+	}
+	spriteType = {
+		name = "GFX_sym_approval_header_bg"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_header_bg.dds"  
+	}
+	spriteType = {
+		name = "GFX_sym_approval_center"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_center.dds"  
+	}
+	spriteType = {
+		name = "GFX_sym_approval_kakrikea"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_kakrikea.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_lavido"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_lavido.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_lavska"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_lavska.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_mavildea"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_mavildea.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_resse"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_resse.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_seda"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_seda.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_termithia"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_termithia.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_tiveask"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_tiveask.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_approval_voskra"
+		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_voskra.dds"
+	}
+
+	spriteType = {
+		name = "GFX_voskra_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/voskra_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_tiveask_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/tiveask_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_center_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/center_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_kakrikea_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/kakrikea_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_mavildea_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/mavildea_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_termithia_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/termithia_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_seda_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/seda_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_lavido_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/lavido_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_lavska_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/lavska_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_resse_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/resse_govenor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sym_federation_territories_decision_icon"
+		texturefile = "gfx/interface/GUI/SYM_Approval/symbiotic_territory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_voskra_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/voskra_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_tiveask_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/tiveask_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_center_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/center_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_kakrikea_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/kakrikea_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_mavildea_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/mavildea_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_termithia_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/termite_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_seda_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/seda_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_lavido_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/lavido_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_lavska_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/lavska_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_resse_symbol"
+		texturefile = "gfx/interface/GUI/SYM_Approval/RegionSymbols/resse_symbol.dds"
+	}
+
+	spriteType = {
+		name = "GFX_voskra_flag"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Flags/VOS.dds"
+	}
+	spriteType = {
+		name = "GFX_tiveask_flag"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Flags/TVA.dds"
+	}
+	spriteType = {
+		name = "GFX_center_flag"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Flags/ZHA.dds"
+	}
+	spriteType = {
+		name = "GFX_kakrikea_flag"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Flags/KAK.dds"
+	}
+	spriteType = {
+		name = "GFX_mavildea_flag"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Flags/MAV.dds"
+	}
+	spriteType = {
+		name = "GFX_termithia_flag"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Flags/TER.dds"
+	}
+	spriteType = {
+		name = "GFX_seda_flag"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Flags/SED.dds"
+	}
+	spriteType = {
+		name = "GFX_lavido_flag"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Flags/LAV.dds"
+	}
+	spriteType = {
+		name = "GFX_lavska_flag"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Flags/OAV.dds"
+	}
+	spriteType = {
+		name = "GFX_resse_flag"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Flags/ETH.dds"
+	}
+	spriteType = {
+		name = "GFX_no_flag"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Flags/none.dds"
+	}
+
+	spriteType = {
+		name = "GFX_button_actions"
+		texturefile = "gfx/interface/GUI/SYM_Approval/button_actions.dds"
+	}
+	spriteType = {
+		name = "GFX_sym_help_button"
+		texturefile = "gfx/interface/GUI/SYM_Approval/help_button.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_warning"
+		texturefile = "gfx/interface/GUI/SYM_Approval/warning.dds"
+	}
+	spriteType = {
+		name = "GFX_off_button"
+		texturefile = "gfx/interface/GUI/SYM_Approval/off_button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sym_help_tt1_texticon"
+		texturefile = "gfx/interface/GUI/SYM_Approval/tt1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sym_help_tt2_texticon"
+		texturefile = "gfx/interface/GUI/SYM_Approval/tt2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sym_help_tt3_texticon"
+		texturefile = "gfx/interface/GUI/SYM_Approval/tt3.dds"
+		legacy_lazy_load = no
+	}
+	
+}

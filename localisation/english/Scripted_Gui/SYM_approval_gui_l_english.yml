@@ -1,0 +1,238 @@
+﻿l_english:
+SYM_approval_gui_header_text:0 "Federation Regions"
+SYM_approval_gui:0 "Region Management"
+
+SYM_tiveask_region_name:0 "Tiveask Region"
+SYM_voskra_region_name:0 "Voskra Region"
+SYM_resse_region_name:0 "Resse Region"
+SYM_center_region_name:0 "Zhafollis Region"
+SYM_kakrikea_region_name:0 "Kakrikea Region"
+SYM_mavildea_region_name:0 "Mavildea Region"
+SYM_termithia_region_name:0 "Termithia Region"
+SYM_seda_region_name:0 "Seda Region"
+SYM_lavido_region_name:0 "Lavido Region"
+SYM_lavska_region_name:0 "Laksa Region"
+SYM_none_region_name:0 ""
+
+tiveask_govenor_name:0 "Tiveask Guard"
+voskra_govenor_name:0 "Kallista Sokolova"
+resse_govenor_name:0 "Russet Vero"
+center_govenor_name:0 "Robar Tevis"
+kakrikea_govenor_name:0 "Lua Vescitu"
+mavildea_govenor_name:0 "Maniare Fettua"
+termithia_govenor_name:0 "Slez Zeas"
+seda_govenor_name:0 "Godofreno Olivensa"
+lavido_govenor_name:0 "Intona Rubrum"
+lavska_govenor_name:0 "Polistik Sorak"
+
+SYM_tiveask_region_capital:0 "Capital: Port Tiveask"
+SYM_voskra_region_capital:0 "Capital: Cochea"
+SYM_resse_region_capital:0 "Capital: Perivers"
+SYM_center_region_capital:0 "Capital: Zhafollis"
+SYM_kakrikea_region_capital:0 "Capital: Zentra"
+SYM_mavildea_region_capital:0 "Capital: Polisopa"
+SYM_termithia_region_capital:0 "Capital: Krepost Alpha"
+SYM_seda_region_capital:0 "Capital: Cidade de Seda"
+SYM_lavido_region_capital:0 "Capital: Proglio"
+SYM_lavska_region_capital:0 "Capital:  Laksa"
+SYM_none_region_capital:0 ""
+
+SYM_tiveask_region_government:0 "Government: Corporatocratism"
+SYM_voskra_region_government:0 "Government: Despotic"
+SYM_resse_region_government:0 "Government: Supremacism"
+SYM_center_region_government:0 "Government: Democratic"
+SYM_kakrikea_region_government:0 "Government: Despotic"
+SYM_mavildea_region_government:0 "Government: Democratic"
+SYM_termithia_region_government:0 "Government: Technocratic"
+SYM_seda_region_government:0 "Government: Despotic"
+SYM_lavido_region_government:0 "Government: Democratic"
+SYM_lavska_region_government:0 "Government:  Theocracy"
+SYM_none_region_government:0 ""
+
+SYM_tiveask_region_description:0 "Once upon a time Tiveask was a picturesque location, one with many forests that were surrounded by the beautiful snowy mountains, but those days are long gone as industrial pollution and gross negligence caused the region to be engulfed by a poisonous sickening fog, this fog giving bandits and mercenaries a safe-heaven to operate as they wish, as of now, the region has no official governor."
+SYM_voskra_region_description:0 "Voskra is one of the most populous and economically-strong regions of the Federation, built on a culture of militarism, self-reliance and unity the ant colony is a force be reckoned with."
+SYM_resse_region_description:0 "The Resse Republic used to be one of the biggest insect states pre-reptilian invasion, the Republic having centuries of history and quite the inflated pride, they are unwilling to vote for any laws that they see as 'shameful' or 'humiliating'."
+SYM_center_region_description:0 "Both the city and region of Zhaffolis were formed a few years ago as the need for a capital city for the Federation arouse, the city has grown to quite an impressive size, having a standard of living comparable to a gated community, the city being mostly inhabited by elites and politicians, but also having a sizable common worker population together with a bustling art scene."
+SYM_kakrikea_region_description:0 "The Kakrikea Hive is the youngest out of all the regions, being formed just a few decades ago by the black wasp queen, the region is quite underdeveloped due to this, but that did not stop the region from developing a powerful fighting force and a militaristic civil code."
+SYM_mavildea_region_description:0 "The Mavildea Hive is one of the oldest hives of the continent, but that did not stop it from modernizing, the hive follows a liberal but social way of governance that both defends a free market and government programs."
+SYM_termithia_region_description:0 "Termithia is a millenia old termite mound that hasn't opened up to the outside world during all that time, we don't know much about them, besides the fact they never respond our messages and envoys."
+SYM_seda_region_description:0 "The Confederation holds the oldest and proudest insect tribes of the Federation, they're known for their unwillingness towards change, preferring to stick by their traditions and roots."
+SYM_lavido_region_description:0 "Lavido is often referred as the birthplace of insect democracy, being the first insect civilization in modern history to devolve the power of their queen, even when under reptilian occupation, which earned both the region and it's queen a fair amount of respect, so much so that parts of the provisional federal constitution were based on the Lavido law code."
+SYM_lavska_region_description:0 "The Laksa Commission, or as it's sometimes referred as, 'Western Avenska' is a autonomous region of the Federation that is constantly being influenced by Vratenzk and Avenska, if we aren't quick and careful enough we might just lose this region to them."
+SYM_none_region_description:0 ""
+
+SYM_tiveask_govenor_approval_high:0 "§G[?SYM.sym_tiveask_approval|.0%]§!"
+SYM_tiveask_govenor_approval_medium:0 "§Y[?SYM.sym_tiveask_approval|.0%]§!"
+SYM_tiveask_govenor_approval_low:0 "§R[?SYM.sym_tiveask_approval|.0%]§!§!"
+
+SYM_voskra_govenor_approval_high:0 "§G[?SYM.sym_voskra_approval|.0%]§!"
+SYM_voskra_govenor_approval_medium:0 "§Y[?SYM.sym_voskra_approval|.0%]§!"
+SYM_voskra_govenor_approval_low:0 "§R[?SYM.sym_voskra_approval|.0%]§!"
+
+SYM_resse_govenor_approval_high:0 "§G[?SYM.sym_resse_approval|.0%]§!"
+SYM_resse_govenor_approval_medium:0 "§Y[?SYM.sym_resse_approval|.0%]§!"
+SYM_resse_govenor_approval_low:0 "§R[?SYM.sym_resse_approval|.0%]§!"
+
+SYM_center_govenor_approval_high:0 "§G[?SYM.sym_center_approval|.0%]§!"
+SYM_center_govenor_approval_medium:0 "§Y[?SYM.sym_center_approval|.0%]§!"
+SYM_center_govenor_approval_low:0 "§R[?SYM.sym_center_approval|.0%]§!"
+
+SYM_kakrikea_govenor_approval_high:0 "§G[?SYM.sym_kakrikea_approval|.0%]§!"
+SYM_kakrikea_govenor_approval_medium:0 "§Y[?SYM.sym_kakrikea_approval|.0%]§!"
+SYM_kakrikea_govenor_approval_low:0 "§R[?SYM.sym_kakrikea_approval|.0%]§!"
+
+SYM_mavildea_govenor_approval_high:0 "§G[?SYM.sym_mavildea_approval|.0%]§!"
+SYM_mavildea_govenor_approval_medium:0 "§Y[?SYM.sym_mavildea_approval|.0%]§!"
+SYM_mavildea_govenor_approval_low:0 "§R[?SYM.sym_mavildea_approval|.0%]§!"
+
+SYM_termithia_govenor_approval_high:0 "§G[?SYM.sym_termithia_approval|.0%]§!"
+SYM_termithia_govenor_approval_medium:0 "§Y[?SYM.sym_termithia_approval|.0%]§!"
+SYM_termithia_govenor_approval_low:0 "§R[?SYM.sym_termithia_approval|.0%]§!"
+SYM_termithia_govenor_approval_no_interaction:0 "§gUnavailable§!"
+
+SYM_seda_govenor_approval_high:0 "§G[?SYM.sym_seda_approval|.0%]§!"
+SYM_seda_govenor_approval_medium:0 "§Y[?SYM.sym_seda_approval|.0%]§!"
+SYM_seda_govenor_approval_low:0 "§R[?SYM.sym_seda_approval|.0%]§!"
+
+SYM_lavido_govenor_approval_high:0 "§G[?SYM.sym_lavido_approval|.0%]§!"
+SYM_lavido_govenor_approval_medium:0 "§Y[?SYM.sym_lavido_approval|.0%]§!"
+SYM_lavido_govenor_approval_low:0 "§R[?SYM.sym_lavido_approval|.0%]§!"
+
+SYM_lavska_govenor_approval_high:0 "§G[?SYM.sym_lavska_approval|.0%]§!"
+SYM_lavska_govenor_approval_medium:0 "§Y[?SYM.sym_lavska_approval|.0%]§!"
+SYM_lavska_govenor_approva_lowl:0 "§R[?SYM.sym_lavska_approval|.0%]§!"
+SYM_lavska_govenor_approval_non_interactable:0 "§gUnavailable§!"
+
+SYM_govenor_approval_region_secured:0 "§GSecured§!"
+
+
+SYM_toggle_flag_decisions_text:0 "Toggle"
+ 
+SYM_tiveask_effect_tooltip:0 "Tiveask Region"
+SYM_center_effect_tooltip:0 "Zhafollis Region"
+SYM_kakrikea_effect_tooltip:0 "Kakrikea Region"
+SYM_mavildea_effect_tooltip:0 "Mavildea Region"
+SYM_termithia_effect_tooltip:0 "Termithia Region"
+SYM_seda_effect_tooltip:0 "Seda Region"
+SYM_voskra_effect_tooltip:0 "Voskra Region"
+SYM_resse_effect_tooltip:0 "Resse Region"
+SYM_lavido_effect_tooltip:0 "Lavido Region"
+SYM_lavska_effect_tooltip:0 "Laksa Region"
+
+SYM_increase_support_one_text:0 "Invest Political Capital"
+SYM_increase_support_two_text:0 "Invest Economic Capital"
+SYM_increase_support_three_text:0 "Withdraw Political Capital "
+
+SYM_consumer_goods_investment:0 "Consumer Goods Investment
+
+SYM_increase_support_one_effect_tooltip:0 "-100 §YPolitical Power§!\n§G+10%§! Approval"
+SYM_increase_support_two_effect_tooltip:0 "10% §YConsumer Goods for 100 days§! \n§G+15%§! Approval"
+SYM_increase_support_three_effect_tooltip:0 "+80 §YPolitical Power§!\n§R-10%§! Approval"
+
+GovenorDescription:0 "[GetStateGovenorDescription]"
+
+SYM_approval_gui_help_tooltip:0 "-------\nThe region approval gui is split into two parts:\nTop:\nThe top part contains a fragmented map of the regions inside the federation which you can select. Doing so will make the details of the region show up in the bottom part of the gui.\n\n\n\n\n£GFX_sym_help_tt1_texticon\n\n\n\n\n\nBottom:\nOn the left you will find a toggle buton which will switch between basic info about the region and a detailed description of the region.\n\n\n\n\n£GFX_sym_help_tt2_texticon\n\n\n\n\n\nOn the right you can see the current govenor of the region as well as his approval. The approval of the govenor can change depending on your choices in events or focuses, be warned however should at any point your decisions cause the approval of a govenor to fall below 0 you may find yourself dealing with a rebellion.Should you sucessfully put it down you will 'secure' the region removing the maluses you get from the region but also cause you to be locked out of getting any potential benefits.Some regions start not interactable, however as events unfold that may change.\n\n\n\n£GFX_sym_help_tt3_texticon\n\n\n\n\n-------"
+
+SYM_Region_Bonuses:0 "Regional Approval"
+
+SYM_approval_gui_description:0 "Description:"
+
+SYM_increase_central_approval_10_tt:0 "Increases §gZhaffolis§! approval by §G10%§!"
+SYM_increase_central_approval_20_tt:0 "Increases §gZhaffolis§! approval by §G20%§!"
+SYM_reduce_central_approval_10_tt:0 "[SYM_approval_gui_reduce_central_approval_10_text]"
+SYM_reduce_central_approval_20_tt:0 "[SYM_approval_gui_reduce_central_approval_20_text]"
+
+SYM_reduce_central_approval_10_reduction:0 "Reduces §gZhaffolis§! approval by §t10%§!"
+SYM_reduce_central_approval_20_reduction:0 "Reduces §gZhaffolis§! approval by §t20%§!"
+SYM_reduce_central_approval_rebellion:0 "§tWill cause §gZhaffolis§! region to rebel!§!"
+
+
+SYM_increase_voskra_approval_10_tt:0 "Increases §gVoskra§! approval by §G10%§!"
+SYM_increase_voskra_approval_20_tt:0 "Increases §gVoskra§! approval by §G20%§!"
+SYM_reduce_voskra_approval_10_tt:0 "[SYM_approval_gui_reduce_voskra_approval_10_text]"
+SYM_reduce_voskra_approval_20_tt:0 "[SYM_approval_gui_reduce_voskra_approval_20_text]"
+
+SYM_reduce_voskra_approval_10_reduction:0 "Reduces §gVoskra§! approval by §t10%§!"
+SYM_reduce_voskra_approval_20_reduction:0 "Reduces §gVoskra§! approval by §t20%§!"
+SYM_reduce_voskra_approval_rebellion:0 "§tWill cause §gVoskra§! region to rebel!§!"
+
+
+SYM_increase_tiveask_approval_10_tt:0 "Increases §gTiveask§! approval by §G10%§!"
+SYM_increase_tiveask_approval_20_tt:0 "Increases §gTiveask§! approval by §G20%§!"
+SYM_reduce_tiveask_approval_10_tt:0 "[SYM_approval_gui_reduce_tiveask_approval_10_text]"
+SYM_reduce_tiveask_approval_20_tt:0 "[SYM_approval_gui_reduce_tiveask_approval_20_text]"
+
+SYM_reduce_tiveask_approval_10_reduction:0 "Reduces §gTiveask§! approval by §t10%§!"
+SYM_reduce_tiveask_approval_20_reduction:0 "Reduces §gTiveask§! approval by §t20%§!"
+SYM_reduce_tiveask_approval_rebellion:0 "§tWill cause §gTiveask§! region to rebel!§!"
+
+
+SYM_increase_resse_approval_10_tt:0 "Increases §gResse§! approval by §G10%§!"
+SYM_increase_resse_approval_20_tt:0 "Increases §gResse§! approval by §G20%§!"
+SYM_reduce_resse_approval_10_tt:0 "[SYM_approval_gui_reduce_resse_approval_10_text]"
+SYM_reduce_resse_approval_20_tt:0 "[SYM_approval_gui_reduce_resse_approval_20_text]"
+
+SYM_reduce_resse_approval_10_reduction:0 "Reduces §gResse§! approval by §t10%§!"
+SYM_reduce_resse_approval_20_reduction:0 "Reduces §gResse§! approval by §t20%§!"
+SYM_reduce_resse_approval_rebellion:0 "§tWill cause §gResse§! region to rebel!§!"
+
+
+SYM_increase_kakrikea_approval_10_tt:0 "Increases §gKakrikea§! approval by §G10%§!"
+SYM_increase_kakrikea_approval_20_tt:0 "Increases §gKakrikea§! approval by §G20%§!"
+SYM_reduce_kakrikea_approval_10_tt:0 "[SYM_approval_gui_reduce_kakrikea_approval_10_text]"
+SYM_reduce_kakrikea_approval_20_tt:0 "[SYM_approval_gui_reduce_kakrikea_approval_20_text]"
+
+SYM_reduce_kakrikea_approval_10_reduction:0 "Reduces §gKakrikea§! approval by §t10%§!"
+SYM_reduce_kakrikea_approval_20_reduction:0 "Reduces §gKakrikea§! approval by §t20%§!"
+SYM_reduce_kakrikea_approval_rebellion:0 "§tWill cause §gKakrikea§! region to rebel!§!"
+
+
+SYM_increase_mavildea_approval_10_tt:0 "Increases §gMavildea§! approval by §G10%§!"
+SYM_increase_mavildea_approval_20_tt:0 "Increases §gMavildea§! approval by §G20%§!"
+SYM_reduce_mavildea_approval_10_tt:0 "[SYM_approval_gui_reduce_mavildea_approval_10_text]"
+SYM_reduce_mavildea_approval_20_tt:0 "[SYM_approval_gui_reduce_mavildea_approval_20_text]"
+
+SYM_reduce_mavildea_approval_10_reduction:0 "Reduces §gMavildea§! approval by §t10%§!"
+SYM_reduce_mavildea_approval_20_reduction:0 "Reduces §gMavildea§! approval by §t20%§!"
+SYM_reduce_mavildea_approval_rebellion:0 "§tWill cause §gMavildea§! region to rebel!§!"
+
+
+SYM_increase_termithia_approval_10_tt:0 "Increases §gTermithia§! approval by §G10%§!"
+SYM_increase_termithia_approval_20_tt:0 "Increases §gTermithia§! approval by §G20%§!"
+SYM_reduce_termithia_approval_10_tt:0 "[SYM_approval_gui_reduce_termithia_approval_10_text]"
+SYM_reduce_termithia_approval_20_tt:0 "[SYM_approval_gui_reduce_termithia_approval_20_text]"
+
+SYM_reduce_termithia_approval_10_reduction:0 "Reduces §gTermithia§! approval by §t10%§!"
+SYM_reduce_termithia_approval_20_reduction:0 "Reduces §gTermithia§! approval by §t20%§!"
+SYM_reduce_termithia_approval_rebellion:0 "§tWill cause §gTermithia§! region to rebel!§!"
+
+
+SYM_increase_seda_approval_10_tt:0 "Increases §gSeda§! approval by §G10%§!"
+SYM_increase_seda_approval_20_tt:0 "Increases §gSeda§! approval by §G20%§!"
+SYM_reduce_seda_approval_10_tt:0 "[SYM_approval_gui_reduce_seda_approval_10_text]"
+SYM_reduce_seda_approval_20_tt:0 "[SYM_approval_gui_reduce_seda_approval_20_text]"
+
+SYM_reduce_seda_approval_10_reduction:0 "Reduces §gSeda§! approval by §t10%§!"
+SYM_reduc_seda_approval_20_reduction:0 "Reduces §gSeda§! approval by §t20%§!"
+SYM_reduce_seda_approval_rebellion:0 "§tWill cause §gSeda§! region to rebel!§!"
+
+
+SYM_increase_lavido_approval_10_tt:0 "Increases §gLavido§! approval by §G10%§!"
+SYM_increase_lavido_approval_20_tt:0 "Increases §gLavido§! approval by §G20%§!"
+SYM_reduce_lavido_approval_10_tt:0 "[SYM_approval_gui_reduce_lavido_approval_10_text]"
+SYM_reduce_lavido_approval_20_tt:0 "[SYM_approval_gui_reduce_lavido_approval_20_text]"
+
+SYM_reduce_lavido_approval_10_reduction:0 "Reduces §gLavido§! approval by §t10%§!"
+SYM_reduc_lavido_approval_20_reduction:0 "Reduces §gLavido§! approval by §t20%§!"
+SYM_reduce_lavido_approval_rebellion:0 "§tWill cause §gLavido§! region to rebel!§!"
+
+
+SYM_increase_lavska_approval_10_tt:0 "Increases §gLaksa§! approval by §G10%§!"
+SYM_increase_lavska_approval_20_tt:0 "Increases §gLaksa§! approval by §G20%§!"
+SYM_reduce_lavska_approval_10_tt:0 "[SYM_approval_gui_reduce_lavska_approval_10_text]"
+SYM_reduce_lavska_approval_20_tt:0 "[SYM_approval_gui_reduce_lavska_approval_20_text]"
+
+SYM_reduce_lavska_approval_10_reduction:0 "Reduces §gLaksa§! approval by §t10%§!"
+SYM_reduc_lavska_approval_20_reduction:0 "Reduces §gLaksa§! approval by §t20%§!"
+SYM_reduce_lavska_approval_rebellion:0 "§tWill cause §gLaksa§! region to rebel!§!"
+

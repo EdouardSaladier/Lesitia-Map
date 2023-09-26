@@ -1,0 +1,366 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "SYM_approval_gui_bg_container"
+		position = { x = 0 y = 0 }
+		size = { width = 495 height = 600 }
+		orientation = CENTER
+		#verticalScrollbar = "right_vertical_slider"
+		
+
+
+		iconType = {
+			name = "SYM_approval_header_bg"
+			spriteType = "GFX_sym_approval_header_bg"
+			position = { x= 5 y= -20 }
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "SYM_approval_gui_header"
+			font = "hoi_20bs"
+			text = "SYM_approval_gui_header_text"
+			maxWidth = 495 
+			maxHeight = 100 
+			format = center 
+			vertical_alignment = top
+			position = {
+				x = 7
+				y = -15
+			}
+		}
+
+		containerWindowType = {
+			name = "SYM_approval_gui_sub_container"
+			position = { x = 0 y = -25}
+			iconType = {
+				name = "SYM_approval_gui_frame"
+				spriteType = "GFX_sym_approval_frame"
+				position = { x= 7 y= 25 }
+				alwaystransparent = yes
+				scale = 0.9
+			}
+	
+			buttonType = {
+				name ="SYM_tiveask_effect"
+				spriteType = "GFX_sym_approval_tiveask"
+				position = { x=190 y=160 }
+				alwaystransparent = no 
+				pdx_tooltip = "SYM_tiveask_effect_tooltip"
+			}
+			iconType = {
+				name ="SYM_warning_low_approval_tiveask"
+				spriteType = "GFX_icon_warning"
+				position = { x=215 y=192  } 
+				alwaystransparent = yes
+			}
+			buttonType = {
+				name ="SYM_center_effect"
+				spriteType = "GFX_sym_approval_center"
+				position = { x=250 y=190 }
+				alwaystransparent = no
+				pdx_tooltip = "SYM_center_effect_tooltip"
+			}
+			iconType = {
+				name ="SYM_warning_low_approval_center"
+				spriteType = "GFX_icon_warning"
+				position = { x=261 y=192  } 
+				alwaystransparent = yes
+			}
+			buttonType = {
+				name ="SYM_kakrikea_effect"
+				spriteType = "GFX_sym_approval_kakrikea"
+				position = { x=238 y=51 }
+				alwaystransparent = no
+				pdx_tooltip = "SYM_kakrikea_effect_tooltip"
+			}
+			iconType = {
+				name ="SYM_warning_low_approval_kakrikea"
+				spriteType = "GFX_icon_warning"
+				position = { x=271 y=102  } 
+				alwaystransparent = yes
+			}
+			buttonType = {
+				name ="SYM_mavildea_effect"
+				spriteType = "GFX_sym_approval_mavildea"
+				position = { x=164 y=55 }
+				alwaystransparent = no
+				pdx_tooltip = "SYM_mavildea_effect_tooltip"
+			}
+			iconType = {
+				name ="SYM_warning_low_approval_mavildea"
+				spriteType = "GFX_icon_warning"
+				position = { x=216 y=115  } 
+				alwaystransparent = yes
+			}
+			buttonType = {
+				name ="SYM_termithia_effect"
+				spriteType = "GFX_sym_approval_termithia"
+				position = { x=300 y=203 }
+				alwaystransparent = no
+				pdx_tooltip = "SYM_termithia_effect_tooltip"
+
+			}
+			iconType = {
+				name ="SYM_warning_low_approval_termithia"
+				spriteType = "GFX_icon_warning"
+				position = { x=316 y=212  } 
+				alwaystransparent = yes
+			}
+			buttonType = {
+				name ="SYM_seda_effect"
+				spriteType = "GFX_sym_approval_seda"
+				position = { x=136 y=164 }
+				alwaystransparent = no
+				pdx_tooltip = "SYM_seda_effect_tooltip"
+
+			}
+			iconType = {
+				name ="SYM_warning_low_approval_seda"
+				spriteType = "GFX_icon_warning"
+				position = { x=165 y=182  } 
+				alwaystransparent = yes
+			}
+			buttonType = {
+				name ="SYM_voskra_effect"
+				spriteType = "GFX_sym_approval_voskra"
+				position = { x=60 y=179 }
+				alwaystransparent = no
+				pdx_tooltip = "SYM_voskra_effect_tooltip"
+
+			}
+			iconType = {
+				name ="SYM_warning_low_approval_voskra"
+				spriteType = "GFX_icon_warning"
+				position = { x=100 y=210  } 
+				alwaystransparent = yes
+			}
+			buttonType = {
+				name ="SYM_resse_effect"
+				spriteType = "GFX_sym_approval_resse"
+				position = { x=194 y=235 }
+				alwaystransparent = no
+				pdx_tooltip = "SYM_resse_effect_tooltip"
+
+			}
+			iconType = {
+				name ="SYM_warning_low_approval_resse"
+				spriteType = "GFX_icon_warning"
+				position = { x=285  y=260  } 
+				alwaystransparent = yes
+			}
+			buttonType = {
+				name ="SYM_lavido_effect"
+				spriteType = "GFX_sym_approval_lavido"
+				position = { x=148 y=219 }
+				alwaystransparent = no
+				pdx_tooltip = "SYM_lavido_effect_tooltip"
+
+			}
+			iconType = {
+				name ="SYM_warning_low_approval_lavido"
+				spriteType = "GFX_icon_warning"
+				position = { x=190  y=240  } 
+				alwaystransparent = yes
+			}
+			buttonType = {
+				name ="SYM_lavska_effect"
+				spriteType = "GFX_sym_approval_lavska"
+				position = { x=340 y=241 }
+				alwaystransparent = no
+				pdx_tooltip = "SYM_lavska_effect_tooltip"
+
+			}
+			iconType = {
+				name ="SYM_warning_low_approval_lavska"
+				spriteType = "GFX_icon_warning"
+				position = { x=375 y=250  } 
+				alwaystransparent = yes
+			}
+
+		}
+		iconType = {
+			name = "SYM_approval_state_name_bg"
+			spriteType = "GFX_sym_approval_state_name_bg"
+			position = { x= 5 y= 330 }
+			
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name ="SYM_toggle_flag_decisions_effect"
+			spriteType = "GFX_sym_toggle_button"
+			position = { x=5 y=332 }
+			scale = 0.7
+			alwaystransparent = no
+			
+		}
+		instantTextBoxType = {
+			name = "SYM_toggle_flag_decisions_textbox"
+			font = "hoi_18b"
+			text = "SYM_toggle_flag_decisions_text"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			position = {
+				x = 5
+				y = 334 
+			}
+		}
+		instantTextBoxType = {
+			name = "SYM_approval_gui_state_name"
+			font = "hoi_20bs"
+			text = "[SYM_approval_gui_state_name]"
+			maxWidth = 495
+			maxHeight = 100
+			format = center
+			position = {
+				x = 10
+				y = 333
+			}
+		}
+		iconType = { 
+			name = "SYM_approval_state_symbol"
+			position = { x = 166 y = 335 } 
+			spriteType = "GFX_coalition_no_bg"
+			alwaystransparent = yes
+			
+		}
+		iconType = {
+			name = "SYM_approval_state_symbol2"
+			position = { x = 329 y = 335 } 
+			spriteType = "GFX_coalition_no_bg"
+			alwaystransparent = yes
+			
+		}
+		containerWindowType = {
+			name = "SYM_approval_gui_sub_container_overview"
+			position = { x = 10 y = 370}
+
+			iconType = {
+				name = "sym_approval_state_overview_bg"
+				position = { x = -5 y = -10 } 
+				spriteType = "GFX_sym_approval_state_overview_bg"
+				alwaystransparent = yes
+				
+			}
+			iconType = {
+				name = "SYM_approval_state_flag"
+				position = { x = 110 y = 2 } 
+				spriteType = "GFX_coalition_no_bg"
+				alwaystransparent = yes
+				
+			}
+			instantTextBoxType = {
+				name = "SYM_approval_gui_state_name"
+				font = "hoi_24header"
+				text = "[SYM_approval_gui_state_name_minor]"
+				maxWidth = 305
+				maxHeight = 50
+				format = center
+				position = {
+					x = 0
+					y = 58
+				}
+			}
+			instantTextBoxType = {
+				name = "SYM_approval_gui_state_capital"
+				font = "hoi_20bs"
+				text = "[SYM_approval_gui_state_capital]"
+				maxWidth = 305
+				maxHeight = 50
+				format = left
+				position = {
+					x = 0
+					y = 90
+				}
+			}
+			instantTextBoxType = {
+				name = "SYM_approval_gui_state_government"
+				font = "hoi_20bs"
+				text = "[SYM_approval_gui_state_government]"
+				maxWidth = 305
+				maxHeight = 50
+				format = left
+				position = {
+					x = 0
+					y = 110
+				}
+			}
+			instantTextBoxType = {
+				name = "SYM_approval_gui_state_description_text"
+				font = "hoi_20bs"
+				text = "[SYM_approval_gui_description_text]"
+				maxWidth = 290 
+				maxHeight = 50
+				format = center
+				position = { 
+					x = -4
+					y = 10
+				}
+			}
+			instantTextBoxType = {
+				name = "SYM_approval_gui_state_description"
+				font = "hoi_18mbs"
+				text = "[SYM_approval_gui_state_description]"
+				maxWidth = 290 
+				maxHeight = 50
+				format = center
+				position = { 
+					x = -4
+					y = 35
+				}
+			}
+
+		}
+
+		iconType = {
+			name = "SYM_approval_state_govenor_bg"
+			spriteType = "GFX_sym_approval_state_govenor_bg"
+			position = { x= 310 y= 360 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "SYM_approval_state_govenor"
+			position = { x = 362 y = 365 }
+			spriteType = "GFX_coalition_no_bg"
+			
+		}
+		iconType = {
+			name = "SYM_approval_state_govenor_outline"
+			spriteType = "GFX_sym_approval_state_govenor_outline"
+			position = { x= 305 y= 360 }
+			pdx_tooltip_delayed = "GovenorDescription"
+		}
+		instantTextBoxType = {
+			name = "SYM_approval_state_govenor_name"
+			font = "hoi_20b"
+			text = "[GetStateGovenorName]"
+			maxWidth = 169 
+			maxHeight = 90
+			format = center
+			position = {
+				x = 331
+				y = 537
+			}
+		}
+		instantTextBoxType = {
+			name = "SYM_approval_state_govenor_approval"
+			font = "hoi_20b"
+			text = "Approval: [GetGovenorApproval]"
+			maxWidth = 170 
+			maxHeight = 90
+			format = center
+			position = {
+				x = 331
+				y = 565
+			}
+		}
+		iconType = {
+			name ="SYM_approval_gui_help_effect"
+			spriteType = "GFX_sym_help_button"
+			position = { x=473 y=-17 }
+			scale = 0.7
+			alwaystransparent = no 
+			pdx_tooltip = "SYM_approval_gui_help_tooltip"
+		}
+	}
+}

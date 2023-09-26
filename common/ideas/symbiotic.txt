@@ -133,6 +133,10 @@ ideas = {
 				required_garrison_factor = -0.5
 				compliance_growth_on_our_occupied_states = -0.8
 				resistance_activity = -0.5
+				country_resource_food = -5
+				training_time_factor = 0.1
+				army_morale_factor = -0.1
+				army_org_factor = -0.1
 			}
 		}
 		

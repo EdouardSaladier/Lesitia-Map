@@ -5,6 +5,115 @@ oob = "standard_templates"
 # Starting tech
 
 set_research_slots = 3
+add_dynamic_modifier = {
+	modifier = SYM_strong_regionalism
+}
+#Approval Gui
+set_country_flag = SYM_region_approval_system_on
+set_country_flag = sym_approval_gui_toggle_description
+set_country_flag = SYM_center_selected_gui
+set_variable = {
+	sym_center_approval = 0.7
+} 
+set_variable = { 
+	sym_voskra_approval = 0.6
+}
+set_variable = {
+	sym_tiveask_approval = 0.5
+}
+set_variable = {
+	sym_resse_approval = 0.4
+}
+set_variable = {
+	sym_kakrikea_approval = 0.6
+}
+set_variable = {
+	sym_mavildea_approval = 0.6
+}
+set_variable = {
+	sym_termithia_approval = 0.5
+}
+set_variable = {
+	sym_seda_approval =0.2
+}
+set_variable = {
+	sym_lavido_approval = 0.5
+}
+set_variable = {
+	sym_lavska_approval = 0.2
+}
+
+
+set_country_flag = SYM_center_interactable
+set_country_flag = SYM_voskra_interactable
+set_country_flag = SYM_tiveask_interactable
+set_country_flag = SYM_resse_interactable
+set_country_flag = SYM_kakrikea_interactable
+set_country_flag = SYM_mavildea_interactable
+set_country_flag = SYM_seda_interactable
+set_country_flag = SYM_lavido_interactable
+
+if = {
+	limit = {
+		always = no
+	}
+	set_country_flag = SYM_termithia_interactable
+}
+
+
+if = {
+	limit = {
+		always = no
+	}
+	set_country_flag = SYM_lavska_interactable
+}
+
+set_variable = {#center
+	sym_var_political_power_gain = -0.2
+}
+set_variable = {#seda
+	sym_var_stability_factor = -0.3
+}
+set_variable = {#laksa
+	sym_var_surrender_limit =  -0.2
+}
+set_variable = {#resse
+	sym_var_war_support_factor = -0.3
+}
+set_variable = {#voskra
+	sym_var_conscription = -0.05
+}
+set_variable = {#voskra
+	sym_var_conscription_factor = -0.3
+}
+set_variable = {#lavido
+	sym_var_local_resources_factor = -0.3
+}
+set_variable = {
+	sym_var_required_garrison_factor= -0.5
+}
+set_variable = {
+	sym_var_compliance_growth_on_our_occupied_states = -0.8
+}
+set_variable = {#Kakrikea
+	sym_var_resistance_activity= -0.5
+}
+set_variable = {#mavildea
+	sym_var_country_resource_food= -5
+}
+set_variable = {#Kakrikea
+	sym_var_training_time_factor =  0.1
+}
+set_variable = {#tiveask
+	sym_var_army_morale_factor = -0.1
+}
+set_variable = {#tiveask
+	sym_var_army_org_factor = -0.1
+}
+set_variable = {#termithia
+	sym_var_research_speed_factor = 0
+}
+
 
 set_country_flag = coalition_despotism
 set_country_flag = coalition_theocracy
@@ -91,7 +200,7 @@ add_ideas = {
     sister_republics
 	symbiotic_army
 	chaotic_existence
-	regionalism_problem
+	#regionalism_problem
 	emergency_assistance
 }
 
@@ -101,7 +210,7 @@ recruit_character = SYM_leo_laze
 recruit_character = SYM_russet_vero
 recruit_character = SYM_russet_supremacism
 recruit_character = SYM_artem_valentim
-recruit_character = SYM_artem_ccommie
+recruit_character = SYM_artem_commie
 recruit_character = SYM_artist_guy
 recruit_character = SYM_artist_final
 

@@ -28,6 +28,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_tpc_bombing"
 		texturefile = "gfx/event_pictures/report_event_tpc_bombing.dds"
+
+	}
+	spriteType = {
+		name = "GFX_symbiotic_entry_event"
+		texturefile = "gfx/event_pictures/symbiotic_entry_event.dds"
 	}
 }
 

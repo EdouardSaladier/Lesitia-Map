@@ -1,0 +1,7 @@
+BOR_Faction_System = {
+	icon = GFX_decision_category_usa_congress
+
+	visible = {                 
+		tag = BOR   
+	}
+}

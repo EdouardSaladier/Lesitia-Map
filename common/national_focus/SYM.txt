@@ -17,6 +17,9 @@ focus_tree = {
 		cost = 4
 		x = 10
 		y = 0
+		completion_reward = {
+			country_event = SYM.34
+		}
 	}
 	
 	focus = {
@@ -28,7 +31,10 @@ focus_tree = {
 		}
 		x = 10
 		y = 1
+		completion_reward = {
+			country_event = SYM.35
 
+		}
 	}
 	
 	focus = {
@@ -132,7 +138,7 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = SYM_3376_elections
-		}
+		} 
 		x = 9
 		y = 5
 		available = {

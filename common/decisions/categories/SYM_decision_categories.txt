@@ -1,0 +1,8 @@
+SYM_approval_gui = {
+	icon = GFX_sym_federation_territories_decision_icon   
+	scripted_gui = SYM_approval_gui_bg
+	visible = {                 
+		tag = SYM   
+	}
+}
+           

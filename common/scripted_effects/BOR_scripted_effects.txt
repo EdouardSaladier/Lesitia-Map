@@ -1,0 +1,24 @@
+bor_increase_despotic_influence_10 = {
+	add_to_variable = {
+		var = bor_influence_despotism
+		value = 10
+	}
+}
+bor_increase_despotic_influence_20 = {
+	add_to_variable = {
+		var = bor_influence_despotism
+		value = 20
+	}
+}
+bor_increase_democratic_influence_10 = {
+	add_to_variable = {
+		var =  bor_influence_democratic
+		value = 10
+	}
+}
+bor_increase_democratic_influence_20 = {
+	add_to_variable = {
+		var =  bor_influence_democratic
+		value = 20
+	}
+}

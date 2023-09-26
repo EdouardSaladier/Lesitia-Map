@@ -65,6 +65,9 @@ country_event = {
 		ai_chance = {
 			base = 0
 		}
+		BOR = {
+			country_event = BOR.3
+		}
 	}
 	option = { 
 		name = SYM.3.b
@@ -74,6 +77,9 @@ country_event = {
 			ideology = democracy
 			long_name = SYM_artem_valentim_long
 			name = SYM_artem_valentim
+		}
+		BOR = {
+			country_event = BOR.4
 		}
 		ai_chance = {
 			base = 0
@@ -88,6 +94,9 @@ country_event = {
 			long_name = SYM_russet_vero_long
 			name = SYM_russet_vero
 		}
+		BOR = {
+			country_event = BOR.4
+		}
 		ai_chance = {
 			base = 0
 		}
@@ -100,6 +109,9 @@ country_event = {
 			ideology = democracy
 			long_name = SYM_artist_party_long
 			name = SYM_artist_party
+		}
+		BOR = {
+			country_event = BOR.10
 		}
 		hidden_effect = {
 			country_event = { id = SYM.4 days = 10 } 
@@ -116,6 +128,9 @@ country_event = {
 	        ruling_party = despotism
 	        elections_allowed = no
         }
+		BOR = {
+			country_event = BOR.11
+		}
 		ai_chance = {
 			base = 0
 		}
@@ -222,7 +237,7 @@ country_event = {
 
 	}
 	option = { 
-		name = SYM.6.a
+		name = SYM.6.b
 		release = VOS
 		release = SCM
 		retire_character = SYM_kallista_general
@@ -557,5 +572,455 @@ country_event = {
 			sym_get_cores = yes
 		}
 		
+	}
+}
+country_event = {    
+	id = SYM.13 #Resse Rebelion
+	title = SYM.13.t
+	desc = SYM.13.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.13.a
+		clr_country_flag = SYM_resse_interactable
+		release = ETH
+		ETH = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.14 #Lavido Rebelion
+	title = SYM.14.t
+	desc = SYM.14.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.14.a
+		clr_country_flag = SYM_lavido_interactable
+		release = LAV
+		LAV = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.15 #Voskra Rebelion
+	title = SYM.15.t
+	desc = SYM.15.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.15.a
+		clr_country_flag = SYM_voskra_interactable
+		retire_character = SYM_kallista_general
+		release = VOS
+		VOS = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.16 #Seda Rebelion
+	title = SYM.16.t
+	desc = SYM.16.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.16.a
+		clr_country_flag = SYM_seda_interactable
+		release = SED
+		SED = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.17 #Accidental Entry
+	title = SYM.17.t
+	desc = SYM.17.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.17.a
+	}
+}
+country_event = {    
+	id = SYM.18 #Mavildea Rebelion
+	title = SYM.18.t
+	desc = SYM.18.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.18.a
+		clr_country_flag = SYM_mavildea_interactable
+		release = MAV
+		MAV = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.19 #Kakrikea Rebelion
+	title = SYM.19.t
+	desc = SYM.19.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.19.a
+		clr_country_flag = SYM_kakrikea_interactable
+		retire_character = SYM_lua_general
+		release = KAK
+		KAK = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.20 #Tiveask Rebelion
+	title = SYM.20.t
+	desc = SYM.20.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.20.a
+		clr_country_flag = SYM_tiveask_interactable
+		release = TVA
+		TVA = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.21 #Termithia Rebelion
+	title = SYM.21.t
+	desc = SYM.21.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.21.a
+		clr_country_flag = SYM_termithia_interactable
+		release = TER
+		TER = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.22 #Laksa Rebelion
+	title = SYM.22.t
+	desc = SYM.22.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.22.a
+		clr_country_flag = SYM_lavska_interactable
+		release = OAV
+		OAV = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.23 #Central Region Rebelion
+	title = SYM.23.t
+	desc = SYM.23.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.23.a
+		clr_country_flag = SYM_center_interactable
+		release = ZHA
+		ZHA = {
+			declare_war_on = {
+				target = SYM
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {    
+	id = SYM.24 #Resse Rebelion Crushed 
+	title = SYM.24.t 
+	desc = SYM.24.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.24.a
+		set_country_flag = SYM_resse_new_govenor
+		every_state = {
+			limit = { is_core_of = ETH }
+			add_core_of = SYM
+		}
+		set_variable = {#resse
+			sym_var_war_support_factor = 0
+		}
+	}
+}
+country_event = {    
+	id = SYM.25 #Lavido Rebelion Crushed
+	title = SYM.25.t
+	desc = SYM.25.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.25.a
+		set_country_flag = SYM_lavido_new_govenor
+		every_state = {
+			limit = { is_core_of = LAV }
+			add_core_of = SYM
+		}
+		set_variable = {
+			sym_var_local_resources_factor = 0
+		}
+	}
+}
+country_event = {    
+	id = SYM.26 #Voskra Rebelion Crushed
+	title = SYM.26.t
+	desc = SYM.26.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.26.a
+		set_country_flag = SYM_voskra_new_govenor
+		every_state = {
+			limit = { is_core_of = VOS }
+			add_core_of = SYM
+		}
+		set_variable = {#voskra
+			sym_var_conscription = 0
+		}
+		set_variable = {#voskra
+			sym_var_conscription_factor = 0
+		}
+	}
+}
+country_event = {    
+	id = SYM.27 #Seda Rebelion Crushed
+	title = SYM.27.t
+	desc = SYM.27.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.27.a
+		set_country_flag = SYM_seda_new_govenor
+		every_state = {
+			limit = { is_core_of = SED }
+			add_core_of = SYM
+		}
+		set_variable = {#seda
+			sym_var_stability_factor = 0
+		}
+	}
+}
+country_event = {    
+	id = SYM.28 #Mavildea Rebelion Crushed
+	title = SYM.28.t
+	desc = SYM.28.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.28.a
+		set_country_flag = SYM_mavildea_new_govenor
+		every_state = {
+			limit = { is_core_of = MAV }
+			add_core_of = SYM
+		}
+		set_variable = {#mavildea
+			sym_var_country_resource_food = 0
+		}
+	}
+}
+country_event = {    
+	id = SYM.29 #Kakrikea Rebelion Crushed
+	title = SYM.29.t
+	desc = SYM.29.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.29.a
+		set_country_flag = SYM_kakrikea_new_govenor
+		every_state = {
+			limit = { is_core_of = KAK }
+			add_core_of = SYM
+		}
+		set_variable = {#Kakrikea
+			sym_var_training_time_factor =  0
+		}
+		set_variable = {#Kakrikea
+			sym_var_resistance_activity= 0
+		}
+	}
+}
+country_event = {    
+	id = SYM.30 #Tiveask Rebelion Crushed
+	title = SYM.30.t
+	desc = SYM.30.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.30.a
+		set_country_flag = SYM_tiveask_new_govenor
+		every_state = {
+			limit = { is_core_of = TVA }
+			add_core_of = SYM
+		}
+		set_variable = {
+			sym_var_army_morale_factor = 0
+		}
+		set_variable = {
+			sym_var_army_org_factor = 0
+		}
+	}
+}
+country_event = {    
+	id = SYM.31 #Termithia Rebelion Crushed
+	title = SYM.31.t
+	desc = SYM.31.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.31.a
+		set_country_flag = SYM_termithia_new_govenor
+		every_state = {
+			limit = { is_core_of = TER }
+			add_core_of = SYM
+		}
+		set_variable = {
+			sym_var_research_speed_factor = 0
+		}
+	}
+}
+country_event = {    
+	id = SYM.32 #Laksa Rebelion Crushed
+	title = SYM.32.t
+	desc = SYM.32.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.32.a
+		set_country_flag = SYM_laksa_new_govenor
+		every_state = {
+			limit = { is_core_of = OAV }
+			add_core_of = SYM
+		}
+		set_variable = {#laksa
+			sym_var_surrender_limit =  0
+		}
+	}
+}
+country_event = {    
+	id = SYM.33 #Central Rebelion Crushed
+	title = SYM.33.t
+	desc = SYM.33.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.33.a
+		set_country_flag = SYM_central_new_govenor
+		every_state = {
+			limit = { is_core_of = ZHA }
+			add_core_of = SYM
+		}
+		set_capital = {state = 7}
+		set_variable = {
+			sym_var_political_power_gain = 0
+		}
+	}
+}
+country_event = {    
+	id = SYM.34 #Sym Current Situation
+	title = SYM.34.t
+	desc = SYM.34.d
+	picture = GFX_symbiotic_entry_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.34.a
+
+	}
+}
+country_event = {    
+	id = SYM.35 #Sym Internal Report
+	title = SYM.35.t
+	desc = SYM.35.d
+	picture = GFX_symbiotic_entry_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.35.a
+
 	}
 }

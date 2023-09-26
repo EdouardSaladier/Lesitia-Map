@@ -1,0 +1,910 @@
+#########################################
+##Symbiotic Federation Gui defunkt code##
+#########################################
+#####history/countries#####
+	# set_variable = {#political_power_factor
+	# 	sym_center_political_power_bonus = 0.10
+	# }
+	# set_variable = {#stability_factor
+	# 	sym_center_stability_bonus = 0.1
+	# }
+	# set_variable = {#country_resource_food
+	# 	sym_mavildea_food_bonus = 5
+	# }
+	# set_variable = {#breakthrough_factor
+	# 	sym_kakrikea_breakthrough_bonus = 0.075
+	# }
+	# set_variable = { #resistance_damage_to_garrison
+	# 	sym_kakrikea_dmg_to_garrisons_bonus = -0.1
+	# }
+	# set_variable = {#conscription
+	# 	sym_voskra_manpower_bonus = 0.001
+	# }
+	# set_variable = {#training_time_factor
+	# 	sym_voskra_training_time_bonus = -0.1
+	# }
+	# set_variable = {#local_resources_factor
+	# 	sym_lavido_local_resources_bonus = 0.1
+	# }
+	# set_variable = {#war_stability_factor
+	# 	sym_resse_war_stability_bonus = 0.1
+	# }
+	# set_variable = {#army_org_factor
+	# 	sym_resse_organization_bonus = 0.05
+	# }
+	# set_variable = {#out_of_supply_factor 
+	# 	sym_tiveask_out_of_supply_bonus = -0.1
+	# }
+	# set_variable = {#army_morale_factor
+	# 	sym_tiveask_recovery_bonus = 0.05
+	# }
+	# set_variable = {#research_speed_factor
+	# 	sym_termithia_research_speed_bonus = 0.1
+	# }
+	# set_variable = {#surrender_limit
+	# 	sym_laksa_surrender_limit_bonus = 0.1
+	# }
+	# set_variable = {#war_support_factor min_export
+	# 	sym_seda_war_support_bonus = 0.1
+	# }
+	# set_variable = {#min_export
+	# 	sym_seda_min_export_bonus = -0.05
+	# }
+
+#####common/on_actions#####
+	# on_actions = {
+	# 	on_weekly_SYM = {
+	# 		effect = {
+	# 			#CENTER
+	# 			if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_center_approval > 0.66
+	# 					}
+	# 				}
+	# 				set_variable = {#political_power_factor
+	# 					sym_center_political_power_bonus = 0.15
+	# 				}
+	# 				set_variable = {#stability_factor
+	# 					sym_center_stability_bonus = 0.15
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_center_approval < 0.66
+	# 					}
+	# 					check_variable = {
+	# 						sym_center_approval > 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#political_power_factor
+	# 					sym_center_political_power_bonus = 0.10
+	# 				}
+	# 				set_variable = {#stability_factor
+	# 					sym_center_stability_bonus = 0.10
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_center_approval < 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#political_power_factor
+	# 					sym_center_political_power_bonus = -0.10
+	# 				}
+	# 				set_variable = {#stability_factor
+	# 					sym_center_stability_bonus = -0.10
+	# 				}
+	# 			}
+	# 			#VOSKRA	
+	# 			if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_voskra_approval > 0.66
+	# 					}
+	# 				}
+	# 				set_variable = {#conscription
+	# 					sym_voskra_manpower_bonus = 0.0015
+	# 				}
+	# 				set_variable = {#training_time_factor
+	# 					sym_voskra_training_time_bonus = -0.2
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_voskra_approval < 0.66
+	# 					}
+	# 					check_variable = {
+	# 						sym_voskra_approval > 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#conscription
+	# 					sym_voskra_manpower_bonus = 0.001
+	# 				}
+	# 				set_variable = {#training_time_factor
+	# 					sym_voskra_training_time_bonus = -0.1
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_voskra_approval < 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#conscription
+	# 					sym_voskra_manpower_bonus = -0.001
+	# 				}
+	# 				set_variable = {#training_time_factor
+	# 					sym_voskra_training_time_bonus = 0.1
+	# 				}
+	# 			}
+	# 			#TIVEASK	
+	# 			if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_tiveask_approval > 0.66
+	# 					}
+	# 				}
+	# 				set_variable = {#out_of_supply_factor 
+	# 					sym_tiveask_out_of_supply_bonus = -0.2
+	# 				}
+	# 				set_variable = {#army_morale_factor
+	# 					sym_tiveask_recovery_bonus = 0.1
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_tiveask_approval < 0.66
+	# 					}
+	# 					check_variable = {
+	# 						sym_tiveask_approval > 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#out_of_supply_factor 
+	# 					sym_tiveask_out_of_supply_bonus = -0.1
+	# 				}
+	# 				set_variable = {#army_morale_factor
+	# 					sym_tiveask_recovery_bonus = 0.05
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_tiveask_approval < 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#out_of_supply_factor 
+	# 					sym_tiveask_out_of_supply_bonus = 0.1
+	# 				}
+	# 				set_variable = {#army_morale_factor
+	# 					sym_tiveask_recovery_bonus = -0.05
+	# 				}
+	# 			}
+	# 			#RESSE	
+	# 			if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_resse_approval > 0.66
+	# 					}
+	# 				}
+	# 				set_variable = {#war_stability_factor
+	# 					sym_resse_war_stability_bonus = 0.2
+	# 				}
+	# 				set_variable = {#army_org_factor
+	# 					sym_resse_organization_bonus = 0.1
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_resse_approval < 0.66
+	# 					}
+	# 					check_variable = {
+	# 						sym_resse_approval > 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#war_stability_factor
+	# 					sym_resse_war_stability_bonus = 0.1
+	# 				}
+	# 				set_variable = {#army_org_factor
+	# 					sym_resse_organization_bonus = 0.05
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_resse_approval < 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#war_stability_factor
+	# 					sym_resse_war_stability_bonus = -0.1
+	# 				}
+	# 				set_variable = {#army_org_factor
+	# 					sym_resse_organization_bonus = -0.05
+	# 				}
+	# 			}
+	# 			#KAKRIKEA	
+	# 			if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_kakrikea_approval > 0.66
+	# 					}
+	# 				}
+	# 				set_variable = {#breakthrough_factor
+	# 					sym_kakrikea_breakthrough_bonus = 0.15
+	# 				}
+	# 				set_variable = { #resistance_damage_to_garrison
+	# 					sym_kakrikea_dmg_to_garrisons_bonus = -0.2
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_kakrikea_approval < 0.66
+	# 					}
+	# 					check_variable = {
+	# 						sym_kakrikea_approval > 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#breakthrough_factor
+	# 					sym_kakrikea_breakthrough_bonus = 0.075
+	# 				}
+	# 				set_variable = { #resistance_damage_to_garrison
+	# 					sym_kakrikea_dmg_to_garrisons_bonus = -0.1
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_kakrikea_approval < 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#breakthrough_factor
+	# 					sym_kakrikea_breakthrough_bonus = -0.075
+	# 				}
+	# 				set_variable = { #resistance_damage_to_garrison
+	# 					sym_kakrikea_dmg_to_garrisons_bonus = 0.1
+	# 				}
+	# 			}
+	# 			#MAVILDEA	
+	# 			if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_mavildea_approval > 0.66
+	# 					}
+	# 				}
+	# 				set_variable = {#country_resource_food
+	# 					sym_mavildea_food_bonus = 10
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_mavildea_approval < 0.66
+	# 					}
+	# 					check_variable = {
+	# 						sym_mavildea_approval > 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#country_resource_food
+	# 					sym_mavildea_food_bonus = 5
+	# 				}
+				
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_mavildea_approval < 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#country_resource_food
+	# 					sym_mavildea_food_bonus = -5
+	# 				}
+	# 			}
+	# 			#TERMITHIA	
+	# 			if = {
+	# 				limit = {
+	# 					NOT = {
+	# 						has_country_flag = SYM_termithia_interactable
+	# 					}
+	# 				}
+	# 				set_variable = {#research_speed_factor
+	# 					sym_termithia_research_speed_bonus = 0
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_termithia_approval > 0.66
+	# 					}
+	# 				}
+	# 				set_variable = {#research_speed_factor
+	# 					sym_termithia_research_speed_bonus = 0.15
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_termithia_approval < 0.66
+	# 					}
+	# 					check_variable = {
+	# 						sym_termithia_approval > 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#research_speed_factor
+	# 					sym_termithia_research_speed_bonus = 0.1
+	# 				}
+				
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_termithia_approval < 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#research_speed_factor
+	# 					sym_termithia_research_speed_bonus = -0.1
+	# 				}
+	# 			}
+	# 			#SEDA		
+	# 			if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_seda_approval > 0.66
+	# 					}
+	# 				}
+	# 				set_variable = {#war_support_factor min_export
+	# 					sym_seda_war_support_bonus = 0.2
+	# 				}
+	# 				set_variable = {#min_export
+	# 					sym_seda_min_export_bonus = -0.1
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_seda_approval < 0.66
+	# 					}
+	# 					check_variable = {
+	# 						sym_seda_approval > 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#war_support_factor min_export
+	# 					sym_seda_war_support_bonus = 0.1
+	# 				}
+	# 				set_variable = {#min_export
+	# 					sym_seda_min_export_bonus = -0.05
+	# 				}
+				
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_seda_approval < 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#war_support_factor min_export
+	# 					sym_seda_war_support_bonus = -0.1
+	# 				}
+	# 				set_variable = {#min_export
+	# 					sym_seda_min_export_bonus = 0.05
+	# 				}
+	# 			}
+	# 			#LAVIDO		
+	# 			if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_lavido_approval > 0.66
+	# 					}
+	# 				}
+	# 				set_variable = {#local_resources_factor
+	# 					sym_lavido_local_resources_bonus = 0.15
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_lavido_approval < 0.66
+	# 					}
+	# 					check_variable = {
+	# 						sym_lavido_approval > 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#local_resources_factor
+	# 					sym_lavido_local_resources_bonus = 0.075
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_lavido_approval < 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#local_resources_factor
+	# 					sym_lavido_local_resources_bonus = -0.075
+	# 				}
+	# 			}
+	# 			#LAVASKA	
+	# 			if = {
+	# 				limit = {
+	# 					NOT = {
+	# 						has_country_flag = SYM_lavska_interactable
+	# 					}
+	# 				}
+	# 				set_variable = {#surrender_limit
+	# 					sym_laksa_surrender_limit_bonus = 0
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_lavska_approval > 0.66
+	# 					}
+	# 				}
+	# 				set_variable = {#surrender_limit
+	# 					sym_laksa_surrender_limit_bonus = 0.15
+	# 				}
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_lavska_approval < 0.66
+	# 					}
+	# 					check_variable = {
+	# 						sym_lavska_approval > 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#surrender_limit
+	# 					sym_laksa_surrender_limit_bonus = 0.1
+	# 				}
+				
+	# 			}
+	# 			else_if = {
+	# 				limit = {
+	# 					check_variable = {
+	# 						sym_lavska_approval < 0.33
+	# 					}
+	# 				}
+	# 				set_variable = {#surrender_limit
+	# 					sym_laksa_surrender_limit_bonus = -0.1
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# }
+#####common/dynamic_modifiers#####
+	# SYM_Region_Bonuses = { 
+	# 	icon = GFX_focus_generic_steel
+	# 	enable = { has_country_flag = SYM_region_approval_system_on }
+	# 	remove_trigger = {
+	# 		NOT = {
+	# 			has_country_flag = SYM_region_approval_system_on 
+	# 		}
+	# 	}
+		
+	# 	#political_power_factor
+	# 	political_power_factor = sym_center_political_power_bonus
+
+	# 	#stability_factor
+	# 	stability_factor = sym_center_stability_bonus
+
+	# 	#country_resource_food
+	# 	country_resource_food = sym_mavildea_food_bonus 
+
+	# 	#breakthrough_factor
+	# 	breakthrough_factor = sym_kakrikea_breakthrough_bonus
+
+	# 	#resistance_damage_to_garrison
+	# 	resistance_damage_to_garrison = sym_kakrikea_dmg_to_garrisons_bonus
+
+	# 	#conscription
+	# 	conscription = sym_voskra_manpower_bonus
+
+	# 	#training_time_factor
+	# 	training_time_factor = sym_voskra_training_time_bonus 
+
+	# 	#local_resources_factor
+	# 	local_resources_factor = sym_lavido_local_resources_bonus
+
+	# 	#war_stability_factor
+	# 	war_stability_factor = sym_resse_war_stability_bonus
+
+	# 	#army_org_factor
+	# 	army_org_factor = sym_resse_organization_bonus
+
+	# 	#out_of_supply_factor
+	# 	out_of_supply_factor = sym_tiveask_out_of_supply_bonus
+
+	# 	#army_morale_factor
+	# 	army_morale_factor = sym_tiveask_recovery_bonus
+
+	# 	#research_speed_factor
+	# 	research_speed_factor = sym_termithia_research_speed_bonus
+
+	# 	#surrender_limit
+	# 	surrender_limit = sym_laksa_surrender_limit_bonus
+
+	# 	#war_support_factor 
+	# 	war_support_factor = sym_seda_war_support_bonus
+
+	# 	#min_export
+	# 	min_export = sym_seda_min_export_bonus
+
+	# }
+#####common/scripted_loc#####
+	# defined_text = {
+	# 	name = GetButtonImage
+	# 	text = {
+	# 		trigger = {
+	# 			not = {
+	# 				has_country_flag =  sym_approval_gui_toggle_description
+	# 			}
+	# 			has_country_flag = sym_approval_gui_toggle_decisions
+	# 		}
+	# 		localization_key = GFX_button_actions
+	# 	}
+	# 	text = {
+	# 		localization_key = GFX_off_button
+	# 	}
+	# }
+#####common/scripted_effects#####
+	# SYM_increase_support_one_effect = {
+	# 	add_political_power = -100
+	# 	if = {
+	# 		limit = {
+	# 			has_country_flag = SYM_tiveask_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_tiveask_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_voskra_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_voskra_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_resse_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_resse_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag =  SYM_center_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_center_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_kakrikea_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_kakrikea_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_mavildea_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_mavildea_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_termithia_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_termithia_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_seda_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_seda_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_lavido_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_lavido_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_lavska_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_lavska_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# }
+	# SYM_increase_support_two_effect = {
+	# 	add_timed_idea = {
+	# 		idea = SYM_consumer_goods_investment
+	# 		days = 100
+	# 	}
+	# 	if = {
+	# 		limit = {
+	# 			has_country_flag = SYM_tiveask_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_tiveask_approval
+	# 			value = 0.15
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_voskra_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_voskra_approval
+	# 			value = 0.15
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_resse_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_resse_approval
+	# 			value = 0.15
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag =  SYM_center_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_center_approval
+	# 			value = 0.15
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_kakrikea_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_kakrikea_approval
+	# 			value = 0.15
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_mavildea_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_mavildea_approval
+	# 			value = 0.15
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_termithia_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_termithia_approval
+	# 			value = 0.15
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_seda_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_seda_approval
+	# 			value = 0.15
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_lavido_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_lavido_approval
+	# 			value = 0.15
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_lavska_selected_gui
+	# 		}
+	# 		add_to_variable = {
+	# 			var = sym_lavska_approval
+	# 			value = 0.15
+	# 		}
+	# 	}
+	# }
+	# SYM_increase_support_three_effect = {
+	# 	add_political_power = 80
+	# 	if = {
+	# 		limit = {
+	# 			has_country_flag = SYM_tiveask_selected_gui
+	# 		}
+	# 		subtract_from_variable = {
+	# 			var = sym_tiveask_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_voskra_selected_gui
+	# 		}
+	# 		subtract_from_variable = {
+	# 			var = sym_voskra_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_resse_selected_gui
+	# 		}
+	# 		subtract_from_variable = {
+	# 			var = sym_resse_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag =  SYM_center_selected_gui
+	# 		}
+	# 		subtract_from_variable = {
+	# 			var = sym_center_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_kakrikea_selected_gui
+	# 		}
+	# 		subtract_from_variable = {
+	# 			var = sym_kakrikea_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_mavildea_selected_gui
+	# 		}
+	# 		subtract_from_variable = {
+	# 			var = sym_mavildea_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_termithia_selected_gui
+	# 		}
+	# 		subtract_from_variable = {
+	# 			var = sym_termithia_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_seda_selected_gui
+	# 		}
+	# 		subtract_from_variable = {
+	# 			var = sym_seda_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_lavido_selected_gui
+	# 		}
+	# 		subtract_from_variable = {
+	# 			var = sym_lavido_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# 	else_if = {
+	# 		limit = { 
+	# 			has_country_flag = SYM_lavska_selected_gui
+	# 		}
+	# 		subtract_from_variable = {
+	# 			var = sym_lavska_approval
+	# 			value = 0.10
+	# 		}
+	# 	}
+	# }
+#####interface/jackalstuff#####
+			# buttonType = {
+			# 	name ="SYM_increase_support_one_effect"
+			# 	spriteType = "GFX_button_actions"
+			# 	position = { x=20 y=50 }
+			# 	scale =1.1
+			# 	alwaystransparent = no
+			# 	pdx_tooltip = "SYM_increase_support_one_effect_tooltip"
+			# }
+			# instantTextBoxType = {
+			# 	name = "SYM_increase_support_one_button_text"
+			# 	font = "hoi_20bs"
+			# 	text = "[CheckButtonOneTextVisibility]"
+			# 	alwaystransparent = yes
+			# 	maxWidth = 305
+			# 	maxHeight = 50
+			# 	format = left
+			# 	position = { 
+			# 		x = 65
+			# 		y = 56
+			# 	}
+			# }
+			# buttonType = {
+			# 	name ="SYM_increase_support_two_effect"
+			# 	spriteType = "GFX_button_actions"
+			# 	position = { x=20 y=100 }
+			# 	scale = 1.1
+			# 	alwaystransparent = no
+			# 	pdx_tooltip = "SYM_increase_support_two_effect_tooltip"
+			# }
+			# instantTextBoxType = {
+			# 	name = "SYM_increase_support_two_button_text"
+			# 	font = "hoi_20bs"
+			# 	text = "[CheckButtonTwoTextVisibility]"
+			# 	alwaystransparent = yes
+			# 	maxWidth = 305
+			# 	maxHeight = 50
+			# 	format = left
+			# 	position = { 
+			# 		x = 57
+			# 		y = 106
+			# 	}
+			# }
+			# buttonType = {
+			# 	name ="SYM_increase_support_three_effect"
+			# 	spriteType = "GFX_button_actions"
+			# 	position = { x=20 y=150 }
+			# 	scale = 1.1
+			# 	alwaystransparent = no
+			# 	pdx_tooltip = "SYM_increase_support_three_effect_tooltip"
+			# }
+			# instantTextBoxType = {
+			# 	name = "SYM_increase_support_three_button_text"
+			# 	font = "hoi_20bs"
+			# 	text = "[CheckButtonThreeTextVisibility]"
+			# 	maxWidth = 305
+			# 	maxHeight = 50
+			# 	alwaystransparent = yes
+			# 	format = left
+			# 	position = { 
+			# 		x = 52
+			# 		y = 156
+			# 	}
+			# }
+#####common/scripted_gui#####
+	# SYM_increase_support_one_effect_click = {
+	# 	SYM_increase_support_one_effect = yes
+	# }
+	# SYM_increase_support_two_effect_click = {
+	# 	SYM_increase_support_two_effect = yes
+	# }
+	# SYM_increase_support_three_effect_click = {
+	# 	SYM_increase_support_three_effect = yes
+	# }

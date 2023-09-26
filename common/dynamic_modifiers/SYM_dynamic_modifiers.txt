@@ -1,0 +1,22 @@
+SYM_strong_regionalism = {
+	enable = { 
+		has_country_flag = SYM_region_approval_system_on
+	}
+	icon = GFX_idea_regionalism_problem
+
+	political_power_gain = sym_var_political_power_gain
+	stability_factor = sym_var_stability_factor 
+	surrender_limit = sym_var_surrender_limit
+	war_support_factor = sym_var_war_support_factor
+	conscription = sym_var_conscription
+	conscription_factor = sym_var_conscription_factor
+	local_resources_factor = sym_var_local_resources_factor
+	required_garrison_factor =sym_var_required_garrison_factor
+	compliance_growth_on_our_occupied_states = sym_var_compliance_growth_on_our_occupied_states
+	resistance_activity = sym_var_resistance_activity
+	country_resource_food =sym_var_country_resource_food
+	training_time_factor = sym_var_training_time_factor 
+	army_morale_factor =sym_var_army_morale_factor 
+	army_org_factor =sym_var_army_org_factor 
+	research_speed_factor = sym_var_research_speed_factor
+}

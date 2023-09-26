@@ -1,0 +1,597 @@
+SYM_effect = {
+	if = {
+		limit = {
+			has_country_flag = testtest
+		}
+		clr_country_flag = testtest
+
+	}
+	else = {
+		set_country_flag = testtest
+	}
+}
+SYM_tiveask_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	set_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+SYM_voskra_effect = {
+	set_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+SYM_resse_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	set_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+SYM_center_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	set_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+	
+}
+SYM_kakrikea_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	set_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+SYM_mavildea_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	set_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+SYM_termithia_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	set_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+SYM_seda_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	set_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+
+SYM_lavido_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	set_country_flag = SYM_lavido_selected_gui
+	clr_country_flag = SYM_lavska_selected_gui
+}
+SYM_lavska_effect = {
+	clr_country_flag = SYM_voskra_selected_gui
+	clr_country_flag = SYM_tiveask_selected_gui
+	clr_country_flag = SYM_resse_selected_gui
+	clr_country_flag = SYM_center_selected_gui
+	clr_country_flag = SYM_kakrikea_selected_gui
+	clr_country_flag = SYM_mavildea_selected_gui
+	clr_country_flag = SYM_termithia_selected_gui
+	clr_country_flag = SYM_seda_selected_gui
+	clr_country_flag = SYM_lavido_selected_gui
+	set_country_flag = SYM_lavska_selected_gui
+}
+SYM_toggle_flag_decisions_effect = {
+	if = {
+		limit = {
+			has_country_flag = sym_approval_gui_toggle_description
+		}
+		clr_country_flag =sym_approval_gui_toggle_description
+		set_country_flag = sym_approval_gui_toggle_decisions
+	}
+	else = {
+		set_country_flag =sym_approval_gui_toggle_description
+		clr_country_flag = sym_approval_gui_toggle_decisions
+	}
+}
+SYM_increase_central_approval_10 = {
+	add_to_variable = {
+		var = sym_center_approval
+		value = 0.10
+	}
+}
+SYM_increase_central_approval_20 = {
+	add_to_variable = {
+		var = sym_center_approval
+		value = 0.20
+	}
+}
+SYM_reduce_central_approval_10 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_center_approval > 0.9
+			}
+		}
+		subtract_from_variable = {
+			var = sym_center_approval
+			value = 0.10
+		}
+	}
+	else = {
+		country_event = SYM.23
+	}
+}
+SYM_reduce_central_approval_20 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_center_approval > 0.19
+			}
+		}
+		subtract_from_variable = {
+			var = sym_center_approval
+			value = 0.20
+		}
+	}
+	else = {
+		country_event = SYM.23
+	}
+}
+
+SYM_increase_voskra_approval_10 = {
+	add_to_variable = {
+		var = sym_voskra_approval
+		value = 0.10
+	}
+}
+SYM_increase_voskra_approval_20 = {
+	add_to_variable = {
+		var = sym_voskra_approval
+		value = 0.20
+	}
+}
+SYM_reduce_voskra_approval_10 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_voskra_approval > 0.9
+			}
+		}
+		subtract_from_variable = {
+			var = sym_voskra_approval
+			value = 0.10
+		}
+	}
+	else = {
+		country_event = SYM.15		
+	}
+}
+SYM_reduce_voskra_approval_20 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_voskra_approval > 0.19
+			}
+		}
+		subtract_from_variable = {
+			var = sym_voskra_approval
+			value = 0.20
+		}
+	}
+	else = {
+		country_event = SYM.15		
+	}
+}
+
+SYM_increase_tiveask_approval_10 = {
+	add_to_variable = {
+		var = sym_tiveask_approval
+		value = 0.10
+	}
+}
+SYM_increase_tiveask_approval_20 = {
+	add_to_variable = {
+		var = sym_tiveask_approval
+		value = 0.20
+	}
+}
+SYM_reduce_tiveask_approval_10 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_tiveask_approval > 0.9
+			}
+		}
+		subtract_from_variable = {
+			var = sym_tiveask_approval
+			value = 0.10
+		}
+	}
+	else = {
+		country_event = SYM.20
+	}
+}
+SYM_reduce_tiveask_approval_20 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_tiveask_approval > 0.19
+			}
+		}
+		subtract_from_variable = {
+			var = sym_tiveask_approval
+			value = 0.20
+		}
+	}
+	else = {
+		country_event = SYM.20
+	}
+
+}
+
+SYM_increase_resse_approval_10 = {
+	add_to_variable = {
+		var = sym_resse_approval
+		value = 0.10
+	}
+}
+SYM_increase_resse_approval_20 = {
+	add_to_variable = {
+		var = sym_resse_approval
+		value = 0.20
+	}
+}
+SYM_reduce_resse_approval_10 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_resse_approval > 0.9
+			}
+		}
+		subtract_from_variable = {
+			var = sym_resse_approval
+			value = 0.10
+		}
+	}
+	else = {
+		country_event = SYM.13
+	}
+}
+SYM_reduce_resse_approval_20 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_resse_approval > 0.19
+			}
+		}
+		subtract_from_variable = {
+			var = sym_resse_approval
+			value = 0.20
+		}
+	}
+	else = {
+		country_event = SYM.13
+	}
+}
+
+SYM_increase_kakrikea_approval_10 = {
+	add_to_variable = {
+		var = sym_kakrikea_approval
+		value = 0.10
+	}
+}
+SYM_increase_kakrikea_approval_20 = {
+	add_to_variable = {
+		var = sym_kakrikea_approval
+		value = 0.20
+	}
+}
+SYM_reduce_kakrikea_approval_10 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_kakrikea_approval > 0.9
+			}
+		}
+		subtract_from_variable = {
+			var = sym_kakrikea_approval
+			value = 0.10
+		}
+	}
+	else = {
+		country_event = SYM.19
+	}
+}
+SYM_reduce_kakrikea_approval_20 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_kakrikea_approval > 0.19
+			}
+		}
+		subtract_from_variable = {
+			var = sym_kakrikea_approval
+			value = 0.20
+		}
+	}
+	else = {
+		country_event = SYM.19
+	}
+}
+
+SYM_increase_mavildea_approval_10 = {
+	add_to_variable = {
+		var = sym_mavildea_approval
+		value = 0.10
+	}
+}
+SYM_increase_mavildea_approval_20 = {
+	add_to_variable = {
+		var = sym_mavildea_approval
+		value = 0.20
+	}
+}
+SYM_reduce_mavildea_approval_10 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_mavildea_approval > 0.9
+			}
+		}
+		subtract_from_variable = {
+			var = sym_mavildea_approval
+			value = 0.10
+		}
+	}
+	else = {
+		country_event = SYM.18 
+	}
+}
+SYM_reduce_mavildea_approval_20 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_mavildea_approval > 0.19
+			}
+		}
+		subtract_from_variable = {
+			var = sym_mavildea_approval
+			value = 0.20
+		}
+	}
+	else = {
+		country_event = SYM.18 
+	}
+}
+
+SYM_increase_termithia_approval_10 = {
+	add_to_variable = {
+		var = sym_termithia_approval
+		value = 0.10
+	}
+}
+SYM_increase_termithia_approval_20 = {
+	add_to_variable = {
+		var = sym_termithia_approval
+		value = 0.20
+	}
+}
+SYM_reduce_termithia_approval_10 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_termithia_approval > 0.9
+			}
+		}
+		subtract_from_variable = {
+			var = sym_termithia_approval
+			value = 0.10
+		}
+	}
+	else = {
+		country_event = SYM.21
+	}
+}
+SYM_reduce_termithia_approval_20 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_termithia_approval > 0.19
+			}
+		}
+		subtract_from_variable = {
+			var = sym_termithia_approval
+			value = 0.20
+		}
+	}
+	else = {
+		country_event = SYM.21
+	}
+}
+
+SYM_increase_seda_approval_10 = {
+	add_to_variable = {
+		var = sym_seda_approval
+		value = 0.10
+	}
+}
+SYM_increase_seda_approval_20 = {
+	add_to_variable = {
+		var = sym_seda_approval
+		value = 0.20
+	}
+}
+SYM_reduce_seda_approval_10 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_seda_approval > 0.9
+			}
+		}
+		subtract_from_variable = {
+			var = sym_seda_approval
+			value = 0.10
+		}
+	}
+	else = {
+		country_event = SYM.16
+	}
+}
+SYM_reduce_seda_approval_20 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_seda_approval > 0.19
+			}
+		}
+		subtract_from_variable = {
+			var = sym_seda_approval
+			value = 0.20
+		}
+	}
+	else = {
+		country_event = SYM.16
+	}
+}
+
+SYM_increase_lavido_approval_10 = {
+	add_to_variable = {
+		var = sym_lavido_approval
+		value = 0.10
+	}
+}
+SYM_increase_lavido_approval_20 = {
+	add_to_variable = {
+		var = sym_lavido_approval
+		value = 0.20
+	}
+}
+SYM_reduce_lavido_approval_10 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_lavido_approval > 0.9
+			}
+		}
+		subtract_from_variable = {
+			var = sym_lavido_approval
+			value = 0.10
+		}
+	}
+	else = {
+		country_event = SYM.14 
+	}
+}
+SYM_reduce_lavido_approval_20 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_lavido_approval > 0.19
+			}
+		}
+		subtract_from_variable = {
+			var = sym_lavido_approval
+			value = 0.20
+		}
+	}
+	else = {
+		country_event = SYM.14 
+	}
+}
+
+SYM_increase_lavska_approval_10 = {
+	add_to_variable = {
+		var = sym_lavska_approval
+		value = 0.10
+	}
+}
+SYM_increase_lavska_approval_20 = {
+	add_to_variable = {
+		var = sym_lavska_approval
+		value = 0.20
+	}
+}
+SYM_reduce_lavska_approval_10 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_lavska_approval > 0.9
+			}
+		}
+		subtract_from_variable = {
+			var = sym_lavska_approval
+			value = 0.10
+		}
+	}
+	else = {
+		country_event = SYM.22
+	}
+}
+SYM_reduce_lavska_approval_20 = {
+	if = {
+		limit = {
+			check_variable = {
+				sym_lavska_approval > 0.19
+			}
+		}
+		subtract_from_variable = {
+			var = sym_lavska_approval
+			value = 0.2
+		}
+	}
+	else = {
+		country_event = SYM.22
+	}
+}
