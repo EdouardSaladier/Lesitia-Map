@@ -245,8 +245,29 @@ SYM.34.d:0 "A nation isn’t born out of nothing, it’s forged out of a shared 
 SYM.34.a:0 "Understood"
 
 SYM.35.t:0 "Internal Report"
-SYM.35.d:0 "Lorem Ipsum"
-SYM.35.a:0 "Understood"
+SYM.35.d:0 "Special Insight Report 0\n\n/// FOR AUTHORISED TARSI ONLY ///\n\nClearence level: 5\nTopic: Investigation into the internal stability and threats against the Federation\nDate: [GetDateText]\nOverseer(s):H.Aquel (Deceased), A.Cind (Current)\n\nThis report contains detailed information regarding the current state of the nation and potential threats that could threaten the existence of the nation. It's split into 3 sections: Economy, Political Situation and Army. It is recommended that the reader familiarizes themselves with each of the sections carefully.\nThis report has been commissioned by the Federation Command approximately 6 months ago and all data in this report has been gathered during that period.\nThe creation of the report has been overseen by H.Aquel and A.Cind. H.Aquel has been replaced by A.Cind after the former has been killed in the Tiveask Region while performing his duty to the nation.\nThe intention of this report is to outline all the potential threats to the institution of democracy that the nation and the office of the president may find themselves against."
+SYM.35.a:0 "Go to the page about the state of the economy"
+SYM.35.b:0 "Go to the page about the current political situation"
+SYM.35.c:0 "Go to the page about the state of the army"
+SYM.35.e:0 "Close the report"
+
+SYM.36.t:0 "Internal Report: Economy"
+SYM.36.d:0 "Sub-section A: The State Of The Economy\n\nUnlike most nations, the economy of the Symbiotic is not one of self-reliance nor is it developed in any way. During the occupation the Glaurungir occupation authority has implemented a system of resource and labor exploitation that still has effects on the current day economy of the SF. This issue was deepened by the destruction wrought by the rebellion that set us free and enabled us to pursue a more self-sufficient economy. At this moment things like public services, access streets, nationwide roads and general infrastructure are often severely lacking or nonexistent. By effect of this we are seeing a growth in unemployment in the nation as well as economic inefficiencies. Unless we are able to rectify this situation, we are bound to see a steady rise in opposition against the government and an increase in support for decentralized rule or even secession."
+SYM.36.a:0 "Go to the page about the current political situation"
+SYM.36.b:0 "Go to the page about the state of the army"
+SYM.36.c:0 "Close the report"
+
+SYM.37.t:0 "Internal Report: Politics"
+SYM.37.d:0 "Sub-section B: The Political Situation\n\nThe Symbiotic federation is much less a unified state but rather more a collective of many regions and hives united under one banner with one common goal: defense against Glaurungir. The promise was that should the threat pass, the federation would dissolve back into independent hives, and now with Glaurungir being at its weakest there have been questions going around the collective wondering whether the threat has indeed passed. Many regions displeased with the current government debate that yes, however there are those who still see the threat in the remnants of the colonial rule holding out in the warlord state of Rheol. Many people hold more loyalty to their region than to the federation and in turn regions believe in their own sovereignty more than in the ideals of the federation. Should the federal state anger any of the regions through their actions they will likely secede without a second thought. Careful actions will need to be undertaken to avoid radicalizing elements of the state that we rely on for defense."
+SYM.37.a:0 "Go to the page about the state of the economy"
+SYM.37.b:0 "Go to the page about the state of the army"
+SYM.37.c:0 "Close the report"
+
+SYM.38.t:0 "Internal Report: Army"
+SYM.38.d:0 "Sub-section C: The State Of The Army\n\nThe armed forces of the federation are made up of mainly ex-militia and ex-resistance forces from the occupation days. To this day the affairs of the army are handled on the regional level including pay and training. As such there doesn’t exist a unified regiment structure or doctrine that serves as a guide for our armed forces. Another consequence of this style of management is the high regional connections between different commanders making their loyalty dubious in case of relations becoming tense between the federal state and the respective region. However, there is one universal belief shared between every commander within our army. And that is of belief in democracy, many of our generals and field marshals are soldiers who have spent their lives fighting against the oppression of the dictatorial rule of the colonial administration of Glaurungir. Should the federal state ever betray the ideals of democracy it may find itself in a position where a disloyal army might attempt to depose the would-be authoritarian figure. This is of the essence, especially now with the quickly approaching election which is causing tensions to rise between ethnic as well as ideological groups. The reports of planned rebellions and secessions are just the beginnings of threats that the state will have to deal with in the upcoming elections."
+SYM.38.a:0 "Go to the page about the state of the economy"
+SYM.38.b:0 "Go to the page about the current political situation"
+SYM.38.c:0 "Close the report"
 #####tooltips###
 sym_delayed_elections_tooltip:0 "§YDecided To Delay Elections§!"
 sym_elections_tooltip:0 "§YDecided To Organize The Elections§!"

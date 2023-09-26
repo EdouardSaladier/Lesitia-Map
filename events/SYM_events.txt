@@ -1012,7 +1012,7 @@ country_event = {
 	}
 }
 country_event = {    
-	id = SYM.35 #Sym Internal Report
+	id = SYM.35 #Sym Internal Report Start
 	title = SYM.35.t
 	desc = SYM.35.d
 	picture = GFX_symbiotic_entry_event
@@ -1021,6 +1021,77 @@ country_event = {
 
 	option = { 
 		name = SYM.35.a
+		country_event = SYM.36
+	}
+	option = { 
+		name = SYM.35.b
+		country_event = SYM.37
+	}
+	option = { 
+		name = SYM.35.c
+		country_event = SYM.38
+	}
+	option = { 
+		name = SYM.35.e
+	}
+}
+country_event = {    
+	id = SYM.36 #Sym Internal Report Economy
+	title = SYM.36.t
+	desc = SYM.36.d
+	picture = GFX_symbiotic_entry_event
 
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.36.a
+		country_event = SYM.37
+	}
+	option = { 
+		name = SYM.36.b
+		country_event = SYM.38
+	}
+	option = { 
+		name = SYM.36.c
+	}
+}
+country_event = {    
+	id = SYM.37 #Sym Internal Report Politics
+	title = SYM.37.t
+	desc = SYM.37.d
+	picture = GFX_symbiotic_entry_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.37.a
+		country_event = SYM.36
+	}
+	option = { 
+		name = SYM.37.b
+		country_event = SYM.38
+	}
+	option = { 
+		name = SYM.37.c
+	}
+}
+country_event = {    
+	id = SYM.38 #Sym Internal Report Army
+	title = SYM.38.t
+	desc = SYM.38.d
+	picture = GFX_symbiotic_entry_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.38.a
+		country_event = SYM.36
+	}
+	option = { 
+		name = SYM.38.b
+		country_event = SYM.37
+	}
+	option = { 
+		name = SYM.38.c
 	}
 }
