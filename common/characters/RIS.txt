@@ -1,23 +1,48 @@
 characters = {
 	
-	RIS_baris_general ={
-		name= "Baris Tevis"
+	RIS_baris_tevis = {
+		name = "Baris Tevis"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RIS/portrait_baris_tevis.dds"
+				}
+			}
+			country_leader = {
+			ideology = democracy_type
+			desc = RIS_baris_desc
+			expire = "4000.1.1.1"
+		}
+	}
+	RIS_paragram_kalil = {
+		name = "Baris Tevis"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RIS/portrait_paragram_briz.dds"
+				}
+			}
+			country_leader = {
+			ideology = corporatism_type
+			desc = RIS_paragram_desc
+			expire = "4000.1.1.1"
+		}
+	}
+	RIS_zinc_merc ={
+		name="Luciane 'Zinc' Elmai"
+		gender = female
 		portraits={
 			army={
-				large= "gfx/leaders/RIS/portrait_baris_tevis.dds"
+				large="gfx/leaders/RIS/portrait_RIS_zinc.dds"
 				small=GFX_portrait_GER_friedrich_paulus_small
 			}
 		}
+		desc = RIS_zinc_desc
 		corps_commander={
-			traits={ media_personality }
-			desc = RIS_baris_desc
-			skill= 2
-			
-			attack_skill = 3
-	        defense_skill = 2
-	        planning_skill = 2
-	        logistics_skill = 2
+			traits={ harsh_leader }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=8
 		}
 	}
-	
 }

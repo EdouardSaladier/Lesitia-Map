@@ -1,0 +1,14 @@
+
+leader_traits = {
+
+	MIT_controversial_monarch = {
+		random = no
+		political_power_factor = -0.1
+		stability_factor = -0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

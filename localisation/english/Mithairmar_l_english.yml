@@ -12,9 +12,9 @@ MIT_supremacism:0 "Kingdom of Mithairmar"
 MIT_supremacism_DEF:0 "The Kingdom of Mithairmar"
 MIT_supremacism_ADJ:0 "Mithairmarian"
 
-MIT_hegemony_supremacism:0 "Hegemony of Mithairmar"
-MIT_hegemony_supremacism_DEF:0 "The Hegemony of Mithairmar"
-MIT_hegemony_supremacism_ADJ:0 "Mithairmarian"
+MIT_hegemony:0 "Hegemony of Mithairmar"
+MIT_hegemony_DEF:0 "The Hegemony of Mithairmar"
+MIT_hegemony_ADJ:0 "Mithairmarian"
 
 MIT_revolutionarism:0 "People's Republic of Mithairmar"
 MIT_revolutionarism_DEF:0 "The People's of Mithairmar"
@@ -39,9 +39,24 @@ MIT_alarica_accept:0 "Waldron convinced Alarica to give up the throne"
 MIT_dead_king:0 "The King died"
 MIT_republican_coup:0 "The republican have taken power"
 MIT_republican_war_state:0 "The Republican Army took command"
+
+## LEADER
+alarica_desc:0 "§RArtist: §WBiobasher\n\n§RDescription: §WAlarica II lore here. TLDR; she's super controversial because she prefered commoner abovce nobles, in her 20 she wrote a book before glauginir world conquest about modernity, socialism and 'red monarchy', during the invasion she fled with her family and now sh's in power  "
+MIT_controversial_monarch:0 "Controversial Monarch"
+
 ### IDEAS
+
 MIT_dummy:0 "Dummy idea"
 MIT_dummy_desc:0 "Dummy ideas description"
+
+MIT_southern_noble:0 "vodoo name "
+MIT_southern_noble_desc:0 "southern noble" 
+
+MIT_fhyt_noble:0 "fyth name here "
+MIT_fhyt_noble_desc:0 " " 
+
+MIT_local_noble:0 "Ainric Artel"
+MIT_local_noble_desc:0 "local noble" 
 
 MIT_looming_famine:0 "Looming Famine"
 MIT_looming_famine_desc:0 "no quite a famine but let's try to avoid it"
@@ -85,20 +100,35 @@ MIT_divided_army_6_desc:0 ""
 MIT_strong_executive:0 "Strong Executive"
 MIT_strong_executive_desc:0 ""
 
-MIT_avian_young:0 "Avian Young Organisations"
+MIT_avian_young:0 "Avian Younth Organisations"
 MIT_avian_young_desc:0 ""
+
+MIT_great_kingdom:0 "Mithairmar Forevermore!"
+MIT_great_kingdom_desc:0 ""
+
+MIT_pol_reorg:0 "Political Reorganisation"
+MIT_pol_reorg_desc:0 ""
+
+MIT_pragmatic_welfare:0 "Pragmatic Welfare"
+MIT_pragmatic_welfare_desc:0 ""
+
+MIT_cultural_renaissance:0 "Cultural Renaissance"
+MIT_cultural_renaissance_desc:0 ""
+ 
+MIT_patriotic_royalty:0 "Patriotic Duty Of The King"
+MIT_patriotic_royalty_desc:0 "king propaganda"
 ### LEADER DESC
 MIT_regency_desc:0 "test (fuck)"
 
 #####partys names###
-MIT_despotism_party:0 "House Of Eljias"
-MIT_despotism_party_long:0 "House Of Eljias"
-MIT_corporatism_party:0 "Nofaco"
+MIT_despotism_party:0 "Parliement-R"
+MIT_despotism_party_long:0 "Mithairmar Parliement - Royalists"
+MIT_corporatism_party:0 "NoFaCo"
 MIT_corporatism_party_long:0 "Northern Farming Conglomerate"
-MIT_revolutionarism_party:0 "§ROutlawed"
-MIT_revolutionarism_party_long:0 "§ROutlawed"
-MIT_democracy_party:0 "Mithairmar Parliement"
-MIT_democracy_party_long:0 "Mithairmar Parliement"
+MIT_revolutionarism_party:0 "T.U.L.F.W.R"
+MIT_revolutionarism_party_long:0 "Trades union Leagues For Workers Rights"
+MIT_democracy_party:0 "Parliement-DC"
+MIT_democracy_party_long:0 "Parliement - Democratic Coalition"
 MIT_supremacism_party:0 "Royal Army"
 MIT_supremacism_party_long:0 "Royal Army Extremist Elements"
 MIT_technocracy_party:0 "Illdyast Group"
@@ -116,6 +146,8 @@ MIT_army_junta_party_long:0 "Mithairmar Republican Army"
 MIT_warstate_despotism_party:0 "M.N.R.R.A"
 MIT_warstate_despotism_party_long:0 "Mithairmar National Revolutionary Republican Army"
 
+MIT_overturned_parliement_party:0 "House Of Eljias"
+MIT_overturned_parliement_party_long:0 "House Of Eljias"
 ############################ FOCUS TREE #################################
 MIT_the_20_point_manifesto:0 "The 20 Point Manifesto"
 MIT_the_20_point_manifesto_desc:0 ""
@@ -302,8 +334,35 @@ MIT_rural_devellopement_program_desc:0 ""
 MIT_opening_the_gates:0 "Opening The Gates"
 MIT_opening_the_gates_desc:0 ""
 
+MIT_industry_reborn:0 "Industry Reborn"
 
+MIT_reopen_the_mines:0 "Re-open The Mines"
 
+MIT_commodity_factories:0 "Commodities Factories"
+
+MIT_gun_for_our_army:0 "Gun For Our Sons!"
+
+MIT_electric_future:0 "Electric Future"
+
+MIT_introduce_labor_laws:0 "Introduce Labors Law"
+
+MIT_experimental_tools:0 "Science Factories"
+
+MIT_end_the_malaise:0 "End The Malaise"
+
+MIT_made_in_mithairmar:0 "Made In Mithairmar"
+
+MIT_in_the_shadow_of_the_empire:0 "In The Shadow Of The Empire" 
+
+MIT_end_of_agrarianism:0 "End Of The Agricultural Dominance"
+
+MIT_open_more_laboratories:0 "Open More Laboratories"
+
+MIT_use_our_strenght:0 "Use Our Strenght"
+
+MIT_birth_of_militaroindustry:0 "Birth Of The Militaro-Industrial Complex"
+
+MIT_industrial_reformation:0 "The Industrial Reformation"
 ####################EVENT#############
 MIT.1.t: "The No-Longer-Hermit Kingdom"
 MIT.1.d: ""
@@ -387,7 +446,26 @@ MIT.20.d: ""
 MIT.20.a: "cons"
 MIT.20.b: "socdem"
 MIT.20.c: "lib"
-MIT.20.d: "rep extr"
+MIT.20.e: "rep extr"
+
+MIT.23.t: "Evening rest"
+MIT.23.d: "tl;dr: a mother that can finally have enough time to care about her children"
+MIT.23.a: "Slowly, but surely, Mithairmar heal..."
+
+MIT.24.t: "Price Of Sweat"
+MIT.24.d: "Yo the kingdom is pretty chill bro, you should get labors law or something"
+MIT.24.a: "Some token reforms should be enough."
+MIT.24.b: "Protecting the worker is protecting the economy."
+MIT.24.c: "The workers shall not struggle anymore!"
+MIT.24.e: "§RWho do you think we are? Akuriel? Pass as much laws as possible"
+
+MIT.25.t: "Striking Down The Hammer"
+MIT.25.d: "event about the police bustings union"
+MIT.25.a: "oh no"
+
+MIT.26.t: "The Great Hegemony"
+MIT.26.d: "event about king doing a big speech"
+MIT.26.a: "Gajiukan! Gajiukan! Gajiukan!"
 #######Custom Tooltip
 MIT_tooltip.1:0 "Alarica will ascend to the throne"
 MIT_tooltip.2:0 "Waldron wiill ascend to the throne"
@@ -401,10 +479,13 @@ MIT_tooltip.7:0 "We Will Gain Access To Diplomcy And Conquest Decisions"
 MIT_politic_queen:0 "Choose A Consort"
 
 MIT_scary_ass_experiment:0 "Project Aeternum"
+
 MIT_marry_local_noble:0 "Marry A Local Noble"
+MIT_marry_local_noble_desc:0 "Artel Ainric family was always in the forefront of the army back in the days of swords and gunpowder. During the lizards invasion, he created and unified several resistances group, most of them aploitical, to free the country. When the lizards empire went in nuclear fire, he dissolved most of these group and came back to the army. While he isn't that interested in politic, he's a popular choice with many peoples, as well as magnificient gentlebird."
 MIT_marry_southern_noble:0 "Marry A Southern Noble"
 MIT_marry_fhyreanta_noble:0 "Marry A Fhyreanta Noble"
-MIT_moth_girlboss_pact:0 "gaslight gatekeep girlboss"
+MIT_moth_girlboss_pact:0 "I need me a moth GF rn uuuuurgh"
+MIT_moth_girlboss_pact_desc:0 "place"
 
 MIT_technoesoterecism:0 "Unusual Project Division"
 MIT_psychosphere:0 "Psychosphere Research"

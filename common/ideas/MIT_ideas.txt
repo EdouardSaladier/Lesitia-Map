@@ -1,5 +1,4 @@
 ideas = {
-
 	country = {
 		MIT_looming_famine = {
 			picture = GFX_MIT_idea_looming_famine
@@ -431,6 +430,189 @@ ideas = {
 				conscription = 0.02
 				stability_factor = -0.05
 				drift_defence_factor = 0.1
+			}
+		}
+		MIT_great_kingdom = {
+			picture = idea_raj_risk_of_famine
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.1
+				stability_factor = 0.1
+				war_support_factor = 0.1
+			}
+		}
+		MIT_pol_reorg = {
+			picture = idea_raj_risk_of_famine
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.1
+			}
+		}
+		MIT_pragmatic_welfare = {
+			picture = idea_raj_risk_of_famine
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = 0.02
+			stability_factor = 0.05
+			offensive_war_stability_factor = 0.1
+			}
+		}
+		MIT_cultural_renaissance = {
+			picture = idea_raj_risk_of_famine
+			
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = 0.01
+			}
+		}
+		MIT_local_noble = {		
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		MIT_fhyt_noble = {		
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		MIT_southern_noble = {		
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		MIT_patriotic_royalty = {		
+			allowed = { 
+			    tag = MIT
+            }
+
+            available = {
+            }
+
+            cancel = {
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.05
+				stability_factor = 0.05
+				war_support_factor = 0.1
 			}
 		}
 	}

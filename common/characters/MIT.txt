@@ -47,7 +47,9 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = revolutionarism_type 
+			ideology = revolutionarism_type
+			traits={ MIT_controversial_monarch }
+			desc = alarica_desc
 			expire = "4000.1.1.1"
 			id = -1
 		}

@@ -1,0 +1,62 @@
+focus_tree = {
+	id = RIS
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			is_warlord = yes
+		}
+	}
+	default = no
+	
+	###
+	
+	focus = {
+		id = RIS_a_fresh_start
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 15
+		y = 0
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_gather_public_support
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 14
+		y = 1
+		available = {
+			is_subject = no
+		}
+		prequisite = {
+			focus = RIS_a_fresh_start
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_transoceanic_contact
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 13
+		y = 2
+		available = {
+			is_subject = no
+		}
+		prequisite = {
+			focus = RIS_gather_public_support
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+}

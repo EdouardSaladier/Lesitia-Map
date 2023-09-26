@@ -1,4 +1,18 @@
 add_namespace = MIT
+add_namespace = MITmarriage
+
+
+country_event = {
+	id = MITmarriage.1
+	title = MITmarriage.1.t
+	desc = MITmarriage.1.d
+	#picture = 
+	is_triggered_only = yes
+	option = { 
+		name = MITmarriage.1.a
+		add_ideas = MIT_local_noble
+	}
+}
 
 country_event = {
 	id = MIT.1
@@ -234,6 +248,14 @@ country_event = {
 			ruling_party = revolutionarism
 			elections_allowed = no
 		}
+			remove_country_flag = coalition_democracy
+			set_country_flag = coalition_despotism
+			update_coalition = yes
+					set_party_name = { 
+   			ideology = despotism 
+  	 		long_name = MIT_overturned_parliement_party_long
+   			name = MIT_overturned_parliement_party
+			}
 			promote_character = MIT_alarica
 			set_cosmetic_tag = MIT_monbol
 	}
@@ -363,7 +385,7 @@ country_event = {
 		name = MIT.20.c
 	}
 	option = { 
-		name = MIT.20.d
+		name = MIT.20.e
 		set_country_flag = MIT_republican_war_state_victory
 	}
 }
@@ -405,4 +427,73 @@ country_event = { #Choice of what to do with throne
 		name = MIT.22.c
 	}
 
+}
+
+country_event = { #narrative event about welfare
+	id = MIT.23
+	title = MIT.23.t
+	desc = MIT.23.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.23.a
+	}
+
+
+}
+
+country_event = { #labors law! but how extreme?
+	id = MIT.24
+	title = MIT.24.t
+	desc = MIT.24.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.24.a
+	}
+	option = { 
+		name = MIT.24.b
+	}
+	option = { 
+		name = MIT.24.c
+	}
+	option = { #only if red queen
+		name = MIT.24.e
+	}
+
+}
+
+country_event = { #denounce the left
+	id = MIT.25
+	title = MIT.25.t
+	desc = MIT.25.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.25.a
+		add_popularity = {
+		ideology = revolutionarism
+		popularity = -0.15
+		}
+	}
+}
+
+country_event = { #denounce the left
+	id = MIT.26
+	title = MIT.26.t
+	desc = MIT.26.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.26.a
+		set_cosmetic_tag = MIT_hegemony 
+	}
 }

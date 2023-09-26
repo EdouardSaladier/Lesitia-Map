@@ -1,10 +1,16 @@
 MIT_politic_queen = {
 	
 	MIT_marry_local_noble = {
-	cost = 75
-	add_ideas =
+	cost = 25
+	complete_effect = {
+			MIT = { 
+				country_event = {
+					id = MITmarriage.1
+				}	
+			}
+		}
 	}
-	
+
 	MIT_marry_southern_noble = {
 	cost = 75
 	add_ideas = 

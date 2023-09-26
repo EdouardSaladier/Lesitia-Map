@@ -1,0 +1,5 @@
+﻿l_english:
+####################EVENT#############
+wolrd_ev.1.t: "This is a test event"
+wolrd_ev.1.d: "This is the .d of the text"
+wolrd_ev.1.a: "Wow it work!"

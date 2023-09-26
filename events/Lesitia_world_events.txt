@@ -1,0 +1,15 @@
+add_namespace = wolrd_ev
+
+news_event = {
+	id = wolrd_ev.1
+	title = wolrd_ev.1.t
+	desc = wolrd_ev.1.d
+	picture = GXF_report_event_001
+
+	is_triggered_only = yes
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MIT.1"}
+	option = { 
+		name = wolrd_ev.1.a
+	}
+}
+

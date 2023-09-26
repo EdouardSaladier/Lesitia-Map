@@ -60,22 +60,9 @@ set_popularities = {
 	corporatism = 80
 }
 
-create_country_leader = {
-	name = "Paragram Kalil"
-	desc = "RIS_paragram_desc"
-	picture = "portrait_paragram_briz.dds"
-	ideology = corporatism_type 
-}
-
-create_country_leader = {
-	name = "Baris Tevis"
-	desc = "RIS_baris_desc"
-	picture = "portrait_baris_tevis.dds"
-	ideology = democracy_type 
-}
-
-recruit_character = RIS_baris_general
-
+recruit_character = RIS_baris_tevis
+recruit_character = RIS_paragram_kalil
+recruit_character = RIS_zinc_merc
 add_ideas = {
 	sin_islands
 }
