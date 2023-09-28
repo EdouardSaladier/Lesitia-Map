@@ -202,7 +202,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RIS_1
+		id = RIS_reclaim_the_mainland
 		icon = GFX_focus_generic_self_management
 		cost = 7
 		x = 15
@@ -212,6 +212,208 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = RIS_showdown_at_paraiso
+		}
+		mutually_exclusive = { focus = RIS_fall_into_isolation }
+		mutually_exclusive = { focus = RIS_greater_rescanie }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_fall_into_isolation
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 17
+		y = 5
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_showdown_at_paraiso
+		}
+		mutually_exclusive = { focus = RIS_greater_rescanie }
+		mutually_exclusive = { focus = RIS_reclaim_the_mainland }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_greater_rescanie
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 13
+		y = 5
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_showdown_at_paraiso
+		}
+		mutually_exclusive = { focus = RIS_reclaim_the_mainland }
+		mutually_exclusive = { focus = RIS_fall_into_isolation }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_preleminary_skirmish
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 14
+		y = 6
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_reclaim_the_mainland
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_contact_local_sympathizer
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 14
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_preleminary_skirmish
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_prepare_the_ship
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 12
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_preleminary_skirmish
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_welcome_defectors
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 16
+		y = 6
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_reclaim_the_mainland
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_form_reclamation_brigade
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 16
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_welcome_defectors
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_implement_conscription
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 18
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_welcome_defectors
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_diversify_our_army
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 17
+		y = 8
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_form_reclamation_brigade
+		}
+		prerequisite = {
+			focus = RIS_implement_conscription
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_operation_starting_piece
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 13
+		y = 8
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_contact_local_sympathizer
+		}
+		prerequisite = {
+			focus = RIS_prepare_the_ship
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_launch_the_conquest
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 15
+		y = 9
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_diversify_our_army
+		}
+		prerequisite = {
+			focus = RIS_operation_starting_piece
 		}
 		completion_reward = {
 			add_political_power = 100
