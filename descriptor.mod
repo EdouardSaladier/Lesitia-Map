@@ -60,7 +60,6 @@ replace_path="common/technology_sharing"
 replace_path="common/interface/equipmentdesigner"
 replace_path="gfx/interface/equipmentdesigner/tanks/designer"
 replace_path="gfx/interface/equipmentdesigner/graphic_db"
-
 replace_path="events"
 replace_path="music"
 
