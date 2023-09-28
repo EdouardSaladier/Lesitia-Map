@@ -374,7 +374,15 @@ country_event = {
 		}
 		hidden_effect = {
 		}
+		retire_country_leader = yes
 
+		create_country_leader = {
+			name = "Fallen Government"
+			desc = ""
+			picture = GFX_portrait_Fallen_Government
+			expire = "4000.1.1"
+			ideology = democracy_type
+		}
 
 	}
 	option = { 
@@ -390,6 +398,15 @@ country_event = {
 		}
 		hidden_effect = {
 		}
+		retire_country_leader = yes
+
+		create_country_leader = {
+			name = "Fallen Government"
+			desc = ""
+			picture = GFX_portrait_Fallen_Government
+			expire = "4000.1.1"
+			ideology = democracy_type
+		}
 	}
 	option = { 
 		name = SYM.9.c
@@ -400,6 +417,14 @@ country_event = {
 			country_event = { id = SYM.10 days = 10 } 
 		}
 		hidden_effect = {
+		}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Fallen Government"
+			desc = ""
+			picture = GFX_portrait_Fallen_Government
+			expire = "4000.1.1"
+			ideology = democracy_type
 		}
 		ai_chance = {
 			base = 100
