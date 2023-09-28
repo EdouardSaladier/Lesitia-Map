@@ -34,8 +34,60 @@ focus_tree = {
 		available = {
 			is_subject = no
 		}
-		prequisite = {
+		prerequisite = {
 			focus = RIS_a_fresh_start
+		}
+		completion_reward = {
+			add_political_power = 10
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_economic_overview
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 16
+		y = 1
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_a_fresh_start
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_invite_mainland_corporations
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 17
+		y = 2
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_economic_overview
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_legetimise_our_state
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 15
+		y = 2
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_gather_public_support
+			focus = RIS_economic_overview
 		}
 		completion_reward = {
 			add_political_power = 100
@@ -51,8 +103,115 @@ focus_tree = {
 		available = {
 			is_subject = no
 		}
-		prequisite = {
+		prerequisite = {
 			focus = RIS_gather_public_support
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_remove_economical_shackles
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 12
+		y = 3
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_transoceanic_contact
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_reintroduce_guild_organisations
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 14
+		y = 3
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_transoceanic_contact
+			focus = RIS_legetimise_our_state
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_an_enclave_of_stability_on_the_sea
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 16
+		y = 3
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_invite_mainland_corporations
+			focus = RIS_legetimise_our_state
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_meet_the_team
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 18
+		y = 3
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_invite_mainland_corporations
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_showdown_at_paraiso
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 15
+		y = 4
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_remove_economical_shackles
+			focus = RIS_reintroduce_guild_organisations
+			focus = RIS_an_enclave_of_stability_on_the_sea
+			focus = RIS_meet_the_team
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_1
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 15
+		y = 5
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_showdown_at_paraiso
 		}
 		completion_reward = {
 			add_political_power = 100
