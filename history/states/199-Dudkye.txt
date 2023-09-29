@@ -13,6 +13,9 @@ state={
 		add_core_of = TPG
 		set_variable = { minority = 73 }
 		set_variable = { majority = 79 }
+		add_dynamic_modifier = {
+			modifier = SYM_tiveask_fog
+		}
 	}
 	
 	provinces={

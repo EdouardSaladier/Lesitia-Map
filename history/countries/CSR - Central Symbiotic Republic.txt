@@ -60,7 +60,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	tiveask_fog
+	#tiveask_fog
 	tiveask_bandits
 	last_stand
 }

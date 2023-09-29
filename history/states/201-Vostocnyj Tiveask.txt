@@ -12,6 +12,9 @@ state={
 		add_core_of = TVA
 		add_core_of = TPG
 		set_variable = { majority = 73 }
+		add_dynamic_modifier = {
+			modifier = SYM_tiveask_fog
+		}
 	}
 	
 	provinces={

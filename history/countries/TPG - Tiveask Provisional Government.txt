@@ -72,6 +72,6 @@ recruit_character = TPG_meloe_general
 
 add_ideas = {
     refugee_state
-	tiveask_fog
+	#tiveask_fog
 	tiveask_bandits
 }

@@ -61,7 +61,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	tiveask_fog
+	#tiveask_fog
 	ruthless_rule
 	ephemeral_militia
 }

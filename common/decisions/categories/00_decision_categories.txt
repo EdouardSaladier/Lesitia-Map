@@ -65,7 +65,11 @@ VRT_leaders = {
         tag = VRT
     }
 }
-
+VRT_foreign_relations = {
+	allowed = {
+        tag = VRT
+    }
+}
 WRL_unification = {
 	icon = generic_propaganda
 	

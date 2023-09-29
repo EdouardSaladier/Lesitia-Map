@@ -63,7 +63,7 @@ set_popularities = {
 add_ideas = {
     termite_future
 	outsider_issue
-	tiveask_fog
+	#tiveask_fog
 }
 
 create_country_leader = {
