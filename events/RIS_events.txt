@@ -56,3 +56,20 @@ country_event = {    ###warlord demands land
         }
 	}
 }
+country_event = {
+	id = RIS.2
+	title = RIS.2.t
+	desc = RIS.2.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.2.a
+			set_party_name = { 
+   			ideology = despotism 
+  	 		long_name = RIS_merc_party_long
+   			name = RIS_merc_party
+			}
+	}
+}	

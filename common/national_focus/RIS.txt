@@ -300,7 +300,7 @@ focus_tree = {
 		id = RIS_hieranaski_arrival
 		icon = GFX_focus_generic_self_management
 		cost = 7
-		x = 10
+		x = 11
 		y = 8
 		available = {
 			is_subject = no
@@ -317,7 +317,7 @@ focus_tree = {
 		id = RIS_return_to_colonica
 		icon = GFX_focus_generic_self_management
 		cost = 7
-		x = 8
+		x = 9
 		y = 8
 		available = {
 			is_subject = no
@@ -334,7 +334,7 @@ focus_tree = {
 		id = RIS_proclaim_selachidia
 		icon = GFX_focus_generic_self_management
 		cost = 7
-		x = 9
+		x = 10
 		y = 9
 		available = {
 			is_subject = no
@@ -506,6 +506,189 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = RIS_operation_starting_piece
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_the_house_always_in
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 8
+		y = 5
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_showdown_at_paraiso
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_aint_that_a_kick_in_the_head
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 9
+		y = 6
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_the_house_always_in
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_buying_loyalty
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 7
+		y = 6
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_the_house_always_in
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_a_free_and_strong_market
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 8
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_aint_that_a_kick_in_the_head
+		}
+		prerequisite = {
+			focus = RIS_buying_loyalty
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_the_velvet_gloves
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 7
+		y = 8
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_a_free_and_strong_market
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_not_so_invisible_hand
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 5
+		y = 8
+		available = {
+			is_subject = no
+		}
+		mutually_exclusive = { focus = RIS_the_velvet_gloves }
+		prerequisite = {
+			focus = RIS_a_free_and_strong_market
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_diversify_our_market
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 4
+		y = 9
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_not_so_invisible_hand
+			focus = RIS_the_velvet_gloves
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_the_question_of_the_state
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 6
+		y = 9
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_not_so_invisible_hand
+			focus = RIS_the_velvet_gloves
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_expand_privatisation
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 8
+		y = 9
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_not_so_invisible_hand
+			focus = RIS_the_velvet_gloves
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_the_greatest_experiment
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 6
+		y = 10
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_diversify_our_market
+		}
+		prerequisite = {
+			focus = RIS_expand_privatisation
+		}
+		prerequisite = {
+			focus = RIS_the_question_of_the_state
 		}
 		completion_reward = {
 			add_political_power = 100
