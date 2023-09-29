@@ -13,8 +13,8 @@ RIS_despotism_ADJ:0 "Rescanian"
 ### LEADER DESC
 RIS_paragram_desc:0 "Artist; ArtChoiAila\n\nAge; 44\n\nParagram was born in the archipelago of Rescanie, his family always being wealthy and his father always telling him that the accumulation of capital was one of the main objectives of life, Paragram would make sure to follow what his father said, forming a casino and betting-house chain on the islands, basically turning the entire region into a vacation destination for gamblers and the rich."
 RIS_baris_desc:0 "Artist; ArtChoiAila\n\nAge; 35\n\nBaris was a minor military member within the Federal army before the collapse, but that didn't stop him from respecting and defending the nation and system he loved so much, due to this the collapse of the Federation hurt nobody as much as him, from that day forward he would keep his head down in sadness, until he came to the conclusion that he might be able to bring it back, gathering some loyalists he would take the Rescanie islands to himself and his cause, planning to come back to the mainland when the opportunity presents itself."
-RIS_zinc_desc:0 "Artist; artofem\n\nAge; 38\n\nthis is a test. "
-
+RIS_zinc_merc_desc:0 "Artist; artofem\n\nAge; 38\n\nthis is a test. "
+RIS_zinc_leader_desc:0 "Artist; artofem\n\nAge; 38\n\nthis is a test for leader desc. "
 #####partys names###
 RIS_corporatism_party:0 "Casino Board"
 RIS_corporatism_party_long:0 "the Casino Board"
@@ -25,6 +25,8 @@ RIS_despotism_party_long:0 "Foreign Mercenaries"
 RIS_revolutionarism_party:0 "Trade Unions"
 RIS_revolutionarism_party_long:0 "Trade Unions"
 
+RIS_merc_party:0 "PMG-CM"
+RIS_merc_party_long:0 "Private Military Group - Cloudy Monday"
 ###focus
 RIS_a_fresh_start:0 "A Fresh Start"
 RIS_a_fresh_start_desc:0 "desc for focus"
@@ -91,3 +93,18 @@ RIS_implement_conscription:0 "Implement Conscription"
 
 RIS_diversify_our_army:0 "Diversify Our Army"
 RIS_diversify_our_army_desc:0 ""
+
+RIS_start_the_fire_of_nationalism:0 "Light The Fire Of Nationalism"
+RIS_start_the_fire_of_nationalism_desc:0 ""
+
+RIS_sons_of_oceans:0 "Sons Of The Oceans"
+RIS_sons_of_oceans_desc:0 ""
+
+RIS_hieranaski_arrival:0 "Hieranaski Arrival"
+RIS_hieranaski_arrival_desc:0 ""
+
+RIS_return_to_colonica:0 "Return To Colonica"
+RIS_return_to_colonica_desc:0 ""
+
+RIS_proclaim_selachidia:0 "Proclaim Selachidia"
+RIS_proclaim_selachidia_desc:0 ""

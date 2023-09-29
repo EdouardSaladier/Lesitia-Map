@@ -14,7 +14,7 @@ characters = {
 		}
 	}
 	RIS_paragram_kalil = {
-		name = "Baris Tevis"
+		name = "Paragram Briz"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/RIS/portrait_paragram_briz.dds"
@@ -35,14 +35,18 @@ characters = {
 				small=GFX_portrait_GER_friedrich_paulus_small
 			}
 		}
-		desc = RIS_zinc_desc
 		corps_commander={
 			traits={ harsh_leader }
+			desc = RIS_zinc_desc
 			skill=3
 			attack_skill=2
 			defense_skill=3
 			planning_skill=2
 			logistics_skill=8
+		}
+				country_leader = {
+			ideology = despotism_type
+			expire = "4000.1.1.1"
 		}
 	}
 }

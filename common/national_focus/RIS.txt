@@ -4,9 +4,13 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			is_warlord = yes
+			tag = RIS
 		}
 	}
+    continuous_focus_position = {
+        x = 2500
+        y = 0
+    } 
 	default = no
 	
 	###
@@ -253,6 +257,94 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = RIS_reclaim_the_mainland }
 		mutually_exclusive = { focus = RIS_fall_into_isolation }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_start_the_fire_of_nationalism
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 11
+		y = 6
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_greater_rescanie
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_sons_of_oceans
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 10
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_start_the_fire_of_nationalism
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_hieranaski_arrival
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 10
+		y = 8
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_sons_of_oceans
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_return_to_colonica
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 8
+		y = 8
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_sons_of_oceans
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_proclaim_selachidia
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 9
+		y = 9
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_hieranaski_arrival
+		}
+		prerequisite = {
+			focus = RIS_return_to_colonica
+		}
 		completion_reward = {
 			add_political_power = 100
 			add_stability = 0.1
