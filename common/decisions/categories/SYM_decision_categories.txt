@@ -3,6 +3,7 @@ SYM_approval_gui = {
 	scripted_gui = SYM_approval_gui_bg
 	visible = {                 
 		tag = SYM   
+		has_country_flag = SYM_region_approval_system_on
 	}
 }
            
