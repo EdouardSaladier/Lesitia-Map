@@ -58,4 +58,13 @@ spriteTypes = {
 		name = "GFX_BOR_dialogue_char2d"
 		texturefile = "gfx/interface/dialogue_system/BOR_DIALOGUE/chars/char2d.dds"
 	}
+	spriteType = {
+		name = "GFX_BOR_dialogue_char3"
+		texturefile = "gfx/interface/dialogue_system/BOR_DIALOGUE/chars/char3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_BOR_dialogue_char3d"
+		texturefile = "gfx/interface/dialogue_system/BOR_DIALOGUE/chars/char3d.dds"
+	}
 }

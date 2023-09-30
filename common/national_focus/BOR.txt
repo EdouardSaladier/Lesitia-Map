@@ -290,6 +290,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = bor_increase_sym_democratic_chance_tt
+			#get pranked, I havent done the code yet
 		}
 	}
 	focus = {
@@ -314,7 +315,7 @@ focus_tree = {
 			focus = BOR_Nudge_The_Events_In_Our_Favor
 		}
 		completion_reward = {
-
+			#will add a division to any rebels or dem warlords or an idea for the federation if it stays democratic or deadlocks
 		}
 	}
 	
@@ -893,7 +894,7 @@ focus_tree = {
 	focus = {
 		id = BOR_Collapse_Worst_Case_Scenario
 		icon = GFX_goal_generic_more_territorial_claims
-		cost = 4
+		cost = 15
 		relative_position_id = BOR_Send_In_Observers
 		x = 0 
 		y = 1
@@ -907,25 +908,57 @@ focus_tree = {
 			focus = BOR_Send_In_Observers
 		}
 		completion_reward = {
-
+			add_stability = -0.15
 		}
 	}
 	focus = {
 		id = BOR_Collapse_Support_The_Republicans
 		icon = GFX_focus_generic_the_giant_wakes
-		cost = 4
+		cost = 9
 		relative_position_id = BOR_Collapse_Worst_Case_Scenario
 		x = -2 
 		y = 1
 		bypass = {
-
+			
 		}
 
 		prerequisite = {
 			focus = BOR_Collapse_Worst_Case_Scenario
 		}
 		completion_reward = {
-
+			add_political_power= -75
+			custom_effect_tooltip = bor_increase_democratic_influence_10_tooltip
+			bor_increase_democratic_influence_10 = yes
+			MAV = {
+				add_equipment_to_stockpile = {
+					type = conventional_firearms_equipment
+					amount = 1500
+				}
+				add_equipment_to_stockpile = {
+					type = field_artillery_equipment
+					amount = 250
+				}
+			}
+			LAV = {
+				add_equipment_to_stockpile = {
+					type = conventional_firearms_equipment
+					amount = 1500
+				}
+				add_equipment_to_stockpile = {
+					type = field_artillery_equipment
+					amount = 250
+				}
+			}
+			RFT = {
+				add_equipment_to_stockpile = {
+					type = conventional_firearms_equipment
+					amount = 1500
+				}
+				add_equipment_to_stockpile = {
+					type = field_artillery_equipment
+					amount = 250
+				}
+			}
 		}
 	}
 	focus = {
@@ -938,7 +971,14 @@ focus_tree = {
 		bypass = {
 
 		}
-
+		select_effect = { 
+			if = {
+				limit = {
+					is_ai = no
+				}
+				test_init = yes
+			}
+		}
 		prerequisite = {
 			focus = BOR_Collapse_Worst_Case_Scenario
 		}
@@ -949,19 +989,50 @@ focus_tree = {
 	focus = {
 		id = BOR_Collapse_Support_The_Federalists
 		icon = GFX_goal_generic_major_alliance
-		cost = 4
+		cost = 9
 		relative_position_id = BOR_Collapse_Worst_Case_Scenario
 		x = 2 
 		y = 1
 		bypass = {
-
 		}
 
 		prerequisite = {
 			focus = BOR_Collapse_Worst_Case_Scenario
 		}
 		completion_reward = {
-
+			add_political_power= -50
+			custom_effect_tooltip = bor_increase_despotic_influence_10_tooltip
+			bor_increase_despotic_influence_10 = yes
+			ACS = {
+				add_equipment_to_stockpile = {
+					type = conventional_firearms_equipment
+					amount = 1500
+				}
+				add_equipment_to_stockpile = {
+					type = field_artillery_equipment
+					amount = 250
+				}
+			}
+			TVA = {
+				add_equipment_to_stockpile = {
+					type = conventional_firearms_equipment
+					amount = 1000
+				}
+				add_equipment_to_stockpile = {
+					type = field_artillery_equipment
+					amount = 100
+				}
+			}
+			KAK = {
+				add_equipment_to_stockpile = {
+					type = conventional_firearms_equipment
+					amount = 1500
+				}
+				add_equipment_to_stockpile = {
+					type = field_artillery_equipment
+					amount = 250
+				}
+			}
 		}
 	}
 	focus = {

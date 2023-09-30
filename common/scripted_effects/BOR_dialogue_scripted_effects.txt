@@ -85,3 +85,109 @@ bor_close_dialogue = {
 	clear_array = char1_talking_turns
 	clear_array = char2_talking_turns
 }
+
+##########################
+#test multiple characters#
+##########################
+test_init = {
+	set_country_flag = dialogue_system
+	set_country_flag = test_dialogue
+	set_country_flag = three_chars
+	set_variable = { test_progress = 0 }
+	
+	add_to_array = { char1_talking_turns = 3 }
+	add_to_array = { char1_talking_turns = 6 }
+
+	add_to_array = { char2_talking_turns = 1 }
+	add_to_array = { char2_talking_turns = 4 }
+
+	add_to_array = { char3_talking_turns = 2 }
+	add_to_array = { char3_talking_turns = 5 }
+
+
+}
+test_reset = {
+	close_dialogue = yes
+	test_init = yes
+}
+
+test_progress = {
+	if = {
+		limit = { 
+			NOT = { has_country_flag = dialogue_choice }
+		}
+		add_to_variable = { test_progress = 1 }
+	}
+	if = {
+		limit = { 
+			has_country_flag = three_chars
+		}
+		dialogue_three_chars_progress = yes
+	}
+	if = {
+		limit = { 
+			has_country_flag = test_dialogue
+		}
+		test_progress_checks = yes
+	}
+}
+dialogue_three_chars_progress = {
+	if = {
+		limit = { 
+			is_in_array = {
+				array = char1_talking_turns
+				value = bor_dialogue_progress
+			}
+		}
+		set_country_flag = char1_talking
+	}
+	else = {
+		clr_country_flag = char1_talking
+	}
+	if = {
+		limit = { 
+			is_in_array = {
+				array = char2_talking_turns
+				value = bor_dialogue_progress
+			}
+		}
+		set_country_flag = char2_talking
+	}
+	else = {
+		clr_country_flag = char2_talking
+	}
+	if = {
+		limit = { 
+			is_in_array = {
+				array = char3_talking_turns
+				value = bor_dialogue_progress
+			}
+		}
+		set_country_flag = char3_talking
+	}
+	else = {
+		clr_country_flag = char3_talking
+	}
+}
+
+test_progress_checks = {
+	if = {
+		limit = { 
+			has_country_flag = test_dialogue
+			check_variable = { test_progress = 7 }
+		}
+		test_close_dialogue = yes
+	}
+}
+
+test_close_dialogue = {
+	clr_country_flag = dialogue_system
+	clr_country_flag = test_dialogue
+	clr_country_flag = dialogue_choice
+	clr_country_flag = three_chars
+	clear_variable = bor_dialogue_progress
+	clear_array = char1_talking_turns
+	clear_array = char2_talking_turns
+	clear_array = char3_talking_turns
+
+}

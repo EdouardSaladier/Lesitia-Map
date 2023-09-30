@@ -42,6 +42,55 @@ defined_text = {
 		}
 		localization_key = bor_entry_dialogue5
 	}
+	text = { # BOR TEST Dialogue 1 - Line 0
+		trigger = {
+			has_country_flag = test_dialogue
+			check_variable = { test_progress = 0 }
+		}
+		localization_key = bor_test_dialogue0
+	}
+	text = { # BOR TEST Dialogue 1- Line 1
+		trigger = {
+			has_country_flag = test_dialogue
+			check_variable = { test_progress = 1 }
+		}
+		localization_key = bor_test_dialogue1
+	}
+	text = { # BOR TEST Dialogue 1 - Line 2
+		trigger = {
+			has_country_flag = test_dialogue
+			check_variable = { test_progress = 2 }
+		}
+		localization_key = bor_test_dialogue2
+	}
+	text = { # BOR TEST Dialogue 1 - Line 3
+		trigger = {
+			has_country_flag = test_dialogue
+			check_variable = { test_progress = 3 }
+		}
+		localization_key = bor_test_dialogue3
+	}
+	text = { # BOR TEST Dialogue 1 - Line 4
+		trigger = {
+			has_country_flag = test_dialogue
+			check_variable = { test_progress = 4 }
+		}
+		localization_key = bor_test_dialogue4
+	}
+	text = { # BOR TEST Dialogue 1 - Line 5
+		trigger = {
+			has_country_flag = test_dialogue
+			check_variable = { test_progress = 5 }
+		}
+		localization_key = bor_test_dialogue5
+	}
+	text = { # BOR TEST Dialogue 1 - Line 6
+		trigger = {
+			has_country_flag = test_dialogue
+			check_variable = { test_progress = 6 }
+		}
+		localization_key = bor_test_dialogue6
+	}
 	text = { # Dialogue 1 - Stage 1 - Line 0
 		trigger = {
 			has_country_flag = d1_s1

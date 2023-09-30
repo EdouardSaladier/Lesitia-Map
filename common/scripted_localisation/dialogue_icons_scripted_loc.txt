@@ -15,6 +15,20 @@ defined_text = {
 		}
 		localization_key = "GFX_BOR_dialogue_char1d"
 	}
+	text = { # BOR test talking
+		trigger = {
+			has_country_flag = char1_talking
+			has_country_flag = test_dialogue
+		}
+		localization_key = "GFX_BOR_dialogue_char1"
+	}
+	text = { # BOR test NOT talking
+		trigger = {
+			NOT = { has_country_flag = char1_talking }
+			has_country_flag = test_dialogue
+		}
+		localization_key = "GFX_BOR_dialogue_char1d"
+	}
 	text = { # Char 1 talking
 		trigger = {
 			has_country_flag = char1_talking
@@ -45,6 +59,20 @@ defined_text = {
 		}
 		localization_key = "GFX_BOR_dialogue_char2d"
 	}
+	text = { # BOR test talking
+		trigger = {
+			has_country_flag = char2_talking
+			has_country_flag = test_dialogue
+		}
+		localization_key = "GFX_BOR_dialogue_char2"
+	}
+	text = { # BOR test NOT talking
+		trigger = {
+			NOT = { has_country_flag = char2_talking }
+			has_country_flag = test_dialogue
+		}
+		localization_key = "GFX_BOR_dialogue_char2d"
+	}
 	text = { # Char 2 talking
 		trigger = {
 			has_country_flag = char2_talking
@@ -56,6 +84,24 @@ defined_text = {
 			NOT = { has_country_flag = char2_talking }
 		}
 		localization_key = "GFX_dialogue_char2d"
+	}
+}
+defined_text = {
+	name = GetChar3Icon
+
+	text = { # BOR test talking
+		trigger = {
+			has_country_flag = char3_talking
+			has_country_flag = test_dialogue
+		}
+		localization_key = "GFX_BOR_dialogue_char3"
+	}
+	text = { # BOR test NOT talking
+		trigger = {
+			NOT = { has_country_flag = char3_talking }
+			has_country_flag = test_dialogue
+		}
+		localization_key = "GFX_BOR_dialogue_char3d"
 	}
 }
 defined_text = {
@@ -74,6 +120,29 @@ defined_text = {
 			has_country_flag = bor_entry_dialogue
 		}
 		localization_key = "bor_char_name2"
+	}
+	text = { # BOR test Char 1 talking
+		trigger = {
+			has_country_flag = char1_talking
+			has_country_flag = test_dialogue
+		}
+		localization_key = "bor_char_name1"
+	}
+	text = { # BOR test Char 2 talking
+		trigger = {
+			NOT = { has_country_flag = char1_talking }
+			has_country_flag = char2_talking
+			has_country_flag = test_dialogue
+		}
+		localization_key = "bor_char_name2"
+	}
+	text = { # BOR test Char 3 talking
+		trigger = {
+			NOT = { OR = {has_country_flag = char1_talking has_country_flag = char2_talking}}
+			has_country_flag = char3_talking
+			has_country_flag = test_dialogue
+		}
+		localization_key = bor_test_char_name3
 	}
 	text = { # Char 1 talking
 		trigger = {

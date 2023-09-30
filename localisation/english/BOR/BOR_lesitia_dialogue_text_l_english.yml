@@ -2,9 +2,19 @@
  bor_char_name1:0 "§GDerri Sanglier§!"
  bor_char_name2:0 "§gM808V Main Battle Tank§!"
 
+ bor_test_char_name3:0 "§4F-35 Multirole Combat Aircraft§!"
+
  bor_entry_dialogue0:0 "§GDerri Sanglier§!, the leader of the §gBorcan Transitional Government§!, stood on his favorite hill on the outskirts of the capital. As he gazed at the setting sun he suddenly heard a sound coming from behind him."
  bor_entry_dialogue1:0 "*§GDerri Sanglier§! turns around* Ah my good friend §gM808V Main Battle Tank§! what brings you here?" 
  bor_entry_dialogue2:0 "*§gM808V Main Battle Tank§! stands behind him like an inanimate object with a sour expression on its face*"
  bor_entry_dialogue3:0 "*§GDerri Sanglier§! wistfully looks upon the capital* A decision? Hmm why cant we both finish our democratic transition and support our allies in the Symbiotic Federation?"
  bor_entry_dialogue4:0 "*§gM808V Main Battle Tank§! looks at him like an inanimate object with a saddened expression*"
  bor_entry_dialogue5:0 "You're right we dont have the resources or time to do both, we must chose then."
+
+ bor_test_dialogue0:0 "As §GDerri Sanglier§! entered his office he immidiatly knew that this day wasnt going to be a quiet one. There inside awaited his army chief §gM808V Main Battle Tank§! and air chief §4F-35 Multirole Combat Aircraft§!. They seemed to be in the middle of an argument when Derri entered, the tension was palpable."
+ bor_test_dialogue1:0 "*§gM808V Main Battle Tank§! looks at §4F-35 Multirole Combat Aircraft§! like an inanimate object with an accusatory expression on its face*"
+ bor_test_dialogue2:0 "*§4F-35 Multirole Combat Aircraft§! glares at §gM808V Main Battle Tank§! like an inanimate object with a defient expression on its face*"
+ bor_test_dialogue3:0 "Alright break it up you two. If we are to do anythign productive today we must decide on a course of action. Mainly which nation should we back in the struggle for power in the post collapse Federation."
+ bor_test_dialogue4:0 "*§gM808V Main Battle Tank§! proposes supporting one of the democratic warlord states like an inanimate object supporting its claim by mentioning that democracy should never be a second hand issue.*"
+ bor_test_dialogue5:0 "*§4F-35 Multirole Combat Aircraft§! proposes supporting one of the Federalist warlord states like an inanimate object supporting its claim by mentioning that in time of war a military should take precedence over democratic ideals*"
+ bor_test_dialogue6:0 "Alright alright, I see your points. It seems I will have to make the decision myself..."
