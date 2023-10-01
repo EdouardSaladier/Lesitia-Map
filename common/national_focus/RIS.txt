@@ -244,6 +244,94 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = RIS_devellop_the_isles
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 19
+		y = 6
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_fall_into_isolation
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_a_haven_for_the_wayward
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 20
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_devellop_the_isles
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_invest_in_the_future
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 19
+		y = 8
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_a_haven_for_the_wayward
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_in_defence_of_the_isles
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 21
+		y = 8
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_a_haven_for_the_wayward
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_independance_and_peace_on_the_horizon
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 20
+		y = 9
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_in_defence_of_the_isles
+		}
+		prerequisite = {
+			focus = RIS_invest_in_the_future
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
 		id = RIS_greater_rescanie
 		icon = GFX_focus_generic_self_management
 		cost = 7
@@ -843,7 +931,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RIS_contact_on_technatecontinent
+		id = RIS_contact_on_chunudia
 		icon = GFX_focus_generic_self_management
 		cost = 7
 		x = -2
@@ -878,7 +966,7 @@ focus_tree = {
 			focus = RIS_the_nationahood_issue
 		}
 		prerequisite = {
-			focus = RIS_contact_on_technatecontinent
+			focus = RIS_contact_on_chunudia
 		}
 		completion_reward = {
 			add_political_power = 100
@@ -896,6 +984,391 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = RIS_the_free_and_the_strong
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_a_return_to_the_sea
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 22
+		y = 5
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_showdown_at_paraiso
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_reviving_lost_traditions
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 21
+		y = 6
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_a_return_to_the_sea
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_the_new_generation
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 23
+		y = 6
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_a_return_to_the_sea
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_riding_the_waves
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 22
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_the_new_generation
+		}
+		prerequisite = {
+			focus = RIS_reviving_lost_traditions
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_modernise_the_chiefdom
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 25
+		y = 8
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_riding_the_waves
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_the_traditional_republic
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 23
+		y = 8
+		available = {
+			is_subject = no
+		}
+		mutually_exclusive = { focus = RIS_modernise_the_chiefdom }
+		prerequisite = {
+			focus = RIS_riding_the_waves
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_paving_the_road_to_peace
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 22
+		y = 9
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_the_traditional_republic
+			focus = RIS_modernise_the_chiefdom
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_expand_underwater_production
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 26
+		y = 9
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_the_traditional_republic
+			focus = RIS_modernise_the_chiefdom
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_a_revival_of_the_faith
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 24
+		y = 9
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_the_traditional_republic
+			focus = RIS_modernise_the_chiefdom
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_glory_on_high_water
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 24
+		y = 10
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_a_revival_of_the_faith
+		}
+		prerequisite = {
+			focus = RIS_expand_underwater_production
+		}
+		prerequisite = {
+			focus = RIS_paving_the_road_to_peace
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_the_federation_is_calling
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 30
+		y = 5
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_showdown_at_paraiso
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_2
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 29
+		y = 6
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_the_federation_is_calling
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_3
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 31
+		y = 6
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_the_federation_is_calling
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_4
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 30
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_2
+		}
+		prerequisite = {
+			focus = RIS_3
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_5
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 33
+		y = 8
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_4
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_6
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 31
+		y = 8
+		available = {
+			is_subject = no
+		}
+		mutually_exclusive = { focus = RIS_5 }
+		prerequisite = {
+			focus = RIS_4
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_7
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 32
+		y = 9
+		available = {
+			is_subject = no
+		}
+		prerequisite ={
+			focus = RIS_6
+			focus = RIS_5
+		}D
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_8
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 30
+		y = 9
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_6
+			focus = RIS_5
+		}
+		prerequisite = {
+			focus = RIS_GHY
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_9
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 28
+		y = 9
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_GHY
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_OKM
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 30
+		y = 10
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_9
+		}
+		prerequisite = {
+			focus = RIS_8
+		}
+		prerequisite = {
+			focus = RIS_7
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_GHY
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 29
+		y = 8
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_4
 		}
 		completion_reward = {
 			add_political_power = 100
