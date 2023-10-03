@@ -233,3 +233,63 @@ country_event = {    ###  Federation Deadlock Event
 		}
 	}
 }
+country_event = {    ###  Picking A Favorite
+	id = BOR.12
+	title = BOR.12.t
+	desc = BOR.12.d
+	picture = GFX_report_KAK_flag
+	
+	is_triggered_only = yes
+	option = { 
+		name = BOR.12.a
+		country_event = BOR.13
+	}
+	option = { 
+		name = BOR.12.b
+		country_event = BOR.14
+	}
+	option = { 
+		name = BOR.12.c
+		set_country_flag = bor_support_all_flag
+	}
+}
+country_event = {    ###  Republican Choice
+	id = BOR.13
+	title = BOR.13.t
+	desc = BOR.13.d
+	picture = GFX_report_KAK_flag
+	
+	is_triggered_only = yes
+	option = { 
+		name = BOR.13.a
+		set_country_flag = bor_support_rep_front_flag
+	}
+	option = { 
+		name = BOR.13.b
+		set_country_flag = bor_support_mav_hive_flag
+	}
+	option = { 
+		name = BOR.13.c
+		set_country_flag = bor_support_lav_hive_flag
+	}
+}
+country_event = {    ### Federalist Choice
+	id = BOR.14
+	title = BOR.14.t
+	desc = BOR.14.d
+	picture = GFX_report_KAK_flag
+	
+	is_triggered_only = yes
+	option = { 
+		name = BOR.14.a
+		set_country_flag = bor_support_kak_hive_flag
+	}
+	option = { 
+		name = BOR.14.b
+		set_country_flag = bor_support_acs_army_flag
+	}
+	option = { 
+		name = BOR.14.c
+		set_country_flag = bor_support_tva_zone_flag
+	}
+}

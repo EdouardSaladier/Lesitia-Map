@@ -11,7 +11,6 @@ ideas ={
 			modifier = {
 				stability_factor = -0.1
 				war_support_factor = 0.15
-				conscription_factor = 0.2
 				political_power_factor = 0.1
 				democracy_acceptance = 50
 				despotism_acceptance = 25
@@ -28,6 +27,28 @@ ideas ={
 			modifier = {
 				stability_factor = -0.1
 				supremacism_drift = 0.01
+				conscription_factor = -0.2
+			}
+		}
+		bor_industrial_investments = {
+			picture = generic_foreign_capital			
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		bor_industrial_investments_warlords = {
+			picture = SOV_scientist_defect
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.025
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
 			}
 		}
 	}

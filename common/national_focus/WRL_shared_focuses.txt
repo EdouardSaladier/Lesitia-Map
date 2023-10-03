@@ -502,12 +502,10 @@ focus_tree = {
 				create_unit = {
 					division = "name = \"Combat Unit 1\" division_template = \"Combat Unit\" start_experience_factor = 0.5 start_equipment_factor = 1.0" 
 					owner = ROOT
-					
 				} 
 				create_unit = {
 					division = "name = \"Combat Unit 2\" division_template = \"Combat Unit\" start_experience_factor = 0.5 start_equipment_factor = 1.0" 
 					owner = ROOT
-					
 				}
 			}
 		}
