@@ -49,7 +49,7 @@ country_event = {    ### Federation delayed elections
 				tree = BOR_initial   
 				keep_completed = yes   
 			}
-			mark_focus_tree_layout_dirty = yes 
+			#mark_focus_tree_layout_dirty = yes 
 		}
 	}
 }
@@ -69,7 +69,7 @@ country_event = {    ### Federation democrats elected
 				tree = BOR_initial   
 				keep_completed = yes   
 			}
-			mark_focus_tree_layout_dirty = yes 
+			#mark_focus_tree_layout_dirty = yes 
 		}
 	}
 }
@@ -89,7 +89,7 @@ country_event = {    ### Federation hostiles elected
 				tree = BOR_initial   
 				keep_completed = yes   
 			}
-			mark_focus_tree_layout_dirty = yes 
+			#mark_focus_tree_layout_dirty = yes 
 		}
 	}
 }
@@ -175,12 +175,23 @@ country_event = {    ###  Worst Case Scenarios Event
 	is_triggered_only = yes
 	option = { 
 		name = BOR.8.a
+		add_political_power = -25
+		army_experience = 10
+		air_experience = 10
 	}
 	option = { 
-		name = BOR.8.a
+		name = BOR.8.b
+		add_political_power = -60
+		army_experience = 25
+		air_experience = 25
+		navy_experience = 25
 	}
 	option = { 
-		name = BOR.8.a
+		name = BOR.8.c
+		add_political_power = -100
+		army_experience = 50
+		air_experience = 50
+		navy_experience = 50
 	}
 }
 country_event = {    ###  Worrying Reports Event
@@ -210,7 +221,7 @@ country_event = {    ###  Federation Collapse Event
 				tree = BOR_initial   
 				keep_completed = yes   
 			}
-			mark_focus_tree_layout_dirty = yes 
+			#mark_focus_tree_layout_dirty = yes 
 		}
 	}
 }
@@ -229,7 +240,7 @@ country_event = {    ###  Federation Deadlock Event
 				tree = BOR_initial   
 				keep_completed = yes   
 			}
-			mark_focus_tree_layout_dirty = yes 
+			#mark_focus_tree_layout_dirty = yes 
 		}
 	}
 }

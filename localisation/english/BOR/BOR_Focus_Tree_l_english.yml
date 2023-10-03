@@ -1,4 +1,7 @@
 ﻿l_english:
+####################################
+############# Focuses ##############
+####################################
 BOR_A_Matter_Of_Time:0 "A Matter Of Time"
 BOR_Our_Nation:0 "Our Nation"
 BOR_Our_Allies:0 "Our Allies"
@@ -58,5 +61,8 @@ BOR_Collapse_Official_Recognition:0 "Official Recognition"
 
 BOR_Akuriel:0 "Akuriel"
 
-
+####################################
+############# Tooltips #############
+####################################
 bor_support_not_chosen_tooltip:0 "§GOnce we pick a nation to directly support the benefits for it will show here§!"
+bor_emergency_cabinet_session_dialogue_tt:0 "§Y§GDerri Sanglier§! with convene with his chief of army §gM808V Main Battle Tank§! and chief of airforce §4F-35 Multirole Combat Aircraft§!§!"
