@@ -34,6 +34,64 @@ ideas = {
 				military_factory_donations = 2
 			}
 		
+		}
+		RIS_merc_influence = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }
+
+            available = {
+			    has_government = corporatism
+            }
+
+            cancel = {
+			    has_government = despotism
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = 700
+			    political_power_gain = -0.1
+				stability_factor = -0.05
+				despotism_drift = 0.1
+			}
+		
+		}
+		RIS_federation_refugee = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }
+
+            available = {
+			    has_government = corporatism
+            }
+
+            cancel = {
+			    has_government = democracy
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population
+			    political_power_gain = -0.1
+				stability_factor = -0.05
+				democracy_drift = 0.1    
+			}
+		
 		}	
 	}
 }

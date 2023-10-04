@@ -196,8 +196,16 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = RIS_remove_economical_shackles
+		}
+		prerequisite = {
 			focus = RIS_reintroduce_guild_organisations
-			focus = RIS_an_enclave_of_stability_on_the_sea
+		}
+		prerequisite = {
+
+		focus = RIS_an_enclave_of_stability_on_the_sea
+		}
+		prerequisite = {
+
 			focus = RIS_meet_the_team
 		}
 		completion_reward = {
@@ -554,7 +562,6 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = RIS_implement_conscription
-			focus = RIS_from_mercenaries_to_managers
 		}
 		completion_reward = {
 			add_political_power = 100
@@ -719,7 +726,6 @@ focus_tree = {
 		prerequisite = {
 			focus = RIS_not_so_invisible_hand
 			focus = RIS_the_velvet_gloves
-			focus = RIS_job_well_done_is_twice_as_good
 			focus = RIS_from_mercenaries_to_managers
 		}
 		completion_reward = {
@@ -921,6 +927,7 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = RIS_job_well_done_is_twice_as_good
+			focus = RIS_from_mercenaries_to_managers
 		}
 		prerequisite = {
 			focus = RIS_a_civil_service
@@ -941,6 +948,7 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = RIS_job_well_done_is_twice_as_good
+			focus = RIS_from_mercenaries_to_managers
 		}
 		prerequisite = {
 			focus = RIS_a_civil_service
@@ -1191,7 +1199,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RIS_2
+		id = RIS_our_merc_friend
 		icon = GFX_focus_generic_self_management
 		cost = 7
 		x = 29
@@ -1208,7 +1216,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RIS_3
+		id = RIS_destroy_the_parasites
 		icon = GFX_focus_generic_self_management
 		cost = 7
 		x = 31
@@ -1225,7 +1233,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RIS_4
+		id = RIS_the_flames_of_democracy
 		icon = GFX_focus_generic_self_management
 		cost = 7
 		x = 30
@@ -1234,10 +1242,10 @@ focus_tree = {
 			is_subject = no
 		}
 		prerequisite = {
-			focus = RIS_2
+			focus = RIS_our_merc_friend
 		}
 		prerequisite = {
-			focus = RIS_3
+			focus = RIS_destroy_the_parasites
 		}
 		completion_reward = {
 			add_political_power = 100
@@ -1245,24 +1253,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RIS_5
-		icon = GFX_focus_generic_self_management
-		cost = 7
-		x = 33
-		y = 8
-		available = {
-			is_subject = no
-		}
-		prerequisite = {
-			focus = RIS_4
-		}
-		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
-		}
-	}
-	focus = {
-		id = RIS_6
+		id = RIS_federation_not_yet_lost
 		icon = GFX_focus_generic_self_management
 		cost = 7
 		x = 31
@@ -1270,9 +1261,8 @@ focus_tree = {
 		available = {
 			is_subject = no
 		}
-		mutually_exclusive = { focus = RIS_5 }
 		prerequisite = {
-			focus = RIS_4
+			focus = RIS_the_flames_of_democracy
 		}
 		completion_reward = {
 			add_political_power = 100
@@ -1280,7 +1270,25 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RIS_7
+		id = RIS_for_the_people
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 29
+		y = 8
+		available = {
+			is_subject = no
+		}
+		mutually_exclusive = { focus = RIS_by_the_people }
+		prerequisite = {
+			focus = RIS_the_flames_of_democracy
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_use_their_wealth
 		icon = GFX_focus_generic_self_management
 		cost = 7
 		x = 32
@@ -1289,16 +1297,19 @@ focus_tree = {
 			is_subject = no
 		}
 		prerequisite ={
-			focus = RIS_6
-			focus = RIS_5
-		}D
+			focus = RIS_for_the_people
+			focus = RIS_by_the_people
+		}
+		prerequisite ={
+			focus = RIS_federation_not_yet_lost
+		}
 		completion_reward = {
 			add_political_power = 100
 			add_stability = 0.1
 		}
 	}
 	focus = {
-		id = RIS_8
+		id = RIS_democracy_is_non_negociable
 		icon = GFX_focus_generic_self_management
 		cost = 7
 		x = 30
@@ -1307,11 +1318,11 @@ focus_tree = {
 			is_subject = no
 		}
 		prerequisite = {
-			focus = RIS_6
-			focus = RIS_5
+			focus = RIS_federation_not_yet_lost
 		}
-		prerequisite = {
-			focus = RIS_GHY
+		prerequisite ={
+			focus = RIS_for_the_people
+			focus = RIS_by_the_people
 		}
 		completion_reward = {
 			add_political_power = 100
@@ -1319,7 +1330,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RIS_9
+		id = RIS_guarantee_freedom_of_speech
 		icon = GFX_focus_generic_self_management
 		cost = 7
 		x = 28
@@ -1328,7 +1339,9 @@ focus_tree = {
 			is_subject = no
 		}
 		prerequisite = {
-			focus = RIS_GHY
+			focus = RIS_by_the_people
+			focus = RIS_modernise_the_chiefdom
+			focus = RIS_for_the_people
 		}
 		completion_reward = {
 			add_political_power = 100
@@ -1336,7 +1349,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RIS_OKM
+		id = RIS_the_democratic_ideal
 		icon = GFX_focus_generic_self_management
 		cost = 7
 		x = 30
@@ -1345,13 +1358,13 @@ focus_tree = {
 			is_subject = no
 		}
 		prerequisite = {
-			focus = RIS_9
+			focus = RIS_guarantee_freedom_of_speech
 		}
 		prerequisite = {
-			focus = RIS_8
+			focus = RIS_democracy_is_non_negociable
 		}
 		prerequisite = {
-			focus = RIS_7
+			focus = RIS_use_their_wealth
 		}
 		completion_reward = {
 			add_political_power = 100
@@ -1359,16 +1372,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RIS_GHY
+		id = RIS_by_the_people
 		icon = GFX_focus_generic_self_management
 		cost = 7
-		x = 29
+		x = 27
 		y = 8
 		available = {
 			is_subject = no
 		}
+		mutually_exclusive = { focus = RIS_for_the_people }
 		prerequisite = {
-			focus = RIS_4
+			focus = RIS_the_flames_of_democracy
 		}
 		completion_reward = {
 			add_political_power = 100

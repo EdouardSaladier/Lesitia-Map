@@ -11,7 +11,10 @@ state={
 		}
 		owner = SYM
 		victory_points = {
-			6642 1
+			6642 10
+		}
+		victory_points = {
+			9681 5
 		}
 		add_core_of = SYM
 		add_core_of = ETH
@@ -22,7 +25,7 @@ state={
 	provinces={
 		4399 4448 6189 6642 6793 9681 15549 15583 17616 17617 17620 20531 
 	}
-	manpower=160000
+	manpower=1607861
 	state_category=small_island
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

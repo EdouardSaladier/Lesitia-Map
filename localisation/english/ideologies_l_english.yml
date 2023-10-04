@@ -1,33 +1,39 @@
-﻿l_english:
+l_english:
 
  revolutionarism:0 "Revolutionarism"
  revolutionarism_noun:0 "Revolutionarism"
  revolutionarism_subtype_desc:0 "Revolutionarism"
+ revolutionarism_desc:0 "Revolutionary Government"
 
  technocracy:0 "Technocracy"
  technocracy_noun:0 "Technocracy"
  technocracy_subtype_desc:0"Technocracy"
+ technocracy_desc:0 "Technocratic Government"
 
  democracy:0 "Democracy"
  democracy_noun:0 "Democracy"
  democracy_subtype_desc:0 "Democracy"
+ democracy_desc:0 "Democratic Government"
 
  despotism:0 "Despotism"
- despotism_desc:0 "Despotism"
+ despotism_desc:0 "Despotic Government"
  despotism_noun:0 "Despotism"
  despotism_subtype_desc:0 "Despotism"
 
  theocracy:0 "Theocracy"
  theocracy_noun:0 "Theocracy"
  theocracy_subtype_desc:0 "Theocracy"
- 
+ theocracy_desc:0 "Theocratic Government"
+
  corporatism:0 "Corporatocratism"
  corporatism_noun:0 "Corporatocratism"
  corporatism_subtype_desc:0 "Corporatocratism"
+ corporatism_desc:0 "Corporatocratic Government"
 
  supremacism:0 "Supremacism"
  supremacism_noun:0 "Supremacism"
  supremacism_subtype_desc:0 "Supremacism"
+ supremacism_desc:0 "Racism :)"
 
  unclassified:0 "None"
  unclassified_noun:0 "None"

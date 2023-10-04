@@ -64,6 +64,8 @@ recruit_character = RIS_baris_tevis
 recruit_character = RIS_paragram_kalil
 recruit_character = RIS_zinc_merc
 add_ideas = {
+	RIS_merc_influence
 	sin_islands
+	RIS_federation_refugee
 }
 

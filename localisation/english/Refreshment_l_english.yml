@@ -27,6 +27,11 @@ RIS_revolutionarism_party_long:0 "Trade Unions"
 
 RIS_merc_party:0 "PMG-CM"
 RIS_merc_party_long:0 "Private Military Group - Cloudy Monday"
+
+###Ideas
+RIS_federation_refugee:0 "Federation Refugee"
+
+RIS_merc_influence:0 "Mercenaries Influence"
 ###focus
 RIS_a_fresh_start:0 "A Fresh Start"
 RIS_a_fresh_start_desc:0 "desc for focus"
@@ -87,7 +92,7 @@ RIS_welcome_defectors_desc:0 ""
 
 RIS_reclaim_the_mainland:0 "Reclaim The Mainland"
 
-RIS_form_reclamation_brigade:0 "For The Reclamation Brigades"
+RIS_form_reclamation_brigade:0 "Form The Reclamation Brigades"
 
 RIS_implement_conscription:0 "Implement Conscription"
 
