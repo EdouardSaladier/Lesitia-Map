@@ -1,0 +1,14 @@
+
+leader_traits = {
+
+	RIS_been_there_seen_it_got_the_scar = {
+		random = no
+		war_support_factor = 0.1
+		technocracy_acceptance = -20
+		technocracy_drift = -0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

@@ -43,8 +43,9 @@ characters = {
 			planning_skill=2
 			logistics_skill=8
 		}
-				country_leader = {
+		country_leader = {
 			ideology = despotism_type
+			traits = { RIS_been_there_seen_it_got_the_scar }
 			desc = RIS_zinc_leader_desc
 			expire = "4000.1.1.1"
 		}

@@ -27,7 +27,11 @@ RIS_revolutionarism_party_long:0 "Trade Unions"
 
 RIS_merc_party:0 "PMG-CM"
 RIS_merc_party_long:0 "Private Military Group - Cloudy Monday"
+RIS_shark_party:0 "RRF"
+RIS_shark_party_long:0 "Rescanie Reclaimement Front"
 
+###Leader trait 
+RIS_been_there_seen_it_got_the_scar:0 "Been there, seen it, got the scars"
 ###Ideas
 RIS_federation_refugee:0 "Federation Refugee"
 
@@ -35,187 +39,155 @@ RIS_merc_influence:0 "Mercenaries Influence"
 ###focus
 RIS_a_fresh_start:0 "A Fresh Start"
 RIS_a_fresh_start_desc:0 "desc for focus"
-
 RIS_gather_public_support:0 "Gather Public Support"
 RIS_gather_public_support_desc:0 "desc for life"
-
 RIS_economic_overview:0 "Economic Overview"
 RIS_economic_overview_support_desc:0 "desc forstuff"
-
 RIS_invite_mainland_corporations:0 "Invite Mainland Corporation"
 RIS_invite_mainland_corporations_desc:0 "stuff stuf"
-
 RIS_legetimise_our_state:0 "Legetimise Our Staff"
 RIS_legetimise_our_state_desc:0 "nifgnrf"
-
 RIS_transoceanic_contact:0 "Trans-oceanic Contact"
 RIS_transoceanic_contact_desc:0 "nvoegfrgf"
-
 RIS_remove_economical_shackles:0 "Remove Economic Shackles"
 RIS_remove_economical_shackles_desc:0 "knflkefe"
-
 RIS_reintroduce_guild_organisations:0 "Reintroduce The Guild System"
 RIS_reintroduce_guild_organisations_desc:0 "rgrgrg"
-
 RIS_an_enclave_of_stability_on_the_sea:0 "An Enclave Of Stability"
 RIS_an_enclave_of_stability_on_the_sea_desc:0 "ggrg"
-
 RIS_meet_the_team:0 "Meet The Team"
 RIS_meet_the_team_desc:0 "kjnrfoef"
-
 RIS_showdown_at_paraiso:0 "Showdown At Paraiso"
 RIS_showdown_at_paraiso_desc:0 "fefefr"
 
 RIS_fall_into_isolation:0 "Fall Into Isolation"
 RIS_fall_into_isolation_desc:0 ""
-
 RIS_greater_rescanie:0 "The Concept Of Greater Rescanie"
 RIS_greater_rescanie_desc:0 ""
-
 RIS_preleminary_skirmish:0 "Preleminary Skirmishs"
 RIS_preleminary_skirmish_desc:0 ""
-
 RIS_contact_local_sympathizer:0 "Contact Local Sympathizer"
 RIS_contact_local_sympathizer_desc:0 ""
-
 RIS_prepare_the_ship:0 "Prepare The Landing Ships"
 RIS_prepare_the_ship_desc:0 ""
-
 RIS_operation_starting_piece:0 "Operation First Piece"
 RIS_operation_starting_piece_desc:0 ""
-
 RIS_launch_the_conquest:0 "Start The Conquest"
 RIS_launch_the_conquest_desc:0 ""
-
 RIS_welcome_defectors:0 "Welcome Defectors"
 RIS_welcome_defectors_desc:0 ""
-
 RIS_reclaim_the_mainland:0 "Reclaim The Mainland"
-
 RIS_form_reclamation_brigade:0 "Form The Reclamation Brigades"
-
 RIS_implement_conscription:0 "Implement Conscription"
-
 RIS_diversify_our_army:0 "Diversify Our Army"
 RIS_diversify_our_army_desc:0 ""
-
 RIS_start_the_fire_of_nationalism:0 "Light The Fire Of Nationalism"
 RIS_start_the_fire_of_nationalism_desc:0 ""
-
 RIS_sons_of_oceans:0 "Sons Of The Oceans"
 RIS_sons_of_oceans_desc:0 ""
-
 RIS_hieranaski_arrival:0 "Hieranaski Arrival"
 RIS_hieranaski_arrival_desc:0 ""
-
 RIS_return_to_colonica:0 "Return To Colonica"
 RIS_return_to_colonica_desc:0 ""
-
 RIS_proclaim_selachidia:0 "Proclaim Selachidia"
 RIS_proclaim_selachidia_desc:0 ""
 
 RIS_the_house_always_in:0 "The House Always Win"
 RIS_the_house_always_in_desc:0 ""
-
 RIS_aint_that_a_kick_in_the_head:0 "Ain't That A Kick In The Head"
 RIS_aint_that_a_kick_in_the_head_desc:0 ""
-
 RIS_buying_loyalty:0 "Buying Loyalty"
 RIS_buying_loyalty_desc:0 ""
-
 RIS_a_free_and_strong_market:0 "A Free And Strong Market"
 RIS_a_free_and_strong_market_desc:0 ""
-
 RIS_the_velvet_gloves:0 "The Velvet Gloves"
 RIS_the_velvet_gloves_desc:0 ""
-
 RIS_not_so_invisible_hand:0 "Not-So-Invisible Hand"
 RIS_not_so_invisible_hand_desc:0 ""
-
 RIS_diversify_our_market:0 "Diversify Our Market"
 RIS_diversify_our_market_desc:0 ""
-
 RIS_the_question_of_the_state:0 "The Question Of The State"
 RIS_the_question_of_the_state_desc:0 ""
-
 RIS_expand_privatisation:0 "Expand Privatisation"
 RIS_expand_privatisation_desc:0 ""
-
 RIS_the_greatest_experiment:0 "The greatest Experiment"
 RIS_the_greatest_experiment_desc:0 ""
 
 RIS_land_of_adventures:0 "Lands Of Adventures"
 RIS_land_of_adventures_desc:0 ""
-
 RIS_kick_the_corpse:0 "Kick the Corpse"
 RIS_kick_the_corpse_desc:0 ""
-
 RIS_friend_with_interests:0 "Friends With Interests"
 RIS_friend_with_interests_desc:0 ""
-
 RIS_the_free_and_the_strong:0 "The Free And The Strongs"
 RIS_the_free_and_the_strong_desc:0 ""
-
 RIS_from_mercenaries_to_managers:0 "From Mercenaries To Managers"
 RIS_from_mercenaries_to_managers_desc:0 ""
-
 RIS_job_well_done_is_twice_as_good:0 "Job Well Done Is Twice As Good"
 RIS_job_well_done_is_twice_as_good_desc:0 ""
-
 RIS_merchands_of_war:0 "Merchands Of War"
 RIS_merchands_of_war_desc:0 ""
-
 RIS_the_nationahood_issue:0 "The Nationhood Issue"
 RIS_the_nationahood_issue_desc:0 ""
-
 RIS_contact_on_chunudia:0 "Contact On Chunudia"
 RIS_contact_on_chunudia_desc:0 ""
-
 RIS_glory_fortune_adventures:0 "Glory! Fortunes! Adventures!"
 RIS_glory_fortune_adventures_desc:0 ""
-
 RIS_a_civil_service:0 "A Civil Branch?"
 RIS_a_civil_service_desc:0 ""
-
 RIS_devellop_the_isles:0 "Devellop The Isles"
 RIS_devellop_the_isles_desc:0 ""
 
 RIS_a_haven_for_the_wayward:0 "A Haven For The Wayward"
-
 RIS_in_defence_of_the_isles:0 "In Defence Of The Isles"
-
 RIS_invest_in_the_future:0 "Invest In The Future"
-
 RIS_independance_and_peace_on_the_horizon:0 "Independance And Peace On THe Horizon"
-
 RIS_greater_rescanie:0 "Greater Rescanie"
-
 RIS_start_the_fire_of_nationalism:0 "Start The Fire Of Nationalism"
-
 RIS_sons_of_oceans:0 "Sons Of The Oceans"
-
 RIS_hieranaski_arrival:0 "Hieranaski Landing"
-
 RIS_return_to_colonica:0 "Return To Colonica"
-
 RIS_proclaim_selachidia:0 "Proclaim Selachidia"
 
 RIS_a_return_to_the_sea:0 "A Return To The Sea"
-
 RIS_reviving_lost_traditions:0 "Reviving Lost Traditions"
-
 RIS_the_new_generation:0 "The New Generation"
-
 RIS_riding_the_waves:0 "Riding The Waves"
-
 RIS_modernise_the_chiefdom:0 "Modernise The Chiefdom"
-
 RIS_the_traditional_republic:0 "The Traditional Republic"
-
 RIS_paving_the_road_to_peace:0 "paving The Road Toward Peace"
-
 RIS_expand_underwater_production:0 "Expand Underwater Production"
-
 RIS_a_revival_of_the_faith:0 "A Revival Of The Faith"
-
 RIS_glory_on_high_water:0 "Glory On High Water"
+
+RIS_the_federation_is_calling:0 "The Federation Is Calling"
+RIS_our_merc_friend:0 "Our Merc' Friends"
+RIS_destroy_the_parasites:0 "Destroy The Parasites"
+RIS_the_flames_of_democracy:0 "The Flames Of Liberty"
+RIS_federation_not_yet_lost:0 "The Federation Is Not Yet Lost!"
+RIS_for_the_people:0 "For The Peoples"
+RIS_use_their_wealth:0 "Use Their Wealth"
+RIS_democracy_is_non_negociable:0 "Democracy Is Non Negociable"
+RIS_guarantee_freedom_of_speech:0 "Guarantee Freedom Of Speech"
+RIS_the_democratic_ideal:0 "The Democratic Ideal"
+RIS_by_the_people:0 "By The People"
+
+RIS_devellop_tourism_industry:0 "Devellop The Tourism Industry"
+RIS_fund_marketings_campaign:0 "Come To Rescanie!"
+RIS_create_office_of_tourism:0 "Create The Office Of Tourism"
+RIS_devellop_tourism_gambling:0 "The Shinning Casino Of The Sea"
+RIS_devellop_tourism_ecotourism:0 "The Strenght Of Natural Beauty"
+RIS_devellop_tourism_cultural:0 "Museum, Theatre, Light, Action!"
+
+###Flag
+RIS_merc_coup:0 "The Mercenaries Have Taken Control"
+RIS_dem_coup:0 "The Federation Loyalists Have Taken Control"
+RIS_corpo_stable:0 "The Board Stabilised The Islands"
+RIS_shark_coup:0 "The Nationalists Have Taken Control"
+###Events 
+RIS.2.t:0 "In Hot Water"
+RIS.2.d:0 "oh no everyone's shooting at each other"
+RIS.2.a:0 "Their superior equipement guarantee the mercenary an easy win!"
+RIS.2.b:0 "The board succesfully keep control by using their private protections forces!"
+RIS.2.c:0 "The remnant of the Symbiotic army organise and succesfully take control of Paraiso!"
+RIS.2.e:0 "The shark use their knowledge of the isles to take back the isles!"

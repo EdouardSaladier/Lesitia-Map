@@ -36,7 +36,7 @@ country_event = {    ###warlord demands land
 			factor = 80
 		}
 		random_country = {
-		    limit = {
+		    liRIS = {
                 has_country_flag = demand_state
             }
             annex_country = { target = RIS transfer_troops = yes }
@@ -49,7 +49,7 @@ country_event = {    ###warlord demands land
 			factor = 20
 		}
 		random_country = {
-            limit = {
+            liRIS = {
                 has_country_flag = demand_state
             }
             create_wargoal = { type = annex_everything target = RIS }
@@ -65,7 +65,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { 
-		name = MIT.2.a
+		name = RIS.2.a
 		set_politics = {
 			ruling_party = despotism
 			elections_allowed = no
@@ -74,10 +74,50 @@ country_event = {
 		ideology = despotism
 		popularity = 0.15
 		}
+		complete_national_focus = RIS_land_of_adventures
+		set_country_flag = RIS_merc_coup
 			set_party_name = { 
    			ideology = despotism 
   	 		long_name = RIS_merc_party_long
    			name = RIS_merc_party
+			}
+	}
+	option = { 
+		name = RIS.2.b
+		add_stability = 0.1
+		set_country_flag = RIS_corpo_stable
+		complete_national_focus = RIS_the_house_always_in
+	}
+
+	option = { 
+		name = RIS.2.c
+		set_politics = {
+			ruling_party = democracy
+			elections_allowed = no
+		}
+		complete_national_focus = RIS_the_federation_is_calling
+		set_country_flag = RIS_dem_coup
+		add_popularity = {
+		ideology = democracy
+		popularity = 0.15
+		}
+	}
+	option = { 
+		name = RIS.2.e
+		set_politics = {
+			ruling_party = supremacism
+			elections_allowed = no
+		}
+		add_popularity = {
+		ideology = supremacism
+		popularity = 0.15
+		set_country_flag = RIS_shark_coup
+		complete_national_focus = RIS_a_return_to_the_sea
+		}
+			set_party_name = { 
+   			ideology = supremacism 
+  	 		long_name = RIS_shark_party_long
+   			name = RIS_shark_party
 			}
 	}
 }	

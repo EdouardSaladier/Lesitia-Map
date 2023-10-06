@@ -209,8 +209,7 @@ focus_tree = {
 			focus = RIS_meet_the_team
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+		country_event = { id = RIS.2 }
 		}
 	}
 	focus = {
@@ -800,6 +799,7 @@ focus_tree = {
 		y = 5
 		available = {
 			is_subject = no
+			has_country_flag = RIS_merc_coup
 		}
 		prerequisite = {
 			focus = RIS_showdown_at_paraiso
@@ -1384,6 +1384,117 @@ focus_tree = {
 		prerequisite = {
 			focus = RIS_the_flames_of_democracy
 		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_devellop_tourism_industry
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 4
+		y = 5
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_showdown_at_paraiso
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_fund_marketings_campaign
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 5
+		y = 6
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_devellop_tourism_industry
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_create_office_of_tourism
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 3
+		y = 6
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_devellop_tourism_industry
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_devellop_tourism_cultural
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 6
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_create_office_of_tourism
+			focus = RIS_fund_marketings_campaign
+		}
+		mutually_exclusive = { focus = RIS_devellop_tourism_ecotourism }
+		mutually_exclusive = { focus = RIS_devellop_tourism_gambling }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_devellop_tourism_gambling
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 4
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_create_office_of_tourism
+			focus = RIS_fund_marketings_campaign
+		}
+		mutually_exclusive = { focus = RIS_devellop_tourism_ecotourism }
+		mutually_exclusive = { focus = RIS_devellop_tourism_cultural }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_devellop_tourism_ecotourism
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 2
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_create_office_of_tourism
+			focus = RIS_fund_marketings_campaign
+		}
+		mutually_exclusive = { focus = RIS_devellop_tourism_gambling }
+		mutually_exclusive = { focus = RIS_devellop_tourism_cultural }
 		completion_reward = {
 			add_political_power = 100
 			add_stability = 0.1
