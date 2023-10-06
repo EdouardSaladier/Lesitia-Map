@@ -68,7 +68,7 @@ create_country_leader = {
 }
 
 recruit_character = MAV_alessandro_general
-
+recruit_character = MAV_Violeta_Stingwing
 add_ideas = {
 	hive_democracy
 }

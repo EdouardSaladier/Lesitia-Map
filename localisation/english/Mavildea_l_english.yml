@@ -4,9 +4,16 @@ MAV_democracy:0 "Mavildea Hive"
 MAV_democracy_DEF:0 "The Mavildea Hive"
 MAV_democracy_ADJ:0 "Mavildean"
 
+MAV_theocracy:0 "The Great Realm"
+MAV_theocracy_DEF:0 "The Great Realm"
+MAV_theocracy_ADJ:0 "Mavildean"
+
 ### LEADER DESC
 MAV_maniare_desc:0 "Artist: ArtChoiAila\n\nAge: 26\n\nManiare Fettuea was born in a small hive in the northwestern region of the Symbiotic Federation. As a young bee, he showed a keen interest in flight and technology, which led him to join the air force shortly after the Federation gained its independence from the Empire.\n\nManiare quickly made a name for himself as a skilled pilot and strategist, rising through the ranks to become a commander in the air force. Despite his success, he was known for his chill demeanor and his ability to remain calm under pressure, earning him the nickname "Cool B" among his fellow pilots.\n\nHowever, Maniare soon grew disillusioned with the Federation's government and its corrupt leadership. He believed that the people of the Federation deserved better, and he could no longer justify his involvement in a system that didn't serve the greater good.\n\nin an act of rebellion, Maniare stepped down from his position in the air force and instead threw himself into politics, campaigning for democratic reforms and greater transparency in government. His charisma and leadership skills quickly made him a popular figure among the people, and he was soon elected as the governor of Mavildea, a region in the southwestern part of the Federation.\n\nUnder Maniare's leadership, Mavildea prospered, becoming a model of democracy and progress in an otherwise corrupt and stagnant Federation. However, when the Federation collapsed due to internal strife and external pressures, Maniare was forced to make a difficult decision. He knew that his region could not survive on its own, but he also knew that he couldn't continue to be a part of a system that didn't align with his values.\n\nIn the end, Maniare made the decision to declare independence for Mavildea, a move that was met with both support and opposition. But Maniare was determined to protect his people and their democratic way of life, and he worked tirelessly to establish Mavildea as a sovereign nation.\n\nToday, Maniare remains the governor of Mavildea, running his region as a complete democracy and doing everything in his power to protect the hive and democracy. He continues to be a popular and respected leader, known for his integrity, intelligence, and his unwavering commitment to his people."
 
 #####partys names###
 MAV_democracy_party:0 "The Hive"
 MAV_democracy_party_long:0 "The Hive"
+
+MAV_theocracy_party:0 "M.W.U"
+MAV_theocracy_party_long:0 "Mavildea Whimsical Union"

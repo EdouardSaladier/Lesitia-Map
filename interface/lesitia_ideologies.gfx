@@ -39,5 +39,9 @@ spriteTypes = {
 		name = "GFX_ideology_unclassified_group"
 		texturefile = "gfx/interface/ideologies/unclassified.dds"
 	}	
-	
+
+	spriteType = {
+		name = "GFX_ideology_esotericism"
+		texturefile = "gfx/interface/ideologies/esotericism.dds"
+	}
 }

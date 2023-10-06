@@ -40,6 +40,10 @@ SYM_Fyodr_desc:0 "Artist: ArtChoiAila\n\nAge: 32\n\nFyodr is native to the auton
 SYM_Kallista_desc:0 "Artist: ArtChoiAila\n\nAge: 29\n\nKallista Sokolova is a military officer of the Symbiotic Federation currently serving as the governor and self proclaimed regent of the Voskra Provinces, having obtained her current status as a result of regicide. While a ruthless and ambitious individual, Kallista professes to act in the interest of all Voskran citizens, justifying her actions as necessary to unlock the true potential of antkind.\n\nBorn into the highly rigid and stratified society of the ants, as a child of the Queen Kallista should have been another faceless drone in the teeming sea of the great ant masses. However, the onset of global nuclear war and the collapse of the old Empires created a uniquely chaotic situation, one that thrust Kallista into the spotlight. As the world crumbled around them, Kallista rose to a position of leadership, commanding an small militia. With the eventual return of stability, Kallista was rewarded by promotion to a full general and integration into the professionalized military of the Voskran state. Her services during the immediate aftermath of the Nuclear exchange had made her into a paragon among both her people and the other insectoid species, creating the unique situation of an individual ant rising to something of a celebrity status.\n\nKallista saw the incorporation of the Voskran states into the greater Symbiotic Federation as a betrayal of her people. Through her military service she had been forged into a proud patriot, ever aware of the long past glories of the Voskran Empire, and a proud supporter of the colony system of life. With the ants now taking a subordinate role within a federation that proclaimed all it's members as equals, Kallista was determined to protect her peoples future, and took the drastic step of organizing a coup against the Queen; installing herself as regent.\n\nVoskra now exists in an uneasy state. Kallista has promised a return to greatness, but finds herself beset with the need to firmly cement her own power and improve the poor state of the Voskran nation at large. As such, she has been forced to instead stay within the relative safety and stability present within the large federation. But in Kallista’s mind these are temporary problems, and she remains confident of a future defined by the ever expanding colony of the Formicid peoples."
 SYM_Abbas_desc:0 "Artist: ArtChoiAila\n\nAge: 39\n\nAbbas is not native to any region of the Federation, in fact he comes all the way from the east of the mountain range, from another insect nation that exists for much longer than the Federation ever did.\n\nAbbas moved into the Federation after the freedom wars already had concluded, his sole reason to be here is because he was ordered to aid the newly independent nation by his own country, the reason being that they approve of the idea of having more insect nations around the globe to fight against other species's influences, Abbas offers the Federation aid in desert warfare, as that is what he is accostumed to back home.\n\nAbbas doesn't care about the politics of the country, he only cares about the orders he was given, and that was to aid this nation in wathever way he could, so, of course he is automatically against any revolt or separatist movement, not wanting to see the Federation fall apart."
 
+ZHA_robar_desc:0 "Artist: ArtChoiAila\n\nAge: 33\n\nA Moth of remarkable character, maybe the singular most known member of his species in the entire Symbiotic Federation. Robar Tevis is a strong proponent of democracy, well … the singular most loud-mouthed at least. More than one member of the autocratic faction of the Symbiotic Federation has felt the bite of his harrowing scolding and mockery, as he turns every public debate and local election into a fury of a screaming match between himself and his opponents. And not just that, as even the Social Media rings with his comments and sarcastic remarks. All in service to Democracy of course.\n\nMe knows more than many the bite of oppression of self-righteous dictatorial rulers. Bombs and civilians do not mix well, in fact they paint the walls more than often fully red. And if these murderers now take Insect Faces Tevis will rip out their mask and show the federation what small, evil and corrupt murders they truly are.\n\nRobar Tevis will not stand a Symbiotic Dictator. He will fight him with words, mockery and should it come to it guns."
+
+TVA_tiveask_desc:0 "The Fog drives Insects insane. This is a well-known fact, witnessed by those brave or foolish enough to venture into the fog. Even the Governor of Tiveask left this place, forcing the Central Government to deal with this region, that seems to ever so massively be sprawling with bandits and insane people. Knowing full well that no-one in the army would ever volunteer for this region caused the Symbiotic Federation created the first independent armed guard of Tiveask. A force-formed guard of militias and low-lives that were gathered from the lowest of the Federations Armed forces. Failed officers, soldiers of second, third and fourth-rank quality. Drunkenness is high and they shoot at every shadow that moves around them. A well enough precaution, as the Federations most hostile region is home to enough dangers besides the fog that itself eats free insects every single day. To say that the Tiveask Guard run this Region is the wrong word, they hold their noise down and the horrors in. And in return will be ,for their lax discipline and lack of quality, not court-marshaled.\n\nYet as it stands, this force of rack-tack militias may very well be the only force standing between the fog and the rest of the Federation…"
+
 #####partys names###
 SYM_democracy_party:0 "Federal Party"
 SYM_democracy_party_long:0 "Federal Party"
@@ -66,11 +70,16 @@ SYM_artem_valentim_long:0 "the Representative Federative Party"
 SYM_artist_party:0 "P.L.E"
 SYM_artist_party_long:0 "Party of Love and Expression"
 
-#####focuses###
+
+################################################
+################### FOCUSES ####################
+################################################
+
+
 SYM_the_current_situation:0 "The Current Situation"
 SYM_the_current_situation_desc:0 "Things are crazy."
 SYM_internal_report:0 "Internal Report"
-SYM_internal_report_desc:0 "Officially is the Symbiotic Federation a union of several post-colonial states that ruffly remained stands in the borders of the old imperial colony it was formed from. In this it is a presidential democracy with strong regional governors to balance out the interest of the region and the will of the capitol, Zhafollis, itself. However, the Federation itself is a product of Glaurungir’s conquest of the south as before the empire were the insect nations split into many different states and tribes that constantly fought each other. Much of that animosity of the old days still exists and the clashes and conflicts of regional forces, both against the troops of the central authority and each other, is daily work in the news and security meetings. The true extend of this internal conflict must be examined in full if we want to heal the nation, therefor has President Amber commission a full report of the internal workings and stability of the Federation that should soon arrive. "
+SYM_internal_report_desc:0 "We are commmisioning the Federal Command to compile an internal report of our country on its political scene,economy and the state of the army. We have yet to commissioned one since gaining out freedom so considering the circumstances "
 SYM_federal_party:0 "The Federal Party"
 SYM_federal_party_desc:0 "Imagine if republican and democract together."
 SYM_secure_donations:0 "Secure Donations"
@@ -90,7 +99,12 @@ SYM_the_candis_desc:0 "What war criminal do you want?"
 SYM_not_ready:0 "Delay the Elections"
 SYM_not_ready_desc:0 "No need to rush democracy, one day it will come back, surely."
 
-#####events###
+
+################################################
+#################### EVENTS ####################
+################################################
+
+
 SYM.1.t:0 "An Alternative"
 SYM.1.d:0 "Lorem Ipsum"
 SYM.1.a:0 "Stay The Course"

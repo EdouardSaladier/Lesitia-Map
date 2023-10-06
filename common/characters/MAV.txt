@@ -19,4 +19,29 @@ characters = {
 			logistics_skill= 3
 		}
 	}
+	MAV_Violeta_Stingwing = {
+		name = "Violeta Stingwing"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAV/portrait_violeta.dds"
+				small = "gfx/leaders/MAV/portrait_violeta.dds"
+			}
+		}
+		country_leader = {
+			ideology = esotericism
+			desc = MVA_Violeta_Stingwing_desc
+			expire = "4000.1.1.1"
+			id = -1
+		}
+		corps_commander={
+			traits={ trickster }
+			desc = MVA_Violeta_Stingwing_desc
+			skill=3
+			
+			attack_skill = 3
+	        defense_skill = 3
+	        planning_skill = 5
+	        logistics_skill = 3
+		}
+	}
 }

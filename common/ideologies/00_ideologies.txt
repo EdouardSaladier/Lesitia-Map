@@ -291,6 +291,9 @@ ideologies = {
 		
 			theocracy_type  = {
 			}
+			esotericism = {
+				
+			}
 		}
 
 		dynamic_faction_names = {
