@@ -19,4 +19,24 @@ characters = {
 	        logistics_skill = 2
 		}
 	}
+	
+	TPG_klara_meknara ={
+		name= "Klara Meknara"
+		portraits={
+			army={
+				large= "gfx/leaders/TPG/klara_meknara.dds"
+				small=GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander={
+			traits={ war_hero }
+			desc = TPG_klara_meknara
+			skill= 2
+			
+			attack_skill = 2
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 2
+		}
+	}
 }

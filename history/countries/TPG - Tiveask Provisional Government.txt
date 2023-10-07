@@ -69,6 +69,7 @@ create_country_leader = {
 
 recruit_character = TPG_meloe_despotism
 recruit_character = TPG_meloe_general
+recruit_character = TPG_klara_meknara
 
 add_ideas = {
     refugee_state

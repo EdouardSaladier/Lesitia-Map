@@ -5,7 +5,7 @@ characters = {
 		portraits={
 			army={
 				large= "gfx/leaders/SYM/Portrait_SYM_lua.dds"
-				small=GFX_portrait_GER_friedrich_paulus_small
+				small= "gfx/interface/ideas/Portrait_SYM_lua_small.dds"
 			}
 		}
 		corps_commander={
@@ -18,6 +18,21 @@ characters = {
 	        planning_skill = 2
 	        logistics_skill = 4
 		}
+		advisor={
+			slot = high_command
+			idea_token = lua_az
+			ledger = army
+			allowed = {
+				original_tag = SYM
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
 	}
 	
 	SYM_alessandro_general ={
@@ -25,7 +40,7 @@ characters = {
 		portraits={
 			army={
 				large= "gfx/leaders/SYM/Portrait_SYM_alessandro.dds"
-				small=GFX_portrait_GER_friedrich_paulus_small
+				small= "gfx/interface/ideas/Portrait_SYM_alessandro_small.dds"
 			}
 		}
 		field_marshal={
@@ -38,6 +53,20 @@ characters = {
 			planning_skill= 5
 			logistics_skill= 3
 		}
+		advisor={
+			slot = army_chief
+			idea_token = alessandro_az
+			allowed = {
+				original_tag = SYM
+			}
+			traits = {
+				army_chief_entrenchment_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 	}
 	
 	SYM_oscar_general ={
@@ -45,7 +74,7 @@ characters = {
 		portraits={
 			army={
 				large= "gfx/leaders/SYM/Portrait_SYM_oscar.dds"
-				small=GFX_portrait_GER_friedrich_paulus_small
+				small= "gfx/interface/ideas/Portrait_SYM_oscar_small.dds"
 			}
 		}
 		field_marshal={
@@ -58,6 +87,20 @@ characters = {
 			planning_skill= 5
 			logistics_skill= 5
 		}
+		advisor={
+			slot = army_chief
+			idea_token = oscar_az
+			allowed = {
+				original_tag = SYM
+			}
+			traits = {
+				army_infantry_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 	}
 	
 	SYM_godofredo_general ={
@@ -65,7 +108,7 @@ characters = {
 		portraits={
 			army={
 				large= "gfx/leaders/SYM/Portrait_SYM_godofredo.dds"
-				small=GFX_portrait_GER_friedrich_paulus_small
+				small= "gfx/interface/ideas/Portrait_SYM_godofredo_small.dds"
 			}
 		}
 		field_marshal={
@@ -78,6 +121,20 @@ characters = {
 			planning_skill= 5
 			logistics_skill= 5
 		}
+		advisor={
+			slot = army_chief
+			idea_token = godo_az
+			allowed = {
+				original_tag = SYM
+			}
+			traits = {
+				army_chief_organizational_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 	}
 	
 	SYM_kallista_general ={
@@ -85,7 +142,7 @@ characters = {
 		portraits={
 			army={
 				large= "gfx/leaders/SYM/Portrait_SYM_kallista.dds"
-				small=GFX_portrait_GER_friedrich_paulus_small
+				small= "gfx/interface/ideas/Portrait_SYM_kallista_small.dds"
 			}
 		}
 		corps_commander={
@@ -98,6 +155,21 @@ characters = {
 	        planning_skill = 2
 	        logistics_skill = 2
 		}
+		advisor={
+			slot = high_command
+			idea_token = kallista_az
+			ledger = army
+			allowed = {
+				original_tag = SYM
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
 	}
 	
 	SYM_marco_general ={
@@ -105,7 +177,7 @@ characters = {
 		portraits={
 			army={
 				large= "gfx/leaders/SYM/Portrait_SYM_marco.dds"
-				small=GFX_portrait_GER_friedrich_paulus_small
+				small= "gfx/interface/ideas/Portrait_SYM_marco_small.dds"
 			}
 		}
 		corps_commander={
@@ -118,6 +190,21 @@ characters = {
 	        planning_skill = 6
 	        logistics_skill = 4
 		}
+		advisor={
+			slot = high_command
+			idea_token = marco_az
+			ledger = army
+			allowed = {
+				original_tag = SYM
+			}
+			traits = {
+				army_artillery_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
 	}
 	
 	SYM_fyodor_general ={
@@ -125,7 +212,7 @@ characters = {
 		portraits={
 			army={
 				large= "gfx/leaders/SYM/Portrait_SYM_fyodor.dds"
-				small=GFX_portrait_GER_friedrich_paulus_small
+				small= "gfx/interface/ideas/Portrait_SYM_fyodor_small.dds"
 			}
 		}
 		corps_commander={
@@ -137,6 +224,104 @@ characters = {
 	        defense_skill = 4
 	        planning_skill = 2
 	        logistics_skill = 2
+		}
+		advisor={
+			slot = high_command
+			idea_token = marco_az
+			ledger = army
+			allowed = {
+				original_tag = SYM
+			}
+			traits = {
+				army_armored_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+	
+	SYM_abbas_faez ={
+		name= "Abbas Laghmani Faez"
+		portraits={
+			army={
+				large= "gfx/leaders/SYM/Portrait_SYM_abbas.dds"
+				small= "gfx/interface/ideas/Portrait_SYM_abbas_small.dds"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader desert_fox organizer trickster commando }
+			desc = SYM_Abbas_desc
+			skill= 3
+			
+			attack_skill = 4
+	        defense_skill = 3
+	        planning_skill = 6
+	        logistics_skill = 8
+		}
+		advisor={
+			slot = high_command
+			idea_token = abbas_az
+			ledger = army
+			allowed = {
+				original_tag = SYM
+			}
+			traits = {
+				army_chief_morale_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+	
+	SYM_maniare_fettua ={
+		name= "Maniare Fettuea"
+		portraits={
+			army={
+				large= "gfx/leaders/SYM/portrait_maniare_fettua.dds"
+				small= "gfx/interface/ideas/portrait_maniare_fettua_small.dds"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = maniare_az
+			allowed = {
+				original_tag = SYM
+			}
+			traits = {
+				air_airborne_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+	
+	SYM_matvey_velazik ={
+		name= "Matvey Velazik"
+		portraits={
+			army={
+				large= "gfx/leaders/SYM/portrait_matvey_velazik.dds"
+				small= "gfx/interface/ideas/portrait_matvey_velazik_small.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = matvey_az
+			allowed = {
+				original_tag = SYM
+			}
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
 		}
 	}
 	

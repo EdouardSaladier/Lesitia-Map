@@ -189,6 +189,7 @@ country_event = {
 		release = MAV
 		retire_character = SYM_lua_general
 		retire_character = SYM_alessandro_general
+		retire_character = SYM_maniare_fettua
 		hidden_effect = {
 			country_event = { id = SYM.6 days = 10 } 
 		}
@@ -203,6 +204,7 @@ country_event = {
 		release = MAV
 		retire_character = SYM_lua_general
 		retire_character = SYM_alessandro_general
+		retire_character = SYM_maniare_fettua
 		hidden_effect = {
 			country_event = { id = SYM.6 days = 10 } 
 		}
@@ -216,6 +218,7 @@ country_event = {
 		release = MAV
 		retire_character = SYM_lua_general
 		retire_character = SYM_alessandro_general
+		retire_character = SYM_maniare_fettua
 		hidden_effect = {
 			country_event = { id = SYM.6 days = 10 } 
 		}
@@ -454,6 +457,7 @@ country_event = {
 		release = UHL
 		release = SED
 		retire_character = SYM_godofredo_general
+		retire_character = SYM_matvey_velazik
 		hidden_effect = {
 			country_event = { id = SYM.11 days = 10 } 
 		}
@@ -467,6 +471,7 @@ country_event = {
 		release = UHL
 		release = SED
 		retire_character = SYM_godofredo_general
+		retire_character = SYM_matvey_velazik
 		hidden_effect = {
 			country_event = { id = SYM.11 days = 10 } 
 		}
@@ -479,6 +484,7 @@ country_event = {
 		release = UHL
 		release = SED
 		retire_character = SYM_godofredo_general
+		retire_character = SYM_matvey_velazik
 		hidden_effect = {
 			country_event = { id = SYM.11 days = 10 } 
 		}
@@ -713,6 +719,7 @@ country_event = {
 	option = { 
 		name = SYM.18.a
 		clr_country_flag = SYM_mavildea_interactable
+		retire_character = SYM_maniare_fettua
 		release = MAV
 		MAV = {
 			declare_war_on = {

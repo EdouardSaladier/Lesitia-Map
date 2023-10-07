@@ -213,6 +213,9 @@ recruit_character = SYM_artem_valentim
 recruit_character = SYM_artem_commie
 recruit_character = SYM_artist_guy
 recruit_character = SYM_artist_final
+recruit_character = SYM_abbas_faez
+recruit_character = SYM_maniare_fettua
+recruit_character = SYM_matvey_velazik
 
 create_country_leader = {
 	name = "Luã Vescitu"
@@ -250,15 +253,3 @@ recruit_character = SYM_marco_general
 recruit_character = SYM_fyodor_general
 recruit_character = SYM_kallista_general
 
-create_corps_commander = {
-	name = "Abbas Laghmani Faez"
-	desc = "SYM_Abbas_desc"
-	picture = "Portrait_SYM_abbas.dds"
-	traits = { harsh_leader desert_fox organizer trickster commando}
-	skill = 3
-
-	attack_skill = 4 
-	defense_skill = 3
-	planning_skill = 6
-	logistics_skill = 8
-}
