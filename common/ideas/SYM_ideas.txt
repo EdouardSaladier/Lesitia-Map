@@ -17,7 +17,13 @@ ideas ={
 			allowed_civil_war = {
 				always = yes
 			}
-
+			cancel = {
+				OR = {
+					has_country_flag = sym_deadlock_election_flag
+					has_country_flag = sym_artists_election_flag
+					has_country_flag = sym_supremacists_election_flag
+				}
+			}
 			removal_cost = -1
 			
 			modifier = {
@@ -30,7 +36,13 @@ ideas ={
 			allowed_civil_war = {
 				always = yes
 			}
-
+			cancel = {
+				OR = {
+					has_country_flag = sym_deadlock_election_flag
+					has_country_flag = sym_artists_election_flag
+					has_country_flag = sym_supremacists_election_flag
+				}
+			}
 			removal_cost = -1
 			
 			modifier = {

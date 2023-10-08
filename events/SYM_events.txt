@@ -1196,10 +1196,12 @@ country_event = {
 
 	option = { 
 		name = SYM.17.a
-		add_political_power = 50
-		set_country_flag = sym_refused_to_reform
-		custom_effect_tooltip = sym_refused_to_reform_tooltip
-		unlock_national_focus = SYM_trinket_reforms
+		add_political_power = -50
+		set_country_flag = sym_agreed_to_fully_reform
+		set_country_flag = coalition_revolutionarism
+		update_coalition = yes
+		custom_effect_tooltip = sym_agreed_to_fully_reform_tooltip
+
 	}
 	option = { 
 		name = SYM.17.b
@@ -1207,11 +1209,10 @@ country_event = {
 	}
 	option = { 
 		name = SYM.17.c
-		add_political_power = -50
-		set_country_flag = sym_agreed_to_fully_reform
-		set_country_flag = coalition_revolutionarism
-		update_coalition = yes
-		custom_effect_tooltip = sym_agreed_to_fully_reform_tooltip
+		add_political_power = 50
+		set_country_flag = sym_refused_to_reform
+		custom_effect_tooltip = sym_refused_to_reform_tooltip
+		unlock_national_focus = SYM_trinket_reforms
 	}
 }
 ############################################
