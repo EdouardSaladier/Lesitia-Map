@@ -615,6 +615,11 @@ country_event = {
 		
 	}
 }
+################################################
+################################################
+##############  Rebelion Started  ##############
+################################################
+################################################
 country_event = {    
 	id = SYM.13 #Resse Rebelion
 	title = SYM.13.t
@@ -633,6 +638,7 @@ country_event = {
 				type = annex_everything
 			}
 		}
+		set_country_flag = SYM_resse_no_govenor
 	}
 }
 country_event = {    
@@ -653,6 +659,8 @@ country_event = {
 				type = annex_everything
 			}
 		}
+		set_country_flag = SYM_lavido_no_govenor
+
 	}
 }
 country_event = {    
@@ -674,6 +682,8 @@ country_event = {
 				type = annex_everything
 			}
 		}
+		set_country_flag = SYM_voskra_no_govenor
+
 	}
 }
 country_event = {    
@@ -694,18 +704,8 @@ country_event = {
 				type = annex_everything
 			}
 		}
-	}
-}
-country_event = {    
-	id = SYM.17 #Accidental Entry
-	title = SYM.17.t
-	desc = SYM.17.d
-	#picture = 
+		set_country_flag = SYM_seda_no_govenor
 
-	is_triggered_only = yes
-
-	option = { 
-		name = SYM.17.a
 	}
 }
 country_event = {    
@@ -727,6 +727,8 @@ country_event = {
 				type = annex_everything
 			}
 		}
+		set_country_flag = SYM_mavildea_no_govenor
+
 	}
 }
 country_event = {    
@@ -748,6 +750,8 @@ country_event = {
 				type = annex_everything
 			}
 		}
+		set_country_flag = SYM_kakrikea_no_govenor
+
 	}
 }
 country_event = {    
@@ -768,6 +772,8 @@ country_event = {
 				type = annex_everything
 			}
 		}
+		set_country_flag = SYM_tiveask_no_govenor
+
 	}
 }
 country_event = {    
@@ -788,6 +794,8 @@ country_event = {
 				type = annex_everything
 			}
 		}
+		set_country_flag = SYM_termithia_no_govenor
+
 	}
 }
 country_event = {    
@@ -808,6 +816,8 @@ country_event = {
 				type = annex_everything
 			}
 		}
+		set_country_flag = SYM_laksa_no_govenor
+
 	}
 }
 country_event = {    
@@ -828,8 +838,22 @@ country_event = {
 				type = annex_everything
 			}
 		}
+		set_country_flag = SYM_central_no_govenor
+
 	}
 }
+##########################################
+##########################################
+#################  END  ##################
+##########################################
+##########################################
+
+
+##########################################
+##########################################
+###########  Rebelion Crushed  ###########
+##########################################
+##########################################
 country_event = {    
 	id = SYM.24 #Resse Rebelion Crushed 
 	title = SYM.24.t 
@@ -840,13 +864,15 @@ country_event = {
 
 	option = { 
 		name = SYM.24.a
-		set_country_flag = SYM_resse_new_govenor
 		every_state = {
 			limit = { is_core_of = ETH }
 			add_core_of = SYM
 		}
 		set_variable = {#resse
 			sym_var_war_support_factor = 0
+		}
+		hidden_effect = {
+			country_event = {id = SYM.39 days = 20}
 		}
 	}
 }
@@ -860,13 +886,15 @@ country_event = {
 
 	option = { 
 		name = SYM.25.a
-		set_country_flag = SYM_lavido_new_govenor
 		every_state = {
 			limit = { is_core_of = LAV }
 			add_core_of = SYM
 		}
 		set_variable = {
 			sym_var_local_resources_factor = 0
+		}
+		hidden_effect = {
+			country_event = {id = SYM.40 days = 20}
 		}
 	}
 }
@@ -880,7 +908,6 @@ country_event = {
 
 	option = { 
 		name = SYM.26.a
-		set_country_flag = SYM_voskra_new_govenor
 		every_state = {
 			limit = { is_core_of = VOS }
 			add_core_of = SYM
@@ -890,6 +917,9 @@ country_event = {
 		}
 		set_variable = {#voskra
 			sym_var_conscription_factor = 0
+		}
+		hidden_effect = {
+			country_event = {id = SYM.41 days = 20}
 		}
 	}
 }
@@ -903,13 +933,15 @@ country_event = {
 
 	option = { 
 		name = SYM.27.a
-		set_country_flag = SYM_seda_new_govenor
 		every_state = {
 			limit = { is_core_of = SED }
 			add_core_of = SYM
 		}
 		set_variable = {#seda
 			sym_var_stability_factor = 0
+		}
+		hidden_effect = {
+			country_event = {id = SYM.42 days = 20}
 		}
 	}
 }
@@ -923,13 +955,15 @@ country_event = {
 
 	option = { 
 		name = SYM.28.a
-		set_country_flag = SYM_mavildea_new_govenor
 		every_state = {
 			limit = { is_core_of = MAV }
 			add_core_of = SYM
 		}
 		set_variable = {#mavildea
 			sym_var_country_resource_food = 0
+		}
+		hidden_effect = {
+			country_event = {id = SYM.43 days = 20}
 		}
 	}
 }
@@ -943,7 +977,6 @@ country_event = {
 
 	option = { 
 		name = SYM.29.a
-		set_country_flag = SYM_kakrikea_new_govenor
 		every_state = {
 			limit = { is_core_of = KAK }
 			add_core_of = SYM
@@ -953,6 +986,9 @@ country_event = {
 		}
 		set_variable = {#Kakrikea
 			sym_var_resistance_activity= 0
+		}
+		hidden_effect = {
+			country_event = {id = SYM.44 days = 20}
 		}
 	}
 }
@@ -966,7 +1002,6 @@ country_event = {
 
 	option = { 
 		name = SYM.30.a
-		set_country_flag = SYM_tiveask_new_govenor
 		every_state = {
 			limit = { is_core_of = TVA }
 			add_core_of = SYM
@@ -976,6 +1011,9 @@ country_event = {
 		}
 		set_variable = {
 			sym_var_army_org_factor = 0
+		}
+		hidden_effect = {
+			country_event = {id = SYM.45 days = 20}
 		}
 	}
 }
@@ -989,13 +1027,15 @@ country_event = {
 
 	option = { 
 		name = SYM.31.a
-		set_country_flag = SYM_termithia_new_govenor
 		every_state = {
 			limit = { is_core_of = TER }
 			add_core_of = SYM
 		}
 		set_variable = {
 			sym_var_research_speed_factor = 0
+		}
+		hidden_effect = {
+			country_event = {id = SYM.46 days = 20}
 		}
 	}
 }
@@ -1009,13 +1049,15 @@ country_event = {
 
 	option = { 
 		name = SYM.32.a
-		set_country_flag = SYM_laksa_new_govenor
 		every_state = {
 			limit = { is_core_of = OAV }
 			add_core_of = SYM
 		}
 		set_variable = {#laksa
 			sym_var_surrender_limit =  0
+		}
+		hidden_effect = {
+			country_event = {id = SYM.47 days = 20}
 		}
 	}
 }
@@ -1029,7 +1071,6 @@ country_event = {
 
 	option = { 
 		name = SYM.33.a
-		set_country_flag = SYM_central_new_govenor
 		every_state = {
 			limit = { is_core_of = ZHA }
 			add_core_of = SYM
@@ -1038,8 +1079,16 @@ country_event = {
 		set_variable = {
 			sym_var_political_power_gain = 0
 		}
+		hidden_effect = {
+			country_event = {id = SYM.48 days = 20}
+		}
 	}
 }
+##########################################
+##########################################
+#################  END  ##################
+##########################################
+##########################################
 country_event = {    
 	id = SYM.34 #Sym Current Situation
 	title = SYM.34.t
@@ -1137,3 +1186,181 @@ country_event = {
 		name = SYM.38.c
 	}
 }
+country_event = {    
+	id = SYM.17 #Socialist meeting
+	title = SYM.17.t
+	desc = SYM.17.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.17.a
+		add_political_power = 50
+		set_country_flag = sym_refused_to_reform
+		custom_effect_tooltip = sym_refused_to_reform_tooltip
+		unlock_national_focus = SYM_trinket_reforms
+	}
+	option = { 
+		name = SYM.17.b
+		set_country_flag = sym_agreed_to_partially_reform
+	}
+	option = { 
+		name = SYM.17.c
+		add_political_power = -50
+		set_country_flag = sym_agreed_to_fully_reform
+		set_country_flag = coalition_revolutionarism
+		update_coalition = yes
+		custom_effect_tooltip = sym_agreed_to_fully_reform_tooltip
+	}
+}
+############################################
+############################################
+##############  NEW GOVENORS  ##############
+############################################
+############################################
+country_event = {    
+	id = SYM.39 #Resse new govenor
+	title = SYM.39.t 
+	desc = SYM.39.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.39.a
+		set_country_flag = SYM_resse_new_govenor
+		clr_country_flag  = SYM_resse_no_govenor
+	}
+}
+country_event = {    
+	id = SYM.40 #Lavido new govenor
+	title = SYM.40.t
+	desc = SYM.40.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.40.a
+		set_country_flag = SYM_lavido_new_govenor
+		clr_country_flag  = SYM_lavido_no_govenor
+	}
+}
+country_event = {    
+	id = SYM.41 #Voskra new govenor
+	title = SYM.41.t
+	desc = SYM.41.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.41.a
+		set_country_flag = SYM_voskra_new_govenor
+		clr_country_flag  = SYM_voskra_no_govenor
+	}
+}
+country_event = {    
+	id = SYM.42 #Seda new govenor
+	title = SYM.42.t
+	desc = SYM.42.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.42.a
+		set_country_flag = SYM_seda_new_govenor
+		clr_country_flag  = SYM_seda_no_govenor
+	}
+}
+country_event = {    
+	id = SYM.43 #Mavildea new govenor
+	title = SYM.43.t
+	desc = SYM.43.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.43.a
+		set_country_flag = SYM_mavildea_new_govenor
+		clr_country_flag  = SYM_mavildea_no_govenor
+	}
+}
+country_event = {    
+	id = SYM.44 #Kakrikea new govenor
+	title = SYM.44.t
+	desc = SYM.44.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.44.a
+		set_country_flag = SYM_kakrikea_new_govenor
+		clr_country_flag  = SYM_kakrikea_no_govenor
+	}
+}
+country_event = {    
+	id = SYM.45 #Tiveask new govenor
+	title = SYM.45.t
+	desc = SYM.45.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.45.a
+		set_country_flag = SYM_tiveask_new_govenor
+		clr_country_flag  = SYM_tiveask_no_govenor
+	}
+}
+country_event = {    
+	id = SYM.46 #Termithia new govenor
+	title = SYM.46.t
+	desc = SYM.46.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.46.a
+		set_country_flag = SYM_termithia_new_govenor
+		clr_country_flag  = SYM_termithia_no_govenor
+	}
+}
+country_event = {    
+	id = SYM.47 #Laksa new govenor
+	title = SYM.47.t
+	desc = SYM.47.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.47.a
+		set_country_flag = SYM_laksa_new_govenor
+		clr_country_flag  = SYM_laksa_no_govenor
+	}
+}
+country_event = {    
+	id = SYM.48 #Central new govenor
+	title = SYM.48.t
+	desc = SYM.48.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = SYM.48.a
+		set_country_flag = SYM_central_new_govenor
+		clr_country_flag  = SYM_central_no_govenor
+	}
+}
+##########################################
+##########################################
+#################  END  ##################
+##########################################
+##########################################

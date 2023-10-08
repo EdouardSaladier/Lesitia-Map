@@ -81,8 +81,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/center_govenor.dds"
 	}
 	spriteType = {
+		name = "GFX_kakrikea_new_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/kakrikea_new_govenor.dds"
+	}
+	spriteType = {
 		name = "GFX_kakrikea_govenor"
 		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/kakrikea_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_mavildea_new_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/mavildea_new_govenor.dds"
 	}
 	spriteType = {
 		name = "GFX_mavildea_govenor"
@@ -91,6 +99,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_termithia_govenor"
 		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/termithia_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_seda_new_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/seda_new_govenor.dds"
 	}
 	spriteType = {
 		name = "GFX_seda_govenor"
@@ -108,7 +120,10 @@ spriteTypes = {
 		name = "GFX_resse_govenor"
 		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/resse_govenor.dds"
 	}
-
+	spriteType = {
+		name = "GFX_portrait_Fallen_Government_small"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/no_govenor.dds"
+	}
 	spriteType = {
 		name = "GFX_sym_federation_territories_decision_icon"
 		texturefile = "gfx/interface/GUI/SYM_Approval/symbiotic_territory.dds"

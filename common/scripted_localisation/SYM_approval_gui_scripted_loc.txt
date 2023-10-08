@@ -67,8 +67,36 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_flag = SYM_voskra_selected_gui
+			has_country_flag = SYM_voskra_new_govenor
+		}
+		localization_key = ""
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_voskra_selected_gui
+			has_country_flag = SYM_voskra_no_govenor
+		}
+		localization_key = "GFX_portrait_Fallen_Government_small"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_voskra_selected_gui
 		}
 		localization_key = "GFX_voskra_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_tiveask_selected_gui
+			has_country_flag = SYM_tiveask_new_govenor
+		}
+		localization_key = ""
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_tiveask_selected_gui
+			has_country_flag = SYM_tiveask_no_govenor
+		}
+		localization_key = "GFX_portrait_Fallen_Government_small"
 	}
 	text = {
 		trigger = {
@@ -79,8 +107,36 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_flag = SYM_center_selected_gui
+			has_country_flag = SYM_central_new_govenor
+		}
+		localization_key = ""
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_center_selected_gui
+			has_country_flag = SYM_central_no_govenor
+		}
+		localization_key = "GFX_portrait_Fallen_Government_small"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_center_selected_gui
 		}
 		localization_key = "GFX_center_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_kakrikea_selected_gui
+			has_country_flag = SYM_kakrikea_new_govenor
+		}
+		localization_key = "GFX_kakrikea_new_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_kakrikea_selected_gui
+			has_country_flag = SYM_kakrikea_no_govenor
+		}
+		localization_key = "GFX_portrait_Fallen_Government_small"
 	}
 	text = {
 		trigger = {
@@ -91,8 +147,36 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_flag = SYM_mavildea_selected_gui
+			has_country_flag = SYM_mavildea_new_govenor
+		}
+		localization_key = "GFX_mavildea_new_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_mavildea_selected_gui
+			has_country_flag = SYM_mavildea_no_govenor
+		}
+		localization_key = "GFX_portrait_Fallen_Government_small"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_mavildea_selected_gui
 		}
 		localization_key = "GFX_mavildea_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_termithia_selected_gui
+			has_country_flag = SYM_termithia_new_govenor
+		}
+		localization_key = ""
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_termithia_selected_gui
+			has_country_flag = SYM_termithia_no_govenor
+		}
+		localization_key = "GFX_portrait_Fallen_Government_small"
 	}
 	text = {
 		trigger = {
@@ -103,8 +187,36 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_flag = SYM_seda_selected_gui
+			has_country_flag = SYM_seda_new_govenor
+		}
+		localization_key = "GFX_seda_new_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_seda_selected_gui
+			has_country_flag = SYM_seda_no_govenor
+		}
+		localization_key = "GFX_portrait_Fallen_Government_small"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_seda_selected_gui
 		}
 		localization_key = "GFX_seda_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavido_selected_gui
+			has_country_flag = SYM_lavido_new_govenor
+		}
+		localization_key = ""
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavido_selected_gui
+			has_country_flag = SYM_lavido_no_govenor
+		}
+		localization_key = "GFX_portrait_Fallen_Government_small"
 	}
 	text = {
 		trigger = {
@@ -115,8 +227,36 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_flag = SYM_lavska_selected_gui
+			has_country_flag = SYM_laksa_new_govenor
+		}
+		localization_key = ""
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavska_selected_gui
+			has_country_flag = SYM_laksa_no_govenor
+		}
+		localization_key = "GFX_portrait_Fallen_Government_small"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavska_selected_gui
 		}
 		localization_key = "GFX_lavska_govenor"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_resse_selected_gui
+			has_country_flag = SYM_resse_new_govenor
+		}
+		localization_key = ""
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_resse_selected_gui
+			has_country_flag = SYM_resse_no_govenor
+		}
+		localization_key = "GFX_portrait_Fallen_Government_small"
 	}
 	text = {
 		trigger = {
@@ -127,12 +267,39 @@ defined_text = {
 }
 defined_text = {
 	name = GetStateGovenorName
-
+	text = {
+		trigger = {
+			has_country_flag = SYM_voskra_selected_gui
+			has_country_flag = SYM_voskra_new_govenor
+		}
+		localization_key = "voskra_new_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_voskra_selected_gui
+			has_country_flag = SYM_voskra_no_govenor
+		}
+		localization_key = "no_govenor_name"
+	}
 	text = {
 		trigger = {
 			has_country_flag = SYM_voskra_selected_gui
 		}
 		localization_key = "voskra_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_tiveask_selected_gui
+			has_country_flag = SYM_tiveask_new_govenor
+		}
+		localization_key = "tiveask_new_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_tiveask_selected_gui
+			has_country_flag = SYM_tiveask_no_govenor
+		}
+		localization_key = "no_govenor_name"
 	}
 	text = {
 		trigger = {
@@ -143,8 +310,36 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_flag = SYM_center_selected_gui
+			has_country_flag = SYM_central_new_govenor
+		}
+		localization_key = "center_new_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_center_selected_gui
+			has_country_flag = SYM_central_no_govenor
+		}
+		localization_key = "no_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_center_selected_gui
 		}
 		localization_key = "center_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_kakrikea_selected_gui
+			has_country_flag = SYM_kakrikea_new_govenor
+		}
+		localization_key = "kakrikea_new_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_kakrikea_selected_gui
+			has_country_flag = SYM_kakrikea_no_govenor
+		}
+		localization_key = "no_govenor_name"
 	}
 	text = {
 		trigger = {
@@ -155,8 +350,36 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_flag = SYM_mavildea_selected_gui
+			has_country_flag = SYM_mavildea_new_govenor
+		}
+		localization_key = "mavildea_new_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_mavildea_selected_gui
+			has_country_flag = SYM_mavildea_no_govenor
+		}
+		localization_key = "no_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_mavildea_selected_gui
 		}
 		localization_key = "mavildea_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_termithia_selected_gui
+			has_country_flag = SYM_termithia_new_govenor
+		}
+		localization_key = "termithia_new_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_termithia_selected_gui
+			has_country_flag = SYM_termithia_no_govenor
+		}
+		localization_key = "no_govenor_name"
 	}
 	text = {
 		trigger = {
@@ -167,8 +390,36 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_flag = SYM_seda_selected_gui
+			has_country_flag = SYM_seda_new_govenor
+		}
+		localization_key = "seda_new_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_seda_selected_gui
+			has_country_flag = SYM_seda_no_govenor
+		}
+		localization_key = "no_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_seda_selected_gui
 		}
 		localization_key = "seda_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavido_selected_gui
+			has_country_flag = SYM_lavido_new_govenor
+		}
+		localization_key = "lavido_new_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavido_selected_gui
+			has_country_flag = SYM_lavido_no_govenor
+		}
+		localization_key = "no_govenor_name"
 	}
 	text = {
 		trigger = {
@@ -179,8 +430,36 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_flag = SYM_lavska_selected_gui
+			has_country_flag = SYM_laksa_new_govenor
+		}
+		localization_key = "lavska_new_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavska_selected_gui
+			has_country_flag = SYM_laksa_no_govenor
+		}
+		localization_key = "no_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_lavska_selected_gui
 		}
 		localization_key = "lavska_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_resse_selected_gui
+			has_country_flag = SYM_resse_new_govenor
+		}
+		localization_key = "resse_new_govenor_name"
+	}
+	text = {
+		trigger = {
+			has_country_flag = SYM_resse_selected_gui
+			has_country_flag = SYM_resse_no_govenor
+		}
+		localization_key = "no_govenor_name"
 	}
 	text = {
 		trigger = {
@@ -822,6 +1101,16 @@ defined_text = {
 			not = {
 				has_country_flag = SYM_tiveask_interactable
 			}
+			has_country_flag = SYM_tiveask_no_govenor
+			has_country_flag = SYM_tiveask_selected_gui
+		}
+		localization_key = SYM_govenor_approval_region_rebellion
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = SYM_tiveask_interactable
+			}
 			has_country_flag = SYM_tiveask_selected_gui
 		}
 		localization_key = SYM_govenor_approval_region_secured
@@ -850,6 +1139,16 @@ defined_text = {
 			check_variable = { sym_tiveask_approval < 0.33 }
 		}
 		localization_key = SYM_tiveask_govenor_approval_low
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = SYM_voskra_interactable
+			}
+			has_country_flag = SYM_voskra_no_govenor
+			has_country_flag = SYM_voskra_selected_gui
+		}
+		localization_key = SYM_govenor_approval_region_rebellion
 	}
 	text = {
 		trigger = {
@@ -890,6 +1189,16 @@ defined_text = {
 			not = {
 				has_country_flag = SYM_resse_interactable
 			}
+			has_country_flag = SYM_resse_no_govenor
+			has_country_flag = SYM_resse_selected_gui
+		}
+		localization_key = SYM_govenor_approval_region_rebellion
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = SYM_resse_interactable
+			}
 			has_country_flag = SYM_resse_selected_gui
 		}
 		localization_key = SYM_govenor_approval_region_secured
@@ -918,6 +1227,16 @@ defined_text = {
 			check_variable = { sym_resse_approval < 0.33 }
 		}
 		localization_key = SYM_resse_govenor_approval_low
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = SYM_center_interactable
+			}
+			has_country_flag = SYM_central_no_govenor
+			has_country_flag = SYM_center_selected_gui
+		}
+		localization_key = SYM_govenor_approval_region_rebellion
 	}
 	text = {
 		trigger = {
@@ -958,6 +1277,16 @@ defined_text = {
 			not = {
 				has_country_flag = SYM_kakrikea_interactable
 			}
+			has_country_flag = SYM_kakrikea_no_govenor
+			has_country_flag = SYM_kakrikea_selected_gui
+		}
+		localization_key = SYM_govenor_approval_region_rebellion
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = SYM_kakrikea_interactable
+			}
 			has_country_flag = SYM_kakrikea_selected_gui
 		}
 		localization_key = SYM_govenor_approval_region_secured
@@ -992,6 +1321,16 @@ defined_text = {
 			not = {
 				has_country_flag = SYM_mavildea_interactable
 			}
+			has_country_flag = SYM_mavildea_no_govenor
+			has_country_flag = SYM_mavildea_selected_gui
+		}
+		localization_key = SYM_govenor_approval_region_rebellion
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = SYM_mavildea_interactable
+			}
 			has_country_flag = SYM_mavildea_selected_gui
 		}
 		localization_key = SYM_govenor_approval_region_secured
@@ -1019,6 +1358,16 @@ defined_text = {
 			check_variable = { sym_mavildea_approval < 0.33 }
 		}
 		localization_key = SYM_mavildea_govenor_approval_low
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = SYM_termithia_interactable
+			}
+			has_country_flag = SYM_termithia_no_govenor
+			has_country_flag = SYM_termithia_selected_gui
+		}
+		localization_key = SYM_govenor_approval_region_rebellion
 	}
 	text = {
 		trigger = {
@@ -1060,6 +1409,16 @@ defined_text = {
 			not = {
 				has_country_flag = SYM_seda_interactable
 			}
+			has_country_flag = SYM_seda_no_govenor
+			has_country_flag = SYM_seda_selected_gui
+		}
+		localization_key = SYM_govenor_approval_region_rebellion
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = SYM_seda_interactable
+			}
 			has_country_flag = SYM_seda_selected_gui
 		}
 		localization_key = SYM_govenor_approval_region_secured
@@ -1094,6 +1453,16 @@ defined_text = {
 			not = {
 				has_country_flag = SYM_lavido_interactable
 			}
+			has_country_flag = SYM_lavido_no_govenor
+			has_country_flag = SYM_lavido_selected_gui
+		}
+		localization_key = SYM_govenor_approval_region_rebellion
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = SYM_lavido_interactable
+			}
 			has_country_flag = SYM_lavido_selected_gui
 		}
 		localization_key = SYM_govenor_approval_region_secured
@@ -1122,6 +1491,16 @@ defined_text = {
 			check_variable = { sym_lavido_approval < 0.33 }
 		}
 		localization_key = SYM_lavido_govenor_approval_low
+	}
+	text = {
+		trigger = {
+			not = {
+				has_country_flag = SYM_lavska_interactable
+			}
+			has_country_flag = SYM_laksa_no_govenor
+			has_country_flag = SYM_lavska_selected_gui
+		}
+		localization_key = SYM_govenor_approval_region_rebellion
 	}
 	text = {
 		trigger = {
@@ -1171,9 +1550,9 @@ defined_text = {
 			check_variable = {
 				sym_tiveask_approval <0.33
 			}
-		}
-		NOT = {
-			has_country_flag = SYM_tiveask_new_govenor
+			NOT = {
+				has_country_flag = SYM_tiveask_new_govenor
+			}
 		}
 		localization_key = GFX_icon_warning
 	}
@@ -1205,10 +1584,11 @@ defined_text = {
 			check_variable = {
 				sym_kakrikea_approval <0.33
 			}
+			NOT = {
+				has_country_flag = SYM_kakrikea_new_govenor
+			}
 		}
-		NOT = {
-			has_country_flag = SYM_kakrikea_new_govenor
-		}
+
 		localization_key = GFX_icon_warning
 	}
 	text = {
@@ -1222,10 +1602,11 @@ defined_text = {
 			check_variable = {
 				sym_mavildea_approval <0.33
 			}
+			NOT = {
+				has_country_flag = SYM_mavildea_new_govenor
+			}
 		}
-		NOT = {
-			has_country_flag = SYM_mavildea_new_govenor
-		}
+
 		localization_key = GFX_icon_warning
 	}
 	text = {
@@ -1240,10 +1621,11 @@ defined_text = {
 			check_variable = {
 				sym_termithia_approval <0.33
 			}
+			NOT = {
+				has_country_flag = SYM_termithia_new_govenor
+			}
 		}
-		NOT = {
-			has_country_flag = SYM_termithia_new_govenor
-		}
+
 		localization_key = GFX_icon_warning
 	}
 	text = {
@@ -1257,10 +1639,11 @@ defined_text = {
 			check_variable = {
 				sym_seda_approval <0.33
 			}
+			NOT = {
+				has_country_flag = SYM_seda_new_govenor
+			}
 		}
-		NOT = {
-			has_country_flag = SYM_seda_new_govenor
-		}
+
 		localization_key = GFX_icon_warning
 	}
 	text = {
@@ -1274,10 +1657,11 @@ defined_text = {
 			check_variable = {
 				sym_voskra_approval <0.33
 			}
+			NOT = {
+				has_country_flag = SYM_voskra_new_govenor
+			}
 		}
-		NOT = {
-			has_country_flag = SYM_voskra_new_govenor
-		}
+
 		localization_key = GFX_icon_warning
 	}
 	text = {
@@ -1291,10 +1675,11 @@ defined_text = {
 			check_variable = {
 				sym_resse_approval <0.33
 			}
+			NOT = {
+				has_country_flag = SYM_resse_new_govenor
+			}
 		}
-		NOT = {
-			has_country_flag = SYM_resse_new_govenor
-		}
+
 		localization_key = GFX_icon_warning
 	}
 	text = {
@@ -1308,10 +1693,11 @@ defined_text = {
 			check_variable = {
 				sym_lavido_approval <0.33
 			}
+			NOT = {
+				has_country_flag = SYM_lavido_new_govenor
+			}
 		}
-		NOT = {
-			has_country_flag = SYM_lavido_new_govenor
-		}
+
 		localization_key = GFX_icon_warning
 	}
 	text = {
@@ -1326,10 +1712,11 @@ defined_text = {
 			check_variable = {
 				sym_lavska_approval <0.33
 			}
+			NOT = {
+				has_country_flag = SYM_laksa_new_govenor
+			}
 		}
-		NOT = {
-			has_country_flag = SYM_laksa_new_govenor
-		}
+
 		localization_key = GFX_icon_warning
 	}
 	text = {

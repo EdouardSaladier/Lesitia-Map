@@ -77,27 +77,27 @@ SYM_artist_party_long:0 "Party of Love and Expression"
 
 
 SYM_the_current_situation:0 "The Current Situation"
-SYM_the_current_situation_desc:0 "Things are crazy."
+SYM_the_current_situation_desc:0 "Just a few years ago, the soldiers of our liberation stood side-by-side as they fought for the right to rule their home! This is but a memory now, replaced with arguing and in-fighting in parliament, the streets and the nation itself. Every day there are reports of internal struggle, brutal assassinations, and separatists."
 SYM_internal_report:0 "Internal Report"
 SYM_internal_report_desc:0 "We are commmisioning the Federal Command to compile an internal report of our country on its political scene,economy and the state of the army. We have yet to commissioned one since gaining out freedom so considering the circumstances "
 SYM_federal_party:0 "The Federal Party"
-SYM_federal_party_desc:0 "Imagine if republican and democract together."
+SYM_federal_party_desc:0 "The Federal Party is the strongest carrier of liberal unity and federal support out of all the parties.  Only the military itself has a stronger commitment to the Federation’s existence. Yet from a leadership perspective, this party is also one of the most divided, as several strong centres of leadership exist within it."
 SYM_secure_donations:0 "Secure Donations"
-SYM_secure_donations_desc:0 "We need more money."
+SYM_secure_donations_desc:0 "A big problem for the Federal Party is the lack of funding. With little state support and inefficient messaging towards the public, the Federal Party ran into a deficit. We need to aquire donations in the form of loans from the central bank, a mix of secret funds put aside for public security, diverted army payments and genuine donations. "
 SYM_reachout_to_socialists:0 "Approach the Socialists"
-SYM_reachout_to_socialists_desc:0 "communism, bottom text."
+SYM_reachout_to_socialists_desc:0 "Inside the Empire left-wing Collectivism was the most brutally suppressed and persecuted. This made it an attractive choice as an ideology for many rebel groups in their fight against the Empire. And truth is, the socialist militias and left-wing combatants want the federation to succeed, even if it is in a far more Collectivist vision than it is today."
 SYM_trinket_reforms:0 "Trinket Regulations"
-SYM_trinket_reforms_desc:0 "No more trinkets."
-SYM_meet_with_governors:0 "Meet With the Governors"
-SYM_meet_with_governors_desc:0 "Time to share a nice pie."
+SYM_trinket_reforms_desc:0 "Generally, the socialists want to rebuild society, some more radical than others, but all want change from the current post-imperial status quo. This can not be done in the time we have before the elections and politically speaking not by us. We can however grant some measures to relieve the lower civilian strata of some of their burden."
+SYM_meet_with_governors:0 "Meet With the Governors" 
+SYM_meet_with_governors_desc:0 "Many Governors of the many Regions of the Federation were never appointed by the central government nor voted upon by the Insects of the Regions themselves. Instead put themselves into positions of power by the merit of their arms and armies, as almost all of them were former rebel group leaders and Liberation War Veterans. They are armed, fierce and independent-minded."
 SYM_putdown_revolts:0 "Put Down Revolts"
-SYM_putdown_revolts_desc:0 "Let's put down some of them (clueless)."
+SYM_putdown_revolts_desc:0 "As expected, many Governors used the stage of the Federal Meeting to voice their grievances against the central capital. Words that sparked acts of rebellion amongst many ethnic and ideological groups of the nation. These fighters are often times directly or indirectly connected with the leaders of their faction, others fight on their own will and just follow the chaos."
 SYM_3376_elections:0 "The 3376 Election"
-SYM_3376_elections_desc:0 "Eat some more chicken, eat some more pie, it doesn't even matter if it's boiled or fried."
+SYM_3376_elections_desc:0 "Chaos. The Election will mean chaos, one way or the other. The Governors and Separatists will claim that it was rigged if they don’t win and cry against the victory of any one of them if they do. The army is getting nervous too and has already moved several of its most loyal units to deployment areas and strategically important sections around the Capitol itself. They had no orders to do this but also no order to stop now."
 SYM_the_candis:0 "The Candidates"
-SYM_the_candis_desc:0 "What war criminal do you want?"
+SYM_the_candis_desc:0 "Stopping the election would be madness. Worse yet, it would give the Governors, the rebels and the terrorist groups all the anti-federal ammunition they need to declare war against us. Denying this election even for the sensible reasons of internal struggle means depriving our people of the right to choose. A right they had been denied for a hundred years. A right they have fought for. The Federation is not lost yet and its people know oppression and pain all too well. We cannot and WILL NOT allow the Federation’s dream to die just by action out of fear. The Election will come and its candidates will stand the trial of the nation. One of them will win or all of them will lose."
 SYM_not_ready:0 "Delay the Elections"
-SYM_not_ready_desc:0 "No need to rush democracy, one day it will come back, surely."
+SYM_not_ready_desc:0 "There is no choice, there can be none. The Election threatens the Federation as a nation, it CANNOT proceed without blowing the whole thing apart in an orgy of violence that will make the Liberation War look peaceful and organized in comparison. We cannot take this risk, we cannot allow the nation to destroy itself. We have to fix things first, even if it means an absolute overreach of current presidential authority over the different regions and nations inside the Federation. The Election will be delayed to whatever timeframe we see fit to be most appropriate. A time where we can ensure that no rebellion, attack or dictatorship can rise out of an election that is meant to give the people freedom most of all!"
 
 
 ################################################
@@ -189,6 +189,12 @@ SYM.15.a:0 "Our army will bring back order to Voskra Region"
 SYM.16.t:0 "Seda Rebellion"
 SYM.16.d:0 "Lorem Ipsum"
 SYM.16.a:0 "Our army will bring back order to Seda Region"
+
+SYM.17.t:0 "Meeting with the socialists"
+SYM.17.d:0 "Lorem Ipsum"
+SYM.17.a:0 "The Federation doesnt negotiate with dissidents"
+SYM.17.b:0 "We can settle for some trinket reforms"
+SYM.17.c:0 "The Federation's situation does not allow us to be picky"
 
 SYM.18.t:0 "Mavildea Rebellion"
 SYM.18.d:0 "Lorem Ipsum"
@@ -282,14 +288,60 @@ SYM.38.d:0 "Sub-section C: The State Of The Army\n\nThe armed forces of the fede
 SYM.38.a:0 "Go to the page about the state of the economy"
 SYM.38.b:0 "Go to the page about the current political situation"
 SYM.38.c:0 "Close the report"
+
+SYM.39.t:0 "New Govenor Of Resse"
+SYM.39.d:0 "Lorem Ipsum"
+SYM.39.a:0 "The region is in safe hands"
+
+SYM.40.t:0 "New Govenor Of Lavido"
+SYM.40.d:0 "Lorem Ipsum"
+SYM.40.a:0 "The region is in safe hands"
+
+SYM.41.t:0 "New Govenor Of Voskra"
+SYM.41.d:0 "Lorem Ipsum"
+SYM.41.a:0 "The region is in safe hands"
+
+SYM.42.t:0 "New Govenor Of Seda"
+SYM.42.d:0 "Lorem Ipsum"
+SYM.42.a:0 "The region is in safe hands"
+
+SYM.43.t:0 "New Govenor Of Mavildea"
+SYM.43.d:0 "Lorem Ipsum"
+SYM.43.a:0 "The region is in safe hands"
+
+SYM.44.t:0 "New Govenor Of Kakrikea"
+SYM.44.d:0 "Lorem Ipsum"
+SYM.44.a:0 "The region is in safe hands"
+
+SYM.45.t:0 "New Govenor Of Tiveask"
+SYM.45.d:0 "Lorem Ipsum"
+SYM.45.a:0 "The region is in safe hands"
+
+SYM.46.t:0 "New Govenor Of Termithia"
+SYM.46.d:0 "Lorem Ipsum"
+SYM.46.a:0 "The region is in safe hands"
+
+SYM.47.t:0 "New Govenor Of Laksa"
+SYM.47.d:0 "Lorem Ipsum"
+SYM.47.a:0 "The region is in safe hands"
+
+SYM.48.t:0 "New Govenor Of Zhafollis"
+SYM.48.d:0 "Lorem Ipsum"
+SYM.48.a:0 "The region is in safe hands"
 #####tooltips###
 sym_delayed_elections_tooltip:0 "§YDecided To Delay Elections§!"
 sym_elections_tooltip:0 "§YDecided To Organize The Elections§!"
 army_coup_tooltip:0 "The §RArmy§! Steps In To Contain The Chaos"
-
+sym_refused_to_reform_tooltip:0 "§YThe §RArmy§! supports this stance§!"
+sym_agreed_to_fully_reform_tooltip:0 "§YThe §Osocialists§! join the governing coalition§!"
+sym_not_chosen_reform_tooltip:0 "§GThe reward from this focus depends on the choice in the previous focus§!"
 ####ideas####
 SYM_strong_regionalism:0 "Strong Regionalism"
 SYM_strong_regionalism_desc:0 "As part of the treaties signed to form the nation the ex-insect states demanded high autonomy and low central government control, to the point they acted like a separate sovereign state, Amber seeing that his hand were tied ended up agreeing on these terms as long as the Symbiotic Federation existed, another term of the agreements was that the S.F would dissolve itself after the main threat of the occupation had been dealt it, this promise, however, was not followed through."
 
- SYM_tiveask_fog:0 "Nevzgody Fog"
- SYM_tiveask_fog_desc:0 "The Nevzgody Fog/Misery Fog or even Tiveask Fog is the main characteristic of the Tiveask area, a thick dark mist that covers all areas of the region, making life miserable and degrading, also known to cause many health problems and diseases, some parts of it even being radioactive, nobody really knows the origin, but some suggest the heavy industry, brought over by the reptiles, that used to occupy the region, caused the phenomenon, even after they have been removed the problem still hasn't been resolved, some cities and specific buildings are able to escape the sickly fog with the use of special fog condensers, a technology that was used to protect Zhafollis from the issue, but few can really afford it, specially the small groups of survivors within the region."
+SYM_tiveask_fog:0 "Nevzgody Fog"
+SYM_tiveask_fog_desc:0 "The Nevzgody Fog/Misery Fog or even Tiveask Fog is the main characteristic of the Tiveask area, a thick dark mist that covers all areas of the region, making life miserable and degrading, also known to cause many health problems and diseases, some parts of it even being radioactive, nobody really knows the origin, but some suggest the heavy industry, brought over by the reptiles, that used to occupy the region, caused the phenomenon, even after they have been removed the problem still hasn't been resolved, some cities and specific buildings are able to escape the sickly fog with the use of special fog condensers, a technology that was used to protect Zhafollis from the issue, but few can really afford it, specially the small groups of survivors within the region."
+
+SYM_trinket_reforms_idea:0 "Trinket Reforms"
+SYM_socialist_reforms_idea:0 "Socialist Reforms"
+

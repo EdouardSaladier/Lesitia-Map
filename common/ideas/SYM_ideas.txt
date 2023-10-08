@@ -12,5 +12,31 @@ ideas ={
 				consumer_goods_factor = 0.1
 			}
 		}
+		SYM_trinket_reforms_idea = {
+			picture = SOV_scientist_defect			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+		SYM_socialist_reforms_idea = {
+			picture = SOV_scientist_defect			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.075
+				stability_factor = 0.075
+			}
+		}
 	}
 }

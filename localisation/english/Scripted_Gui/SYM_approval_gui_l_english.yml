@@ -18,12 +18,16 @@ tiveask_govenor_name:0 "Tiveask Guard"
 voskra_govenor_name:0 "Kallista Sokolova"
 resse_govenor_name:0 "Russet Vero"
 center_govenor_name:0 "Robar Tevis"
+kakrikea_new_govenor_name:0 "Klara Meknara"
 kakrikea_govenor_name:0 "Lua Vescitu"
+mavildea_new_govenor_name:0 "Marco Russo"
 mavildea_govenor_name:0 "Maniare Fettua"
 termithia_govenor_name:0 "Slez Zeas"
+seda_new_govenor_name:0 "Godofredo da Silva"
 seda_govenor_name:0 "Godofreno Olivensa"
 lavido_govenor_name:0 "Intona Rubrum"
 lavska_govenor_name:0 "Polistik Sorak"
+no_govenor_name:0 "No governor"
 
 SYM_tiveask_region_capital:0 "Capital: Port Tiveask"
 SYM_voskra_region_capital:0 "Capital: Cochea"
@@ -104,7 +108,7 @@ SYM_lavska_govenor_approva_lowl:0 "§R[?SYM.sym_lavska_approval|.0%]§!"
 SYM_lavska_govenor_approval_non_interactable:0 "§gUnavailable§!"
 
 SYM_govenor_approval_region_secured:0 "§GSecured§!"
-
+SYM_govenor_approval_region_rebellion:0 "§tRebellion§!"
 
 SYM_toggle_flag_decisions_text:0 "Toggle"
  

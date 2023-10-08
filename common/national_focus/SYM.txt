@@ -70,7 +70,9 @@ focus_tree = {
 		}
 		x = 10
 		y = 2
-
+		completion_reward = {
+			country_event = SYM.17
+		}
 	}
 	
 	focus = {
@@ -82,7 +84,29 @@ focus_tree = {
 		}
 		x = 10
 		y = 3
-
+		completion_reward = {
+			if = {
+				limit = {
+					has_country_flag = sym_agreed_to_partially_reform
+				}
+				add_timed_idea = {
+					idea = SYM_trinket_reforms_idea
+					days = 185
+				}
+			}
+			else_if = {
+				limit ={
+					has_country_flag = sym_agreed_to_fully_reform
+				} 
+				add_timed_idea = {
+					idea = SYM_socialist_reforms_idea
+					days = 245
+				}
+			}
+			else = {
+				custom_effect_tooltip = sym_not_chosen_reform_tooltip
+			}
+		}
 	}
 
 	focus = {
