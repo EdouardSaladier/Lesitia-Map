@@ -57,6 +57,11 @@ replace_path="common/resistance_activity"
 replace_path="common/technologies"
 replace_path="common/technology_sharing"
 
+replace_path="common/military_industrial_organization/organizations"
+replace_path="common/military_industrial_organization/policies"
+
+replace_path="common/bop"
+
 replace_path="common/interface/equipmentdesigner"
 replace_path="gfx/interface/equipmentdesigner/tanks/designer"
 replace_path="gfx/interface/equipmentdesigner/graphic_db"
