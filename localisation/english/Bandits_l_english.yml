@@ -11,3 +11,10 @@ TBZ_tiveask_desc:0 "Artist: ArtChoiAila\n\nAge: 37\n\nAndrei Rodion is a praying
 #####partys names###
 TBZ_corporatism_party:0 "Ephemeral Gang"
 TBZ_corporatism_party_long:0 "the Ephemeral Gang"
+
+###Focus Trees###
+###Events###
+###Decisions###
+#Venom_Decisions#
+TBZ_mercenaries:0 "Venom Co. Mercenaries"
+venom_mercs_manpower:0 "Purchase manpower"

@@ -1,37 +1,5 @@
 ﻿l_english:
- professionalism_laws_tt:0 "§RProfessionnalism laws can only be changed through decisions§!"
- increase_professionalism_law:0 "Increase Army Prof"
- increase_professionalism_law_tt:0 "£command_power  §Y50§!, £army_experience §Y[?manpower_laws_cost]§!"
- increase_professionalism_law_tt_blocked:0 "£command_power  §R50§!, £army_experience §R[?manpower_laws_cost]§!"
- increase_professionalism_law_tt_tooltip:0 "It costs §Y50§!£command_power and §Y[?manpower_laws_cost]§!£army_experience (§Y1§!£army_experience per million inhabitants) to take the decision."
- 
- prof_5_law:0 "Conscript Army"
- prof_4_law:0 "Low Professionalisation"
- prof_3_law:0 "Professionalisation In Progress"
- prof_2_law:0 "High Professionalisation"
- prof_1_law:0 "Fully Professional Army"
- 
- civilian_consumption:0 "Civilian Consumption Laws"
- consumer_paradise:0 "Consumer Paradise"
- regular_consumption:0 "Regular Consumption"
- consumer_austrerity:0 "Consumer Austerity"
- consumer_rationing:0 "Consumer Rationing"
- 
- export_subsidies:0 "Export Subsidies"
- no_subsidies:0 "No Subsidies"
- small_subsidies:0 "Small Subsidies"
- medium_subsidies:0 "Medium Subsidies"
- generous_subsidies:0 "Generous Subsidies"
- 
- no_computers:0 "No Computers"
- commercial_computers_law:0 "Commercial Computers"
- massively_parallel_computers_law:0 "Massively Parallel Computers"
- petascale_supercomputers_law:0 "Petascale Supercomputers"
- exascale_supercomputers_law:0 "Exascale Supercomputers"
- zettascale_supercomputers_law:0 "Zettascale Supercomputers"
- yottascale_supercomputers_law:0 "Yottascale Supercomputers"
- quettascale_supercomputers_law:0 "Quettascale Supercomputers"
- 
+
  laws_civ_core_food_cons:0 "Food Consumption Laws (Core population)"
  civ_core_food_cons_plenitude:0 "Food Plenitude"
  civ_core_food_cons_normal:0 "Regular Food Consumption"
@@ -43,11 +11,3 @@
  civ_non_core_food_cons_normal:0 "Regular Food consumption"
  civ_non_core_food_cons_low:0 "Limited Food Rationing"
  civ_non_core_food_cons_very_low:0 "Draconian Food Rationing"
- 
- power_consumption_laws:0 "Power Consumption Laws"
- unrestricted_power_access:0 "Unlimited Power Access"
- regular_power_consumption:0 "Regular Power Consumption"
- power_austerity:0 "Power Austerity"
- power_rationing:0 "Power Rationing"
- army_power_priority:0 "Army Power Priority"
- all_power_to_the_army:0 "All Power to the Army"

@@ -26,11 +26,12 @@ idea_categories = {
 	}
 	
 	government = {
+		slot = mobilization_laws
+		slot = trade_laws
 		slot = economy
-		slot = civilian_consumption
-		slot = laws_civ_core_food_cons
-		slot = laws_civ_non_core_food_cons
-		slot = power_consumption_laws
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
 		
 		ledger = civilian
 		
@@ -39,12 +40,9 @@ idea_categories = {
 	}
 	
 	government_2 = {
-		slot = mobilization_laws
-		slot = professionalism_laws
-		slot = trade_laws
-		slot = export_subsidies
-		slot = computer_laws
-		
+
+		slot = laws_civ_core_food_cons
+		slot = laws_civ_non_core_food_cons
 		ledger = civilian
 		
 		cost = 150
@@ -57,6 +55,7 @@ idea_categories = {
 		slot = aircraft_manufacturer
 		slot = materiel_manufacturer
 		slot = industrial_concern
+		character_slot = theorist
 
 		ledger = civilian
 		
