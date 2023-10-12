@@ -118,7 +118,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "western_european_infantry_weapon_mg_mesh"
-		file = "gfx/models/units/western_european_infantry_weapon_mg.mesh"
+		file = "gfx/models/units/gen_primative_firearms.mesh"
 	}
 	
 
