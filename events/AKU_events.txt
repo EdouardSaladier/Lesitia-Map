@@ -171,4 +171,4 @@ country_event ={
 		name = AKU.7.a
 	}
 	}
-#AKU_canal_or_war
+#AKU_strait_or_war

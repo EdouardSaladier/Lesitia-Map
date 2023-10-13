@@ -298,8 +298,10 @@ focus = {
 		bypass = {
 		}
 		completion_reward = {
-			country_event = AKU.6
-			days = 10
+			country_event = {
+				id = AKU.6
+				days = 10
+			}
 		}
 	}
 focus = {
@@ -321,8 +323,10 @@ focus = {
 		bypass = {
 		}
 		completion_reward = {
-			country_event = AKU.7
-			days = 10
+			country_event = {
+				id = AKU.7 
+				days = 10
+			}
 		}
 	}
 #Crisis_tree
@@ -977,7 +981,7 @@ focus = {
 		bypass = {
 		}
 		completion_reward = {
-		country_event = AKU.4
+		country_event = {id = AKU.4}
 		}
 	}
 	focus = {
@@ -997,7 +1001,7 @@ focus = {
 		bypass = {
 		}
 		completion_reward = {
-		country_event = AKU.5
+		country_event = {id = AKU.5}
 		remove_ideas = AKU_merc_apparatus
 		country_lock_all_division_template = no
 		}
@@ -1100,8 +1104,7 @@ focus = {
 				random = {
 					chance = 1
 					AKU = {
-						country_event = AKU.3
-						days = 10
+						country_event = {id = AKU.3 days = 10}
 						}
 				}
 			}
@@ -1527,7 +1530,7 @@ focus = {
 		completion_reward = {}
 	}
 	focus = {
-		id = AKU_canal_or_war
+		id = AKU_strait_or_war
 				icon = GFX
 		x = 0
 		y = 1
@@ -1545,7 +1548,7 @@ focus = {
 			size > 100000
 			}
 		}
-		mutually_exclusive = {focus = AKU_alliance_for_canal}
+		mutually_exclusive = {focus = AKU_alliance_for_strait}
 		bypass = {
 			has_war_with = REO
 		}
@@ -1599,7 +1602,7 @@ focus = {
 		completion_reward = {}
 	}
 	focus = {
-		id = AKU_alliance_for_canal
+		id = AKU_alliance_for_strait
 				icon = GFX
 		x = 0
 		y = 2
@@ -1608,7 +1611,7 @@ focus = {
 		cost = 3
 		ai_will_do = {factor = 1}
 		
-		mutually_exclusive = {focus = AKU_canal_or_war}
+		mutually_exclusive = {focus = AKU_strait_or_war}
 		
 		available = {
 			has_government = despotism
