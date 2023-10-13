@@ -327,7 +327,6 @@ ideas = {
 				local_supplies = 0.2
 				weekly_manpower = 100
 				army_morale_factor = 0.4
-				surrender_limit = 0.1
 			}
 			
 			targeted_modifier = {
