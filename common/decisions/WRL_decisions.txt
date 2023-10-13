@@ -345,36 +345,6 @@ WRL_unification = {
 	
     }
 	
-	demand_LAV = {
-	 
-	    icon = GFX_decision_generic_form_nation    
-		
-	    cost = 100
-	    allowed = {
-			tag = RIS
-		}
-		available = {
-		    tag = RIS
-		    is_subject = no
-			has_government = democracy
-			country_exists = LAV
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		fire_only_once = yes
-		visible = {
-			NOT = { has_cosmetic_tag = RIS_federation }
-			tag = RIS
-		}
-		complete_effect = {
-		    LAV = {
-		      country_event = { id = LAV.1 days = 2 }
-			}
-		}
-	
-    }
-	
 	demand_RFT = {
 	 
 	    icon = GFX_decision_generic_form_nation    
