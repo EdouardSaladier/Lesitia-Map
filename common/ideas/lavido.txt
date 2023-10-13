@@ -27,7 +27,6 @@ ideas = {
 				local_resources_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.1
 				production_factory_max_efficiency_factor = 0.2
-				recruitable_population_factor = 0.2
 				democracy_drift = 0.03
 				democracy_acceptance = 50
 				revolutionarism_acceptance = 50

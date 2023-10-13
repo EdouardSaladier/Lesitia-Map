@@ -22,7 +22,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				weekly_manpower = 500
+				weekly_manpower = 100
 				monthly_population = 0.7
                 army_core_defence_factor = 0.1
                 defensive_war_stability_factor = 0.5
@@ -30,9 +30,7 @@ ideas = {
                 production_speed_bunker_factor = 0.5	
                 production_speed_anti_air_building_factor = 0.5
 				industry_free_repair_factor = 0.3
-				industry_repair_factor = 0.3
-                conscription_factor = 0.3	
-                surrender_limit = 0.1				
+				industry_repair_factor = 0.3				
                 war_support_factor = -0.3
                 stability_factor = -0.2				
 			}

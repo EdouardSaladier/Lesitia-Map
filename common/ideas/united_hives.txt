@@ -27,12 +27,10 @@ ideas = {
 				stability_factor = 0.2
 				war_support_factor = 0.1
 				local_resources_factor = 0.2
-				recruitable_population_factor = 0.3
 				revolutionarism_drift = 0.03
 				democracy_drift = -0.03
 				revolutionarism_acceptance = 50
 				state_production_speed_farms_factor = 0.2
-				surrender_limit = 0.1
 			}
 			
 			targeted_modifier = {

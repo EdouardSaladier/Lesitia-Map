@@ -163,4 +163,23 @@ characters = {
 			id = -1
 		}
 	}
+	
+	UHL_blaze_shroud = {
+		name = "Blaze Shroud"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UHL/portrait_blaze.dds"
+			}
+		}
+		corps_commander={
+			traits={ war_hero trait_engineer winter_specialist }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=34
+		}
+		
+	}
 }
