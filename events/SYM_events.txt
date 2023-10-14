@@ -386,6 +386,11 @@ country_event = {
 			change_tag_from = SYM
 		}
 		hidden_effect = {
+			ZHA = {
+				set_politics = {
+					ruling_party = unclassified
+				}
+			}
 		}
 		retire_country_leader = yes
 
@@ -410,6 +415,11 @@ country_event = {
 			change_tag_from = SYM
 		}
 		hidden_effect = {
+			ZHA = {
+				set_politics = {
+					ruling_party = unclassified
+				}
+			}
 		}
 		retire_country_leader = yes
 
@@ -430,6 +440,11 @@ country_event = {
 			country_event = { id = SYM.10 days = 10 } 
 		}
 		hidden_effect = {
+			ZHA = {
+				set_politics = {
+					ruling_party = unclassified
+				}
+			}
 		}
 		retire_country_leader = yes
 		create_country_leader = {
@@ -639,6 +654,7 @@ country_event = {
 			}
 		}
 		set_country_flag = SYM_resse_no_govenor
+		retire_character = SYM_Russet_Vero_advisor
 	}
 }
 country_event = {    
@@ -660,7 +676,7 @@ country_event = {
 			}
 		}
 		set_country_flag = SYM_lavido_no_govenor
-
+		retire_character = SYM_Intona_Rubrum_advisor
 	}
 }
 country_event = {    
@@ -683,7 +699,6 @@ country_event = {
 			}
 		}
 		set_country_flag = SYM_voskra_no_govenor
-
 	}
 }
 country_event = {    
@@ -705,6 +720,7 @@ country_event = {
 			}
 		}
 		set_country_flag = SYM_seda_no_govenor
+		retire_character = SYM_Railanderson_Olivensa_advisor
 
 	}
 }
@@ -839,6 +855,7 @@ country_event = {
 			}
 		}
 		set_country_flag = SYM_central_no_govenor
+		retire_character = SYM_Robar_Tevis_advisor
 
 	}
 }

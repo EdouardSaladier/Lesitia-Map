@@ -217,6 +217,20 @@ recruit_character = SYM_abbas_faez
 recruit_character = SYM_maniare_fettua
 recruit_character = SYM_matvey_velazik
 
+######################
+###### Advisors ######
+######################
+recruit_character = SYM_Artem_Valentim_advisor
+recruit_character = SYM_Robar_Tevis_advisor
+recruit_character = SYM_Russet_Vero_advisor
+recruit_character = SYM_Mathieu_Dufresne_advisor
+recruit_character = SYM_Intona_Rubrum_advisor
+recruit_character = SYM_Railanderson_Olivensa_advisor
+recruit_character = SYM_Baris_Tevis_advisor
+recruit_character = SYM_Leo_Laze_advisor
+recruit_character = SYM_Paragram_Briz_advisor
+
+
 create_country_leader = {
 	name = "Luã Vescitu"
 	desc = "KAK_lua_desc"

@@ -461,4 +461,202 @@ characters = {
 	}
 
 
+	####################################
+	############# Advisors #############
+	####################################
+	SYM_Paragram_Briz_advisor = {
+		name = "Paragram Briz"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/SYM/paragram.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SYM_paragram_briz_advisor
+			allowed = {
+				original_tag = SYM
+				NOT = {
+					has_government = revolutionarism
+				}
+			}
+			available = {
+			}
+			traits = {
+				captain_of_industry
+			}
+		}	
+	}
+	SYM_Leo_Laze_advisor = {
+		name = "Léo Laze"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/SYM/leo.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SYM_leo_laze_advisor
+			allowed = {
+				original_tag = SYM
+				OR = {
+					has_government = democracy
+					has_government = despotism
+				}
+			}
+			available = {
+			}
+			traits = {
+				ideological_crusader
+			}
+		}	
+	}
+	SYM_Baris_Tevis_advisor = {
+		name = "Baris Tevis"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/SYM/baris.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SYM_baris_tevis_advisor
+			allowed = {
+				original_tag = SYM
+			}
+			available = {
+			}
+			traits = {
+				war_industrialist
+			}
+		}	
+	}
+	SYM_Railanderson_Olivensa_advisor = {
+		name = "Railanderson Olivensa"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/SYM/raila.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SYM_railanderson_olivensa_advisor
+			allowed = {
+				original_tag = SYM
+			}
+			available = {
+			}
+			traits = {
+				financial_expert
+			}
+		}	
+	}
+	SYM_Intona_Rubrum_advisor = {
+		name = "Intona Rubrum"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/SYM/formiga.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SYM_intona_rubrum_advisor
+			allowed = {
+				original_tag = SYM
+			}
+			available = {
+			}
+			traits = {
+				compassionate_gentleman
+			}
+		}	
+	}
+	SYM_Mathieu_Dufresne_advisor = {
+		name = "Mathieu Dufresne"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/SYM/mathieu.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SYM_mathieu_dufresne_advisor
+			allowed = {
+				original_tag = SYM
+				NOT = {
+					has_government = supremacism
+				}
+				
+			}
+			available = {
+			}
+			traits = {
+				resolute_social_democrat
+			}
+		}	
+	}
+	SYM_Russet_Vero_advisor = {
+		name = "Russet Vero"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/SYM/russet.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SYM_russet_vero_advisor
+			allowed = {
+				original_tag = SYM
+			}
+			available = {
+			}
+			traits = {
+				devoted_corporatist
+			}
+		}	
+	}
+	SYM_Robar_Tevis_advisor = {
+		name = "Robar Tevis"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/SYM/robar.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SYM_robar_tevis_advisor
+			allowed = {
+				original_tag = SYM
+			}
+			available = {
+			}
+			traits = {
+				industry_reformer
+			}
+		}	
+	}
+	SYM_Artem_Valentim_advisor = {
+		name = "Artem Valentim"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/SYM/artem.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SYM_artem_valentim_advisor
+			allowed = {
+				original_tag = SYM
+				NOT = {
+					has_government = supremacism
+				}
+				
+			}
+			available = {
+			}
+			traits = {
+				prince_of_terror
+			}
+		}	
+	}
 }

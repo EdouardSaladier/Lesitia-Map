@@ -1,0 +1,21 @@
+characters = {
+	
+	ZHA_Maximillian_Rez_general ={
+		name= "Maximillian Rez"
+		portraits={
+			army={
+				large= "gfx/leaders/ZHA/portrait_maximillian_rez.dds"
+			}
+		}
+		field_marshal={
+			traits= { infantry_officer hill_fighter }
+			skill= 4
+			
+			attack_skill= 3
+			defense_skill= 5
+			planning_skill= 4
+			logistics_skill= 3
+		}
+	}
+
+}

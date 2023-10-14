@@ -1,0 +1,27 @@
+spriteTypes = {
+	#Symbiotic and Warlords
+	spriteType = {
+		name = "GFX_symbiotic_generic_army_1"
+		texturefile = "gfx/leaders/Warlord_Generic/generic1.dds"
+	}
+	spriteType = {
+		name = "GFX_symbiotic_generic_army_2"
+		texturefile = "gfx/leaders/Warlord_Generic/generic2.dds"
+	}
+	spriteType = {
+		name = "GFX_symbiotic_generic_army_3"
+		texturefile = "gfx/leaders/Warlord_Generic/generic3.dds"
+	}
+	spriteType = {
+		name = "GFX_symbiotic_generic_army_4"
+		texturefile = "gfx/leaders/Warlord_Generic/generic4.dds"
+	}
+	spriteType = {
+		name = "GFX_symbiotic_generic_army_5"
+		texturefile = "gfx/leaders/Warlord_Generic/generic5.dds"
+	}
+	spriteType = {
+		name = "GFX_symbiotic_generic_army_6"
+		texturefile = "gfx/leaders/Warlord_Generic/generic6.dds"
+	}
+}

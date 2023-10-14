@@ -70,6 +70,10 @@ create_country_leader = {
 recruit_character = RFT_moth_badguy
 recruit_character = RFT_moth_goodguy
 
+recruit_character = RFT_Alexander_general
+recruit_character = RFT_Leo_Laze_general
+recruit_character = RFT_Matthew_general
+
 add_ideas = {
 	republican_army
 }

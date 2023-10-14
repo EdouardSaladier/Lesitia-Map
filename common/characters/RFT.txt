@@ -1,0 +1,54 @@
+characters = {
+	
+	RFT_Alexander_general ={
+		name= "Alexandre Renaud"
+		portraits={
+			army={
+				large= "gfx/leaders/RFT/portrait_alexander_bad.dds"
+			}
+		}
+		field_marshal={
+			traits= { infantry_officer  }
+			skill= 3
+			
+			attack_skill= 3
+			defense_skill= 5
+			planning_skill= 4
+			logistics_skill= 3
+		}
+	}
+	RFT_Leo_Laze_general ={
+		name= "Leo Laze"
+		portraits={
+			army={
+				large= "gfx/leaders/RFT/portrait_leo_laze.dds"
+			}
+		}
+		field_marshal={
+			traits= { infantry_officer hill_fighter }
+			skill= 4
+			
+			attack_skill= 3
+			defense_skill= 2
+			planning_skill= 6
+			logistics_skill= 3
+		}
+	}
+	RFT_Matthew_general ={
+		name= "Mathieu Dufresne"
+		portraits={
+			army={
+				large= "gfx/leaders/RFT/portrait_matthew_good.dds"
+			}
+		}
+		field_marshal={
+			traits= { infantry_officer }
+			skill= 3
+			
+			attack_skill= 5
+			defense_skill= 3
+			planning_skill= 2
+			logistics_skill= 4
+		}
+	}
+}

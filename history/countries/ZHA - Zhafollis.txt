@@ -48,16 +48,16 @@ set_technology = {
 set_convoys = 0
 
 set_politics = {
-	ruling_party = unclassified
+	ruling_party = democracy
 	last_election = "3374.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 3
+	democracy = 33
 	supremacism = 0
-	unclassified = 90
-	corporatism = 7
+	unclassified = 50
+	corporatism = 17
 }
 
 create_country_leader = {
@@ -66,7 +66,7 @@ create_country_leader = {
 	picture = "portrait_robar_tevis.dds"
 	ideology = democracy_type 
 }
-
+recruit_character = ZHA_Maximillian_Rez_general
 add_ideas = {
 	fanatic_idealism
 }

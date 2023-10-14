@@ -1,0 +1,260 @@
+default = {
+	#navy = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	#army = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+
+	operative = {
+		male = {
+			"GFX_portrait_operative_unknown"
+		}
+		female = {
+			"GFX_portrait_operative_unknown"
+		}
+	}
+
+	male = {
+		"GFX_portrait_unknown"
+	}
+	female = {
+		"GFX_portrait_unknown_female"
+	}
+}
+
+SYM = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+RFT = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+TER = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+ACS = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+ETH = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+TVA = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+ZHA = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+RIS = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+LAV = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+UHL = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+TBZ = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+VOS = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+SCM = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+SED = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+CSR = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+MAV = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+KAK = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+TPG = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}
+OAV = {
+	army = {
+		male = {
+			"GFX_symbiotic_generic_army_1"
+			"GFX_symbiotic_generic_army_2"
+			"GFX_symbiotic_generic_army_3"
+			"GFX_symbiotic_generic_army_4"
+			"GFX_symbiotic_generic_army_5"
+			"GFX_symbiotic_generic_army_6"
+		}
+	}
+}

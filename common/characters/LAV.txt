@@ -1,0 +1,21 @@
+characters = {
+	
+	LAV_Intona_Rubrum_general ={
+		name= "Intona Rubrum"
+		portraits={
+			army={
+				large= "gfx/leaders/LAV/portrait_intona_rubrum.dds"
+			}
+		}
+		field_marshal={
+			traits= { infantry_officer hill_fighter }
+			skill= 4
+			
+			attack_skill= 3
+			defense_skill= 5
+			planning_skill= 4
+			logistics_skill= 3
+		}
+	}
+
+}

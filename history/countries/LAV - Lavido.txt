@@ -59,7 +59,7 @@ set_popularities = {
 	democracy = 88
 	corporatism = 5
 }
-
+recruit_character = LAV_Intona_Rubrum_general
 add_ideas = {
     lavido_democracy
 }
@@ -70,3 +70,4 @@ create_country_leader = {
 	picture = "portrait_intona_rubrum.dds"
 	ideology = democracy_type 
 }
+
