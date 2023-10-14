@@ -46,24 +46,28 @@ is_warlord_not_unified = {
 			has_country_flag = united_federation
 		}
 		OR = {
-			tag = RFT
-			tag = TER
-			tag = ACS
-			tag = ETH
-			tag = TVA
-			tag = ZHA
-			tag = RIS
-			tag = LAV
-			tag = UHL
-			tag = TBZ
-			tag = VOS
-			tag = SCM
-			tag = SED
-			tag = CSR
-			tag = MAV
-			tag = KAK
-			tag = TPG
-			tag = OAV
+			tag = SCM # Seda commune
+			tag = SED # Seda Proper
+			tag = LAV # Democratic Lavido
+			tag = UHL # Revolutionary Lavido
+			tag = VOS # Voskra
+			tag = TBZ # Tiveask Bandit zone
+
+			tag = CSR # Central Symbiotic Republic
+			tag = MAV # Mavildea
+			tag = KAK # Karikea
+			
+			tag = RFT # Republican Front
+			tag = ACS # Army Command South
+			tag = ETH # Resse
+			tag = OAV # Laksa
+			tag = RIS # Rizz island
+
+			tag = TER # Termites
+			tag = TVA # Tiveask Free Army
+			tag = TPG # Tiveask provisional Government
+			tag = ZHA # Zhefillis
+
 		}
 	}
 }
@@ -88,4 +92,16 @@ is_warlord = {
 		tag = TPG
 		tag = OAV
 	}
+}
+wrl_controls_south_west = {
+
+}
+wrl_controls_north = {
+
+}
+wrl_controls_south = {
+
+}
+wrl_controls_center = {
+
 }

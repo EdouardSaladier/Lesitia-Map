@@ -162,65 +162,6 @@ WRL_unification = {
 
 		}
 	}
-	
-	# attack_warlords  = {  
-	# 	icon = GFX_decision_generic_prepare_civil_war
-		
-	# 	ai_will_do = {
-	# 		factor = 1
-	# 	}
-	# 	target_trigger = { 
-	# 		is_neighbor_of = FROM
-	# 		NOT = {
-	# 			is_in_faction_with = ROOT
-	# 		}
-	# 		NOT = {
-	# 			has_war_with = FROM
-	# 		}
-	# 		FROM = {
-	# 			is_warlord_not_unified = yes
-	# 		}
-
-	# 	}
-	# 	visible = {
-	# 		always = yes
-	# 	}
-	# 	available = {
-	# 		is_subject = no
-	# 		has_army_manpower = {
-	# 			size > 10000
-	# 		}
-	# 		custom_trigger_tooltip = {
-	# 			tooltip = tooltip_attacking_warlord
-	# 			NOT = {
-	# 				has_country_flag = warlord_attacking
-	# 			}  
-	# 		}
-	# 		has_completed_focus = WRL_Begin_Expansion
-	# 	}
-	         
-    #     cost = 30
-    #     fire_only_once = yes
-    #     days_remove = 150
-    #     war_with_target_on_remove = yes
-    #     modifier = {
-    #        political_power_gain = -0.1
-    #     }
-        
-    #     complete_effect = {
-	# 		FROM = {
-	# 			set_country_flag = warlord_attacking
-	# 		}
-    #     }
-        
-	# 	remove_effect = {
-	# 		ROOT = {
-	# 			declare_war_on = { type = annex_everything target = FROM }
-	# 			clr_country_flag = warlord_attacking
-	# 		}
-	# 	}
-    # }
-
 	ris_government_change = {
 	 
 	    icon = GFX_decision_generic_form_nation    
@@ -280,39 +221,39 @@ WRL_unification = {
 
 		}
 	# reclamation_unification = {
-	 
-	#     icon = GFX_decision_generic_form_nation    
-	
-	#     allowed = {
-	# 		tag = RIS
-	# 	}
-	# 	available = {
-	# 	    has_government = democracy
-	# 	    tag = RIS
-	# 	    is_subject = no
-	# 		custom_trigger_tooltip = {
-	# 			tooltip = warlord_controls_ex_federal_territory_tooltip
-	# 			warlord_controls_ex_federal_territory = yes
-	# 		}
-	# 	}
-	# 	ai_will_do = {
-	# 		factor = 1
-	# 	}
-	# 	visible = {
-	# 		NOT = { has_cosmetic_tag = RIS_federation }
-	# 		tag = RIS
-	# 	}
-	# 	complete_effect = {
-	# 	    set_party_name = { 
-	# 		    ideology = democracy
-	# 		    long_name = RIS_democracy_party_long
-	# 		    name = RIS_democracy_party 
-	# 	    }
-	# 	    set_cosmetic_tag = RIS_federation
-	# 		set_capital = {state = 7}
-	# 		set_country_flag = united_federation
-	# 	}
-	
+		
+		#     icon = GFX_decision_generic_form_nation    
+		
+		#     allowed = {
+		# 		tag = RIS
+		# 	}
+		# 	available = {
+		# 	    has_government = democracy
+		# 	    tag = RIS
+		# 	    is_subject = no
+		# 		custom_trigger_tooltip = {
+		# 			tooltip = warlord_controls_ex_federal_territory_tooltip
+		# 			warlord_controls_ex_federal_territory = yes
+		# 		}
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 1
+		# 	}
+		# 	visible = {
+		# 		NOT = { has_cosmetic_tag = RIS_federation }
+		# 		tag = RIS
+		# 	}
+		# 	complete_effect = {
+		# 	    set_party_name = { 
+		# 		    ideology = democracy
+		# 		    long_name = RIS_democracy_party_long
+		# 		    name = RIS_democracy_party 
+		# 	    }
+		# 	    set_cosmetic_tag = RIS_federation
+		# 		set_capital = {state = 7}
+		# 		set_country_flag = united_federation
+		# 	}
+		
     # }
 	
 	demand_ACS = {
@@ -767,7 +708,7 @@ WRL_unification = {
 	
 	core_states  = {
         state_target = yes
-        target_array = controlled_states
+        target_array = owned_controlled_states
         icon = GFX_decision_infiltrate_state
 		
 		ai_will_do = {
@@ -1725,5 +1666,106 @@ WRL_unification = {
 				clr_country_flag = warlord_attacking
 			}
 		}
+	}
+
+	wrl_unify_south_west = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			OR = {
+				tag = SCM # Seda commune
+				tag = SED # Seda Proper
+				tag = LAV # Democratic Lavido
+				tag = UHL # Revolutionary Lavido
+				tag = VOS # Voskra
+				tag = TBZ # Tiveask Bandit zone
+			}
+		}
+		available = {
+
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			add_ideas = wrl_overextension_1
+		}
+		
+	}
+	wrl_unify_north = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			tag = CSR # Central Symbiotic Republic
+			tag = MAV # Mavildea
+			tag = KAK # Karikea
+		}
+		available = {
+
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			add_ideas = wrl_overextension_1
+		}
+		
+	}
+	wrl_unify_south = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			tag = RFT # Republican Front
+			tag = ACS # Army Command South
+			tag = ETH # Resse
+			tag = OAV # Laksa
+			tag = RIS # Rizz island
+		}
+		available = {
+
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			add_ideas = wrl_overextension_1
+		}
+		
+	}
+	wrl_unify_center = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			tag = TER # Termites
+			tag = TVA # Tiveask Free Army
+			tag = TPG # Tiveask provisional Government
+			tag = ZHA # Zhefillis
+		}
+		available = {
+
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			add_ideas = wrl_overextension_1
+		}
+		
 	}
 }
