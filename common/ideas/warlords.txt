@@ -128,6 +128,45 @@ ideas = {
 			}
 		
 		}
+		wrl_overextension_1 = {
+			picture = federal_rebuild
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.3
+			    political_power_factor = -0.3
+				industrial_capacity_factory = -0.3
+				war_support_factor = -0.3
+				stability_factor = -0.3
+			}
+		}
+		wrl_overextension_2 = {
+			picture = federal_rebuild
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.2
+			    political_power_factor = -0.2
+				industrial_capacity_factory = -0.2
+				war_support_factor = -0.2
+				stability_factor = -0.2
+			}
+		}
+		wrl_overextension_3 = {
+			picture = federal_rebuild
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.1
+			    political_power_factor = -0.1
+				industrial_capacity_factory = -0.1
+				war_support_factor = -0.1
+				stability_factor = -0.1
+			}
+		}
 		########
 		termite_future = {
 			picture = termite_future
@@ -793,7 +832,6 @@ ideas = {
 				industrial_capacity_factory = -0.3
 				production_factory_efficiency_gain_factor = -0.3
 				production_factory_max_efficiency_factor = -0.3
-				industrial_capacity_factory = -0.3
 				industry_free_repair_factor = 0.3
 				industry_repair_factor = 0.1
 				war_support_factor = -0.3
