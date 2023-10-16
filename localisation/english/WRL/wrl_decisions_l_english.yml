@@ -1,0 +1,6 @@
+﻿l_english:
+wrl_unify_south_west:0 "[WrlGetSouthWestUnifier]"
+wrl_unify_north:0 "[WrlGetNorthUnifier]"
+wrl_unify_south:0 "[WrlGetSouthUnifier]"
+wrl_unify_center:0 "[WrlGetCenterUnifier]"
+ 

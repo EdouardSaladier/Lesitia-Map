@@ -47,3 +47,66 @@ defined_text = {
 		localization_key = zha_unification
 	}
 }
+defined_text = {
+	name = WrlGetSouthWestUnifier
+	text = {
+		trigger = {
+			tag = SED
+		}
+		localization_key = sed_south_west_decision_name
+	}
+	text = {
+		trigger = {
+			tag = SCM
+		}
+		localization_key = scm_south_west_decision_name
+	}
+	text = {
+		trigger = {
+			tag = LAV
+		}
+		localization_key = lav_south_west_decision_name
+	}
+	text = {
+		trigger = {
+			tag = UHL
+		}
+		localization_key = uhl_south_west_decision_name
+	}
+	text = {
+		trigger = {
+			tag = VOS
+		}
+		localization_key = vos_south_west_decision_name
+	}
+	text = {
+		trigger = {
+			tag = TBZ
+		}
+		localization_key = tbz_south_west_decision_name
+	}
+}
+defined_text = {
+	name = WrlGetNorthUnifier
+	text = {
+		trigger = {
+		}
+		localization_key = sed_south_west_decision_name
+	}
+}
+defined_text = {
+	name = WrlGetSouthUnifier
+	text = {
+		trigger = {
+		}
+		localization_key = sed_south_west_decision_name
+	}
+}
+defined_text = {
+	name = WrlGetCenterUnifier
+	text = {
+		trigger = {
+		}
+		localization_key = sed_south_west_decision_name
+	}
+} 

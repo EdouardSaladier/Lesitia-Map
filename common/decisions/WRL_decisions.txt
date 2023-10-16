@@ -728,12 +728,12 @@ WRL_unification = {
             }
         }
         
-        cost = 15
+        cost = 25
         fire_only_once = yes
-        days_remove = 40
+        days_remove = 50
         
         modifier = {
-            political_power_gain = -0.1
+            political_power_gain = -0.15
         }
         
         complete_effect = {
@@ -1630,7 +1630,7 @@ WRL_unification = {
 			is_neighbor_of = RIS
 			NOT = {
 			has_war_with = RIS
-			}
+			}  
 		}
 		available = {
 			is_subject = no
@@ -1669,13 +1669,13 @@ WRL_unification = {
 	}
 
 	wrl_unify_south_west = {
-		icon = GFX_decision_generic_prepare_civil_war
+		icon = GFX_decision_generic_form_nation
 		
 		ai_will_do = {
 			factor = 1
-		}
+		}     
 		
-		visible = {
+		visible = { 
 			OR = {
 				tag = SCM # Seda commune
 				tag = SED # Seda Proper
@@ -1686,30 +1686,81 @@ WRL_unification = {
 			}
 		}
 		available = {
-
+			wrl_controls_south_west= yes
 		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 177
+
+				state = 179
+				state = 178
+				state = 176
 		
+				state = 200
+				state = 175
+		
+				state = 173
+				state = 174
+				state = 172
+		
+				state = 171
+		
+				state = 169
+				state = 170
+				state = 168
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+
 		fire_only_once = yes
-		
+		 
 		complete_effect = {
-			add_ideas = wrl_overextension_1
+			add_ideas = wrl_overextension_1	            
+			IF = {
+				limit = {tag = SED}
+				set_cosmetic_tag = SED_south_west
+			}      
+			else_if = {
+				limit = {tag = SCM}
+				set_cosmetic_tag = SCM_south_west
+			}
+			else_if = {
+				limit = {tag = LAV}
+				set_cosmetic_tag = LAV_south_west
+			}
+			else_if = {
+				limit = {tag = UHL} 
+				set_cosmetic_tag = UHL_south_west
+			}
+			else_if = {
+				limit = {tag = VOS}
+				set_cosmetic_tag = VOS_south_west
+			}
+			else_if = {
+				limit = {tag = TBZ}
+				set_cosmetic_tag = TBZ_south_west
+			}
 		}
 		
 	}
 	wrl_unify_north = {
-		icon = GFX_decision_generic_prepare_civil_war
+		icon = GFX_decision_generic_form_nation
 		
 		ai_will_do = {
 			factor = 1
 		}
 		
 		visible = {
-			tag = CSR # Central Symbiotic Republic
-			tag = MAV # Mavildea
-			tag = KAK # Karikea
+			OR = {
+				tag = CSR # Central Symbiotic Republic
+				tag = MAV # Mavildea
+				tag = KAK # Karikea
+			}
 		}
 		available = {
-
+			wrl_controls_north = yes
 		}
 		
 		fire_only_once = yes
@@ -1720,20 +1771,24 @@ WRL_unification = {
 		
 	}
 	wrl_unify_south = {
-		icon = GFX_decision_generic_prepare_civil_war
+		icon = GFX_decision_generic_form_nation
 		
 		ai_will_do = {
 			factor = 1
 		}
 		
 		visible = {
-			tag = RFT # Republican Front
-			tag = ACS # Army Command South
-			tag = ETH # Resse
-			tag = OAV # Laksa
-			tag = RIS # Rizz island
+			OR= {
+				tag = RFT # Republican Front
+				tag = ACS # Army Command South
+				tag = ETH # Resse
+				tag = OAV # Laksa
+				tag = RIS # Rizz island
+			}
+
 		}
 		available = {
+			wrl_controls_south = yes
 
 		}
 		
@@ -1745,20 +1800,23 @@ WRL_unification = {
 		
 	}
 	wrl_unify_center = {
-		icon = GFX_decision_generic_prepare_civil_war
+		icon = GFX_decision_generic_form_nation
 		
 		ai_will_do = {
 			factor = 1
 		}
 		
 		visible = {
-			tag = TER # Termites
-			tag = TVA # Tiveask Free Army
-			tag = TPG # Tiveask provisional Government
-			tag = ZHA # Zhefillis
+			OR = {
+				tag = TER # Termites
+				tag = TVA # Tiveask Free Army
+				tag = TPG # Tiveask provisional Government
+				tag = ZHA # Zhefillis   
+			}
+
 		}
 		available = {
-
+			wrl_controls_center = yes
 		}
 		
 		fire_only_once = yes
