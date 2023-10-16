@@ -65,7 +65,7 @@ add_ideas = {
 }
 
 recruit_character = VOS_kallista_general
-
+recruit_character = VOS_supermajor_general
 create_country_leader = {
 	name = "Kallista Sokolova"
 	desc = "VOS_kallista_desc"

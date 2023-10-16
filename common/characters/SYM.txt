@@ -476,11 +476,11 @@ characters = {
 			idea_token = SYM_paragram_briz_advisor
 			allowed = {
 				original_tag = SYM
+			}
+			available = {
 				NOT = {
 					has_government = revolutionarism
 				}
-			}
-			available = {
 			}
 			traits = {
 				captain_of_industry
@@ -499,12 +499,12 @@ characters = {
 			idea_token = SYM_leo_laze_advisor
 			allowed = {
 				original_tag = SYM
+			}
+			available = {
 				OR = {
 					has_government = democracy
 					has_government = despotism
 				}
-			}
-			available = {
 			}
 			traits = {
 				ideological_crusader
@@ -582,13 +582,12 @@ characters = {
 			slot = political_advisor
 			idea_token = SYM_mathieu_dufresne_advisor
 			allowed = {
-				original_tag = SYM
+				original_tag = SYM				
+			}
+			available = {
 				NOT = {
 					has_government = supremacism
 				}
-				
-			}
-			available = {
 			}
 			traits = {
 				resolute_social_democrat
@@ -647,12 +646,12 @@ characters = {
 			idea_token = SYM_artem_valentim_advisor
 			allowed = {
 				original_tag = SYM
+
+			}
+			available = {
 				NOT = {
 					has_government = supremacism
 				}
-				
-			}
-			available = {
 			}
 			traits = {
 				prince_of_terror

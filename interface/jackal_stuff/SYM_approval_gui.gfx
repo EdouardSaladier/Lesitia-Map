@@ -67,7 +67,10 @@ spriteTypes = {
 		name = "GFX_sym_approval_voskra"
 		texturefile = "gfx/interface/GUI/SYM_Approval/sym_approval_voskra.dds"
 	}
-
+	spriteType = {
+		name = "GFX_voskra_new_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/voskra_new_govenor.dds"
+	}
 	spriteType = {
 		name = "GFX_voskra_govenor"
 		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/voskra_govenor.dds"
@@ -107,6 +110,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_seda_govenor"
 		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/seda_govenor.dds"
+	}
+	spriteType = {
+		name = "GFX_lavido_new_govenor"
+		texturefile = "gfx/interface/GUI/SYM_Approval/Govenors/lavido_new_govenor.dds"
 	}
 	spriteType = {
 		name = "GFX_lavido_govenor"

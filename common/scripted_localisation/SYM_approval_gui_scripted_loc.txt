@@ -69,7 +69,7 @@ defined_text = {
 			has_country_flag = SYM_voskra_selected_gui
 			has_country_flag = SYM_voskra_new_govenor
 		}
-		localization_key = ""
+		localization_key = "GFX_voskra_new_govenor"
 	}
 	text = {
 		trigger = {
@@ -209,7 +209,7 @@ defined_text = {
 			has_country_flag = SYM_lavido_selected_gui
 			has_country_flag = SYM_lavido_new_govenor
 		}
-		localization_key = ""
+		localization_key = "GFX_lavido_new_govenor"
 	}
 	text = {
 		trigger = {

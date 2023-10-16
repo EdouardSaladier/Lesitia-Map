@@ -17,5 +17,21 @@ characters = {
 			logistics_skill= 3
 		}
 	}
-
+	LAV_Augusta_Cassia_general ={
+		name= "Augusta Cassia"
+		portraits={
+			army={
+				large= "gfx/leaders/LAV/lavidoant.dds"
+			}
+		}
+		corps_commander = {
+			traits= { infantry_officer }
+			skill= 3
+			
+			attack_skill= 2
+			defense_skill= 4
+			planning_skill= 2
+			logistics_skill= 3
+		}
+	}
 }

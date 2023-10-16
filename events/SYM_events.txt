@@ -479,7 +479,7 @@ country_event = {
 		UHL = {
 			change_tag_from = SYM
 		}
-
+		retire_character = SYM_Railanderson_Olivensa_advisor
 	}
 	option = { 
 		name = SYM.10.b
@@ -493,6 +493,7 @@ country_event = {
 		SED = {
 			change_tag_from = SYM
 		}
+		retire_character = SYM_Railanderson_Olivensa_advisor
 	}
 	option = { 
 		name = SYM.10.c
@@ -506,6 +507,7 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
+		retire_character = SYM_Railanderson_Olivensa_advisor
 	}
 }
 country_event = {    
@@ -537,7 +539,7 @@ country_event = {
 				}
 			}
 		}
-
+		retire_character = SYM_Intona_Rubrum_advisor
 	}
 	option = { 
 		name = SYM.11.b
@@ -560,6 +562,7 @@ country_event = {
 				}
 			}
 		}
+		retire_character = SYM_Intona_Rubrum_advisor
 	}
 	option = { 
 		name = SYM.11.c
@@ -582,6 +585,7 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
+		retire_character = SYM_Intona_Rubrum_advisor
 	}
 }
 country_event = {    
@@ -612,6 +616,7 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
+		retire_character = SYM_Russet_Vero_advisor
 	}
 	option = { 
 		name = SYM.12.b
@@ -627,7 +632,7 @@ country_event = {
 		hidden_effect = {
 			sym_get_cores = yes
 		}
-		
+		retire_character = SYM_Russet_Vero_advisor
 	}
 }
 ################################################

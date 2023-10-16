@@ -60,6 +60,8 @@ set_popularities = {
 	corporatism = 5
 }
 recruit_character = LAV_Intona_Rubrum_general
+recruit_character = LAV_Augusta_Cassia_general
+
 add_ideas = {
     lavido_democracy
 }
