@@ -86,7 +86,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				monthly_population
+				#monthly_population
 			    political_power_gain = -0.1
 				stability_factor = -0.05
 				democracy_drift = 0.1    

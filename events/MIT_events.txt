@@ -248,16 +248,16 @@ country_event = {
 			ruling_party = revolutionarism
 			elections_allowed = no
 		}
-			remove_country_flag = coalition_democracy
-			set_country_flag = coalition_despotism
-			update_coalition = yes
-					set_party_name = { 
-   			ideology = despotism 
-  	 		long_name = MIT_overturned_parliement_party_long
-   			name = MIT_overturned_parliement_party
-			}
-			promote_character = MIT_alarica
-			set_cosmetic_tag = MIT_monbol
+		clr_country_flag = coalition_democracy
+		set_country_flag = coalition_despotism
+		update_coalition = yes
+		set_party_name = { 
+			ideology = despotism 
+			long_name = MIT_overturned_parliement_party_long
+			name = MIT_overturned_parliement_party
+		}
+		promote_character = MIT_alarica
+		set_cosmetic_tag = MIT_monbol
 	}
 }	
 

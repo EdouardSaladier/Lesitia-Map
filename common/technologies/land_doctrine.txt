@@ -1200,7 +1200,8 @@ technologies = {
 		unmanned_ground_combat_tank_brigade = {
 			soft_attack = 0.25
 			hard_attack = 0.25
-			penetration = 0.25
+			ap_attack = 0.25
+			
 		}
 
 		doctrine = yes	

@@ -7,6 +7,7 @@ country_event = {    ###monarchist
 	#picture = 
 
 	is_triggered_only = yes
+	fire_only_once = yes
 
 	option = { 
 		name = VRT.1.a
@@ -18,7 +19,6 @@ country_event = {    ###monarchist
 		set_cosmetic_tag = VRT_monarchist
 	    promote_character = VRT_vera_monarchist
 		
-		fire_only_once = yes
 		
 	}
 	option = { 
@@ -33,10 +33,7 @@ country_event = {    ###monarchist
 	        elections_allowed = no
 		}
 		set_cosmetic_tag = VRT_monbol
-	    promote_character = VRT_vera_monbol
-		
-		fire_only_once = yes
-		
+	    promote_character = VRT_vera_monbol		
 	}
 }
 

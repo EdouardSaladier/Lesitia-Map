@@ -57,12 +57,12 @@ add_equipment_to_stockpile = {
     producer = VRT
 }
 add_equipment_to_stockpile = {
-    type = multirole_fighter
+    type = multirole_fighter_equipment
     amount = 100
     producer = VRT
 }
 add_equipment_to_stockpile = {
-    type = aerial_coverage_unit
+    type = aerial_coverage_unit_equipment
     amount = 100
     producer = VRT
 }
