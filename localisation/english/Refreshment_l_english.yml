@@ -31,7 +31,7 @@ RIS_shark_party:0 "RRF"
 RIS_shark_party_long:0 "Rescanie Reclaimement Front"
 
 ###Leader trait 
-RIS_been_there_seen_it_got_the_scar:0 "Been there, seen it, got the scars"
+RIS_been_there_seen_it_got_the_scar:0 "Been there, seen it, §Rgot the scars"
 ###Ideas
 RIS_federation_refugee:0 "Federation Refugee"
 
@@ -45,7 +45,7 @@ RIS_economic_overview:0 "Economic Overview"
 RIS_economic_overview_support_desc:0 "desc forstuff"
 RIS_invite_mainland_corporations:0 "Invite Mainland Corporation"
 RIS_invite_mainland_corporations_desc:0 "stuff stuf"
-RIS_legetimise_our_state:0 "Legetimise Our Staff"
+RIS_legetimise_our_state:0 "Legetimise Our Business"
 RIS_legetimise_our_state_desc:0 "nifgnrf"
 RIS_transoceanic_contact:0 "Trans-oceanic Contact"
 RIS_transoceanic_contact_desc:0 "nvoegfrgf"

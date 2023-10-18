@@ -27,6 +27,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 100
 			add_stability = 0.1
+			country_event = { id = RIS.3 }
 		}
 	}
 	focus = {
@@ -128,6 +129,7 @@ focus_tree = {
 			focus = RIS_transoceanic_contact
 		}
 		completion_reward = {
+			country_event = { id = RIS.5 }
 			add_political_power = 100
 			add_stability = 0.1
 		}
@@ -183,6 +185,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 100
 			add_stability = 0.1
+			country_event = { id = RIS.4 }
 		}
 	}
 	focus = {

@@ -36,7 +36,7 @@ country_event = {    ###warlord demands land
 			factor = 80
 		}
 		random_country = {
-		    limit = {
+		    liRIS = {
                 has_country_flag = demand_state
             }
             annex_country = { target = RIS transfer_troops = yes }
@@ -49,7 +49,7 @@ country_event = {    ###warlord demands land
 			factor = 20
 		}
 		random_country = {
-            limit = {
+            liRIS = {
                 has_country_flag = demand_state
             }
             create_wargoal = { type = annex_everything target = RIS }
@@ -109,15 +109,63 @@ country_event = {
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = supremacism
-			popularity = 0.15
-		}
+		ideology = supremacism
+		popularity = 0.15
 		set_country_flag = RIS_shark_coup
 		complete_national_focus = RIS_a_return_to_the_sea
-		set_party_name = { 
-			ideology = supremacism 
-			long_name = RIS_shark_party_long
-			name = RIS_shark_party
 		}
+			set_party_name = { 
+   			ideology = supremacism 
+  	 		long_name = RIS_shark_party_long
+   			name = RIS_shark_party
+			}
+	}
+}
+country_event = { #A fresh start
+	id = RIS.3
+	title = RIS.3.t
+	desc = RIS.3.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = RIS.3.a
+	}
+}
+country_event = { #Meet the team
+	id = RIS.4
+	title = RIS.4.t
+	desc = RIS.4.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = RIS.4.a
+	}
+}
+country_event = {
+	id = RIS.5
+	title = RIS.5.t
+	desc = RIS.5.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = RIS.5.a
+	}
+}
+country_event = {
+	id = RIS.6
+	title = RIS.6.t
+	desc = RIS.6.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = RIS.6.a
 	}
 }	
