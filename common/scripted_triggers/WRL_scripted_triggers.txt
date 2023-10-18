@@ -93,6 +93,40 @@ is_warlord = {
 		tag = OAV
 	}
 }
+is_sw_warlord = { # is_sw_warlord = yes
+	OR = {
+		tag = SCM # Seda commune
+		tag = SED # Seda Proper
+		tag = LAV # Democratic Lavido
+		tag = UHL # Revolutionary Lavido
+		tag = VOS # Voskra
+		tag = TBZ # Tiveask Bandit zone
+	}
+}
+is_n_warlord = { # is_n_warlord = yes
+	OR = {
+		tag = CSR # Central Symbiotic Republic
+		tag = MAV # Mavildea
+		tag = KAK # Karikea
+	}
+}
+is_s_warlord = { # is_s_warlord = yes
+	OR = {
+		tag = RFT # Republican Front
+		tag = ACS # Army Command South
+		tag = ETH # Resse
+		tag = OAV # Laksa
+		tag = RIS # Rizz island
+	}
+}
+is_c_warlord = { # is_c_warlord = yes
+	OR = {
+		tag = TER # Termites
+		tag = TVA # Tiveask Free Army
+		tag = TPG # Tiveask provisional Government
+		tag = ZHA # Zhefillis 
+	}
+}
 wrl_controls_south_west = {
 	AND = {
 		owns_state = 177

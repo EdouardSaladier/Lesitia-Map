@@ -1,167 +1,6 @@
 WRL_unification = {
 
-	warlord_unification ={
-		icon = GFX_decision_generic_form_nation    
-	
-	    allowed = {
-			is_warlord_not_unified = yes
-		}
-		available = {
-		    is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = warlord_controls_ex_federal_territory_tooltip
-				warlord_controls_ex_federal_territory = yes
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		visible = {
-			NOT = { has_country_flag = united_federation }
-		}
-		complete_effect = {
-			custom_effect_tooltip = warlord_get_cores_on_ex_federal_territory_tooltip
-			hidden_effect = {
-				warlord_get_cores_on_ex_federal_territory = yes
-			}
 
-			IF = {
-				limit = {tag = ACS}
-				set_party_name = { 
-					ideology = democracy
-					long_name = ACS_democracy_party_long
-					name = ACS_democracy_party 
-				}
-				set_politics = {
-					ruling_party = democracy
-					elections_allowed = no
-				}
-				set_cosmetic_tag = ACS_federation
-			}
-			else_if = {
-				limit = {tag = CSR }
-				set_party_name = { 
-					ideology = supremacism
-					long_name = CSR_supremacism_party_long
-					name = CSR_supremacism_party 
-				}
-				set_cosmetic_tag = CSR_federation
-			}
-			else_if = {
-				limit = {tag = TVA}
-				set_party_name = { 
-					ideology = democracy
-					long_name = TVA_democracy_party_long
-					name = TVA_democracy_party 
-				}
-				set_politics = {
-					ruling_party = democracy
-					elections_allowed = no
-				}
-				set_cosmetic_tag = TVA_federation
-			}
-			else_if = {
-				limit = {tag = MAV}
-				set_cosmetic_tag = MAV_federation
-
-			}
-			else_if = {
-				limit = {tag = TPG}
-				set_party_name = { 
-					ideology = despotism
-					long_name = TPG_despotism_party_long
-					name = TPG_despotism_party 
-				}
-				set_politics = {
-					ruling_party = despotism
-					elections_allowed = no
-				}
-				set_cosmetic_tag = TPG_federation
-			}
-			else_if = {
-				limit = {tag = ETH }
-				set_party_name = { 
-					ideology = supremacism
-					long_name = ETH_supremacism_party_long
-					name = ETH_supremacism_party 
-				}
-				set_cosmetic_tag = ETH_federation
-			}
-			else_if = {
-				limit = {tag = RIS}
-				set_party_name = { 
-					ideology = democracy
-					long_name = RIS_democracy_party_long
-					name = RIS_democracy_party 
-				}
-				set_cosmetic_tag = RIS_federation
-			}
-			else_if = {
-				limit = {tag = RFT}
-				country_event = { id = RFT.2 }
-			}
-			else_if = {
-				limit = {tag = KAK}
-				country_event = { id = KAK.1 }
-
-			}
-			else_if = {
-				limit = {tag = TBZ}
-				country_event = { id = TBZ.1 }
-			}
-			else_if = {
-				limit = {tag = ZHA}
-				set_cosmetic_tag = ZHA_federation
-			}
-			else_if = {
-				limit = {tag = TER}
-				set_cosmetic_tag = TER_federation
-			}
-			else_if = {
-				limit = {tag = VOS}
-				set_cosmetic_tag = VOS_federation
-			}
-			else_if = {
-				limit = {tag = LAV}
-				set_cosmetic_tag = LAV_federation
-			}
-			else_if = {
-				limit = {tag = SED}
-				set_cosmetic_tag = SED_federation
-			}
-			else_if = {
-				limit = {tag = SCM }
-				set_cosmetic_tag = SCM_federation
-			}
-			else_if = {
-				limit = {tag = UHL}
-				set_party_name = { 
-					ideology = revolutionarism
-					long_name = UHL_revolutionarism_party_long
-					name = UHL_revolutionarism_party 
-				}
-				promote_character = UHL_ancom
-				set_cosmetic_tag = UHL_federation
-			}
-			else_if = {
-				limit = {tag = OAV}
-				set_party_name = { 
-					ideology = theocracy
-					long_name = OAV_theocracy_party_long
-					name = OAV_theocracy_party 
-				}
-				set_cosmetic_tag = OAV_federation
-			}
-
-
-
-
-
-			set_capital = {state = 7}
-			set_country_flag = united_federation
-
-		}
-	}
 	ris_government_change = {
 	 
 	    icon = GFX_decision_generic_form_nation    
@@ -785,7 +624,13 @@ WRL_unification = {
 	
     }
 
-	#### ROLLBACK
+	#############################################
+	#############################################
+	################ Declaration ################
+	#############################################
+	#############################################
+
+
 	attack_kakrikea  = {  #done
 		icon = GFX_decision_generic_prepare_civil_war
 		
@@ -798,6 +643,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = KAK
 			}
+			is_n_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -847,6 +693,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = MAV
 			}
+			is_n_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -896,6 +743,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = CSR
 			}
+			is_n_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -945,6 +793,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = SED
 			}
+			is_sw_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -994,6 +843,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = TBZ
 			}
+			is_sw_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -1043,6 +893,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = ZHA
 			}
+			is_c_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -1092,6 +943,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = TPG
 			}
+			is_c_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -1141,6 +993,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = TER
 			}
+			is_c_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -1190,6 +1043,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = TVA
 			}
+			is_c_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -1239,6 +1093,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = SCM
 			}
+			is_sw_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -1288,6 +1143,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = VOS
 			}
+			is_sw_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -1337,6 +1193,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = UHL
 			}
+			is_sw_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -1386,6 +1243,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = LAV
 			}
+			is_sw_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -1435,6 +1293,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = ACS
 			}
+			is_s_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -1484,6 +1343,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = ETH
 			}
+			is_s_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -1533,6 +1393,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = RFT
 			}
+			is_s_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -1582,6 +1443,7 @@ WRL_unification = {
 			NOT = {
 			has_war_with = OAV
 			}
+			is_s_warlord = yes
 		}
 		available = {
 			is_subject = no
@@ -1619,52 +1481,219 @@ WRL_unification = {
 		}
 	}
 
-	attack_ris  = {  #done
-		icon = GFX_decision_generic_prepare_civil_war
+	# attack_ris  = {  #done
+	# 	icon = GFX_decision_generic_prepare_civil_war
 		
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+		
+	# 	visible = {
+	# 		is_neighbor_of = RIS
+	# 		NOT = {
+	# 		has_war_with = RIS
+	# 		}  
+	# 	}
+	# 	available = {
+	# 		is_subject = no
+	# 		has_army_manpower = {
+	# 			size > 10000
+	# 		}
+	# 		custom_trigger_tooltip = {
+	# 			tooltip = tooltip_attacking_warlord
+	# 			NOT = {
+	# 			has_country_flag = warlord_attacking
+	# 			}  
+	# 		}
+	# 		has_completed_focus = WRL_Begin_Expansion
+	# 	}
+		
+	# 	cost = 30
+	# 	fire_only_once = yes
+	# 	days_remove = 150
+		
+	# 	modifier = {
+	# 		political_power_gain = -0.1
+	# 	}
+		
+	# 	complete_effect = {
+	# 	FROM = {
+	# 		set_country_flag = warlord_attacking
+	# 	}
+	# 	}
+		
+	# 	remove_effect = {
+	# 		FROM = {
+	# 			declare_war_on = { type = annex_everything target = RIS }
+	# 			clr_country_flag = warlord_attacking
+	# 		}
+	# 	}
+	# }
+
+
+	#############################################
+	#############################################
+	################ Unification ################
+	#############################################
+	#############################################
+
+
+	warlord_unification ={
+		icon = GFX_decision_generic_form_nation    
+	
+	    allowed = {
+			is_warlord_not_unified = yes
+		}
+		available = {
+		    is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = warlord_controls_ex_federal_territory_tooltip
+				warlord_controls_ex_federal_territory = yes
+			}
+		}
 		ai_will_do = {
 			factor = 1
 		}
-		
 		visible = {
-			is_neighbor_of = RIS
-			NOT = {
-			has_war_with = RIS
-			}  
+			NOT = { has_country_flag = united_federation }
 		}
-		available = {
-			is_subject = no
-			has_army_manpower = {
-				size > 10000
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_attacking_warlord
-				NOT = {
-				has_country_flag = warlord_attacking
-				}  
-			}
-			has_completed_focus = WRL_Begin_Expansion
-		}
-		
-		cost = 30
-		fire_only_once = yes
-		days_remove = 150
-		
-		modifier = {
-			political_power_gain = -0.1
-		}
-		
 		complete_effect = {
-		FROM = {
-			set_country_flag = warlord_attacking
-		}
-		}
-		
-		remove_effect = {
-			FROM = {
-				declare_war_on = { type = annex_everything target = RIS }
-				clr_country_flag = warlord_attacking
+			custom_effect_tooltip = warlord_get_cores_on_ex_federal_territory_tooltip
+			hidden_effect = {
+				warlord_get_cores_on_ex_federal_territory = yes
 			}
+
+			IF = {
+				limit = {tag = ACS}
+				set_party_name = { 
+					ideology = democracy
+					long_name = ACS_democracy_party_long
+					name = ACS_democracy_party 
+				}
+				set_politics = {
+					ruling_party = democracy
+					elections_allowed = no
+				}
+				set_cosmetic_tag = ACS_federation
+			}
+			else_if = {
+				limit = {tag = CSR }
+				set_party_name = { 
+					ideology = supremacism
+					long_name = CSR_supremacism_party_long
+					name = CSR_supremacism_party 
+				}
+				set_cosmetic_tag = CSR_federation
+			}
+			else_if = {
+				limit = {tag = TVA}
+				set_party_name = { 
+					ideology = democracy
+					long_name = TVA_democracy_party_long
+					name = TVA_democracy_party 
+				}
+				set_politics = {
+					ruling_party = democracy
+					elections_allowed = no
+				}
+				set_cosmetic_tag = TVA_federation
+			}
+			else_if = {
+				limit = {tag = MAV}
+				set_cosmetic_tag = MAV_federation
+
+			}
+			else_if = {
+				limit = {tag = TPG}
+				set_party_name = { 
+					ideology = despotism
+					long_name = TPG_despotism_party_long
+					name = TPG_despotism_party 
+				}
+				set_politics = {
+					ruling_party = despotism
+					elections_allowed = no
+				}
+				set_cosmetic_tag = TPG_federation
+			}
+			else_if = {
+				limit = {tag = ETH }
+				set_party_name = { 
+					ideology = supremacism
+					long_name = ETH_supremacism_party_long
+					name = ETH_supremacism_party 
+				}
+				set_cosmetic_tag = ETH_federation
+			}
+			else_if = {
+				limit = {tag = RIS}
+				set_party_name = { 
+					ideology = democracy
+					long_name = RIS_democracy_party_long
+					name = RIS_democracy_party 
+				}
+				set_cosmetic_tag = RIS_federation
+			}
+			else_if = {
+				limit = {tag = RFT}
+				country_event = { id = RFT.2 }
+			}
+			else_if = {
+				limit = {tag = KAK}
+				country_event = { id = KAK.1 }
+
+			}
+			else_if = {
+				limit = {tag = TBZ}
+				country_event = { id = TBZ.1 }
+			}
+			else_if = {
+				limit = {tag = ZHA}
+				set_cosmetic_tag = ZHA_federation
+			}
+			else_if = {
+				limit = {tag = TER}
+				set_cosmetic_tag = TER_federation
+			}
+			else_if = {
+				limit = {tag = VOS}
+				set_cosmetic_tag = VOS_federation
+			}
+			else_if = {
+				limit = {tag = LAV}
+				set_cosmetic_tag = LAV_federation
+			}
+			else_if = {
+				limit = {tag = SED}
+				set_cosmetic_tag = SED_federation
+			}
+			else_if = {
+				limit = {tag = SCM }
+				set_cosmetic_tag = SCM_federation
+			}
+			else_if = {
+				limit = {tag = UHL}
+				set_party_name = { 
+					ideology = revolutionarism
+					long_name = UHL_revolutionarism_party_long
+					name = UHL_revolutionarism_party 
+				}
+				promote_character = UHL_ancom
+				set_cosmetic_tag = UHL_federation
+			}
+			else_if = {
+				limit = {tag = OAV}
+				set_party_name = { 
+					ideology = theocracy
+					long_name = OAV_theocracy_party_long
+					name = OAV_theocracy_party 
+				}
+				set_cosmetic_tag = OAV_federation
+			}
+
+			set_capital = {state = 7}
+			set_country_flag = united_federation
+
 		}
 	}
 
