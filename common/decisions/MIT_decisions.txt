@@ -12,34 +12,34 @@ MIT_politic_queen = {
 	}
 
 	MIT_marry_southern_noble = {
-	cost = 75
-	add_ideas = 
+		cost = 75
+		#add_ideas = 
 	}
 	
 	MIT_marry_fhyreanta_noble = {
-	cost = 75
-	add_ideas =
-		}
+		cost = 75
+		#add_ideas =
+	}
 
 	MIT_moth_girlboss_pact = {
-	cost = 75
+		cost = 75
 		visible = {
 			VRT = { has_cosmetic_tag = VRT_monbol }
-			}
-#		hidden_effect = {
-#				yghh
-#		}
+		}
+	#		hidden_effect = {
+	#				yghh
+	#		}
 	}
 	MIT_scary_ass_experiment = {
 	cost = 75
-#	add_ideas =
+	#	add_ideas =
 		visible = {
 			has_completed_focus = MIT_a_technocatharsis
 			}
-		custom_effect_tooltip = MIT_tooltip.3
-#		hidden_effect = {
-#				yghh
-#		}
+		#custom_effect_tooltip = MIT_tooltip.3
+	#		hidden_effect = {
+	#				yghh
+	#		}
 	}
 }
 MIT_technoesoterecism = {
