@@ -64,6 +64,33 @@ ideas = {
 			}
 		
 		}
+		RIS_merc_influence_2 = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }
+
+            available = {
+			    has_government = corporatism
+            }
+
+            cancel = {
+			    has_government = despotism
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = 800
+				corporatism_drift = 0.1
+			}
+		
+		}
 		RIS_federation_refugee = {
 			picture = sin_islands
 			

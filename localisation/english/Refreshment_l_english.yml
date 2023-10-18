@@ -36,6 +36,7 @@ RIS_been_there_seen_it_got_the_scar:0 "Been there, seen it, §Rgot the scars"
 RIS_federation_refugee:0 "Federation Refugee"
 
 RIS_merc_influence:0 "Mercenaries Influence"
+RIS_merc_influence_2:0 "Mercenaries Loyalty"
 ###focus
 RIS_a_fresh_start:0 "A Fresh Start"
 RIS_a_fresh_start_desc:0 "desc for focus"
@@ -179,6 +180,13 @@ RIS_devellop_tourism_gambling:0 "The Shinning Casino Of The Sea"
 RIS_devellop_tourism_ecotourism:0 "The Strenght Of Natural Beauty"
 RIS_devellop_tourism_cultural:0 "Museum, Theatre, Light, Action!"
 
+RIS_the_research_departement:0 "The Research Department"
+RIS_moderate_the_budget:0 "Moderate The Budget"
+RIS_unlimited_budget:0  "WIP WORK YOU FUCKING PIECE OF POTATOES LOC"
+RIS_future_of_cloning:0  "The Future Of Cloning"
+RIS_exoarmor_study:0  "Exoarmor Studies"
+RIS_open_biochemical_laboratories:0  "Open Biochemical Factories"
+
 ###Flag
 RIS_merc_coup:0 "The Mercenaries Have Taken Control"
 RIS_dem_coup:0 "The Federation Loyalists Have Taken Control"
@@ -191,3 +199,7 @@ RIS.2.a:0 "Their superior equipement guarantee the mercenary an easy win!"
 RIS.2.b:0 "The board succesfully keep control by using their private protections forces!"
 RIS.2.c:0 "The remnant of the Symbiotic army organise and succesfully take control of Paraiso!"
 RIS.2.e:0 "The shark use their knowledge of the isles to take back the isles!"
+
+RIS.7.t:0 "Unleashing The Private Security"
+RIS.7.d:0 "sadge event dem dead nooooooooo"
+RIS.7.a:0 "They are paid way too much for job this easy..."

@@ -168,4 +168,16 @@ country_event = {
 	option = { 
 		name = RIS.6.a
 	}
-}	
+}
+country_event = {
+	id = RIS.7
+	title = RIS.7.t
+	desc = RIS.7.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = RIS.7.a
+	}
+}		

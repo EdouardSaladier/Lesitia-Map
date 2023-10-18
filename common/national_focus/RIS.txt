@@ -616,8 +616,8 @@ focus_tree = {
 		cost = 7
 		x = 8
 		y = 5
-		available = {
-			is_subject = no
+		available = { 
+			has_country_flag = RIS_corpo_stable
 		}
 		prerequisite = {
 			focus = RIS_showdown_at_paraiso
@@ -640,8 +640,8 @@ focus_tree = {
 			focus = RIS_the_house_always_in
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			country_event = { id = RIS.7 }
+			remove_ideas = RIS_federation_refugee
 		}
 	}
 	focus = {
@@ -657,8 +657,10 @@ focus_tree = {
 			focus = RIS_the_house_always_in
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			swap_ideas = {
+    		remove_idea = RIS_merc_influence
+    		add_idea = RIS_merc_influence_2
+			}
 		}
 	}
 	focus = {
@@ -1007,7 +1009,8 @@ focus_tree = {
 		cost = 7
 		x = 22
 		y = 5
-		available = {
+		available = { 
+			has_country_flag = RIS_shark_coup
 			is_subject = no
 		}
 		prerequisite = {
@@ -1192,6 +1195,7 @@ focus_tree = {
 		y = 5
 		available = {
 			is_subject = no
+		    has_country_flag = RIS_dem_coup
 		}
 		prerequisite = {
 			focus = RIS_showdown_at_paraiso
@@ -1498,6 +1502,117 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = RIS_devellop_tourism_gambling }
 		mutually_exclusive = { focus = RIS_devellop_tourism_cultural }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_the_research_departement
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 26
+		y = 5
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_showdown_at_paraiso
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_moderate_the_budget
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 27
+		y = 6
+		available = {
+			is_subject = no
+		}
+		mutually_exclusive = {
+		 focus = RIS_unlimited_budget
+		}
+		prerequisite = {
+			focus = RIS_the_research_departement
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_unlimited_budget
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 25
+		y = 6
+		available = {
+			is_subject = no
+		}
+		mutually_exclusive = {
+		 focus = RIS_moderate_the_budget
+		}
+		prerequisite = {
+			focus = RIS_the_research_departement
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_future_of_cloning
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 28
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_unlimited_budget
+			focus = RIS_moderate_the_budget
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_exoarmor_study
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 26
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_unlimited_budget
+			focus = RIS_moderate_the_budget
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RIS_open_biochemical_laboratories
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 24
+		y = 7
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = RIS_unlimited_budget
+			focus = RIS_moderate_the_budget
+		}
 		completion_reward = {
 			add_political_power = 100
 			add_stability = 0.1
