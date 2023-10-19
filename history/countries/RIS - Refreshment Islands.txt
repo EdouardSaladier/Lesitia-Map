@@ -67,5 +67,6 @@ add_ideas = {
 	RIS_merc_influence
 	sin_islands
 	RIS_federation_refugee
+	closed_economy 
 }
 

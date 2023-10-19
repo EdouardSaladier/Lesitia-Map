@@ -187,6 +187,18 @@ RIS_future_of_cloning:0  "The Future Of Cloning"
 RIS_exoarmor_study:0  "Exoarmor Studies"
 RIS_open_biochemical_laboratories:0  "Open Biochemical Factories"
 
+###Cosmetic
+RIS_new_paraiso:0 "New Paraiso"
+RIS_new_paraiso_DEF:0 "the New Paraisian Kubeiocracy"
+RIS_new_paraiso_ADJ:0 "New Paraiso"
+
+RIS_ancap:0 "Free Trade Territories"
+RIS_ancap_DEF:0 "Free Trade Territories of the Refreshment Islands"
+RIS_ancap_ADJ:0 "Rescanian"
+
+RIS_sham_republic:0 "Rescannie Islands Republic"
+RIS_sham_republic_DEF:0 "the Rescannie Islands Republic"
+RIS_sham_republic_ADJ:0 "Rescannian"
 ###Flag
 RIS_merc_coup:0 "The Mercenaries Have Taken Control"
 RIS_dem_coup:0 "The Federation Loyalists Have Taken Control"

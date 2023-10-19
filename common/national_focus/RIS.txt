@@ -679,8 +679,10 @@ focus_tree = {
 			focus = RIS_buying_loyalty
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			swap_ideas = {
+    		remove_idea = closed_economy 
+    		add_idea = free_trade 
+			}
 		}
 	}
 	focus = {
@@ -751,8 +753,7 @@ focus_tree = {
 			focus = RIS_the_velvet_gloves
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			country_event = { id = RIS.8 }
 		}
 	}
 	focus = {
