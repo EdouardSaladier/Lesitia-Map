@@ -1,0 +1,40 @@
+ideas = {
+
+	press_policy = { 
+	
+		law = yes
+		
+		#Freedom of Speech
+		free_press = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		#Light Censorship
+		light_censorship = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		#Hard Censorship
+		hard_censorship = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}		
+	}
+}

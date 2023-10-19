@@ -1,0 +1,60 @@
+ideas = {
+
+	race_policy = { 
+	
+		law = yes
+		
+		#Affirmative Action
+		affirmative_action = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		#Equal Species
+		equal_species = {
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		#Seperate But Equal
+		segregation = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+		#Species Hierarchy
+		species_hierarchy = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+		#One Species Policy
+		one_species = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}				
+	}
+}

@@ -4,77 +4,67 @@ ideas = {
 	
 		law = yes
 		
-		#State Ownership
-		full_control = {	
+		#Command Economy
+		command_economy = {	
 			modifier = {
-				political_power_factor = 0.01
+				trade_opinion_factor = -0.05
+				mobilization_speed = 0.05
+				embargo_cost_factor = -0.1
+				conversion_cost_civ_to_mil_factor = -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+				research_speed_factor = -0.01
 			}
 			cost = -1	
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 0
    			}
 		}
 
-		#Free market
+		#Mixed Economy
+		mixed_economy = {	
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.025
+				production_factory_max_efficiency_factor = 0.025
+				consumer_goods_factor = 0.025
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0
+   			}
+		}
+
+		#Free Market
 		free_market = {	
 			modifier = {
-				political_power_factor = 0.01
+				trade_opinion_factor = 0.1
+				embargo_cost_factor = 0.15
+				consumer_goods_factor = 0.05
+				conversion_cost_civ_to_mil_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				research_speed_factor = 0.025
+				mobilization_speed = -0.05
 			}
 			cost = -1	
 			ai_will_do = {
-   				factor = 0.5
-   			}
-		}
-
-		#State Capitalism
-		state_capitalism = {	
-			modifier = {
-				political_power_factor = 0.01
-			}
-			cost = -1	
-			ai_will_do = {
-   				factor = 0.5
+   				factor = 0
    			}
 		}		
-		#Feudal Control
-		feudalist_economic = {	
+		#Traditional Economy
+		traditional_economy = {	
 			modifier = {
-				political_power_factor = 0.01
+			research_speed_factor = -0.5
+			political_power_gain = -0.1
+			stability_factor = -0.1
+			mobilization_speed = -0.5
+			conversion_cost_civ_to_mil_factor = 0.1
+			production_factory_efficiency_gain_factor = -0.5
+			production_factory_max_efficiency_factor = -0.5
 			}
 			cost = -1	
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 0
    			}
 		}		
-		#corporatism
-		corporatism_economic = {	
-			modifier = {
-				political_power_factor = 0.01
-			}
-			cost = -1	
-			ai_will_do = {
-   				factor = 0.5
-   			}
-		}	
-		#Anarchy
-		anarchist_economic = {	
-			modifier = {
-				political_power_factor = 0.01
-			}
-			cost = -1	
-			ai_will_do = {
-   				factor = 0.5
-   			}
-		}	
-		#Corpo Control
-		corporatocratic_economic = {	
-			modifier = {
-				political_power_factor = 0.01
-			}
-			cost = -1	
-			ai_will_do = {
-   				factor = 0.5
-   			}
-		}
 	}
 }

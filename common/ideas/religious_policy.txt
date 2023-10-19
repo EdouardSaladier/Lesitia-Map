@@ -1,0 +1,40 @@
+ideas = {
+
+	religious_policy = { 
+	
+		law = yes
+		
+		#State Religion
+		state_religion = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		#Secularism
+		secularism = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		#State Atheism
+		state_atheism = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}		
+	}
+}

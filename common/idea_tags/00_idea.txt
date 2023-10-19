@@ -80,6 +80,9 @@ idea_categories = {
 	government_flavor = {
 		slot = economy_type
 		slot = governement_type
+		slot = religious_policy
+		slot = press_policy
+		slot = race_policy
 		ledger = civilian
 		
 		cost = 150
