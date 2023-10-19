@@ -1,0 +1,80 @@
+ideas = {
+
+	governement_type = { 
+	
+		law = yes
+		
+		#republic
+		republic_type = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		#confederation
+		confederation_type = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		#Monarchy
+		monarchist_type = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}		
+		#junta
+		junta_type = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}		
+		#dictatorship
+		dictatorship_type = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}	
+		#Anarchy
+		anarchist_type = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}	
+		#Corpo Control
+		corporatocratic_type = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+	}
+}

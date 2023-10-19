@@ -1,0 +1,80 @@
+ideas = {
+
+	economy_type = { 
+	
+		law = yes
+		
+		#State Ownership
+		full_control = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		#Free market
+		free_market = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		#State Capitalism
+		state_capitalism = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}		
+		#Feudal Control
+		feudalist_economic = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}		
+		#corporatism
+		corporatism_economic = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}	
+		#Anarchy
+		anarchist_economic = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}	
+		#Corpo Control
+		corporatocratic_economic = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+	}
+}
