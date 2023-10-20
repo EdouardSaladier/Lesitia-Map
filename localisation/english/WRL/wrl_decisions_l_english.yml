@@ -4,3 +4,28 @@ wrl_unify_north:0 "[WrlGetNorthUnifier]"
 wrl_unify_south:0 "[WrlGetSouthUnifier]"
 wrl_unify_center:0 "[WrlGetCenterUnifier]"
  
+wrl_controls_d_lavido_tt:0 "Controls All Core States Of  [LAV.GetFlag] §1[LAV.GetName]§!"
+wrl_controls_r_lavido_tt:0 "Controls All Core States Of  [UHL.GetFlag] §t[UHL.GetName]§!"
+wrl_controls_r_seda_tt:0 "Controls All Core States Of  [SCM.GetFlag] §9[SCM.GetName]§!"
+wrl_controls_c_seda_tt:0 "Controls All Core States Of  [SED.GetFlag] §8[SED.GetName]§!"
+wrl_controls_voskra_tt:0 "Controls All Core States Of  [VOS.GetFlag] §R[VOS.GetName]§!"
+wrl_controls_bandits_tt:0 "Controls All Core States Of  [TBZ.GetFlag] §g[TBZ.GetName]§!"
+
+wrl_controls_csr_tt:0 "Controls All Core States Of  [CSR.GetFlag] §G[CSR.GetName]§!"
+wrl_controls_mav_tt:0 "Controls All Core States Of  [MAV.GetFlag] §H[MAV.GetName]§!"
+wrl_controls_kak_tt:0 "Controls All Core States Of  [KAK.GetFlag] §2[KAK.GetName]§!"
+
+wrl_controls_acs_tt:0 "Controls All Core States Of  [ACS.GetFlag] §2[ACS.GetName]§!"
+wrl_controls_eth_tt:0 "Controls All Core States Of  [ETH.GetFlag] §O[ETH.GetName]§!"
+wrl_controls_rft_tt:0 "Controls All Core States Of  [RFT.GetFlag] §4[RFT.GetName]§!"
+wrl_controls_oav_tt:0 "Controls All Core States Of  [OAV.GetFlag] §8[OAV.GetName]§!"
+
+wrl_controls_ter_tt:0 "Controls All Core States Of  [TER.GetFlag] §g[TER.GetName]§!"
+wrl_controls_tpg_tt:0 "Controls All Core States Of  [TPG.GetFlag] §6[TPG.GetName]§!"
+wrl_controls_zha_tt:0 "Controls All Core States Of  [ZHA.GetFlag] §g[ZHA.GetName]§!"
+wrl_controls_tva_tt:0 "Controls All Core States Of  [TVA.GetFlag] §z[TVA.GetName]§!"
+
+
+
+
+

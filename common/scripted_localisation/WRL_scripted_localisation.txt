@@ -90,23 +90,74 @@ defined_text = {
 	name = WrlGetNorthUnifier
 	text = {
 		trigger = {
+			tag = CSR
 		}
-		localization_key = sed_south_west_decision_name
+		localization_key = csr_north_decision_name
+	}
+	text = {
+		trigger = {
+			tag = MAV
+		}
+		localization_key = mav_north_decision_name
+	}
+	text = {
+		trigger = {
+			tag = KAK 
+		}
+		localization_key = kak_north_decision_name
 	}
 }
 defined_text = {
 	name = WrlGetSouthUnifier
 	text = {
 		trigger = {
+			tag = RFT
 		}
-		localization_key = sed_south_west_decision_name
+		localization_key = rft_south_decision_name
 	}
+	text = {
+		trigger = {
+			tag = ACS
+		}
+		localization_key = acs_south_decision_name
+	}
+	text = {
+		trigger = {
+			tag = ETH
+		}
+		localization_key = eth_south_decision_name
+	}
+	text = {
+		trigger = {
+			tag = OAV
+		}
+		localization_key = oav_south_decision_name
+	} 
 }
 defined_text = {
 	name = WrlGetCenterUnifier
 	text = {
 		trigger = {
+			tag = 	TER
 		}
-		localization_key = sed_south_west_decision_name
+		localization_key = ter_center_decision_name
+	}
+	text = {
+		trigger = {
+			tag = TVA
+		}
+		localization_key = tva_center_decision_name
+	}
+	text = {
+		trigger = {
+			tag = TPG
+		}
+		localization_key = tpg_center_decision_name
+	}
+	text = {
+		trigger = {
+			tag = ZHA
+		}
+		localization_key = zha_center_decision_name
 	}
 } 

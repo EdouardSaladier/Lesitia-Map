@@ -601,6 +601,7 @@ WRL_unification = {
 		    is_subject = no
 			tag = OAV
 		}
+		fire_only_once = yes
 		complete_effect = {
 			194 = { set_demilitarized_zone = no }
 			196 = { set_demilitarized_zone = no }
@@ -661,7 +662,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -711,7 +712,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -761,7 +762,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -811,7 +812,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -861,7 +862,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -911,7 +912,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -961,7 +962,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1011,7 +1012,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1061,7 +1062,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1111,7 +1112,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1161,7 +1162,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1211,7 +1212,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1261,7 +1262,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1311,7 +1312,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1361,7 +1362,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1411,7 +1412,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1461,7 +1462,7 @@ WRL_unification = {
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 150
+		days_remove = 100
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1510,7 +1511,7 @@ WRL_unification = {
 		
 	# 	cost = 30
 	# 	fire_only_once = yes
-	# 	days_remove = 150
+	# 	days_remove = 100
 		
 	# 	modifier = {
 	# 		political_power_gain = -0.1
@@ -1715,29 +1716,53 @@ WRL_unification = {
 			}
 		}
 		available = {
-			wrl_controls_south_west= yes
+			custom_trigger_tooltip = {  
+				tooltip =  wrl_controls_d_lavido_tt
+				wrl_controls_d_lavido= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_r_lavido_tt
+				wrl_controls_r_lavido= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_r_seda_tt
+				wrl_controls_r_seda= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_c_seda_tt
+				wrl_controls_c_seda= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_voskra_tt
+				wrl_controls_voskra= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_bandits_tt
+				wrl_controls_bandits= yes
+			}
 		}
 
 		highlight_states = {
 			highlight_state_targets = {
+				#Democratic Lavido
 				state = 177
-
-				state = 179
-				state = 178
+				#Revolutionary Lavido
 				state = 176
-		
-				state = 200
-				state = 175
-		
-				state = 173
-				state = 174
-				state = 172
-		
-				state = 171
-		
+				state = 178
+				state = 179
+				#Voskra
+				state = 168
 				state = 169
 				state = 170
-				state = 168
+				#Seda commune
+				state = 171
+				#Seda Proper
+				state = 172
+				state = 173
+				state = 174
+				#Tiveask Bandit zone
+				state = 175
+				state = 200
 			}
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
@@ -1747,7 +1772,7 @@ WRL_unification = {
 		 
 		complete_effect = {
 			add_ideas = wrl_overextension_1	            
-			IF = {
+			if = {
 				limit = {tag = SED}
 				set_cosmetic_tag = SED_south_west
 			}      
@@ -1785,17 +1810,62 @@ WRL_unification = {
 			OR = {
 				tag = CSR # Central Symbiotic Republic
 				tag = MAV # Mavildea
-				tag = KAK # Karikea
+				tag = KAK # Karikea 
 			}
 		}
 		available = {
-			wrl_controls_north = yes
+			custom_trigger_tooltip = {  
+				tooltip =  wrl_controls_csr_tt
+				wrl_controls_csr= yes
+			}
+			custom_trigger_tooltip = { 
+				tooltip =  wrl_controls_mav_tt
+				wrl_controls_mav= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_kak_tt
+				wrl_controls_kak= yes
+			}
 		}
-		
+		highlight_states = {
+			highlight_state_targets = {
+				#Central Symbiotic Republic
+				state = 163
+				state = 164
+				state = 165
+				state = 166
+				state = 167		
+				state = 205
+				#Kakrikea Hive
+				state = 155 
+				state = 160   
+				state = 161
+				state = 162
+				#Mavildea Hive
+				state = 156
+				state = 157
+				state = 158
+				state = 159
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
 		fire_only_once = yes
 		
 		complete_effect = {
 			add_ideas = wrl_overextension_1
+			if = {
+				limit = {tag = CSR}
+				set_cosmetic_tag = CSR_north
+			}      
+			else_if = {
+				limit = {tag = MAV}
+				set_cosmetic_tag = MAV_north
+			}
+			else_if = {
+				limit = {tag = KAK}
+				set_cosmetic_tag = KAK_north
+			}
 		}
 		
 	}
@@ -1812,19 +1882,74 @@ WRL_unification = {
 				tag = ACS # Army Command South
 				tag = ETH # Resse
 				tag = OAV # Laksa
-				tag = RIS # Rizz island
-			}
+				#tag = RIS # Rizz island
+			} 
 
 		}
 		available = {
-			wrl_controls_south = yes
-
+			custom_trigger_tooltip = {  
+				tooltip =  wrl_controls_acs_tt
+				wrl_controls_acs= yes
+			}
+			custom_trigger_tooltip = { 
+				tooltip =  wrl_controls_eth_tt
+				wrl_controls_eth = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_rft_tt
+				wrl_controls_rft = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_oav_tt 
+				wrl_controls_oav = yes
+			}
 		}
-		
+		highlight_states = {
+			highlight_state_targets = {
+				#Army Command South
+				state = 180
+				state = 182
+				state = 183
+				state = 184
+				state = 185		
+				state = 186
+				#Resse Republic
+				state = 187 
+				state = 188   
+				#Republican Front
+				state = 189
+				state = 190
+				state = 191
+				#West Avenskan Republic
+				state = 192
+				state = 193
+				state = 194
+				state = 195	
+				state = 196
+			} 
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2 
+		}
 		fire_only_once = yes
 		
 		complete_effect = {
 			add_ideas = wrl_overextension_1
+			if = {
+				limit = {tag = 	RFT}
+				set_cosmetic_tag = RFT_south
+			}      
+			else_if = {
+				limit = {tag = ACS}
+				set_cosmetic_tag = ACS_south
+			}
+			else_if = {
+				limit = {tag = ETH}
+				set_cosmetic_tag = ETH_south
+			}
+			else_if = {
+				limit = {tag = OAV}
+				set_cosmetic_tag = OAV_south
+			}
 		}
 		
 	}
@@ -1843,15 +1968,61 @@ WRL_unification = {
 				tag = ZHA # Zhefillis   
 			}
 
-		}
+		} 
 		available = {
-			wrl_controls_center = yes
+			custom_trigger_tooltip = {  
+				tooltip =  wrl_controls_ter_tt
+				wrl_controls_ter= yes
+			}
+			custom_trigger_tooltip = { 
+				tooltip =  wrl_controls_tpg_tt
+				wrl_controls_tpg = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_zha_tt
+				wrl_controls_zha = yes
+			}
+			custom_trigger_tooltip = { 
+				tooltip =  wrl_controls_tva_tt 
+				wrl_controls_tva = yes
+			}
 		}
-		
+		highlight_states = {
+			highlight_state_targets = {
+				#Termithia 
+				state = 198
+				#Tiveask provisional Government
+				state = 201 
+				#Zhefillis
+				state = 7
+				#Tiveask Free Army
+				state = 202
+				state = 203
+				state = 204
+			} 
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2 
+		}
 		fire_only_once = yes
 		
 		complete_effect = {
 			add_ideas = wrl_overextension_1
+			if = {
+				limit = {tag = 	TER}
+				set_cosmetic_tag = TER_center
+			}      
+			else_if = {
+				limit = {tag = TVA}
+				set_cosmetic_tag = TVA_center
+			}
+			else_if = {
+				limit = {tag = TPG}
+				set_cosmetic_tag = TPG_center
+			}
+			else_if = {
+				limit = {tag = ZHA}
+				set_cosmetic_tag = ZHA_center
+			}
 		}
 		
 	}

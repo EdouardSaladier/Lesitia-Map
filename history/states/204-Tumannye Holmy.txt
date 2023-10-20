@@ -5,6 +5,7 @@ state={
 	history={
 		buildings = {
 			nuclear_reactor = 1
+			
 		}
 		owner = SYM
 		victory_points = {

@@ -4,6 +4,12 @@ state={
 	name="STATE_201"
 	
 	history={
+		add_extra_state_shared_building_slots = 2
+		buildings = {
+			industrial_complex = 1
+			arms_factory = 1
+			infrastructure = 1
+		}
 		owner = SYM
 		victory_points = {
 			562 10

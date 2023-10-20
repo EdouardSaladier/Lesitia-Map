@@ -16,3 +16,36 @@ VOS_south_west_def:0 "The Voskran Southwestern Territories"
 
 TBZ_south_west:0 "Southwestern Bandit Zone"
 TBZ_south_west_def:0 "The Southwestern Bandit Zone"
+
+CSR_north:0 "Northern Symbiotic Republic"
+CSR_north_def:0 "The Northern Symbiotic Republic"
+
+MAV_north:0 "Northern Mavildean Hives"
+MAV_north_def:0 "The Northern Mavildean Hives"
+
+KAK_north:0 "Kakrikean Northern Hive"
+KAK_north_def:0 "The Kakrikean Northern Hive"
+
+RFT_south:0 "Southern Republic"
+RFT_south_def:0 "The Southern Republic"
+
+ACS_south:0 "Army Command South"
+ACS_south_def:0 "The Army Command South"
+
+ETH_south:0 "Greater Resse Republic"
+ETH_south_def:0 "The Greater Resse Republic"
+
+OAV_south:0 "Avenskan Republic"
+OAV_south_def:0 "The Avenskan Republic"
+
+TER_center:0 "Termite Tiveask Region"
+TER_center_def:0 "The Termite Tiveask Region"
+
+TVA_center:0 "Central Free Army"
+TVA_center_def:0 "The Central Free Army"
+
+TPG_center:0 "Central Provisional Government"
+TPG_center_def:0 "The Central Provisional Government"
+
+ZHA_center:0 "Surrealistica Central Region"
+ZHA_center_def:0 "The Surrealistica Central Region"

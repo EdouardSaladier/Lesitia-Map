@@ -6,9 +6,18 @@ uhl_south_west_decision_name:0 "§LForm The '§tUnited Hives of the South West§
 vos_south_west_decision_name:0 "§LForm The '§gVoskran Southwestern Territories§!'§!"
 tbz_south_west_decision_name:0 "§LForm The '§zSouthwestern Bandit Zone§!'§!"
 
+csr_north_decision_name:0 "§LForm The '§GNorthern Symbiotic Republic§!'§!"
+mav_north_decision_name:0 "§LForm The '§HNorthern Mavildean Hives'§!"
+kak_north_decision_name:0 "§LForm The '§2Kakrikean Northern Hive'§!"
 
+rft_south_decision_name:0 "§LForm The '§4Southern Republic§!'§!"
+acs_south_decision_name:0 "§LForm The '§2Army Command South§!'§!"
+eth_south_decision_name:0 "§LForm The '§OGreater Resse Republic§!'§!"
+oav_south_decision_name:0 "§LForm The '§8Avenskan Republic§!'§!"
 
-
-
+ter_center_decision_name:0 "§LForm The '§gTermite Tiveask Region§!'§!"
+tva_center_decision_name:0 "§LForm The '§zCentral Free Army§!'§!"
+tpg_center_decision_name:0 "§LForm The '§6Central Provisional Government§!'§!"
+zha_center_decision_name:0 "§LForm The '§gSurrealistica Central Region§!'§!"
 
 

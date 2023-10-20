@@ -149,25 +149,85 @@ wrl_controls_south_west = {
 		owns_state = 168
 	}
 }
+wrl_controls_d_lavido = {
+	owns_state = 177
+}
+wrl_controls_r_lavido = {
+	AND = {
+		owns_state = 176
+		owns_state = 178
+		owns_state = 179
+	}
+}
+wrl_controls_r_seda = {
+	owns_state = 171
+}
+wrl_controls_c_seda = {
+	AND = {
+		owns_state = 172
+		owns_state = 173
+		owns_state = 174
+	}
+}
+wrl_controls_voskra = {
+	AND = {
+		owns_state = 168
+		owns_state = 169
+		owns_state = 170
+	}
+}
+wrl_controls_bandits = {
+	AND = {
+		owns_state = 175
+		owns_state = 200
+	}
+}
+
 wrl_controls_north = {
 	AND = {
+		owns_state = 165
+		owns_state = 166
+		owns_state = 205
+		owns_state = 163
+		owns_state = 167
+
 		owns_state = 156
 		owns_state = 157
 		owns_state = 158
 		owns_state = 159
-		owns_state = 165
-		owns_state = 166
 
-		owns_state = 205
-		owns_state = 163
-		owns_state = 167
 		owns_state = 161
-
 		owns_state = 160
 		owns_state = 162
 		owns_state = 155
 	}
 }
+wrl_controls_csr = {
+	AND = {
+		owns_state = 165
+		owns_state = 166
+		owns_state = 205
+		owns_state = 163
+		owns_state = 167
+	}
+}
+wrl_controls_mav = {
+	AND = {
+		owns_state = 156
+		owns_state = 157
+		owns_state = 158
+		owns_state = 159
+	}
+}
+wrl_controls_kak = {
+	AND = {
+		owns_state = 161
+		owns_state = 160
+		owns_state = 162
+		owns_state = 155
+	}
+}
+
 wrl_controls_south = {
 	AND = {
 		owns_state = 180
@@ -183,8 +243,47 @@ wrl_controls_south = {
 		owns_state = 189
 		owns_state = 190
 		owns_state = 191
+
+		owns_state = 192
+		owns_state = 193
+		owns_state = 194
+		owns_state = 195	
+		owns_state = 196
 	}
 }
+wrl_controls_acs = {
+	AND = {
+		owns_state = 180
+		owns_state = 182
+		owns_state = 184
+		owns_state = 183
+		owns_state = 185
+		owns_state = 186
+	}
+}
+wrl_controls_eth = {
+	AND = {
+		owns_state = 187
+		owns_state = 188
+	}
+}
+wrl_controls_rft = {
+	AND = {
+		owns_state = 189
+		owns_state = 190
+		owns_state = 191
+	}
+}
+wrl_controls_oav = {
+	AND = {
+		owns_state = 192
+		owns_state = 193
+		owns_state = 194
+		owns_state = 195	
+		owns_state = 196
+	}
+}
+
 wrl_controls_center = {
 	AND = {
 		owns_state = 198
@@ -197,4 +296,18 @@ wrl_controls_center = {
 		owns_state = 203
 		owns_state = 202
 	}
+}
+wrl_controls_ter = {
+	owns_state = 198
+}
+wrl_controls_tpg = {
+	owns_state = 201
+}
+wrl_controls_zha = {
+	owns_state = 7
+}
+wrl_controls_tva = {
+	owns_state = 204
+	owns_state = 203
+	owns_state = 202
 }
