@@ -25,7 +25,8 @@ wrl_controls_tpg_tt:0 "Controls All Core States Of  [TPG.GetFlag] §6[TPG.GetNam
 wrl_controls_zha_tt:0 "Controls All Core States Of  [ZHA.GetFlag] §g[ZHA.GetName]§!"
 wrl_controls_tva_tt:0 "Controls All Core States Of  [TVA.GetFlag] §z[TVA.GetName]§!"
 
-
+wrl_unify_east:0 "Unify The East"
+wrl_unify_west:0 "Unify The West"
 
 
 

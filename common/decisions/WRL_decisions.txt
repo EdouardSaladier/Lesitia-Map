@@ -1538,6 +1538,623 @@ WRL_unification = {
 	#############################################
 	#############################################
 
+	wrl_unify_south_west = {
+		icon = GFX_decision_generic_form_nation
+		
+		ai_will_do = {
+			factor = 1
+		}     
+		
+		visible = { 
+			OR = {
+				tag = SCM # Seda commune
+				tag = SED # Seda Proper
+				tag = LAV # Democratic Lavido
+				tag = UHL # Revolutionary Lavido
+				tag = VOS # Voskra
+				tag = TBZ # Tiveask Bandit zone
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {  
+				tooltip =  wrl_controls_d_lavido_tt
+				wrl_controls_d_lavido= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_r_lavido_tt
+				wrl_controls_r_lavido= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_r_seda_tt
+				wrl_controls_r_seda= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_c_seda_tt
+				wrl_controls_c_seda= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_voskra_tt
+				wrl_controls_voskra= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_bandits_tt
+				wrl_controls_bandits= yes
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				#Democratic Lavido
+				state = 177
+				#Revolutionary Lavido
+				state = 176
+				state = 178
+				state = 179
+				#Voskra
+				state = 168
+				state = 169
+				state = 170
+				#Seda commune
+				state = 171
+				#Seda Proper
+				state = 172
+				state = 173
+				state = 174
+				#Tiveask Bandit zone
+				state = 175
+				state = 200
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+
+		fire_only_once = yes
+		 
+		complete_effect = {
+			add_ideas = wrl_overextension_1	      
+			set_country_flag = wrl_united_south_west      
+			if = {
+				limit = {tag = SED}
+				set_cosmetic_tag = SED_south_west
+			}      
+			else_if = {
+				limit = {tag = SCM}
+				set_cosmetic_tag = SCM_south_west
+			}
+			else_if = {
+				limit = {tag = LAV}
+				set_cosmetic_tag = LAV_south_west
+			}
+			else_if = {
+				limit = {tag = UHL} 
+				set_cosmetic_tag = UHL_south_west
+			}
+			else_if = {
+				limit = {tag = VOS}
+				set_cosmetic_tag = VOS_south_west
+			}
+			else_if = {
+				limit = {tag = TBZ}
+				set_cosmetic_tag = TBZ_south_west
+			}
+		}
+		
+	}
+	wrl_unify_north = {
+		icon = GFX_decision_generic_form_nation
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			OR = {
+				tag = CSR # Central Symbiotic Republic
+				tag = MAV # Mavildea
+				tag = KAK # Karikea 
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {  
+				tooltip =  wrl_controls_csr_tt
+				wrl_controls_csr= yes
+			}
+			custom_trigger_tooltip = { 
+				tooltip =  wrl_controls_mav_tt
+				wrl_controls_mav= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_kak_tt
+				wrl_controls_kak= yes
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				#Central Symbiotic Republic
+				state = 163
+				state = 164
+				state = 165
+				state = 166
+				state = 167		
+				state = 205
+				#Kakrikea Hive
+				state = 155 
+				state = 160   
+				state = 161
+				state = 162
+				#Mavildea Hive
+				state = 156
+				state = 157
+				state = 158
+				state = 159
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			add_ideas = wrl_overextension_1
+			set_country_flag = wrl_united_north
+			if = {
+				limit = {tag = CSR}
+				set_cosmetic_tag = CSR_north
+			}      
+			else_if = {
+				limit = {tag = MAV}
+				set_cosmetic_tag = MAV_north
+			}
+			else_if = {
+				limit = {tag = KAK}
+				set_cosmetic_tag = KAK_north
+			}
+		}
+		
+	}
+	wrl_unify_south = {
+		icon = GFX_decision_generic_form_nation
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			OR= {
+				tag = RFT # Republican Front
+				tag = ACS # Army Command South
+				tag = ETH # Resse
+				tag = OAV # Laksa
+				#tag = RIS # Rizz island
+			} 
+
+		}
+		available = {
+			custom_trigger_tooltip = {  
+				tooltip =  wrl_controls_acs_tt
+				wrl_controls_acs= yes
+			}
+			custom_trigger_tooltip = { 
+				tooltip =  wrl_controls_eth_tt
+				wrl_controls_eth = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_rft_tt
+				wrl_controls_rft = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_oav_tt 
+				wrl_controls_oav = yes
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				#Army Command South
+				state = 180
+				state = 182
+				state = 183
+				state = 184
+				state = 185		
+				state = 186
+				#Resse Republic
+				state = 187 
+				state = 188   
+				#Republican Front
+				state = 189
+				state = 190
+				state = 191
+				#West Avenskan Republic
+				state = 192
+				state = 193
+				state = 194
+				state = 195	
+				state = 196
+			} 
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2 
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			add_ideas = wrl_overextension_1
+			set_country_flag = wrl_united_south
+			if = {
+				limit = {tag = 	RFT}
+				set_cosmetic_tag = RFT_south
+			}      
+			else_if = {
+				limit = {tag = ACS}
+				set_cosmetic_tag = ACS_south
+			}
+			else_if = {
+				limit = {tag = ETH}
+				set_cosmetic_tag = ETH_south
+			}
+			else_if = {
+				limit = {tag = OAV}
+				set_cosmetic_tag = OAV_south
+			}
+		}
+		
+	}
+	wrl_unify_center = {
+		icon = GFX_decision_generic_form_nation
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			OR = {
+				tag = TER # Termites
+				tag = TVA # Tiveask Free Army
+				tag = TPG # Tiveask provisional Government
+				tag = ZHA # Zhefillis   
+			}
+
+		} 
+		available = {
+			custom_trigger_tooltip = {  
+				tooltip =  wrl_controls_ter_tt
+				wrl_controls_ter= yes
+			}
+			custom_trigger_tooltip = { 
+				tooltip =  wrl_controls_tpg_tt
+				wrl_controls_tpg = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_zha_tt
+				wrl_controls_zha = yes
+			}
+			custom_trigger_tooltip = { 
+				tooltip =  wrl_controls_tva_tt 
+				wrl_controls_tva = yes
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				#Termithia 
+				state = 198
+				#Tiveask provisional Government
+				state = 201 
+				#Zhefillis
+				state = 7
+				#Tiveask Free Army
+				state = 202
+				state = 203
+				state = 204
+			} 
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2 
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			add_ideas = wrl_overextension_1
+			set_country_flag = wrl_united_center
+			if = {
+				limit = {tag = 	TER}
+				set_cosmetic_tag = TER_center
+			}      
+			else_if = {
+				limit = {tag = TVA}
+				set_cosmetic_tag = TVA_center
+			}
+			else_if = {
+				limit = {tag = TPG}
+				set_cosmetic_tag = TPG_center
+			}
+			else_if = {
+				limit = {tag = ZHA}
+				set_cosmetic_tag = ZHA_center
+			}
+		}
+		
+	}
+
+	wrl_unify_west = {
+		icon = GFX_decision_generic_form_nation
+		
+		ai_will_do = {
+			factor = 1
+		}     
+		
+		visible = { 
+			OR = {
+				tag = SCM # Seda commune
+				tag = SED # Seda Proper
+				tag = LAV # Democratic Lavido
+				tag = UHL # Revolutionary Lavido
+				tag = VOS # Voskra
+				tag = TBZ # Tiveask Bandit zone
+				tag = CSR # Central Symbiotic Republic
+				tag = MAV # Mavildea
+				tag = KAK # Karikea 
+			}
+			OR = {
+				has_country_flag = wrl_united_south_west
+				has_country_flag = wrl_united_north
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {  
+				tooltip =  wrl_controls_d_lavido_tt
+				wrl_controls_d_lavido= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_r_lavido_tt
+				wrl_controls_r_lavido= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_r_seda_tt
+				wrl_controls_r_seda= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_c_seda_tt
+				wrl_controls_c_seda= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_voskra_tt
+				wrl_controls_voskra= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_bandits_tt
+				wrl_controls_bandits= yes
+			}
+			custom_trigger_tooltip = {  
+				tooltip =  wrl_controls_csr_tt
+				wrl_controls_csr= yes
+			}
+			custom_trigger_tooltip = { 
+				tooltip =  wrl_controls_mav_tt
+				wrl_controls_mav= yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_kak_tt
+				wrl_controls_kak= yes
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				#Democratic Lavido
+				state = 177
+				#Revolutionary Lavido
+				state = 176
+				state = 178
+				state = 179
+				#Voskra
+				state = 168
+				state = 169
+				state = 170
+				#Seda commune
+				state = 171
+				#Seda Proper
+				state = 172
+				state = 173
+				state = 174
+				#Tiveask Bandit zone
+				state = 175
+				state = 200
+				#Central Symbiotic Republic
+				state = 163
+				state = 164
+				state = 165
+				state = 166
+				state = 167		
+				state = 205
+				#Kakrikea Hive
+				state = 155 
+				state = 160   
+				state = 161
+				state = 162
+				#Mavildea Hive
+				state = 156
+				state = 157
+				state = 158
+				state = 159
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+
+		fire_only_once = yes
+		 
+		complete_effect = {
+			add_ideas = wrl_overextension_1	      
+			set_country_flag = wrl_united_west  
+			if = {
+				limit = {tag = SED}
+				set_cosmetic_tag = SED_west
+			}      
+			else_if = {
+				limit = {tag = SCM}
+				set_cosmetic_tag = SCM_west
+			}
+			else_if = {
+				limit = {tag = LAV}
+				set_cosmetic_tag = LAV_west
+			}
+			else_if = {
+				limit = {tag = UHL} 
+				set_cosmetic_tag = UHL_west
+			}
+			else_if = {
+				limit = {tag = VOS}
+				set_cosmetic_tag = VOS_west
+			}
+			else_if = {
+				limit = {tag = TBZ}
+				set_cosmetic_tag = TBZ_west
+			}
+			else_if = {
+				limit = {tag = CSR}
+				set_cosmetic_tag = CSR_west
+			}      
+			else_if = {
+				limit = {tag = MAV}
+				set_cosmetic_tag = MAV_west
+			}
+			else_if = {
+				limit = {tag = KAK}
+				set_cosmetic_tag = KAK_west
+			}
+		}
+		
+	}
+	wrl_unify_east = {
+		icon = GFX_decision_generic_form_nation
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			OR= {
+				tag = RFT # Republican Front
+				tag = ACS # Army Command South
+				tag = ETH # Resse
+				tag = OAV # Laksa
+				tag = TER # Termites
+				tag = TVA # Tiveask Free Army
+				tag = TPG # Tiveask provisional Government
+				tag = ZHA # Zhefillis  
+				#tag = RIS # Rizz island
+			} 
+			OR = {
+				has_country_flag = wrl_united_south
+				has_country_flag = wrl_united_center
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {  
+				tooltip =  wrl_controls_acs_tt
+				wrl_controls_acs= yes
+			}
+			custom_trigger_tooltip = { 
+				tooltip =  wrl_controls_eth_tt
+				wrl_controls_eth = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_rft_tt
+				wrl_controls_rft = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_oav_tt 
+				wrl_controls_oav = yes
+			}
+			custom_trigger_tooltip = {  
+				tooltip =  wrl_controls_ter_tt
+				wrl_controls_ter= yes
+			}
+			custom_trigger_tooltip = { 
+				tooltip =  wrl_controls_tpg_tt
+				wrl_controls_tpg = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip =  wrl_controls_zha_tt
+				wrl_controls_zha = yes
+			}
+			custom_trigger_tooltip = { 
+				tooltip =  wrl_controls_tva_tt 
+				wrl_controls_tva = yes
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				#Army Command South
+				state = 180
+				state = 182
+				state = 183
+				state = 184
+				state = 185		
+				state = 186
+				#Resse Republic
+				state = 187 
+				state = 188   
+				#Republican Front
+				state = 189
+				state = 190
+				state = 191
+				#West Avenskan Republic
+				state = 192
+				state = 193
+				state = 194
+				state = 195	
+				state = 196
+				#Termithia 
+				state = 198
+				#Tiveask provisional Government
+				state = 201 
+				#Zhefillis
+				state = 7
+				#Tiveask Free Army
+				state = 202
+				state = 203
+				state = 204
+			} 
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2 
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			add_ideas = wrl_overextension_1
+			set_country_flag = wrl_united_east
+			if = {
+				limit = {tag = 	RFT}
+				set_cosmetic_tag = RFT_east
+			}      
+			else_if = {
+				limit = {tag = ACS}
+				set_cosmetic_tag = ACS_east
+			}
+			else_if = {
+				limit = {tag = ETH}
+				set_cosmetic_tag = ETH_east
+			}
+			else_if = {
+				limit = {tag = OAV}
+				set_cosmetic_tag = OAV_east
+			}
+			else_if = {
+				limit = {tag = 	TER}
+				set_cosmetic_tag = TER_east
+			}      
+			else_if = {
+				limit = {tag = TVA}
+				set_cosmetic_tag = TVA_east
+			}
+			else_if = {
+				limit = {tag = TPG}
+				set_cosmetic_tag = TPG_east
+			}
+			else_if = {
+				limit = {tag = ZHA}
+				set_cosmetic_tag = ZHA_east
+			}
+		}
+		
+	}
 
 	warlord_unification ={
 		icon = GFX_decision_generic_form_nation    
@@ -1557,6 +2174,82 @@ WRL_unification = {
 		}
 		visible = {
 			NOT = { has_country_flag = united_federation }
+			OR = {
+				has_country_flag = wrl_united_west
+				has_country_flag = wrl_united_east
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				#Democratic Lavido
+				state = 177
+				#Revolutionary Lavido
+				state = 176
+				state = 178
+				state = 179
+				#Voskra
+				state = 168
+				state = 169
+				state = 170
+				#Seda commune
+				state = 171
+				#Seda Proper
+				state = 172
+				state = 173
+				state = 174
+				#Tiveask Bandit zone
+				state = 175
+				state = 200
+				#Central Symbiotic Republic
+				state = 163
+				state = 164
+				state = 165
+				state = 166
+				state = 167		
+				state = 205
+				#Kakrikea Hive
+				state = 155 
+				state = 160   
+				state = 161
+				state = 162
+				#Mavildea Hive
+				state = 156
+				state = 157
+				state = 158
+				state = 159
+				#Army Command South
+				state = 180
+				state = 182
+				state = 183
+				state = 184
+				state = 185		
+				state = 186
+				#Resse Republic
+				state = 187 
+				state = 188   
+				#Republican Front
+				state = 189
+				state = 190
+				state = 191
+				#West Avenskan Republic
+				state = 192
+				state = 193
+				state = 194
+				state = 195	
+				state = 196
+				#Termithia 
+				state = 198
+				#Tiveask provisional Government
+				state = 201 
+				#Zhefillis
+				state = 7
+				#Tiveask Free Army
+				state = 202
+				state = 203
+				state = 204
+			} 
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2 
 		}
 		complete_effect = {
 			custom_effect_tooltip = warlord_get_cores_on_ex_federal_territory_tooltip
@@ -1696,334 +2389,5 @@ WRL_unification = {
 			set_country_flag = united_federation
 
 		}
-	}
-
-	wrl_unify_south_west = {
-		icon = GFX_decision_generic_form_nation
-		
-		ai_will_do = {
-			factor = 1
-		}     
-		
-		visible = { 
-			OR = {
-				tag = SCM # Seda commune
-				tag = SED # Seda Proper
-				tag = LAV # Democratic Lavido
-				tag = UHL # Revolutionary Lavido
-				tag = VOS # Voskra
-				tag = TBZ # Tiveask Bandit zone
-			}
-		}
-		available = {
-			custom_trigger_tooltip = {  
-				tooltip =  wrl_controls_d_lavido_tt
-				wrl_controls_d_lavido= yes
-			}
-			custom_trigger_tooltip = {
-				tooltip =  wrl_controls_r_lavido_tt
-				wrl_controls_r_lavido= yes
-			}
-			custom_trigger_tooltip = {
-				tooltip =  wrl_controls_r_seda_tt
-				wrl_controls_r_seda= yes
-			}
-			custom_trigger_tooltip = {
-				tooltip =  wrl_controls_c_seda_tt
-				wrl_controls_c_seda= yes
-			}
-			custom_trigger_tooltip = {
-				tooltip =  wrl_controls_voskra_tt
-				wrl_controls_voskra= yes
-			}
-			custom_trigger_tooltip = {
-				tooltip =  wrl_controls_bandits_tt
-				wrl_controls_bandits= yes
-			}
-		}
-
-		highlight_states = {
-			highlight_state_targets = {
-				#Democratic Lavido
-				state = 177
-				#Revolutionary Lavido
-				state = 176
-				state = 178
-				state = 179
-				#Voskra
-				state = 168
-				state = 169
-				state = 170
-				#Seda commune
-				state = 171
-				#Seda Proper
-				state = 172
-				state = 173
-				state = 174
-				#Tiveask Bandit zone
-				state = 175
-				state = 200
-			}
-			highlight_color_while_active = 3
-			highlight_color_before_active = 2
-		}
-
-		fire_only_once = yes
-		 
-		complete_effect = {
-			add_ideas = wrl_overextension_1	            
-			if = {
-				limit = {tag = SED}
-				set_cosmetic_tag = SED_south_west
-			}      
-			else_if = {
-				limit = {tag = SCM}
-				set_cosmetic_tag = SCM_south_west
-			}
-			else_if = {
-				limit = {tag = LAV}
-				set_cosmetic_tag = LAV_south_west
-			}
-			else_if = {
-				limit = {tag = UHL} 
-				set_cosmetic_tag = UHL_south_west
-			}
-			else_if = {
-				limit = {tag = VOS}
-				set_cosmetic_tag = VOS_south_west
-			}
-			else_if = {
-				limit = {tag = TBZ}
-				set_cosmetic_tag = TBZ_south_west
-			}
-		}
-		
-	}
-	wrl_unify_north = {
-		icon = GFX_decision_generic_form_nation
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		visible = {
-			OR = {
-				tag = CSR # Central Symbiotic Republic
-				tag = MAV # Mavildea
-				tag = KAK # Karikea 
-			}
-		}
-		available = {
-			custom_trigger_tooltip = {  
-				tooltip =  wrl_controls_csr_tt
-				wrl_controls_csr= yes
-			}
-			custom_trigger_tooltip = { 
-				tooltip =  wrl_controls_mav_tt
-				wrl_controls_mav= yes
-			}
-			custom_trigger_tooltip = {
-				tooltip =  wrl_controls_kak_tt
-				wrl_controls_kak= yes
-			}
-		}
-		highlight_states = {
-			highlight_state_targets = {
-				#Central Symbiotic Republic
-				state = 163
-				state = 164
-				state = 165
-				state = 166
-				state = 167		
-				state = 205
-				#Kakrikea Hive
-				state = 155 
-				state = 160   
-				state = 161
-				state = 162
-				#Mavildea Hive
-				state = 156
-				state = 157
-				state = 158
-				state = 159
-			}
-			highlight_color_while_active = 3
-			highlight_color_before_active = 2
-		}
-		fire_only_once = yes
-		
-		complete_effect = {
-			add_ideas = wrl_overextension_1
-			if = {
-				limit = {tag = CSR}
-				set_cosmetic_tag = CSR_north
-			}      
-			else_if = {
-				limit = {tag = MAV}
-				set_cosmetic_tag = MAV_north
-			}
-			else_if = {
-				limit = {tag = KAK}
-				set_cosmetic_tag = KAK_north
-			}
-		}
-		
-	}
-	wrl_unify_south = {
-		icon = GFX_decision_generic_form_nation
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		visible = {
-			OR= {
-				tag = RFT # Republican Front
-				tag = ACS # Army Command South
-				tag = ETH # Resse
-				tag = OAV # Laksa
-				#tag = RIS # Rizz island
-			} 
-
-		}
-		available = {
-			custom_trigger_tooltip = {  
-				tooltip =  wrl_controls_acs_tt
-				wrl_controls_acs= yes
-			}
-			custom_trigger_tooltip = { 
-				tooltip =  wrl_controls_eth_tt
-				wrl_controls_eth = yes
-			}
-			custom_trigger_tooltip = {
-				tooltip =  wrl_controls_rft_tt
-				wrl_controls_rft = yes
-			}
-			custom_trigger_tooltip = {
-				tooltip =  wrl_controls_oav_tt 
-				wrl_controls_oav = yes
-			}
-		}
-		highlight_states = {
-			highlight_state_targets = {
-				#Army Command South
-				state = 180
-				state = 182
-				state = 183
-				state = 184
-				state = 185		
-				state = 186
-				#Resse Republic
-				state = 187 
-				state = 188   
-				#Republican Front
-				state = 189
-				state = 190
-				state = 191
-				#West Avenskan Republic
-				state = 192
-				state = 193
-				state = 194
-				state = 195	
-				state = 196
-			} 
-			highlight_color_while_active = 3
-			highlight_color_before_active = 2 
-		}
-		fire_only_once = yes
-		
-		complete_effect = {
-			add_ideas = wrl_overextension_1
-			if = {
-				limit = {tag = 	RFT}
-				set_cosmetic_tag = RFT_south
-			}      
-			else_if = {
-				limit = {tag = ACS}
-				set_cosmetic_tag = ACS_south
-			}
-			else_if = {
-				limit = {tag = ETH}
-				set_cosmetic_tag = ETH_south
-			}
-			else_if = {
-				limit = {tag = OAV}
-				set_cosmetic_tag = OAV_south
-			}
-		}
-		
-	}
-	wrl_unify_center = {
-		icon = GFX_decision_generic_form_nation
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		visible = {
-			OR = {
-				tag = TER # Termites
-				tag = TVA # Tiveask Free Army
-				tag = TPG # Tiveask provisional Government
-				tag = ZHA # Zhefillis   
-			}
-
-		} 
-		available = {
-			custom_trigger_tooltip = {  
-				tooltip =  wrl_controls_ter_tt
-				wrl_controls_ter= yes
-			}
-			custom_trigger_tooltip = { 
-				tooltip =  wrl_controls_tpg_tt
-				wrl_controls_tpg = yes
-			}
-			custom_trigger_tooltip = {
-				tooltip =  wrl_controls_zha_tt
-				wrl_controls_zha = yes
-			}
-			custom_trigger_tooltip = { 
-				tooltip =  wrl_controls_tva_tt 
-				wrl_controls_tva = yes
-			}
-		}
-		highlight_states = {
-			highlight_state_targets = {
-				#Termithia 
-				state = 198
-				#Tiveask provisional Government
-				state = 201 
-				#Zhefillis
-				state = 7
-				#Tiveask Free Army
-				state = 202
-				state = 203
-				state = 204
-			} 
-			highlight_color_while_active = 3
-			highlight_color_before_active = 2 
-		}
-		fire_only_once = yes
-		
-		complete_effect = {
-			add_ideas = wrl_overextension_1
-			if = {
-				limit = {tag = 	TER}
-				set_cosmetic_tag = TER_center
-			}      
-			else_if = {
-				limit = {tag = TVA}
-				set_cosmetic_tag = TVA_center
-			}
-			else_if = {
-				limit = {tag = TPG}
-				set_cosmetic_tag = TPG_center
-			}
-			else_if = {
-				limit = {tag = ZHA}
-				set_cosmetic_tag = ZHA_center
-			}
-		}
-		
 	}
 }
