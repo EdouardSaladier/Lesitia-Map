@@ -192,11 +192,24 @@ country_event = {
 		retire_character = SYM_maniare_fettua
 		hidden_effect = {
 			country_event = { id = SYM.6 days = 10 } 
+			KAK = {
+				add_opinion_modifier = { target = MAV modifier = mav_kak_allied_government }
+				load_oob = "KAK/KAK_special_forces"
+				load_oob = "KAK/KAK_police_regiment"
+			}
+			MAV = {
+				load_oob = "MAV/MAV_infantry"
+				load_oob = "MAV/MAV_police_regiment"
+				add_opinion_modifier = { target = KAK modifier = mav_kak_allied_government }
+			}			
 		}
-		KAK = {
+		MAV = {
 			change_tag_from = SYM
 		}
-
+		KAK = {
+			create_faction = "Northern Coalition"
+			add_to_faction = MAV
+		}
 	}
 	option = { 
 		name = SYM.5.b
@@ -207,9 +220,23 @@ country_event = {
 		retire_character = SYM_maniare_fettua
 		hidden_effect = {
 			country_event = { id = SYM.6 days = 10 } 
+			KAK = {
+				add_opinion_modifier = { target = MAV modifier = mav_kak_allied_government }
+				load_oob = "KAK/KAK_special_forces"
+				load_oob = "KAK/KAK_police_regiment"
+			}
+			MAV = {
+				load_oob = "MAV/MAV_infantry"
+				load_oob = "MAV/MAV_police_regiment"
+				add_opinion_modifier = { target = KAK modifier = mav_kak_allied_government }
+			}		
 		}
-		MAV = {
+		KAK = {
 			change_tag_from = SYM
+		}
+		KAK = {
+			create_faction = "Northern Coalition"
+			add_to_faction = MAV
 		}
 	}
 	option = { 
@@ -221,6 +248,20 @@ country_event = {
 		retire_character = SYM_maniare_fettua
 		hidden_effect = {
 			country_event = { id = SYM.6 days = 10 } 
+			KAK = {
+				add_opinion_modifier = { target = MAV modifier = mav_kak_allied_government }
+				load_oob = "KAK/KAK_special_forces"
+				load_oob = "KAK/KAK_police_regiment"
+			}
+			MAV = {
+				load_oob = "MAV/MAV_infantry"
+				load_oob = "MAV/MAV_police_regiment"
+				add_opinion_modifier = { target = KAK modifier = mav_kak_allied_government }
+			}		
+		}
+		KAK = {
+			create_faction = "Northern Coalition"
+			add_to_faction = MAV
 		}
 		ai_chance = {
 			base = 100

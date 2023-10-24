@@ -1,6 +1,6 @@
-capital = 164
+capital = 160
 
-oob = "standard_templates"
+#oob = "standard_templates"
 
 # Starting tech
 
@@ -78,4 +78,14 @@ recruit_character = KAK_lua_general
 
 add_ideas = {
 	kakrikea_army
+	
+	low_economic_mobilisation
+	limited_exports
+	limited_conscription
+	
+	mixed_economy
+	junta_type
+	secularism
+	light_censorship
+	equal_species
 }

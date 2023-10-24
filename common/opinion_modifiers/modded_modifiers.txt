@@ -1,0 +1,7 @@
+opinion_modifiers = {
+	
+	mav_kak_allied_government = {
+		value = 170
+	}
+	
+}

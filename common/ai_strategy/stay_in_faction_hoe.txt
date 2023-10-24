@@ -1,0 +1,17 @@
+
+STAY_IN_FACTION_FFS = {
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = KAK
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = MAV
+		value = 200
+	}
+}
