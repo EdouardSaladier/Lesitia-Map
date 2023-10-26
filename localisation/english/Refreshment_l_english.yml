@@ -182,7 +182,7 @@ RIS_devellop_tourism_cultural:0 "Museum, Theatre, Light, Action!"
 
 RIS_the_research_departement:0 "The Research Department"
 RIS_moderate_the_budget:0 "Moderate The Budget"
-RIS_unlimited_budget:0  "WIP WORK YOU FUCKING PIECE OF POTATOES LOC"
+RIS_unlimited_budget:0  "White Labs And Blank Check"
 RIS_future_of_cloning:0  "The Future Of Cloning"
 RIS_exoarmor_study:0  "Exoarmor Studies"
 RIS_open_biochemical_laboratories:0  "Open Biochemical Factories"
@@ -199,6 +199,7 @@ RIS_ancap_ADJ:0 "Rescanian"
 RIS_sham_republic:0 "Rescannie Islands Republic"
 RIS_sham_republic_DEF:0 "the Rescannie Islands Republic"
 RIS_sham_republic_ADJ:0 "Rescannian"
+
 ###Flag
 RIS_merc_coup:0 "The Mercenaries Have Taken Control"
 RIS_dem_coup:0 "The Federation Loyalists Have Taken Control"
