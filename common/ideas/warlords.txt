@@ -740,38 +740,38 @@ ideas = {
 		
 		}
 		
-		sin_islands = {
-			picture = sin_islands
+		# sin_islands = {
+		# 	picture = sin_islands
 			
-			allowed = { 
-				tag = RIS
-            }
+		# 	allowed = { 
+		# 		tag = RIS
+        #     }
 
-            available = {
-			    has_government = corporatism
-            }
+        #     available = {
+		# 	    has_government = corporatism
+        #     }
 
-            cancel = {
-			    has_government = democracy
-            }			
+        #     cancel = {
+		# 	    has_government = democracy
+        #     }			
 			
-			allowed_civil_war = {
-				always = yes
-			}
+		# 	allowed_civil_war = {
+		# 		always = yes
+		# 	}
 
-			removal_cost = -1
+		# 	removal_cost = -1
 			
-			modifier = {
-			    political_power_gain = 0.15
-				production_factory_efficiency_gain_factor = 0.1
-				production_factory_max_efficiency_factor = 0.1
-				industrial_capacity_factory = 0.1
-				consumer_goods_factor = -0.1
-				industrial_factory_donations = 3
-				military_factory_donations = 1
-			}
+		# 	modifier = {
+		# 	    political_power_gain = 0.15
+		# 		production_factory_efficiency_gain_factor = 0.1
+		# 		production_factory_max_efficiency_factor = 0.1
+		# 		industrial_capacity_factory = 0.1
+		# 		consumer_goods_factor = -0.1
+		# 		industrial_factory_donations = 3
+		# 		military_factory_donations = 1
+		# 	}
 		
-		}
+		# }
 		
 		vermelio_helper = {
 			picture = vermelio_helper

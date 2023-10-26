@@ -10,7 +10,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = 0.2
+				consumer_goods_expected_value = 0.3
 				production_speed_industrial_complex_factor = 0.25
 				production_speed_arms_factory_factor = -0.5
 				production_speed_dockyard_factor = -0.3
@@ -27,7 +27,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_expected_value = 0.25
 				production_speed_industrial_complex_factor = 0.1
 				production_speed_arms_factory_factor = -0.25
 				production_speed_dockyard_factor = -0.1
@@ -56,7 +56,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = 0.10
+				consumer_goods_expected_value = 0.20
 				production_speed_industrial_complex_factor = -0.1
 				production_speed_arms_factory_factor = 0.1
 				production_speed_dockyard_factor = 0.1
@@ -85,7 +85,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.15
 				production_speed_industrial_complex_factor = -0.25
 				production_speed_arms_factory_factor = 0.2
 				production_speed_dockyard_factor = 0.2
@@ -114,6 +114,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				consumer_goods_expected_value = 0.05
 				production_speed_industrial_complex_factor = -0.5
 				production_speed_arms_factory_factor = 0.3
 				production_speed_dockyard_factor = 0.3
@@ -137,74 +138,74 @@ ideas = {
 		}
 	}
 	
-	civilian_consumption = {
-		law = yes
-		use_list_view = yes
+	# civilian_consumption = {
+	# 	law = yes
+	# 	use_list_view = yes
 
-		consumer_paradise = {
-			level = 4
-			cost = 100
-			removal_cost = -1
+	# 	consumer_paradise = {
+	# 		level = 4
+	# 		cost = 100
+	# 		removal_cost = -1
 
-			modifier = {
-				consumer_goods_factor = 0.2
-				stability_weekly = 0.001
-				war_support_weekly = 0.001
-			}
+	# 		modifier = {
+	# 			consumer_goods_expected_value = 0.2
+	# 			stability_weekly = 0.001
+	# 			war_support_weekly = 0.001
+	# 		}
 
-			cancel_if_invalid = no
-		}
+	# 		cancel_if_invalid = no
+	# 	}
 		
-		regular_consumption = {
-			level = 3
-			cost = 100
-			removal_cost = -1
+	# 	regular_consumption = {
+	# 		level = 3
+	# 		cost = 100
+	# 		removal_cost = -1
 
-			modifier = {
-				consumer_goods_factor = 0.15
-			}
+	# 		modifier = {
+	# 			consumer_goods_expected_value = 0.15
+	# 		}
 
-			default = yes
+	# 		default = yes
 
-			cancel_if_invalid = no
-		}
+	# 		cancel_if_invalid = no
+	# 	}
 		
-		consumer_austrerity = {
-			level = 2
-			cost = 100
-			removal_cost = -1
+	# 	consumer_austrerity = {
+	# 		level = 2
+	# 		cost = 100
+	# 		removal_cost = -1
 
-			modifier = {
-				consumer_goods_factor = 0.10
-				stability_weekly = -0.001
-				war_support_weekly = -0.001
-			}
+	# 		modifier = {
+	# 			consumer_goods_expected_value = 0.10
+	# 			stability_weekly = -0.001
+	# 			war_support_weekly = -0.001
+	# 		}
 			
-			available = {
-				has_war_support > 0.2
-			}
+	# 		available = {
+	# 			has_war_support > 0.2
+	# 		}
 
-			cancel_if_invalid = no
-		}
+	# 		cancel_if_invalid = no
+	# 	}
 		
-		consumer_rationing = {
-			level = 1
-			cost = 100
-			removal_cost = -1
+	# 	consumer_rationing = {
+	# 		level = 1
+	# 		cost = 100
+	# 		removal_cost = -1
 			
-			available = {
-				has_war_support > 0.4
-			}
+	# 		available = {
+	# 			has_war_support > 0.4
+	# 		}
 
-			modifier = {
-				consumer_goods_factor = 0.05
-				stability_weekly = -0.0025
-				war_support_weekly = -0.0025
-			}
+	# 		modifier = {
+	# 			consumer_goods_expected_value = 0.05
+	# 			stability_weekly = -0.0025
+	# 			war_support_weekly = -0.0025
+	# 		}
 
-			cancel_if_invalid = no
-		}
-	}
+	# 		cancel_if_invalid = no
+	# 	}
+	# }
 	
 	trade_laws = {
 		law = yes
@@ -348,58 +349,58 @@ ideas = {
 		}
 	}
 	
-	export_subsidies = {
-		law = yes
-		use_list_view = yes
+	# export_subsidies = {
+	# 	law = yes
+	# 	use_list_view = yes
 
-		no_subsidies = {
-			level = 4
-			cost = 20
-			removal_cost = -1
+	# 	no_subsidies = {
+	# 		level = 4
+	# 		cost = 20
+	# 		removal_cost = -1
 			
-			default = yes
+	# 		default = yes
 
-			cancel_if_invalid = no
-		}
+	# 		cancel_if_invalid = no
+	# 	}
 		
-		small_subsidies = {
-			level = 3
-			cost = 20
-			removal_cost = -1
+	# 	small_subsidies = {
+	# 		level = 3
+	# 		cost = 20
+	# 		removal_cost = -1
 
-			modifier = {
-				trade_opinion_factor = 0.10
-				political_power_gain = -0.1
-			}
+	# 		modifier = {
+	# 			trade_opinion_factor = 0.10
+	# 			political_power_gain = -0.1
+	# 		}
 
-			cancel_if_invalid = no
-		}
+	# 		cancel_if_invalid = no
+	# 	}
 		
-		medium_subsidies = {
-			level = 2
-			cost = 20
-			removal_cost = -1
+	# 	medium_subsidies = {
+	# 		level = 2
+	# 		cost = 20
+	# 		removal_cost = -1
 
-			modifier = {
-				trade_opinion_factor = 0.30
-				political_power_gain = -0.2
-			}
+	# 		modifier = {
+	# 			trade_opinion_factor = 0.30
+	# 			political_power_gain = -0.2
+	# 		}
 
-			cancel_if_invalid = no
-		}
+	# 		cancel_if_invalid = no
+	# 	}
 		
-		generous_subsidies = {
-			level = 1
-			cost = 20
-			removal_cost = -1
+	# 	generous_subsidies = {
+	# 		level = 1
+	# 		cost = 20
+	# 		removal_cost = -1
 
-			modifier = {
-				trade_opinion_factor = 0.50
-				political_power_gain = -0.3
-			}
+	# 		modifier = {
+	# 			trade_opinion_factor = 0.50
+	# 			political_power_gain = -0.3
+	# 		}
 
-			cancel_if_invalid = no
-		}
-	}
+	# 		cancel_if_invalid = no
+	# 	}
+	# }
 	
 }

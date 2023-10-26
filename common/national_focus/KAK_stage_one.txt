@@ -1,0 +1,115 @@
+focus_tree = {
+	id = KAK_Stage_One
+	country = {
+		factor = 0 
+		modifier = {
+			add = 10
+			tag = KAK
+		}
+	}
+	default = no
+	
+	###
+	
+	focus = {
+		id = KAK_Solidify_Territory
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 5
+		y = 0
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		} 
+	}
+	shared_focus = mav_kak_shared_start
+}
+
+
+shared_focus = {
+	id = mav_kak_shared_start
+	icon = GFX_focus_generic_self_management
+
+	x = 15
+	y = 0
+
+	cost = 7
+	available = {
+		
+	}
+	completion_reward = {
+		
+	}
+}
+joint_focus = {
+	id = mav_kak_assume_local_army_command
+	icon = GFX_goal_generic_army_doctrines
+	
+	prerequisite = { focus = mav_kak_shared_start }
+	
+	x = 0
+	y = 1
+	relative_position_id = mav_kak_shared_start
+	cost = 7
+
+	text_icon = NORDIC_focus_style
+
+	available = {
+		country_exists = KAK
+		country_exists = MAV
+	}
+
+	joint_trigger = {
+  		OR = {
+			tag = mav
+			tag = kak
+		}
+	}
+
+	completion_reward_joint_originator = {
+		add_manpower  = 20000
+	}
+
+	completion_reward_joint_member = {
+		add_manpower  = -20000
+	}
+}
+joint_focus = {
+	id = mav_kak_assume_economical_leadership
+	icon = GFX_goal_generic_army_doctrines
+	
+	prerequisite = { focus = mav_kak_shared_start }
+	
+	x = -2
+	y = 1
+	relative_position_id = mav_kak_shared_start
+	cost = 7
+
+	text_icon = NORDIC_focus_style
+
+	available = {
+		country_exists = KAK
+		country_exists = MAV
+		has_political_power  > 74
+	}
+
+	joint_trigger = {
+  		OR = {
+			tag = mav
+			tag = kak
+		}
+	}
+
+	completion_reward_joint_originator = {
+		add_political_power = -75
+	}
+
+	completion_reward_joint_member = {
+		add_political_power = 75
+		add_stability = 0.1
+
+	}
+}

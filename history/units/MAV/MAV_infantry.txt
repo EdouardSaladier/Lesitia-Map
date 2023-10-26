@@ -1,0 +1,37 @@
+division_template = {
+	name = "Mavildean Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		at_infantry = { x = 1 y = 0 }
+		at_infantry = { x = 1 y = 1 }
+		at_infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer_s_company = { x = 0 y = 0 }
+		field_artillery_support = {x = 0 y = 1}
+	}
+}
+units = {
+	division = {
+		location = 7530
+		division_template = "Mavildean Infantry Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1376
+		division_template = "Mavildean Infantry Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4733
+		division_template = "Mavildean Infantry Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+}
