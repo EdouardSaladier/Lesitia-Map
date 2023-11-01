@@ -1,0 +1,325 @@
+focus_tree = {
+	id = TBZ
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TBZ
+		}
+		}
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 2000}
+	
+	#Drug Trade Tree
+	focus = { #The Bandit Economy
+		id = TBZ_bandit_eco
+		icon = GFX
+		x = 0
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = TBZ_narcotics
+		icon = GFX
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = TBZ_bandit_eco
+		prerequisite = {
+		focus = TBZ_bandit_eco
+		focus = TBZ_bully_population
+		}
+		ai_will_do = {
+		factor = 10
+		}
+	}
+	focus = {#Drug Our Troops
+		id = TBZ_drug_troops
+		icon = GFX
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = TBZ_narcotics
+		prerequisite = {
+		focus = TBZ_narcotics
+		}
+		ai_will_do = {
+		factor = 10
+		}
+	}
+	focus = {#Sell Drugs Internationally
+		id = TBZ_sell_drugs
+		icon = GFX
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = TBZ_narcotics
+		prerequisite = {
+		focus = TBZ_narcotics
+		}
+		ai_will_do = {
+		factor = 10
+		}
+	}
+	focus = {#improve field medicine
+		id = TBZ_meds
+		icon = GFX
+		x = 0
+		y = 3
+		cost = 5
+		relative_position_id = TBZ_narcotics
+		prerequisite = {focus = TBZ_narcotics}
+		prerequisite = {focus = TBZ_kidnap_sci}
+		ai_will_do = {
+		factor = 10
+		}
+	}	
+	focus = { #practice kleptocracy
+		id = TBZ_kleptocracy
+		icon = GFX
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = TBZ_bandit_eco
+		prerequisite = {
+		focus = TBZ_bandit_eco
+		focus = TBZ_bully_population
+		}
+		ai_will_do = {
+		factor = 10
+		}
+	}
+	focus = { #kidnap scientists
+		id = TBZ_kidnap_sci
+		icon = GFX
+		x = 0
+		y = 2
+		cost = 5
+		relative_position_id = TBZ_kleptocracy
+		prerequisite = {
+		focus = TBZ_kleptocracy
+		}
+		ai_will_do = {
+		factor = 10
+		}
+	}
+	focus = { #Apartment Hives to Factories
+		id = TBZ_appartments
+		icon = GFX
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = TBZ_kleptocracy
+		prerequisite = {focus = TBZ_kleptocracy}
+		prerequisite = {focus = TBZ_reopen_factories}
+		ai_will_do = {
+		factor = 10
+		}
+	}
+	focus = { #reopen the factories
+		id = TBZ_reopen_factories
+		icon = GFX
+		x = 4
+		y = 1
+		cost = 5
+		relative_position_id = TBZ_bandit_eco
+		prerequisite = {
+		focus = TBZ_bully_population
+		focus = TBZ_bandit_eco
+		}
+		ai_will_do = {
+		factor = 10
+		}
+	}
+	focus = { #automobile factories
+		id = TBZ_automobiles
+		icon = GFX
+		x = 0
+		y = 2
+		cost = 5
+		relative_position_id = TBZ_reopen_factories
+		prerequisite = {
+		focus = TBZ_reopen_factories
+		}
+		ai_will_do = {
+		factor = 10
+		}
+	}	
+	#Power Tree
+	focus = { #Bully The Population
+		id = TBZ_bully_population
+		icon = GFX
+		x = 5
+		y = 0
+		relative_position_id = TBZ_bandit_eco
+		
+		cost = 5
+		 ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+		add_political_power = 50
+		add_stability = .05
+		}
+	}
+	focus = { #Eliminate Immediate Threats
+		id = TBZ_eliminate_threats
+		icon = GFX
+		x = 1
+		y = 1
+		relative_position_id = TBZ_bully_population
+		prerequisite = {focus = TBZ_bully_population }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+}
+	focus = { #Solidify Power
+		id = TBZ_solidify_power
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = TBZ_eliminate_threats
+		prerequisite = {focus = TBZ_eliminate_threats }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+}
+#Army Tree
+	focus = { #Raider Drills
+		id = TBZ_raider_drills
+		icon = GFX
+		x = 10
+		y = 0
+		relative_position_id = TBZ_bandit_eco
+		
+		cost = 5
+		 ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = { #Old Imperial Stockpiles
+		id = TBZ_imperial_stockpile
+		icon = GFX
+		x = -1
+		y = 1
+		relative_position_id = TBZ_raider_drills
+		prerequisite = {focus = TBZ_raider_drills}
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+}
+	focus = { #small arms innovation
+		id = TBZ_small_arms
+		icon = GFX
+		x = 0
+		y = 2
+		relative_position_id = TBZ_raider_drills
+		prerequisite = {focus = TBZ_raider_drills}
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+}
+	focus = { #Things that go boom
+		id = TBZ_arty
+		icon = GFX
+		x = -1
+		y = 1
+		relative_position_id = TBZ_small_arms
+		prerequisite = {focus = TBZ_small_arms}
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+}
+	focus = { #Hit and Run
+		id = TBZ_hit_and_run
+		icon = GFX
+		x = 1
+		y = 1
+		relative_position_id = TBZ_small_arms
+		prerequisite = {focus = TBZ_small_arms}
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+}
+	focus = { #Defend Our Foggy Skies
+		id = TBZ_AA
+		icon = GFX
+		x = 0
+		y = 2
+		relative_position_id = TBZ_small_arms
+		prerequisite = {
+			focus = TBZ_small_arms
+			focus = TBZ_hit_and_run
+			focus = TBZ_arty
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+}
+	focus = { #Hire Local Mercs
+		id = TBZ_local_mercs
+		icon = GFX
+		x = 1
+		y = 1
+		relative_position_id = TBZ_raider_drills
+		prerequisite = {focus = TBZ_raider_drills}
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+}
+	focus = { #Airstrip
+		id = TBZ_airstrips
+		icon = GFX
+		x = 3
+		y = 1
+		relative_position_id = TBZ_raider_drills
+		prerequisite = {focus = TBZ_raider_drills}
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = { #Reverse Engineer Fallen Imperial Aircraft
+		id = TBZ_aircraft
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = TBZ_airstrips
+		prerequisite = {focus = TBZ_airstrips}
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+	}
+#Conquest Tree
+	focus = { #World For The Taking
+		id = TBZ_conquest_start
+		icon = GFX
+		x = 0
+		y = 3
+		relative_position_id = TBZ_solidify_power
+		prerequisite = {focus = TBZ_solidify_power}
+		prerequisite = {
+			focus = TBZ_arty
+			focus = TBZ_small_arms
+			focus = TBZ_hit_and_run
+			}
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}
