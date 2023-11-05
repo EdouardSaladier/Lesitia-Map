@@ -9,7 +9,7 @@ focus_tree = {
 		}
 	default = no
 	
-	continuous_focus_position = { x = 50 y = 2000}
+	continuous_focus_position = { x = 2000 y = 2000}
 	
 	#Drug Trade Tree
 	focus = { #The Bandit Economy
@@ -19,7 +19,10 @@ focus_tree = {
 		y = 0
 		cost = 5
 		ai_will_do = {
-			factor = 10
+			factor = 40
+		}
+		completion_reward = {
+		add_ideas = bandit_economy
 		}
 	}
 	focus = {
@@ -34,7 +37,10 @@ focus_tree = {
 		focus = TBZ_bully_population
 		}
 		ai_will_do = {
-		factor = 10
+		factor = 40
+		}
+		completion_reward = {
+			add_ideas = bandit_drug_industry
 		}
 	}
 	focus = {#Drug Our Troops
@@ -44,13 +50,16 @@ focus_tree = {
 		y = 1
 		cost = 5
 		relative_position_id = TBZ_narcotics
-		prerequisite = {
-		focus = TBZ_narcotics
-		}
+		prerequisite = {focus = TBZ_narcotics}
+		available = {has_war = yes}
 		ai_will_do = {
 		factor = 10
 		}
+		completion_reward = {
+		add_ideas = drugged_bandits
+		}
 	}
+
 	focus = {#Sell Drugs Internationally
 		id = TBZ_sell_drugs
 		icon = GFX
@@ -62,7 +71,14 @@ focus_tree = {
 		focus = TBZ_narcotics
 		}
 		ai_will_do = {
-		factor = 10
+		factor = 80
+		}
+		
+		completion_reward = {
+			country_event = {
+				id = TBZ.110
+				days = 10
+			}
 		}
 	}
 	focus = {#improve field medicine
@@ -75,7 +91,15 @@ focus_tree = {
 		prerequisite = {focus = TBZ_narcotics}
 		prerequisite = {focus = TBZ_kidnap_sci}
 		ai_will_do = {
-		factor = 10
+		factor = 20
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 2
+				category = hospital_tech
+			}
+		 add_political_power = 50
 		}
 	}	
 	focus = { #practice kleptocracy
@@ -90,7 +114,18 @@ focus_tree = {
 		focus = TBZ_bully_population
 		}
 		ai_will_do = {
-		factor = 10
+		factor = 40
+		}
+		
+				completion_reward = {
+			add_stability = -.05
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				state = 200
+			}
 		}
 	}
 	focus = { #kidnap scientists
@@ -104,7 +139,10 @@ focus_tree = {
 		focus = TBZ_kleptocracy
 		}
 		ai_will_do = {
-		factor = 10
+		factor = 20
+		}
+		completion_reward = {
+			add_ideas = tbz_science
 		}
 	}
 	focus = { #Apartment Hives to Factories
@@ -117,7 +155,16 @@ focus_tree = {
 		prerequisite = {focus = TBZ_kleptocracy}
 		prerequisite = {focus = TBZ_reopen_factories}
 		ai_will_do = {
-		factor = 10
+		factor = 20
+		}
+		
+		completion_reward = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
 		}
 	}
 	focus = { #reopen the factories
@@ -132,7 +179,16 @@ focus_tree = {
 		focus = TBZ_bandit_eco
 		}
 		ai_will_do = {
-		factor = 10
+		factor = 20
+		}
+
+			completion_reward = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
 		}
 	}
 	focus = { #automobile factories
@@ -146,9 +202,11 @@ focus_tree = {
 		focus = TBZ_reopen_factories
 		}
 		ai_will_do = {
-		factor = 10
+		factor = 20
 		}
-	}	
+		completion_reward = {
+		}
+		}
 	#Power Tree
 	focus = { #Bully The Population
 		id = TBZ_bully_population
@@ -159,7 +217,7 @@ focus_tree = {
 		
 		cost = 5
 		 ai_will_do = {
-			factor = 10
+			factor = 320
 		}
 		
 		completion_reward = {
@@ -176,7 +234,12 @@ focus_tree = {
 		prerequisite = {focus = TBZ_bully_population }
 		cost = 5
 		ai_will_do = {
-			factor = 10
+			factor = 320
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = .05
 		}
 }
 	focus = { #Solidify Power
@@ -188,7 +251,12 @@ focus_tree = {
 		prerequisite = {focus = TBZ_eliminate_threats }
 		cost = 5
 		ai_will_do = {
-			factor = 10
+			factor = 80
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = .05
 		}
 }
 #Army Tree
@@ -201,7 +269,27 @@ focus_tree = {
 		
 		cost = 5
 		 ai_will_do = {
-			factor = 10
+			factor = 80
+		}
+		completion_reward = {
+		army_experience = 50
+				hidden_effect = {
+				load_oob = TBZ/Motorized_raiders
+			}
+		random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Bug Bandits\" division_template = \"Motorized Raiders\" start_experience_factor = 0.5 start_equipment_factor = 1.0" 
+					owner = TBZ
+				} 
+				create_unit = {
+					division = "name = \"Bad Bugs\" division_template = \"Motorized Raiders\" start_experience_factor = 0.5 start_equipment_factor = 1.0" 
+					owner = TBZ
+				}
+								create_unit = {
+					division = "name = \"Hive Rollers\" division_template = \"Motorized Raiders\" start_experience_factor = 0.5 start_equipment_factor = 1.0" 
+					owner = TBZ
+				}
+	}
 		}
 	}
 	focus = { #Old Imperial Stockpiles
@@ -213,7 +301,40 @@ focus_tree = {
 		prerequisite = {focus = TBZ_raider_drills}
 		cost = 5
 		ai_will_do = {
-			factor = 10
+			factor = 40
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 500
+			producer = GLR
+			}
+			add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 15
+			producer = GLR
+			}
+			add_equipment_to_stockpile = {
+			type = main_support_equipment
+			amount = 200
+			}
+			add_equipment_to_stockpile = {
+			type = anti_air_equipment
+			amount = 5
+			producer = GLR
+			}
+			add_equipment_to_stockpile = {
+			type = recoiless_rifles_equipment
+			amount = 50
+			}
+			add_equipment_to_stockpile = {
+			type = logistic_vehicle_system_equipment
+			amount = 10
+			}
+			add_equipment_to_stockpile = {
+			type = main_battle_tank_equipment
+			amount = 1
+			}
 		}
 }
 	focus = { #small arms innovation
@@ -225,7 +346,15 @@ focus_tree = {
 		prerequisite = {focus = TBZ_raider_drills}
 		cost = 5
 		ai_will_do = {
-			factor = 10
+			factor = 40
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
 		}
 }
 	focus = { #Things that go boom
@@ -237,7 +366,14 @@ focus_tree = {
 		prerequisite = {focus = TBZ_small_arms}
 		cost = 5
 		ai_will_do = {
-			factor = 10
+			factor = 20
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = field_artillery_tech
+			}		
 		}
 }
 	focus = { #Hit and Run
@@ -249,7 +385,14 @@ focus_tree = {
 		prerequisite = {focus = TBZ_small_arms}
 		cost = 5
 		ai_will_do = {
-			factor = 10
+			factor = 20
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = aerial_troopers_tech
+			}		
 		}
 }
 	focus = { #Defend Our Foggy Skies
@@ -265,7 +408,16 @@ focus_tree = {
 		}
 		cost = 5
 		ai_will_do = {
-			factor = 10
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_building_construction = {
+				type = air_base
+				level = 1
+				instant_build = yes
+				province =  1691
+			}		
 		}
 }
 	focus = { #Hire Local Mercs
@@ -277,7 +429,18 @@ focus_tree = {
 		prerequisite = {focus = TBZ_raider_drills}
 		cost = 5
 		ai_will_do = {
-			factor = 10
+			factor = 40
+		}
+		completion_reward = {
+				hidden_effect = {
+				load_oob = TBZ/Motorized_raiders
+			}
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Local Mercenaries\" division_template = \"Motorized Raiders\" start_experience_factor = 0.5 start_equipment_factor = 1.0" 
+					owner = TBZ
+				} 
+			}
 		}
 }
 	focus = { #Airstrip
@@ -289,7 +452,16 @@ focus_tree = {
 		prerequisite = {focus = TBZ_raider_drills}
 		cost = 5
 		ai_will_do = {
-			factor = 10
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_building_construction = {
+			type = air_base
+			level = 1
+			instant_build = yes
+			province = 8301
+			}
 		}
 	}
 	focus = { #Reverse Engineer Fallen Imperial Aircraft
@@ -301,7 +473,76 @@ focus_tree = {
 		prerequisite = {focus = TBZ_airstrips}
 		cost = 5
 		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = fighter_tech
+			}
+		}
+	}
+#Navy Tree
+	focus = {#Bug Piracy
+		id = TBZ_pirate_fleet
+		icon = GFX
+		x = 3
+		y = 4
+		relative_position_id = TBZ_raider_drills
+		cost = 5
+		available = {
+			any_state = {
+			is_owned_by = TBZ
+			is_coastal = yes
+			}
+		}
+		ai_will_do = {
 			factor = 10
+		}
+		
+		completion_reward = {
+		navy_experience = 25
+			}
+		}
+	focus = {#repurpose fishing vesels
+		id = TBZ_repurpose_ships
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = TBZ_pirate_fleet
+		prerequisite = {focus = TBZ_pirate_fleet}
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = tbz_repurpose
+				days = 250
+				}
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 25
+			}
+		}
+	}
+	focus = {#coast raiders
+		id = TBZ_coast_raiders
+		icon = GFX
+		x = 2
+		y = 1
+		relative_position_id = TBZ_pirate_fleet
+		prerequisite = {focus = TBZ_pirate_fleet}
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+		
 		}
 	}
 #Conquest Tree
@@ -319,7 +560,451 @@ focus_tree = {
 			}
 		cost = 5
 		ai_will_do = {
-			factor = 10
+			factor = 80
 		}
 	}
+	focus = {#End The Surealists
+		id = TBZ_surealists
+		icon = GFX
+		x = -2
+		y = 1
+		relative_position_id = TBZ_conquest_start
+		prerequisite = {focus = TBZ_conquest_start}
+		available = {has_war = no}
+		cost = 5
+		bypass = {
+			not = {country_exists = ZHA}
+			has_war_with = ZHA
+		}
+		ai_will_do = {
+			factor = 320
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = ZHA
+			}
+		}
+	}
+focus = {#Finish Off The Free Army
+		id = TBZ_free_army
+		icon = GFX
+		x = -1
+		y = 2
+		relative_position_id = TBZ_conquest_start
+		prerequisite = {focus = TBZ_conquest_start}
+		available = {has_war = no}
+		cost = 5
+		bypass = {
+			not = {country_exists = TVA}
+			has_war_with = TVA
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = TVA
+			}
+		}
+	}
+focus = {#Kill The Commune
+		id = TBZ_kill_commune
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = TBZ_conquest_start
+		prerequisite = {focus = TBZ_conquest_start}
+		available = {has_war = no}
+		cost = 5
+		bypass = {
+			not = {country_exists = SCM}
+			has_war_with = SCM
+		}
+		ai_will_do = {
+			factor = 40
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = SCM
+			}
+		}
+	}
+focus = {#Storm The Hives of Lavido
+		id = TBZ_storm_lavido
+		icon = GFX
+		x = 1
+		y = 2
+		relative_position_id = TBZ_conquest_start
+		prerequisite = {focus = TBZ_conquest_start}
+		available = {has_war = no}
+		bypass = {
+			not = {country_exists = UHL}
+			has_war_with = UHL
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 40
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = UHL
+			}
+		}
+	}
+focus = {#Seize the Confederacy
+		id = TBZ_confed
+		icon = GFX
+		x = 2
+		y = 1
+		relative_position_id = TBZ_conquest_start
+		prerequisite = {focus = TBZ_conquest_start}
+		available = {has_war = no}
+		cost = 5
+		bypass = {
+			not = {country_exists = SED}
+			has_war_with = SED
+		}
+		ai_will_do = {
+			factor = 40
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = SED
+			}
+		}
+	}
+focus = {#Reap Our Rewards
+		id = TBZ_reap
+		icon = GFX
+		x = 0
+		y = 2
+		relative_position_id = TBZ_kill_commune
+		prerequisite = {focus = TBZ_kill_commune}
+		prerequisite = {focus = TBZ_surealists}
+		prerequisite = {focus = TBZ_free_army}
+		prerequisite = {focus = TBZ_storm_lavido}
+		prerequisite = {focus = TBZ_confed}
+		available = {
+			not = {country_exists = SCM}
+			not = {country_exists = TVA}
+			not = {country_exists = ZHA}
+			not = {country_exists = UHL}
+			not = {country_exists = SED}
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		
+		completion_reward = {
+		add_political_power = 200
+			}
+		}
+focus = {#Kill The Collective
+		id = TBZ_collective
+		icon = GFX
+		x = -3
+		y = 1
+		relative_position_id = TBZ_reap
+		prerequisite = {focus = TBZ_reap}
+		available = {has_war = no}
+		bypass = {
+		 not = {country_exists = VOS}
+		 has_war_with = VOS
+		}
+		
+		cost = 5
+		bypass = {
+			not = {country_exists = VOS}
+		}
+		ai_will_do = {
+			factor = 40
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+			type = annex_everything
+			target = VOS
+			}
+			}
+		}
+focus = {#Rip the Republic
+		id = TBZ_resse
+		icon = GFX
+		x = -2
+		y = 2
+		relative_position_id = TBZ_reap
+		prerequisite = {focus = TBZ_reap}
+		available = {has_war = no}
+		cost = 5
+		bypass = {
+			not = {country_exists = ETH}
+			has_war_with = ETH
+		}
+		ai_will_do = {
+			factor = 40
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+			type = annex_everything
+			target = ETH
+			}
+			}
+		}
+focus = {#Destroy The Miners
+		id = TBZ_minecraft
+		icon = GFX
+		x = -1
+		y = 1
+		relative_position_id = TBZ_reap
+		prerequisite = {focus = TBZ_reap}
+		available = {has_war = no}
+		cost = 5
+		bypass = {
+			not = {country_exists = LAV}
+			has_war_with = LAV
+		}
+		ai_will_do = {
+			factor = 40
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+			type = annex_everything
+			target = LAV
+			}
+			}
+		}
+focus = {#Attack The Army Command
+		id = TBZ_command
+		icon = GFX
+		x = 1
+		y = 1
+		relative_position_id = TBZ_reap
+		prerequisite = {focus = TBZ_reap}
+		available = {has_war = no}
+		cost = 5
+		bypass = {
+			not = {country_exists = ACS}
+			has_war_with = ACS
+		}
+		ai_will_do = {
+			factor = 40
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+			type = annex_everything
+			target = ACS
+			}
+			}
+		}
+focus = {#Collapse The Front
+		id = TBZ_rep_front
+		icon = GFX
+		x = 2
+		y = 2
+		relative_position_id = TBZ_reap
+		prerequisite = {focus = TBZ_reap}
+		available = {has_war = no}
+		cost = 5
+		bypass = {
+			not = {country_exists = RFT}
+			has_war_with = RFT
+		}
+		ai_will_do = {
+			factor = 40
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+			type = annex_everything
+			target = RFT
+			}
+			}
+		}
+focus = {#Terminate The Termites
+		id = TBZ_terminator
+		icon = GFX
+		x = 3
+		y = 1
+		relative_position_id = TBZ_reap
+		prerequisite = {focus = TBZ_reap}
+		available = {has_war = no}
+		cost = 5
+		bypass = {
+			not = {country_exists = TER}
+			has_war_with = TER
+		}
+		ai_will_do = {
+			factor = 40
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+			type = annex_everything
+			target = TER
+			}
+			}
+		}
+focus = {#The Next Harvest
+		id = TBZ_harvest
+		icon = GFX
+		x = 1
+		y = 2
+		relative_position_id = TBZ_minecraft
+		prerequisite = {focus = TBZ_collective}
+		prerequisite = {focus = TBZ_resse}
+		prerequisite = {focus = TBZ_minecraft}
+		prerequisite = {focus = TBZ_command}
+		prerequisite = {focus = TBZ_rep_front}
+		prerequisite = {focus = TBZ_terminator}
+		available = {
+			not = {country_exists = VOS}
+			not = {country_exists = LAV}
+			not = {country_exists = ACS}
+			not = {country_exists = ETH}
+			not = {country_exists = RFT}
+			not = {country_exists = TER}
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		
+		completion_reward = {
+		add_political_power = 200
+			}
+		}
+focus = {#Crush The Central Republic
+		id = TBZ_crush
+		icon = GFX
+		x = -2
+		y = 1
+		relative_position_id = TBZ_harvest
+		prerequisite = {focus = TBZ_harvest}
+		available = {has_war = no}
+		bypass = {
+		
+		has_war_with = CSR
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 40
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+			type = annex_everything
+			target = CSR
+			}
+			}
+		}
+focus = {#Mutilate Mavidea
+		id = TBZ_mutilate
+		icon = GFX
+		x = -1
+		y = 1
+		relative_position_id = TBZ_crush
+		prerequisite = {focus = TBZ_crush}
+		available = {has_war = no}
+		bypass = {
+		
+		has_war_with = MAV
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 40
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+			type = annex_everything
+			target = MAV
+			}
+			}
+		}
+focus = {#Kill Kakrikea
+		id = TBZ_kill_kak
+		icon = GFX
+		x = 1
+		y = 1
+		relative_position_id = TBZ_crush
+		prerequisite = {focus = TBZ_crush}
+		available = {has_war = no}
+		bypass = {
+		
+		has_war_with = KAK
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 40
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+			type = annex_everything
+			target = KAK
+			}
+			}
+		}
+focus = {#Neutrals No Longer
+		id = TBZ_neutral
+		icon = GFX
+		x = 1
+		y = 1
+		relative_position_id = TBZ_harvest
+		prerequisite = {focus = TBZ_harvest}
+		available = {has_war = no}
+		bypass = {
+		
+		has_war_with = TPG
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 40
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+			type = annex_everything
+			target = TPG
+			}
+			}
+		}
+focus = {#Bandits Now And Forever
+		id = TBZ_forever
+		icon = GFX
+		x = -1
+		y = 2
+		relative_position_id = TBZ_neutral
+		prerequisite = {focus = TBZ_neutral}
+		prerequisite = {focus = TBZ_mutilate}
+		prerequisite = {focus = TBZ_kill_kak}
+		available = {
+		not = {country_exists = TPG}
+		not = {country_exists = KAK}
+		not = {country_exists = MAV}
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 40
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+			}
+			}
+		}
 }

@@ -1,0 +1,23 @@
+#Venom.Co Mercs
+
+TBZ_mercenaries = {
+	venom_mercs_manpower = {
+		icon = GFX_decision_generic_prepare_civil_war
+		available = {
+			AKU = {
+				NOT = {has_idea = aku_crisis}
+				NOT = {has_government = revolutionarism}
+			}
+		} 
+		fire_only_once = no
+		days_re_enable = 60
+		
+		visible = {}
+		
+		cost = 50
+		
+		complete_effect = {
+			add_manpower = 1000
+		}
+	}
+}

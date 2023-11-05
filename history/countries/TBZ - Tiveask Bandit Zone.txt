@@ -62,6 +62,12 @@ set_popularities = {
 
 add_ideas = {
 	#tiveask_fog
+	extensive_conscription
+	partial_economic_mobilisation
+	free_market
+	free_press
+	equal_species
+	secularism
 	ruthless_rule
 	ephemeral_militia
 }

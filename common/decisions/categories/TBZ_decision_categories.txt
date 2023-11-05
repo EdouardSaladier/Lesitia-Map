@@ -1,0 +1,7 @@
+TBZ_mercenaries = {
+	icon = GFX_generic_prepare_civil_war
+	priority = 9
+	picture = GFX_decision_federation_map
+	visible = {has_completed_focus = TBZ_sell_drugs}
+	tag = TBZ
+}

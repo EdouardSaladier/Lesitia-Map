@@ -443,7 +443,134 @@ ideas = {
 			}
 		
 		}
+		bandit_economy = {
+			picture =
+			
+			allowed = { 
+				tag = TBZ
+            }
+
+            available = {
+            }
+
+            cancel = {
+			  OR = {
+			    has_cosmetic_tag = nice_federation 
+			    has_cosmetic_tag = evil_federation 
+			  }
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			production_factory_efficiency_gain_factor = 0.1
+			}
 		
+		}
+		bandit_drug_industry = {
+			picture =
+			
+			allowed = { 
+				tag = TBZ
+            }
+
+            available = {
+            }
+
+            cancel = {
+			  OR = {
+			    has_cosmetic_tag = nice_federation 
+			    has_cosmetic_tag = evil_federation 
+			  }
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = 0.05
+			political_power_factor = 0.05
+			}
+		}
+			drugged_bandits = {
+			picture =
+			
+			allowed = { 
+				tag = TBZ
+            }
+
+            available = {
+            }
+
+            cancel = {
+			  OR = {
+			    has_cosmetic_tag = nice_federation 
+			    has_cosmetic_tag = evil_federation 
+			  }
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			army_attack_factor = 0.05
+			}
+		}
+		tbz_science = {
+			picture =
+			
+			allowed = { 
+				tag = TBZ
+            }
+
+            available = {
+            }
+
+            cancel = {
+			  OR = {
+			    has_cosmetic_tag = nice_federation 
+			    has_cosmetic_tag = evil_federation 
+			  }
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			research_speed_factor = 0.05
+			}
+		}
+		tbz_repurpose = {
+			picture =
+			alowed = {
+				tag = TBZ
+			}
+			
+			available = {}
+			
+			cancel = {
+			  OR = {
+			    has_cosmetic_tag = nice_federation 
+			    has_cosmetic_tag = evil_federation 
+			  }
+            }
+			modifier = {
+			industrial_capacity_dockyard = 0.2
+			}
+		}
 		last_stand = {
 			picture = last_stand
 			
