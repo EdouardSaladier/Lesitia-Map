@@ -1,0 +1,14 @@
+RIS_market_mechanic = {
+
+	RIS_expand_civ_market = {
+		cost = 75
+		#add_ideas = 
+	}
+	
+	
+	RIS_expand_mil_market = {
+		cost = 75
+		#add_ideas = 
+	}
+		
+}

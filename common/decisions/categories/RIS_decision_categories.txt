@@ -1,0 +1,7 @@
+RIS_market_mechanic = {
+#	icon = 
+	visible = {                 
+		tag = RIS
+	}
+}
+           

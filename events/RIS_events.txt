@@ -206,3 +206,71 @@ country_event = {
 		name = RIS.8.e
 	}
 }	
+country_event = {
+	id = RIS.9
+	title = RIS.9.t
+	desc = RIS.9.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+	name = RIS.9.a
+	}
+}
+country_event = {
+	id = RIS.10
+	title = RIS.10.t
+	desc = RIS.10.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+	name = RIS.10.a
+	remove_ideas = RIS_federation_refugee
+	}
+	option = {
+	name = RIS.10.b
+		swap_ideas = {
+   	 	remove_idea = RIS_federation_refugee
+    	add_idea = RIS_federation_refugee_2
+		}
+	}
+}
+country_event = {
+	id = RIS.11
+	title = RIS.11.t
+	desc = RIS.11.d
+	#picture = 
+
+	is_triggered_only = yes
+	option = { #technation refugee nation
+		name = RIS.11.a
+		set_cosmetic_tag = RIS_technate_refugee
+	}
+	option = { #were good rn
+		name = RIS.11.b
+	}
+}		
+country_event = {
+	id = RIS.12
+	title = RIS.12.t
+	desc = RIS.12.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { #personally sponsor the civil services!
+	name = RIS.12.a
+	add_ideas = RIS_civil_merc_1
+	}
+	option = { #ignore them
+	name = RIS.12.b
+	add_political_power = 100
+	}
+	option = { #give them to our corpo friends
+	name = RIS.12.c
+	add_ideas = RIS_civil_merc_2
+	}
+}	

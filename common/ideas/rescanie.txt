@@ -1,5 +1,4 @@
 ideas = {
-
 	country = {
 		sin_islands = {
 			picture = sin_islands
@@ -91,6 +90,35 @@ ideas = {
 			}
 		
 		}
+		RIS_merc_influence_3 = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }
+
+            available = {
+			    has_government = corporatism
+            }
+
+            cancel = {
+			    has_government = despotism
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = 800
+			    political_power_gain = 0.1
+				stability_factor = 0.05
+				despotism_drift = 0.1
+			}
+		
+		}
 		RIS_federation_refugee = {
 			picture = sin_islands
 			
@@ -117,6 +145,194 @@ ideas = {
 			    political_power_gain = -0.1
 				stability_factor = -0.05
 				democracy_drift = 0.1    
+			}
+		
+		}
+		RIS_federation_refugee = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }
+		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    political_power_gain = 0.1
+				stability_factor = 0.05
+				democracy_drift = 0.05  
+				despotism_drift = 0.1 
+			}
+		
+		}
+		RIS_corpo_control = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }
+
+            available = {
+			    has_government = corporatism
+            }
+
+            cancel = {
+			    has_government = democracy
+            }			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    political_power_gain = 0.1
+				stability_factor = 0.05
+				corporatism_drift = 0.1    
+			}
+		
+		}	
+		RIS_come_to_rescanie = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.15   
+			}
+		
+		}	
+		RIS_high_research_budget = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.20
+				consumer_goods_factor = 0.15   
+			}
+		
+		}
+		RIS_normal_research_budget = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+ 				research_speed_factor = 0.10
+ 				political_power_gain = 0.10 
+			}
+		
+		}		
+		RIS_biochemical_lab = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+ 			research_bonus = {
+				genetics_tech = 0.15
+			}
+			research_bonus = {
+				resource_production_tech = 0.15
+			}
+			research_bonus = {
+				agriculture_tech = 0.15
+			}
+		
+		}	
+		RIS_corpo_frens = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				despotism_drift = 0.2
+				corporatism_drift = 0.1
+				consumer_goods_factor = -0.05
+			}
+		
+		}
+		RIS_civil_merc_1 = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+			}
+		
+		}
+		RIS_civil_merc_2 = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+
 			}
 		
 		}	
