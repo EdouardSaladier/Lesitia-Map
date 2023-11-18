@@ -196,6 +196,8 @@ RIS_future_of_cloning:0  "The Future Of Cloning"
 RIS_exoarmor_study:0  "Exoarmor Studies"
 RIS_open_biochemical_laboratories:0  "Open Biochemical Factories"
 
+
+RIS_wip:0  "Return On Chunudia"
 ###Cosmetic
 RIS_new_paraiso:0 "New Paraiso"
 RIS_new_paraiso_DEF:0 "the New Paraisian Kubeiocracy"
@@ -217,6 +219,7 @@ RIS_merc_coup:0 "The Mercenaries Have Taken Control"
 RIS_dem_coup:0 "The Federation Loyalists Have Taken Control"
 RIS_corpo_stable:0 "The Board Stabilised The Islands"
 RIS_shark_coup:0 "The Nationalists Have Taken Control"
+RIS_good_update:0 "The Technate Update Dropped"
 ###Events 
 RIS.2.t:0 "In Hot Water"
 RIS.2.d:0 "oh no everyone's shooting at each other"

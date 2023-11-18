@@ -148,7 +148,7 @@ ideas = {
 			}
 		
 		}
-		RIS_federation_refugee = {
+		RIS_federation_refugee_2 = {
 			picture = sin_islands
 			
 			allowed = { 
