@@ -657,12 +657,12 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+			
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -707,12 +707,12 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+			
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -757,12 +757,12 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+			
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -807,12 +807,15 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+			OR = {
+				
+				has_completed_focus = TBZ_conquest_start
+			}
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -857,12 +860,12 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+			
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -907,12 +910,12 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+			
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -957,12 +960,12 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+			
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1007,12 +1010,12 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+			
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1057,12 +1060,12 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+			
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1107,12 +1110,15 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+			OR = {
+				
+				has_completed_focus = TBZ_conquest_start
+			}
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1157,12 +1163,12 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+			
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1207,12 +1213,12 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
-		}
+
+			}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1257,12 +1263,11 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1307,12 +1312,12 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1357,12 +1362,12 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+			
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1407,12 +1412,15 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+			OR = {
+			
+			has_completed_focus = TBZ_conquest_start
+			}
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1457,12 +1465,12 @@ WRL_unification = {
 				has_country_flag = warlord_attacking
 				}  
 			}
-			has_completed_focus = WRL_Begin_Expansion
+			
 		}
 		
 		cost = 30
 		fire_only_once = yes
-		days_remove = 100
+		days_remove = 30
 		
 		modifier = {
 			political_power_gain = -0.1
@@ -1506,12 +1514,12 @@ WRL_unification = {
 	# 			has_country_flag = warlord_attacking
 	# 			}  
 	# 		}
-	# 		has_completed_focus = WRL_Begin_Expansion
+	# 		
 	# 	}
 		
 	# 	cost = 30
 	# 	fire_only_once = yes
-	# 	days_remove = 100
+	# 	days_remove = 30
 		
 	# 	modifier = {
 	# 		political_power_gain = -0.1
