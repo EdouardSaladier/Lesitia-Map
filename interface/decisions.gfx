@@ -54,3 +54,7 @@ spriteTypes = {
 		name = "GFX_decision_generic_trucks"
 		texturefile = "gfx/interface/decisions/decision_generic_trucks.dds"
 	}
+		spriteType = {
+		name = "GFX_decision_venom"
+		texturefile = "gfx/interface/decisions/decision_venom.dds"
+	}

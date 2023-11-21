@@ -265,7 +265,7 @@ focus_tree = {
 		}
 		completion_reward = {
 		army_experience = 50
-				hidden_effect = {
+				hidden_effect = {`
 				load_oob = TBZ/Motorized_raiders
 			}
 		random_owned_controlled_state = {
@@ -561,6 +561,7 @@ focus_tree = {
 			add_war_support = 0.1
 		}
 	}
+#Pillage Focuses
 	focus = { #Exploit The Termites
 		id = TBZ_termites
 		icon = GFX
@@ -583,5 +584,32 @@ focus_tree = {
 		completion_reward = {
 			add_research_slot = 1
 		}
-	}		
+	}
+focus = { #Exploit The Miners
+		id = TBZ_exploit_miners
+		icon = GFX
+		x = -2
+		y = 5
+		relative_position_id = TBZ_narcotics
+		prerequisite = {focus = TBZ_narcotics}
+		prerequisite = {focus = TBZ_conquest_start}
+		cost = 10
+		ai_will_do = {
+			factor = 40
+		}
+		available = {
+			owns_state = 177
+			NOT = {
+			country_exists = LAV
+			}
+		}
+		
+		completion_reward = {
+			add_resource = {
+				type = aluminium
+				amount = 10
+				state = 177
+}
+		}
+	}	
 }
