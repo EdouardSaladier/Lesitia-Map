@@ -216,6 +216,7 @@ recruit_character = SYM_artist_final
 recruit_character = SYM_abbas_faez
 recruit_character = SYM_maniare_fettua
 recruit_character = SYM_matvey_velazik
+recruit_character = SYM_ailis_triansbuer
 
 ######################
 ###### Advisors ######

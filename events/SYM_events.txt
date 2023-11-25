@@ -331,6 +331,7 @@ country_event = {
 		release = ACS
 		release = RFT
 		retire_character = SYM_oscar_general
+		retire_character = SYM_ailis_triansbuer
 		hidden_effect = {
 			country_event = { id = SYM.8 days = 10 } 
 		}
@@ -344,6 +345,7 @@ country_event = {
 		release = ACS
 		release = RFT
 		retire_character = SYM_oscar_general
+		retire_character = SYM_ailis_triansbuer
 		hidden_effect = {
 			country_event = { id = SYM.8 days = 10 } 
 		}
@@ -356,6 +358,7 @@ country_event = {
 		release = ACS
 		release = RFT
 		retire_character = SYM_oscar_general
+		retire_character = SYM_ailis_triansbuer
 		hidden_effect = {
 			country_event = { id = SYM.8 days = 10 } 
 		}

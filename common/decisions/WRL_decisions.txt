@@ -1456,6 +1456,12 @@ WRL_unification = {
 		}
 		available = {
 			is_subject = no
+			NOT = {
+				OAV = {
+					is_guaranteed_by = VRT
+					is_guaranteed_by = AVN
+				}
+			}
 			has_army_manpower = {
 				size > 10000
 			}
