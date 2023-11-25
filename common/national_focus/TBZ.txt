@@ -14,7 +14,7 @@ focus_tree = {
 	#Drug Trade Tree
 	focus = { #The Bandit Economy
 		id = TBZ_bandit_eco
-		icon = GFX
+		icon = GFX_goal_TBZ_bandit_eco
 		x = 0
 		y = 0
 		cost = 5
@@ -27,7 +27,7 @@ focus_tree = {
 	}
 	focus = {
 		id = TBZ_narcotics
-		icon = GFX
+		icon = GFX_goal_TBZ_narcotics
 		x = 0
 		y = 1
 		cost = 5
@@ -103,7 +103,7 @@ focus_tree = {
 	}	
 	focus = { #practice kleptocracy
 		id = TBZ_kleptocracy
-		icon = GFX
+		icon = GFX_goal_TBZ_kleptocracy
 		x = 2
 		y = 1
 		cost = 5
@@ -171,7 +171,7 @@ focus_tree = {
 	}
 	focus = { #reopen the factories
 		id = TBZ_reopen_factories
-		icon = GFX
+		icon = GFX_goal_TBZ_factory
 		x = 4
 		y = 1
 		cost = 5
@@ -203,7 +203,7 @@ focus_tree = {
 	#Power Tree
 	focus = { #Bully The Population
 		id = TBZ_bully_population
-		icon = GFX
+		icon = GFX_goal_TBZ_bully
 		x = 5
 		y = 0
 		relative_position_id = TBZ_bandit_eco
@@ -214,13 +214,16 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		add_political_power = 50
-		remove_ideas = {resistant_population}
+			add_political_power = 50
+			remove_ideas = {resistant_population}
+			every_owned_state = {
+				add_manpower = -1000
+			}
 		}
 	}
 	focus = { #Eliminate Immediate Threats
 		id = TBZ_eliminate_threats
-		icon = GFX
+		icon = GFX_goal_TBZ_eliminate_threats
 		x = 1
 		y = 1
 		relative_position_id = TBZ_bully_population
@@ -237,7 +240,7 @@ focus_tree = {
 }
 	focus = { #Solidify Power
 		id = TBZ_solidify_power
-		icon = GFX
+		icon = GFX_goal_TBZ_solid
 		x = 0
 		y = 1
 		relative_position_id = TBZ_eliminate_threats
@@ -286,7 +289,7 @@ focus_tree = {
 	}
 	focus = { #Old Imperial Stockpiles
 		id = TBZ_imperial_stockpile
-		icon = GFX
+		icon = GFX_goal_guns_focus
 		x = -1
 		y = 1
 		relative_position_id = TBZ_raider_drills
@@ -461,7 +464,7 @@ focus_tree = {
 		}
 	focus = { #Reverse Engineer Fallen Imperial Aircraft
 		id = TBZ_aircraft
-		icon = GFX
+		icon = GFX_goal_plane_focus
 		x = 0
 		y = 1
 		relative_position_id = TBZ_airstrips
@@ -543,7 +546,7 @@ focus_tree = {
 #Conquest Tree
 	focus = { #World For The Taking
 		id = TBZ_conquest_start
-		icon = GFX
+		icon = GFX_focus_generic_annex_country
 		x = 0
 		y = 3
 		relative_position_id = TBZ_solidify_power
@@ -583,6 +586,9 @@ focus_tree = {
 		
 		completion_reward = {
 			add_research_slot = 1
+			198 = {
+				add_manpower = -1000
+			}
 		}
 	}
 focus = { #Exploit The Miners
@@ -609,7 +615,11 @@ focus = { #Exploit The Miners
 				type = aluminium
 				amount = 10
 				state = 177
-}
+			}
+			177 = {
+				add_manpower = -2000
+			}
 		}
+		
 	}	
 }

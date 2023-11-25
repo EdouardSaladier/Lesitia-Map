@@ -54,6 +54,43 @@ spriteTypes = {
 	name = "GFX_goal_SYM_not_ready"
 	texturefile = "gfx/interface/goals/focus_SYM_not_ready.dds"			
 	}
+	
+	############
+	####TBZ#####
+	############
+	
+    SpriteType = {
+	name = "GFX_goal_TBZ_eliminate_threats"
+	texturefile = "gfx/interface/goals/focus_TBZ_eliminate_threats.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_TBZ_solid"
+	texturefile = "gfx/interface/goals/focus_TBZ_solid.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_TBZ_bandit_eco"
+	texturefile = "gfx/interface/goals/focus_TBZ_bandit_eco.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_TBZ_narcotics"
+	texturefile = "gfx/interface/goals/focus_TBZ_narco_eco.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_TBZ_bully"
+		texturefile = "gfx/interface/goals/focus_TBZ_bully.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_TBZ_kleptocracy"
+		texturefile = "gfx/interface/goals/focus_TBZ_kleptocracy.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_TBZ_factory"
+		texturefile = "gfx/interface/goals/focus_TBZ_factory.dds"			
+	}
+
+######AVN###
 
     SpriteType = {
 	name = "GFX_goal_AVN_industry_generic"
