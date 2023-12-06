@@ -5,6 +5,7 @@ oob = "standard_templates"
 # Starting tech
 
 set_research_slots = 2
+set_stability = 0.3
 
 set_technology = {
 	primitive_firearms = 1
@@ -68,8 +69,9 @@ add_ideas = {
 	free_press
 	equal_species
 	secularism
-	ruthless_rule
 	ephemeral_militia
+	resistant_population
+	dictatorship_type
 }
 
 recruit_character = TBZ_despotism_vermelio

@@ -1,5 +1,12 @@
 spriteTypes = {
-
+	### TBZ
+	
+	spriteType = {
+		name = "GFX_maul_small"
+		texturefile = "gfx/interface/advisors/TBZ/TBZ_maul_small.dds"
+	}	
+	
+	
 	### FHI
 
 	spriteType = {

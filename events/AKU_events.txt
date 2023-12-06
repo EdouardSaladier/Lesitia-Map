@@ -172,3 +172,27 @@ country_event ={
 	}
 	}
 #AKU_strait_or_war
+#AKU_Opiods
+	country_event ={
+		id = AKU.69
+		title = AKU.69.t
+		desc = AKU.69.d
+		picture = GFX_report_event_rommel_joke
+		
+		trigger = {
+			TBZ = {
+				has_completed_focus = TBZ_sell_drugs
+			}
+		}
+			mean_time_to_happen = {
+				days = 225
+			}
+		
+		fire_only_once = yes
+		
+		option = {
+			name = AKU.69.a #This will be bad for production!
+			add_ideas = tbz_opiod_epidemic
+		}
+	
+	}

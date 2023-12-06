@@ -89,7 +89,34 @@ spriteTypes = {
 		name = "GFX_goal_TBZ_factory"
 		texturefile = "gfx/interface/goals/focus_TBZ_factory.dds"			
 	}
-
+SpriteType = {
+		name = "GFX_goal_TBZ_raider_drills"
+		texturefile = "gfx/interface/goals/focus_TBZ_raider_drills.dds"			
+	}
+SpriteType = {
+		name = "GFX_goal_TBZ_drug_troops"
+		texturefile = "gfx/interface/goals/focus_TBZ_drug_troops.dds"			
+	}
+SpriteType = {
+		name = "GFX_goal_TBZ_sell_drugs"
+		texturefile = "gfx/interface/goals/focus_TBZ_sell_drugs.dds"			
+	}
+SpriteType = {
+		name = "GFX_goal_TBZ_kidnap_scientists"
+		texturefile = "gfx/interface/goals/focus_TBZ_kidnap_scientists.dds"			
+	}
+SpriteType = {
+		name = "GFX_goal_TBZ_appartments"
+		texturefile = "gfx/interface/goals/focus_TBZ_appartments.dds"			
+	}
+SpriteType = {
+		name = "GFX_goal_TBZ_med"
+		texturefile = "gfx/interface/goals/focus_TBZ_med.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_TBZ_hire_mercs"
+		texturefile = "gfx/interface/goals/focus_TBZ_hire_mercs.dds"			
+	}
 ######AVN###
 
     SpriteType = {

@@ -402,13 +402,41 @@ ideas = {
 			modifier = {
 				stability_factor = 0.1
 				war_support_factor = -0.1
-				political_power_gain = 0.3
-				resistance_damage_to_garrison = -0.5
-				resistance_growth = -0.5
+				resistance_damage_to_garrison = -0.15
+				resistance_growth = -0.15
 			}
 		
 		}
+		resistant_population = {
+			picture = GFX_idea_chaotic_existence
+			
+			allowed = {
+				tag = TBZ
+			}
+		available = {}
 		
+		cancel = {
+			  OR = {
+			    has_cosmetic_tag = nice_federation 
+			    has_cosmetic_tag = evil_federation 
+			  }
+            }			
+			
+		allowed_civil_war = {
+				always = yes
+			}
+
+		removal_cost = -1
+			
+		modifier = {
+				stability_factor = -0.3
+				war_support_factor = -0.3
+				political_power_gain = -0.3
+				resistance_growth = 0.25
+				stability_weekly = -0.05
+				conscription = -0.10
+			}
+		}
 		ephemeral_militia = {
 			picture = ephemeral_militia
 			
@@ -569,6 +597,46 @@ ideas = {
             }
 			modifier = {
 			industrial_capacity_dockyard = 0.2
+			}
+		}
+		tbz_imperial_remnants = {
+			picture =
+			alowed = {
+				tag = TBZ
+			}
+			
+			available = {}
+			
+			cancel = {
+			  OR = {
+			    has_cosmetic_tag = nice_federation 
+			    has_cosmetic_tag = evil_federation 
+			  }
+            }
+			modifier = {
+			stability_factor = 0.1
+			}
+		}
+		##TBZ Drug trade effecting people in the region##
+		tbz_opiod_epidemic = {
+			picture = GFX
+			allowed = {}
+			
+			available = {
+				TBZ = exists
+			}
+			
+			cancel = {	
+			has_cosmetic_tag = nice_federation 
+			has_cosmetic_tag = evil_federation 		
+			}
+			
+			trigger = {
+			}
+			
+			modifier = {
+			stability_factor = -0.05
+			monthly_population = -0.025
 			}
 		}
 		last_stand = {

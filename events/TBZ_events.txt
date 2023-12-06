@@ -412,3 +412,18 @@ country_event = { ###Venom Co. Approaches TBZ for drug trade
 			unlock_decision_category_tooltip = TBZ_mercenaries
 	}
 }
+
+country_event = { #maul intro
+	id = TBZ.201
+	title = TBZ.201.t
+	desc = TBZ.201.d
+	picture = GFX_symbiotic_entry_event
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = TBZ.201.a #Our options for allies are limited
+		add_ideas = {tbz_imperial_remnants}
+	}
+}
