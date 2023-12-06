@@ -59,4 +59,4 @@ characters = {
 	        logistics_skill = 4
 		}
 	}
-
+}
