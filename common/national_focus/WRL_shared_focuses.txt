@@ -1072,4 +1072,243 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = WRL_war_is_over
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 15
+		y = 10
+		available = { 
+			has_country_flag = WRL_unification
+		}
+		prerequisite = {
+			focus = WRL_launch_the_conquest
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_find_those_responsible
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 12
+		y = 11
+		prerequisite = {
+			focus = WRL_war_is_over
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_the_iron_first
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 12
+		y = 12
+		prerequisite = {
+			focus = WRL_find_those_responsible
+		}
+		mutually_exclusive = { focus = WRL_free_the_workers }
+		mutually_exclusive = { focus = WRL_democracy_and_freedom }
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_democracy_and_freedom
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 10
+		y = 12
+		prerequisite = {
+			focus = WRL_find_those_responsible
+		}
+		mutually_exclusive = { focus = WRL_the_iron_first }
+		mutually_exclusive = { focus = WRL_free_the_workers }
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_free_the_workers
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 14
+		y = 12
+		prerequisite = {
+			focus = WRL_find_those_responsible
+		}
+		mutually_exclusive = { focus = WRL_the_iron_first }
+		mutually_exclusive = { focus = WRL_democracy_and_freedom }
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_the_local_policies
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 13
+		y = 13
+		prerequisite = {
+			focus = WRL_the_iron_first
+			focus = WRL_democracy_and_freedom
+			focus = WRL_free_the_workers
+		}
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_bring_back_stability
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 11
+		y = 13
+		prerequisite = {
+			focus = WRL_the_iron_first
+			focus = WRL_democracy_and_freedom
+			focus = WRL_free_the_workers
+		}
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_end_of_the_chaos
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 12
+		y = 14
+		prerequisite = {
+			focus = WRL_bring_back_stability
+		}
+		prerequisite = {
+			focus = WRL_the_local_policies
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_salvaging_the_economy
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 18
+		y = 11
+		prerequisite = {
+			focus = WRL_war_is_over
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_build_back_better
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 19
+		y = 12
+		prerequisite = {
+			focus = WRL_salvaging_the_economy
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_from_the_ground_up
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 17
+		y = 12
+		prerequisite = {
+			focus = WRL_salvaging_the_economy
+		}
+		mutually_exclusive = { focus = WRL_build_back_better }
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_the_status_of_labor_lawq
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 16
+		y = 13
+		prerequisite = {
+			focus = WRL_from_the_ground_up
+			focus = WRL_build_back_better
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_the_new_economy
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 18
+		y = 13
+		prerequisite = {
+			focus = WRL_from_the_ground_up
+			focus = WRL_build_back_better
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_reopen_the_mines
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 20
+		y = 13
+		prerequisite = {
+			focus = WRL_from_the_ground_up
+			focus = WRL_build_back_better
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_end_of_misery
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 18
+		y = 14
+		prerequisite = {
+			focus = WRL_the_status_of_labor_lawq
+		}
+		prerequisite = {
+			focus = WRL_reopen_the_mines
+		}
+		prerequisite = {
+			focus = WRL_the_new_economy
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = WRL_end_of_misery
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 15
+		y = 15
+		prerequisite = {
+			focus = WRL_end_of_the_chaos
+		}
+		prerequisite = {
+			focus = WRL_end_of_misery
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
 }
