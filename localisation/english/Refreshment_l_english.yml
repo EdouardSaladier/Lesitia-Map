@@ -239,6 +239,22 @@ RIS_kingdom_of_shark_ADJ:0 "Rescannian"
 RIS_selachidia_formable:0 "Selachidia"
 RIS_selachidia_formable_DEF:0 "Selachidia"
 RIS_selachidia_formable_ADJ:0 "Selachidian"
+
+RIS_federation_democratic:0 "Symbiotic Federation"
+RIS_federation_democratic_DEF:0 "the Symbiotic Federation"
+RIS_federation_democratic_ADJ:0 "Symbiotic"
+
+RIS_federation_despotism:0 "Symbiotic Free State"
+RIS_federation_despotism_DEF:0 "the Symbiotic Free State"
+RIS_federation_despotism_ADJ:0 "Symbiotic"
+
+RIS_federation_corporatism:0 "Symbiotic Corporate Patchwork"
+RIS_federation_corporatism_DEF:0 "the Symbiotic Corporate Patchwork"
+RIS_federation_corporatism_ADJ:0 "Symbiotic"
+
+RIS_federation_supremacism:0 "Selachidia-Symbiotic Confederation"
+RIS_federation_supremacism_DEF:0 "the Selachidia-Symbiotic Confederation"
+RIS_federation_supremacism_ADJ:0 "Selachidia-Symbiotic"
 ###Flag
 RIS_merc_coup:0 "The Mercenaries Have Taken Control"
 RIS_dem_coup:0 "The Federation Loyalists Have Taken Control"
@@ -269,3 +285,6 @@ RIS.21.t:0 "Join The Reclamation Pact?"
 RIS.21.d:0 "join dem aliance?"
 RIS.21.a:0 "Yes!"
 RIS.21.b:0 "nu uh"
+
+#decision
+ris_government_change:0 "Reunify The Federation"

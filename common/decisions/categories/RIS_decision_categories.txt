@@ -4,4 +4,10 @@ RIS_market_mechanic = {
 		tag = RIS
 	}
 }
-           
+ ris_government_change = {
+#	icon = 
+	visible = {                 
+		tag = RIS
+	}
+}
+                 

@@ -10,5 +10,69 @@ RIS_market_mechanic = {
 		cost = 75
 		#add_ideas = 
 	}
+}
+
+ris_government_change = {
+	 
+	    icon = GFX_decision_generic_form_nation    
+	
+	    cost = 100
+	    allowed = {
+			tag = RIS
+		}
+		available = {
+		    is_subject = no
+			tag = RIS
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			tag = RIS
+		}
+		complete_effect = {
+			set_cosmetic_tag = RIS_federation
+			custom_effect_tooltip = warlord_get_cores_on_ex_federal_territory_tooltip
+			hidden_effect = {
+				warlord_get_cores_on_ex_federal_territory = yes
+		}
+
+	}
+}
+	# reclamation_unification = {
 		
+		#     icon = GFX_decision_generic_form_nation    
+		
+		#     allowed = {
+		# 		tag = RIS
+		# 	}
+		# 	available = {
+		# 	    has_government = democracy
+		# 	    tag = RIS
+		# 	    is_subject = no
+		# 		custom_trigger_tooltip = {
+		# 			tooltip = warlord_controls_ex_federal_territory_tooltip
+		# 			warlord_controls_ex_federal_territory = yes
+		# 		}
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 1
+		# 	}
+		# 	visible = {
+		# 		NOT = { has_cosmetic_tag = RIS_federation }
+		# 		tag = RIS
+		# 	}
+		# 	complete_effect = {
+		# 	    set_party_name = { 
+		# 		    ideology = democracy
+		# 		    long_name = RIS_democracy_party_long
+		# 		    name = RIS_democracy_party 
+		# 	    }
+		# 	    set_cosmetic_tag = RIS_federation
+		# 		set_capital = {state = 7}
+		# 		set_country_flag = united_federation
+		# 	}
+		
+    # }
+			
 }
