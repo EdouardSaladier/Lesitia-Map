@@ -34,41 +34,6 @@ characters = {
 			}
 		}
 	}
-
-	SYM_ailis_triansbuer ={
-		name= "Ailis Triansbuer"
-		portraits={
-			army={
-				large= "gfx/leaders/SYM/portrait_ailis_triansbuer.dds"
-				small= "gfx/interface/ideas/portrait_ailis_triansbuer.dds"
-			}
-		}
-		field_marshal={
-			traits= { infantry_officer war_hero media_personality }
-			desc = SYM_Ailis_desc
-			skill= 5
-			
-			attack_skill= 4
-			defense_skill= 4
-			planning_skill= 5
-			logistics_skill= 4
-		}
-		advisor={
-			slot = theorist
-			idea_token = ailis_tri
-			ledger = all
-			allowed = {
-				original_tag = SYM
-			}
-			traits = {
-				council_of_theorists
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 2.000
-			}
-		}
-	}
 	
 	SYM_alessandro_general ={
 		name= "Alessandro Ricci"

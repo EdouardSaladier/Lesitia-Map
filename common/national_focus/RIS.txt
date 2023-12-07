@@ -60,8 +60,17 @@ focus_tree = {
 			focus = RIS_a_fresh_start
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+		add_extra_state_shared_building_slots = 4
+   			 add_building_construction = {
+        type = industrial_complex
+        level = 3
+        instant_build = yes
+			}
+   			 add_building_construction = {
+        type = arms_factory
+        level = 1
+        instant_build = yes
+			}
 		}
 	}
 	focus = {
@@ -362,8 +371,10 @@ focus_tree = {
 			focus = RIS_return_to_colonica
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+		add_state_core = 180
+		add_state_core = 185
+		add_state_core = 183
+		set_cosmetic_tag = RIS_selachidia_formable
 		}
 	}
 	focus = {
@@ -431,8 +442,7 @@ focus_tree = {
 			focus = RIS_reclaim_the_mainland
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			country_event = { id = RIS.14 }
 		}
 	}
 	focus = {
@@ -465,8 +475,8 @@ focus_tree = {
 			focus = RIS_welcome_defectors
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+    		add_ideas = war_economy
+    		add_ideas = extensive_conscription
 		}
 	}
 	focus = {
@@ -524,8 +534,7 @@ focus_tree = {
 			focus = RIS_operation_starting_piece
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+		HAD = { create_wargoal = { type = annex_everything target = BLL } }
 		}
 	}
 	focus = {
@@ -674,8 +683,22 @@ focus_tree = {
 			focus = RIS_from_mercenaries_to_managers
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			add_ideas = RIS_ressource_exploitation
+				add_resource = {
+					type = electronics 
+					amount = 6
+					state = 181
+				}
+				add_resource = {
+					type = food 
+					amount = 8
+					state = 181
+				}
+				add_resource = {
+					type = explosive 
+					amount = 4
+					state = 181
+				}
 		}
 	}
 	focus = {
@@ -724,7 +747,7 @@ focus_tree = {
 			country_event = { id = RIS.9 }
 		}
 		}
-	}s
+	}
 	focus = {
 		id = RIS_the_greatest_experiment
 		icon = GFX_focus_generic_self_management
@@ -833,8 +856,10 @@ focus_tree = {
 			focus = RIS_the_free_and_the_strong
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			swap_ideas = {
+    			remove_idea = RIS_corpo_frens
+    			add_idea = RIS_corpo_betrayal
+			}
 		}
 	}
 	focus = {
@@ -851,8 +876,7 @@ focus_tree = {
 			focus = RIS_the_free_and_the_strong
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			add_ideas = RIS_merc_training
 		}
 	}
 	focus = {
@@ -869,8 +893,9 @@ focus_tree = {
 			focus = RIS_job_well_done_is_twice_as_good
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+    		add_ideas = war_economy
+			add_war_support = 0.05
+			army_experience = 35
 		}
 	}
 	focus = {
@@ -910,8 +935,7 @@ focus_tree = {
 			focus = RIS_a_civil_service
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			country_event = { id = RIS.16 }
 		}
 	}
 	focus = {
@@ -933,8 +957,7 @@ focus_tree = {
 			focus = RIS_contact_on_chunudia
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			add_ideas = RIS_glory_fortune_adventure
 		}
 	}
 	focus = {
@@ -950,8 +973,7 @@ focus_tree = {
 			focus = RIS_the_free_and_the_strong
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			country_event = { id = RIS.12 }
 		}
 	}
 	focus = {
@@ -1002,8 +1024,7 @@ focus_tree = {
 			focus = RIS_a_return_to_the_sea
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			add_ideas = RIS_new_generation
 		}
 	}
 	focus = {
@@ -1022,8 +1043,7 @@ focus_tree = {
 			focus = RIS_reviving_lost_traditions
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			remove_ideas = RIS_merc_influence
 		}
 	}
 	focus = {
@@ -1039,8 +1059,8 @@ focus_tree = {
 			focus = RIS_riding_the_waves
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			country_event = RIS.18
+			add_stability = -0.1
 		}
 	}
 	focus = {
@@ -1058,7 +1078,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 100
-			add_stability = 0.1
+			country_event = RIS.17
 		}
 	}
 	focus = {
@@ -1080,7 +1100,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RIS_expand_underwater_production
+		id = RIS_what_about_foreigners
 		icon = GFX_focus_generic_self_management
 		cost = 7
 		x = 26
@@ -1128,7 +1148,7 @@ focus_tree = {
 			focus = RIS_a_revival_of_the_faith
 		}
 		prerequisite = {
-			focus = RIS_expand_underwater_production
+			focus = RIS_what_about_foreigners
 		}
 		prerequisite = {
 			focus = RIS_paving_the_road_to_peace
@@ -1169,8 +1189,7 @@ focus_tree = {
 			focus = RIS_the_federation_is_calling
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			country_event = { id = RIS.19 }
 		}
 	}
 	focus = {
@@ -1187,7 +1206,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 100
-			add_stability = 0.1
+			add_popularity = {
+			ideology = corporatism
+			popularity = -0.1
+			}
 		}
 	}
 	focus = {
@@ -1207,7 +1229,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 100
-			add_stability = 0.1
+			add_popularity = {
+			ideology = democracy
+			popularity = 0.1
+			}
 		}
 	}
 	focus = {
@@ -1223,8 +1248,13 @@ focus_tree = {
 			focus = RIS_the_flames_of_democracy
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			set_rule = {
+					can_create_factions = yes
+					can_join_factions = yes
+				}
+		ACS = { country_event = { id = RIS.21 } }
+		CSR = { country_event = { id = RIS.21 } }
+		RFT = { country_event = { id = RIS.21 } }
 		}
 	}
 	focus = {
@@ -1241,8 +1271,7 @@ focus_tree = {
 			focus = RIS_the_flames_of_democracy
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			country_event = { id = RIS.20 }
 		}
 	}
 	focus = {
@@ -1262,8 +1291,17 @@ focus_tree = {
 			focus = RIS_federation_not_yet_lost
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+		add_extra_state_shared_building_slots = 4
+   			 add_building_construction = {
+        type = industrial_complex
+        level = 2
+        instant_build = yes
+			}
+   			 add_building_construction = {
+        type = arms_factory
+        level = 2
+        instant_build = yes
+			}
 		}
 	}
 	focus = {
@@ -1360,8 +1398,7 @@ focus_tree = {
 			focus = RIS_showdown_at_paraiso
 		}
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			country_event = { id = RIS.13 }
 		}
 	}
 	focus = {
@@ -1413,8 +1450,10 @@ focus_tree = {
 		mutually_exclusive = { focus = RIS_devellop_tourism_ecotourism }
 		mutually_exclusive = { focus = RIS_devellop_tourism_gambling }
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			swap_ideas = {
+    		remove_idea = RIS_come_to_rescanie
+    		add_idea = RIS_come_to_rescanie_2
+			}
 		}
 	}
 	focus = {
@@ -1433,8 +1472,10 @@ focus_tree = {
 		mutually_exclusive = { focus = RIS_devellop_tourism_ecotourism }
 		mutually_exclusive = { focus = RIS_devellop_tourism_cultural }
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			swap_ideas = {
+    		remove_idea = RIS_come_to_rescanie
+    		add_idea = RIS_come_to_rescanie_3
+			}
 		}
 	}
 	focus = {
@@ -1445,6 +1486,8 @@ focus_tree = {
 		y = 7
 		available = {
 			is_subject = no
+			has_government = democracy
+			has_government = supremacism 	
 		}
 		prerequisite = {
 			focus = RIS_create_office_of_tourism
@@ -1453,8 +1496,10 @@ focus_tree = {
 		mutually_exclusive = { focus = RIS_devellop_tourism_gambling }
 		mutually_exclusive = { focus = RIS_devellop_tourism_cultural }
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
+			swap_ideas = {
+    		remove_idea = RIS_come_to_rescanie
+    		add_idea = RIS_come_to_rescanie_4
+			}
 		}
 	}
 	focus = {

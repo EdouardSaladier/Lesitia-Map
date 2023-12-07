@@ -76,5 +76,15 @@ ideas = {
    				factor = 0.5
    			}
 		}
+		#theocracy Control
+		theocratic_type = {	
+			modifier = {
+				political_power_factor = 0.01
+			}
+			cost = -1	
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
 	}
 }

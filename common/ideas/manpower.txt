@@ -241,110 +241,110 @@ ideas = {
 		}
 	}
 	
-	# professionalism_laws = {
-	# 	law = yes
-	# 	use_list_view = yes
+	professionalism_laws = {
+		law = yes
+		use_list_view = yes
 
-	# 	prof_5_law = {
+		prof_5_law = {
 			
-	# 		available = {
-	# 			custom_trigger_tooltip = {
-	# 				tooltip = professionalism_laws_tt	
-	# 				always = no
-	# 			}
-	# 		}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = professionalism_laws_tt	
+					always = no
+				}
+			}
 		
-	# 		level = 5
-	# 		cost = 0
-	# 		removal_cost = -1
+			level = 5
+			cost = 0
+			removal_cost = -1
 			
-	# 		default = yes
+			default = yes
 			
-	# 		cancel_if_invalid = no
-	# 	}
+			cancel_if_invalid = no
+		}
 		
-	# 	prof_4_law = {
+		prof_4_law = {
 			
-	# 		available = {
-	# 			custom_trigger_tooltip = {
-	# 				tooltip = professionalism_laws_tt	
-	# 				always = no
-	# 			}
-	# 		}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = professionalism_laws_tt	
+					always = no
+				}
+			}
 			
-	# 		modifier = {
-	# 			special_forces_cap = 0.05
-	# 			special_forces_min = 50
-	# 		}
+			modifier = {
+				special_forces_cap = 0.05
+				special_forces_min = 50
+			}
 		
-	# 		level = 4
-	# 		cost = 0
-	# 		removal_cost = -1
+			level = 4
+			cost = 0
+			removal_cost = -1
 			
-	# 		cancel_if_invalid = no
-	# 	}
+			cancel_if_invalid = no
+		}
 		
-	# 	prof_3_law = {
+		prof_3_law = {
 			
-	# 		available = {
-	# 			custom_trigger_tooltip = {
-	# 				tooltip = professionalism_laws_tt	
-	# 				always = no
-	# 			}
-	# 		}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = professionalism_laws_tt	
+					always = no
+				}
+			}
 			
-	# 		modifier = {
-	# 			special_forces_cap = 0.15
-	# 			special_forces_min = 100
-	# 		}
+			modifier = {
+				special_forces_cap = 0.15
+				special_forces_min = 100
+			}
 		
-	# 		level = 3
-	# 		cost = 0
-	# 		removal_cost = -1
+			level = 3
+			cost = 0
+			removal_cost = -1
 			
-	# 		cancel_if_invalid = no
-	# 	}
+			cancel_if_invalid = no
+		}
 		
-	# 	prof_2_law = {
+		prof_2_law = {
 			
-	# 		available = {
-	# 			custom_trigger_tooltip = {
-	# 				tooltip = professionalism_laws_tt	
-	# 				always = no
-	# 			}
-	# 		}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = professionalism_laws_tt	
+					always = no
+				}
+			}
 			
-	# 		modifier = {
-	# 			special_forces_cap = 0.3
-	# 			special_forces_min = 150
-	# 		}
+			modifier = {
+				special_forces_cap = 0.3
+				special_forces_min = 150
+			}
 		
-	# 		level = 2
-	# 		cost = 0
-	# 		removal_cost = -1
+			level = 2
+			cost = 0
+			removal_cost = -1
 			
-	# 		cancel_if_invalid = no
-	# 	}
+			cancel_if_invalid = no
+		}
 		
-	# 	prof_1_law = {
+		prof_1_law = {
 			
-	# 		available = {
-	# 			custom_trigger_tooltip = {
-	# 				tooltip = professionalism_laws_tt	
-	# 				always = no
-	# 			}
-	# 		}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = professionalism_laws_tt	
+					always = no
+				}
+			}
 			
-	# 		modifier = {
-	# 			special_forces_cap = 0.5
-	# 			special_forces_min = 250
-	# 		}
+			modifier = {
+				special_forces_cap = 0.5
+				special_forces_min = 250
+			}
 		
-	# 		level = 1
-	# 		cost = 0
-	# 		removal_cost = -1
+			level = 1
+			cost = 0
+			removal_cost = -1
 			
-	# 		cancel_if_invalid = no
-	# 	}
-	# }
+			cancel_if_invalid = no
+		}
+	}
 }

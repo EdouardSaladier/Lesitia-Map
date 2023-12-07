@@ -402,41 +402,13 @@ ideas = {
 			modifier = {
 				stability_factor = 0.1
 				war_support_factor = -0.1
-				resistance_damage_to_garrison = -0.15
-				resistance_growth = -0.15
+				political_power_gain = 0.3
+				resistance_damage_to_garrison = -0.5
+				resistance_growth = -0.5
 			}
 		
 		}
-		resistant_population = {
-			picture = GFX_idea_chaotic_existence
-			
-			allowed = {
-				tag = TBZ
-			}
-		available = {}
 		
-		cancel = {
-			  OR = {
-			    has_cosmetic_tag = nice_federation 
-			    has_cosmetic_tag = evil_federation 
-			  }
-            }			
-			
-		allowed_civil_war = {
-				always = yes
-			}
-
-		removal_cost = -1
-			
-		modifier = {
-				stability_factor = -0.3
-				war_support_factor = -0.3
-				political_power_gain = -0.3
-				resistance_growth = 0.25
-				stability_weekly = -0.05
-				conscription = -0.10
-			}
-		}
 		ephemeral_militia = {
 			picture = ephemeral_militia
 			
@@ -471,174 +443,7 @@ ideas = {
 			}
 		
 		}
-		bandit_economy = {
-			picture =
-			
-			allowed = { 
-				tag = TBZ
-            }
-
-            available = {
-            }
-
-            cancel = {
-			  OR = {
-			    has_cosmetic_tag = nice_federation 
-			    has_cosmetic_tag = evil_federation 
-			  }
-            }			
-			
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-			production_factory_efficiency_gain_factor = 0.1
-			}
 		
-		}
-		bandit_drug_industry = {
-			picture =
-			
-			allowed = { 
-				tag = TBZ
-            }
-
-            available = {
-            }
-
-            cancel = {
-			  OR = {
-			    has_cosmetic_tag = nice_federation 
-			    has_cosmetic_tag = evil_federation 
-			  }
-            }			
-			
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-			consumer_goods_factor = 0.05
-			political_power_factor = 0.05
-			}
-		}
-			drugged_bandits = {
-			picture =
-			
-			allowed = { 
-				tag = TBZ
-            }
-
-            available = {
-            }
-
-            cancel = {
-			  OR = {
-			    has_cosmetic_tag = nice_federation 
-			    has_cosmetic_tag = evil_federation 
-			  }
-            }			
-			
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-			army_attack_factor = 0.05
-			}
-		}
-		tbz_science = {
-			picture =
-			
-			allowed = { 
-				tag = TBZ
-            }
-
-            available = {
-            }
-
-            cancel = {
-			  OR = {
-			    has_cosmetic_tag = nice_federation 
-			    has_cosmetic_tag = evil_federation 
-			  }
-            }			
-			
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-			research_speed_factor = 0.05
-			}
-		}
-		tbz_repurpose = {
-			picture =
-			alowed = {
-				tag = TBZ
-			}
-			
-			available = {}
-			
-			cancel = {
-			  OR = {
-			    has_cosmetic_tag = nice_federation 
-			    has_cosmetic_tag = evil_federation 
-			  }
-            }
-			modifier = {
-			industrial_capacity_dockyard = 0.2
-			}
-		}
-		tbz_imperial_remnants = {
-			picture =
-			alowed = {
-				tag = TBZ
-			}
-			
-			available = {}
-			
-			cancel = {
-			  OR = {
-			    has_cosmetic_tag = nice_federation 
-			    has_cosmetic_tag = evil_federation 
-			  }
-            }
-			modifier = {
-			stability_factor = 0.1
-			}
-		}
-		##TBZ Drug trade effecting people in the region##
-		tbz_opiod_epidemic = {
-			picture = GFX
-			allowed = {}
-			
-			available = {
-				TBZ = exists
-			}
-			
-			cancel = {	
-			has_cosmetic_tag = nice_federation 
-			has_cosmetic_tag = evil_federation 		
-			}
-			
-			trigger = {
-			}
-			
-			modifier = {
-			stability_factor = -0.05
-			monthly_population = -0.025
-			}
-		}
 		last_stand = {
 			picture = last_stand
 			
@@ -935,38 +740,38 @@ ideas = {
 		
 		}
 		
-		# sin_islands = {
-		# 	picture = sin_islands
+		sin_islands = {
+			picture = sin_islands
 			
-		# 	allowed = { 
-		# 		tag = RIS
-        #     }
+			allowed = { 
+				tag = RIS
+            }
 
-        #     available = {
-		# 	    has_government = corporatism
-        #     }
+            available = {
+			    has_government = corporatism
+            }
 
-        #     cancel = {
-		# 	    has_government = democracy
-        #     }			
+            cancel = {
+			    has_government = democracy
+            }			
 			
-		# 	allowed_civil_war = {
-		# 		always = yes
-		# 	}
+			allowed_civil_war = {
+				always = yes
+			}
 
-		# 	removal_cost = -1
+			removal_cost = -1
 			
-		# 	modifier = {
-		# 	    political_power_gain = 0.15
-		# 		production_factory_efficiency_gain_factor = 0.1
-		# 		production_factory_max_efficiency_factor = 0.1
-		# 		industrial_capacity_factory = 0.1
-		# 		consumer_goods_factor = -0.1
-		# 		industrial_factory_donations = 3
-		# 		military_factory_donations = 1
-		# 	}
+			modifier = {
+			    political_power_gain = 0.15
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = -0.1
+				industrial_factory_donations = 3
+				military_factory_donations = 1
+			}
 		
-		# }
+		}
 		
 		vermelio_helper = {
 			picture = vermelio_helper

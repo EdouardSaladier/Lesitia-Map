@@ -140,7 +140,6 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/TBZ/portrait_maul_incar.dds"
-				small = "gfx/interface/advisors/TBZ/TBZ_maul_small.dds"
 			}
 		}
 		country_leader = {
@@ -149,26 +148,7 @@ characters = {
 			expire = "4000.1.1.1"
 			id = -1
 		}
-		advisor={
-			slot = political_advisor
-			idea_token = maul
-			ledger = civilian
-			allowed  = {
-				original_tag  = TBZ
-			}
-			available  = {
-				has_completed_focus  = TBZ_solidify_power
-			}
-			traits  = {
-				prince_of_terror
-			}
-			do_effect  = {
-			}
-			ai_will_do  = {
-			factor  = 100
-			}
-		}
-}
+	}
 	UHL_ancom = {
 		name = "United Hives Council"
 		portraits = {

@@ -36,7 +36,7 @@ country_event = {    ###warlord demands land
 			factor = 80
 		}
 		random_country = {
-		    liRIS = {
+		    RIS = {
                 has_country_flag = demand_state
             }
             annex_country = { target = RIS transfer_troops = yes }
@@ -49,7 +49,7 @@ country_event = {    ###warlord demands land
 			factor = 20
 		}
 		random_country = {
-            liRIS = {
+            RIS = {
                 has_country_flag = demand_state
             }
             create_wargoal = { type = annex_everything target = RIS }
@@ -274,3 +274,156 @@ country_event = {
 	add_ideas = RIS_civil_merc_2
 	}
 }	
+country_event = {
+	id = RIS.13
+	title = RIS.13.t
+	desc = RIS.13.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+	name = RIS.13.a
+	181 = { add_manpower = 231177}
+	}
+}
+country_event = {
+	id = RIS.14
+	title = RIS.14.t
+	desc = RIS.14.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+	name = RIS.13.a
+	add_manpower = 50000
+	add_equipment_to_stockpile = { type = precision_guided_firearms_equipment  amount = 5000 producer = SYM }
+	}
+}
+country_event = { #merc event
+	id = RIS.15
+	title = RIS.15.t
+	desc = RIS.15.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+	name = RIS.15.a
+	add_political_power = 1
+	}
+}
+
+country_event = { 
+	id = RIS.16
+	title = RIS.16.t
+	desc = RIS.16.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+	name = RIS.16.a
+	#add general here
+	}
+}
+
+country_event = { 
+	id = RIS.17
+	title = RIS.17.t
+	desc = RIS.17.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+	name = RIS.17.a
+	set_cosmetic_tag = RIS_trad_republic
+	}
+}
+country_event = { 
+	id = RIS.18
+	title = RIS.18.t
+	desc = RIS.18.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+	name = RIS.18.a
+	set_cosmetic_tag = RIS_kingdom_of_shark
+	}
+}
+country_event = { 
+	id = RIS.19
+	title = RIS.19.t
+	desc = RIS.19.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+	name = RIS.19.a
+	set_country_flag = RIS_purged_merc
+	swap_ideas = {
+   	remove_idea = RIS_merc_influence
+    add_idea = RIS_merc_purged
+	}
+	}
+	option = {
+	name = RIS.19.b
+	set_country_flag = RIS_alive_merc
+	swap_ideas = {
+   	remove_idea = RIS_merc_influence
+    add_idea = RIS_merc_contained
+	}
+
+	}
+}
+country_event = { 
+	id = RIS.20
+	title = RIS.20.t
+	desc = RIS.20.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+	name = RIS.20.a
+		add_war_support = 0.05
+		army_experience = 35
+		promote_character = RIS_oscar_leader
+		set_party_name = { 
+			ideology = democracy
+			long_name = RIS_military_dem_long
+			name = RIS_military_dem
+		}
+		add_popularity = {
+		ideology = despotism
+		popularity = 0.15
+		}
+		set_country_flag = coalition_despotism
+		update_coalition = yes
+		set_party_name = { 
+			ideology = despotism
+			long_name = RIS_military_dem_long
+			name = RIS_military_dem
+		}
+	}
+}
+country_event = { #join RIS faction?
+	id = RIS.21
+	title = RIS.21.t
+	desc = RIS.21.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { #yes
+	name = RIS.21.a
+	}
+	option = { #no
+	name = RIS.21.b
+	}
+}

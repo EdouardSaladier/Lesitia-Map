@@ -1,0 +1,40 @@
+on_actions = {
+	on_send_volunteers = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = RIS
+					}
+					original_tag = RIS
+					FROM = {
+						NOT = {
+							has_volunteers_amount_from = {
+								tag = RIS
+								count > 0
+							}
+						}
+					}
+				}
+				country_event = {
+					id = RIS.15
+				}
+			}
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = RIS
+					}
+					FROM = {
+						NOT = {
+							has_volunteers_amount_from = {
+								tag = RIS
+								count > 0
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

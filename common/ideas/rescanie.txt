@@ -34,6 +34,7 @@ ideas = {
 			}
 		
 		}
+
 		RIS_merc_influence = {
 			picture = sin_islands
 			
@@ -116,6 +117,47 @@ ideas = {
 			    political_power_gain = 0.1
 				stability_factor = 0.05
 				despotism_drift = 0.1
+			}
+		
+		}
+		RIS_merc_purged = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }
+			
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    political_power_gain = 0.1
+				stability_factor = 0.1
+				despotism_drift = -0.1
+			}
+		
+		}
+		RIS_merc_contained = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = 700
+				stability_factor = 0.05
+				war_support_factor = 0.1
 			}
 		
 		}
@@ -215,6 +257,66 @@ ideas = {
 				monthly_population = 0.15   
 			}
 		
+		}
+		RIS_come_to_rescanie_2 = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.15
+				political_power_gain = 0.1
+				research_speed_factor = 0.1   
+			}
+		
+		}
+		RIS_come_to_rescanie_3 = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.10   
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = -0.10 
+			}
+		
+		}
+		RIS_come_to_rescanie_4 = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.20
+				industrial_capacity_factory = -0.1
+				stability_factor = 0.1				   
+			}
+		
 		}	
 		RIS_high_research_budget = {
 			picture = sin_islands
@@ -299,6 +401,48 @@ ideas = {
 			}
 		
 		}
+		RIS_corpo_betrayal = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				despotism_drift = 0.2
+				corporatism_drift = -0.1
+			}
+		
+		}
+		RIS_merc_training = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				breakthrough_factor = 0.05
+				experience_loss_factor = -0.1
+				equipment_capture_factor = 0.1
+				offence = 0.1
+				army_leader_start_level = 1
+				army_leader_start_attack_level = 2
+			}
+		
+		}
 		RIS_civil_merc_1 = {
 			picture = sin_islands
 			
@@ -313,7 +457,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.05
+				stability_factor = 0.05
+ 				political_power_gain = 0.10
+ 				consumer_goods_factor = 0.02 
 			}
 		
 		}
@@ -331,8 +477,68 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = 0.05
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
 
+			}
+		
+		}
+		RIS_glory_fortune_adventure = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				send_volunteer_size = 5
+				special_forces_min = 15
+				army_fuel_consumption_factor = -0.1
+				consumer_goods_factor = -0.05
+			}
+		
+		}
+		RIS_ressource_exploitation = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			local_resources_factor = 0.15
+			}
+		
+		}
+			RIS_new_generation = {
+			picture = sin_islands
+			
+			allowed = { 
+				tag = RIS
+            }		
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.1
+				stability_factor = 0.1
+				supremacism_drift = 0.1 
 			}
 		
 		}	

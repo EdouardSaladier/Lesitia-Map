@@ -32,7 +32,6 @@ characters = {
 		portraits={
 			army={
 				large="gfx/leaders/RIS/portrait_RIS_zinc.dds"
-				small=GFX_portrait_GER_friedrich_paulus_small
 			}
 		}
 		corps_commander={
@@ -48,6 +47,26 @@ characters = {
 			traits = { RIS_been_there_seen_it_got_the_scar }
 			desc = RIS_zinc_leader_desc
 			expire = "4000.1.1.1"
+		}
+	}
+	RIS_oscar_leader = {
+		name = "Oscar"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RIS/portrait_RIS_oscar.dds"
+				}
+			}
+			country_leader = {
+			ideology = democracy_type
+			desc = RIS_oscar_desc
+			expire = "4000.1.1.1"
+		}
+		corps_commander={
+			skill=5
+			attack_skill=2
+			defense_skill=2
+			planning_skill=6
+			logistics_skill=3
 		}
 	}
 }
