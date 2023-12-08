@@ -1623,7 +1623,7 @@ focus_tree = {
 		id = RIS_wip
 		icon = GFX_focus_generic_self_management
 		cost = 7
-		x = 15
+		x = 8
 		y = 12
 		available = { 
 			has_country_flag = RIS_good_update
@@ -1634,6 +1634,245 @@ focus_tree = {
 		hidden_effect = {
 		RIS = { country_event = { id = RIS.999 } }
 		}
+		}
+	}
+	focus = {
+		id = RIS_war_is_over
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 15
+		y = 10
+		available = { 
+			has_country_flag = RIS_unification
+		}
+		prerequisite = {
+			focus = RIS_launch_the_conquest
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_find_those_responsible
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 12
+		y = 11
+		prerequisite = {
+			focus = RIS_war_is_over
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_the_iron_first
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 12
+		y = 12
+		prerequisite = {
+			focus = RIS_find_those_responsible
+		}
+		mutually_exclusive = { focus = RIS_free_the_workers }
+		mutually_exclusive = { focus = RIS_democracy_and_freedom }
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_democracy_and_freedom
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 10
+		y = 12
+		prerequisite = {
+			focus = RIS_find_those_responsible
+		}
+		mutually_exclusive = { focus = RIS_the_iron_first }
+		mutually_exclusive = { focus = RIS_free_the_workers }
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_free_the_workers
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 14
+		y = 12
+		prerequisite = {
+			focus = RIS_find_those_responsible
+		}
+		mutually_exclusive = { focus = RIS_the_iron_first }
+		mutually_exclusive = { focus = RIS_democracy_and_freedom }
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_the_local_policies
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 13
+		y = 13
+		prerequisite = {
+			focus = RIS_the_iron_first
+			focus = RIS_democracy_and_freedom
+			focus = RIS_free_the_workers
+		}
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_bring_back_stability
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 11
+		y = 13
+		prerequisite = {
+			focus = RIS_the_iron_first
+			focus = RIS_democracy_and_freedom
+			focus = RIS_free_the_workers
+		}
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_end_of_the_chaos
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 12
+		y = 14
+		prerequisite = {
+			focus = RIS_bring_back_stability
+		}
+		prerequisite = {
+			focus = RIS_the_local_policies
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_salvaging_the_economy
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 18
+		y = 11
+		prerequisite = {
+			focus = RIS_war_is_over
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_build_back_better
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 19
+		y = 12
+		prerequisite = {
+			focus = RIS_salvaging_the_economy
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_from_the_ground_up
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 17
+		y = 12
+		prerequisite = {
+			focus = RIS_salvaging_the_economy
+		}
+		mutually_exclusive = { focus = RIS_build_back_better }
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_the_status_of_labor_lawq
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 16
+		y = 13
+		prerequisite = {
+			focus = RIS_from_the_ground_up
+			focus = RIS_build_back_better
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_the_new_economy
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 18
+		y = 13
+		prerequisite = {
+			focus = RIS_from_the_ground_up
+			focus = RIS_build_back_better
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_reopen_the_mines
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 20
+		y = 13
+		prerequisite = {
+			focus = RIS_from_the_ground_up
+			focus = RIS_build_back_better
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_end_of_misery
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 18
+		y = 14
+		prerequisite = {
+			focus = RIS_the_status_of_labor_lawq
+		}
+		prerequisite = {
+			focus = RIS_reopen_the_mines
+		}
+		prerequisite = {
+			focus = RIS_the_new_economy
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = RIS_open_to_the_world
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 15
+		y = 15
+		prerequisite = {
+			focus = RIS_end_of_the_chaos
+		}
+		prerequisite = {
+			focus = RIS_end_of_misery
+		}
+		completion_reward = {
+			add_political_power = 1
 		}
 	}
 }

@@ -19,9 +19,6 @@ TPG_federation_ADJ:0 "Symbiotic"
 ETH_federation:0 "Integralist Symbiotic Union"
 ETH_federation_DEF:0 "the Integralist Symbiotic Union"
 ETH_federation_ADJ:0 "Symbiotic"
-RIS_federation:0 "Symbiotic Federation"
-RIS_federation_DEF:0 "the Symbiotic Federation"
-RIS_federation_ADJ:0 "Symbiotic"
 RFT_federation:0 "First Symbiotic Republic"
 RFT_federation_DEF:0 "the First Symbiotic Republic"
 RFT_federation_ADJ:0 "Symbiotic"
@@ -90,8 +87,6 @@ TPG_despotism_party:0 "R.P.F"
 TPG_despotism_party_long:0 "Redemption Party of the Federation"
 ETH_supremacism_party:0 "N.I.P"
 ETH_supremacism_party_long:0 "National Integralist Party"
-RIS_democracy_party:0 "P.T.V"
-RIS_democracy_party_long:0 "Party of Triumphant Victory"
 TBZ_corporatism_party:0 "Ephemeral Congress"
 TBZ_corporatism_party_long:0 "the Ephemeral Congress"
 TBZ_despotism_party:0 "Imperial Royalists"
@@ -138,10 +133,6 @@ WRL_Scavange_Mechanized_Support_Vechicles_tooltip:0 "§Y500§! units of §YArmor
 ########################
 ####### Decisions ######
 ########################
-
-ris_support_exiles:0 "Support Exiles"
-ris_support_exiles_desc:0 "It's our duty to get rid of the bandits running our country, but to do so we have to get enough popular support for the Federal exiles"
-
 
 ########################
 ######### END ##########
@@ -272,7 +263,7 @@ demand_RFT_desc:0 "The Republican Front is what's left of the political system o
 demand_LAV_desc:0 "Lavido was one of the most loyal regions of the Federation, there is a chance, even if slim, that they might accept to join us due to this."
 demand_ACS_desc:0 "The Southern Army of the Federation was one of the most loyal and elite troops that the Federation had to offer, they are bound to accept to come back to us, or at the very least we have better odds of them accepting than anyone else."
 WRL_unification_desc:0 "The Federation was once the biggest and most powerful Insect state, even with it's flaws it was still seen as the representative of the arthropod races and to bring it back would bring us much needed stability and unity, together with giving us a favorable position in the diplomatic world."
-ris_government_change:0 "Oust the Criminals"
+WRL_government_change:0 "Oust the Criminals"
 ACS.1.t:0 "Symbiotica Demands our Annexation"
 ACS.1.d:0 "The Federal Exiles that have taken power in the Rescanie islands, now known as "the Republic of Symbiotica", have sent forward a ultimatum demanding our annexation, claiming that due to the fact they claim to be the old government we are obligated by law to serve them, and by refusing to do so would be an act of betrayal to the Federation and her institutions."
 ACS.1.a:0 "It's Our Duty to Serve"
@@ -316,6 +307,22 @@ tooltip_attacking_warlord:0 "Not Already Preparing an Attack"
 outer_militarize:0 "Militarize the Nation"
 outer_militarize_desc:0 "Due to the collapse of the Federation it only makes sense that West Avenska frees itself from it's shackles, but, due to the breach of West Avenskan neutrality our old allies won't protect us anymore"
 
+WRL_war_is_over:0 "War Is Over"
+WRL_find_those_responsible:0 "Find Those Responsible"
+WRL_the_iron_first:0 "The Iron First"
+WRL_democracy_and_freedom:0 "Democracy And Freedon"
+WRL_free_the_workers:0 "Free The Workers"
+WRL_the_local_policies:0 "The Local Policies"
+WRL_bring_back_stability:0 "Bring Back Stability"
+WRL_end_of_the_chaos:0 "End Of The Chaos"
+WRL_salvaging_the_economy:0 "Salvaging The Economy"
+WRL_build_back_better:0 "Build Back Better"
+WRL_from_the_ground_up:0 "From The Ground Up"
+WRL_the_status_of_labor_lawq:0 "The Status Of Labor Laws"
+WRL_the_new_economy:0 "The New Ecconomy"
+WRL_reopen_the_mines:0 "Reopen The Mines"
+WRL_end_of_misery:0 "End Of Misery"
+WRL_open_to_the_world:0 "Open To The World"
 ####other other###
 TBZ_eternal_protector:0 "§REternal Protector"
 TBZ_aspiring_imperialist:0 "§RAspiring Imperialist"
