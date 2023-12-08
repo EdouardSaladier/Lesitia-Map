@@ -99,6 +99,11 @@ WRL_unification = {
     }
 	
 	visible = {
+		OR = {
+		has_completed_focus = WRL_Begin_Expansion
+		has_completed_focus = TBZ_conquest_start
+		tag = RIS
+		}
 	   OR = {
           tag = RFT
 		  tag = TER
