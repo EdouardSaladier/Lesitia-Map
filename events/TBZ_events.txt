@@ -31,6 +31,7 @@ country_event = {    ###TBZ leader question
 			long_name = TBZ_despotism_party_long
 			name = TBZ_despotism_party 
 		}
+		complete_national_focus = TBZ_maul
 		country_event = { id = TBZ.2 }
 	}
 	
@@ -51,6 +52,7 @@ country_event = {    ###TBZ leader question pt.2 (decides if the country will be
 		}
 		set_cosmetic_tag = subject_federation 
 		REO = { puppet = TBZ }
+		complete_national_focus = TBZ_maul_collab
 	}
 	option = { 
 		name = TBZ.4.b
@@ -63,6 +65,7 @@ country_event = {    ###TBZ leader question pt.2 (decides if the country will be
 	        ruling_party = supremacism
 	        elections_allowed = no
 		}
+		complete_national_focus = TBZ_maul_new_empire
 		set_party_name = { 
 			ideology = supremacism
 			long_name = TBZ_supremacism_party_long
@@ -83,6 +86,9 @@ country_event = {    ###TBZ leader question pt.3 (Here is to decide, Andrei deci
 		name = TBZ.5.a  #don't give him power option (nothing happens)
 		ai_chance = {
 			factor = 50
+		}
+		hidden_effect = {
+			complete_national_focus	= TBZ_andrei
 		}
 	}
 	option = { 
@@ -410,6 +416,7 @@ country_event = { ###Venom Co. Approaches TBZ for drug trade
 				load_oob = TBZ/venom_mercs
 			}
 			unlock_decision_category_tooltip = TBZ_mercenaries
+			add_ideas = {TBZ_venom}
 	}
 }
 
@@ -425,5 +432,60 @@ country_event = { #maul intro
 	option = {
 		name = TBZ.201.a #Our options for allies are limited
 		add_ideas = {tbz_imperial_remnants}
+	}
+}
+country_event = { #Fate of the Bandits
+	id = TBZ.202
+	title = TBZ.202.t
+	desc = TBZ.202.d
+	picture = GFX_report_event_bandits_dead
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = TBZ.202.a #Good Ridance
+		TBZ_marco_general = {remove_unit_leader = yes}
+		TBZ_andrei_general = {remove_unit_leader = yes}
+		TBZ_vermilio_general = {remove_unit_leader = yes}
+	}
+}
+country_event = { #Anti-Collab Riots
+	id = TBZ.210
+	title = TBZ.210.t
+	desc = TBZ.210.d
+	picture = GFX_symbiotic_entry_event
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = TBZ.210.a
+		add_ideas = {TBZ_anti_empire}
+	}
+}
+country_event = { #Emperor of the 2nd empire
+	id = TBZ.220
+	title = TBZ.220.t
+	desc = TBZ.220.d
+	picture = GFX_symbiotic_entry_event
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = TBZ.220.a
+		REO = {
+			add_opinion_modifier = {
+				target = TBZ
+				modifier = large_decrease
+			}
+		}
+		GLR = {
+			add_opinion_modifier = {
+				target = TBZ
+				modifier = large_decrease
+			}
+		}
 	}
 }

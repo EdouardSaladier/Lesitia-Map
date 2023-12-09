@@ -2,6 +2,10 @@ TBZ_mercenaries = {
 	icon = GFX_decision_venom
 	priority = 9
 	picture = GFX_decision_federation_map
-	visible = {has_completed_focus = TBZ_sell_drugs}
+	visible = {
+	has_completed_focus = TBZ_sell_drugs
+	OR =
+	has_completed_focus = TBZ_venom_base
+	}
 	tag = TBZ
 }

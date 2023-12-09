@@ -573,6 +573,25 @@ focus_tree = {
 			add_war_support = 0.1
 		}
 	}
+	focus = {
+		id = TBZ_venom_base
+		icon = GFX
+		x = -1
+		y = 1
+		relative_position_id = TBZ_AA
+		cost = 12
+		ai_will_do = {
+			factor = 40
+		}
+		
+		available = {
+			has_decision = wrl_unify_south_west
+			has_idea = TBZ_venom
+		}
+		completion_reward = {
+		
+		}
+	}
 #Pillage Focuses
 	focus = { #Exploit The Termites
 		id = TBZ_termites
@@ -630,5 +649,392 @@ focus = { #Exploit The Miners
 			}
 		}
 		
-	}	
+	}
+##POST WAR###
+focus = {
+		id = TBZ_conquest_finish
+		icon = GFX_goal_TBZ_raider_drills
+		x = 0
+		y = 3
+		relative_position_id = TBZ_conquest_start
+		prerequisite = {focus = TBZ_conquest_start}
+		bypass = { has_decision = warlord_unification}
+		cost = 0
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+			has_decision = warlord_unification
+		}
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+#Andrei
+focus = { 
+		id = TBZ_andrei
+		icon = GFX_goal_TBZ_raider_drills
+		x = 0
+		y = 1
+		relative_position_id = TBZ_conquest_finish
+		prerequisite = {focus = TBZ_conquest_finish}
+		cost = 12
+		ai_will_do = {
+			factor = 80
+		}
+		
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+	focus = { 
+		id = TBZ_the_great_harvest
+		icon = GFX_goal_TBZ_hire_mercs
+		x = 0
+		y = 1
+		relative_position_id = TBZ_andrei
+		prerequisite = {focus = TBZ_andrei}
+		cost = 12
+		ai_will_do = {
+			factor = 80
+		}
+		
+		
+		available = {
+		}
+		
+		completion_reward = {
+			155 = {
+				add_manpower = -70000
+			118 = {
+				add_manpower = 40000
+			}
+			}
+			156 = {
+				add_manpower = -100000
+			}
+			157 = {
+				add_manpower = -500000
+			}
+			204 = {
+				add_manpower = -100000
+			}
+			add_stability = -0.50
+			add_war_support = -.50
+		}
+	}
+#Maul
+	focus = {
+		id = TBZ_maul
+		icon = GFX
+		x = -2
+		y = 1
+		relative_position_id = TBZ_conquest_finish
+		prerequisite = {focus = TBZ_conquest_finish}
+		cost = 12
+		ai_will_do = {
+			factor = 0
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+#Maul Collab Path
+		focus = {
+		id = TBZ_maul_collab
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = TBZ_maul
+		prerequisite = {focus = TBZ_maul}
+		mutually_exclusive = {focus = TBZ_maul_new_empire}
+		cost = 0
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+			country_event = TBZ.210
+		}
+	}
+	focus = {
+		id = TBZ_collab_riot
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = TBZ_maul_collab
+		prerequisite = {focus = TBZ_maul_collab}
+		cost = 12
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+		}
+		completion_reward = { remove_ideas = TBZ_anti_empire}
+	}
+	focus = {
+		id = TBZ_collab_rheol_trade
+		icon = GFX
+		x = 1
+		y = 1
+		relative_position_id = TBZ_collab_riot
+		prerequisite = {focus = TBZ_collab_riot}
+		cost = 12
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+		}
+		completion_reward = {}
+	}
+	focus = {
+		id = TBZ_imperial_refugees
+		icon = GFX
+		x = -1
+		y = 1
+		relative_position_id = TBZ_collab_riot
+		prerequisite = {
+		focus = TBZ_maul_collab
+		focus = TBZ_maul_new_empire
+		}
+		cost = 12
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+		}
+		completion_reward = {
+			add_manpower = 10000
+		}
+	}
+	focus = {
+		id = TBZ_maul_purge
+		icon = GFX
+		x = -3
+		y = 1
+		relative_position_id = TBZ_collab_riot
+		prerequisite = {
+		focus = TBZ_maul_new_empire
+		focus = TBZ_maul_collab
+		}
+		cost = 12
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = corporatism
+				popularity = -0.5
+			}
+			add_popularity = {
+				ideology = democracy
+				popularity = -0.1
+			}
+			add_manpower = -500000
+			remove_ideas = {wrl_overextension_1}
+			country_event = TBZ.202
+		}
+	}
+#maul 2nd Empire
+		focus = {
+		id = TBZ_maul_new_empire
+		icon = GFX
+		x = -3
+		y = 1
+		relative_position_id = TBZ_maul
+		prerequisite = {focus = TBZ_maul}
+		mutually_exclusive = {focus = TBZ_maul_collab}
+		cost = 0
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = TBZ_maul_corronation
+		icon = GFX
+		x = -2
+		y = 1
+		relative_position_id = TBZ_maul_new_empire
+		prerequisite = {focus = TBZ_maul_new_empire}
+		cost = 0
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		country_event = TBZ.220`
+		}
+	}
+		focus = { #Expand The Empire
+		id = TBZ_expand_empire
+		icon = GFX
+		x = -1
+		y = 1
+		relative_position_id = TBZ_maul_corronation
+		prerequisite = {focus = TBZ_maul_corronation}
+		cost = 12
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+	focus = { #New General
+		id = TBZ_maul_new_staff
+		icon = GFX
+		x = 1
+		y = 1
+		relative_position_id = TBZ_maul_purge
+		prerequisite = {focus = TBZ_maul_purge}
+		prerequisite = {focus = TBZ_imperial_refugees}
+		cost = 6
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+	focus = { #Clean Up
+		id = TBZ_maul_cleanup
+		icon = GFX
+		x = -1
+		y = 1
+		relative_position_id = TBZ_maul_purge
+		prerequisite = {focus = TBZ_maul_purge}
+		cost = 12
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			remove_ideas = {
+				tbz_science
+				drugged_bandits
+				bandit_drug_industry
+				bandit_economy
+				ruthless_rule
+			
+			}
+		}
+	}
+#Truz
+	focus = {
+		id = TBZ_truz
+		icon = GFX
+		x = 2
+		y = 1
+		relative_position_id = TBZ_conquest_finish
+		prerequisite = {focus = TBZ_conquest_finish}
+		cost = 12
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+#Avenska
+	focus = {
+		id = TBZ_avenska
+		icon = GFX
+		x = 4
+		y = 1
+		relative_position_id = TBZ_conquest_finish
+		prerequisite = {focus = TBZ_conquest_finish}
+		cost = 12
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = TBZ_dwr_deheu_canal
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = TBZ_avenska
+		prerequisite = {focus = TBZ_avenska}
+		cost = 12
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			29 = {
+				add_claim_by = TBZ
+			}
+		}
+	}
+#Vrat
+	focus = {
+		id = TBZ_vrat
+		icon = GFX
+		x = 6
+		y = 1
+		relative_position_id = TBZ_conquest_finish
+		prerequisite = {focus = TBZ_conquest_finish}
+		cost = 12
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
 }

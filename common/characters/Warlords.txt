@@ -158,6 +158,7 @@ characters = {
 			}
 			available  = {
 				has_completed_focus  = TBZ_solidify_power
+				NOT = has_completed_focus  = TBZ_maul
 			}
 			traits  = {
 				prince_of_terror

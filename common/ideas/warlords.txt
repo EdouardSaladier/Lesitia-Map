@@ -527,7 +527,7 @@ ideas = {
 			political_power_factor = 0.05
 			}
 		}
-			drugged_bandits = {
+		drugged_bandits = {
 			picture =
 			
 			allowed = { 
@@ -617,6 +617,33 @@ ideas = {
 			stability_factor = 0.1
 			}
 		}
+		TBZ_anti_empire = {
+			picture =
+			alowed = {
+				tag = TBZ
+			}
+			
+			available = {}
+			
+			cancel = {
+			  OR = {
+			    has_cosmetic_tag = nice_federation 
+			    has_cosmetic_tag = evil_federation 
+			  }
+            }
+			modifier = {
+			stability_factor = -0.3
+			war_support_factor = -0.5
+			}
+		}
+		TBZ_venom
+			picture =
+			allowed = {
+				tag = TBZ
+			}
+			
+			available = {}
+			modifier = {)
 		##TBZ Drug trade effecting people in the region##
 		tbz_opiod_epidemic = {
 			picture = GFX
