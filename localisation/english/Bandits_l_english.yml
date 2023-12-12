@@ -137,3 +137,8 @@ tbz_imperial_remnants:0 "Former Glaurungir Collaborators"
 tbz_imperial_remnants_desc:0 "Working alongside the bandits are former imperial collaborators. While the drunk and high bandits chaotically pillage through the country, the ex-imperials under the command of Maul Incarnatto keep everything in check with strict and brutal efficiency."
 TBZ_venom:0 "Venom Co. Contract"
 TBZ_venom_desc:0 "The private military company, Venom Co., has signed a contract with the Empherical Gang and have deployed mercenaries and various private contractors to aid them."
+
+
+##TOOLTIPS##
+
+TBZ_venom_base_tt:0 "§GConstructing a dedicated base for Venom Co. will allow us to continue using them in the event Akuriel purges them.§G"

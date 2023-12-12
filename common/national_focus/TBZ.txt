@@ -218,7 +218,11 @@ focus_tree = {
 			every_owned_state = {
 				add_manpower = -1000
 			}
+		add_popularity = {
+			ideology = democracy
+			popularity = -0.01
 		}
+	}
 	}
 	focus = { #Eliminate Immediate Threats
 		id = TBZ_eliminate_threats
@@ -235,6 +239,10 @@ focus_tree = {
 		completion_reward = {
 			add_stability = .05
 			add_manpower = -2000
+		add_popularity = {
+			ideology = democracy
+			popularity = -0.15
+		}
 		}
 }
 	focus = { #Solidify Power
@@ -570,6 +578,7 @@ focus_tree = {
 			factor = 80
 		}
 		completion_reward = {
+			custom_effect_tooltip = WRL_expasion_tooltip
 			add_war_support = 0.1
 		}
 	}
@@ -589,7 +598,7 @@ focus_tree = {
 			has_idea = TBZ_venom
 		}
 		completion_reward = {
-		
+			custom_effect_tooltip = TBZ_venom_base_tt
 		}
 	}
 #Pillage Focuses
@@ -663,7 +672,6 @@ focus = {
 		ai_will_do = {
 			factor = 80
 		}
-		
 		available = {
 			has_decision = warlord_unification
 		}
@@ -710,23 +718,7 @@ focus = {
 		}
 		
 		completion_reward = {
-			155 = {
-				add_manpower = -70000
-			118 = {
-				add_manpower = 40000
-			}
-			}
-			156 = {
-				add_manpower = -100000
-			}
-			157 = {
-				add_manpower = -500000
-			}
-			204 = {
-				add_manpower = -100000
-			}
-			add_stability = -0.50
-			add_war_support = -.50
+		country_event = TBZ.2
 		}
 	}
 #Maul

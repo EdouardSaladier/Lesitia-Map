@@ -435,6 +435,7 @@ ideas = {
 				resistance_growth = 0.25
 				stability_weekly = -0.05
 				conscription = -0.10
+				corporatism_drift = -0.05
 			}
 		}
 		ephemeral_militia = {
@@ -615,6 +616,7 @@ ideas = {
             }
 			modifier = {
 			stability_factor = 0.1
+			supremacism_drift = 0.01
 			}
 		}
 		TBZ_anti_empire = {
@@ -636,16 +638,29 @@ ideas = {
 			war_support_factor = -0.5
 			}
 		}
-		TBZ_venom
+		TBZ_venom = {
 			picture =
 			allowed = {
 				tag = TBZ
 			}
 			
 			available = {}
-			modifier = {)
+			cancel = {
+				AND = {
+					AKU = {
+						has_completed_focus = AKU_rev_civil_war
+					}
+					TBZ = {
+					NOT = {has_completed_focus = TBZ_venom_base}
+					}
+				}
+			}
+			modifier = {
+				corporatism_drift = 0.01
+			}
+			}
 		##TBZ Drug trade effecting people in the region##
-		tbz_opiod_epidemic = {
+		TBZ_opiod_epidemic = {
 			picture = GFX
 			allowed = {}
 			

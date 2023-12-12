@@ -419,7 +419,6 @@ country_event = { ###Venom Co. Approaches TBZ for drug trade
 			add_ideas = {TBZ_venom}
 	}
 }
-
 country_event = { #maul intro
 	id = TBZ.201
 	title = TBZ.201.t
@@ -487,5 +486,212 @@ country_event = { #Emperor of the 2nd empire
 				modifier = large_decrease
 			}
 		}
+	}
+}
+country_event = { #Mass looting of the population
+	id = TBZ.300
+	title = TBZ.300.t
+	desc = TBZ.300.d
+	picture = GFX_symbiotic_entry_event
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	}
+	
+	option = { #All shall pay tribute to Rodion, no matter what.
+		name = TBZ.300.a
+		155 = {
+			add_manpower = -500
+		}
+		156 = {
+			add_manpower = -10000
+		}
+		157 = {
+			add_manpower = -10000
+		}
+		158 = {
+			add_manpower = -10000
+		}
+		174 = {
+			add_manpower = -10000
+		}
+		159 = {
+			add_manpower = -500
+		}
+		160 = {
+			add_manpower = -15000
+		}
+		161 = {
+			add_manpower = -10000
+		}
+		162 = {
+			add_manpower = -10000
+		}
+		163 = {
+			add_manpower = -10000
+		}
+		164 = {
+			add_manpower = -10000
+		}
+		165 = {
+			add_manpower = -10000
+		}
+		166 = {
+			add_manpower = -10000
+		}
+		167 = {
+			add_manpower = -10000
+		}
+				168 = {
+			add_manpower = -10000
+		}
+				169 = {
+			add_manpower = -10000
+		}
+		170 = {
+			add_manpower = -10000
+		}
+		171 = {
+			add_manpower = -10000
+		}
+		172 = {
+			add_manpower = -10000
+		}
+		173 = {
+			add_manpower = -10000
+		}
+				174 = {
+			add_manpower = -10000
+		}
+		176 = {
+			add_manpower = -10000
+		}
+		177 = {
+			add_manpower = -10000
+		}
+		178 = {
+			add_manpower = -10000
+		}
+		179 = {
+			add_manpower = -10000
+		}
+		180 = {
+			add_manpower = -10000
+		}
+	}
+}
+country_event = { #Mass migration
+	id = TBZ.301
+	title = TBZ.301.t
+	desc = TBZ.301.d
+	picture = GFX_symbiotic_entry_event
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	}
+	
+	option = { #Who cares, we have millions more
+		name = TBZ.301.a
+				155 = {
+			add_manpower = -500
+		}
+		156 = {
+			add_manpower = -100000
+		}
+		157 = {
+			add_manpower = -300000
+		}
+		158 = {
+			add_manpower = -10000
+		}
+		174 = {
+			add_manpower = -10000
+		}
+		159 = {
+			add_manpower = -500
+		}
+		160 = {
+			add_manpower = -150000
+		}
+		161 = {
+			add_manpower = -10000
+		}
+		162 = {
+			add_manpower = -10000
+		}
+		163 = {
+			add_manpower = -10000
+		}
+		164 = {
+			add_manpower = -100000
+		}
+		165 = {
+			add_manpower = -10000
+		}
+		166 = {
+			add_manpower = -10000
+		}
+		167 = {
+			add_manpower = -10000
+		}
+				168 = {
+			add_manpower = -10000
+		}
+				169 = {
+			add_manpower = -10000
+		}
+		170 = {
+			add_manpower = -10000
+		}
+		171 = {
+			add_manpower = -10000
+		}
+		172 = {
+			add_manpower = -10000
+		}
+		173 = {
+			add_manpower = -10000
+		}
+				174 = {
+			add_manpower = -10000
+		}
+		176 = {
+			add_manpower = -10000
+		}
+		177 = {
+			add_manpower = -10000
+		}
+		178 = {
+			add_manpower = -10000
+		}
+		179 = {
+			add_manpower = -10000
+		}
+		180 = {
+			add_manpower = -10000
+		}
+		201 = {
+			add_manpower = -500000
+		}		
+	}
+}
+country_event = { #Massive Opoid Crisis
+	id = TBZ.302
+	title = TBZ.302.t
+	desc = TBZ.302.d
+	picture = GFX_symbiotic_entry_event
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	}
+	
+	option = { #So long as we keep making money.
+		name = TBZ.302.a
 	}
 }
