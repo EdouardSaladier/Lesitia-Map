@@ -158,7 +158,7 @@ characters = {
 			}
 			available  = {
 				has_completed_focus  = TBZ_solidify_power
-				NOT = has_completed_focus  = TBZ_maul
+				NOT = {has_completed_focus = TBZ_maul}
 			}
 			traits  = {
 				prince_of_terror
@@ -170,6 +170,34 @@ characters = {
 			}
 		}
 }
+	TBZ_luski_vasilios = {
+		name  = "Luski Vasilios"
+		portraits = {civilian = {small = "gfx/interface/advisors/TBZ/TBZ_luski_vasilios_small.dds"}}
+		advisor = {
+			slot = political_advisor
+			idea_token = luski_vasilios
+			ledger = civilian
+			allowed = {original_tag = TBZ}
+			available = {}
+			traits = {captain_of_industry}
+			do_effect = {}
+			ai_will_do = {factor = 100}
+		}
+	}
+	TBZ_marco_russo = {
+		name = "Marco Russo"
+		portraits = {civilian = {small = "gfx/interface/advisors/TBZ/TBZ_marco_russo_small.dds"}}
+		advisor = {
+			slot = army_chief
+			idea_token = marco_russo
+			ledger = army
+			allowed = {original_tag = TBZ}
+			available = {}
+			traits = {army_chief_organizational_1}
+			do_effect = {}
+			ai_will_do = {factor = 100}
+		}
+	}
 	UHL_ancom = {
 		name = "United Hives Council"
 		portraits = {

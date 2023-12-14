@@ -12,8 +12,48 @@
  civ_non_core_food_cons_low:0 "Limited Food Rationing"
  civ_non_core_food_cons_very_low:0 "Draconian Food Rationing"
 
+##############
+###Policies###
+##############
+
+#Economy#
  economy_type:0 "Economic Policy"
+ command_economy:0 "Command Economy"
+ mixed_economy:0 "Mixed Economy"
+ free_market:0 "Free Market Economy"
+ traditional_economy:0 "Traditional Economy"
+ #Ruler Policy#
+ government_type:0 "Ruler Policy"
+ republic_type:0 "Rep. Democracy"
+ republic_type_desc:0 "The nation is ruled by an elected official."
+ oligarchy_type:0 "Oligarchy"
+ oligarchy_type_desc:0 "The nation is led by a council individuals."
+ absolutist_monarchy:0 "Absolutist Monarchy"
+ absolutist_monarchy_desc:0 "The nation is ruled by a monarch with absolute power."
+ constitutional_monarchy:0 "Con. Monarchy"
+ constitutional_monarchy_desc:0 "The nation's head of state is a monarch, however their power is limited by a constitution."
+ junta_type:0 "Military Junta"
+ junta_type_desc:0 "The military rules the nation."
+ dictatorship_type:0 "Dictatorship"
+ dictatorship_type_desc:0 "The nation is ruled by a dictator."
+ anarchist_type:0 "Anarchism"
+ anarchist_type_desc:0 "There is no ruler or authority leading the nation."
+ theocratic_type:0 "Theocratic Rule"
+ theocratic_type_desc:0 "The nation is led by a divine power. There may be officials who lead the state as representatives of the faith and it's interests."
+ #Religion# 
  religious_policy:0 "Religious Policy"
+ state_religion:0 "State Religion"
+ secularism:0 "Secularism"
+ state_atheism:0 "State Atheism"
+#Press#
  press_policy:0 "Press Policy"
+ free_press:0 "Freedom of Speech"
+ light_censorship:0 "Light Censorship"
+ hard_censorship:0 "Hard Censorship"
+#Species
  race_policy:0 "Species Policy"
- free_market:0 ""
+ affirmative_action:0 "Affirmative Action"
+ equal_species:0 "Equal Species"
+ segregation:0 "Segregation"
+ species_hierarchy:0 "Species Hierarchy"
+ one_species:0 "One Species Only"

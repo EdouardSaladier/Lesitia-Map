@@ -580,6 +580,7 @@ country_event = { #Mass looting of the population
 		180 = {
 			add_manpower = -10000
 		}
+		hidden_effect = {country_event = TBZ.301}
 	}
 }
 country_event = { #Mass migration
@@ -596,9 +597,9 @@ country_event = { #Mass migration
 	
 	option = { #Who cares, we have millions more
 		name = TBZ.301.a
-				155 = {
+			155 = {
 			add_manpower = -500
-		}
+			}
 		156 = {
 			add_manpower = -100000
 		}
@@ -676,10 +677,11 @@ country_event = { #Mass migration
 		}
 		201 = {
 			add_manpower = -500000
-		}		
+		}
+		hidden_effect = {country_event = TBZ.303}
 	}
 }
-country_event = { #Massive Opoid Crisis
+country_event = { #Opiod Epidemic
 	id = TBZ.302
 	title = TBZ.302.t
 	desc = TBZ.302.d
@@ -691,7 +693,8 @@ country_event = { #Massive Opoid Crisis
 	trigger = {
 	}
 	
-	option = { #So long as we keep making money.
+	option = { #So long as we keep making money.#
 		name = TBZ.302.a
+		add_ideas = {TBZ_opiod_epidemic}
 	}
 }

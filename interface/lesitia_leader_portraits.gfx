@@ -5,8 +5,14 @@ spriteTypes = {
 		name = "GFX_maul_small"
 		texturefile = "gfx/interface/advisors/TBZ/TBZ_maul_small.dds"
 	}	
-	
-	
+	spriteType = {
+		name = "GFX_luski_vasilios_small"
+		texturefile = "gfx/interface/advisors/TBZ/TBZ_luski_vasilios_small.dds"
+	}	
+	spriteType = {
+		name = "GFX_marco_russo_small"
+		texturefile = "gfx/interface/advisors/TBZ/TBZ_marco_russo_small.dds"
+	}	
 	### FHI
 
 	spriteType = {

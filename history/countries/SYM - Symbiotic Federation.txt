@@ -151,6 +151,9 @@ set_technology = {
 	flak_cannons = 1
 	rocketry_advancements = 1
 
+		surface_combat_vessel = 1
+	naval_escort_vessel = 1
+
 	multirole_fighter = 1
 	aerial_coverage_unit = 1
 
@@ -202,6 +205,11 @@ add_ideas = {
 	chaotic_existence
 	#regionalism_problem
 	emergency_assistance
+	free_press
+	secularism
+	equal_species
+	free_market
+	republic_type
 }
 
 recruit_character = SYM_amber_democracy

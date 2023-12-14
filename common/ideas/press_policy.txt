@@ -7,7 +7,6 @@ ideas = {
 		#Freedom of Speech
 		free_press = {	
 			modifier = {
-				political_power_factor = 0.01
 			}
 			cost = -1	
 			ai_will_do = {
@@ -19,6 +18,7 @@ ideas = {
 		light_censorship = {	
 			modifier = {
 				political_power_factor = 0.01
+				drift_defence_factor = 0.01
 			}
 			cost = -1	
 			ai_will_do = {
@@ -30,11 +30,16 @@ ideas = {
 		hard_censorship = {	
 			modifier = {
 				political_power_factor = 0.01
+				stability_factor = 0.05
+				drift_defence_factor = 0.10
 			}
-			cost = -1	
+			cost = -1
 			ai_will_do = {
    				factor = 0.5
    			}
+			available = {
+				NOT = {has_government = democracy}
+			}
 		}		
 	}
 }

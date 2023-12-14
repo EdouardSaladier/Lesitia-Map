@@ -53,13 +53,13 @@ ideas = {
 		#Traditional Economy
 		traditional_economy = {	
 			modifier = {
-			research_speed_factor = -0.15
-			political_power_gain = 0.05
-			stability_factor = 0.05
-			mobilization_speed = 0.1
+			research_speed_factor = -0.5
+			political_power_gain = -0.1
+			stability_factor = -0.1
+			mobilization_speed = -0.5
 			conversion_cost_civ_to_mil_factor = 0.1
-			production_factory_efficiency_gain_factor = -0.1
-			production_factory_max_efficiency_factor = -0.1
+			production_factory_efficiency_gain_factor = -0.5
+			production_factory_max_efficiency_factor = -0.5
 			}
 			cost = -1	
 			ai_will_do = {

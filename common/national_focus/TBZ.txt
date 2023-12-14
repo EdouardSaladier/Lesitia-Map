@@ -40,6 +40,13 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = bandit_drug_industry
+			hidden_effect = {
+				country_event = {
+				id = TBZ.302
+					days = 357
+					random_days = 375
+				}
+			}
 		}
 	}
 	focus = {#Drug Our Troops
@@ -718,14 +725,78 @@ focus = {
 		}
 		
 		completion_reward = {
-		country_event = TBZ.2
+		country_event = TBZ.300
+		}
+	}
+	focus = {
+		id = TBZ_criminal_empire
+		icon = GFX_goal_TBZ_hire_mercs
+		x = -1
+		y = 1
+		relative_position_id = TBZ_the_great_harvest
+		prerequisite = {focus = TBZ_the_great_harvest}
+		mutually_exclusive = {focus = TBZ_going_legit}
+		cost = 6
+		ai_will_do = {
+			factor = 80
+		}
+		
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+#Good Guy Andrei
+	focus = {
+		id = TBZ_going_legit
+		icon = GFX
+		x = 1
+		y = 1
+		relative_position_id = TBZ_the_great_harvest
+		prerequisite = {focus = TBZ_the_great_harvest}
+		mutually_exclusive = {focus = TBZ_criminal_empire}
+		cost = 6
+		ai_will_do = {
+			factor = 80
+		}
+		
+		
+		available = {
+		}
+		
+		completion_reward = {
+			remove_ideas = bandit_economy
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = TBZ_tone_back_drugs
+		icon = GFX_goal_TBZ_sell_drugs
+		x = 0
+		y = 1
+		relative_position_id = TBZ_going_legit
+		prerequisite = {focus = TBZ_going_legit}
+		cost = 6
+		ai_will_do = {
+			factor = 80
+		}
+		
+		
+		available = {
+		}
+		
+		completion_reward = {
+			remove_ideas = bandit_drug_industry
+			add_stability = 0.05
 		}
 	}
 #Maul
 	focus = {
 		id = TBZ_maul
 		icon = GFX
-		x = -2
+		x = -3
 		y = 1
 		relative_position_id = TBZ_conquest_finish
 		prerequisite = {focus = TBZ_conquest_finish}
@@ -777,13 +848,19 @@ focus = {
 		
 		available = {
 		}
-		completion_reward = { remove_ideas = TBZ_anti_empire}
+		completion_reward = {
+			remove_ideas = TBZ_anti_empire
+			swap_ideas = {
+				remove_idea = free_press
+				add_idea = hard_censorship
+			}
+		}
 	}
 	focus = {
 		id = TBZ_collab_rheol_trade
 		icon = GFX
-		x = 1
-		y = 1
+		x = 0
+		y = 2
 		relative_position_id = TBZ_collab_riot
 		prerequisite = {focus = TBZ_collab_riot}
 		cost = 12
@@ -954,7 +1031,7 @@ focus = {
 	focus = {
 		id = TBZ_truz
 		icon = GFX
-		x = 2
+		x = 3
 		y = 1
 		relative_position_id = TBZ_conquest_finish
 		prerequisite = {focus = TBZ_conquest_finish}
@@ -974,7 +1051,7 @@ focus = {
 	focus = {
 		id = TBZ_avenska
 		icon = GFX
-		x = 4
+		x = 5
 		y = 1
 		relative_position_id = TBZ_conquest_finish
 		prerequisite = {focus = TBZ_conquest_finish}
@@ -1014,7 +1091,7 @@ focus = {
 	focus = {
 		id = TBZ_vrat
 		icon = GFX
-		x = 6
+		x = 7
 		y = 1
 		relative_position_id = TBZ_conquest_finish
 		prerequisite = {focus = TBZ_conquest_finish}

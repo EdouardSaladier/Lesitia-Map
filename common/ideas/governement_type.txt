@@ -15,8 +15,8 @@ ideas = {
    			}
 		}
 
-		#confederation
-		confederation_type = {	
+		#Absolutist Monarchy
+		absolutist_monarchy = {	
 			modifier = {
 				political_power_factor = 0.01
 			}
@@ -25,9 +25,8 @@ ideas = {
    				factor = 0.5
    			}
 		}
-
-		#Monarchy
-		monarchist_type = {	
+		#Constitutional Monarchy
+		constitutional_monarchy = {	
 			modifier = {
 				political_power_factor = 0.01
 			}
@@ -36,7 +35,7 @@ ideas = {
    				factor = 0.5
    			}
 		}		
-		#junta
+		#military junta
 		junta_type = {	
 			modifier = {
 				political_power_factor = 0.01
@@ -66,8 +65,7 @@ ideas = {
    				factor = 0.5
    			}
 		}	
-		#Corpo Control
-		corporatocratic_type = {	
+		oligarchy_type = {	
 			modifier = {
 				political_power_factor = 0.01
 			}

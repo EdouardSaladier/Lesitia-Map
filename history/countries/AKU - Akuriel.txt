@@ -60,11 +60,17 @@ set_popularities = {
 	despotism = 10
 }
 country_lock_all_division_template = yes
-add_ideas = AKU_bandaid_gov
-add_ideas = AKU_merc_apparatus
-add_ideas = AKU_low_trust
-add_ideas = AKU_fight_against_imperialism
-
+add_ideas = {
+	AKU_bandaid_gov
+	AKU_merc_apparatus
+	AKU_low_trust
+	AKU_fight_against_imperialism
+	free_market
+	oligarchy_type
+	secularism
+	light_censorship
+	equal_species
+}
 create_country_leader = {
 	name = "Trade Prince Council"
 	desc = "AKU_trade_prince_council_desc"

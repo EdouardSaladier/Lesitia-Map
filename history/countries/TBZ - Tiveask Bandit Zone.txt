@@ -30,7 +30,10 @@ set_technology = {
 	mobile_gun_platform = 1
 	flak_cannons = 1
 	rocketry_advancements = 1
-
+	
+	surface_combat_vessel = 1
+	naval_escort_vessel = 1
+	
 	multirole_fighter = 1
 	aerial_coverage_unit = 1
 
@@ -81,6 +84,7 @@ recruit_character = TBZ_maul_meh
 recruit_character = TBZ_marco_general
 recruit_character = TBZ_andrei_general
 recruit_character = TBZ_vermilio_general
+recruit_character = TBZ_luski_vasilios
 
 create_country_leader = {
 	name = "Andrei Rodion"
