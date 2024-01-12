@@ -30,13 +30,10 @@ set_popularities = {
 }
 
 add_ideas = {
-	MIT_looming_famine
-	MIT_divided_army
 	MIT_slow_modernisation
 }
 
-recruit_character = MIT_king
-recruit_character = MIT_regency
 recruit_character = MIT_worker_council
 recruit_character = MIT_alarica
+recruit_character = MIT_alarica_monbol
 recruit_character = MIT_aligern

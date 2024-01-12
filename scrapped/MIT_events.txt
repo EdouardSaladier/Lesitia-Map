@@ -1,0 +1,499 @@
+add_namespace = MIT
+add_namespace = MITmarriage
+
+
+country_event = {
+	id = MITmarriage.1
+	title = MITmarriage.1.t
+	desc = MITmarriage.1.d
+	#picture = 
+	is_triggered_only = yes
+	option = { 
+		name = MITmarriage.1.a
+		add_ideas = MIT_local_noble
+	}
+}
+
+country_event = {
+	id = MIT.1
+	title = MIT.1.t
+	desc = MIT.1.d
+	#picture = 
+
+	is_triggered_only = yes
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MIT.1"}
+	option = { 
+		name = MIT.1.a
+		country_event = {id = MIT.2}
+	}
+	option = { 
+		name = MIT.1.b
+		add_political_power = 1
+	}
+}
+
+country_event = {
+	id = MIT.2
+	title = MIT.2.t
+	desc = MIT.2.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.2.a
+	}
+}
+
+country_event = {
+	id = MIT.3
+	title = MIT.3.t
+	desc = MIT.3.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.3.a
+
+	}
+}
+
+country_event = {
+	id = MIT.4
+	title = MIT.4.t
+	desc = MIT.4.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.4.a
+
+	}
+}
+
+country_event = {
+	id = MIT.5
+	title = MIT.5.t
+	desc = MIT.5.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.5.a
+		set_country_flag = MIT_deal_strike
+	}
+	option = { 
+		name = MIT.5.b
+		set_country_flag = MIT_crushed_strike
+	}
+}
+
+#MEET REZNEVEHZ
+country_event = {
+	id = MIT.6
+	title = MIT.6.t
+	desc = MIT.6.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.6.a
+    		remove_ideas = MIT_looming_famine
+  			add_timed_idea = {
+   			idea = MIT_looming_famine_2
+    		days = 120
+		}
+	}
+}
+
+country_event = {
+	id = MIT.7
+	title = MIT.7.t
+	desc = MIT.7.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.7.a
+
+	}
+}
+
+country_event = {
+	id = MIT.8
+	title = MIT.8.t
+	desc = MIT.8.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.8.a
+		add_timed_idea = {
+   			idea = MIT_deal_strikers
+    		days = 120
+		}
+	}
+}
+
+country_event = {
+	id = MIT.9
+	title = MIT.9.t
+	desc = MIT.9.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.9.a
+		swap_ideas = {
+    		remove_idea = MIT_divided_army
+    		add_idea = MIT_divided_army_2
+		}
+		hidden_effect = {
+		MIT = { country_event = { id = MIT.19 days = 21 } }
+		}	
+	}
+}
+country_event = {
+	id = MIT.10
+	title = MIT.10.t
+	desc = MIT.10.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.10.a
+		
+	}
+}
+country_event = {
+	id = MIT.11
+	title = MIT.11.t
+	desc = MIT.11.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.11.a
+		set_country_flag = MIT_dead_king
+	
+
+	}
+}	
+
+# chess 
+country_event = {
+	id = MIT.12
+	title = MIT.12.t
+	desc = MIT.12.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.12.a
+		set_country_flag = MIT_alarica_refuse
+		hidden_effect = {
+		complete_national_focus = MIT_iudans_raudata
+		}
+		custom_effect_tooltip = MIT_tooltip.1
+	}
+	option = { 
+		name = MIT.12.b
+		set_country_flag = MIT_alarica_accept
+		hidden_effect = {
+		complete_national_focus = MIT_heavy_lie_the_crown
+		}
+		custom_effect_tooltip = MIT_tooltip.2
+	}
+}	
+
+country_event = {
+	id = MIT.13
+	title = MIT.13.t
+	desc = MIT.13.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.13.a
+			set_party_name = { 
+   			ideology = revolutionarism 
+  	 		long_name = MIT_legal_rev_part_long
+   			name = MIT_legal_rev_part
+			}
+	}
+}	
+
+country_event = {
+	id = MIT.14
+	title = MIT.14.t
+	desc = MIT.14.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.14.a
+		set_politics = {
+			ruling_party = revolutionarism
+			elections_allowed = no
+		}
+		clr_country_flag = coalition_democracy
+		set_country_flag = coalition_despotism
+		update_coalition = yes
+		set_party_name = { 
+			ideology = despotism 
+			long_name = MIT_overturned_parliement_party_long
+			name = MIT_overturned_parliement_party
+		}
+		promote_character = MIT_alarica
+		set_cosmetic_tag = MIT_monbol
+	}
+}	
+
+country_event = {
+	id = MIT.15
+	title = MIT.15.t
+	desc = MIT.15.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.15.a
+			hidden_effect = {
+		complete_national_focus = MIT_the_return_of_the_king
+		}
+	}
+	option = { 
+		name = MIT.15.b
+		set_politics = {
+		ruling_party = democracy
+		elections_allowed = no
+		}
+		hidden_effect = {
+		complete_national_focus = MIT_the_parliement_demand
+		}
+	}
+}
+
+country_event = {
+	id = MIT.16
+	title = MIT.16.t
+	desc = MIT.16.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.16.a
+			swap_ideas = {
+    		remove_idea = MIT_divided_army
+    		add_idea = MIT_divided_army_4
+			}
+	}
+	option = { 
+		name = MIT.16.b
+		set_politics = {
+		ruling_party = supremacism
+		elections_allowed = no
+		}
+		swap_ideas = {
+    	remove_idea = MIT_divided_army
+    	add_idea = MIT_divided_army_5
+		}
+	}
+}
+
+country_event = {
+	id = MIT.17
+	title = MIT.17.t
+	desc = MIT.17.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.17.a
+#			hidden_effect = {
+# prob worldwild rev drift for 10-20 day	
+#		}
+	}
+}
+
+country_event = {
+	id = MIT.18
+	title = MIT.18.t
+	desc = MIT.18.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.18.a
+	}
+}
+
+###republican coup
+country_event = {
+	id = MIT.19
+	title = MIT.19.t
+	desc = MIT.19.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.19.a
+		set_country_flag = MIT_republican_coup
+		set_cosmetic_tag = MIT_republic
+		promote_character = MIT_aligern
+		set_party_name = { 
+   			ideology = despotism 
+  	 		long_name = MIT_army_junta_party
+   			name = MIT_army_junta_party_long
+		}
+	}
+}
+
+###ELKCTIONS 
+country_event = {
+	id = MIT.20
+	title = MIT.20.t
+	desc = MIT.20.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.20.a
+	}
+	option = { 
+		name = MIT.20.b
+	}
+	option = { 
+		name = MIT.20.c
+	}
+	option = { 
+		name = MIT.20.e
+		set_country_flag = MIT_republican_war_state_victory
+	}
+}
+
+country_event = {
+	id = MIT.21
+	title = MIT.21.t
+	desc = MIT.21.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.21.a
+		set_cosmetic_tag = MIT_warstate
+		set_party_name = { 
+   			ideology = despotism 
+  	 		long_name = MIT_warstate_despotism_party
+   			name = MIT_warstate_despotism_party_long
+		}
+	}
+}
+
+country_event = { #Choice of what to do with throne
+	id = MIT.22
+	title = MIT.22.t
+	desc = MIT.22.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { #no privielge
+		name = MIT.22.a
+	}
+	option = { #exile
+		name = MIT.22.b
+	}
+	option = { #chop chop
+		name = MIT.22.c
+	}
+
+}
+
+country_event = { #narrative event about welfare
+	id = MIT.23
+	title = MIT.23.t
+	desc = MIT.23.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.23.a
+	}
+
+
+}
+
+country_event = { #labors law! but how extreme?
+	id = MIT.24
+	title = MIT.24.t
+	desc = MIT.24.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.24.a
+	}
+	option = { 
+		name = MIT.24.b
+	}
+	option = { 
+		name = MIT.24.c
+	}
+	option = { #only if red queen
+		name = MIT.24.e
+	}
+
+}
+
+country_event = { #denounce the left
+	id = MIT.25
+	title = MIT.25.t
+	desc = MIT.25.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.25.a
+		add_popularity = {
+		ideology = revolutionarism
+		popularity = -0.15
+		}
+	}
+}
+
+country_event = { #denounce the left
+	id = MIT.26
+	title = MIT.26.t
+	desc = MIT.26.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { 
+		name = MIT.26.a
+		set_cosmetic_tag = MIT_hegemony 
+	}
+}

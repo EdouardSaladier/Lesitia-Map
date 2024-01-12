@@ -1,13 +1,14 @@
 characters = {
 	
-	MIT_king = {
-		name = "placeholder king name"
+	MIT_alarica = {
+		name = "Alarica II"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MIT/portrait_king.dds"
+				large = "gfx/leaders/MIT/portrait_alarica.dds"
 			}
 		}
 		country_leader = {
+			traits= { MIT_controversial_monarch }
 			ideology = despotism_type
 			expire = "4000.1.1.1"
 			id = -1
@@ -26,20 +27,7 @@ characters = {
 			id = -1
 		}
 	}
-	MIT_regency = {
-		name = "Regency Council"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/MIT/portrait_regency.dds"
-			}
-		}
-		country_leader = {
-			ideology = despotism_type 
-			expire = "4000.1.1.1"
-			id = -1
-		}
-	}
-	MIT_alarica = {
+	MIT_alarica_monbol = {
 		name = "Alarica II"
 		portraits = {
 			civilian = {
