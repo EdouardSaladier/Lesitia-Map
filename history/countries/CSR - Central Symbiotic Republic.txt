@@ -63,6 +63,12 @@ add_ideas = {
 	#tiveask_fog
 	tiveask_bandits
 	last_stand
+	CSR_chaos
+	free_market
+	free_press
+	equal_species
+	secularism
+	dictatorship_type
 }
 
 recruit_character = CSR_ultimum_general

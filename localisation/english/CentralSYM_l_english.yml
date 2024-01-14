@@ -8,10 +8,14 @@ CSR_supremacism_DEF:0 "The Central Symbiotic Republic"
 CSR_supremacism_ADJ:0 "Symbiotic"
 
 ### LEADER DESC
-CSR_ultimum_desc:0 "Artist: tsuki696\n\nAge: 55\n\nUltimum Mormorare was born in the city of Zentra, he never was anybody important within the Federation, simply just a very low ranking soldier in the Federal army who had nothing of note going on, that was until the Federation collapsed, after that the bee started acting weird, claiming he would "defeat the separatist terrorists" and that he would "lead the legitimate government", he is now considered a die-hard nationalist who will not accept any compromises when it comes to unification."
+CSR_ultimum_desc:0 "Artist: tsuki696\n\nAge: 55\n\nBorn in the city of Zentra. Mormorare has a reputation of always coming in second place. During his military career, he only made it to the rank of colonel and supposedly did not make the cut of general on two different occasions. He would also attempt to carve a path into politics in the National Revival Party. However, he would also come in second place as he lost the nomination to Russet Vero. \n\n Him losing the nomination made him snap. He began forming his own paramilitary group within the supremacist party consisting of his closest allies in the NRP and in the military. After the artists won the election, Mormorare sprung into action taking multiple cities in the middle of the Federation. Upon declaring independence, he promoted himself to general and declared himself leader of the new republic."
 
 #####partys names###
+CSR_despotism_party:0 "Federal Armed Forces"
+CSR_despotism_party_long:0 "Federal Armed Forces"
+
 CSR_democracy_party:0 "SPUR"
 CSR_democracy_party_long:0 "the Symbiotic Party for Unification and Reclamation"
-CSR_supremacism_party:0 "SPUR(R)"
-CSR_democracy_party_long:0 "the Symbiotic Party for Unification and Reclamation (Right-Wing)"
+
+CSR_supremacism_party:0 "NRP"
+CSR_supremacism_party_long:0 "National Revival Party"

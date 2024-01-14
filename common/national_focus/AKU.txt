@@ -964,6 +964,9 @@ focus = {
 						air_ratio = 0.5
 					}
 					}
+					hidden_effect = {
+						news event = AKU_news.1
+					}
 				}
 #MILITARY_TREE	
 	focus = {

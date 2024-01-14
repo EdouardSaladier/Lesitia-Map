@@ -1,0 +1,193 @@
+focus_tree = {
+	id = CSR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CSR
+		}
+		}
+		
+####C.S.R.###
+	focus = {
+		id = CSR_rally
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 5
+		y = 0
+		available = { 
+			
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CSR_mobilize_economy
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = -2
+		y = 1
+		available = { 
+			
+		}
+		relative_position_id = CSR_rally
+		prerequisite = { focus = CSR_rally}
+	}
+	focus = {
+		id = CSR_arms_factories
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 0
+		y = 1
+		available = { 
+			
+		}
+		relative_position_id = CSR_mobilize_economy
+		prerequisite = { focus = CSR_mobilize_economy}
+	}
+		focus = {
+		id = CSR_constitution
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 0
+		y = 1
+		available = {}
+		relative_position_id = CSR_rally
+		prerequisite = { focus = CSR_rally}
+		completion_reward = {
+			add_political_power = 75
+		}
+	}
+	focus = {
+		id = CSR_organize_armed_forces
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 7
+		x = 3
+		y = 1
+		available = { 
+			
+		}
+		relative_position_id = CSR_rally
+		prerequisite = { focus = CSR_rally}
+		
+		completion_reward = {
+			hidden_effect = {
+				load_oob = WRL_Shared/Combat_unit
+			}
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Combat Unit 1\" division_template = \"Combat Unit\" start_experience_factor = 0.5 start_equipment_factor = 1.0" 
+					owner = ROOT
+				} 
+				create_unit = {
+					division = "name = \"Combat Unit 2\" division_template = \"Combat Unit\" start_experience_factor = 0.5 start_equipment_factor = 1.0" 
+					owner = ROOT
+				}
+			}
+		}
+	}
+	focus = {
+		id = CSR_army_innovations
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 1
+		y = 1
+		available = { 
+			
+		}
+		relative_position_id = CSR_organize_armed_forces
+		prerequisite = { focus = CSR_organize_armed_forces}
+	}
+	focus = {
+		id = CSR_airfields
+		icon = GFX_goal_plane_focus
+		cost = 7
+		x = 0
+		y = 1
+		available = { 
+			
+		}
+		relative_position_id = CSR_army_innovations
+		prerequisite = { focus = CSR_army_innovations}
+	}
+	focus = {
+		id = CSR_guardian_drones
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 7
+		x = -1
+		y = 1
+		available = { 
+			
+		}
+		relative_position_id = CSR_organize_armed_forces
+		prerequisite = { focus = CSR_organize_armed_forces}
+	}
+	focus = {
+		id = CSR_purge
+		icon = GFX_goal_SYM_putdown_revolts
+		cost = 7
+		x = 0
+		y = 1
+		available = { 
+			
+		}
+		relative_position_id = CSR_guardian_drones
+		prerequisite = { focus = CSR_guardian_drones}
+		completion_reward = {
+			add_popularity = {
+			ideology = democracy
+			popularity = -0.1
+			}
+		}
+	}
+	focus = {
+		id = CSR_secure_border
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 3
+		y = 1
+		available = { 
+			
+		}
+		relative_position_id = CSR_organize_armed_forces
+		prerequisite = { focus = CSR_organize_armed_forces}
+		completion_reward = {
+			remove_ideas = tiveask_bandits
+		}
+	}
+	focus = {
+		id = CSR_begin_expansion
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 5
+		y = 1
+		available = { 
+			
+		}
+		relative_position_id = CSR_organize_armed_forces
+		prerequisite = { focus = CSR_organize_armed_forces}
+		completion_reward = {
+			custom_effect_tooltip = WRL_expasion_tooltip
+			add_war_support = 0.1
+			}
+	}
+	focus = {
+		id = CSR_termite_jobs
+		icon = GFX_focus_generic_self_management
+		cost = 7
+		x = 0
+		y = 1
+		available = { 
+			owns_state = 198
+			NOT = {
+			country_exists = TER
+			}	
+		}
+		relative_position_id = CSR_begin_expansion
+		prerequisite = { focus = CSR_begin_expansion}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+}

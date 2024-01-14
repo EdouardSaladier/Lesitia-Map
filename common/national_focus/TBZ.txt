@@ -272,11 +272,35 @@ focus_tree = {
 			}
 		}
 }
+	focus = {
+		id = TBZ_eximperial_loyalists
+		icon = GFX_goal_TBZ_solid
+		x = 1
+		y = 1
+		relative_position_id = TBZ_solidify_power
+		prerequisite = {focus = TBZ_solidify_power}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		
+		completion_reward = {
+			hidden_effect = {
+				load_oob = TBZ/eximperials
+			}
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"True Loyalist Brigade\" division_template = \"Imperial Loyalists\" start_experience_factor = 1 start_equipment_factor = 1.0" 
+					owner = TBZ
+				} 
+			}
+		}
+}
 #Army Tree
 	focus = { #Raider Drills
 		id = TBZ_raider_drills
 		icon = GFX_goal_TBZ_raider_drills
-		x = 10
+		x = 12
 		y = 0
 		relative_position_id = TBZ_bandit_eco
 		
@@ -378,7 +402,7 @@ focus_tree = {
 }
 	focus = { #Things that go boom
 		id = TBZ_arty
-		icon = GFX
+		icon = GFX_goal_guns_focus
 		x = -1
 		y = 1
 		relative_position_id = TBZ_small_arms
@@ -397,7 +421,7 @@ focus_tree = {
 }
 	focus = { #Hit and Run
 		id = TBZ_hit_and_run
-		icon = GFX
+		icon = GFX_goal_guns_focus
 		x = 1
 		y = 1
 		relative_position_id = TBZ_small_arms
@@ -416,14 +440,12 @@ focus_tree = {
 }
 	focus = { #Defend Our Foggy Skies
 		id = TBZ_AA
-		icon = GFX
+		icon = GFX_goal_guns_focus
 		x = 0
 		y = 2
 		relative_position_id = TBZ_small_arms
 		prerequisite = {
 			focus = TBZ_small_arms
-			focus = TBZ_hit_and_run
-			focus = TBZ_arty
 		}
 		cost = 5
 		ai_will_do = {
@@ -465,7 +487,7 @@ focus_tree = {
 }
 	focus = { #Airstrip
 		id = TBZ_airstrips
-		icon = GFX
+		icon =  GFX_goal_plane_focus
 		x = 3
 		y = 1
 		relative_position_id = TBZ_raider_drills
@@ -509,7 +531,7 @@ focus_tree = {
 #Navy Tree
 	focus = {#Bug Piracy
 		id = TBZ_pirate_fleet
-		icon = GFX
+		icon = GFX_goal_plane_focus
 		x = 3
 		y = 4
 		relative_position_id = TBZ_raider_drills
@@ -530,7 +552,7 @@ focus_tree = {
 		}
 	focus = {#repurpose fishing vesels
 		id = TBZ_repurpose_ships
-		icon = GFX
+		icon = GFX_goal_plane_focus
 		x = 0
 		y = 1
 		relative_position_id = TBZ_pirate_fleet
@@ -576,9 +598,7 @@ focus_tree = {
 		relative_position_id = TBZ_solidify_power
 		prerequisite = {focus = TBZ_solidify_power}
 		prerequisite = {
-			focus = TBZ_arty
 			focus = TBZ_small_arms
-			focus = TBZ_hit_and_run
 			}
 		cost = 12
 		ai_will_do = {
@@ -591,10 +611,11 @@ focus_tree = {
 	}
 	focus = {
 		id = TBZ_venom_base
-		icon = GFX
-		x = -1
+		icon = GFX_goal_SYM_putdown_revolts
+		x = 2
 		y = 1
-		relative_position_id = TBZ_AA
+		relative_position_id = TBZ_conquest_start
+		prerequisite = {focus = TBZ_conquest_start}
 		cost = 12
 		ai_will_do = {
 			factor = 40
@@ -611,7 +632,7 @@ focus_tree = {
 #Pillage Focuses
 	focus = { #Exploit The Termites
 		id = TBZ_termites
-		icon = GFX
+		icon =  GFX_goal_TBZ_kleptocracy
 		x = 0
 		y = 3
 		relative_position_id = TBZ_kidnap_sci
@@ -637,7 +658,7 @@ focus_tree = {
 	}
 focus = { #Exploit The Miners
 		id = TBZ_exploit_miners
-		icon = GFX
+		icon =  GFX_goal_TBZ_kleptocracy
 		x = -2
 		y = 5
 		relative_position_id = TBZ_narcotics

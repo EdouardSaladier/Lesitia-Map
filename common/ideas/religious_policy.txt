@@ -7,9 +7,11 @@ ideas = {
 		#State Religion
 		state_religion = {	
 			modifier = {
-				political_power_factor = 0.01
+			stability_factor = 0.05
+			monthly_population = -0.01
+			theocracy_drift = 0.01
 			}
-			cost = -1	
+			cost = 150	
 			ai_will_do = {
    				factor = 0.5
    			}
@@ -18,9 +20,9 @@ ideas = {
 		#Secularism
 		secularism = {	
 			modifier = {
-				political_power_factor = 0.01
+			monthly_population = 0.02
 			}
-			cost = -1	
+			cost = 150	
 			ai_will_do = {
    				factor = 0.5
    			}
@@ -30,11 +32,17 @@ ideas = {
 		state_atheism = {	
 			modifier = {
 				political_power_factor = 0.01
+				stability_factor = -0.01
+				monthly_population = -0.01
+				theocracy_drift = -0.01
 			}
-			cost = -1	
+			cost = 150	
 			ai_will_do = {
    				factor = 0.5
    			}
+			available = {
+			NOT = {has_government = theocracy}
+			}
 		}		
 	}
 }

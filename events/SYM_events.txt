@@ -159,6 +159,12 @@ country_event = {
 		release = CSR
 		hidden_effect = {
 			country_event = { id = SYM.5 days = 10 } 
+			news_event = {
+				id = news.1
+				days = 10
+				random_hours = 12
+				random_days = 10
+			}
 		}
 		CSR = {
 			change_tag_from = SYM
@@ -168,7 +174,13 @@ country_event = {
 		name = SYM.4.b
 		release = CSR
 		hidden_effect = {
-			country_event = { id = SYM.5 days = 10 } 
+			country_event = { id = SYM.5 days = 10 }
+			news_event = {
+				id = SYM_news.1
+				days = 10
+				random_hours = 12
+				random_days = 10
+			}
 		}
 		ai_chance = {
 			base = 100

@@ -324,7 +324,6 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.05
-				war_support_factor = -0.1
 				political_power_gain = -0.1
 				resistance_damage_to_garrison = 0.3
 				resistance_growth = 0.3
@@ -679,6 +678,29 @@ ideas = {
 			monthly_population = -0.025
 			}
 		}
+		##Central Republic Ideas##
+		CSR_chaos = {
+			picture = chaotic_existence
+			allowed = {}
+			
+			available = {
+				CSR = exists
+			}
+			cancel = {	
+			has_cosmetic_tag = nice_federation 
+			has_cosmetic_tag = evil_federation 		
+			}
+			
+			trigger = {
+			}
+			
+			modifier = {
+			stability_factor = -0.15
+			}
+
+		}
+		
+		
 		sin_islands = {
 			picture = sin_islands
 			

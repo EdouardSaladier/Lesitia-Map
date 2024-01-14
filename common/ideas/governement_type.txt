@@ -11,8 +11,9 @@ ideas = {
 			}
 			cost = -1	
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 0
    			}
+			allowed_to_remove = {always = no}
 		}
 
 		#Absolutist Monarchy
@@ -20,10 +21,14 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.01
 			}
+			available = {
+				NOT = {has_government = democracy}
+			}
 			cost = -1	
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 0
    			}
+			allowed_to_remove = {always = no}
 		}
 		#Constitutional Monarchy
 		constitutional_monarchy = {	
@@ -32,57 +37,78 @@ ideas = {
 			}
 			cost = -1	
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 0
    			}
+			allowed_to_remove = {always = no}
 		}		
 		#military junta
 		junta_type = {	
 			modifier = {
 				political_power_factor = 0.01
 			}
+			available = {
+				NOT = {has_government = democracy}
+			}
 			cost = -1	
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 0
    			}
+			allowed_to_remove = {always = no}
 		}		
 		#dictatorship
 		dictatorship_type = {	
 			modifier = {
 				political_power_factor = 0.01
 			}
+			available = {
+				NOT = {has_government = democracy}
+			}
 			cost = -1	
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 0
    			}
+			allowed_to_remove = {always = no}
 		}	
 		#Anarchy
 		anarchist_type = {	
 			modifier = {
-				political_power_factor = 0.01
+				political_power_factor = -0.1
+				stability_factor = -0.1	
+			}
+			available = {
 			}
 			cost = -1	
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 0
    			}
+			allowed_to_remove = {always = no}
 		}	
 		oligarchy_type = {	
 			modifier = {
 				political_power_factor = 0.01
 			}
+			available = {
+			}
 			cost = -1	
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 0
    			}
+			allowed_to_remove = {always = no}
 		}
 		#theocracy Control
 		theocratic_type = {	
 			modifier = {
 				political_power_factor = 0.01
 			}
+			available = {
+			has_government = theocracy
+			}
+	
 			cost = -1	
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 0
    			}
+			allowed_to_remove = {always = no}
 		}
 	}
 }
