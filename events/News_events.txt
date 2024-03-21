@@ -3,6 +3,7 @@
 
 add_namespace = SYM_news
 add_namespace = AKU_news
+add_namespace = MIT_news
 
 #Collapse of the Symbiotic Federation
 news_event = {
@@ -38,5 +39,23 @@ news_event = {
 	
 	option = {
 		name = AKU_news.1.a
+	}
+}
+
+#Mithairmar
+news_event = {
+	id = MIT_news.1
+	title = MIT_news.1.t
+	desc = MIT_news.1.d
+	picture = GFX_news_event_01
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = MIT_news.1.a
 	}
 }

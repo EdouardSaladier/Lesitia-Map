@@ -23,19 +23,18 @@ country_event = { #queen intervention
 
 	is_triggered_only = yes
 	option = { 
-		name = MIT.2.a
+		name = MIT.2.a #parleiement conceide
 		hidden_effect = {
 		MIT = { country_event = { id = MIT.3 days = 60 } }
 		}	
 	}
 	option = { 
-		name = MIT.2.b
+		name = MIT.2.b #parliement don't concede
 		hidden_effect = {
 		MIT = { country_event = { id = MIT.4 days = 60 } }
 		}	
 	}
 }
-
 country_event = { #queen win
 	id = MIT.3
 	title = MIT.3.t
@@ -44,15 +43,39 @@ country_event = { #queen win
 
 	is_triggered_only = yes
 	option = { 
-		name = MIT.3.a
-		hidden_effect = {
-		MIT = { country_event = { id = MIT.5 days = 60 } }
-		}	
+		name = MIT.3.a	
 	}
 	option = { 
 		name = MIT.3.b
 		hidden_effect = {
 		MIT = { country_event = { id = MIT.6 days = 60 } }
+		}	
+	}
+}
+
+country_event = { #parliement win
+	id = MIT.4
+	title = MIT.4.t
+	desc = MIT.4.d
+	#picture = 
+
+	is_triggered_only = yes
+	option = { 
+		name = MIT.4.a
+		set_politics = {
+			ruling_party = democracy
+			elections_allowed = no
+		}
+	}
+	option = { 
+		name = MIT.4.b
+			set_politics = {
+			ruling_party = democracy
+			elections_allowed = no
+		}
+		set_cosmetic_tag = MIT_republic
+		hidden_effect = {
+		MIT = { country_event = { id = MIT.7 days = 60 } }
 		}	
 	}
 }
@@ -66,10 +89,43 @@ country_event = { #aristo or queen
 	is_triggered_only = yes
 	option = { 
 		name = MIT.6.a
-
+			set_politics = {
+			ruling_party = despotism
+			elections_allowed = no
+		}
 	}
 	option = { 
 		name = MIT.6.b
+			set_politics = {
+			ruling_party = revolutionarism
+			elections_allowed = no
+		}
+			set_cosmetic_tag = MIT_monbol
+			promote_character = MIT_alarica_monbol
+	}
+}
 
+country_event = { #military coup
+	id = MIT.4
+	title = MIT.4.t
+	desc = MIT.4.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { #military restore monarhcy
+		name = MIT.4.a
+			set_politics = {
+			ruling_party = despotism
+			elections_allowed = no
+		}
+	}
+
+	option = { #parliement retain power
+		name = MIT.4.b
+	}
+
+	option = { #authority collapse
+		name = MIT.4.c
 	}
 }

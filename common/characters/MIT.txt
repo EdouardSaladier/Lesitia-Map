@@ -14,6 +14,21 @@ characters = {
 			id = -1
 		}
 	}
+
+	MIT_alarica = {
+		name = "Alarica II"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MIT/portrait_alarica.dds"
+			}
+		}
+		country_leader = {
+			traits= { MIT_controversial_monarch }
+			ideology = democracy_type
+			expire = "4000.1.1.1"
+			id = -1
+		}
+	}
 	MIT_worker_council = {
 		name = "Worker Council"
 		portraits = {
