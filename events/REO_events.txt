@@ -1,0 +1,51 @@
+add_namespace = REO
+
+#Akuriel Strait Crisis
+country_event ={
+	id = REO.1
+	title = REO.1.t
+	desc = REO.1.d
+	#picture = 
+	is_triggered_only = yes
+	trigger = {
+		AKU = {
+			has_completed_focus = AKU_strait_or_war
+		}
+	}
+	fire_only_once = yes
+	option { #we cannot afford a war right now. we must concede
+		name = REO.1.a
+		AKU = {country_event = {id = AKU.10}}
+	}
+	option { #Tell them to "go to hell"
+		name = REO.1.b
+		AKU = {country_event = {id = AKU.9 days = 10}}
+	}
+}
+
+country_event ={
+	id = REO.2
+	title = REO.2.t
+	desc = REO.2.d
+	#picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	option {
+		name = REO.2.a
+		AKU = {
+			country_event = {
+				id = AKU.12
+				days = 7
+			}
+		}
+	}
+	option {
+		name = REO.2.b
+		AKU = {
+			country_event = {
+				id = AKU.13
+				days = 7
+			}
+		}
+	}
+}

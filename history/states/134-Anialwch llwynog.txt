@@ -13,7 +13,7 @@ state={
 			industrial_complex = 1
 		}
 		owner = REO
-		add_core_of = REO
+		add_core_of = AKU
 		set_variable = { majority = 6 }
 
 	}

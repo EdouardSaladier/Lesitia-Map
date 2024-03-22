@@ -174,52 +174,80 @@ country_event ={
 
 
 #AKU_strait_or_war
-country_event ={
-	id = AKU.8
-	title = AKU.8.t
-	desc = AKU.8.d
-	#picture = 
-	
-	fire_only_once = yes
-	option { #we will send an ultimatum
-		name = AKU.8.a
-		REO = {	country_event = { id = RIS.9 } }
-	}
-	option { #Hans, start the McPanzer(TM)
-		name = AKU.8.b
-		create_wargoal = { type = annex_everything target = REO }
-	}
-}
-
-country_event ={ #for reol
+country_event ={ #Rheol decines
 	id = AKU.9
 	title = AKU.9.t
 	desc = AKU.9.d
 	#picture = 
-	
+	is_triggered_only = yes
 	fire_only_once = yes
-	option { #give them their damned cannal, and hope it burn!
+	option { #We gave peace a chance
 		name = AKU.9.a
-		AKU = { transfer_state = 28 }
-	}
-	option { #Nu uh
-		name = AKU.9.b
-		AKU = {	country_event = { id = AKU.10 } }
+		create_wargoal = {
+			type = annex_everything
+			target = REO 
+		}
 	}
 }
-country_event ={ #for reol
+country_event ={ #Rheol submits 1
 	id = AKU.10
 	title = AKU.10.t
 	desc = AKU.10.d
 	#picture = 
-	
+	is_triggered_only = yes
 	fire_only_once = yes
-	option { 
+	option { #A great victory for peace and commerce
 		name = AKU.10.a
-		create_wargoal = { type = annex_everything target = REO }
+		AKU = { transfer_state = 28 }
 	}
-	option {
+	option { #Splendid! Now demand all of our lands!
 		name = AKU.10.b
+		AKU = { 
+			transfer_state = 28 
+		}
+		REO = {
+			country_event = {
+				id = REO.2
+				days = 7
+			}
+		}
+	}
+}
+country_event = {#Rheol submits 2
+	id = AKU.12
+	title = AKU.12.t
+	desc = AKU.12.d
+	#picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	option { #Wow that worked.
+		name = AKU.12.a
+			AKU = {transfer_state = 221}
+			AKU = {transfer_state = 131}
+			AKU = {transfer_state = 132}
+			AKU = {transfer_state = 133}
+			AKU = {transfer_state = 134}
+	}
+	option { #They must actually be really weak. Let's finish them off.
+		name = AKU.12.b
+			AKU = {transfer_state = 221}
+			AKU = {transfer_state = 131}
+			AKU = {transfer_state = 132}
+			AKU = {transfer_state = 133}
+			AKU = {transfer_state = 134}
+			AKU = {create_wargoal = { type = annex_everything target = REO }}
+	}
+}
+country_event ={ #Rheol declines 2
+	id = AKU.13
+	title = AKU.13.t
+	desc = AKU.13.d
+	#picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	option {
+		name = AKU.13.a
+		create_wargoal = { type = annex_everything target = REO }
 	}
 }
 
@@ -229,7 +257,7 @@ country_event ={ #for reol
 		title = AKU.69.t
 		desc = AKU.69.d
 		picture = GFX_report_event_rommel_joke
-		
+		is_triggered_only = yes
 		trigger = {
 			TBZ = {
 				has_completed_focus = TBZ_sell_drugs

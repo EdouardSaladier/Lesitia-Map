@@ -26,7 +26,7 @@ state={
 		victory_points = {
 			917 30
 		}
-		add_core_of = REO
+		add_core_of = AKU
 		set_variable = { majority = 6 }
 	}
 	

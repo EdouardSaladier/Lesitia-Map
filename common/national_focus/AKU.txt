@@ -1555,7 +1555,13 @@ focus = {
 		bypass = {
 			has_war_with = REO
 		}
-		completion_reward = {}
+		completion_reward = {
+			REO = {country_event = {
+				id = REO.1
+				days = 10
+				}
+			}
+		}
 	}
 #FOREIGN_LIZARD_AMRUS
 	focus = {
