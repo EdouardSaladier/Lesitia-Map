@@ -662,7 +662,7 @@ ideas = {
 			allowed = {}
 			
 			available = {
-				TBZ = exists
+				country_exists = TBZ
 			}
 			
 			cancel = {	
@@ -684,7 +684,7 @@ ideas = {
 			allowed = {}
 			
 			available = {
-				CSR = exists
+				country_exists = CSR
 			}
 			cancel = {	
 			has_cosmetic_tag = nice_federation 

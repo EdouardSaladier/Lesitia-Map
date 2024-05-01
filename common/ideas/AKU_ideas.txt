@@ -84,7 +84,7 @@ ideas = {
 			available = {}
 			cancel = {}
 			modifier = {
-				stability_weekly = -0.05
+				stability_weekly = -0.01
 				offensive_war_stability_factor = -0.50
 			}
 			}
@@ -121,5 +121,30 @@ ideas = {
 			despotism_drift = 0.05
 		}
 	}
+#Supremacy Path
+	AKU_poverty_war01 = {
+		allowed = {
+		tag = AKU
+		}
+		available = {}
+		cancel = {}
+		modifier = {
+			production_speed_buildings_factor = 0.05
+			consumer_goods_factor = 0.025
+			production_factory_efficiency_gain_factor = 0.05 
+		}
+	}
+	AKU_poverty_war02 = {
+		allowed = {
+		tag = AKU
+		}
+		available = {}
+		cancel = {}
+		modifier = {
+			production_speed_buildings_factor = 0.05
+			consumer_goods_factor = 0.025
+			production_factory_efficiency_gain_factor = 0.05 
+		}
+	}		
 	}
 }
