@@ -15,7 +15,7 @@ focus_tree = {
 #STARTING_TREE
 	focus = {
 		id = AKU_start
-		icon = GFX
+		icon = GFX_goal_AKU_5yp
 		x = 10
 		y = -10
 		
@@ -200,7 +200,7 @@ focus = {
 #STARTING_TREE_BRANCH_04 (Security)
 focus = {
 		id = AKU_brown_bronze_expansion
-		icon = GFX
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 2
 		y = 1
 		relative_position_id = AKU_start
@@ -347,6 +347,15 @@ focus = {
 	}
 	bypass = {}
 	completion_reward = {
+		hidden_effect = {
+			REO = 
+			{
+			country_event = {
+				id = REO.4
+				days = 10
+			}
+			}
+		}
 	}
 	}
 #Crisis_tree_corp_sup_despot
@@ -384,17 +393,21 @@ focus = {
 #Crisis_tree_corp
 	focus = {
 			id = AKU_status_quo
-			icon = GFX
+			icon = GFX_goal_generic_corpo
 			cost = 1
 			ai_will_do = {
 				factor = 80
 			}
-			x = -3
+			x = 4
 			y = 1
 			relative_position_id = AKU_crackdown
 			available = {}
-			prerequisite = { focus = AKU_crackdown }
-			mutually_exclusive = { focus = AKU_authority }
+			prerequisite = {
+				focus = AKU_crackdown
+				focus = AKU_hear
+				}
+			mutually_exclusive = {focus = AKU_authority}
+			mutually_exclusive = {focus = AKU_mouratt_ep}
 			bypass = {}
 			completion_reward = {
 			add_stability = -.05
@@ -406,29 +419,13 @@ focus = {
 			}
 		}
 		focus = {
-			id = AKU_token_reform
-			icon = GFX
-			cost = 1
+			id = AKU_throw_money
+			icon = GFX_goal_generic_corpo
+			cost = 2
 			ai_will_do = {
 				factor = 40
 			}
 			x = -2
-			y = 2
-			relative_position_id = AKU_status_quo
-			available = {}
-			prerequisite = { focus = AKU_status_quo }
-			bypass = {}
-			completion_reward = {
-			add_stability = .025
-			}
-		}
-		focus = {
-			id = AKU_throw_money
-			icon = GFX
-			cost = 1
-			ai_will_do = {
-				factor = 40
-			}
 			y = 2
 			relative_position_id = AKU_status_quo
 			available = {}
@@ -441,12 +438,12 @@ focus = {
 		}
 		focus = {
 			id = AKU_remove_troublemakers
-			icon = GFX
-			cost = 3
+			icon = GFX_goal_generic_corpo
+			cost = 6
 			ai_will_do = {
 				factor = 40
 			}
-			x = 2`
+			x = 0
 			y = 2
 			relative_position_id = AKU_status_quo
 			available = {}
@@ -466,47 +463,31 @@ focus = {
 				ideology = democracy
 				popularity = -0.15
 			}
-			add_popularity = {
-				ideology = revolutionarism
-				popularity = -0.1
-			}
+				add_popularity = {
+					ideology = revolutionarism
+					popularity = -0.1
+				}
+				REO = {
+					country_event = {
+						id = REO.3
+						days = 3
+					}
+				}
 			}
 		}
 		focus = {
 			id = AKU_tpc_constitution
-			icon = GFX
-			cost = 10
+			icon = GFX_goal_generic_corpo
+			cost = 14
 			ai_will_do = {
 				factor = 40
 			}
-			relative_position_id = AKU_throw_money
-			y = 1
+			relative_position_id = AKU_remove_troublemakers
+			x = 0
+			y = 2
 			available = {}
 			prerequisite = { 
 			focus = AKU_remove_troublemakers }
-			prerequisite = {
-			focus = AKU_throw_money }
-			prerequisite = {
-			focus = AKU_token_reform
-			}
-			bypass = {}
-			completion_reward = {
-			add_stability = .1
-			}
-		}
-		focus = {
-			id = AKU_cc_security
-			icon = GFX
-			cost = 1
-			ai_will_do = {
-				factor = 40
-			}
-			relative_position_id = AKU_tpc_constitution
-			y = 1
-			available = {}
-			prerequisite = { 
-			focus = AKU_tpc_constitution
-			}
 			bypass = {}
 			completion_reward = {
 			remove_ideas = aku_crisis
@@ -522,12 +503,12 @@ focus = {
 				ai_will_do = {
 					factor = 40
 				}
-				x = 2
+				x = -2
 				y = 1
 				relative_position_id = AKU_crackdown
 				available = {}
-				prerequisite = { focus = AKU_crackdown }
-				mutually_exclusive = { focus = AKU_status_quo }
+				prerequisite = { focus = AKU_crackdown}
+				mutually_exclusive = {focus = AKU_status_quo}
 				bypass = {}
 				completion_reward = {
 				add_stability = .05
@@ -556,7 +537,7 @@ focus = {
 #Crisis_tree_sup
 	focus = {
 				id = AKU_jabbor
-				icon = GFX
+				icon = GFX_goal_generic_sup
 				cost = 1
 				ai_will_do = {
 					factor = 40
@@ -570,7 +551,7 @@ focus = {
 						factor = 2
 					}
 				}
-				x = -1
+				x = -2
 				y = 1
 				relative_position_id = AKU_authority
 				available = {}
@@ -581,9 +562,33 @@ focus = {
 				add_ideas = AKU_jabbor_rise
 				}
 			}
+		focus = {
+				id = AKU_anti_rev_propaganda
+				icon = GFX
+				cost = 6
+				ai_will_do = {
+					factor = 40
+				}
+				relative_position_id = AKU_jabbor
+				x = 2
+				y = 1
+				available = {}
+				prerequisite = {
+					focus = AKU_jabbor
+					focus = AKU_amrus
+				}
+				bypass = {}
+				completion_reward = {
+					add_stability = 0.05
+					add_popularity = {
+						ideology = revolutionarism
+						popularity = -0.05
+					}
+				}
+			}
 	focus = {
 				id = AKU_iron_act
-				icon = GFX
+				icon = GFX_goal_generic_sup
 				cost = 6
 				ai_will_do = {
 					factor = 40
@@ -600,8 +605,8 @@ focus = {
 			}
 	focus = {
 				id = AKU_jabbor_coup
-				icon = GFX
-				cost = 3
+				icon = GFX_goal_generic_sup
+				cost = 12
 				ai_will_do = {
 					factor = 40
 				}
@@ -615,7 +620,7 @@ focus = {
 			}
 	focus = {
 				id = AKU_akurii_state
-				icon = GFX
+				icon = GFX_goal_generic_sup
 				cost = 3
 				ai_will_do = {
 					factor = 40
@@ -636,12 +641,13 @@ focus = {
 						ideology = supremacism
 						popularity = 0.1
 					}
+					add_stability = 0.15
 				}
 			}
 #Crisis_tree_despot
 	focus = {
 			id = AKU_amrus
-			icon = GFX
+			icon = GFX_goal_generic_despot
 			cost = 1
 			ai_will_do = {
 				factor = 40
@@ -656,27 +662,27 @@ focus = {
 			completion_reward = {
 				add_ideas = AKU_amrus_rise
 			}
+	}
+	focus = {
+		id = AKU_amrus_welfare
+		icon = GFX_goal_generic_despot
+		cost = 1
+		ai_will_do = {
+			factor = 40
+		}
+		relative_position_id = AKU_amrus
+		x = 0
+		y = 1
+		available = {}
+		prerequisite = { focus = AKU_amrus }
+		bypass = {}
+		completion_reward = {
+			add_political_power = 100
 			}
+	}
 	focus = {
-					id = AKU_amrus_welfare
-					icon = GFX
-					cost = 1
-					ai_will_do = {
-						factor = 40
-					}
-					relative_position_id = AKU_amrus
-					x = 0
-					y = 1
-					available = {}
-					prerequisite = { focus = AKU_amrus }
-					bypass = {}
-					completion_reward = {
-					add_political_power = 100
-					}
-				}
-	focus = {
-					id = AKU_amrus_unfortunate
-					icon = GFX
+		id = AKU_amrus_unfortunate
+					icon = GFX_goal_generic_despot
 					cost = 1
 					ai_will_do = {
 						factor = 40
@@ -691,7 +697,7 @@ focus = {
 				}
 		focus = {
 					id = AKU_old_fox
-					icon = GFX
+					icon = GFX_goal_generic_despot
 					cost = 1
 					ai_will_do = {
 						factor = 40
@@ -717,7 +723,7 @@ focus = {
 #Crisis_tree_dem_com
 focus = {
 		id = AKU_hear
-		icon = GFX
+		icon = GFX_goal_generic_democracy
 		cost = 3
 		ai_will_do = {
 			factor = 40
@@ -746,15 +752,11 @@ focus = {
 						ideology = despotism
 						popularity = -0.05
 					}
-			add_popularity = {
-						ideology = corporatism
-						popularity = -0.05
-					}
 		}
 	}
 focus = {
 		id = AKU_mouratt_ep
-		icon = GFX
+		icon = GFX_goal_generic_democracy
 		cost = 1
 		ai_will_do = {
 			factor = 40
@@ -764,13 +766,14 @@ focus = {
 		relative_position_id = AKU_hear
 		available = {}
 		prerequisite = { focus = AKU_hear }
+		mutually_exclusive = {focus = AKU_status_quo}
 		bypass = {}
 		completion_reward = {}
 	}
 #Crisis_tree_dem
 		focus = {
 			id = AKU_dem_path
-			icon = GFX
+			icon = GFX_goal_generic_democracy
 			cost = 3
 			ai_will_do = {
 				factor = 40
@@ -791,7 +794,7 @@ focus = {
 		}
 		focus = {
 			id = AKU_mouratt_unions
-			icon = GFX
+			icon = GFX_goal_generic_democracy
 			cost = 1
 			ai_will_do = {
 				factor = 40
@@ -812,7 +815,7 @@ focus = {
 		}
 		focus = {
 			id = AKU_mouratt_constitution
-			icon = GFX
+			icon = GFX_goal_generic_democracy
 			cost = 1
 			ai_will_do = {
 				factor = 10
@@ -833,7 +836,7 @@ focus = {
 		}	
 	focus = {
 			id = AKU_mouratt_implement_elections
-			icon = GFX
+			icon = GFX_goal_generic_democracy
 			cost = 1
 			ai_will_do = {
 				factor = 40
@@ -848,7 +851,7 @@ focus = {
 		}
 	focus = {
 			id = AKU_declare_republic
-			icon = GFX
+			icon = GFX_goal_generic_democracy
 			cost = 1
 			ai_will_do = {
 				factor = 40
@@ -875,7 +878,7 @@ focus = {
 #Crisis_tree_Com
 	focus = {
 				id = AKU_rev
-				icon = GFX
+				icon = GFX_goal_generic_rev
 				cost = 5
 				ai_will_do = {
 					factor = 0
@@ -896,7 +899,7 @@ focus = {
 			}
 	focus = {
 				id = AKU_rev_smuggle_equipment
-				icon = GFX
+				icon = GFX_goal_generic_rev
 				cost = 5
 				ai_will_do = {
 					factor = 1
@@ -911,7 +914,7 @@ focus = {
 			}
 	focus = {
 				id = AKU_rev_foreign_support
-				icon = GFX
+				icon = GFX_goal_generic_rev
 				cost = 6
 				ai_will_do = {
 					factor = 1
@@ -926,7 +929,7 @@ focus = {
 			}
 	focus = {
 				id = AKU_rev_civil_war
-				icon = GFX
+				icon = GFX_goal_generic_rev
 				cost = 12
 				ai_will_do = {
 					factor = 1
@@ -965,7 +968,7 @@ focus = {
 					}
 					}
 					hidden_effect = {
-						news event = AKU_news.1
+						news_event = AKU_news.1
 					}
 				}
 #MILITARY_TREE	
@@ -1328,13 +1331,115 @@ focus = {
 		}
 	}
 #Supremacy_tree
-	focus = {
+	focus = { #The Jabborist Plan
 		id = AKU_sup_start
+		icon = GFX
+		x = 10
+		y = -10
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		has_government = supremacism
+		NOT = {has_idea = aku_crisis}
+		NOT = {has_idea = AKU_bandaid_gov}
+		} 
+		allow_branch = {has_completed_focus = AKU_akurii_state}
+		
+		completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = industry_general
+		}
+		}
+	}
+	focus = { #Anti-Poverty Plan
+		id = AKU_sup_poverty
+		icon = GFX
+		x = -4
+		y = 1
+	relative_position_id = AKU_sup_start
+	prerequisite = { focus = AKU_sup_start }
+		
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		has_government = supremacism
+		NOT = {has_idea = aku_crisis}
+		NOT = {has_idea = AKU_bandaid_gov}
+		} 
+		
+		completion_reward = {
+				country_event = {
+					id = AKU.30
+					days = 90
+				}
+			add_political_power = 15
+			add_stability = .03
+		}
+	}
+	focus = { #Forced Employment
+		id = AKU_sup_forced_employment
 		icon = GFX
 		x = 0
 		y = 1
-	relative_position_id = AKU_akurii_state
-	prerequisite = { focus = AKU_akurii_state }
+		relative_position_id = AKU_sup_poverty
+		prerequisite = { focus = AKU_sup_poverty }
+		cost = 0
+		ai_will_do = {
+			factor = 1
+		}
+		allow_branch = {has_completed_focus = AKU_sup_poverty }
+		available = {
+		has_government = supremacism
+		NOT = {has_idea = aku_crisis}
+		NOT = {has_idea = AKU_bandaid_gov}
+		has_idea = AKU_poverty_war01
+		} 
+		
+		completion_reward = {
+			country_event = {
+				id = AKU.31
+				days = 90
+			}
+		}
+	}
+	focus = { #Criminalize The Homeless
+		id = AKU_sup_criminalize_homelessness
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = AKU_sup_forced_employment
+		prerequisite = { focus = AKU_sup_forced_employment}
+		
+		cost = 0
+		ai_will_do = {
+			factor = 1
+		}
+		allow_branch = {has_completed_focus = AKU_sup_poverty}
+		available = {
+		has_government = supremacism
+		NOT = {has_idea = aku_crisis}
+		NOT = {has_idea = AKU_bandaid_gov}
+		} 
+		
+		completion_reward = {
+		}
+	}
+	focus = { #Jabbor's New Infrastructure
+		id = AKU_sup_infra
+		icon = GFX
+		x = -2
+		y = 1
+	relative_position_id = AKU_sup_start
+	prerequisite = { focus = AKU_sup_start }
 		
 		cost = 0
 		ai_will_do = {
@@ -1346,12 +1451,130 @@ focus = {
 		NOT = {has_idea = aku_crisis}
 		NOT = {has_idea = AKU_bandaid_gov}
 		} 
-		#allow_branch = {has_completed_focus = AKU_akurii_state}
 		
-		bypass = {
-		has_completed_focus = AKU_akurii_state
-		}
 		completion_reward = {
+			85 = {
+							add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			86 = {
+							add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			87 = {
+							add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			92 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			94 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = { #Brown Bronze Big Expansion
+		id = AKU_sup_arms
+		icon = GFX
+		x = 0
+		y = 1
+	relative_position_id = AKU_sup_start
+	prerequisite = { focus = AKU_sup_start }
+		
+		cost = 0
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		has_government = supremacism
+		NOT = {has_idea = aku_crisis}
+		NOT = {has_idea = AKU_bandaid_gov}
+		} 
+		
+		completion_reward = {
+		87 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+			}
+		}
+	}
+	focus = { #Internal Security
+		id = AKU_sup_intel
+		icon = GFX
+		x = 2
+		y = 1
+	relative_position_id = AKU_sup_start
+	prerequisite = { focus = AKU_sup_start }
+		
+		cost = 0
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		has_government = supremacism
+		NOT = {has_idea = aku_crisis}
+		NOT = {has_idea = AKU_bandaid_gov}
+		} 
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = encryption_tech
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = decryption_tech
+			}
+		}
+	}
+	focus = { #Anti-Lizard Policy
+		id = AKU_lizard_policy
+		icon = GFX
+		x = 4
+		y = 1
+	relative_position_id = AKU_sup_start
+	prerequisite = { focus = AKU_sup_start }
+		
+		cost = 0
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		has_government = supremacism
+		NOT = {has_idea = aku_crisis}
+		NOT = {has_idea = AKU_bandaid_gov}
+		} 
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+			add_war_support = .05
 		}
 	}
 #Despot_tree
@@ -1440,6 +1663,311 @@ focus = {
 		}
 		completion_reward = {}
 	}
+#Corpo SYM Warlords
+	focus = { #Back the Refreshment Isles
+		id = AKU_back_ris
+		icon = GFX
+		x = -2
+		y = 1
+		relative_position_id = AKU_back_sym_warlord
+		prerequisite = {focus = AKU_back_sym_warlord}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = corporatism}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = RIS
+		}
+		bypass = {}
+		completion_reward = {}
+	}
+	focus = { #Work with the Tiveask Bandits
+		id = AKU_back_tbz
+		icon = GFX_goal_TBZ_hire_mercs
+		x = 0
+		y = 1
+		relative_position_id = AKU_back_sym_warlord
+		prerequisite = {focus = AKU_back_sym_warlord}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = corporatism}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = TBZ
+		}
+		bypass = {}
+		completion_reward = {}
+	}
+	focus = { #Deals with the Termites
+		id = AKU_back_ter
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = AKU_profit_off_sym
+		prerequisite = {focus = AKU_profit_off_sym}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = corporatism}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = TER
+		}
+		bypass = {}
+		completion_reward = {}
+	}
+#Supremacy SYM Warlords
+	focus = { #Back Mormorare's Regime
+		id = AKU_back_csr
+		icon = GFX
+		x = -2
+		y = 1
+		relative_position_id = AKU_back_sym_warlord
+		prerequisite = {focus = AKU_back_sym_warlord}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = supremacism}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = CSR
+		}
+		bypass = {}
+		completion_reward = {}
+	}
+	focus = { #Protect the Resse Republic
+		id = AKU_protect_eth
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = AKU_back_sym_warlord
+		prerequisite = {focus = AKU_back_sym_warlord}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = supremacism}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = ETH
+		}
+		bypass = {}
+		completion_reward = {}
+	}
+	focus = { #Back Kakrikea Hive
+		id = AKU_back_kak
+		icon = GFX
+		x = 2
+		y = 1
+		relative_position_id = AKU_back_sym_warlord
+		prerequisite = {focus = AKU_back_sym_warlord}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = supremacism}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = KAK
+		}
+		bypass = {}
+		completion_reward = {}
+	}
+	focus = { #Fund the Tiveask Bandits 
+		id = AKU_sup_fund_tbz
+		icon = GFX_goal_TBZ_hire_mercs
+		x = 1
+		y = 2
+		relative_position_id = AKU_back_sym_warlord
+		prerequisite = {focus = AKU_back_sym_warlord}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = supremacism}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = TBZ
+		}
+		bypass = {}
+		completion_reward = {}
+	}
+	focus = { #Back the Federation's A.C.S
+		id = AKU_sup_back_acs
+		icon = GFX
+		x = -1
+		y = 2
+		relative_position_id = AKU_back_sym_warlord
+		prerequisite = {focus = AKU_back_sym_warlord}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = supremacism}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = ACS
+		}
+		bypass = {}
+		completion_reward = {}
+	}
+#Democracy SYM Warlords
+	focus = { #Back the Federation's A.C.S
+		id = AKU_dem_back_acs
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = AKU_back_sym_warlord
+		prerequisite = {focus = AKU_back_sym_warlord}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = democracy}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = ACS
+		}
+		bypass = {}
+		completion_reward = {}
+	}
+	focus = { #Back Mavildea Hive
+		id = AKU_back_mav
+		icon = GFX
+		x = -2
+		y = 1
+		relative_position_id = AKU_back_sym_warlord
+		prerequisite = {focus = AKU_back_sym_warlord}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = democracy}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = MAV
+		}
+		bypass = {}
+		completion_reward = {}
+	}
+	focus = { #Aid the Provisional Government
+		id = AKU_back_tpg
+		icon = GFX
+		x = 2
+		y = 1
+		relative_position_id = AKU_back_sym_warlord
+		prerequisite = {focus = AKU_back_sym_warlord}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = democracy}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = TPG
+		}
+		bypass = {}
+		completion_reward = {}
+	}
+	focus = { #Aid the miners republic
+		id = AKU_back_lav
+		icon = GFX
+		x = -1
+		y = 2
+		relative_position_id = AKU_back_sym_warlord
+		prerequisite = {focus = AKU_back_sym_warlord}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = democracy}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = LAV
+		}
+		bypass = {}
+		completion_reward = {}
+	}
+#Communist Sym Warlords
+	focus = { #Back the Seda Communists
+		id = AKU_back_scm
+		icon = GFX
+		x = -2
+		y = 1
+		relative_position_id = AKU_back_sym_warlord
+		prerequisite = {focus = AKU_back_sym_warlord}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = revolutionarism}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = SCM
+		}
+		bypass = {}
+		completion_reward = {}
+	}
+	focus = { #Back the United Hives of Lavido
+		id = AKU_back_uhl
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = AKU_back_sym_warlord
+		prerequisite = {focus = AKU_back_sym_warlord}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = revolutionarism}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = UHL
+		}
+		bypass = {}
+		completion_reward = {}
+	}
+#Amrus Ben's SYM Warlords#
+	focus = { #Fund the Tiveask Bandits 
+		id = AKU_fund_tbz
+		icon = GFX_goal_TBZ_hire_mercs
+		x = 0
+		y = 1
+		relative_position_id = AKU_back_sym_warlord
+		prerequisite = {focus = AKU_back_sym_warlord}
+		cost = 3
+		ai_will_do = {
+			factor = 0
+		}
+		allow_branch = {has_government = despotism}
+		available = {
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			country_exists = TBZ
+		}
+		bypass = {}
+		completion_reward = {}
+	}
 #FOREIGN LIZARD
 	focus = {
 		id = AKU_lizard
@@ -1481,7 +2009,9 @@ focus = {
 		
 		bypass = {
 		}
-		completion_reward = {}
+		completion_reward = {
+		 add_war_support = 0.10
+		}
 	}
 	focus = {
 		id = AKU_solenrenc
@@ -1530,7 +2060,14 @@ focus = {
 			has_war_with = REO
 			is_in_faction = yes
 		}
-		completion_reward = {}
+		completion_reward = {
+			create_faction = alliance_against_imperialsim
+			BOR = {
+				country_event = {
+					id = BOR.20
+				}
+			}
+		}
 	}
 	focus = {
 		id = AKU_strait_or_war
@@ -1588,6 +2125,28 @@ focus = {
 		completion_reward = {}
 	}
 	focus = {
+		id = AKU_aid_solenrenc
+				icon = GFX
+		x = 3
+		y = 1
+		relative_position_id = AKU_collaboration
+		prerequisite = { focus = AKU_collaboration }
+		cost = 3
+		ai_will_do = {factor = 1}
+				
+		
+		available = {
+			has_government = despotism
+			NOT = {has_idea = aku_crisis}
+			NOT = {has_idea = AKU_bandaid_gov}
+			NOT = {has_war_with = REO}
+			country_exists = SLR
+		}
+		
+		bypass = {}
+		completion_reward = {}
+		}
+	focus = {
 		id = AKU_rheol_trade
 				icon = GFX
 		x = 1
@@ -1632,7 +2191,14 @@ focus = {
 		bypass = {
 		has_war_with = REO
 		}
-		completion_reward = {}
+		completion_reward = {
+			REO = {
+				country_event = {
+					id = REO.5
+					days = 10
+				}
+			}
+		}
 	}
 #FOREIGN MISC
 		focus = {

@@ -250,7 +250,93 @@ country_event ={ #Rheol declines 2
 		create_wargoal = { type = annex_everything target = REO }
 	}
 }
-
+#AMRUS BEN STRAIT
+country_event = { #Rheol accepts our alliance
+	id = AKU.14
+	title AKU.14.t
+	desc = AKU.14.d
+	#picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	option { #Pramatism is a funny thing
+		name = AKU.14.a
+		AKU = { 
+			transfer_state = 28 
+		}
+		221 = {remove_core_of = AKU}
+		131 = {remove_core_of = AKU}
+		132 = {remove_core_of = AKU}
+		133 = {remove_core_of = AKU}
+		134 = {remove_core_of = AKU}
+		REO = {
+			add_to_faction = AKU
+		}
+	}
+}
+country_event = { #Rheol rejects our offer
+	id = AKU.15
+	title AKU.15.t
+	desc = AKU.15.d
+	#picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	option { #How unfortunate
+		name = AKU.15.a
+		add_political_power = -10
+		create_wargoal = { type = annex_everything target = REO }
+	}
+}
+country_event = { #Borca Accepts Alliance
+	id = AKU.20
+	title = AKU.20.t
+	desc = AKU.20.d
+	#picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	option { #Those Boars will come in handy
+		name = AKU.20.a
+		add_political_power = 10
+		add_to_faction = BOR
+	}
+}
+country_event = { #Borca Rejects Alliance
+	id = AKU.21
+	title = AKU.21.t
+	desc = AKU.21.d
+	#picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	option { #bummer, we really thought they would help
+		name = AKU.21.a
+		add_political_power = -10
+	}
+}
+country_event = {
+	id = AKU.30
+	title = AKU.30.t
+	desc = AKU.30.d
+	#picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	option { #They will accept our help whether they like it or not
+		name = AKU.30.a
+		add_ideas = AKU_poverty_war01
+		add_political_power = -25
+	}
+}
+country_event = {
+	id = AKU.31
+	title = AKU.31.t
+	desc = AKU.31.d
+	#picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	option { #They will accept our help whether they like it or not
+		name = AKU.31.a
+		add_ideas = AKU_poverty_war02
+		add_political_power = -25
+	}
+}
 #AKU_Opiods
 	country_event ={
 		id = AKU.69
